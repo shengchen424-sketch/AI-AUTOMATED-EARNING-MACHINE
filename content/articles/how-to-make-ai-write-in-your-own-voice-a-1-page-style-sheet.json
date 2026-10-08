@@ -1,0 +1,256 @@
+{
+  "title": "How to Make AI Write in Your Own Voice: A 1-Page Style Sheet",
+  "meta_description": "How to make AI write in your own voice: turn 3–5 of your best samples into a one-page style sheet for ChatGPT, Claude or Gemini, and cut the AI tells.",
+  "quick_answer": "To make AI write in your own voice, give it a one-page style sheet of checkable rules, not adjectives. Build it from 3 to 5 of your best samples: sentence length, words you use and never use, how you open and close, and one before-and-after rewrite. Save it in ChatGPT custom instructions, a Claude Project or a Gemini Gem, test it on past work, then edit every draft yourself.",
+  "key_takeaways": [
+    "Replace vague words like 'punchy' or 'friendly' with rules you can check, such as 'most sentences under 18 words' or 'no exclamation marks'.",
+    "Build a one-page voice style sheet from 3 to 5 of your best samples. Cover your rhythm, the words you use and never use, your structure habits, your stance and one before-and-after rewrite.",
+    "Keep one master copy and load it into ChatGPT custom instructions or a Project, a Claude Project or a Gemini Gem. If clients have different house styles, use one Project or Gem per client.",
+    "Test the sheet by having the AI redraft a piece you've already published. Tighten every rule it breaks.",
+    "Edit every draft hard. Strip out the AI tells, add your own examples and opinions, and check every fact. AI can copy your style, but it can't copy your experience.",
+    "Check client contracts and each tool's data settings before any client material goes into an AI tool."
+  ],
+  "who_this_is_for": "This guide is for freelance writers, marketers and consultants who use ChatGPT, Claude or Gemini for first drafts but spend too long rewriting output that sounds nothing like them.",
+  "intro": "You've probably tried it already. You paste a brief into ChatGPT, add 'write this in my voice', and get back smooth, forgettable copy that sounds like nobody in particular. A cleverer prompt won't fix that, but a one-page voice style sheet will. It's a short document built from your own best work, with rules specific enough for an AI to follow and for you to check. This guide shows you how to build one from 3 to 5 samples and load it into ChatGPT, Claude or Gemini. Then you'll test it against work you've already finished and learn an editing pass that strips out the phrases that give AI drafts away. It's also honest about the limits. You'll still need to edit heavily, and you'll need to check your client contracts before any of this touches paid work.",
+  "steps": [
+    {
+      "name": "Choose 3 to 5 of your best samples",
+      "text": "Pick recent pieces you're proud of that are mostly your own words, not drafts a client heavily rewrote. If you write in several formats, include a mix, such as a blog post, a newsletter and a sales email. Use published or personal work. Leave out ghostwritten or confidential client material unless you have permission to reuse it."
+    },
+    {
+      "name": "Measure your sentence and paragraph rhythm",
+      "text": "Paste 15 to 20 sentences from your samples into any word counter. Note your usual range, your shortest sentence and your longest. Then note how long your paragraphs run and whether you use fragments, questions or one-line paragraphs. Write the results as rules, for example: 'Most sentences 10 to 18 words. At least one sentence under six words per section.'"
+    },
+    {
+      "name": "List the words you use and the words you never use",
+      "text": "Note the phrases you repeat, how you address the reader, whether you use contractions, whether you spell the UK or US way, and how you handle jargon. Then write a 'never use' list of words that make you wince, including common AI tells such as 'delve', 'leverage' and 'seamless'. Next to each banned word, add the plain word you'd use instead, so the model knows what to aim for."
+    },
+    {
+      "name": "Map your structure habits",
+      "text": "Note how your pieces open (a story, a problem, a blunt claim), how often you use subheads and lists, where your examples go and how you finish. Turn each habit into an instruction, for example: 'Open with a specific problem, never a definition. End with one next step, not a summary.'"
+    },
+    {
+      "name": "Write a before-and-after example",
+      "text": "Ask an AI to write a paragraph on a topic you cover, with no style guidance. Rewrite that paragraph the way you would, then put both versions on your sheet, labelled 'Default' and 'My version'. Seeing the two side by side shows the model what to avoid and what to aim for."
+    },
+    {
+      "name": "Compress it to one page",
+      "text": "Put everything on one page with your most important rules at the top, and cut any rule that wouldn't change the output. Then write a short version of a paragraph or two for instruction fields with character limits. Check each tool's current limit, because limits change."
+    },
+    {
+      "name": "Load the sheet into your AI tool",
+      "text": "Paste the sheet into ChatGPT custom instructions or a ChatGPT Project, a Claude Project's instructions, or a Gemini Gem's instructions. Where the tool allows it, upload your samples as files too. Give each Project or Gem a clear name, such as 'My voice – blog posts'. Set up one per client if their house styles differ."
+    },
+    {
+      "name": "Test it against a piece you've already written",
+      "text": "Give the tool the original brief for a piece you've already published. Compare its draft with your real version side by side. Wherever the draft drifts from how you write, add or tighten a rule, then test again. A few rounds will show whether the sheet is working."
+    },
+    {
+      "name": "Run the de-AI edit on every draft",
+      "text": "Read each draft aloud and use your editor's find function to search for the phrases on your 'never use' list. Replace filler sentences with specific examples, checked facts and your own opinions. Check every number, name and claim against a source before anything goes to a client."
+    }
+  ],
+  "comparison": {
+    "caption": "Where to store your voice style sheet in ChatGPT, Claude and Gemini. Features, menu names and plan availability change often, so confirm details on each vendor's help pages.",
+    "headers": [
+      "Option",
+      "Where to set it up",
+      "What it applies to",
+      "Best for",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "ChatGPT custom instructions",
+        "Settings, then Personalization (labels change over time)",
+        "Every new chat on your account",
+        "Writers who mainly use ChatGPT and write in one voice",
+        "Character limits. The rules also apply to your research and admin chats"
+      ],
+      [
+        "ChatGPT Projects",
+        "Create a project, then add project instructions and files",
+        "Chats inside that project",
+        "Keeping clients or content types separate",
+        "Availability and file limits vary by plan"
+      ],
+      [
+        "Claude Projects",
+        "Create a Project, then add project instructions and knowledge files",
+        "Chats inside that Project",
+        "A full style sheet plus sample files, with one Project per client",
+        "Plan limits apply. Start a fresh chat for each piece to reduce drift"
+      ],
+      [
+        "Gemini Gems",
+        "The Gems section of the Gemini app, then create a new Gem",
+        "Chats with that Gem",
+        "People who already work in Google's ecosystem and draft in Gemini",
+        "File uploads and sharing depend on your plan and, for Workspace accounts, on admin settings"
+      ],
+      [
+        "Pasting the sheet at the start of a chat",
+        "The first message of any new chat, in any tool",
+        "That conversation only",
+        "Free plans, testing a new sheet, or one-off pieces",
+        "Easy to forget, has to be pasted every time, and tends to fade in long chats"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why 'write like me' prompts don't work",
+      "paragraphs": [
+        "'Write like me' prompts fail because the AI has no description of your voice. So it falls back on its default: smooth, cautious, slightly formal prose that could belong to anyone.",
+        "Adjectives don't fix this. 'Conversational', 'punchy' and 'professional' mean different things to different writers, and a model reads them in the most average way. Ten freelancers told to write conversationally will produce ten different pieces. An AI given the same word tends to produce much the same piece every time.",
+        "Pasting in one sample helps a little, but models tend to copy surface details, such as the topic or a pet phrase, and miss the habits underneath. A short document of explicit, checkable rules backed by real examples works better. That document is the style sheet. It turns 'sound like me' into instructions like 'most sentences 10 to 18 words' or 'never open with a question'. A model can follow rules like these, and you can check whether it did."
+      ],
+      "bullets": [
+        "Vague: 'Make it punchy.' Checkable: 'Keep most sentences under 18 words, with at least one sentence of five words or fewer in each section.'",
+        "Vague: 'Be friendly.' Checkable: 'Address the reader as you, use contractions, no exclamation marks.'",
+        "Vague: 'Sound professional.' Checkable: 'No slang or emoji. Back every claim with an example or a source.'"
+      ]
+    },
+    {
+      "heading": "What goes on a one-page voice style sheet",
+      "paragraphs": [
+        "A voice style sheet is a single page that describes how you write in six parts: rhythm, vocabulary, structure, stance, hard rules and one before-and-after example.",
+        "Keep it to one page. The instruction fields in ChatGPT, Claude and Gemini work best with focused guidance, and some have character limits. A short sheet is also one you'll actually keep up to date. If a rule wouldn't change the output, cut it.",
+        "Write each rule as an instruction with a number or a yes/no test, and pair every ban with what to do instead. 'Don't be wordy' gives the model nothing to aim for. 'Cut any sentence that doesn't add a fact, example or opinion' does.",
+        "A quick way to get a first version is to paste your samples into an AI and ask it to describe your style as rules. Treat the result as a rough draft only. Models often flatter, generalise or miss quirks, so correct it against your own samples.",
+        "The before-and-after example usually does the most work. Before: 'In today's fast-paced digital landscape, it's more important than ever for small businesses to leverage email marketing to foster meaningful connections.' After: 'Most small businesses don't need a cleverer newsletter. They need one that actually goes out every month.' That gap teaches the model more than any list of adjectives could.",
+        "Copy the template below and replace each example with your own."
+      ],
+      "bullets": [
+        "Rhythm: 'Most sentences 10 to 18 words. One very short sentence per paragraph. Paragraphs of 1 to 3 sentences.'",
+        "Words I use: 'you', contractions, plain verbs like 'use', 'fix' and 'send'. UK or US spelling (pick one).",
+        "Words I never use, with swaps: 'leverage' becomes 'use', 'utilise' becomes 'use', 'seamless' becomes a description of what actually works. Also banned: delve, unlock, elevate, game-changer, 'in today's world'.",
+        "Structure: 'Open with a specific problem or scene, never a definition. Subheads every 200 to 300 words. End with one concrete next step, not a summary.'",
+        "Stance: 'Opinionated but fair. Use I when sharing experience. Name the trade-offs.'",
+        "Hard rules: 'Never invent statistics, quotes, client names or results. Write [CHECK] wherever a fact, number or example is needed.'",
+        "Before-and-after: one generic AI paragraph and your rewrite, labelled 'Default' and 'My version'."
+      ]
+    },
+    {
+      "heading": "How to make AI write in your own voice in ChatGPT, Claude and Gemini",
+      "paragraphs": [
+        "To make AI write in your own voice consistently, save your style sheet inside the tool you use. That way it applies automatically and you don't have to paste it into every chat.",
+        "In ChatGPT, custom instructions are under Settings, then Personalization, though the menu labels change from time to time. Paste the short version of your sheet into the field that describes how ChatGPT should respond. Custom instructions apply to every new chat. If you also use ChatGPT for research or admin, a Project with its own instructions and sample files is usually a better home for the sheet. Check what your plan includes and its current limits.",
+        "In Claude, create a Project for your writing work. Paste the sheet into the project instructions and upload your samples as project files. Every chat you start inside that Project uses them. Claude has also offered a styles feature that builds a custom style from samples you upload. If you have access to it, it's worth testing, but keep your written sheet as the master copy.",
+        "In Gemini, create a Gem (a saved, customised version of Gemini) and paste the sheet into its instructions. Add sample files if your plan allows uploads to Gems, then open that Gem whenever you draft.",
+        "Whichever tool you use, start a fresh chat for each piece. In long conversations, the instructions you gave at the start tend to carry less weight, and the default voice creeps back.",
+        "If you write for several clients, keep one base sheet for your own voice. Then add a short note for each client covering their banned words, spelling, audience and formatting. In practice, that means one Project or Gem per client."
+      ],
+      "bullets": [
+        "Prompt to draft your sheet from samples: 'Describe this writer's style as specific, checkable rules: sentence length range, repeated words, avoided words, how pieces open and close, and how examples are used. Quote the text as evidence for each rule. No adjectives without a rule attached.'",
+        "Prompt to start a draft: 'Using my style sheet, write a first draft of [piece] for [audience]. Put [CHECK] wherever you'd need a fact, number or example from me.'",
+        "Prompt to check a draft: 'Compare this draft with my style sheet and list every sentence that breaks a rule, along with the rule it breaks.'"
+      ]
+    },
+    {
+      "heading": "The de-AI editing pass: phrases and patterns to strip out",
+      "paragraphs": [
+        "The de-AI pass is a separate edit where you look for the words and patterns that make text sound machine-written, then cut them or rewrite them in your own words.",
+        "Do this pass as its own read-through, separate from fact-checking. Read the draft aloud, because the tells are easier to hear than to see. Then use your editor's find function (Ctrl+F or Cmd+F) to search for the phrases below.",
+        "Swapping a banned word for a synonym doesn't fix anything. Changing 'leverage' to 'harness' still leaves a filler sentence. The better move is usually to delete the sentence or replace it with something specific: a checked number, an example from your own work or an opinion you actually hold.",
+        "Look for patterns in how the text is built, too. Common tells include paragraphs that are all the same length, lists that always come in threes and 'It's not just X, it's Y' sentences. Others are openings that ask a question and then answer it, heavy use of dashes, and a final paragraph that repeats everything above it.",
+        "Whenever you delete the same tell twice, add it to the 'never use' list on your sheet. Over time the sheet stops these problems before they reach the draft, and this pass gets shorter."
+      ],
+      "bullets": [
+        "Warm-up openers: 'In today's fast-paced world', 'In the ever-evolving landscape of', 'Let's dive in'.",
+        "Inflated verbs: delve, leverage, unlock, elevate, empower, harness, foster, and 'navigate' used figuratively.",
+        "Empty adjectives: seamless, robust, comprehensive, cutting-edge, game-changing, pivotal.",
+        "Filler signposts: 'It's important to note that', 'It's worth mentioning', 'When it comes to'.",
+        "Stacked hedges: 'can potentially help', 'may often'.",
+        "Formula endings: 'In conclusion', 'Ultimately', 'By following these steps, you'll be well on your way'."
+      ]
+    },
+    {
+      "heading": "Why heavy editing is still needed",
+      "paragraphs": [
+        "Even with a good style sheet, AI gives you a draft that sounds closer to you, not a finished piece. Plan time to edit every draft substantially.",
+        "Style is the easy part to copy. A model can't supply the substance clients pay you for: last month's client story, the early mistake that taught you something, or the opinion your competitors don't share. Without those, a draft that sounds like you is still generic underneath.",
+        "AI tools also get facts wrong. They can invent statistics, misattribute quotes and describe product features that don't exist, all in confident prose. Before anything goes to a client, check every number, name, date and claim against a primary source.",
+        "A realistic split is to give AI the slow, routine parts and keep the thinking, the examples and the final pass for yourself. How much time this saves varies by writer and project. Track it over several pieces before you change your rates or promise faster turnaround."
+      ],
+      "bullets": [
+        "Jobs to give AI: outlines, first drafts of routine sections, headline and subject-line options, and turning your rough notes into a structured draft.",
+        "Jobs to keep for yourself: the angle and argument, stories and examples, opinions, fact-checking and the final read-through."
+      ]
+    },
+    {
+      "heading": "Check client contracts before using AI on client work",
+      "paragraphs": [
+        "Before you use AI on any client project, read your contract and ask the client directly, because contracts can restrict AI use in ways that aren't obvious.",
+        "Look for clauses on AI or automated tools, confidentiality and non-disclosure, and who owns the intellectual property. Also check any originality warranties, which are promises that the work is your own original creation. Some clients ban AI outright, some allow it if you disclose it, and many contracts say nothing. Silence isn't the same as permission.",
+        "Confidentiality is the easiest part to overlook. Depending on the tool's data settings and your contract's wording, pasting a client's unreleased product details, customer data or internal documents into an AI tool could break your NDA. Check each tool's data controls, including whether your conversations can be used to train models, and use opt-outs or business plans where you need them.",
+        "When in doubt, get agreement in writing. A short email works: 'Are you comfortable with me using AI tools for outlines and first drafts, with all final writing and fact-checking done by me?' This is general information, not legal advice. If a contract is unclear or the stakes are high, talk to a lawyer who works with freelancers."
+      ],
+      "bullets": [
+        "Search the contract for 'AI', 'artificial intelligence', 'automated', 'machine learning' and 'third-party tools'.",
+        "Read the confidentiality or NDA section and note what it counts as confidential.",
+        "Check what you've promised about originality and intellectual property.",
+        "Check the client's brief or style guide for an AI policy.",
+        "Keep client material out of your style sheet samples unless it's published and you have the right to reuse it."
+      ]
+    },
+    {
+      "heading": "Keep your style sheet current",
+      "paragraphs": [
+        "Treat your style sheet as a living document. Review it every few months, and any time you catch yourself making the same edit twice.",
+        "Your voice changes, your niche shifts, and AI companies update their models, which can change how a tool responds to the same instructions. After a major model update, re-run your test brief and check whether the output still sounds like you.",
+        "Keep the master copy somewhere with version history, such as a Google Doc, a Notion page or a plain text file in a synced folder, and paste from there into each tool. That way ChatGPT, Claude and Gemini all work from the same rules, and you don't end up with three versions that slowly drift apart."
+      ],
+      "bullets": [
+        "Add a phrase to the 'never use' list the second time you delete it.",
+        "Swap in a newer sample when you publish something you're proud of.",
+        "Add a dated changelog line at the bottom of the sheet.",
+        "Keep each client's rules separate from your base voice."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Grammarly",
+      "best_for": "A final mechanical check after your de-AI pass. It catches typos, grammar slips and unclear sentences, and its tone and rewrite suggestions can flag clunky lines. Accept them selectively so your voice stays intact. Check current features and plans on Grammarly's site.",
+      "not_for": "Writers who accept every suggestion by default, because blanket rewrites can pull your text back toward generic phrasing. Before you run confidential client work through it, check your client contract and Grammarly's data settings."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping your master style sheet, sample library, client add-ons and changelog together in one place, with page history, ready to copy into ChatGPT, Claude or Gemini.",
+      "not_for": "Freelancers who already keep everything in Google Docs or plain text files. One document works just as well, and you don't need a new workspace for a single page."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT learn my writing style?",
+      "answer": "Not in the sense of permanently training on your work. Instead, it reads the instructions and samples you give it through custom instructions, Projects or uploaded files. Memory features can also pick up some preferences, but a written style sheet is more predictable and easier to correct."
+    },
+    {
+      "question": "How many writing samples do I need for AI to copy my voice?",
+      "answer": "Three to five strong samples are enough to build a useful style sheet. Clear rules matter more than extra samples, because the model needs to know which of your habits matter. Choose recent pieces that are mostly your own words and that represent the work you want more of."
+    },
+    {
+      "question": "Why does AI keep ignoring my style instructions?",
+      "answer": "Usually the instructions are vague or too long, or the prompt itself contradicts them. Rewrite your rules so they can be checked, put the most important ones first, and start a new chat for each piece, because long conversations tend to slide back to the default voice. You can also ask the AI to check its own draft against your sheet and list every rule it broke."
+    },
+    {
+      "question": "Is it okay to use AI for client writing?",
+      "answer": "It depends on your contract and your client. Look for clauses on AI tools, confidentiality and originality, and if the contract doesn't mention AI, ask the client in writing. This is general information, not legal advice, so talk to a lawyer about unclear or high-stakes agreements."
+    },
+    {
+      "question": "Should I tell clients I use AI?",
+      "answer": "If your contract requires disclosure, yes. Even when it doesn't, a short note explaining how you use AI, for example for outlines and first drafts with all final writing and fact-checking done by you, helps avoid misunderstandings later."
+    },
+    {
+      "question": "Will a style sheet stop my writing from being flagged by AI detectors?",
+      "answer": "Not reliably, and that shouldn't be the goal. AI detectors can flag human writing as AI and miss AI writing, so treat their results as rough signals at best. Aim for writing that's genuinely yours instead, with your own examples, opinions and edits on top of any AI draft."
+    }
+  ],
+  "conclusion": "To get AI to sound like you, replace vague requests with a written description of how you write, made of rules you can check. Build a one-page sheet from 3 to 5 of your best samples and keep one master copy. Load it into ChatGPT, Claude or Gemini, and test it against work you've already published until the drafts stop drifting. Then edit every draft hard: cut the AI tells, add the examples and opinions only you have, and check every fact. Do that and stay within your client contracts, and AI gives you a faster first draft without replacing your voice.",
+  "keyword": "how to make ai write in your own voice",
+  "niche": "AI writing and content tools for freelancers",
+  "version": 2,
+  "slug": "how-to-make-ai-write-in-your-own-voice-a-1-page-style-sheet",
+  "published": "2026-10-08T17:03:35+00:00"
+}

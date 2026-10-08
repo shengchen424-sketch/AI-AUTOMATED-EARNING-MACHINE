@@ -1,0 +1,22 @@
+{
+  "term": "Overdraft",
+  "section": "Banking & Money",
+  "short_definition": "An overdraft happens when you spend more than the available balance in your bank account and the bank covers the shortfall, usually charging fees or interest on the negative balance.",
+  "explanation": [
+    "When a payment exceeds your balance, your bank may pay it and push your account below zero, decline it, or pull money from a linked savings account. This linked option is often called overdraft protection. Some banks offer an arranged overdraft with an agreed limit and interest, while others charge a flat fee for each item they cover. Terms, fees and consumer protections vary widely by country and by bank.",
+    "Overdrafts matter because small shortfalls can become expensive. A flat fee on a minor purchase can be far larger than the amount you were short. Repeated or prolonged overdrafts can lead a bank to close your account, and in some countries they can appear on your credit file.",
+    "The trade-off is convenience against cost: an overdraft can stop an important payment from bouncing, but it is usually a pricey form of short-term borrowing. Check your bank's fee schedule and your overdraft opt-in or opt-out settings. Turning on low-balance alerts in your banking app is also worthwhile."
+  ],
+  "example": "Illustrative example: You have $40 in checking and buy a $55 meal. If your bank charges a flat $30 overdraft fee (an illustrative figure; check your own bank's fees), covering a $15 shortfall costs you $30. Your balance becomes −$45 until you deposit more money.",
+  "common_mistake": "Treating an overdraft limit as part of your own money, then staying in the negative for months and paying ongoing fees or interest without noticing.",
+  "related_terms": [
+    "Emergency Fund",
+    "APR vs APY",
+    "Cash Flow",
+    "Credit Score",
+    "Sinking Fund"
+  ],
+  "title": "Overdraft",
+  "slug": "overdraft",
+  "published": "2026-10-08T17:13:57+00:00"
+}

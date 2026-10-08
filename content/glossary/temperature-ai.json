@@ -1,0 +1,22 @@
+{
+  "term": "Temperature (AI)",
+  "section": "AI & Tech",
+  "short_definition": "Temperature is a setting in many AI text models that controls randomness: lower values make outputs more focused and repeatable, while higher values make them more varied and creative but less predictable.",
+  "explanation": [
+    "A language model works by assigning probabilities to possible next tokens. Temperature reshapes those probabilities: low values push the model toward the most likely tokens, while high values give less likely tokens more of a chance. Temperature is usually adjusted through an API or developer playground rather than consumer chat apps. Allowed ranges differ by provider, and some models restrict or fix the setting, so check the documentation.",
+    "Temperature matters because different tasks need different behaviour. Low settings suit data extraction, classification, code and factual summaries, where consistency matters. Higher settings suit brainstorming, naming and fiction, where variety is the point. A related setting called top-p also controls how wide a range of words the model considers.",
+    "A low temperature makes answers more consistent, not more accurate, so the model can repeat the same wrong answer every time. Even very low settings may not produce perfectly identical outputs. High temperatures increase the risk of rambling, incoherent or made-up content."
+  ],
+  "example": "Illustrative example: You ask a model for a tagline for a budgeting app five times. At a low temperature (say 0.2), you might get nearly the same line every time, such as 'Know where every dollar goes.' At a higher temperature (say 1.0), you might get five clearly different options. Use the low setting for pulling invoice totals into a spreadsheet and the higher one for brainstorming taglines.",
+  "common_mistake": "Believing a low temperature makes the AI factually correct, when it only makes answers more consistent, which can mean consistently wrong.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Token (AI)",
+    "AI Hallucination",
+    "Prompt Engineering",
+    "API (Application Programming Interface)"
+  ],
+  "title": "Temperature (AI)",
+  "slug": "temperature-ai",
+  "published": "2026-10-08T17:13:57+00:00"
+}

@@ -1,0 +1,261 @@
+{
+  "title": "Total Stock Market Index Fund vs S&P 500: Which Fits You?",
+  "meta_description": "Total stock market index fund vs S&P 500: what each holds, why they move together, when the gap matters, and an 8-step way to choose using fact sheets.",
+  "quick_answer": "An S&P 500 index fund holds about 500 large US companies, while a total stock market index fund holds those companies plus thousands of mid-size and small ones. Both are weighted by company size, so the largest firms dominate each and their returns have historically tracked closely. The choice matters mainly if you want small-company exposure, are combining funds or your options differ in cost. Neither holds international stocks.",
+  "key_takeaways": [
+    "An S&P 500 fund owns about 500 large US companies. A total stock market fund owns those same companies plus thousands of mid-size and small ones.",
+    "Both are weighted by market value, so the same large companies dominate each one. That's why their returns have historically been very similar.",
+    "The choice matters most if you want small-company exposure, you're combining funds, or the funds open to you charge noticeably different fees.",
+    "Owning both mostly means owning the same stocks twice. It tilts you toward large companies but adds little diversification.",
+    "Compare five figures on each fund's fact sheet: the index it tracks, number of holdings, top-10 weight, expense ratio and fund type.",
+    "Neither fund holds international stocks or bonds, and both can fall sharply in a downturn."
+  ],
+  "who_this_is_for": "This guide is for investors picking a core US stock index fund for a 401(k), IRA, taxable brokerage account or local equivalent who want to understand how total market and S&P 500 funds really differ before they decide.",
+  "intro": "If you're building a simple, low-cost portfolio, you'll soon run into two of the most popular kinds of index fund: S&P 500 funds and total stock market funds. They sound very different, since one holds about 500 companies and the other holds thousands. Yet their results have historically been very similar. This guide explains what each one holds, why they move together and when the difference actually matters. It also shows you how to compare real funds yourself using their fact sheets. It's general education to help you decide. It doesn't recommend buying, selling or holding any particular fund.",
+  "steps": [
+    {
+      "name": "List every account and its fund menu",
+      "text": "Write down each account you invest through, such as a 401(k), 403(b), IRA, taxable brokerage account or local equivalent. For each one, note which S&P 500, total market, extended market or small-cap funds it actually offers. In a workplace plan portal, the menu is usually in a section called something like 'Investment options' or 'Fund lineup'. If the menu is fixed, that alone may decide the question."
+    },
+    {
+      "name": "Map what you already own",
+      "text": "List your current funds and roughly what percentage of your total portfolio each one makes up, across all accounts. Flag any small-cap, mid-cap or 'extended market' funds, because they already cover the companies an S&P 500 fund leaves out. Count target-date funds too. They usually hold broad US stock funds inside them."
+    },
+    {
+      "name": "Download current fact sheets for each candidate",
+      "text": "Get the latest fact sheet for each fund you're considering. You'll find it on the provider's fund page, often under a 'Documents' or 'Literature' link, or on your broker's research tab. Use fact sheets from the same month or quarter so the figures are comparable. Keep the prospectus link handy for full fee and rule details."
+    },
+    {
+      "name": "Compare five figures side by side",
+      "text": "For each fund, write down five things: the name of the index it tracks, the number of holdings, the combined weight of the top 10 holdings, the expense ratio and the fund type (ETF or mutual fund). If the top-10 weights are close, the two funds are more alike than their holding counts suggest."
+    },
+    {
+      "name": "Check overlap before adding a second fund",
+      "text": "Almost every S&P 500 company is also in a total market fund, so holding both mostly repeats the same stocks. Some brokers and research sites offer fund-overlap or portfolio 'X-ray' tools. Enter both tickers to see the holdings they share and your combined top positions."
+    },
+    {
+      "name": "Choose your structure",
+      "text": "There are three common setups. You can hold a single total market fund that covers the whole US market. You can hold a single S&P 500 fund if you're comfortable owning mostly large companies. Or you can pair an S&P 500 fund with an extended market or small-cap fund. The decision guide below explains when each one tends to fit."
+    },
+    {
+      "name": "Check the tax and cost of switching",
+      "text": "In a taxable account, moving from one fund to the other usually means selling, which can create a taxable capital gain. If you're selling at a loss and buying a similar fund, US investors should also ask about the wash-sale rule. Trading costs, account fees and minimums can apply too. Tax rules differ by country, so check with a tax professional before you act."
+    },
+    {
+      "name": "Write a one-page decision record and review it yearly",
+      "text": "Write down the date, the fund you chose and the account it's in. Add your reason, such as 'whole US market in one fund' or 'only broad option in my 401(k)', and the expense ratio at the time. Finally, note what would make you reconsider, such as a cheaper equivalent fund or a change to your plan's menu. Review it once a year. A written reason makes it easier to ignore short-term gaps between the two funds."
+    }
+  ],
+  "comparison": {
+    "caption": "S&P 500 vs total stock market index fund at a glance (general features; confirm details on each fund's current fact sheet)",
+    "headers": [
+      "Criterion",
+      "S&P 500 index fund",
+      "Total stock market index fund"
+    ],
+    "rows": [
+      [
+        "What it holds",
+        "About 500 large US companies",
+        "Large, mid-size and small US companies, usually several thousand"
+      ],
+      [
+        "Example benchmark indexes",
+        "S&P 500 (maintained by S&P Dow Jones Indices)",
+        "CRSP US Total Market, Dow Jones U.S. Total Stock Market, S&P Total Market or Russell 3000, depending on the fund"
+      ],
+      [
+        "How stocks are chosen",
+        "A committee applies published rules on size, liquidity, public float, profitability and US domicile",
+        "Rules-based, aiming to cover nearly the whole investable US market"
+      ],
+      [
+        "Weighting",
+        "Float-adjusted market capitalization",
+        "Float-adjusted market capitalization, so large companies still dominate"
+      ],
+      [
+        "Mid- and small-cap exposure",
+        "Very little",
+        "Included, but a minority of the fund's weight"
+      ],
+      [
+        "Historical behavior",
+        "Has moved closely with the total market",
+        "Has moved closely with the S&P 500 and differs most when smaller companies diverge from large ones"
+      ],
+      [
+        "Costs",
+        "Often low-cost; check the expense ratio and share class",
+        "Often low-cost; check the expense ratio and share class"
+      ],
+      [
+        "Tends to fit when",
+        "You want large US companies only, or you're pairing it with an extended market or small-cap fund",
+        "You want one fund that covers the whole US stock market"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What an S&P 500 Index Fund Holds",
+      "paragraphs": [
+        "An S&P 500 index fund holds the roughly 500 large US companies in the S&P 500 index, in proportion to their market value. S&P Dow Jones Indices maintains the index. A committee there decides which companies are added or removed, using published rules on company size, trading liquidity, public float, US domicile and profitability.",
+        "The index is weighted by float-adjusted market capitalization, which means the market value of the shares available for public trading. As a result, the biggest companies have the most influence, and a handful of them can make up a large share of the fund. To see how concentrated a fund is right now, check the 'top 10 holdings' percentage on its fact sheet.",
+        "The S&P 500 is not the whole US stock market. Companies generally have to reach a minimum size to qualify, so most mid-size and small companies are left out. S&P Dow Jones Indices describes the index as covering roughly 80% of available US market capitalization. Check its current index factsheet for the latest figure."
+      ],
+      "bullets": [
+        "Holdings: about 500 large US companies. A few have two share classes, so the number of securities is slightly above 500.",
+        "Selection: a committee applies published eligibility rules, so the process isn't purely mechanical.",
+        "Weighting: float-adjusted market capitalization, so the largest companies matter most.",
+        "Not included: most mid-size and small companies, and non-US companies."
+      ]
+    },
+    {
+      "heading": "What a Total Stock Market Index Fund Holds",
+      "paragraphs": [
+        "A total stock market index fund aims to own nearly every publicly traded US company, whether large, mid-size or small. That usually means several thousand stocks. It includes almost all of the S&P 500 companies, plus the mid-cap and small-cap stocks the S&P 500 leaves out.",
+        "Different providers track different broad indexes, such as the CRSP US Total Market Index, the Dow Jones U.S. Total Stock Market Index, the S&P Total Market Index or the Russell 3000. Each one is built slightly differently, so the number of holdings varies from fund to fund. Some funds use sampling, which means holding a representative selection of the smallest stocks instead of every one.",
+        "Like the S&P 500, a total market fund is weighted by float-adjusted market value. Each of the thousands of extra companies carries very little weight on its own. Together they make up a meaningful slice of the fund, but still a minority of it.",
+        "Watch the fund's name. 'Total market' usually means the total US market. Funds called 'total world' or 'total international' hold something quite different, so check which index the fund tracks on its fact sheet instead of relying on the name."
+      ],
+      "bullets": [
+        "Holdings: typically thousands of US stocks of all sizes.",
+        "Selection: rules-based, aiming to cover almost the entire investable US market.",
+        "Weighting: float-adjusted market capitalization, so large companies still dominate.",
+        "Not included: non-US companies, unless the fund says otherwise."
+      ]
+    },
+    {
+      "heading": "Total Stock Market Index Fund vs S&P 500: Why They Move Together",
+      "paragraphs": [
+        "A total stock market index fund and an S&P 500 fund have historically moved very closely together because the same large companies dominate both. By weight, S&P 500 companies make up most of a total market fund. Whatever those companies do largely decides what the whole fund does.",
+        "Think of a pie. By weight, the S&P 500 is most of the pie, and a total market fund is the whole pie. Adding the last slice of mid-size and small companies changes the flavor slightly but leaves the recipe the same.",
+        "Over long periods, the gap between the two has usually been small compared with the big swings both funds go through. When US stocks fall sharply, both funds fall, and when large US companies rally, both rise. You can check this yourself by comparing the performance tables on two funds' fact sheets over the same periods.",
+        "The two funds are not identical. In some multi-year stretches smaller companies have done better than the largest ones, and in others the reverse has happened. Those stretches explain most of the difference between the two funds. Nobody can reliably predict which size of company will lead next."
+      ],
+      "bullets": [
+        "Same weighting method: both use float-adjusted market capitalization.",
+        "Same largest holdings: the top companies in each fund are nearly identical.",
+        "Same country: both hold only US stocks.",
+        "Different tail: most of the difference comes from the mid- and small-cap slice."
+      ]
+    },
+    {
+      "heading": "When the Difference Actually Matters",
+      "paragraphs": [
+        "The difference between the two funds matters most in four situations: when you want deliberate exposure to smaller companies, when a few giant firms dominate the market, when you're combining several funds, and over very long holding periods. In other cases, the choice has much less effect than it seems to.",
+        "Small- and mid-cap exposure: a total market fund automatically holds smaller companies, including some that may grow into large ones. Smaller companies have historically been more volatile than large ones, so this extra slice adds both diversification and extra risk.",
+        "Concentration: when a few very large companies make up a big share of the S&P 500, some investors prefer the slightly wider spread of a total market fund. Be realistic about how much this helps. A total market fund is also weighted by market value, so its top holdings are almost the same and only a little less concentrated.",
+        "Combining funds: an 'extended market' fund typically tracks an index such as the S&P Completion Index, which is designed to cover the US market minus the S&P 500 companies. Pairing one with an S&P 500 fund can roughly recreate the total market. Changing the mix lets you set your own weighting toward small and mid-size companies.",
+        "Time horizon: over decades, small differences in costs and tracking add up. That's a reason to compare expense ratios and tracking carefully, not a reason to assume either fund will come out ahead."
+      ],
+      "bullets": [
+        "The difference matters less if your plan offers only one of the two funds.",
+        "It matters less if the cost gap between your options is very small.",
+        "It can backfire if you switch back and forth after short-term gaps in performance, especially in a taxable account."
+      ]
+    },
+    {
+      "heading": "Why Owning Both Mostly Duplicates the Same Stocks",
+      "paragraphs": [
+        "Owning both an S&P 500 fund and a total stock market fund mostly means owning the same large companies twice. Almost every S&P 500 company is also in the total market fund, where together they make up most of its weight. The pair adds very little that the total market fund doesn't already hold.",
+        "What the pair does is tilt you further toward large companies. Here's a simple example: if you split your money evenly between the two, your share in mid-size and small companies ends up at roughly half of what the total market fund alone would give you. You may want that tilt, but it's a tilt, not extra diversification.",
+        "The main cost of holding both is complexity: two funds to track, rebalance and report. A common case is an S&P 500 fund in a 401(k), because it's the only broad option, alongside a total market fund in an IRA. That's reasonable, but it's worth knowing the overlap is there."
+      ],
+      "bullets": [
+        "For broader diversification, look at what neither fund holds: international stocks, bonds and cash.",
+        "For more small-cap exposure, a dedicated small-cap or extended market fund changes your mix more than adding a second broad fund.",
+        "If you've ended up holding both by accident, add up your largest holdings across all your accounts to see how concentrated you really are."
+      ]
+    },
+    {
+      "heading": "A Short Decision Guide: Simplicity, Account Type, Existing Holdings",
+      "paragraphs": [
+        "The simplest way to decide is to look at three things: how simple you want your portfolio to be, which accounts you're using and what you already own. Together, these usually point to one core US fund.",
+        "Simplicity: if you want one fund that represents the whole US stock market, a total market fund is the more complete single holding. If you're happy owning most of the market by value, an S&P 500 fund is a well-understood alternative. Either one can serve as a core US holding.",
+        "Account type: workplace plans such as 401(k)s often have a limited menu, and an S&P 500 fund is a common option. IRAs and brokerage accounts usually offer both types. In a taxable account, switching later means selling, which can trigger capital gains tax, so changing your mind costs more there.",
+        "Existing holdings: if you already own a small-cap or extended market fund, an S&P 500 fund fits alongside it. If you own no other US-focused fund, a total market fund covers everything in one holding. If you already hold one of the two, switching mainly makes sense when you have a specific reason, such as lower costs.",
+        "Outside the US, several things differ: which funds are available, domicile (the country where a fund is legally based), withholding tax on dividends and inheritance rules. Many investors can only buy versions based in their own country. Check with your local regulator or a licensed adviser."
+      ],
+      "bullets": [
+        "You want one fund for the whole US market: a total market fund matches that goal.",
+        "Your plan offers only an S&P 500 fund: it can serve as your core US holding, and you can add small- and mid-cap exposure elsewhere if you want it.",
+        "You already own a small-cap or extended market fund: an S&P 500 fund complements it.",
+        "You're already invested in a taxable account: check the tax cost before switching."
+      ]
+    },
+    {
+      "heading": "How to Compare Holdings and Costs on Fund Fact Sheets",
+      "paragraphs": [
+        "A fund fact sheet is the quickest way to compare an S&P 500 fund with a total market fund, because it shows the index, holdings, costs and performance on one or two pages. You'll find it on the provider's page for the fund or on your broker's research tab. The prospectus has the full legal details.",
+        "Compare like with like. Use fact sheets from around the same date, look at the same performance periods and compare the same share class or ticker. An ETF and a mutual fund that track the same index can have different fees and slightly different results.",
+        "Fees matter because they come out of your return every year. Broad index funds from major providers are often low-cost, but expense ratios still vary between providers and share classes. Your broker or workplace plan may also charge its own fees on top.",
+        "Tracking difference is the gap between a fund's return and its index's return over the same period. A small, consistent gap suggests the fund is tracking its index well. A large or erratic gap is worth looking into before you choose."
+      ],
+      "bullets": [
+        "Benchmark index: the exact name of the index the fund tracks.",
+        "Number of holdings: about 500 or several thousand.",
+        "Top 10 holdings: the combined percentage shows how concentrated the fund is.",
+        "Market-cap breakdown: the split between large, mid-size and small companies, if shown.",
+        "Expense ratio: the yearly fee, plus any account fees, trading costs or minimum investment.",
+        "Fund type and share class: ETF or mutual fund, which can affect minimums and, in some countries, taxes.",
+        "Tracking: the fund's returns compared with its index's returns over the same periods.",
+        "Fact sheet date: confirms you're comparing current figures."
+      ]
+    },
+    {
+      "heading": "Risks Neither Fund Avoids",
+      "paragraphs": [
+        "Both funds invest only in US stocks, so both carry full stock market risk and neither protects you in a downturn. Holding hundreds or thousands of companies limits the damage any single company can do. Even so, both funds can lose a large share of their value in a bear market and take years to recover.",
+        "Both funds are also concentrated in one country and hold no international stocks, bonds or cash. How much of your money belongs in US stocks at all depends on your goals, your timeline and how well you can handle losses. That's a bigger decision than choosing between these two funds.",
+        "This article is general education, not personal financial advice. It doesn't recommend buying, selling or holding any fund. Tax treatment, account rules and fund availability differ by country, so check with your local regulator or a licensed adviser before you act."
+      ],
+      "bullets": [
+        "Market risk: both funds can fall sharply at the same time.",
+        "Single-country risk: both are 100% US stocks.",
+        "Cost risk: fees vary by provider, share class and platform.",
+        "Behavior risk: switching funds after short-term gaps can lock in losses or create tax bills."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who want one place to keep the one-page decision record from step 8, a yearly review checklist and saved notes or PDFs of fund fact sheets, especially if they already use Notion for other planning.",
+      "not_for": "Anyone looking for fund data, overlap analysis or investment advice. Notion isn't a brokerage, portfolio tracker or research tool, and its AI features shouldn't be relied on for fund facts, so always check figures on the provider's fact sheet. A plain document or a spreadsheet you already have does the same job."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a total stock market index fund more diversified than an S&P 500 fund?",
+      "answer": "By number of holdings, yes: it owns thousands of US companies, compared with about 500. Both funds are weighted by market value, though, so the largest companies dominate each one and the real gain in diversification is smaller than the stock count suggests. Neither fund adds international stocks or bonds."
+    },
+    {
+      "question": "Should I own both an S&P 500 fund and a total stock market fund?",
+      "answer": "Owning both mostly duplicates the same large companies, because almost every S&P 500 stock is also in a total market fund. The pair tilts you slightly toward large companies rather than adding real diversification. Holding both across different accounts is common and can be reasonable, but it helps to know about the overlap."
+    },
+    {
+      "question": "Which is better for a 401(k): an S&P 500 or total market fund?",
+      "answer": "It depends on what your plan offers. Many plans include an S&P 500 fund, and some also offer an extended market or small-cap fund that can be combined with it to roughly match the total market. Compare the expense ratios and benchmark indexes of the funds your plan actually offers, using your plan's fund documents."
+    },
+    {
+      "question": "Do total stock market funds cost more than S&P 500 funds?",
+      "answer": "Not necessarily. Both types are commonly offered as low-cost index funds, and the cost difference between providers and share classes often matters more than the type of fund. Check the expense ratio on each fund's current fact sheet or prospectus."
+    },
+    {
+      "question": "Will a total stock market fund outperform the S&P 500?",
+      "answer": "No one can know in advance. Historically, the two have tracked each other closely, with small differences depending on whether smaller or larger companies did better in a given period. Past performance does not predict future results."
+    },
+    {
+      "question": "Is switching between an S&P 500 fund and a total market fund taxable?",
+      "answer": "In a taxable account, selling one fund to buy the other can create a capital gain or loss. In US tax-advantaged accounts such as 401(k)s and IRAs, trades inside the account generally aren't taxed when they happen. If you sell at a loss and buy a similar fund, the US wash-sale rule may apply, and it isn't clearly defined whether two funds tracking different indexes count as 'substantially identical.' Rules differ by country, so check with a tax professional."
+    }
+  ],
+  "conclusion": "Choosing between a total stock market index fund and an S&P 500 fund is a smaller decision than it looks. One holds large US companies, and the other holds those same companies plus thousands of smaller ones. Because both are weighted by size, they have historically moved closely together. The difference matters mainly if you want small- and mid-cap exposure, you're combining funds, or costs differ over a long time horizon. Rather than trying to predict which will do better, follow the process: check what your accounts offer, read current fact sheets, avoid accidental overlap and write down your reason. Then focus on the bigger choices, such as how much you hold in stocks overall, what you pay in fees and whether you can stick with your plan through downturns. For decisions about your own situation, speak to a licensed adviser.",
+  "keyword": "total stock market index fund vs s&p 500",
+  "niche": "ETFs and index fund investing",
+  "version": 2,
+  "slug": "total-stock-market-index-fund-vs-s-p-500-which-fits-you",
+  "published": "2026-10-08T17:07:02+00:00"
+}

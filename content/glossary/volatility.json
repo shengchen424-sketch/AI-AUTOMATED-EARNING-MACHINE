@@ -1,0 +1,22 @@
+{
+  "term": "Volatility",
+  "section": "Investing",
+  "short_definition": "Volatility measures how much and how quickly an investment's price moves up and down over time; higher volatility means larger, less predictable swings in value in both directions.",
+  "explanation": [
+    "Volatility is usually measured as the standard deviation of returns, which shows how widely results spread around their average. Indexes such as the VIX estimate expected volatility for a broad stock market. Beta measures how much one investment moves compared with the market as a whole. As broad categories, cash tends to be least volatile, bonds more volatile, and stocks more volatile still. Crypto assets can swing extremely, sometimes by large percentages in a single day.",
+    "Volatility matters most when you need to sell. Money you need soon that sits in a volatile asset could have to be sold during a dip, which turns a temporary fall into a real loss. Large swings also make it harder to stick with a plan emotionally.",
+    "The key trade-off is that higher-volatility assets have historically been linked with higher potential returns, but that is never guaranteed. Low volatility does not mean safe, either: a stable investment can still lose buying power to inflation or fail because of credit problems. Some volatile assets, including many crypto tokens, can fall to zero."
+  ],
+  "example": "Illustrative example: Fund X returns +6%, +5%, +7% and +6% over four years, an average of 6%. Fund Y returns +25%, −15%, +30% and −10%, an average of 7.5%. Starting with $10,000, X grows to about $12,624, while Y ends at about $12,431. Y had the higher average return, but its bigger swings left it with less money.",
+  "common_mistake": "Judging an investment by its average annual return alone. Big swings can lower the actual ending balance and make it much harder to hold on during drops.",
+  "related_terms": [
+    "Risk Tolerance",
+    "Bull Market vs Bear Market",
+    "Diversification",
+    "Asset Allocation",
+    "Cryptocurrency"
+  ],
+  "title": "Volatility",
+  "slug": "volatility",
+  "published": "2026-10-08T17:13:57+00:00"
+}

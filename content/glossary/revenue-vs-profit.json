@@ -1,0 +1,22 @@
+{
+  "term": "Revenue vs Profit",
+  "section": "Accounting & Business",
+  "short_definition": "Revenue is the total money a business brings in from sales before any costs, while profit is what remains after subtracting expenses; a company can have high revenue and still lose money.",
+  "explanation": [
+    "Revenue, also called sales, turnover or the 'top line', is the starting figure on an income statement. Profit comes in layers. Gross profit is revenue minus cost of goods sold. Operating profit is gross profit minus operating expenses such as rent, wages and marketing. Net profit, the 'bottom line', is what is left after interest and taxes.",
+    "The difference matters because revenue shows demand and scale, while profit shows whether the business model actually works. Two businesses with the same revenue can have very different profits depending on their costs and pricing.",
+    "The main trap is chasing revenue at any cost. Heavy discounts or expensive advertising can grow sales while shrinking profit. Profit is also not the same as cash: under accrual accounting, profit can be recorded before customers actually pay. That is why many business owners track cash flow alongside profit."
+  ],
+  "example": "Illustrative example: An online shop sells $100,000 of products in a year (revenue). The products cost $55,000 (COGS), so gross profit is $45,000. Rent, software, ads and wages total $38,000, leaving operating profit of $7,000. After $1,000 of interest and $1,500 of tax, net profit is $4,500, which is 4.5% of revenue.",
+  "common_mistake": "Quoting revenue as 'what the business makes' or celebrating a sales milestone without subtracting the costs of earning it.",
+  "related_terms": [
+    "Income Statement",
+    "Profit Margin",
+    "Cost of Goods Sold (COGS)",
+    "Cash Flow",
+    "EBITDA"
+  ],
+  "title": "Revenue vs Profit",
+  "slug": "revenue-vs-profit",
+  "published": "2026-10-08T17:13:57+00:00"
+}

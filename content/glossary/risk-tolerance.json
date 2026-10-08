@@ -1,0 +1,22 @@
+{
+  "term": "Risk Tolerance",
+  "section": "Investing",
+  "short_definition": "Risk tolerance is how much investment loss and price fluctuation you can financially afford and emotionally handle without abandoning your plan, shaped by goals, time horizon, income and temperament.",
+  "explanation": [
+    "Risk tolerance has two parts. Risk capacity is your financial ability to absorb losses, which depends on your time horizon, how stable your income is, your emergency savings and your debts. Risk willingness is how comfortable you feel watching your balance fall. Brokers and advisers often use questionnaires to estimate both.",
+    "Risk tolerance matters because it shapes your asset allocation. A mix that is too aggressive can lead to panic selling in a downturn. A mix that is too cautious can fall short of your goals once inflation is taken into account.",
+    "A common approach is to plan around the lower of your capacity and your willingness. People tend to overestimate their tolerance when markets are rising, and it shifts with life events such as a new job, a child or nearing retirement. Review it from time to time, and speak to a licensed adviser if you need personal guidance."
+  ],
+  "example": "Illustrative example: Priya and Sam each invest $20,000. Priya needs the money for a home deposit in 2 years, while Sam won't touch his for 25 years. If markets fall 30%, both see a paper loss of $6,000. For Priya, that could delay her purchase, so her risk capacity is low. Sam has decades for a possible recovery, though a recovery is not guaranteed. The loss is the same, but the impact is very different.",
+  "common_mistake": "Filling in a risk questionnaire during a strong market, picking an aggressive mix, and finding out in the first real downturn that you can't stomach the losses.",
+  "related_terms": [
+    "Asset Allocation",
+    "Volatility",
+    "Emergency Fund",
+    "Diversification",
+    "Rebalancing"
+  ],
+  "title": "Risk Tolerance",
+  "slug": "risk-tolerance",
+  "published": "2026-10-08T17:13:57+00:00"
+}

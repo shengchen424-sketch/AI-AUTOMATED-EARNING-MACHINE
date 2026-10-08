@@ -1,0 +1,252 @@
+{
+  "title": "Automate Overdue Invoice Reminders in QuickBooks Online: 8 Steps",
+  "meta_description": "Automate overdue invoice reminders in QuickBooks Online in 8 steps, with 3 polite-but-firm templates and when to add a Zapier alert.",
+  "quick_answer": "To automate overdue invoice reminders in QuickBooks Online, open Settings (gear icon) > Account and settings > Sales. Edit the Reminders section and turn on automatic invoice reminders. You can set up to three reminders, each sent a set number of days before or after the due date, then write a subject and message for each and save. Test with your own email first, and check that your plan and region include the feature.",
+  "key_takeaways": [
+    "To turn on reminders, go to Settings > Account and settings > Sales > Reminders. At the time of writing, you can schedule up to three.",
+    "Every client gets the same reminder text. Write wording that works for anyone, and don't type your own placeholders like [Client name], because QuickBooks won't fill them in.",
+    "One example schedule for 30-day terms is 3 days before the due date, then 7 days after and 21 days after. Adjust the days to fit your own terms.",
+    "Each reminder should be more specific than the last, not more emotional. Never mention a fee, deadline or consequence that isn't in your contract.",
+    "Record payments against invoices promptly so clients who have already paid don't get chased.",
+    "Most freelancers only need the built-in reminders plus a weekly look at the A/R aging report. Add Zapier or Make only if you need alerts for yourself or your team."
+  ],
+  "who_this_is_for": "This guide is for freelancers and small-business owners who invoice through QuickBooks Online and want late payments chased automatically without sounding pushy or harming client relationships.",
+  "intro": "Chasing late payments is awkward, so it tends to get put off, and that's a good reason to automate it. QuickBooks Online can email clients about unpaid invoices on a schedule you set, before and after the due date, in your own words. This guide walks through the settings step by step. It also shows a timing plan for different payment terms and gives you an AI prompt. You'll get three reminder templates that work even though every client receives the same text. Finally, it covers when the built-in reminders are enough and when a Zapier or Make alert is worth adding.",
+  "steps": [
+    {
+      "name": "Confirm your plan and customer emails",
+      "text": "Check that your QuickBooks Online plan and region include automatic invoice reminders. You can see this in Account and settings or in Intuit's help pages. Then open each active customer and make sure the email field holds the address of the person who actually pays invoices, such as accounts payable."
+    },
+    {
+      "name": "Set default payment terms",
+      "text": "Go to Settings (gear icon) > Account and settings > Sales. Under Sales form content, set Preferred invoice terms, such as Net 14 or Net 30, so every new invoice gets a due date for reminders to count from. Check that your existing open invoices have due dates too."
+    },
+    {
+      "name": "Open the Reminders section",
+      "text": "On the same Sales tab, scroll to Reminders and select the pencil (Edit) icon. Menu names can change between versions. If you can't find it, search Intuit's help site for 'automatic invoice reminders' to get the current path."
+    },
+    {
+      "name": "Turn on automatic invoice reminders",
+      "text": "Switch on the automatic invoice reminders toggle. Until it's on, QuickBooks won't send any scheduled reminders, even if you've already edited the messages."
+    },
+    {
+      "name": "Set the timing for each reminder",
+      "text": "For Reminder 1, enter a number of days and choose whether it goes before or after the due date. Do the same for Reminders 2 and 3. For 30-day terms, one example is 3 days before, 7 days after and 21 days after."
+    },
+    {
+      "name": "Write messages that work for every client",
+      "text": "Replace each default subject and message with wording that makes sense for any client, such as the templates in this guide. Only keep bracketed fields that already appear in QuickBooks' own default text. Type your real name and business name instead of placeholders."
+    },
+    {
+      "name": "Save and send yourself a test",
+      "text": "Select Save, then Done. Create a test customer with your own email address and a small invoice due in 4 days. If your settings apply to it, Reminder 1 (3 days before) should arrive around tomorrow. Check how it looks, then delete the test invoice and make the test customer inactive."
+    },
+    {
+      "name": "Review open invoices weekly",
+      "text": "Run the Accounts receivable aging summary report once a week. Email or call any client who is more than about 30 days overdue yourself. If you'd rather be told automatically, set up a Zapier or Make alert."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to handle overdue invoices with QuickBooks Online",
+    "headers": [
+      "Option",
+      "What it does",
+      "Best when",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Built-in automatic reminders",
+        "Emails the client up to three times on days you set around the due date",
+        "You want client follow-up to run on its own with no extra tools",
+        "Every client usually gets the same text and schedule, and invoices still get reminders if a payment hasn't been recorded"
+      ],
+      [
+        "Manual 'Send reminder'",
+        "Sends a one-off reminder for a specific invoice from the Invoices list",
+        "A client needs a personal nudge outside the schedule, such as just before their approval cut-off",
+        "Easy to forget unless you review invoices weekly"
+      ],
+      [
+        "AI-drafted wording (ChatGPT or Claude), with an optional Grammarly check",
+        "Drafts friendly, direct and firm reminders to paste into QuickBooks and checks their tone",
+        "Your current messages sound too vague or too harsh",
+        "AI can invent fees or facts, so edit every line and keep client data out of prompts"
+      ],
+      [
+        "Zapier Slack alert",
+        "Posts an internal message when an invoice reaches 30 days overdue",
+        "You or a teammate work in Slack and want to know about late invoices without opening QuickBooks",
+        "Delay limits, features that may need a paid plan, and due dates changed after the invoice is created"
+      ],
+      [
+        "Make scheduled scenario",
+        "Checks open invoices every day and alerts you to ones that just crossed 30 days overdue",
+        "You send a lot of invoices or want one daily check",
+        "Harder to set up; check which QuickBooks modules Make currently offers"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What QuickBooks Online's automatic invoice reminders do (and don't do)",
+      "paragraphs": [
+        "QuickBooks Online's automatic invoice reminders are scheduled emails about an unpaid invoice. QuickBooks sends them to the customer on days you choose, counted from that invoice's due date. You set the schedule and wording once, and they apply to your open invoices.",
+        "Because reminders count from the due date, your payment terms decide when they go out. An invoice on 7-day terms and one on 30-day terms get reminders on very different dates, even with the same settings. At the time of writing you can set up to three reminders, each with its own timing, subject line and message. Intuit changes the interface often, so check your own account.",
+        "The wording is shared. In most accounts the same three messages go to every client, so anything you type has to make sense for all of them. If you type your own placeholder, such as [Client name], QuickBooks won't fill it in. It only replaces fields it provides itself, so send a test to check them.",
+        "The feature only emails clients, not you. It won't alert your team, create a task or warn you when an invoice passes 30 days overdue. It also can't tell that an invoice has been paid unless you record the payment in QuickBooks."
+      ],
+      "bullets": [
+        "The right billing email on every customer record. Use the accounts-payable contact, not just the person you work with on the project.",
+        "A due date on every invoice. Set default terms under Account and settings > Sales so this happens automatically.",
+        "Payments recorded against invoices promptly, so clients who have paid are never chased.",
+        "A QuickBooks Online plan and region that include automatic reminders. Check Intuit's site or your account settings."
+      ]
+    },
+    {
+      "heading": "How to automate overdue invoice reminders in QuickBooks Online: picking the timing",
+      "paragraphs": [
+        "A good starting point is one friendly nudge shortly before the due date and two follow-ups after it. Space them out so each email feels deliberate, not like nagging.",
+        "For 30-day terms, an example schedule is Reminder 1 three days before the due date, Reminder 2 seven days after and Reminder 3 twenty-one days after. The first catches invoices stuck in an inbox or waiting for approval. The second allows for clients who pay in weekly batches. The third goes out before about 30 days overdue, which is when you'd normally get in touch yourself.",
+        "Shorter payment terms need a tighter schedule. On 7-day terms, a reminder three days before the due date would arrive almost straight after the invoice, which feels pushy. Start your reminders after the due date instead.",
+        "Larger clients often pay on fixed dates. When you start working with one, ask: 'When do you pay invoices, and what's the deadline for getting them approved?' Say invoices need approval by the 20th to be paid at month end. Then one reminder just before the 20th does more than three after it. Because the automatic schedule is the same for everyone, you may need to send that reminder manually."
+      ],
+      "bullets": [
+        "7-day terms (example): 1, 4 and 10 days after the due date.",
+        "14-day terms (example): 2 days before, then 5 and 14 days after.",
+        "30-day terms (example): 3 days before, then 7 and 21 days after.",
+        "Whatever you choose, let the last automatic reminder go out before the point where you step in yourself, such as a phone call at 30 days."
+      ]
+    },
+    {
+      "heading": "How to draft escalating reminders with ChatGPT or Claude",
+      "paragraphs": [
+        "ChatGPT or Claude can draft three polite but firm reminders in minutes. Give it your terms, when each reminder goes out and clear rules about tone, then edit every line before it goes to clients.",
+        "Each reminder should get more specific, not more emotional. Reminder 1 assumes the client means to pay. Reminder 2 says plainly that the invoice is overdue and asks for a payment date. Reminder 3 says how late it is and offers help. It names a next step only if your contracts already allow one.",
+        "Here's a prompt you can adapt: 'I'm a freelance [your service] invoicing clients through QuickBooks Online on [Net 30] terms. Write three short payment reminder emails for QuickBooks automatic reminders. The same text goes to every client, so do not include client names, project names, amounts or dates. Refer to \"this invoice\" instead. Reminder 1 is sent [3 days before] the due date. Make it warm and assume the client just needs a heads-up. Reminder 2 is sent [7 days after] the due date. Make it direct and ask when I can expect payment. Reminder 3 is sent [21 days after] the due date. Make it firm but polite, offer to discuss timing, and mention this next step from my standard terms: [next step, or none]. Keep each email under 100 words with a plain subject line. No exclamation marks, guilt-tripping or legal threats, and do not invent fees, interest or deadlines.'",
+        "Before you paste anything into QuickBooks, make sure it doesn't promise or threaten anything you haven't agreed in writing. Read each email aloud, and if a line sounds cold, ask for other versions. A tone checker such as Grammarly can also point out lines that sound harsher than you meant. Keep real client names, amounts and contract text out of AI tools unless you're happy with the provider's data policy. The prompt above doesn't need them."
+      ],
+      "bullets": [
+        "Your payment terms and the day each reminder is sent.",
+        "How clients can pay, such as bank transfer or an online payment link.",
+        "The next step in your standard terms if payment is very late, or 'none'.",
+        "Three words for the tone, such as 'warm, direct, firm', plus a word limit."
+      ]
+    },
+    {
+      "heading": "Three reminder templates that work for every client",
+      "paragraphs": [
+        "The three templates below go from friendly to direct to firm. They leave out client details, so the same text works for every client. Before saving, replace [Your name] and [Business name] with your own details. These are notes for you, not fields QuickBooks will fill in.",
+        "Reminder 1 (friendly, about 3 days before the due date). Subject: Heads-up: invoice due soon. Message: Hi, just a quick note that this invoice is due in a few days. You can view it using the link in this email. If anything needs changing, such as a PO number or billing contact, reply and I'll update it straight away. Thanks, [Your name], [Business name].",
+        "Reminder 2 (direct, about 7 days after the due date). Subject: Invoice now past due. Message: Hi, this invoice was due last week and still shows as unpaid on my side. If payment is already on its way, thank you, and please ignore this note. If not, could you reply with the date I can expect it? Thanks, [Your name], [Business name].",
+        "Reminder 3 (firm, about 21 days after the due date). Subject: Action needed: invoice three weeks overdue. Message: Hi, I'm following up again on this invoice, which is now three weeks past due. Please arrange payment this week or reply with a date that works for you. If there's a problem with the invoice or with timing on your side, I'm happy to talk it through. [Include only if it's in every client's terms: As set out in our agreement, new work is paused until outstanding invoices are settled.] Best regards, [Your name], [Business name].",
+        "Make sure the wording matches the timing. 'Last week' and 'three weeks' only work if Reminders 2 and 3 really go out around those days. QuickBooks usually adds the invoice details and a link to view or pay around your message, so send yourself a test and cut anything that appears twice."
+      ],
+      "bullets": [
+        "Reminder 1 offers to fix errors, which removes an easy reason to delay paying.",
+        "Reminder 2 gives clients an easy way out ('if it's on its way, thank you'), so nobody feels accused.",
+        "Reminder 3 offers a conversation as well as a deadline, which keeps the relationship open.",
+        "None of them use exclamation marks, 'per my last email' or apologies for asking to be paid."
+      ]
+    },
+    {
+      "heading": "When the built-in reminders are enough",
+      "paragraphs": [
+        "For most freelancers and small businesses, the built-in reminders plus a short weekly check of open invoices are enough. Extra tools mostly add cost and more things to maintain.",
+        "The weekly check works like an alert you run by hand. Go to Reports and run the Accounts receivable aging summary, or filter your Invoices list to show overdue invoices. Then email or call anyone more than about 30 days overdue yourself. A personal message at that point often uncovers the real problem, such as an invoice sent to the wrong person, a missing PO number or a disagreement about the work.",
+        "An add-on makes sense when the person chasing payments doesn't work in QuickBooks. That might be a partner, assistant or bookkeeper who works in Slack. It also helps if you want overdue invoices to become tasks in another tool automatically."
+      ],
+      "bullets": [
+        "Built-in is enough if you chase payments yourself, open QuickBooks weekly and send a manageable number of invoices.",
+        "Consider an add-on if someone else chases payments, your team works in Slack, or invoices often pass 30 days overdue without anyone noticing.",
+        "Fix the basics first. Wrong billing emails and unrecorded payments cause more reminder problems than a lack of automation does."
+      ]
+    },
+    {
+      "heading": "How to add a 30-days-overdue Slack alert with Zapier or Make",
+      "paragraphs": [
+        "Zapier or Make can alert you or your team when an invoice is 30 days overdue, for example with a Slack message. QuickBooks' own reminders only email the client, so they can't do this.",
+        "A common Zapier setup starts when an invoice is created and waits until 30 days after its due date. It then checks the balance again and posts to Slack only if money is still owed. Zapier's triggers and actions change over time, so check that each step below exists in its QuickBooks Online and Slack integrations before you build.",
+        "This setup has limits. Zapier caps how long a Delay step can wait. On 30-day terms, '30 days overdue' is about 60 days after the invoice is created, which may be longer than the cap allows, so check Zapier's current help docs. A Zap that's already waiting won't pick up a due date you change later. It also won't cover invoices created before you turned it on. Multi-step Zaps with filters and delays may need a paid plan.",
+        "A more reliable option is a daily check. A scheduled workflow searches QuickBooks each morning for unpaid invoices whose due date was exactly 30 days ago, then posts one alert for each invoice. Make's visual builder handles working through many results like this and can cost less if you send a lot of invoices, but setting it up takes more care. Check which QuickBooks modules Make currently offers. Both tools send client data through a third-party service, so check how each one handles your data."
+      ],
+      "bullets": [
+        "Trigger: QuickBooks Online, New Invoice.",
+        "Formatter by Zapier (Date/Time): add 30 days to the invoice's due date.",
+        "Delay by Zapier, Delay Until: wait until the date from the previous step.",
+        "QuickBooks Online, Find Invoice: look up the same invoice to get its current balance.",
+        "Filter by Zapier: continue only if the balance is more than 0.",
+        "Slack, Send Channel Message: for example, 'Invoice [number] for [client] is 30 days overdue. Time for a personal call.'"
+      ]
+    },
+    {
+      "heading": "Mistakes that sour clients, plus fee, legal and plan checks",
+      "paragraphs": [
+        "The quickest way to upset a good client is a reminder that's wrong. That could be one sent after they've paid, one sent to someone who can't approve payment, or one that threatens something you never agreed in writing.",
+        "Be careful with late fees and interest. Some QuickBooks Online accounts have a late-fee setting. Some countries also give businesses a legal right to charge interest on late payments from other businesses, but the rules differ by country and state. Stricter rules may apply if you invoice individual consumers. Only mention fees or interest that your contract clearly states. Check with an accountant, a licensed legal adviser or your local business regulator before relying on them. This article is general information, not legal or financial advice.",
+        "Finally, check what your plan includes and what everything costs. QuickBooks Online plan names, features and prices vary by country and change over time. Automatic reminders, late fees and Intuit's AI features may not appear in every account. Check Intuit's pricing and help pages for your region, and look in Account and settings. Zapier, Make and Grammarly each charge their own subscription fees, so check current pricing on each company's website."
+      ],
+      "bullets": [
+        "Chasing a paid invoice because a bank transfer wasn't matched to it in QuickBooks.",
+        "Sending reminders to a project contact who can't approve payments.",
+        "Leaving placeholders like [Client name] in a live email.",
+        "Getting more emotional with each reminder instead of more specific.",
+        "Letting reminders keep going during a dispute. Talk to the client directly, and find out how to stop reminders for that invoice or customer in your account."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers and small businesses who already invoice from QuickBooks Online and want clients reminded automatically before and after the due date, with no extra tools.",
+      "not_for": "People who invoice from other software, need very different reminder schedules or wording for each client, or whose plan or region doesn't include automatic reminders. Check before you rely on it."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Setting up a no-code alert for you or your team, such as a Slack message when an invoice reaches 30 days overdue, if you send a modest number of invoices.",
+      "not_for": "Freelancers with only a few invoices who check QuickBooks weekly, because the built-in reminders and a weekly report cover them. It's also less suitable for very high volumes where cost matters, since multi-step features may need a paid plan."
+    },
+    {
+      "product": "Make",
+      "best_for": "A daily check of all open invoices that alerts you to newly overdue ones, especially if you send a lot of invoices and are comfortable with a visual workflow builder.",
+      "not_for": "Beginners who want the quickest setup, or anyone who only needs to email clients, which QuickBooks already does."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "Checking that your reminder wording sounds polite but firm before you paste it into QuickBooks, especially if you tend to write bluntly or English isn't your first language.",
+      "not_for": "Sending or scheduling reminders, which it doesn't do, or anyone already happy with their wording. It's an optional extra, not part of the automation."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does QuickBooks Online send overdue invoice reminders automatically?",
+      "answer": "Yes, once you turn on automatic invoice reminders under Settings > Account and settings > Sales > Reminders. At the time of writing you can set up to three, each sent a set number of days before or after the due date with your own wording. Whether you have the feature can depend on your plan and region, so check your account."
+    },
+    {
+      "question": "Why aren't my QuickBooks Online invoice reminders sending?",
+      "answer": "Common causes are that the automatic reminders toggle is off, or the customer record has no email address. The invoice may also have no due date, or it may already be marked as paid. If a reminder day had already passed when you turned the feature on, that reminder may not be sent. Check these first, then search Intuit's help site for current troubleshooting steps."
+    },
+    {
+      "question": "Can I send a payment reminder manually in QuickBooks Online?",
+      "answer": "Yes. You can usually send a one-off reminder from your Invoices list, either from the action menu next to an overdue invoice or by selecting several invoices and using a batch action. Menu labels change between versions, so look for 'Send reminder'."
+    },
+    {
+      "question": "Is it OK to use ChatGPT or Claude to write payment reminder emails?",
+      "answer": "Yes, as long as you treat what it writes as a draft. Give it your terms, timing and tone rules, and tell it the same text goes to every client. Then check every line, because AI assistants can make up fees, deadlines or consequences that aren't in your contract. Use placeholders instead of real client details unless you're happy with the provider's data policy."
+    },
+    {
+      "question": "Do I need Zapier for QuickBooks invoice reminders?",
+      "answer": "No. QuickBooks Online's built-in reminders email clients on their own. Zapier or Make only helps if you want something QuickBooks doesn't do, such as a Slack alert to you or your team when an invoice reaches 30 days overdue."
+    },
+    {
+      "question": "Can I add late fees to overdue invoices in QuickBooks Online?",
+      "answer": "Some QuickBooks Online accounts have a late-fee setting, but this depends on your plan and region. More importantly, only charge fees or interest if your contract clearly allows them and local rules permit it. Check with an accountant or licensed adviser in your country before relying on them."
+    }
+  ],
+  "conclusion": "Setting up automatic overdue invoice reminders in QuickBooks Online doesn't take long. Set default payment terms and turn on reminders. Then choose three send days that fit your terms and paste in wording that works for every client and gets more specific each time. Send yourself a test before any client sees it. For most freelancers, that plus a weekly look at the Accounts receivable aging summary is all they need. Add a Zapier or Make alert only when someone needs to hear about late invoices outside QuickBooks. Before relying on any feature, fee setting or tool, check that your plan and region include it and what it currently costs.",
+  "keyword": "automate overdue invoice reminders quickbooks online",
+  "niche": "automating bookkeeping and invoicing with AI",
+  "version": 2,
+  "slug": "automate-overdue-invoice-reminders-in-quickbooks-online-8-steps",
+  "published": "2026-10-08T17:00:24+00:00"
+}

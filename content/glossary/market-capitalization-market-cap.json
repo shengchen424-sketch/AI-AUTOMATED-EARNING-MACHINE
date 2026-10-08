@@ -1,0 +1,22 @@
+{
+  "term": "Market Capitalization (Market Cap)",
+  "section": "Investing",
+  "short_definition": "Market capitalization is the total market value of a company's outstanding shares, calculated by multiplying the current share price by the number of shares outstanding.",
+  "explanation": [
+    "Market capitalization is share price multiplied by shares outstanding, so it changes every time the share price moves. Investors often group companies as large-cap, mid-cap or small-cap. The cut-offs between these groups are not fixed and vary by index provider and data source.",
+    "Market cap matters because it tells you how big a company is in the market's eyes, which share price alone cannot. Many index funds are weighted by market cap, so the largest companies take up the biggest share of the fund. Knowing this helps you see what you actually own.",
+    "The main limitation is that market cap shows what investors will pay today, not what a business is truly worth. It also ignores debt, which a measure called enterprise value includes. Cap-weighted indexes can end up dominated by a few giant companies, and smaller companies tend to be more volatile and harder to trade."
+  ],
+  "example": "Illustrative example: Company A trades at $50 per share with 200 million shares outstanding, so its market cap is $50 × 200 million = $10 billion. Company B trades at $500 per share with 10 million shares, so its market cap is $5 billion. B's share price is 10 times higher, but B is only half the size of A.",
+  "common_mistake": "Assuming a high share price means a big or 'expensive' company. Share price means nothing about size until you multiply it by the number of shares.",
+  "related_terms": [
+    "Stock (Equity)",
+    "Index Fund",
+    "Price-to-Earnings Ratio (P/E Ratio)",
+    "Volatility",
+    "Diversification"
+  ],
+  "title": "Market Capitalization (Market Cap)",
+  "slug": "market-capitalization-market-cap",
+  "published": "2026-10-08T17:13:57+00:00"
+}

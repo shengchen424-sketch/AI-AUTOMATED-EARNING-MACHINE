@@ -1,0 +1,22 @@
+{
+  "term": "Mental Models",
+  "section": "Self-Development",
+  "short_definition": "Mental models are simplified frameworks for how something works, such as opportunity cost or compounding, that help you understand situations, predict outcomes and make better decisions across different areas of life.",
+  "explanation": [
+    "A mental model is a thinking tool borrowed from a field such as economics, psychology, maths or biology and applied to everyday decisions. Common examples are opportunity cost, compounding, inversion (asking how something could fail), second-order thinking (asking what happens next) and circle of competence (knowing where your knowledge ends). Investor Charlie Munger popularised the idea of a 'latticework' of models used together.",
+    "Mental models matter because looking at a decision from several angles reduces blind spots. A choice that looks fine through one lens may look risky through another. This is especially useful for money, career and business decisions, where consequences unfold over years.",
+    "Every model is a simplification, and using the wrong one can mislead you, which is the idea behind the saying 'the map is not the territory'. Collecting long lists of models is less useful than practising a handful on real decisions until they become habits of thought."
+  ],
+  "example": "Illustrative example: You're offered a $1,200 annual gym contract. Opportunity cost asks what else $1,200 could do, such as build an emergency fund. Inversion asks how this could fail, for example if you stop going after February. Second-order thinking asks what happens next, such as cancellation fees. Using all three, you might test a monthly plan for three months before committing.",
+  "common_mistake": "Collecting mental models like trivia instead of deliberately applying a few of them to actual decisions.",
+  "related_terms": [
+    "Opportunity Cost",
+    "Sunk Cost Fallacy",
+    "Pareto Principle (80/20 Rule)",
+    "Compound Interest",
+    "Growth Mindset"
+  ],
+  "title": "Mental Models",
+  "slug": "mental-models",
+  "published": "2026-10-08T17:13:57+00:00"
+}

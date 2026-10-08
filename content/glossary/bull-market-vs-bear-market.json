@@ -1,0 +1,22 @@
+{
+  "term": "Bull Market vs Bear Market",
+  "section": "Investing",
+  "short_definition": "A bull market is a sustained period of generally rising asset prices, while a bear market is a sustained decline, often informally defined as a fall of 20% or more from a recent peak.",
+  "explanation": [
+    "'Bull' and 'bear' describe the overall direction and mood of a market over months or years, not single-day moves. The 20% threshold for a bear market is a media and industry convention, not an official rule. A smaller drop, often around 10%, is usually called a correction. Both labels only become clear in hindsight.",
+    "These terms matter because they help you set realistic expectations. Declines have happened repeatedly in stock market history, and how investors react to them can affect long-term results more than the decline itself. Past recoveries do not guarantee future ones, though, and some markets have taken many years to get back to earlier peaks.",
+    "The main risk is trying to time the switch between bull and bear markets. Calling turning points reliably is very hard, and investors who sell after a fall can miss part of any rebound. Whether to change your plan during a downturn depends on your time horizon, your risk tolerance and when you need the cash. For personal decisions, a licensed adviser can help."
+  ],
+  "example": "Illustrative example: An index rises from 1,000 to 1,600 over several years, which is a bull market. It then falls to 1,200. The drop is (1,600 − 1,200) ÷ 1,600 = 25%, which most people would call a bear market. A $10,000 portfolio that tracked the index exactly would be worth about $7,500 at the low.",
+  "common_mistake": "Treating the 'bear market' headline as a signal to sell everything and wait for an all-clear. Recoveries are usually only obvious after they have already started.",
+  "related_terms": [
+    "Volatility",
+    "Risk Tolerance",
+    "Dollar-Cost Averaging",
+    "Asset Allocation",
+    "Rebalancing"
+  ],
+  "title": "Bull Market vs Bear Market",
+  "slug": "bull-market-vs-bear-market",
+  "published": "2026-10-08T17:13:57+00:00"
+}

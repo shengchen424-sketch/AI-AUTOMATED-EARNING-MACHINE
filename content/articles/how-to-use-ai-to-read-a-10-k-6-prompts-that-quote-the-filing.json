@@ -1,0 +1,258 @@
+{
+  "title": "How to Use AI to Read a 10-K: 6 Prompts That Quote the Filing",
+  "meta_description": "Learn how to use AI to read a 10-K: 8 steps and 6 copy-paste prompts that make ChatGPT, Claude or Gemini quote the filing so you can check every answer.",
+  "quick_answer": "To use AI to read a 10-K, download the filing from SEC EDGAR and paste one section at a time into ChatGPT, Claude or Gemini. Tell it to answer only from that text, quote the exact sentence, name the Item and heading, and say NOT FOUND rather than guess. Ctrl+F every quote in the original; discard anything you can't find. AI is a reading aid, not an adviser.",
+  "key_takeaways": [
+    "Download the 10-K free from SEC EDGAR and keep the original open. It's your source of truth for checking every AI answer with Ctrl+F (Cmd+F on a Mac).",
+    "Start every chat with a ground-rules prompt: use only the pasted text, quote word for word, cite the Item and heading, copy units exactly, and reply NOT FOUND instead of guessing.",
+    "Paste one Item or note at a time and ask one targeted question. Don't ask it to 'summarize this filing'. The six prompts cover business model, risk factor changes, segments, debt, related parties and accounting changes.",
+    "Treat any quote you can't find, and any number missing its units or year, as unverified until you've checked it in the filing.",
+    "Check your tool's current upload limits, context limits and data settings on the vendor's site. They vary by plan and change often.",
+    "AI helps you find and understand disclosures, but it isn't investment advice. Take personal decisions to a licensed adviser."
+  ],
+  "who_this_is_for": "This guide is for self-directed investors, finance students and curious professionals who want to read a US public company's annual report faster with ChatGPT, Claude or Gemini without relying on answers they can't check.",
+  "intro": "A 10-K is one of the most detailed documents a US public company publishes each year. It's also easy to skim badly. Readers usually get through the business overview, but they often skip the notes to the financial statements, which hold debt terms, related-party deals and accounting changes. AI chatbots such as ChatGPT, Claude and Gemini can speed up the reading, but they can also confidently state things the filing never says. This guide gives you a workflow that puts checking first. You download the filing from SEC EDGAR, set ground rules, give the AI one section at a time, and run six copy-paste prompts that make it quote the exact text and name where it came from. You'll also learn how to catch made-up answers, which limits and settings to check before uploading, and how to keep a log of only the findings you've checked.",
+  "steps": [
+    {
+      "name": "Find the filing on SEC EDGAR",
+      "text": "Go to sec.gov and use EDGAR's company search by name or ticker. Filter the filing type to 10-K and open the most recent annual report. If you plan to compare risk factors, open the prior year's report too. Note the fiscal year-end date, which may not be December 31. Also check whether the company later filed a 10-K/A amendment, because it can replace parts of the original. Foreign companies may file a 20-F or 40-F instead."
+    },
+    {
+      "name": "Save a searchable copy and keep the original open",
+      "text": "From the filing index, open the main 10-K document, not the exhibits. Copy sections straight from the web page, or save a PDF with your browser's print function. Keep the original open in its own tab as your source of truth. The page numbers printed in the filing often don't match your PDF viewer's page count, so rely on Item names and headings."
+    },
+    {
+      "name": "Check your AI tool's limits and settings",
+      "text": "Look up the current upload-size, page and context limits for your ChatGPT, Claude or Gemini plan on the vendor's help pages, because they change. Review the data-use or privacy settings. If the tool can search the web, turn that off for this chat if you can, so answers come only from the filing. Start a new chat for each company and filing year."
+    },
+    {
+      "name": "Paste the ground-rules prompt first",
+      "text": "Before pasting any filing text, paste the ground-rules prompt from the section below. It tells the AI to use only the text you provide and quote it word for word. The AI must cite the Item, heading and printed page, copy units exactly, and reply NOT FOUND when the answer isn't there. It must also give no buy or sell opinions. Wait for the AI to reply 'Ready' before you continue."
+    },
+    {
+      "name": "Give it one section at a time",
+      "text": "Copy a single Item or note and label it, for example 'Company X, 10-K for fiscal 2025, Item 1A Risk Factors, CURRENT'. Smaller pieces make it less likely that the tool quietly cuts off part of the text, and they keep citations precise. Use the comparison table to see which part of the filing each prompt needs."
+    },
+    {
+      "name": "Run one of the six prompts",
+      "text": "Ask one targeted question per section: business model, risk factor changes, segment revenue, debt maturities, related-party items or accounting policy changes. Avoid 'summarize this filing', which invites vague answers with no sources."
+    },
+    {
+      "name": "Check every quote and number",
+      "text": "Search the original filing for five to eight distinctive words from each quote. Check each number against its table, including the units (thousands or millions) and the year column. Throw out or re-ask anything that doesn't match exactly."
+    },
+    {
+      "name": "Log only what you've checked",
+      "text": "Record each finding with its exact quote, copied from the filing rather than from the AI. Add the Item or note, printed page, filing date and fiscal year. Note follow-up questions to check in later 10-Qs, 8-Ks or the proxy statement. A spreadsheet or notes app is fine, as long as every line traces back to the filing. The log template below shows the fields to use."
+    }
+  ],
+  "comparison": {
+    "caption": "Where to find each answer in a 10-K, and what to double-check",
+    "headers": [
+      "Prompt",
+      "Paste this part of the filing",
+      "Check against",
+      "Common trap"
+    ],
+    "rows": [
+      [
+        "1. Business model",
+        "Item 1 (Business)",
+        "Item 1 wording; the revenue breakdown note in Item 8",
+        "The AI mixes in outside knowledge about the brand or its products"
+      ],
+      [
+        "2. Risk factor changes",
+        "Item 1A from this year's and last year's 10-K",
+        "The two lists of headings side by side; a text-comparison (diff) tool",
+        "Reworded risks reported as new; smaller reporting companies may leave out Item 1A"
+      ],
+      [
+        "3. Segment revenue",
+        "Segment note in Item 8; segment discussion in Item 7 (MD&A)",
+        "Segment totals and the company's reconciliation to total revenue",
+        "Mixing up units (thousands vs millions), year columns or restated prior-year figures"
+      ],
+      [
+        "4. Debt maturities",
+        "Debt note in Item 8; Liquidity and Capital Resources in Item 7; Item 7A for interest-rate exposure",
+        "The maturity schedule table and credit facility terms",
+        "Confusing the debt's balance-sheet value (carrying amount) with the principal to be repaid"
+      ],
+      [
+        "5. Related-party items",
+        "Related-party note; Item 13; the proxy statement (DEF 14A)",
+        "The proxy's section on related person transactions",
+        "Item 13 is often just a pointer to the proxy"
+      ],
+      [
+        "6. Accounting policy changes",
+        "Significant accounting policies note; Critical Accounting Estimates in Item 7; Item 9; auditor's report",
+        "The 'recently adopted' paragraph and any critical audit matters",
+        "Treating a standard that has been issued but not yet adopted as a change"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What a 10-K is and which sections to give the AI",
+      "paragraphs": [
+        "A Form 10-K is the annual report most US public companies must file with the Securities and Exchange Commission (SEC). It combines audited financial statements with management's own account of the business, its risks and its results. You can read it free on the SEC's EDGAR database.",
+        "Every 10-K follows the same numbered structure, which makes it easy to use with AI: you can paste one Item at a time and ask the tool to cite it by name. Smaller reporting companies may cut back some Items, and many foreign companies file a different annual form, such as the 20-F, so check the table of contents first.",
+        "Part III (Items 10–14) is often 'incorporated by reference'. That means the details are in the company's proxy statement, a separate EDGAR filing labelled DEF 14A. If an Item is just a sentence pointing to another document, paste the relevant section of that document instead."
+      ],
+      "bullets": [
+        "Item 1 – Business: what the company sells, to whom, and how it competes.",
+        "Item 1A – Risk Factors: the risks management says could materially affect the company.",
+        "Item 7 – Management's Discussion and Analysis (MD&A): results, cash and borrowing, and critical accounting estimates, in management's words.",
+        "Item 7A – Quantitative and Qualitative Disclosures About Market Risk: exposure to interest rates, currencies and commodities. Smaller reporting companies may leave it out.",
+        "Item 8 – Financial Statements and Supplementary Data: the audited statements, the notes to them and the auditor's report.",
+        "Items 9 and 9A – changes in or disagreements with accountants, and controls and procedures, including any material weaknesses.",
+        "Item 13 – Certain Relationships and Related Transactions, and Director Independence."
+      ]
+    },
+    {
+      "heading": "How to use AI to read a 10-K without trusting it blindly",
+      "paragraphs": [
+        "The safe way to use AI on a 10-K is to make it quote first and summarize second. Every claim must come with the exact sentence it's based on, so you can check it in seconds.",
+        "AI chatbots run on large language models, which generate plausible text rather than looking facts up. With long documents or vague questions, they can mix in outside knowledge, misread a table, or write a sentence that sounds like corporate boilerplate but isn't in the filing. Requiring exact quotes changes the AI's answer from 'trust me' to 'here's where to look.'",
+        "A note on page citations: the page numbers printed in a 10-K often differ from your PDF viewer's count, and pasted text may have none at all. So the prompts ask for the Item and the nearest heading, plus the printed page only if one is visible. The exact quote is the real citation, because you can search for it.",
+        "Paste this ground-rules prompt at the start of every new chat: “I'm going to paste sections of a company's Form 10-K. Rules for this whole conversation: (1) Use only the text I provide; do not use outside knowledge, news, web search or anything you remember about this company. (2) Support every factual claim with a word-for-word quote of one or two sentences in quotation marks, followed by the Item number, the nearest heading, and the printed page number if one appears. (3) If the text does not answer my question, reply NOT FOUND IN PROVIDED TEXT instead of guessing. (4) Copy numbers exactly, including units (such as ‘in millions’) and the date or fiscal year they refer to, and label any figure the company calls non-GAAP or adjusted. (5) Do not offer opinions on whether to buy, sell or hold any security. Reply ‘Ready’ if you understand.”",
+        "If your tool lets you save custom or project instructions, you can store these rules there. Check the vendor's help pages for how this works on your plan."
+      ],
+      "bullets": [
+        "'Use only the text I provide' stops outdated memories and outside news from leaking into answers.",
+        "'Word-for-word quote' makes every claim searchable with Ctrl+F (Cmd+F on a Mac).",
+        "'Reply NOT FOUND' gives the model a permitted way not to answer, which can reduce guessing.",
+        "'Copy units and dates' prevents mix-ups between thousands and millions, and between years."
+      ]
+    },
+    {
+      "heading": "Prompts 1–3: business model, risk factor changes and segment revenue",
+      "paragraphs": [
+        "The first three prompts show how the company makes money, which of its stated risks changed since last year, and which parts of the business bring in revenue. Each answer comes with a quote you can check.",
+        "Prompt 1 — Business model (paste Item 1): “Using only Item 1 above, explain in plain English how this company makes money. List (a) its main products or services, (b) its main types of customer, (c) how it gets paid, for example one-time sales, subscriptions, usage fees or licensing, and (d) any reliance on a few customers, suppliers or a single region that the text mentions. Quote the supporting sentence and heading for each point. Mark anything not stated as NOT FOUND.”",
+        "Prompt 2 — Risk factor changes (paste Item 1A from this year's and last year's 10-K, labelled CURRENT and PRIOR): “Compare the two versions of Item 1A. List (a) risk factor headings that appear only in CURRENT, (b) headings that appear only in PRIOR, and (c) risk factors whose wording changed in a way that changes the meaning. Quote each heading exactly as written and show the changed sentences side by side. Do not rank the risks. If you can't tell whether a risk is new or only reworded, say so.”",
+        "Item 1A can be too long for a tool to handle well in one go. If so, compare it in batches of subheadings. Or run both versions through a free text-comparison (diff) tool first, then ask the AI to explain only the passages the diff tool flags. A diff tool is better at catching every change, while the AI is better at explaining what a change means.",
+        "Prompt 3 — Segment revenue (paste the segment note from Item 8 and the segment discussion in Item 7): “Build a table of each reportable segment's revenue and the segment profit measure for every year shown. Copy numbers exactly, state the units from the table heading, and name the note number and title. Quote the sentences that explain how the company defines its segments and which profit measure its chief operating decision maker uses. Do not calculate growth rates unless I ask; if I do, show the arithmetic.”"
+      ],
+      "bullets": [
+        "Check that the segment revenues add up to total company revenue, or to the reconciliation table the company provides.",
+        "Companies sometimes redefine their segments and restate prior years to match, so last year's 10-K may show different figures for the same year. Make sure you're comparing the same things."
+      ]
+    },
+    {
+      "heading": "Prompts 4–6: debt maturities, related-party items and accounting policy changes",
+      "paragraphs": [
+        "The last three prompts dig into the notes and the documents the 10-K points to. These cover details that rarely make headlines: when debt comes due, deals with insiders, and changes in how the numbers are measured.",
+        "Prompt 4 — Debt maturities (paste the debt note from Item 8 and Liquidity and Capital Resources from Item 7): “List (a) each loan, bond or note with its principal amount, interest rate and maturity date as written, (b) scheduled principal repayments by year, (c) each credit facility with its size, amount drawn and expiry date, and (d) any covenants described, meaning conditions the company must meet under its loan agreements. Quote the source sentence or table row for each item and name the note. If a stated total doesn't equal the sum of its parts, flag it rather than correcting it.”",
+        "Prompt 5 — Related-party items (paste the related-party note if there is one, plus Item 13; if Item 13 points to the proxy, also paste the proxy's section on related person transactions): “List every transaction, agreement or balance involving related parties, such as directors, executive officers, major shareholders, their family members or businesses they control. For each, quote the text, name the parties as written, give the amount and period if stated, and cite the section. If a section says information is incorporated by reference, give that document's name exactly as written instead of guessing its contents.”",
+        "Prompt 6 — Accounting policy changes (paste the significant accounting policies note, any section on recently adopted or issued accounting standards, Critical Accounting Estimates from Item 7, Item 9 and the auditor's report): “List every change in accounting policy, estimate or presentation described for the current year, including newly adopted standards, changes in estimates such as useful lives, reclassifications and restatements. Quote the text, name the section, and quote the effect the company describes. Keep standards that are issued but not yet adopted in a separate list. Then list any critical audit matters in the auditor's report. If no changes are described, say NOT FOUND.”"
+      ],
+      "bullets": [
+        "Debt is often shown at its carrying amount, after subtracting discounts and issuance costs. That can differ from the principal the company will actually repay.",
+        "An answer of 'no related-party items' only means something if you pasted every place they could appear: the notes, Item 13 and the proxy.",
+        "Not every auditor's report lists critical audit matters. Emerging growth companies, for example, are exempt, so check before reading anything into their absence."
+      ]
+    },
+    {
+      "heading": "How to spot made-up answers (hallucinations)",
+      "paragraphs": [
+        "A hallucination is something the AI presents as fact that the source doesn't support. With a 10-K, you catch it by checking whether each quote really exists in the filing and says what the AI claims.",
+        "Run the Ctrl+F test on every quote: search the original filing for five to eight distinctive words from it. If nothing matches, or the match says something different, treat the whole answer as unchecked.",
+        "Before relying on a chat, ask one 'canary' question that you know the pasted section can't answer, such as revenue for a year the filing doesn't cover. A tool that's sticking to the text replies NOT FOUND. If it makes up an answer, tighten the prompt, paste a smaller piece, or start a new chat.",
+        "When you catch an error, point it out and ask the AI to quote the text again. If the mistake repeats, paste a smaller section into a fresh chat. Always correct your notes from the filing itself, never from the AI's 'corrected' answer."
+      ],
+      "bullets": [
+        "Quotes that only partly match, or that stitch distant sentences together with ellipses.",
+        "Item numbers or headings that aren't in the table of contents.",
+        "Numbers without units, or figures taken from the wrong year's column.",
+        "Non-GAAP or 'adjusted' figures presented as if they were standard GAAP results.",
+        "Facts you never pasted, such as recent news, share prices or executives' names.",
+        "Percentages or totals with no arithmetic shown.",
+        "Answers that get vaguer, or more confident, deep into a long conversation."
+      ]
+    },
+    {
+      "heading": "How to keep a research log of checked findings",
+      "paragraphs": [
+        "A research log turns checked quotes into notes you can trust later. Make one entry per finding, each traceable to a specific place in the filing.",
+        "Copy quotes from the filing itself, not from the AI's answer, so a subtle misquote can't slip into your notes. A spreadsheet is enough for most readers. A database tool helps if you follow many companies across several years.",
+        "Example entry, with placeholders: Company X | 10-K, fiscal 2025, filed [date] | Finding: the revolving credit facility expires in [year] | Quote: “[exact sentence]” | Source: Item 8, Note [n], Debt, printed page [p] | Checked: [date] | Follow-up: any borrowing under the facility disclosed in the next 10-Q?"
+      ],
+      "bullets": [
+        "Company, form type (10-K or 10-K/A), fiscal year and filing date.",
+        "Finding: one plain-English sentence in your own words.",
+        "Exact quote, pasted from the filing.",
+        "Source: Item, note number and title, and printed page if shown.",
+        "Date you checked it with Ctrl+F.",
+        "Follow-up question and where you'll look: a 10-Q, an 8-K or the proxy."
+      ]
+    },
+    {
+      "heading": "File-size limits, formats and settings to check before you upload",
+      "paragraphs": [
+        "ChatGPT, Claude and Gemini all accept pasted text and uploaded files, but their file-size, page and context limits differ by plan and change often. Check each vendor's current help pages before uploading a full 10-K.",
+        "A large company's 10-K can run well past a hundred pages. When a document is more than a tool can take in at once, the tool may cut it off or search only parts of it, often without telling you. Pasting one section at a time avoids that problem and keeps citations precise."
+      ],
+      "bullets": [
+        "Format: EDGAR filings are usually web pages (HTML). Copy a single Item directly, or save a PDF with your browser's print function.",
+        "Tables: copying and pasting can scramble columns. Spot-check a few rows, or use the Interactive Data view that EDGAR offers for many filings.",
+        "Web search: if your tool can browse the web, turn that off for this chat where you can, so outside sources don't creep into answers.",
+        "Privacy: 10-Ks are public, but review your tool's data-use settings and never paste personal account details.",
+        "Chats: start a new conversation for each company and filing year so details don't carry over."
+      ]
+    },
+    {
+      "heading": "Why AI is a reading aid, not a source of investment advice",
+      "paragraphs": [
+        "AI can help you find and understand what a company disclosed, but it can't tell you whether a security suits your goals. It should never be the only basis for an investment decision.",
+        "A 10-K looks backward, and much of it is written in management's own framing. The financial statements are audited, but the MD&A and risk factors aren't audited in the same way. An AI summary adds another layer of interpretation on top, and that layer can contain errors.",
+        "Investing involves risk, including losing money you invest, and fees, taxes and investor protections differ by country. Use what you've checked as one input alongside other filings such as 10-Qs, 8-Ks and the proxy statement. For personal decisions, talk to a licensed financial adviser or check your local regulator's guidance."
+      ],
+      "bullets": [
+        "Don't ask the AI for price targets, ratings or buy/sell calls. The ground rules exclude them for a reason.",
+        "Treat any ratio or growth rate the AI calculates as a draft until you've redone the arithmetic yourself."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Readers who follow several companies and want their research log in a database. Each entry holds one checked finding with its exact quote, Item or note, printed page, filing date and fiscal year, and you can filter entries by company and year.",
+      "not_for": "Checking the filing for you. Notion's built-in AI can make the same grounding mistakes as any chatbot, so check every quote against the filing on EDGAR. If you read only a filing or two a year, a simple spreadsheet is enough. Confirm current plans and AI pricing on Notion's website."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT read a 10-K?",
+      "answer": "Yes. ChatGPT, like Claude and Gemini, can read pasted 10-K text or an uploaded file, within limits that depend on your plan and change over time. Accuracy tends to drop with very long documents and vague questions, so paste one section at a time and require word-for-word quotes you can check in the original filing."
+    },
+    {
+      "question": "Which AI is best for reading a 10-K?",
+      "answer": "No tool stays best for long, because models, limits and features change often. Test each tool on a section you know well: run the six prompts plus a 'canary' question that the text can't answer. Choose the one that quotes accurately and replies NOT FOUND when it should."
+    },
+    {
+      "question": "Where can I download a company's 10-K for free?",
+      "answer": "SEC EDGAR at sec.gov hosts electronically filed 10-Ks free of charge. Search by company name or ticker, filter the filing type to 10-K, and open the main document from the filing index. Many companies also post their 10-Ks on their investor relations websites."
+    },
+    {
+      "question": "How do I know if an AI summary of a 10-K is wrong?",
+      "answer": "Search the original filing for distinctive words from each quote the AI gives you. If the quote isn't there, the numbers don't match the table, or the units or year differ, treat the answer as unchecked. Information you never pasted, such as recent news or share prices, is another warning sign."
+    },
+    {
+      "question": "Can AI calculate financial ratios from a 10-K?",
+      "answer": "It can, but treat its arithmetic as a draft. A safer approach is to have the AI pull out the inputs with quotes and units, then do the calculation yourself in a spreadsheet. Watch for mixed units, wrong year columns and non-GAAP figures used in place of standard ones."
+    },
+    {
+      "question": "Can AI tell me whether to buy a stock after reading its 10-K?",
+      "answer": "It shouldn't, and you shouldn't rely on it if it tries. AI can help you find and understand disclosures, but it doesn't know your goals, risk tolerance or tax situation, and it can make mistakes. For personal investment decisions, consult a licensed financial adviser."
+    }
+  ],
+  "conclusion": "AI won't read a 10-K for you, but it can make you a faster and more thorough reader, as long as every answer comes with a quote you can check. Download the filing from EDGAR, paste the ground rules, give the AI one section at a time, run the six prompts, and Ctrl+F every quote before it goes into your log. Practise first on a company you already know, so you can judge how closely your chosen tool sticks to the text. Treat what you learn as information, not a recommendation. Investing carries risk, rules and tax treatment vary by country, and decisions about your own money are worth discussing with a licensed adviser.",
+  "keyword": "how to use ai to read a 10-k",
+  "niche": "AI tools for investing research and personal finance",
+  "version": 2,
+  "slug": "how-to-use-ai-to-read-a-10-k-6-prompts-that-quote-the-filing",
+  "published": "2026-10-08T16:59:23+00:00"
+}

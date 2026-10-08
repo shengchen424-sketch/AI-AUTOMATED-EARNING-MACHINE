@@ -1,0 +1,267 @@
+{
+  "title": "ChatGPT Prompts for Excel Formulas: 7 Templates + How to Test",
+  "meta_description": "Copy 7 ChatGPT prompts for Excel formulas (lookups, SUMIFS, dates, text cleanup, errors) plus a 4-step routine to test every answer before you trust it.",
+  "quick_answer": "The best ChatGPT prompts for Excel formulas describe your sheet before asking for anything: your app and version, sheet name, column letters, data types, a few made-up sample rows and the output cell. Then state the task, ask for the formula plus an explanation and its edge cases, and test it on rows where you already know the answer before trusting it. Works in Claude and Gemini too.",
+  "key_takeaways": [
+    "Start every formula prompt with a 'describe your columns' block: app and version, ranges, data types, made-up sample rows and the output cell.",
+    "Ask for three things: the formula on one line, a plain-English explanation of each part, and the edge cases it won't handle.",
+    "Don't trust an AI formula until it matches answers you worked out by hand on 5–10 test rows, including blanks and boundary dates.",
+    "Name your exact app and version. Excel 2019, Excel for Microsoft 365 and Google Sheets support different functions.",
+    "When a formula fails, stay in the same chat and quote the exact row, input and result that went wrong.",
+    "Use dummy data. Never paste client names, account numbers or salaries into a chatbot."
+  ],
+  "who_this_is_for": "This guide is for small-business owners, bookkeepers, analysts and freelancers who work in Excel or Google Sheets and want an AI assistant to write, fix or explain formulas without being caught out by wrong answers.",
+  "intro": "AI assistants can write good spreadsheet formulas, but only when they know what your sheet looks like. Ask ChatGPT \"how do I sum sales by region?\" and you'll get a textbook answer with made-up column letters. Describe your actual layout and you'll get a formula you can paste straight into cell H2. This guide gives you seven copy-and-paste prompt templates for the formula jobs people ask about most: lookups, conditional sums, date math, text cleanup, dynamic arrays, fixing errors and explaining formulas you've inherited. Each template starts with a reusable block that describes your columns. You'll also find a table for picking the right template, a four-step routine for proving a formula is right, and follow-up prompts that fix the most common failures. Everything is plain text, so it works in ChatGPT, Claude, Gemini or any other chat assistant.",
+  "steps": [
+    {
+      "name": "Pick the template that matches your job",
+      "text": "Use the table below to choose one of the seven templates: lookup, conditional sum, date math, text cleanup, dynamic array, error fix or explain-a-formula. If your task mixes two jobs, send them as separate prompts so each answer is easier to test."
+    },
+    {
+      "name": "Fill in your 'describe your columns' block",
+      "text": "Write down your app and version, language and argument separator, sheet name, data range, each column's letter and data type, and the cell where the result goes. Do this once per workbook and save it so you can reuse it."
+    },
+    {
+      "name": "Swap real data for dummy values",
+      "text": "Replace client names, IDs, amounts and dates with made-up values in the same format. The AI needs the structure of your data, not the real records."
+    },
+    {
+      "name": "Send the prompt and ask for a complete answer",
+      "text": "Paste your column block into the template. Ask for the formula on one line, one sentence explaining each part, the inputs it won't handle, and a fallback in case your version lacks any function it uses."
+    },
+    {
+      "name": "Paste the formula into a copy of your file",
+      "text": "Test it on a duplicate tab or a copy of the workbook. Never test on the live file that feeds your reports or invoices."
+    },
+    {
+      "name": "Run the 4-step check",
+      "text": "Build test rows with known answers, compare them using a check column, stress the edge cases, and cross-check the total with a filter or a PivotTable. If anything fails, send a follow-up prompt in the same chat that quotes the exact row, input and result."
+    },
+    {
+      "name": "Document and save",
+      "text": "Add a cell note that says what the formula does and the date you checked it. Then save the filled-in prompt next to your column block so you can reuse it."
+    }
+  ],
+  "comparison": {
+    "caption": "Which of the 7 prompt templates to use, and the first test row to add (function availability varies by app and version, so check yours)",
+    "headers": [
+      "Template",
+      "Use it when",
+      "Functions the AI will likely suggest",
+      "First test row to add"
+    ],
+    "rows": [
+      [
+        "1. Lookup",
+        "You need a value from another sheet or table, matched by ID",
+        "XLOOKUP, or INDEX/MATCH in older Excel versions",
+        "An ID that doesn't exist, and an ID with a trailing space"
+      ],
+      [
+        "2. Conditional sum",
+        "You need totals by region, status or date range",
+        "SUMIFS, plus COUNTIFS to check how many rows were included",
+        "A date that falls exactly on the start or end boundary"
+      ],
+      [
+        "3. Date math",
+        "You need due dates, days overdue or working days",
+        "TODAY, NETWORKDAYS, EOMONTH, MAX",
+        "An invoice that isn't due yet, and a date stored as text"
+      ],
+      [
+        "4. Text cleanup",
+        "Imported names have messy spacing or capitals",
+        "TRIM, SUBSTITUTE, PROPER",
+        "A non-breaking space, and a word that should stay in capitals (e.g. USB)"
+      ],
+      [
+        "5. Dynamic array",
+        "You want a list or ranking that updates itself",
+        "UNIQUE, FILTER, SORT or SORTBY, SUMIFS (Microsoft 365, Excel 2021+ or Google Sheets)",
+        "A new unpaid row added at the bottom"
+      ],
+      [
+        "6. Fix an error",
+        "A formula returns #N/A, #VALUE! or a wrong number",
+        "Depends on the cause; often TRIM, VALUE or a corrected range",
+        "The exact row that failed, with expected and actual results"
+      ],
+      [
+        "7. Explain a formula",
+        "You've inherited a formula you don't understand",
+        "LET, to name each step of a long formula",
+        "One row worked through by hand"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Start every prompt with a 'describe your columns' block",
+      "paragraphs": [
+        "A 'describe your columns' block is a short, reusable description of your sheet's layout. Paste it at the top of every formula prompt so the AI writes references to your actual cells instead of guessing.",
+        "Without this block, the assistant has to guess where your headers are, which column holds what, whether your dates are real dates or text, and which version of Excel you use. Each wrong guess gives you a formula that either returns an error or, worse, returns a believable wrong number.",
+        "Write the block once for each workbook and keep it in a notes file. Use made-up sample values that have the same shape as your real data, with the same ID format and the same kinds of blank cells. Write sample dates as YYYY-MM-DD (for example 2026-01-03) so the AI can't mix up day and month. Copy the block below and replace everything in square brackets."
+      ],
+      "bullets": [
+        "App and version: [Excel for Microsoft 365 / Excel 2019 / Google Sheets]. Language and separator: [English, commas between arguments].",
+        "Sheet: [Sales]. Headers in row 1, data in A2:F[500], new rows added at the bottom. (Or: the data is an Excel Table named [tblSales].)",
+        "Columns: A = Order Date (real dates), B = Client ID (text, e.g. C-1042), C = Region (North/South/East/West), D = Product (text), E = Amount (number, 2 decimals), F = Status (Paid/Unpaid; some blank).",
+        "Sample rows (dummy data): 2026-01-03 | C-1042 | North | Widget | 250.00 | Paid; 2026-01-05 | C-2210 | South | Gadget | 99.50 | (blank).",
+        "Result goes in: [H2], filled down to the last row.",
+        "Answer format: the formula on one line, one sentence explaining each part, the edge cases it won't handle, and an alternative if my version lacks a function you use."
+      ]
+    },
+    {
+      "heading": "ChatGPT prompts for Excel formulas: templates 1–4",
+      "paragraphs": [
+        "Templates 1–4 cover the everyday formula jobs: lookups, conditional totals, date math and text cleanup. Paste your column block where it says [COLUMN BLOCK], replace the other bracketed parts and send.",
+        "Each template builds in three useful habits. Criteria sit in cells such as J1 to J3, so you can change them without editing the formula. Each template asks for a fallback in case your version lacks a newer function. And each one asks the AI to list its own edge cases, which gives you a ready-made set of test rows.",
+        "For text cleanup, put the formula in a helper column next to the original data rather than overwriting it. Once the cleaned values pass your checks, you can copy the helper column and paste it over the original using Paste Special > Values."
+      ],
+      "bullets": [
+        "Template 1 (Lookup): \"[COLUMN BLOCK] A second sheet called [Clients] has Client ID in column A and Account Manager in column C. In [G2] on the Sales sheet, return the Account Manager for the Client ID in B2. Use an exact match. If the ID isn't found, show 'Not found' instead of an error. Use XLOOKUP if my version has it; otherwise use INDEX/MATCH.\"",
+        "Template 2 (Conditional sum): \"[COLUMN BLOCK] Write a formula that totals Amount (column E) where Region equals the value in [J1], Status is 'Paid', and Order Date falls between the dates in [J2] and [J3], inclusive. Reference the criteria cells instead of typing values into the formula. Then give me the matching COUNTIFS formula so I can check how many rows were included.\"",
+        "Template 3 (Date math): \"[COLUMN BLOCK] Column A holds invoice dates and payment terms are [30] days. Write formulas for: (1) the due date; (2) days overdue as of today, showing 0 if it isn't due yet; (3) working days from the invoice date to today, excluding weekends and the holidays in [Holidays!A2:A20]; (4) the last day of the invoice month. Tell me how to format each result cell.\"",
+        "Template 4 (Text cleanup): \"[COLUMN BLOCK] Column D holds product names imported from another system, with extra spaces, inconsistent capitals and possibly non-breaking spaces. Examples: '  blue WIDGET  -large' and 'Blue widget- Large'. Write one formula that returns a clean version such as 'Blue Widget - Large'. List any inputs your formula would get wrong.\""
+      ]
+    },
+    {
+      "heading": "Templates 5–7: dynamic arrays, broken formulas and inherited sheets",
+      "paragraphs": [
+        "Templates 5–7 handle the harder jobs: building lists that update themselves, working out why a formula returns an error, and decoding a formula someone else wrote.",
+        "Template 6 works best when you include one concrete failing row: the input value, what you expected and what you got. That single example helps the AI tell apart common causes such as trailing spaces, numbers stored as text, or a lookup range that stops short of your data.",
+        "With Template 7, don't replace the original formula straight away. Put the simplified version in the next column, fill both formulas down, and add a check column such as =G2=H2 to confirm they agree on every row before you swap.",
+        "Dynamic arrays work differently depending on your app and version. In Excel for Microsoft 365 and Excel 2021 or later, results spill into neighbouring cells, and you'll see #SPILL! if anything is in the way. Google Sheets shows #REF! when an array result would overwrite existing data. Excel 2019 and earlier can't spill results at all."
+      ],
+      "bullets": [
+        "Template 5 (Dynamic array): \"[COLUMN BLOCK] In [L2], write one formula that lists each Client ID with Unpaid status once, sorted by total unpaid Amount from highest to lowest, with the total in the next column. It must update when rows are added. Tell me how much empty space the result needs and what error appears if something blocks it.\"",
+        "Template 6 (Fix an error): \"[COLUMN BLOCK] This formula in [G2] returns [#N/A / #VALUE! / a wrong number]: [PASTE FORMULA]. Example: in row 7, B7 is 'C-1042'. I expected 'Manager A' but got #N/A. List the likely causes from most to least probable, tell me how to confirm each one in my sheet, then give me the corrected formula. Don't wrap it in IFERROR without telling me which errors that would hide.\"",
+        "Template 7 (Explain an inherited formula): \"[COLUMN BLOCK] I inherited this formula in [cell]: [PASTE FORMULA]. Explain (1) what it returns, in one sentence; (2) each part, from the innermost function outward; (3) any hard-coded numbers or fixed ranges that could break as the data grows; (4) a simpler equivalent that gives identical results, if one exists. Ask me if any reference is unclear.\""
+      ]
+    },
+    {
+      "heading": "How to check an AI-written formula: the 4-step routine",
+      "paragraphs": [
+        "To check an AI-written formula, run it on rows where you already know the right answer, compare the results automatically, stress the edge cases, and cross-check the full total with a second method.",
+        "AI-written formulas usually fail quietly. An error message is easy to spot, but a believable number pulled from the wrong rows is not. For a simple formula this routine takes a few minutes, and afterwards you know the formula works instead of hoping it does.",
+        "To see how a formula reaches its answer in desktop Excel, go to Formulas > Evaluate Formula and step through the calculation one part at a time. In Google Sheets, or for very long formulas, split the formula into helper cells or ask the AI to rewrite it with LET so each step has a name."
+      ],
+      "bullets": [
+        "Step 1: Build test rows with known answers. In a copy of the sheet, set up 5–10 rows and work out the correct results by hand. Include tricky cases: a blank cell, a number stored as text, a date exactly on a boundary, a duplicate ID and a value that shouldn't match anything.",
+        "Step 2: Compare automatically. Put your hand-worked answers in a column next to the formula results and add a check column, such as =H2=I2 for text or =ROUND(H2-I2,2)=0 for numbers. Every row should show TRUE.",
+        "Step 3: Stress the edges. Add a row at the bottom, delete one in the middle, sort the data, change a criteria cell and fill the formula down again. If the results break, look for fixed ranges like A2:A100 or missing $ signs on references that should stay locked.",
+        "Step 4: Cross-check with a second method. Filter the data and compare the total, build a quick PivotTable, or ask the AI for a formula built a different way (for example SUM of FILTER instead of SUMIFS). When two independent methods agree, you can trust the result much more."
+      ]
+    },
+    {
+      "heading": "Common failures and the follow-up prompt that fixes each",
+      "paragraphs": [
+        "Most bad AI formulas fail for one of six predictable reasons, and each one has a short follow-up prompt that fixes it without starting over.",
+        "Stay in the same conversation so the AI still has your column block and its earlier answer. Always quote the exact cell, input and result that went wrong."
+      ],
+      "bullets": [
+        "#NAME? error: the function doesn't exist in your version, is misspelled, or is in the wrong language. Follow up: \"I'm on [Excel 2019]. Rewrite this without [XLOOKUP], using only functions my version supports.\"",
+        "Fixed ranges: a range like A2:A100 silently ignores row 101. Follow up: \"Rewrite this using an Excel Table reference or a range that grows when I add rows.\"",
+        "Text that looks like numbers or dates: imported values won't match in lookups or work in date math. Check with =ISNUMBER(A2). Follow up: \"Column A holds dates stored as text in DD/MM/YYYY format. Add a conversion step.\"",
+        "Missing $ signs: the lookup range shifts as you fill down, so rows further down return wrong results. Follow up: \"Which references should be absolute? Add the $ signs and explain why.\"",
+        "IFERROR everywhere: real problems turn into blanks or zeros. Follow up: \"Remove IFERROR and handle only the 'not found' case explicitly.\"",
+        "A confident but wrong explanation: if the AI's description doesn't match a test row, trust the row. Follow up: \"Row 7 should return 250 but returns 0. Walk through the formula for row 7 step by step.\""
+      ]
+    },
+    {
+      "heading": "Excel vs Google Sheets: what to tell the AI",
+      "paragraphs": [
+        "Excel and Google Sheets share most everyday functions, but they differ on newer functions, array behaviour, error messages and separators. Always name your app and version in the prompt.",
+        "Versions matter within Excel too. XLOOKUP, FILTER, UNIQUE, SORT and LET are available in Excel for Microsoft 365 and Excel 2021 or later, but not in Excel 2019 or earlier. Some text functions, such as TEXTSPLIT, arrived even later. If colleagues on older versions open your files, ask the AI to stick to INDEX, MATCH and SUMIFS, which work almost everywhere.",
+        "Google Sheets has functions Excel lacks, such as QUERY, which filters and summarises data using SQL-style syntax. Use them if the file will stay in Sheets, and ask the AI to avoid them if the file might move to Excel.",
+        "Regional settings change formula syntax. Many European locales separate arguments with semicolons instead of commas, and non-English versions of Excel use translated function names. In Google Sheets you'll find the locale under File > Settings. Add whichever line below fits your setup to your column block."
+      ],
+      "bullets": [
+        "Excel for Microsoft 365: \"Use dynamic array functions if they are the simplest option.\"",
+        "Excel 2019 or older: \"Don't use XLOOKUP, FILTER, UNIQUE, SORT, LET or TEXTSPLIT.\"",
+        "Google Sheets: \"Give me Google Sheets syntax only, and tell me if ARRAYFORMULA is needed.\"",
+        "Shared files: \"The formula must work in both Excel and Google Sheets.\"",
+        "Semicolon locales: \"Use semicolons as argument separators.\""
+      ]
+    },
+    {
+      "heading": "Keep sensitive client data out of your prompts",
+      "paragraphs": [
+        "Never paste sensitive client or employee data into an AI chat to get a formula. The AI only needs your sheet's structure and a few made-up rows, not the real records.",
+        "To anonymise data quickly, replace names with codes like Client A or C-1042, round or invent the amounts, and shift dates while keeping their format. If your formula depends on a pattern, such as IDs that always start with two letters, keep the pattern and change the content.",
+        "Check your employer's AI policy before you use any chatbot with work files, and review the data controls in the tool itself. Many tools let you choose whether your conversations can be used for training, and business plans often come with different data terms. These settings change, so confirm the current details on each vendor's site."
+      ],
+      "bullets": [
+        "Client and employee names, email addresses, phone numbers and home addresses",
+        "Bank details, account numbers, card numbers and tax IDs",
+        "Salaries, invoices linked to named clients, and health or HR records",
+        "Whole workbooks, unless your organisation has approved the tool for that data"
+      ]
+    },
+    {
+      "heading": "When a formula isn't the right tool",
+      "paragraphs": [
+        "A formula isn't the right fix when you're using a spreadsheet for a job that dedicated software does better, such as running your books, retyping data from other apps, or keeping a team's prompts in scattered files.",
+        "If you track invoices, overdue payments and expense categories with formulas you built yourself, accounting software such as QuickBooks Online handles invoicing and categorisation directly. You can still export its reports to Excel for analysis.",
+        "If you paste rows into a sheet from forms, online stores or email every day, an automation tool such as Zapier or Make can add them for you. Zapier is usually the easier place to start, and Make's visual builder is often cheaper for high-volume workflows. Compare current plans and pricing on each vendor's site.",
+        "If several people reuse the same column blocks and templates, keep them in a shared workspace such as Notion so everyone starts from prompts that have already been tested."
+      ],
+      "bullets": []
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners and bookkeepers who track invoices, overdue payments and expense categories with home-made spreadsheet formulas and want that work handled by accounting software.",
+      "not_for": "Analysts building custom models, or businesses already happy with another accounting system. It also doesn't replace advice from an accountant."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "People who copy rows into Excel or Google Sheets by hand every day from forms, online stores or email, and want a beginner-friendly way to automate it.",
+      "not_for": "Writing or checking formulas, since it moves data but doesn't verify your maths. It's also overkill for one-off analyses that never repeat."
+    },
+    {
+      "product": "Make",
+      "best_for": "Higher-volume or multi-step data flows into spreadsheets, where a visual builder and a lower cost per run matter. Compare current pricing against Zapier for your volume.",
+      "not_for": "Complete beginners who want the simplest possible setup, or anyone whose problem is a single formula rather than a recurring data flow."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Teams that want one shared, searchable place for column blocks, tested prompt templates and notes on which formulas were checked and when.",
+      "not_for": "The calculations themselves. Notion doesn't replace Excel or Google Sheets for formulas on large datasets."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT write Excel formulas accurately?",
+      "answer": "ChatGPT and similar assistants usually handle common formulas well, such as lookups, SUMIFS and date calculations, when they know your exact layout. They can still choose functions your version doesn't have, misread your data types or miss edge cases. Treat every formula as a draft until it passes a test on rows where you already know the answer."
+    },
+    {
+      "question": "Do these prompts work in Google Sheets?",
+      "answer": "Yes. Put \"Google Sheets\" in the app line of your column block and ask for Google Sheets syntax only. Most common functions work the same way, but array handling, some newer functions and error messages differ, so test in the app you'll actually use."
+    },
+    {
+      "question": "Is it safe to upload my spreadsheet to ChatGPT?",
+      "answer": "It isn't wise for files that contain client, employee or financial details, unless your organisation has approved the tool for that data. You rarely need to upload the file anyway: describe the columns and include a few made-up sample rows instead. Check your employer's policy and the tool's data settings before you share any work file."
+    },
+    {
+      "question": "Can I give ChatGPT a screenshot of my spreadsheet instead?",
+      "answer": "Often, yes. Many AI assistants accept image uploads and can read column headers from a screenshot. However, they can misread small text, merged cells or column letters, and a screenshot of real data carries the same privacy risk as pasting it. A typed column block with dummy rows is usually more reliable. If you do use a screenshot, crop it to the headers and a few anonymised rows."
+    },
+    {
+      "question": "Which is better for Excel formulas: ChatGPT, Claude or Gemini?",
+      "answer": "There's no permanent winner, because each model is updated regularly and all three handle everyday formulas. How precisely you describe your sheet and how carefully you test matter more than which assistant you choose. If your Microsoft 365 plan includes Copilot in Excel, it can work inside the workbook itself, so check your plan and your organisation's settings."
+    },
+    {
+      "question": "Why does the formula ChatGPT gave me show #NAME?",
+      "answer": "#NAME? means your spreadsheet doesn't recognise something in the formula. Usually it's a function your version doesn't have, a typo, a function name in the wrong language, or text that's missing its quotation marks. Tell the AI your exact app, version and language, and ask for an alternative that uses older functions."
+    }
+  ],
+  "conclusion": "Getting good formula help from AI comes down to two habits: describe your sheet precisely, and check the answer before you trust it. Save a column block for each workbook you use often, and keep the seven templates and the follow-up prompts somewhere you can copy them quickly. Run the four-step check every time a formula will feed a report, an invoice or a decision. The AI can write the first draft, but you're still responsible for the numbers.",
+  "keyword": "chatgpt prompts for excel formulas",
+  "niche": "ChatGPT, Claude and Gemini guides and prompts for work and money",
+  "version": 2,
+  "slug": "chatgpt-prompts-for-excel-formulas-7-templates-how-to-test",
+  "published": "2026-10-08T16:58:25+00:00"
+}

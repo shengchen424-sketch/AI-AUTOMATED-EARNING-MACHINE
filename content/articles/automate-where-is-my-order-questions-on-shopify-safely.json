@@ -1,0 +1,272 @@
+{
+  "title": "Automate 'Where Is My Order?' Questions on Shopify, Safely",
+  "meta_description": "Automate where is my order questions on Shopify: a step-by-step bot setup with identity checks, delay flows, escalation rules and a delay template.",
+  "quick_answer": "To automate 'where is my order?' questions on Shopify, clean up your tracking data, then connect a chat tool such as Tidio to your store. Verify each customer by matching their order number with their checkout email, and have the bot reply with the order's status, carrier and tracking link. Add flows for delays, lost parcels and wrong addresses, and hand off to a person when preset triggers fire.",
+  "key_takeaways": [
+    "Check identity before sharing anything. Show order details only when the order number and checkout email belong to the same order, because order numbers run in sequence and are easy to guess.",
+    "Write one answer for each order status, then add separate flows for delays, lost parcels and wrong addresses.",
+    "Let the bot collect the facts on lost parcels and address changes. Keep reshipments, refunds and address edits with a person.",
+    "Set your escalation triggers as numbers before launch: a delay threshold, a no-scan threshold, a limit on failed identity checks and a rule for repeat contacts.",
+    "Fix tracking data in Shopify first. The bot can only repeat what the carrier reports.",
+    "Check Tidio's current Shopify features and plan limits on its website before you design your flows."
+  ],
+  "who_this_is_for": "This guide is for Shopify store owners and small support teams who answer 'where is my order?' messages every day and want a chatbot to take them over without exposing customer data or mishandling the tricky cases.",
+  "intro": "Every Shopify store gets the same message in dozens of forms: 'Where's my order?', 'Has it shipped?', 'My tracking hasn't moved in days.' The answer is usually already in Shopify. But someone still has to look it up, paste a link and reassure the customer, over and over.\n\nThis guide shows how to hand that routine work to a chatbot while your team keeps the judgment calls. The main example is Tidio connected to Shopify, but the same setup works with most chat tools. The bot checks who the customer is and reads the order status. It then picks the right answer for tracking, delays, lost parcels or wrong addresses, and passes the chat to a person when one of your rules says so. You'll also get a list of escalation triggers and a delay message you can adapt.\n\nOne caveat up front: a bot can only repeat what Shopify and the carrier report. If your tracking data is patchy, the bot's answers will be patchy too, so part of this job is fixing the data.",
+  "steps": [
+    {
+      "name": "Measure how many order-status questions you get",
+      "text": "Tag your last 100 or so support conversations by topic: order status, delay, lost parcel, address change, returns and other. Note how many arrive outside working hours. This shows how big the problem really is and which exceptions to build for first. It also gives you a baseline to compare against after launch."
+    },
+    {
+      "name": "Fix tracking data and shipping emails in Shopify",
+      "text": "In Shopify admin, open about 20 recently fulfilled orders. Check that each fulfillment has a tracking number and the correct carrier. If a 3PL, dropshipping supplier or fulfillment app ships for you, confirm that tracking syncs back to Shopify automatically. Then review the shipping emails under Settings > Notifications so customers get tracking without having to ask."
+    },
+    {
+      "name": "Write your shipping rules as numbers",
+      "text": "Write down five rules: your processing time, your delivery estimates by region or shipping method, a delay threshold, a lost-parcel (no-scan) threshold and a cutoff for address changes. The bot needs exact numbers such as 'three business days'. It can't apply a rule like 'a little while'."
+    },
+    {
+      "name": "Connect Tidio to Shopify",
+      "text": "Install Tidio from the Shopify App Store and connect your store. On Tidio's pricing page and help center, check which plan includes Shopify order lookups, Flows and Lyro AI conversations. Also check the current usage limits and which order fields each option can read."
+    },
+    {
+      "name": "Build the identity check",
+      "text": "Ask for the order number and the checkout email, and continue only if both match the same order. Test that the check accepts the order number with or without the # sign, and emails typed in capitals. After two failed attempts, hand the chat to a person."
+    },
+    {
+      "name": "Write an answer for each order status",
+      "text": "If your plan includes Tidio's order-status template, start from it. Make sure there's a separate reply for each status: unfulfilled, partially fulfilled, in transit, out for delivery, delivered, and on hold or not found. You can use the example wording later in this guide."
+    },
+    {
+      "name": "Add flows for delays, lost parcels and wrong addresses",
+      "text": "To spot a delay, compare today's date with the estimated delivery date, and send the delay message if the order is late. For lost parcels and address changes, have the bot collect the details and pass the case to a person instead of resolving it on its own."
+    },
+    {
+      "name": "Set escalation triggers and the handoff",
+      "text": "Define the exact conditions that send a chat to a person. Make sure the handoff passes on the order number, the verified email, the order status, the latest tracking update and a summary of what the bot has already said. Also decide what happens outside working hours, such as taking the customer's email and promising a reply time."
+    },
+    {
+      "name": "Test every branch before launch",
+      "text": "Run test or real orders in every status through the bot. Try a wrong email, a mistyped order number, an order shipped in two parcels, an angry message and a request for a person. Fix every answer that's confusing or wrong before customers see it."
+    },
+    {
+      "name": "Launch, then review weekly",
+      "text": "For the first month, read a sample of transcripts every week. Track how many order-status chats ended without a handoff, why chats escalated, and how often customers came back about the same order. Adjust your wording and thresholds based on what you find."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to handle 'where is my order?' questions on a Shopify store. Most stores combine proactive notifications with one chat option. Setup effort is a rough relative guide.",
+    "headers": [
+      "Approach",
+      "Best at",
+      "Weak spots",
+      "Setup effort"
+    ],
+    "rows": [
+      [
+        "Shopify shipping notifications + order status page",
+        "Sending tracking proactively so customers can check for themselves",
+        "Customers still message you, and nothing helps them when a parcel stalls or goes missing",
+        "Low"
+      ],
+      [
+        "Rule-based chatbot flow (e.g. Tidio Flows)",
+        "Predictable answers about status and tracking, given only after an identity check",
+        "Rigid: every exception and phrasing needs its own branch",
+        "Medium"
+      ],
+      [
+        "AI support agent (e.g. Tidio's Lyro)",
+        "Understanding questions however they're worded, and answering policy questions from your content",
+        "Only as accurate as your data and content. Check whether it can read live order data on your plan",
+        "Medium"
+      ],
+      [
+        "Dedicated branded tracking app",
+        "Detailed tracking pages and proactive delay notifications",
+        "Another tool to run, and on its own it doesn't answer chat conversations",
+        "Medium"
+      ],
+      [
+        "Human-only inbox with saved replies",
+        "Judgment calls on exceptions and upset customers",
+        "Doesn't scale, and replies slow down outside working hours",
+        "Low to start, high to keep running"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why 'where is my order?' questions are the first thing to automate",
+      "paragraphs": [
+        "'Where is my order?' questions (often shortened to WISMO in e-commerce support) are usually the best first thing to automate on a Shopify store. They come in constantly, they have a factual answer, and that answer is already in your Shopify order data.",
+        "Order status is often one of the biggest support categories for online stores, but check your own inbox rather than relying on an industry figure. Tag your last 100 or so conversations as order status, delay, lost parcel, address change, returns or other. The split shows which flows to build first and gives you a baseline to measure against after launch.",
+        "The aim isn't to remove people from support. It's to let the bot give simple answers like 'it shipped Tuesday, here's your tracking link'. That frees your team for missing parcels, mistyped addresses and worried customers."
+      ],
+      "bullets": [
+        "What the bot can handle alone: fulfillment status, carrier name, tracking link, the latest tracking update and your published processing times.",
+        "What the bot can handle with guardrails: 'my order is late' questions, where it shares the facts and names a date for the next check.",
+        "What should stay with people: declaring a parcel lost, approving reshipments or refunds, changing an address, and upset or repeat customers."
+      ]
+    },
+    {
+      "heading": "Before you automate 'where is my order?' questions on Shopify",
+      "paragraphs": [
+        "Before you switch on a bot, you need three things: accurate tracking data in Shopify, shipping rules written as numbers, and a chat tool connected to your store on a plan that covers your volume.",
+        "Start with the data. Open about 20 recently fulfilled orders in Shopify admin. Check that each fulfillment has a tracking number and the correct carrier, so the tracking link opens the right page. If a 3PL, dropshipping supplier or fulfillment app ships for you, confirm that tracking syncs back to Shopify and find out how long that takes. A bot that says 'no tracking yet' for an order that left three days ago is worse than no bot.",
+        "While you're in Shopify admin, review your shipping emails under Settings > Notifications. Sending shipping confirmations and delivery updates proactively answers many questions before anyone asks. The bot then backs those emails up instead of replacing them. Which notifications you can send depends on your setup and carriers, so check what's turned on.",
+        "Next, write down the rules your team currently keeps in their heads, using the list below. A bot can apply 'five business days', but it can't apply 'a little while'.",
+        "Finally, install Tidio from the Shopify App Store and connect your store. Tidio offers two kinds of automation. Flows are decision trees you design yourself, and Tidio has offered Shopify order-status templates for them. Lyro is Tidio's AI agent, which answers from content you give it. Which option can read live order data, and how many conversations each plan includes, has changed over time. Confirm the current features and limits on Tidio's website and help center."
+      ],
+      "bullets": [
+        "Processing time: how many business days between an order and dispatch.",
+        "Delivery estimates for each region or shipping method.",
+        "Delay threshold: how many business days past the estimate before an order counts as late.",
+        "Lost-parcel threshold: how many days without a carrier scan before your team opens a trace or claim with the carrier.",
+        "Address-change cutoff: the last order stage at which you can still change the address. This is often before a shipping label is created."
+      ]
+    },
+    {
+      "heading": "Identity checks: verify the customer before sharing order details",
+      "paragraphs": [
+        "Before a chatbot shows any order details, it should confirm that the person asking actually placed the order. The simplest reliable check is to match the order number with the email address used at checkout.",
+        "An order number alone isn't enough. By default, Shopify order numbers count up one at a time (#1041, #1042 and so on), so anyone can guess a real one. Asking for something only the buyer should know, such as the checkout email, closes that gap. If your template or AI setup asks for only one of these, add the second before you go live.",
+        "This is general good practice, not legal advice. Make sure your privacy policy covers chat conversations and the order data your chat tool processes, and check the data-protection rules in the places you sell."
+      ],
+      "bullets": [
+        "Require both the order number and the checkout email, and continue only if they belong to the same order.",
+        "Share only what the customer needs: status, carrier, tracking link, latest update and estimated delivery.",
+        "Hide most personal details. If you show the address at all, show only part of it, such as the city and the first half of the postcode.",
+        "After two failed matches, stop and hand the chat to a person.",
+        "Never let the bot change a delivery address. Address changes are a common fraud route, so a person should confirm each one through the email on file."
+      ]
+    },
+    {
+      "heading": "Answer flows for tracking and delays",
+      "paragraphs": [
+        "The core flow reads the order in Shopify and gives a different answer for each status. That way the customer gets a specific reply instead of a generic 'it's on its way'.",
+        "Know which data you're reading. Shopify's fulfillment status shows whether you've shipped the order, for example unfulfilled, partially fulfilled, fulfilled or on hold. Delivery progress such as 'out for delivery' or 'delivered' comes from carrier tracking. It's only available for carriers that Shopify or your chat tool can track. Check which fields your flow can actually see before you write answers for them.",
+        "Delays need their own branch, because 'it's in transit' won't satisfy someone who expected the parcel yesterday. Compare today's date with the estimated delivery date. If the order is still within the normal window, the bot says so and gives the expected date. If it's past your delay threshold but not your lost-parcel threshold, the bot apologizes, shares the latest carrier update and its date, and names a date for the next check. If it's past the lost-parcel threshold, the bot escalates.",
+        "Phrase tracking answers as 'the latest update from the carrier says…' and include the date. That shows where the information comes from and stops the bot sounding certain about things it can't see."
+      ],
+      "bullets": [
+        "Unfulfilled: 'Your order is being prepared. We usually dispatch within {X} business days, so expect a shipping email with tracking by {date}.'",
+        "Partially fulfilled: explain that the order is shipping in more than one parcel. Give tracking for the part that has shipped and the expected dispatch date for the rest.",
+        "In transit: give the carrier, the tracking link, the latest tracking event and its date, and the estimated delivery if there is one.",
+        "Out for delivery: confirm it's due today and mention any safe-place or signature rules from your shipping policy.",
+        "Delivered: confirm the delivery date, then ask 'Have you received it?' If the answer is no, move to the lost-parcel flow.",
+        "On hold, cancelled or not found: don't guess. Hand the chat to a person with the order number attached."
+      ]
+    },
+    {
+      "heading": "Answer flows for lost parcels and wrong addresses",
+      "paragraphs": [
+        "Lost parcels and wrong addresses need flows that collect the facts and then hand the case to a person. Both usually end in a decision that costs money, such as a reshipment, a refund or a carrier fee.",
+        "Lost-parcel questions come in two forms. In the first, the tracking hasn't updated for longer than your lost-parcel threshold. The bot acknowledges the problem, confirms the last scan date, asks how the customer prefers to be contacted, and escalates so your team can open a trace with the carrier. The bot should never tell the customer the parcel is lost. Only your team should make that call.",
+        "In the second form, the tracking says delivered but nothing arrived. The bot walks the customer through the basic checks below. If the parcel still hasn't turned up, it escalates with the customer's answers attached.",
+        "Wrong-address requests depend on whether the order has shipped. If it hasn't, the bot collects the corrected address and hands off with it attached. A team member then confirms the change through the checkout email and edits the shipping address in Shopify before dispatch. If it has shipped, the bot explains that options like a redirect or return to sender depend on the carrier, and that the team will follow up."
+      ],
+      "bullets": [
+        "Check around the property, any safe place, the mailbox or parcel locker, and with neighbors or others in the household.",
+        "Look for a delivery photo or a missed-delivery card, if the carrier provides them.",
+        "Confirm that the address on the order (shown partly hidden) is where the customer expected delivery.",
+        "If the parcel still hasn't turned up after a short window you choose, such as one business day, escalate with the customer's answers attached."
+      ]
+    },
+    {
+      "heading": "Escalation triggers: when the bot hands off to a human",
+      "paragraphs": [
+        "A bot should hand off as soon as a conversation needs judgment, money or reassurance it can't provide. Define these triggers up front instead of leaving them to the AI.",
+        "A good handoff passes on the context so the customer never has to repeat themselves. Include the order number, the verified email, the current status, the latest tracking update and a one-line summary of what the bot has already said. In Tidio, use the handoff option in your Flow or Lyro settings to move the chat to a live agent. Also decide what happens outside working hours, such as taking the customer's email and promising a reply time you can keep."
+      ],
+      "bullets": [
+        "The customer asks for a person, or uses words such as 'refund', 'chargeback', 'scam', 'complaint' or 'cancel'.",
+        "The identity check fails twice.",
+        "The order is past your lost-parcel threshold with no new carrier scan.",
+        "Tracking says delivered, but the parcel is still missing after the basic checks.",
+        "The customer wants to change the delivery address.",
+        "The order can't be found, is on hold, or has a status the flow doesn't cover.",
+        "The order is worth more than a value you set, or the customer is tagged as wholesale or VIP.",
+        "It's the customer's second or third contact about the same order.",
+        "The question involves customs, import charges or a parcel held by the carrier."
+      ]
+    },
+    {
+      "heading": "A delay message template you can copy",
+      "paragraphs": [
+        "A good delay message states the facts, names a date for the next check, and says what happens if nothing changes by then. It doesn't blame anyone or promise things you can't control.",
+        "Adapt the template below for a Tidio Flow, your Lyro knowledge content or a shipping-delay email. Replace the curly-bracket fields with the variables your tool supports. If a field isn't available, delete that sentence rather than typing in a guess.",
+        "Template: 'Hi {first name}, thanks for checking on order {order number}, and I'm sorry it's taking longer than expected. The latest update from {carrier} was on {last scan date}: {last tracking status}. Parcels can go a few days without a new scan, especially between depots or at customs. You can follow it here: {tracking link}. If there's no new update by {checkpoint date}, our team will open an investigation with {carrier} and email you at the address on your order with next steps. You don't need to do anything right now, but if you'd like to talk to someone, just ask for a team member.'"
+      ],
+      "bullets": [
+        "It gives a dated fact instead of a vague reassurance.",
+        "The checkpoint date comes from your lost-parcel threshold, so the promise matches what your team will actually do.",
+        "It tells the customer what the team will do next, so they don't have to chase you.",
+        "It never calls the parcel lost or promises a delivery date the carrier hasn't given."
+      ]
+    },
+    {
+      "heading": "The honest limit: bad carrier data makes bad bot answers",
+      "paragraphs": [
+        "A chatbot can only repeat what Shopify and the carrier report. If tracking data is missing, late or wrong, the bot will confidently give missing, late or wrong answers.",
+        "Common causes include suppliers who never upload tracking numbers, the wrong carrier selected so the tracking link breaks, and labels created but not scanned for days. Others are international parcels that stop updating once a local carrier takes over, and parcels marked delivered before they arrive. A better bot fixes none of these.",
+        "Review the bot every week for the first month. Read a sample of transcripts and note where customers asked the same question again or asked for a person. Track three numbers: order-status chats resolved without a handoff, escalations and their reasons, and customers who came back about the same order. Adjust wording, thresholds and branches based on what you see."
+      ],
+      "bullets": [
+        "Check every day for fulfilled orders with no tracking number, either by hand or with an automated alert.",
+        "Spot-check that tracking links open the right carrier page.",
+        "Send orders that have a shipping label but no carrier scan after a set number of days to a person.",
+        "If one carrier or route keeps causing repeat questions, fix the fulfillment problem, not the bot."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Tidio",
+      "best_for": "Shopify stores that want live chat and an order-status bot in one inbox. The bot verifies the customer, answers routine tracking questions and hands off to a person when an escalation trigger fires. Check the current Shopify integration features and plan limits on Tidio's website.",
+      "not_for": "Larger teams that need a full multi-channel helpdesk with complex ticket routing, stores on platforms Tidio doesn't integrate with, and stores whose tracking data is still unreliable (fix that first)."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending escalated cases, such as lost parcels or address-change requests, to a team channel, shared spreadsheet or helpdesk. It can also alert you to Shopify orders that need attention, such as fulfilled orders with no tracking number. Check which Shopify and Tidio triggers and fields Zapier currently supports.",
+      "not_for": "Answering customers directly, which is the chat tool's job. If you'll run a high volume of automated tasks, compare current pricing with Make first."
+    },
+    {
+      "product": "Make",
+      "best_for": "The same escalation routing and missing-tracking alerts as Zapier, built in a visual editor, for stores that run enough automated tasks for cost to matter. Make is generally positioned as cheaper than Zapier at high volume, but compare current pricing for your expected usage.",
+      "not_for": "Owners who want the quickest, simplest setup for one or two alerts, or anyone expecting it to replace a customer-facing chat tool."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Tidio answer 'where is my order?' questions automatically on Shopify?",
+      "answer": "Yes. Tidio connects to Shopify and can be set up to look up an order and reply with its status, either through a rule-based Flow or, depending on your plan, its Lyro AI agent. What each option can access and how many conversations are included vary by plan and change over time, so check Tidio's pricing page and help center before you commit."
+    },
+    {
+      "question": "What should a chatbot ask for before sharing order details?",
+      "answer": "Ask for the order number and the email address used at checkout, and show details only if both belong to the same order. Shopify order numbers count up one at a time by default, so an order number on its own is easy to guess. Limit attempts and hand off to a person after two mismatches."
+    },
+    {
+      "question": "What should the bot do if tracking says delivered but the parcel hasn't arrived?",
+      "answer": "The bot should confirm the delivery date and suggest basic checks: safe places, neighbors, the mailbox or locker, and the carrier's delivery photo if there is one. It should also show part of the address so the customer can confirm it. If the parcel still hasn't turned up after a short window you set, the bot should escalate to a person with those answers attached, without promising a refund or reshipment."
+    },
+    {
+      "question": "How late should an order be before the chatbot escalates it?",
+      "answer": "There's no universal number, so base it on your own delivery estimates and how reliable your carriers are. A practical approach uses two thresholds: after the first, the bot apologizes and gives a date for the next check, and after the second, longer one, a person opens a trace with the carrier. Review both thresholds after a few weeks of real conversations."
+    },
+    {
+      "question": "How can I reduce 'where is my order?' questions without a chatbot?",
+      "answer": "Send tracking proactively. Review your shipping notifications under Settings > Notifications in Shopify admin and make sure every fulfillment has a working tracking number. Also state processing and delivery times clearly in your shipping policy and order emails. These steps cut down on routine questions, but they won't handle delays or missing parcels, which is where a chat flow and your team come in."
+    },
+    {
+      "question": "Do I need Zapier or Make to automate order-status questions?",
+      "answer": "No. The order lookup itself runs inside your chat tool's Shopify connection. Automation tools such as Zapier or Make help with extra jobs, like sending escalated lost-parcel cases to a team channel or spreadsheet, or flagging fulfilled orders that have no tracking number."
+    }
+  ],
+  "conclusion": "Automating 'where is my order?' questions on Shopify works best when the bot looks up orders and your team makes the judgment calls. Start by measuring how many of these questions you get and fixing your tracking data. Then connect Tidio, add an identity check, write one answer per order status, and build separate flows for delays, lost parcels and wrong addresses. Set escalation triggers as numbers, use a delay message that names a date for the next check, and read transcripts every week for the first month. Check Tidio's current Shopify features and plan limits before you build, and remember that the bot is only as accurate as the carrier data behind it.",
+  "keyword": "automate where is my order questions shopify",
+  "niche": "AI customer support chatbots for online stores",
+  "version": 2,
+  "slug": "automate-where-is-my-order-questions-on-shopify-safely",
+  "published": "2026-10-08T17:05:13+00:00"
+}

@@ -1,0 +1,265 @@
+{
+  "title": "How Do You Make Money From Stocks That Don't Pay Dividends?",
+  "meta_description": "How do you make money from stocks that don't pay dividends? Learn how price gains, reinvested profits and buybacks work, plus the risks and tax basics.",
+  "quick_answer": "You make money from stocks that don't pay dividends through capital gains. That means selling your shares for more than you paid, or being bought out in a takeover. The company keeps its profits to grow earnings or buy back shares, which can raise the value of each share. The trade-off is no cash income while you hold, and the price you eventually get isn't guaranteed. You can lose money.",
+  "key_takeaways": [
+    "Non-dividend stocks pay you through capital gains. Those gains only become cash when you sell or if the company is bought out.",
+    "Kept profits only help if they're reinvested well. Check that earnings per share and free cash flow per share have grown over several years.",
+    "Buybacks help only if the share count actually falls and the company doesn't overpay. Compare what it spends on buybacks with its stock-based pay to staff.",
+    "With no income from the stock, keep an emergency fund so you're never forced to sell in a slump. Selling small slices (a 'homemade dividend') is possible, but each sale costs fees and may trigger tax.",
+    "In many countries, dividends are taxed when you receive them and gains when you sell. Rules vary, so check your tax authority's guidance or ask a qualified adviser.",
+    "A broad index fund holds both kinds of company, so beginners don't have to choose. It still carries market risk and fees."
+  ],
+  "who_this_is_for": "This guide is for beginner investors who own, or are considering, shares in a company that pays no dividend and want to understand where any return would actually come from before deciding anything.",
+  "intro": "Plenty of well-known companies have never paid a dividend, yet people still invest in them. So if no payment ever arrives, where does the money come from? This guide explains the two things behind it: reinvested profits and share buybacks. A made-up example shows how kept profits can grow a business, and how a change in market mood can wipe out the gain. You'll also get a step-by-step checklist for reading a company's financial filings, ways to turn paper gains into cash, the main risks, the general tax picture, and how index funds let you hold both kinds of company. This is education, not advice. Nothing here recommends buying, selling or holding any particular investment.",
+  "steps": [
+    {
+      "name": "Check whether the stock pays a dividend",
+      "text": "Look up the stock on your broker's quote page or the company's investor relations website. A dividend yield of 0% or 'N/A' means there's no regular payout, so any return has to come from the share price. Also note whether the company has ever paid a dividend or said it plans to."
+    },
+    {
+      "name": "Confirm the company is profitable",
+      "text": "Open the latest annual report. For US-listed companies this is the Form 10-K, free on the SEC's EDGAR website. Elsewhere, try the company's investor relations page or your country's official filings system. On the income statement, check net income for at least the last three to five years. A profitable company reinvesting its cash is very different from a loss-making one that needs outside money to survive."
+    },
+    {
+      "name": "See where the cash goes",
+      "text": "On the cash flow statement, take 'cash from operating activities' and subtract capital expenditure (often labelled 'purchases of property and equipment'). That gives you a rough figure for free cash flow. Then read the investing and financing sections for acquisitions, share repurchases, new share issues and debt repayments. This tells you whether kept profits are paying for growth, buybacks or ongoing losses."
+    },
+    {
+      "name": "Judge whether reinvestment is working",
+      "text": "Track revenue, diluted earnings per share (EPS) and free cash flow per share over three to five years. Free cash flow per share is free cash flow divided by diluted shares. If your data source shows return on invested capital (ROIC), look at that too. Rising per-share figures suggest reinvested profits are earning a decent return. Flat or falling ones suggest they aren't."
+    },
+    {
+      "name": "Check the share count",
+      "text": "Compare diluted weighted-average shares outstanding (shown on the income statement) today with the figure from three to five years ago. A falling count means buybacks are shrinking it. A rising count means new shares, often issued to employees, are diluting your slice. Compare buyback spending with the 'stock-based compensation' line on the cash flow statement."
+    },
+    {
+      "name": "Consider the price relative to earnings",
+      "text": "Divide the share price by earnings per share to get the price-to-earnings (P/E) ratio. Compare it with the company's own history and with similar businesses. A high ratio means the market already expects strong growth, so the price has further to fall if growth slows. If the company makes a loss, there's no meaningful P/E, which tells you the price rests on expectations about the future."
+    },
+    {
+      "name": "Write down your reasoning and review dates",
+      "text": "Record the figures above in a spreadsheet or notes app. Add why you think the company can keep growing per-share earnings, and what would change your mind, for example several years of flat EPS or a steadily rising share count. Set a review date after each annual report so you judge the business, not daily price moves."
+    },
+    {
+      "name": "Plan for having no income from the holding",
+      "text": "Because the stock pays you nothing, make sure your emergency fund and other income cover your needs. That way you won't be forced to sell during a downturn. Think about this kind of holding over years, not months."
+    },
+    {
+      "name": "Know how you'd cash out, or consider a fund instead",
+      "text": "Before you sell, find out your broker's fees, the order types available and how gains are taxed in your country and account type. If researching companies one by one isn't for you, a broad index fund holds both dividend and non-dividend companies in a single product."
+    }
+  ],
+  "comparison": {
+    "caption": "Dividend stocks vs non-dividend stocks vs broad index funds: how each pays you (general features; tax rules and details vary by country)",
+    "headers": [
+      "Feature",
+      "Dividend-paying stocks",
+      "Non-dividend stocks",
+      "Broad index fund (holds both)"
+    ],
+    "rows": [
+      [
+        "How you get paid",
+        "Regular cash dividends plus any rise in the share price",
+        "A rise in the share price, cashed in when you sell or if the company is bought",
+        "Dividends from the paying companies (paid out to you or reinvested) plus price gains across all holdings"
+      ],
+      [
+        "Cash income while you hold",
+        "Yes, but dividends can be cut or suspended",
+        "None, unless you sell some shares yourself",
+        "Usually some, depending on whether you hold a version that pays out dividends or one that reinvests them"
+      ],
+      [
+        "Main driver of return",
+        "Size of the payout plus growth of the business",
+        "How well profits are reinvested, buybacks, and what the market will pay",
+        "Overall market performance minus fund fees"
+      ],
+      [
+        "Typical tax timing (varies by country)",
+        "Often taxed in the year dividends are received",
+        "Often taxed only when you sell",
+        "Payouts taxed when paid (in some countries even if reinvested); gains taxed when you sell"
+      ],
+      [
+        "Key risks",
+        "Dividend cuts, slower growth, share price falls",
+        "No income, big price swings, poor reinvestment, dilution, company failure",
+        "Market-wide falls, ongoing fees, heavy weighting in a few large companies"
+      ],
+      [
+        "Research effort",
+        "Company by company",
+        "Company by company, often harder to value",
+        "Lower: check the index, fees and how dividends are handled"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How Do You Make Money From Stocks That Don't Pay Dividends?",
+      "paragraphs": [
+        "You make money from a stock that doesn't pay dividends by selling it for more than you paid, or by receiving cash or shares when another company buys the business. That profit is called a capital gain.",
+        "The gain has to come from somewhere. A share is a small piece of ownership in a business. Over the long run, its price tends to follow two things: how much profit the business earns per share, and how much investors are willing to pay for each dollar of that profit. A company that keeps its profits can raise the value of each share in two main ways: reinvesting to grow the business, and buying back its own shares.",
+        "Until you sell, any gain is 'unrealised'. It exists only on paper and can shrink or disappear if the price falls. Some non-dividend companies start paying dividends as they mature, but there's no guarantee a particular company ever will."
+      ],
+      "bullets": [
+        "Reinvestment: kept profits pay for new products, locations, staff, research or acquisitions, with the aim of growing future earnings.",
+        "Buybacks: the company uses its cash to buy its own shares, so each remaining share stands for a larger slice of the business.",
+        "Sale or takeover: you turn a higher share price into cash by selling, or you receive cash or shares if the business is bought.",
+        "Market valuation: what investors will pay for each dollar of profit can rise or fall regardless of how the business itself is doing."
+      ]
+    },
+    {
+      "heading": "Why Some Companies Choose Not to Pay Dividends",
+      "paragraphs": [
+        "Companies skip dividends for one of two reasons. Either they believe they can earn more for shareholders by reinvesting the cash, or they have no spare profit to pay out.",
+        "Those are very different situations. A profitable, growing company may have more worthwhile projects than cash, so paying a dividend would mean turning some of them down. A young or struggling company may be losing money. Then there's nothing to pay out, and the share price depends entirely on what investors expect from the future.",
+        "One of the most useful checks a beginner can make is working out which kind of company this is. The income statement shows whether there's a profit. The cash flow statement shows whether the business generates its own cash or relies on borrowing and selling new shares to keep going."
+      ],
+      "bullets": [
+        "Growth opportunities: management expects reinvested profits to earn more than shareholders would get from a payout.",
+        "No profits yet: early-stage companies often need every dollar they earn, and sometimes more from outside investors.",
+        "Fixing the balance sheet: cash goes toward paying down debt or building a safety buffer.",
+        "Flexibility: a company can quietly pause a buyback, but cutting a dividend once it has started is usually taken as bad news."
+      ]
+    },
+    {
+      "heading": "A Made-Up Example: How Retained Earnings Can Grow the Business",
+      "paragraphs": [
+        "Retained earnings are profits a company keeps instead of paying out. Reinvested well, they can grow a business year after year, and that growth is what can lift the share price. The example below is deliberately simple, entirely invented and ignores taxes and fees. It says nothing about what any real stock will do.",
+        "Imagine Harbour Bakery Co. has 1,000,000 shares and $10 million invested in ovens, shops and equipment. Each year it earns a 10% return on that money, so Year 1 profit is $1 million, or $1.00 per share. It pays no dividend and reinvests every dollar of profit at the same 10% return. If nothing else changes, profit and invested money grow as shown in the list below.",
+        "Now suppose investors value Harbour at 15 times its yearly profit per share, both when you buy and when you sell. The share price rises from $15.00 to about $21.96. That's a gain of roughly $6.96 a share, created by reinvested profits rather than any payout. An identical company that paid out all its profit as dividends would keep earning $1.00 a share every year. Over five years you'd collect $5.00 in dividends, but the business wouldn't grow.",
+        "Reinvestment only helps if the money earns a good return. Say Harbour's original shops keep earning 10%, but its reinvested profits earn just 3%, perhaps because the new shops are in poor locations. Profit per share would reach only about $1.13 by Year 5, giving a price of about $16.88 at 15 times. That gain of about $1.88 is less than the $5.00 the dividend-paying twin handed out.",
+        "The market's mood matters as much as the business. Suppose that by Year 5 investors will only pay 10 times profit, perhaps because growth has slowed or the whole market has fallen. Then the well-run Harbour's shares would be worth about $14.64, slightly below the $15.00 you paid, even though profit per share grew about 46%. The lesson: kept profits create value only when they're reinvested well, and your gain still depends on what the market will pay when you sell."
+      ],
+      "bullets": [
+        "Year 1: $10.00M invested, $1.00M profit, $1.00 per share",
+        "Year 2: $11.00M invested, $1.10M profit, $1.10 per share",
+        "Year 3: $12.10M invested, $1.21M profit, $1.21 per share",
+        "Year 4: $13.31M invested, $1.33M profit, $1.33 per share",
+        "Year 5: $14.64M invested, $1.46M profit, $1.46 per share"
+      ]
+    },
+    {
+      "heading": "Share Buybacks: Returning Value Without a Dividend",
+      "paragraphs": [
+        "A share buyback is when a company uses its cash to buy its own shares, which reduces the number of shares in existence. Each remaining share then owns a larger slice of the business.",
+        "Back to Harbour Bakery. With $1 million of profit and 1,000,000 shares, profit per share is $1.00. If Harbour buys back and cancels 50,000 shares, the same $1 million is split across 950,000 shares, so profit per share rises to about $1.05. The business itself hasn't grown. Shareholders who didn't sell simply own a slightly bigger percentage of it.",
+        "Buybacks aren't automatically good. A company that buys its own shares when they're expensive can destroy value, just as an investor who overpays can. Many companies also pay staff partly in new shares, and some buybacks do little more than cancel those out. Buybacks paid for with borrowed money add risk, because the company still has to repay the debt.",
+        "In US annual reports, buyback spending usually appears in the financing section of the cash flow statement, often labelled something like 'repurchases of common stock'. Pay in shares appears in the operating section as 'stock-based compensation'. Labels vary, so search the document for 'repurchase' and 'share-based'."
+      ],
+      "bullets": [
+        "Has the number of diluted shares outstanding actually fallen over three to five years?",
+        "Is the buyback paid for from free cash flow, or from borrowing?",
+        "How does buyback spending compare with stock-based compensation?",
+        "Does management explain why buying back shares at today's price is a good use of cash?"
+      ]
+    },
+    {
+      "heading": "Turning Paper Gains Into Cash, Including 'Homemade Dividends'",
+      "paragraphs": [
+        "There are four ways to turn a non-dividend stock into cash: sell some or all of your shares, receive cash in a takeover, collect dividends if the company starts paying them, or use more advanced techniques that carry extra risk.",
+        "Selling a small slice at regular intervals is sometimes called a 'homemade dividend'. If you want a set amount of cash each year, you sell just enough shares to raise it, and you choose the timing yourself. The trade-offs: each sale may cost fees and trigger tax, and when prices are low you have to sell more shares to raise the same amount.",
+        "Takeovers can be paid in cash, in the buyer's shares, or a mix of both. In many countries a cash takeover is treated like a sale for tax purposes. A share deal swaps your holding for stock in the buying company, which comes with its own risks.",
+        "Some investors earn extra income by selling covered call options on shares they own, or by joining a broker's share-lending programme. Covered calls cap your gains if the price rises, don't protect you if it falls, and require your broker's approval to trade options. Shares you lend out may not have the same investor protection as shares held normally. Read your broker's terms before trying either."
+      ],
+      "bullets": [
+        "Order type: a limit order sets the lowest price you'll accept; a market order sells at whatever price is available at the time.",
+        "Costs: commissions, currency conversion fees and the bid-ask spread (the gap between buying and selling prices) all reduce what you keep.",
+        "Which shares you sell: some brokers and tax systems let you choose which batch of shares to sell, which can change your taxable gain.",
+        "Timing: where the rules allow, spreading sales across tax years can spread the tax bill."
+      ]
+    },
+    {
+      "heading": "The Risks: No Cash Income and Dependence on Future Buyers",
+      "paragraphs": [
+        "The biggest risk of a non-dividend stock is that it pays you nothing until you sell. Your whole return depends on the business growing and on the price other investors will pay for your shares later.",
+        "With no income from the stock, the only way to get cash is to sell. If you need money during a market slump, perhaps after losing a job or when retirement spending starts, you may have to sell at a low price and lock in a loss. An emergency fund and a plan to hold for years make a forced sale less likely, but they can't remove market risk.",
+        "The share price also depends on how investors feel. Companies expected to grow fast often trade at a high price compared with their profit. If growth slows, investors may quickly decide to pay less, and the share price can fall even while the business keeps growing. That's exactly what happened in the Harbour example at 10 times profit. Individual companies can also fail outright, and shareholders can lose everything.",
+        "Dividend stocks aren't automatically safer. Dividends can be cut or suspended. On the ex-dividend date (the first day new buyers don't get the upcoming dividend), the share price typically drops by roughly the dividend amount, all else being equal. The fair comparison is total return: the change in price plus any dividends received."
+      ],
+      "bullets": [
+        "No cash income: you have to sell to get money out, possibly at a bad time.",
+        "Valuation risk: when investors expect a lot, prices can fall sharply if growth disappoints.",
+        "Reinvestment risk: management may spend kept profits on weak projects or overpriced acquisitions.",
+        "Dilution risk: loss-making companies often sell new shares to raise money, which shrinks your slice.",
+        "Concentration risk: owning only a few stocks makes every risk above bigger."
+      ]
+    },
+    {
+      "heading": "Tax Differences, in General Terms",
+      "paragraphs": [
+        "In many countries, dividends are taxed in the year you receive them, while gains on shares are taxed only when you sell. Rules vary a lot by country and account type, so treat this as general background, not tax advice.",
+        "That difference in timing is the main tax feature of non-dividend stocks. In an ordinary taxable account, a company that reinvests its profits may create little or no tax for you while you hold it. The bill usually arrives when you sell at a gain. Putting off tax lets the untaxed money keep growing, and it gives you some say over when you pay.",
+        "There are important exceptions. In tax-advantaged accounts, such as many retirement or tax-free savings accounts, the difference often stops mattering. Some countries tax an assumed return on investments each year, whether or not you sell. Dividends from foreign companies may have tax taken off before you receive them. In some places, dividends that a fund reinvests for you are still taxed each year.",
+        "Tax rates can differ too. Some systems tax dividends and gains at different rates, and some charge less on gains from shares held longer. Check your national tax authority's guidance or speak to a qualified tax adviser before acting on any of this."
+      ],
+      "bullets": [
+        "When tax is due: in many systems, dividends are taxed when received and gains when you sell.",
+        "Which rates apply: dividends, gains on shares held briefly and gains on shares held longer may be taxed differently.",
+        "Which account you use: an ordinary taxable account or a tax-advantaged one.",
+        "Cross-border issues: tax taken off foreign dividends, and special rules for funds based in another country.",
+        "Records: keep purchase dates, prices and fees so you can work out your gains accurately."
+      ]
+    },
+    {
+      "heading": "How Beginners Can Hold Both Kinds Through Index Funds",
+      "paragraphs": [
+        "A broad stock market index fund lets beginners own both dividend-paying and non-dividend companies in one product. That means you don't have to bet on which approach will work better.",
+        "A fund that tracks a wide index, such as the S&P 500 or a global index, owns hundreds or thousands of businesses. Some pay dividends. Others reinvest everything or return cash through buybacks. The fund collects the dividends and either pays them out to you (a 'distributing' or 'income' version) or reinvests them (an 'accumulating' version). The non-dividend companies add to your return through changes in their share prices.",
+        "Index funds spread out the risk of any single company failing, but they don't remove market risk. The whole fund can fall sharply and may take years to recover. Fees reduce your return every year. Some popular indexes are heavily weighted toward a handful of very large companies, and an S&P 500 fund holds only large US companies. Funds that hold foreign shares also add currency risk.",
+        "To compare funds, use the factsheet and key information document (the name varies by country) on the provider's website. Check them there, because fees and details change."
+      ],
+      "bullets": [
+        "Which index it tracks and roughly how many companies it holds.",
+        "The ongoing charge, also called the expense ratio.",
+        "Whether it pays out dividends or reinvests them.",
+        "Its biggest holdings and industry weightings, to spot concentration.",
+        "Which country the fund is based in, which can affect the tax you pay.",
+        "Tracking difference: how closely its returns have matched the index after costs."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who want a simple research journal for step 7. Set up a database with one row per company and columns for diluted share count, earnings per share, free cash flow, why you own it, what would change your mind, and the next review date. That helps you judge the business from its filings rather than daily price moves. Check Notion's site for current plans and pricing.",
+      "not_for": "Anyone who wants live prices, trading, portfolio performance tracking or tax calculations. Notion isn't a brokerage or portfolio tracker, and a plain spreadsheet works fine if you only track a few numbers. Don't rely on its built-in AI for financial figures; always check them against the company's own filings."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you make money from a stock that never pays a dividend?",
+      "answer": "Yes. You profit if the share price rises and you sell, or if the company is bought for more than you paid. The rise usually comes from growing profit per share, through reinvestment or buybacks. It isn't guaranteed: if the business disappoints you can lose money, and you can lose everything if the company fails."
+    },
+    {
+      "question": "Do you have to sell a stock to make money if it doesn't pay dividends?",
+      "answer": "Generally yes, if you want cash in hand, because until you sell any gain exists only on paper. The exceptions are a takeover paid in cash, or the company starting to pay dividends later. Selling may come with trading fees and a tax bill, depending on your country and account type."
+    },
+    {
+      "question": "Can you get regular income from a stock that doesn't pay dividends?",
+      "answer": "You can create your own income by selling a small number of shares at set intervals, sometimes called a 'homemade dividend'. Each sale may cost fees and trigger tax, and you have to sell more shares when prices are low. Covered call options and broker share-lending programmes can also produce income, but they're more complex and carry extra risks, so read your broker's terms first."
+    },
+    {
+      "question": "Are dividend stocks safer than non-dividend stocks?",
+      "answer": "Not automatically. Dividends can be cut, and the share price typically drops by roughly the dividend amount on the ex-dividend date. Some non-dividend companies are financially strong, and some dividend payers are in decline. Risk depends on the business, its debt, the price you pay and how diversified you are."
+    },
+    {
+      "question": "Is it better for taxes to get dividends or capital gains?",
+      "answer": "It depends on your country and the type of account. In many places, gains are taxed only when you sell, so you can put off the tax, while dividends are taxed in the year you receive them. Rates can also differ between the two. Check your tax authority's guidance or speak to a qualified tax adviser."
+    },
+    {
+      "question": "Why would a company buy back shares instead of paying a dividend?",
+      "answer": "Buybacks are more flexible: a company can pause them without the bad publicity of a dividend cut. Depending on where they live, shareholders who don't sell may owe no immediate tax. Some companies buy back shares because they think the price is low, and others mainly to cancel out shares given to employees. A buyback only adds value if the company pays a sensible price."
+    }
+  ],
+  "conclusion": "Stocks that don't pay dividends make you money through price gains, and those gains depend on two things. The company has to turn its kept profits into higher earnings per share, and the market has to pay a fair price for those earnings when you sell. Neither is guaranteed, and there's no cash income while you wait. Before you rely on one of these stocks, check that the company is profitable, see where its cash goes, watch its share count and write down what would change your mind. Make sure you won't be forced to sell in a downturn, and know the fees and tax that apply when you do sell. If you'd like both kinds of company without researching each one, a low-cost broad index fund is one common route, though it still carries market risk and fees. Tax rules and investor protections differ by country, so check your local regulator's guidance or speak to a licensed adviser before making personal decisions.",
+  "keyword": "how do you make money from stocks that don't pay dividends",
+  "niche": "stock market basics for beginners",
+  "version": 2,
+  "slug": "how-do-you-make-money-from-stocks-that-don-t-pay-dividends",
+  "published": "2026-10-08T17:05:17+00:00"
+}

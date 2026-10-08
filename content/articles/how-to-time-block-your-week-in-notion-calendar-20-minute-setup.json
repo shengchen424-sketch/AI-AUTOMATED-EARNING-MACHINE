@@ -1,0 +1,266 @@
+{
+  "title": "How to Time Block Your Week in Notion Calendar: 20-Minute Setup",
+  "meta_description": "How to time block your week in Notion Calendar: color-coded blocks, linked Notion tasks and a 10-minute Sunday plan. Set it up in about 20 minutes.",
+  "quick_answer": "To time block your week in Notion Calendar, connect Google Calendar. Then create recurring, color-coded events for four block types: deep work, admin, meetings and recovery. Add your Notion tasks database to Notion Calendar so tasks with a date and time show up inside the right blocks. Each week, spend about 10 minutes assigning tasks to blocks. The first setup takes about 20 minutes.",
+  "key_takeaways": [
+    "Keep time blocks as recurring events in your calendar and tasks in a Notion database. Notion Calendar shows both in one week view.",
+    "Use four block types (deep work, admin, meetings and recovery), give each one a color you never change, and leave 1–2 hours a day unblocked.",
+    "Mark focus blocks as Busy and meeting windows as Free, so colleagues book you when you want to take meetings.",
+    "Once your template week is built, move tasks instead of blocks. If you miss a block, drag it to a new slot instead of deleting it.",
+    "Run a 10-minute weekly plan: review last week, lock in commitments, schedule your top three outcomes, check each day for overload and set up Monday.",
+    "If your work is reactive, you're on call or you have young kids, use anchor blocks or theme days instead of planning every hour."
+  ],
+  "who_this_is_for": "This guide is for knowledge workers, freelancers and small-business owners who already use Google Calendar and Notion and want a repeatable weekly plan that protects focus time without becoming a second job.",
+  "intro": "A to-do list tells you what to do, and a calendar tells you when. Time blocking joins the two. Notion Calendar is a good fit because it can show your Google Calendar events and your Notion tasks in the same week view. This guide walks you through building the whole system in about 20 minutes. You'll connect Google Calendar and create four color-coded block types. You'll set your blocks up so colleagues book you at the right times, link a Notion tasks database and start a 10-minute weekly routine that keeps it all working. You'll also get a sample template week you can copy, plus lighter options for weeks that won't go to plan.",
+  "steps": [
+    {
+      "name": "Install Notion Calendar and connect Google Calendar (3 minutes)",
+      "text": "Download Notion Calendar from Notion's website or your device's app store. Sign in with your Notion account and connect your Google account when asked, and your existing events will show up right away. If you have separate work and personal Google accounts, connect both so you can see your whole week in one view. Check Notion's help center for the current list of supported calendar providers and apps."
+    },
+    {
+      "name": "Choose four block types and fixed colors (3 minutes)",
+      "text": "Use four block types: deep work, admin, meetings and recovery. Give each one a color you'll never change, such as blue, yellow, purple and green. Next, decide where the blocks will live. Your primary Google Calendar is the simplest option, and blocks there usually show as busy. You can also create a separate calendar for each type, which is easy to hide but may not show as busy to colleagues. Write down your colors and rules on a Notion page."
+    },
+    {
+      "name": "Build a recurring template week (5 minutes)",
+      "text": "Switch Notion Calendar to week view and drag across a time slot to create your first block, for example 'Deep work' on Monday from 8:30 to 10:30 a.m. Set its color and make it repeat on the weekdays you want. Then add a daily admin block, recovery blocks after deep work and at lunch, and meeting windows on two or three afternoons. Leave one to two hours a day unblocked as flex time."
+    },
+    {
+      "name": "Set busy/free, privacy and reminders (2 minutes)",
+      "text": "Open each recurring block and check three settings. Deep work, admin and recovery blocks should show as Busy. Meeting windows should show as Free so people can still book you then. If your block titles will include client or project names, set the event visibility to Private. Remove reminders from any blocks you don't want notifications for. If Notion Calendar doesn't offer a setting, change it in the event's details in Google Calendar."
+    },
+    {
+      "name": "Create a Tasks database in Notion (5 minutes)",
+      "text": "Create a Notion database, or reuse one you already have, with these properties: Name, Status (Not started, In progress, Done), Block type (a Select with Deep work, Admin, Meetings and Recovery in matching colors), Do date (Date) and Estimate (a Select with 15, 30, 60 and 90 minutes). Then add two views. 'Unscheduled' filters for tasks where Do date is empty and Status is not Done. 'This week' is a board grouped by Block type that uses Notion's relative date filter to show this week's Do dates."
+    },
+    {
+      "name": "Show the Tasks database in Notion Calendar (2 minutes)",
+      "text": "In Notion Calendar, connect your Notion workspace and add your Tasks database so its items appear next to your events. If you're asked which date property to show, choose Do date, and if the option has moved, search Notion's help center. From now on, any task with a Do date shows on the calendar, and dragging a task to a new slot updates its date in Notion."
+    },
+    {
+      "name": "Test the link between a task and a block (1 minute)",
+      "text": "Give one task a Do date with 'Include time' switched on, set to a time inside a matching block, such as a deep work task at 8:30 a.m. on Monday. Check that it appears in that slot. If it shows as an all-day item, the time isn't included. For important work, attach the task's Notion page to the block event and rename the block after the result you want."
+    },
+    {
+      "name": "Run the 10-minute weekly plan (every Sunday or Friday)",
+      "text": "Review last week and lock in this week's fixed commitments. Put your top three outcomes into deep work blocks and batch small tasks into admin blocks. Check that every day still has recovery and flex time, then rename Monday's first block after its task. The routine is broken down minute by minute in the section below."
+    }
+  ],
+  "comparison": {
+    "caption": "Full time blocking compared with lighter planning methods you can run in Notion Calendar (upkeep times are rough estimates, not measured figures)",
+    "headers": [
+      "Method",
+      "What you plan",
+      "Weekly upkeep (rough)",
+      "Best for",
+      "Breaks down when"
+    ],
+    "rows": [
+      [
+        "Full time blocking",
+        "Every working hour gets a block type, and tasks go inside the blocks",
+        "About 10 minutes on Sunday plus about 2 minutes each morning",
+        "Makers, freelancers and managers with fairly predictable calendars",
+        "Most of your work is reactive or constantly interrupted"
+      ],
+      [
+        "Anchor blocks",
+        "One or two protected blocks a day, with the rest left open",
+        "About 5 minutes",
+        "Reactive roles, on-call weeks, parents of young kids",
+        "You need more than a couple of focused hours a day"
+      ],
+      [
+        "Theme days",
+        "One type of work per day, so tasks get a date but no time",
+        "About 5–10 minutes",
+        "People who dislike rigid schedules or juggle mixed roles",
+        "Other people control your meetings and spread them across every day"
+      ],
+      [
+        "Hybrid (theme days plus one daily anchor)",
+        "A theme for each day plus one fixed 60–90 minute focus block",
+        "About 5–10 minutes",
+        "People who want structure without planning hour by hour",
+        "Your anchor block keeps getting booked over"
+      ],
+      [
+        "Daily top-3 list",
+        "Three priorities each morning, with no calendar blocks",
+        "About 2 minutes a day",
+        "Crisis periods and brand-new roles",
+        "Big projects keep slipping because nothing protects time for them"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to Time Block Your Week in Notion Calendar: The Core Idea",
+      "paragraphs": [
+        "To time block in Notion Calendar, you keep your time blocks as calendar events and your tasks in a Notion database, then view both together in one week view. Notion Calendar is Notion's standalone calendar app, formerly called Cron. It shows events from your connected calendar accounts, and it can also show items from any Notion database that has a date property.",
+        "The whole trick is keeping blocks and tasks separate. The calendar answers 'what kind of work happens when?' The database answers 'what exactly am I working on?' Your blocks barely change from week to week, but your tasks change every day. Because they're separate, you can reshuffle Tuesday in a minute without rebuilding your plan.",
+        "Notion Calendar's features, menu names and supported calendar providers change over time, so this guide describes them in general terms. Before you start, check Notion's help center for the current integrations and for which desktop and mobile apps are available."
+      ],
+      "bullets": [
+        "Calendar events are the containers. Each one is a block type with its own color.",
+        "The Notion Tasks database holds what goes inside: the specific work you'll do in each block.",
+        "Notion Calendar is where you see both and drag things around.",
+        "The weekly routine takes 10 minutes and keeps the plan in line with what's really happening."
+      ]
+    },
+    {
+      "heading": "Choosing Your Four Block Types, Colors and Busy/Free Settings",
+      "paragraphs": [
+        "Four block types (deep work, admin, meetings and recovery) cover most knowledge work. Keeping the list that short is what lets you read a color-coded week at a glance. Give each type one color, a typical length and a single rule. Write these down on a Notion page so you don't have to decide them again every week.",
+        "The simplest way to color your blocks is to keep them all on your primary Google Calendar and change each event's color in Notion Calendar. Blocks on your primary calendar usually show as busy to colleagues who check your availability, which helps protect your deep work.",
+        "The other option is a separate Google Calendar for each block type. To create one, open Settings in Google Calendar, choose Add calendar, then choose Create new calendar. Each type then gets its own color automatically, and you can hide it with one click. The downside is that events on secondary calendars often don't count toward the free/busy status your coworkers see. Test how this works in your organization before you rely on it.",
+        "The busy/free setting matters more than color. Mark deep work, admin and recovery blocks as Busy. For meeting windows, either mark the blocks as Free or don't create them at all. Otherwise, colleagues' scheduling tools will show you as unavailable during the exact hours you want them to book you. If Notion Calendar doesn't offer the setting, change it in the event's details in Google Calendar."
+      ],
+      "bullets": [
+        "Deep work (for example, blue): 60–120 minutes at the time of day you think most clearly. Rule: one task per block, with notifications off. Use it for writing, coding, design, analysis and strategy.",
+        "Admin (for example, yellow): 30–60 minutes, often late in the afternoon. Rule: batch email, invoices, scheduling and quick replies here instead of scattering them through the day.",
+        "Meetings (for example, purple): the windows when you're willing to take calls. Rule: try to fit meeting invites into these windows. If you share an availability or booking link, limit it to these hours.",
+        "Recovery (for example, green): lunch, breaks, a walk, exercise and buffers between meetings. Rule: 15–30 minutes after every deep work block, treated as a real appointment. It's the block people skip first."
+      ]
+    },
+    {
+      "heading": "A Sample Template Week You Can Copy",
+      "paragraphs": [
+        "A good template week puts deep work in your sharpest hours, groups meetings into two or three afternoons and leaves flex time every day. Here's an example for a standard daytime schedule. Shift the times to fit your energy, your time zone and fixed commitments such as school runs.",
+        "Build it once as recurring events, then leave it alone for three or four weeks. Each week, you move tasks around, not blocks. If you find yourself dragging the same block every week, change the template at your next review instead of forcing it."
+      ],
+      "bullets": [
+        "Every weekday, 8:30–10:30 a.m.: Deep work (blue).",
+        "Every weekday, 10:30–10:45 a.m.: Recovery buffer (green).",
+        "Every weekday, 12:30–1:15 p.m.: Lunch (green).",
+        "Tuesday and Thursday, 1:30–4:00 p.m.: Meeting window (purple, marked Free).",
+        "Every weekday, 4:00–5:00 p.m.: Admin (yellow).",
+        "Friday, 3:30 p.m.: 10-minute 'Weekly plan' event, if you plan on Fridays instead of Sundays.",
+        "Left unblocked: 10:45 a.m. to 12:30 p.m. on most days, plus Monday, Wednesday and Friday afternoons. This is flex time for overflow, quick calls and surprises."
+      ]
+    },
+    {
+      "heading": "How to Link Time Blocks to Tasks in Your Notion Database",
+      "paragraphs": [
+        "The most reliable way to link a block to a task is to give the task a Do date and time inside a matching block. With your Tasks database showing in Notion Calendar, the task and its block appear in the same slot. Dragging the task to a new slot updates its date in Notion.",
+        "The Block type property is what connects the two. If its four options use the same colors as your calendar blocks, your 'This week' board (grouped by Block type) matches your calendar. You can then spot overload at a glance, such as six deep work tasks squeezed into three deep work blocks.",
+        "If a task is bigger than its block, split the task instead of stretching the block. Name each piece after its result, such as 'Outline proposal,' 'Draft sections 1–3' or 'Edit and send,' so you can finish each one in a single session and check it off."
+      ],
+      "bullets": [
+        "Light link (most tasks): set the Do date with 'Include time' turned on, at a time inside the right block. To reschedule, drag the task in Notion Calendar.",
+        "Hard link (important work): open the block event in Notion Calendar and attach the task's Notion page. Rename the block after the result you want, such as 'Deep work: Draft Q4 proposal.' One click on the block then opens the brief.",
+        "Batch link (small admin tasks): give these tasks a date but no time and tag them Admin. During your admin block, work down a filtered view. This keeps a dozen 5-minute tasks off your calendar.",
+        "Privacy check: renamed blocks can show client or project names to anyone who can see your event details. If that matters, set those events to Private."
+      ]
+    },
+    {
+      "heading": "The 10-Minute Sunday Planning Routine",
+      "paragraphs": [
+        "A 10-minute weekly routine keeps the system going. You review last week, lock in fixed commitments, assign tasks to blocks and check each day for overload. Add it to your calendar as a recurring 10-minute event called 'Weekly plan' so it's protected like any other block.",
+        "It doesn't have to be Sunday. Friday afternoon works well if you'd rather not think about work on the weekend. What matters is using the same slot every week. If you like to write a review, Notion's database templates can usually be set to repeat. Check the template's settings, and you can have a fresh 'Weekly review' page with the same prompts appear each week.",
+        "Add a 2-minute check each morning: drag anything that moved and confirm your first task. Moving a block isn't failure. It's the system doing its job. Deleting a block you missed is the real mistake, because it erases the record you need for your weekly review."
+      ],
+      "bullets": [
+        "Minutes 0–2, review: look at last week in Notion Calendar and mark finished tasks Done. For anything unfinished, either drag it into this week or clear its Do date so it goes back to your Unscheduled view.",
+        "Minutes 2–4, lock in commitments: scan the coming week for meetings, appointments, travel, school events and deadlines. Move or delete any template block that clashes. Change only that one occurrence, not the whole series.",
+        "Minutes 4–7, assign tasks: open the Unscheduled view and pick the three outcomes that matter most this week. Give each one a deep work block first. Then tag small tasks as Admin and spread them across your admin blocks.",
+        "Minutes 7–9, stress test: make sure each day has at least one recovery block and some open flex time. Use the Estimate property to check that tasks fit their blocks. If a day looks too full, move a task out instead of shrinking recovery.",
+        "Minutes 9–10, set up Monday: rename Monday's first deep work block after its task, so you start the week knowing exactly what to open."
+      ]
+    },
+    {
+      "heading": "When Full Time Blocking Doesn't Fit: Anchor Blocks and Theme Days",
+      "paragraphs": [
+        "Full time blocking breaks down when most of your work arrives unpredictably, because the plan is out of date before lunch. That isn't a discipline problem. The method doesn't fit the job, and a lighter approach usually works better.",
+        "Watch for three warning signs: you move most of your blocks on most days, you spend more time planning than doing, or you dread opening your calendar. Any one of them means it's time to go lighter, not to try harder.",
+        "Theme days give each day one type of work instead of each hour. You decide that Tuesday is for deep work, not that 9:00 to 10:30 on Tuesday is. A typical theme week might be Monday for planning and admin, Tuesday and Thursday for deep work, Wednesday for meetings and Friday for review and catch-up. In Notion Calendar, create a recurring all-day event for each theme in your block colors. Give each task a Do date with no time on the matching day, and set your 'This week' view to group by date.",
+        "Many people end up with a hybrid: theme days plus one 60–90 minute anchor block every day that never moves. Theme days struggle when other people control your calendar and meetings land on every day. If that's your situation, move your own recurring meetings onto one or two days over a few weeks, and ask the people you work with most to book you on those days."
+      ],
+      "bullets": [
+        "Reactive roles (support, sales, operations, assistants, account managers): protect one 60-minute anchor block a day for your most important proactive task. Label the rest of the day 'Triage' and work from a priority list.",
+        "On-call roles: use your full template in off-call weeks. In on-call weeks, block only recovery and short tasks you can drop at any moment.",
+        "Parents of young kids: block only the times that are reliably yours, such as early morning, after bedtime or a childcare window. Keep a '15-minute list' of small tasks for unexpected gaps.",
+        "New roles or crisis periods: spend two weeks logging on your calendar what you actually did, then build a template from that real pattern."
+      ]
+    },
+    {
+      "heading": "Common Time Blocking Mistakes and Quick Fixes",
+      "paragraphs": [
+        "Most time blocking setups fail because people plan too much, not too little, so most fixes come down to leaving space and keeping the system simple."
+      ],
+      "bullets": [
+        "Blocking 100% of the day: leave one to two hours unblocked as flex time for whatever comes up.",
+        "Deep work blocks that are too short: for many people, a block under about 45 minutes ends before focus really starts. Merge two short blocks into one.",
+        "Deleting missed blocks: drag them instead, so your weekly review shows what really happened.",
+        "Editing the whole series by accident: when you move one occurrence of a recurring block, choose the option that changes only that event.",
+        "Too many block types: with eight colors, you'll stop reading them. Stick to four.",
+        "Vague titles like 'Work': name important blocks after the result you want, such as 'Deep work: Edit pitch deck.'",
+        "Too many reminders: remove reminders from your recurring blocks, or turn off default notifications for your block calendars, and keep alerts for real meetings.",
+        "Keeping colleagues in the dark: tell your team what your deep work blocks mean and when your meeting windows are.",
+        "Never updating the template: after three or four weeks, move your blocks to the times you actually focus, not the times you hoped you would."
+      ]
+    },
+    {
+      "heading": "Optional: Send New Tasks to Notion Automatically",
+      "paragraphs": [
+        "If tasks reach you by email, form or chat, an automation tool can add them to your Notion Tasks database, so your Unscheduled view is complete before your weekly plan. Zapier and Make can both watch for a trigger and create a Notion database item with properties such as Status and Block type already filled in.",
+        "Zapier is usually the quicker start if you want a large app library and simple step-by-step setup. Make uses a visual canvas and is often cheaper for high-volume workflows. Pricing and task limits change, so compare the current plans on each vendor's site before you build anything.",
+        "Start by doing it manually. Add an automation only when you notice yourself retyping the same kind of task every week, because a flood of automatically created tasks can bury your priorities."
+      ],
+      "bullets": [
+        "A starred or labeled email becomes a task tagged Admin.",
+        "A form submission, such as a client request, becomes a task in your Unscheduled view.",
+        "A saved chat message becomes a task with a link back to the conversation."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "People who already use Google Calendar and want their tasks, project notes and weekly calendar in one connected workspace, with Notion Calendar showing dated tasks next to their time blocks.",
+      "not_for": "Teams standardized on a calendar provider that Notion Calendar doesn't currently support (check Notion's help center), or anyone who wants a simple planner without setting up a database."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "People whose tasks arrive by email, form or chat and who want them added to a Notion Tasks database automatically, using a large app library and simple step-by-step setup.",
+      "not_for": "Anyone who gets only a handful of new tasks a week. The manual weekly plan is enough, and every automation is one more thing to maintain."
+    },
+    {
+      "product": "Make",
+      "best_for": "People sending large numbers of automated tasks into Notion, or who prefer building multi-step workflows on a visual canvas. It's often cheaper at high volume, but compare the current plans first.",
+      "not_for": "Beginners who want the quickest possible setup for one or two simple automations, or anyone who doesn't yet have a recurring problem with capturing tasks."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Notion Calendar free to use?",
+      "answer": "Notion Calendar has generally been offered at no extra cost to people with a Notion account, but pricing and plan details can change. Check Notion's pricing page and help center for the current terms, especially if you use a work or team workspace with its own admin settings."
+    },
+    {
+      "question": "Does Notion Calendar work with Outlook or Apple Calendar?",
+      "answer": "Notion Calendar was built around Google Calendar accounts, and support for other providers has changed over time. Check Notion's help center for the current list before you build your system. If your main calendar isn't supported, running theme days from a Notion database is a workable fallback."
+    },
+    {
+      "question": "Can I time block in Notion without Notion Calendar?",
+      "answer": "Yes. You can add a calendar view to your Tasks database and give each task a date with a start and end time, so each task becomes its own block. The downside is that a database calendar view generally shows only that database's items. You won't see your Google Calendar meetings next to them the way you do in Notion Calendar."
+    },
+    {
+      "question": "Can I color-code Notion tasks by block type in Notion Calendar?",
+      "answer": "You can usually set a color for each connected calendar and Notion database, and change the color of individual events. If you can't color database items by a property, color your time block events instead and give your Block type options the same colors in Notion. Check Notion's help center for the current color options."
+    },
+    {
+      "question": "How long should a time block be?",
+      "answer": "Many people find deep work blocks of 60–120 minutes work well, followed by a 15–30 minute recovery block. Admin blocks can be 30–60 minutes because the tasks are small and batched. If you're new to time blocking, start with one 60-minute deep work block a day and make it longer once the habit sticks."
+    },
+    {
+      "question": "What should I do when I miss a time block?",
+      "answer": "Drag the block or its task to the next open slot instead of deleting it. That keeps an honest record for your weekly review. There you can spot patterns, such as a block that always gets interrupted, and move it in your template."
+    }
+  ],
+  "conclusion": "Time blocking in Notion Calendar comes down to a simple split: blocks live in your calendar, tasks live in a Notion database, and a 10-minute weekly plan matches the two. Spend about 20 minutes today connecting Google Calendar, creating four color-coded block types, setting busy/free correctly and linking a Tasks database. Run the system for three weeks, then adjust your template to how you actually work. If reactive work, on-call shifts or young kids make hour-by-hour planning unrealistic, switch to anchor blocks or theme days. The best system is the one you'll still be using next month. Notion Calendar's features and integrations change, so check the details in Notion's help center as you set up.",
+  "keyword": "how to time block your week in notion calendar",
+  "niche": "productivity and personal systems for ambitious people",
+  "version": 2,
+  "slug": "how-to-time-block-your-week-in-notion-calendar-20-minute-setup",
+  "published": "2026-10-08T17:00:46+00:00"
+}

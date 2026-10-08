@@ -1,0 +1,22 @@
+{
+  "term": "Fixed vs Variable Interest Rate",
+  "section": "Banking & Money",
+  "short_definition": "A fixed interest rate stays the same for an agreed period, while a variable (adjustable) rate moves with a benchmark rate, so your payments can rise or fall over time.",
+  "explanation": [
+    "A variable rate is usually a benchmark plus a margin. The benchmark might be a central bank rate, the lender's own base rate or a published index. The loan terms set how often the rate adjusts and whether there are caps. A fixed rate may last for the whole loan or only an initial period, after which it often switches to a variable rate.",
+    "The choice matters because it decides how predictable your budget is. Fixed rates give stable payments. Variable rates may start lower and fall if benchmarks drop, but they can rise sharply. The same idea applies to mortgages, student loans, many credit cards (which are often variable) and savings accounts.",
+    "The trade-off is certainty against flexibility. Fixed rates are sometimes priced higher at the start, and leaving a fixed deal early can trigger early repayment charges. Variable rates carry payment-shock risk, and nobody can reliably predict rate moves. Before committing, check whether you could still afford the payment if the rate rose by several percentage points. Rules differ by country, so check with your lender or local regulator."
+  ],
+  "example": "Illustrative example (simplified, ignoring principal repayments; all rates illustrative): On a $100,000 balance, interest at 5% is $5,000 a year. If a variable rate rises to 7%, interest becomes $7,000, an extra $2,000 a year or about $167 a month. If it falls to 4%, interest drops to $4,000. A fixed rate of 5.5% would keep interest at about $5,500 either way.",
+  "common_mistake": "Choosing a variable rate because the starting payment is lower, without checking whether your budget could cope if rates rose.",
+  "related_terms": [
+    "Loan Amortization",
+    "APR vs APY",
+    "Inflation",
+    "Debt-to-Income Ratio (DTI)",
+    "Compound Interest"
+  ],
+  "title": "Fixed vs Variable Interest Rate",
+  "slug": "fixed-vs-variable-interest-rate",
+  "published": "2026-10-08T17:13:57+00:00"
+}

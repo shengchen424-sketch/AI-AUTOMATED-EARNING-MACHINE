@@ -1,0 +1,22 @@
+{
+  "term": "Burn Rate",
+  "section": "Accounting & Business",
+  "short_definition": "Burn rate is the speed at which a company spends its cash reserves, usually measured per month, and is mainly used by startups and loss-making businesses to estimate how long their money will last.",
+  "explanation": [
+    "There are two common versions. Gross burn is the total cash a business spends each month. Net burn is cash spent minus cash received. Dividing the cash in the bank by net burn gives the runway: the number of months before the money runs out if nothing changes.",
+    "Burn rate matters because it tells founders how long they have to reach profitability, cut costs or raise more funding. Investors also look at it closely. Freelancers and small business owners can use the same idea to see how long their savings would cover a slow period.",
+    "The trade-off is growth against survival. A high burn rate can fund faster growth but shortens the runway, and raising money can take months and may not succeed. Burn also tends to creep up as a team grows, so runway estimates should use realistic, not best-case, revenue assumptions."
+  ],
+  "example": "Illustrative example: A startup has $600,000 in the bank. It spends $80,000 a month (gross burn) and collects $30,000 a month from customers, so its net burn is $50,000. Runway is $600,000 ÷ $50,000 = 12 months. If two new hires add $20,000 a month, net burn becomes $70,000 and runway drops to about 8.6 months.",
+  "common_mistake": "Calculating runway from today's spending and forgetting planned hires, rising costs, and the months it takes to raise money or reach break-even.",
+  "related_terms": [
+    "Cash Flow",
+    "Working Capital",
+    "Break-Even Point",
+    "Fixed vs Variable Costs",
+    "Customer Acquisition Cost (CAC)"
+  ],
+  "title": "Burn Rate",
+  "slug": "burn-rate",
+  "published": "2026-10-08T17:13:57+00:00"
+}

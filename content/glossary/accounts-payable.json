@@ -1,0 +1,22 @@
+{
+  "term": "Accounts Payable",
+  "section": "Accounting & Business",
+  "short_definition": "Accounts payable is money a business owes to suppliers for goods or services it has received but not yet paid for, recorded as a current liability on the balance sheet.",
+  "explanation": [
+    "When a supplier sends an invoice with terms such as 'Net 30' (pay within 30 days), a business using accrual accounting records the amount as accounts payable. When the bill is paid, both accounts payable and cash go down. Accounts payable is the mirror image of accounts receivable, which is money customers owe you.",
+    "Accounts payable matters because the timing of payments directly affects cash flow and working capital. Paying on time keeps supplier relationships healthy. Some suppliers offer early-payment discounts written as terms like '2/10 Net 30', meaning 2% off if paid within 10 days. A metric called days payable outstanding (DPO) tracks how long a business takes to pay.",
+    "The trade-off is cash against relationships. Stretching payments keeps cash in the bank longer but risks late fees, lost discounts and supply problems, while paying too early can drain cash you need. Accounts payable is also a common target for fraud, so verify any request to change a supplier's bank details through a known contact."
+  ],
+  "example": "Illustrative example: A bakery receives $3,000 of flour on 1 March on Net 30 terms. It records $3,000 in accounts payable and $3,000 of inventory. On 31 March it pays, so cash falls by $3,000 and accounts payable drops back to zero. If the terms were 2/10 Net 30, paying by 11 March would have saved 2%, or $60.",
+  "common_mistake": "Looking at the bank balance and treating it as spendable while ignoring unpaid supplier invoices that are already due.",
+  "related_terms": [
+    "Accounts Receivable",
+    "Working Capital",
+    "Balance Sheet",
+    "Cash Flow",
+    "Accrual vs Cash Accounting"
+  ],
+  "title": "Accounts Payable",
+  "slug": "accounts-payable",
+  "published": "2026-10-08T17:13:57+00:00"
+}

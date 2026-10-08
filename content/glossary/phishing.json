@@ -1,0 +1,21 @@
+{
+  "term": "Phishing",
+  "section": "AI & Tech",
+  "short_definition": "Phishing is a scam where criminals impersonate a trusted organization or person, by email, text, phone or social media, to trick you into revealing passwords, financial details or sending money.",
+  "explanation": [
+    "Phishing comes in several forms. Smishing uses text messages, vishing uses voice calls, spear phishing targets a specific person, and business email compromise uses fake invoices or 'updated' bank details. Common tactics are urgency, fear, too-good-to-be-true offers and links to fake login pages. Generative AI can make scam messages more polished and can even clone voices, so spelling mistakes are no longer a reliable warning sign.",
+    "Phishing matters because it is a common way into account takeovers, identity theft and payment fraud, including crypto scams. If you are tricked into authorising a payment yourself, getting the money back is not guaranteed, and protections vary by country and by bank.",
+    "Practical defences are simple. Don't tap links in unexpected messages; open the official app or type the website address yourself. Call back on a number you already know. Use two-factor authentication, and never share one-time codes. A password manager helps because it won't autofill on a lookalike site. No filter catches everything, so if you've shared details, contact your bank or provider immediately and report the scam to your local authority."
+  ],
+  "example": "Illustrative example: You get a text saying 'Your bank account is locked. Verify within 30 minutes: secure-bank-login.co'. Instead of tapping the link, you open your bank's official app and see no alerts. You report the text to your bank and delete it. If you had entered your login and 6-digit code, a criminal could have transferred, say, $2,500 before you noticed.",
+  "common_mistake": "Trusting a message because it shows the right logo, uses your name or comes from the correct-looking caller ID, all of which can be faked.",
+  "related_terms": [
+    "Two-Factor Authentication (2FA)",
+    "Generative AI",
+    "Cryptocurrency",
+    "AI Agent"
+  ],
+  "title": "Phishing",
+  "slug": "phishing",
+  "published": "2026-10-08T17:13:57+00:00"
+}

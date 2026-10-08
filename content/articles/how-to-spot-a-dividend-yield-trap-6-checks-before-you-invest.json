@@ -1,0 +1,268 @@
+{
+  "title": "How to Spot a Dividend Yield Trap: 6 Checks Before You Invest",
+  "meta_description": "Learn how to spot a dividend yield trap with 6 plain-English checks on payout, free cash flow, debt, history, sector and guidance, plus a worked example.",
+  "quick_answer": "A dividend yield trap is a stock whose yield looks high mainly because its share price has fallen. That is often a sign the market expects a dividend cut. To spot one, check whether dividends are higher than earnings and free cash flow and whether debt is rising as profits fall. Also look at how the dividend held up in past downturns, the pressures on its sector and how management talks about the dividend. When several red flags show up together, treat that as the real warning.",
+  "key_takeaways": [
+    "A high yield caused by a falling share price is a prompt to investigate, not a bargain. The market may already expect a dividend cut.",
+    "Compare the dividend with both earnings and free cash flow. A company can't keep paying out more than 100% of either for years without borrowing, selling assets or issuing shares.",
+    "Net debt rising while profits fall is one of the clearest signs that borrowed money is paying the dividend.",
+    "Long dividend streaks and confident statements from management don't guarantee future payouts. Token raises and hedged language are warning signs.",
+    "Rate all six checks green, amber or red. One red means look closer. Four or more suggest a high risk of a cut.",
+    "This guide is educational only. Dividend tax rules differ by country, and personal decisions belong with a licensed adviser."
+  ],
+  "who_this_is_for": "This guide is for individual investors, including beginners, who are drawn to high-yield dividend stocks and want a plain-English way to judge whether a payout can last before they put any money in.",
+  "intro": "An 8% dividend yield can look like easy income. But when a yield jumps because the share price has collapsed, the market is often signaling doubt that the dividend will last. Buying at that point can leave you with less income and a smaller investment at the same time.\n\nThis guide explains what a dividend yield trap is and walks through six checks, each with a plain-English formula. We apply every check to one made-up company, so you can see where each number comes from in a real set of financial statements, especially the cash flow statement. You also get a simple scoring system and a template for tracking results over time. It is educational only. There are no stock picks, price targets or predictions.",
+  "steps": [
+    {
+      "name": "Gather three to five years of reports",
+      "text": "Download the company's latest annual report and the two to four before it. Also get the latest interim results and the transcript of the most recent earnings call. You can find these on the company's investor relations website. For US-listed companies, they are also in the SEC's free EDGAR database: 10-K filings are annual reports and 10-Q filings are quarterly reports. You need the income statement, balance sheet, cash flow statement, the debt note and the company's dividend history."
+    },
+    {
+      "name": "Work out why the yield is high",
+      "text": "Divide the regular annual dividend per share by the current share price and multiply by 100. Leave out any one-off special dividends. Compare the result with the stock's own yield over recent years and with the yields of two or three similar companies. If the yield rose because the price fell, rather than because the dividend grew, treat it as something to investigate."
+    },
+    {
+      "name": "Check 1: Compare the dividend with earnings",
+      "text": "For each year, calculate dividend per share ÷ earnings per share (EPS) × 100. This is the payout ratio. Above 100% means the company paid out more than it earned. Note whether the ratio rises as earnings fall, and compare reported EPS with any 'adjusted' EPS the company publishes. Some sectors use their own measure instead of EPS. For example, real estate investment trusts (REITs) are judged on funds from operations (FFO)."
+    },
+    {
+      "name": "Check 2: Compare the dividend with free cash flow",
+      "text": "In the cash flow statement, subtract capital expenditure from cash from operating activities. The result is free cash flow. Divide the 'dividends paid' line by it. If dividends were higher than free cash flow for two or more years, the payout is probably being funded from cash reserves, asset sales, new shares or borrowing. Add any share buybacks to see the total cash returned to shareholders."
+    },
+    {
+      "name": "Check 3: Track the debt trend",
+      "text": "For each of the last three to five years, calculate two ratios. Leverage is net debt (borrowings minus cash) ÷ EBITDA. Interest cover is operating profit ÷ interest expense. Rising leverage and falling interest cover while profits drop is a warning. Read the debt note for repayment dates and for any loan terms (covenants) that restrict dividends."
+    },
+    {
+      "name": "Check 4: Review the dividend history",
+      "text": "List every dividend cut, freeze and increase, using the investor relations site or past annual reports. Go back far enough to cover at least one full downturn. Raises that have shrunk to token amounts, and cuts in earlier downturns, are both worth weighing."
+    },
+    {
+      "name": "Check 5: Assess sector risk",
+      "text": "Compare the company's share price fall and payout ratio with two or three peers. Decide whether the pressure is cyclical, meaning demand is likely to come back, or structural, meaning demand may be shrinking for good. Use the measures that fit the sector, such as distributable cash flow for pipeline partnerships. Remember that regulators can limit dividends at banks and insurers."
+    },
+    {
+      "name": "Check 6: Read management guidance",
+      "text": "Read the latest results release, the earnings call transcript and the company's dividend policy. Copy any wording about the dividend into your notes exactly as written. Watch for phrases such as 'capital allocation review', 'financial flexibility' or 'rebase'. Also watch for profit forecasts that depend on a recovery the company doesn't control."
+    },
+    {
+      "name": "Score the results and keep monitoring",
+      "text": "Rate each check green, amber or red, and record the figures, the date and your sources. Several reds together point to a high risk of a dividend cut. Re-run the checks after each results release. Speak with a licensed adviser before making any personal investment decisions."
+    }
+  ],
+  "comparison": {
+    "caption": "The six dividend yield trap checks at a glance (all Harbourline figures are hypothetical)",
+    "headers": [
+      "Check",
+      "Plain-English formula",
+      "Where to find it",
+      "Red flag",
+      "Harbourline (hypothetical)"
+    ],
+    "rows": [
+      [
+        "1. Payout vs earnings",
+        "Dividend per share ÷ earnings per share × 100",
+        "Income statement (EPS); dividend announcements",
+        "Above 100%, or rising as earnings fall",
+        "$2.40 ÷ $1.60 = 150% (dividend cover 0.67x)"
+      ],
+      [
+        "2. Payout vs free cash flow",
+        "Dividends paid ÷ (operating cash flow − capital expenditure) × 100",
+        "Cash flow statement",
+        "Above 100% for two or more years in a row",
+        "$240m ÷ $120m = 200%"
+      ],
+      [
+        "3. Debt trend",
+        "Net debt ÷ EBITDA, and operating profit ÷ interest expense, over 3–5 years",
+        "Balance sheet, income statement, debt note",
+        "Debt rising while profits fall; large repayments due soon",
+        "Net debt ÷ EBITDA 2.4x → 3.1x → 4.0x; interest cover ~9.5x → 4.0x"
+      ],
+      [
+        "4. Dividend history",
+        "List past cuts, freezes and the size of recent raises",
+        "Investor relations site; past annual reports",
+        "Token raises; cuts in similar past downturns",
+        "12-year streak, but last two raises were 1 cent each; cut 13 years ago"
+      ],
+      [
+        "5. Sector risk",
+        "Compare price fall and payout with 2–3 peers; cyclical or structural?",
+        "Peer filings and results releases",
+        "Weakness specific to the company, or structural decline",
+        "Cyclical slump; peers' shares fell less and they pay out less"
+      ],
+      [
+        "6. Management guidance",
+        "Read the dividend wording in results, calls and policy",
+        "Results release, earnings call transcript, investor presentation",
+        "'Review', 'flexibility', 'rebase'; outlook depends on a recovery",
+        "'Committed to the dividend' but 'reviewing all capital allocation options'"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is a dividend yield trap?",
+      "paragraphs": [
+        "A dividend yield trap is a stock whose dividend yield looks unusually high mainly because its share price has fallen, and whose dividend is at real risk of being cut. Investors who buy it for the income can lose part of that income and part of their capital at the same time.",
+        "Dividend yield is the annual dividend per share divided by the current share price. Because the price is at the bottom of that fraction, the yield rises automatically when the price falls, even if nothing about the dividend has improved. Here is a simple hypothetical. A company paying $2 a year with a $50 share price yields 4%. If the price drops to $25 and the dividend stays the same, the yield doubles to 8%.",
+        "Share prices rarely halve without a reason. Common causes are falling earnings, rising debt or an industry under pressure. Those same problems are what push boards to cut dividends. That's why a sudden jump in yield often comes before a cut rather than after one.",
+        "A high yield is not automatically a trap. Some sectors normally pay out a large share of their cash, and markets sometimes overreact to bad news. The six checks below use the company's own financial statements to help you tell the difference."
+      ],
+      "bullets": [
+        "Formula: dividend yield = annual dividend per share ÷ current share price × 100.",
+        "Trailing yield is based on dividends paid over the past 12 months. Forward yield is based on expected payments. A trailing yield can look generous right up until a cut is announced.",
+        "Special (one-off) dividends can inflate the yield a stock screener shows, so recalculate it using regular dividends only.",
+        "A yield far above the stock's own history and its peers' yields is a reason to investigate, not a reason to buy."
+      ]
+    },
+    {
+      "heading": "Meet Harbourline: a hypothetical high-yield company",
+      "paragraphs": [
+        "Harbourline Building Products is a made-up company we use to demonstrate all six checks. Every figure is hypothetical and rounded to keep the math simple. It does not represent any real business.",
+        "Harbourline makes building materials and has 100 million shares outstanding. Over 18 months, its share price has fallen from $60 to $30. Its annual dividend is $2.40 per share, so its yield has risen from about 4% to 8%. The company has raised its dividend 12 years in a row.",
+        "On the surface, that looks attractive: a long record of increases and twice the yield it used to offer. The checks below test whether that 8% can last or is a warning, using figures from Harbourline's latest annual report."
+      ],
+      "bullets": [
+        "Earnings per share (EPS): $1.60, from net income of $160 million.",
+        "Cash from operating activities: $300 million.",
+        "Capital expenditure (spending on equipment and facilities): $180 million.",
+        "Dividends paid: $240 million ($2.40 × 100 million shares).",
+        "EBITDA (earnings before interest, tax, depreciation and amortization): $400 million, down from $500 million two years ago.",
+        "Net debt: $1.6 billion, up from $1.2 billion two years ago.",
+        "Operating profit: $280 million. Interest expense: $70 million."
+      ]
+    },
+    {
+      "heading": "How to spot a dividend yield trap in the cash flow statement",
+      "paragraphs": [
+        "The cash flow statement is the most useful single document for spotting a dividend yield trap. Dividends are paid in cash, and accounting profit is not the same thing as cash.",
+        "Every cash flow statement has three sections. Operating activities show the cash generated by the day-to-day business. Investing activities show spending on equipment, facilities and acquisitions, plus money from selling assets. Financing activities show money raised from, or paid back to, lenders and shareholders. That includes dividends paid, share buybacks, new borrowing and debt repayments.",
+        "Read from top to bottom, Harbourline's statement tells a clear story. Operating activities brought in $300 million. Investing activities include $180 million of purchases of property, plant and equipment, which leaves $120 million of free cash flow. The financing section then shows $240 million of dividends paid alongside new borrowing. When a company borrows to cover the gap between free cash flow and dividends, debt is effectively paying the dividend.",
+        "Accounting rules affect where some items appear. Under US GAAP, dividends paid always count as financing cash flows. IFRS, which many other countries use, has historically let companies put dividends paid and interest paid under either operating or financing activities, and newer IFRS requirements narrow that choice. Under IFRS, lease principal repayments also sit in financing, which can make operating cash flow look stronger. Check the accounting policy notes so you compare like with like."
+      ],
+      "bullets": [
+        "Operating cash flow is often labeled 'net cash provided by operating activities' or 'cash generated from operations'.",
+        "Capital expenditure usually appears as 'purchases of property, plant and equipment' or 'capital expenditures'.",
+        "Pitfall: operating cash flow can be boosted by one-off working capital moves, such as paying suppliers later than usual or selling receivables.",
+        "Pitfall: 'dividends paid' can differ from dividend per share × shares because of payment timing, or because some of the dividend was paid in new shares (scrip) instead of cash.",
+        "If the company publishes its own 'adjusted free cash flow', compare it with your simple calculation and read what was left out."
+      ]
+    },
+    {
+      "heading": "Checks 1 and 2: payout ratio vs earnings and free cash flow",
+      "paragraphs": [
+        "Checks 1 and 2 ask whether the business earns enough profit and generates enough cash to pay its dividend. If it pays out more than it brings in for long, something eventually has to give.",
+        "Check 1 is the earnings payout ratio: dividend per share ÷ earnings per share × 100. Harbourline pays $2.40 against EPS of $1.60, a payout ratio of 150%. In other words, it paid shareholders more than it earned. UK investors often see the same idea expressed as dividend cover, which is EPS ÷ dividend per share. Harbourline's cover is 0.67x. Anything below 1x means earnings don't cover the dividend.",
+        "What counts as a comfortable payout depends on the sector. Mature, stable businesses often pay out more than fast-growing ones. Real estate investment trusts (REITs) are usually judged on funds from operations (FFO) or adjusted FFO instead of EPS. That's because depreciation charges make their accounting earnings look artificially low.",
+        "Check 2 is the free cash flow payout ratio: dividends paid ÷ (cash from operations − capital expenditure) × 100. Harbourline pays $240 million out of $120 million of free cash flow, a ratio of 200%. The $120 million shortfall has to come from cash reserves, asset sales, new shares or borrowing.",
+        "Free cash flow is uneven from year to year. One year above 100% can be noise, for example during a large investment project. The stronger warning is a free cash flow payout above 100% for two or more years in a row, especially while earnings are falling."
+      ],
+      "bullets": [
+        "Red flag: an earnings payout ratio above 100%, or one that rises each year as earnings fall.",
+        "Red flag: dividends paid are higher than free cash flow for two or more years in a row.",
+        "Pitfall: one-off non-cash charges, such as write-downs, can crush reported EPS. Compare reported and adjusted EPS, and read the reconciliation to see what was left out.",
+        "Pitfall: buybacks use cash too, so add them to dividends. A company buying back shares while free cash flow doesn't cover the dividend is even more stretched.",
+        "Compare matching periods, such as full year against full year. Then compare the result with any payout target in the company's stated dividend policy."
+      ]
+    },
+    {
+      "heading": "Checks 3 and 4: debt trend and dividend history",
+      "paragraphs": [
+        "Check 3 asks whether debt is growing faster than the business can support. Check 4 asks how the company treated its dividend the last time things got tough.",
+        "For the debt trend, start with net debt: total borrowings minus cash. Then calculate two ratios. Leverage is net debt ÷ EBITDA. Interest cover is operating profit ÷ interest expense. Over Harbourline's last three annual reports, leverage has climbed from 2.4x to 3.1x to 4.0x. Over the same period, interest cover has fallen from about 9.5x to 4.0x.",
+        "The direction matters more than any single year's figure. Lenders are paid before shareholders, so when debt and interest costs rise while profits fall, the dividend is often the easiest cost for a board to cut. Read the debt note for repayment dates as well. Refinancing at higher interest rates, or loan terms (covenants) that restrict payouts, can force a cut.",
+        "For dividend history, list every cut, freeze and increase using the investor relations site or past annual reports. Harbourline's 12-year streak looks reassuring. But its last two increases were one cent each, from $2.38 to $2.39 and then to $2.40. It also cut its dividend 13 years ago, during the last major downturn.",
+        "Token increases can suggest a board protecting a streak rather than growing the payout. A past cut is not automatically bad, but it shows how management behaves under pressure. A streak that has never been tested in a downturn tells you less than it seems."
+      ],
+      "bullets": [
+        "Red flag: net debt ÷ EBITDA rising for several years while EBITDA falls.",
+        "Red flag: falling interest cover, or large debt repayments due within the next one to two years.",
+        "Red flag: dividend increases shrinking to token amounts.",
+        "Red flag: past cuts in conditions similar to today's.",
+        "Pitfall: normal debt levels vary widely by sector, so compare with peers rather than a single universal number."
+      ]
+    },
+    {
+      "heading": "Checks 5 and 6: sector risk and management guidance",
+      "paragraphs": [
+        "Checks 5 and 6 add context the numbers can't give you on their own. They show whether the whole industry is under pressure and what management is signaling about the dividend.",
+        "For sector risk, compare the company with two or three similar businesses. If every peer's share price fell, the cause may be industry-wide. If only your company's price fell, the problem is more likely specific to that company. Then decide whether the pressure is cyclical (demand is likely to come back) or structural (demand may be shrinking for good).",
+        "Harbourline's industry is cyclical and sensitive to construction activity and interest rates. Peers' shares also fell, but by less, and they pay out a smaller share of their earnings. That points to an industry slowdown made worse by Harbourline's own debt. A heavily indebted company may not be able to get through a downturn with its dividend intact.",
+        "For management guidance, read the latest results release, the earnings call transcript and any written dividend policy. In our hypothetical, Harbourline's chief financial officer says the company is 'committed to the dividend'. He also says it is 'reviewing all capital allocation options' and that 'protecting our credit rating is a priority'. Its profit forecast assumes a recovery in the second half of the year.",
+        "Mixed messages like these deserve attention. Boards decide each dividend as it comes due, so statements of commitment are not guarantees. Companies sometimes cut dividends soon after calling them a priority. A forecast that depends on a recovery the company doesn't control adds further risk."
+      ],
+      "bullets": [
+        "Sector norms differ. REITs use FFO, pipeline partnerships often use distributable cash flow, and commodity producers may pay variable dividends that rise and fall with prices.",
+        "Banks and insurers can face regulatory limits on dividends during periods of financial stress.",
+        "Phrases worth noting: 'capital allocation review', 'financial flexibility', 'sustainable level', 'rebase' or 'reset'.",
+        "Other warning signs: paying dividends in new shares (scrip) instead of cash, dropping a stated dividend policy, or a credit rating agency moving the company to a negative outlook."
+      ]
+    },
+    {
+      "heading": "How to score the six checks and track them over time",
+      "paragraphs": [
+        "Rate each check green, amber or red, then look at the overall pattern. No single check proves a stock is a yield trap, but several reds pointing the same way are a strong warning.",
+        "Harbourline fails all six checks in our example. Its earnings payout is 150% and its free cash flow payout is 200%. Leverage has risen to 4.0x and recent dividend raises are token amounts. An industry slump is made worse by its own debt, and management's language is hedged. In this hypothetical, a dividend cut would not be surprising. The 8% yield may reflect a market that already expects one.",
+        "A checklist estimates risk; it doesn't predict outcomes. Harbourline's board could sell assets, cut investment or benefit from a faster recovery, and the dividend might survive. A company that passes every check can still cut its dividend if conditions change suddenly. That's why it helps to re-run the checks after each results release.",
+        "A simple tracking template keeps this manageable. Create one row or database entry per company per reporting period. Give it columns for:",
+        "Dividends are only one part of total return, which combines dividends with changes in the share price. A high yield paired with a falling price can still mean losing money overall. This guide is educational and is not a recommendation to buy, sell or hold any investment. Dividends are never guaranteed, investing carries the risk of loss, and fees reduce returns. The tax treatment of dividends, including withholding tax on foreign dividends, varies by country and account type. For personal decisions, check your local regulator's guidance or speak with a licensed adviser."
+      ],
+      "bullets": [
+        "Report date and source link.",
+        "Current yield and the stock's own multi-year average yield.",
+        "Earnings payout % and free cash flow payout %.",
+        "Net debt ÷ EBITDA and interest cover.",
+        "Dividend history notes, whether the sector pressure is cyclical or structural, and key management quotes.",
+        "A green, amber or red rating for each check, and the date of the next results release.",
+        "Mostly green: the dividend looks covered today, but keep monitoring.",
+        "Two or three reds: higher risk, so dig into the notes and recent call transcripts.",
+        "Four or more reds: the risk of a cut looks high.",
+        "Several ambers turning red over successive reports is a trend worth noting in itself."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who want a reusable research log. You can create one database entry per company per reporting season, holding the six checks, your figures, source links and green/amber/red ratings, which makes it easy to spot trends from one results release to the next. Formula properties can do the simple ratio math once you have entered the numbers.",
+      "not_for": "Anyone who wants live prices, stock screening or financial figures pulled in automatically. Notion doesn't fetch market or filing data on its own, so you still copy numbers from company reports yourself. If you already use a spreadsheet, it does the same job. Check any AI-generated summaries against the original filings, and confirm current plans and pricing on Notion's website."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What dividend yield is considered too high?",
+      "answer": "There's no universal cut-off, because normal yields vary by market, sector and interest-rate environment. A more useful test is whether a stock's yield is well above its own past range and above the yields of similar companies. If it is, find out whether the share price fell, then run the payout, cash flow and debt checks."
+    },
+    {
+      "question": "Is a high dividend yield always a yield trap?",
+      "answer": "No. Some sectors, such as utilities and real estate investment trusts, routinely pay out a large share of their cash. A share price can also fall for reasons that don't threaten the dividend. A high yield looks more like a trap when it comes with weak payout coverage, rising debt and cautious language from management."
+    },
+    {
+      "question": "What is a safe dividend payout ratio?",
+      "answer": "There's no single safe number, because normal payout levels differ by sector and by how mature a business is. A ratio that stays above 100% of earnings or free cash flow can't last unless profits recover. Compare the ratio with the company's own history, its stated payout target and similar companies, and use sector-specific measures such as FFO for REITs."
+    },
+    {
+      "question": "How do I calculate free cash flow from a cash flow statement?",
+      "answer": "The simplest version is cash from operating activities minus capital expenditure. Capital expenditure is often labeled 'purchases of property, plant and equipment'. Both figures are in the cash flow statement in a company's annual or quarterly report. Compare the result with the 'dividends paid' line, which is usually in the financing section."
+    },
+    {
+      "question": "What happens to the share price when a dividend is cut?",
+      "answer": "It varies. Often the price has already fallen because investors expected a cut, and a cut bigger than expected can trigger a further drop. Sometimes shares hold steady or even rise if investors see the cut as strengthening the balance sheet. There is no reliable rule, which is why these checks focus on whether the dividend can last rather than on predicting price moves."
+    },
+    {
+      "question": "Can dividend funds or ETFs contain yield traps?",
+      "answer": "Yes. Funds that choose stocks mainly for their high yield can hold companies whose dividends are later cut, although holding many companies spreads that risk. Read the fund's selection rules or index methodology, its holdings and its ongoing fees. Remember that a fund's payouts can fall too."
+    }
+  ],
+  "conclusion": "Spotting a dividend yield trap comes down to one question: is the dividend paid from what the business really generates, or from borrowing and hope? Start by working out why the yield is high. Then compare the payout with earnings and free cash flow, follow the debt trend, review the dividend history, weigh the sector risk and read management's words carefully. One red flag is a reason to look closer. Several together suggest the high yield may be a warning rather than an opportunity. Re-run the checks every reporting season and keep dated notes on what you find. Before making decisions about your own money, get guidance from a licensed adviser or your local regulator.",
+  "keyword": "how to spot a dividend yield trap",
+  "niche": "dividend and long-term investing strategies",
+  "version": 2,
+  "slug": "how-to-spot-a-dividend-yield-trap-6-checks-before-you-invest",
+  "published": "2026-10-08T17:08:26+00:00"
+}

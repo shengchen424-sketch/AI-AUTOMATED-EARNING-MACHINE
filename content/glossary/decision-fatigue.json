@@ -1,0 +1,22 @@
+{
+  "term": "Decision Fatigue",
+  "section": "Self-Development",
+  "short_definition": "Decision fatigue is the idea that the quality of your choices can decline after making many decisions in a row, leading to impulsive shortcuts, avoidance, or defaulting to the easiest option.",
+  "explanation": [
+    "Decision fatigue describes how a long run of choices can leave you more likely to take shortcuts, put things off or go with whatever is easiest. The idea grew out of research on 'ego depletion', a theory that has had mixed results when other researchers tried to replicate it. It is best treated as a useful practical lens rather than settled science.",
+    "Decision fatigue matters for both money and work. Impulse purchases late in the day, accepting add-ons at the end of a long checkout, and rushing an important work decision at 6 p.m. are all typical examples. Common countermeasures are making big decisions earlier in the day, cutting trivial choices with routines, and automating defaults such as scheduled savings transfers.",
+    "There is a trade-off. Too many rigid routines can reduce flexibility, and 'decision fatigue' can become an excuse for avoiding hard choices. Basics such as sleep, food and breaks often matter as much as reducing the number of decisions."
+  ],
+  "example": "Illustrative example: Someone plans the week's meals in one 20-minute session on Sunday instead of deciding dinner every evening. That removes about 7 small decisions a week, along with the tired-evening takeaway orders. If each takeaway costs $25 and the plan prevents two a week, that's about $50 a week saved.",
+  "common_mistake": "Scheduling your most important decisions, such as reviewing a contract or a big purchase, at the end of a long and draining day.",
+  "related_terms": [
+    "Habit Stacking",
+    "Time Blocking",
+    "Eisenhower Matrix",
+    "Deep Work",
+    "Burnout"
+  ],
+  "title": "Decision Fatigue",
+  "slug": "decision-fatigue",
+  "published": "2026-10-08T17:13:57+00:00"
+}

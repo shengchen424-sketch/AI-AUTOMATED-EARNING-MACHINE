@@ -1,0 +1,22 @@
+{
+  "term": "Multimodal AI",
+  "section": "AI & Tech",
+  "short_definition": "Multimodal AI refers to artificial intelligence systems that can understand or generate more than one type of data, such as text, images, audio and video, within a single model or interaction.",
+  "explanation": [
+    "Multimodal models convert different kinds of input into internal representations they can reason across. That lets you, for example, upload a photo of a chart and ask questions about it, or speak to an assistant and hear it reply. Many mainstream AI assistants now accept images, files or voice, but capabilities differ by product and plan, so confirm on the vendor's site.",
+    "Multimodal AI matters because it covers everyday tasks that text-only tools can't. Examples include reading screenshots, pulling data from receipts and PDFs, describing images for accessibility, and transcribing or summarising recordings.",
+    "The main risks are accuracy and privacy. Models can misread blurry images, invent numbers or miss small print, so check any extracted figures. Uploading documents that contain personal or financial details may mean the provider stores them, so review the tool's data and privacy settings before sharing sensitive files."
+  ],
+  "example": "Illustrative example: You photograph 10 receipts and ask a multimodal assistant to list the merchant, date and total for each. It reports a combined total of $412.60. Spot-checking against the originals, you find one $18.00 receipt was read as $81.00, a $63 error, so the true total is $349.60. The tool saved typing time, but checking was essential.",
+  "common_mistake": "Trusting numbers an AI extracted from an image or PDF without spot-checking them, especially for taxes, expenses or invoices.",
+  "related_terms": [
+    "Generative AI",
+    "Large Language Model (LLM)",
+    "AI Hallucination",
+    "Embeddings",
+    "Token (AI)"
+  ],
+  "title": "Multimodal AI",
+  "slug": "multimodal-ai",
+  "published": "2026-10-08T17:13:57+00:00"
+}

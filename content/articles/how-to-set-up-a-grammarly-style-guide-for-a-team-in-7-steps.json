@@ -1,0 +1,252 @@
+{
+  "title": "How to Set Up a Grammarly Style Guide for a Team in 7 Steps",
+  "meta_description": "How to set up a Grammarly style guide for a team in 7 steps: turn product names, banned phrases and tone into shared rules, then test and maintain them.",
+  "quick_answer": "To set up a Grammarly style guide for a team, confirm your Grammarly plan includes team style guides and brand tones. Then write your rules (product names, banned phrases, formatting and tone) in one source document. Add them in the Grammarly admin panel, set a brand tone, test on 5–10 real emails and proposals, roll out to everyone on the team account and review quarterly.",
+  "key_takeaways": [
+    "Decide your rules in one source document first. Grammarly applies your decisions but doesn't make them for you.",
+    "Start with 15–30 high-impact rules covering product names, banned phrases and a few formatting choices. Add more later.",
+    "Team style guides and brand tones come with Grammarly's paid team plans. Before you buy, check that both features are named on the current pricing page.",
+    "Before rollout, test the rules on 5–10 documents your team has actually sent. Narrow or delete any rule that flags correct text.",
+    "Ask every member to type a known wrong term to check they're signed in to the team account. Personal accounts don't get the team's rules.",
+    "Review the rules every quarter. Solo operators can usually manage with a shared Notion style doc instead."
+  ],
+  "who_this_is_for": "This guide is for small business owners and managers who have two or more people writing to clients and want consistent product names, wording and tone without proofreading every email and proposal themselves.",
+  "intro": "Your proposals say “Bright Desk,” your sales emails say “Brightdesk,” and one teammate still opens every follow-up with “just checking in.” None of that is a disaster on its own. Together, though, it makes a small business look less polished than it really is. A shared Grammarly style guide fixes this by turning your brand rules (product names, banned phrases, formatting and tone) into suggestions that appear while people write. This guide gives you seven steps to build one, a rule template you can copy, a way to test the rules on real documents before rollout and a 45-minute quarterly review. It also covers which plan features to confirm and when a simple Notion style doc is all a solo operator needs. (“BrightDesk” is a made-up product name used as an example throughout.)",
+  "steps": [
+    {
+      "name": "Collect real writing and pull out your rules",
+      "text": "Gather 10–20 recent emails, proposals, payment reminders and support replies from everyone who writes to clients. Highlight four things: misspelled product or company names, phrases you never want a client to read, inconsistent formatting (dates, prices, headings) and tone problems. People follow rules that come from real mistakes. They dismiss rules based on guesses."
+    },
+    {
+      "name": "Write a one-page source-of-truth style doc",
+      "text": "Create one shared page in Notion or Google Docs with five headings: Product names, Banned phrases, Formatting, Tone and Changelog. Name one owner who approves every change. Grammarly applies the rules. This doc is where you decide them, explain them and keep a record of changes."
+    },
+    {
+      "name": "Confirm your Grammarly plan and admin access",
+      "text": "Plan names and features change, so open Grammarly's current pricing and plan comparison page. Check that 'style guide' and 'brand tones' are listed by name under the plan you're considering. Also check seat minimums and which apps are supported. Make sure at least one person has admin rights to invite members and edit rules."
+    },
+    {
+      "name": "Add your first 15–30 style guide rules",
+      "text": "In the admin panel, open the style guide area (menu names may vary). Add 'replace' rules for product names and preferred terms, and 'flag' or 'avoid' rules for banned phrases. Turn on any built-in formatting preferences that match your doc. Give every rule a one-line explanation so writers learn the reason behind it."
+    },
+    {
+      "name": "Define your brand tone",
+      "text": "In the brand tone settings, describe the few qualities you want, such as friendly, confident and plain-spoken. If the settings allow it, also list the qualities to avoid, such as pushy or overly formal. Base them on your three best past emails, and copy the same words into the Tone section of your source doc."
+    },
+    {
+      "name": "Test on real documents with a pilot group",
+      "text": "Paste 5–10 previously sent documents into the apps your team actually uses, and log each suggestion as correct, false positive or missed. Ask one or two of your most frequent client writers to work with the rules for a week. Then narrow, add or delete rules based on what you find."
+    },
+    {
+      "name": "Roll out to the team and schedule quarterly reviews",
+      "text": "Invite everyone to the team account. Then ask each person to type a sentence with a known wrong term, such as 'Bright Desk,' and confirm the suggestion appears. Share the source doc link, explain why the rules exist and book a recurring 45-minute quarterly review."
+    }
+  ],
+  "comparison": {
+    "caption": "Grammarly team style guide vs. a Notion style doc vs. both: which fits your business",
+    "headers": [
+      "Option",
+      "What it does",
+      "Best for",
+      "Main limitation",
+      "What to verify"
+    ],
+    "rows": [
+      [
+        "Grammarly team style guide + brand tones",
+        "Flags off-brand terms, formatting and tone while people write",
+        "Teams where two or more people write to clients",
+        "Needs a paid team plan, and only works where Grammarly runs and members are signed in to the team account",
+        "That your plan lists style guides and brand tones, and which apps are supported"
+      ],
+      [
+        "Shared Notion style doc",
+        "Stores rules, examples and templates for reference but doesn't check anything automatically",
+        "Solo operators, or businesses where one person writes or reviews all client messages",
+        "Only works if people remember to check it",
+        "Sharing permissions, plus your Notion plan if you want its AI features"
+      ],
+      [
+        "Notion doc + Grammarly team style guide",
+        "Notion records the decisions, and Grammarly checks writing against them as people type",
+        "Growing teams that send proposals and sales emails every week",
+        "Two places to update at each review",
+        "Both plans, and who owns updates"
+      ],
+      [
+        "Grammarly free or individual plan + personal dictionary",
+        "Gives general grammar and clarity help and stops your product names being flagged as typos",
+        "Solo writers who want writing help without team features",
+        "Doesn't share replacement or banned-phrase rules with anyone else",
+        "Current individual plan features on Grammarly's pricing page"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What a Grammarly style guide and brand tone actually do",
+      "paragraphs": [
+        "A Grammarly style guide is a set of company-specific writing rules that an admin sets up once. Grammarly then shows those rules as suggestions to every team member while they write. Instead of hoping people remember that your product is “BrightDesk,” not “Bright Desk,” you can rely on Grammarly to flag the wrong version and offer the right one, usually with your short note explaining why.",
+        "Brand tones are the companion feature. The style guide handles specific words and formatting. A brand tone describes how your company should sound overall, such as warm and confident rather than stiff or pushy, so Grammarly can flag writing that drifts off-voice. Setup options change over time, so check Grammarly's help center to see how brand tones currently work.",
+        "Neither feature blocks anything. Writers can accept or dismiss each suggestion. That's why every rule needs a clear explanation, and why proposals and contracts still need a quick human read before they go out."
+      ],
+      "bullets": [
+        "Style guide: product and company names, preferred spellings, capitalization, banned phrases and formatting choices.",
+        "Brand tone: the overall voice you want, plus the tones you want to avoid.",
+        "Personal dictionary: an individual setting that stops a word being flagged as a misspelling. It doesn't steer teammates toward the correct version.",
+        "Coverage: suggestions appear wherever team members use Grammarly while signed in to the team account."
+      ]
+    },
+    {
+      "heading": "Which Grammarly plans include team style guides?",
+      "paragraphs": [
+        "Team style guides and brand tones have generally been part of Grammarly's paid plans for teams and businesses. They haven't been included in the free plan or a standard individual subscription.",
+        "Grammarly has renamed and restructured its plans more than once, so the names you see will depend on when you check. The only reliable source is Grammarly's current pricing and plan comparison page. Look for “style guide” and “brand tones” listed by name under the plan you're considering. Don't assume a familiar plan name still includes them.",
+        "Also confirm seat minimums, billing terms and which admin controls are included. If anything is unclear, ask Grammarly's sales or support team and get the answer in writing. Buy seats for the people who actually write to clients. The person drafting proposals needs one. Someone who only sends internal messages may not."
+      ],
+      "bullets": [
+        "Feature names in the plan comparison: style guide, brand tones, admin panel and any usage analytics.",
+        "Seat minimums and maximums, plus monthly versus annual billing.",
+        "Support for the email, document and browser tools your team writes in.",
+        "Grammarly's security and privacy documentation, if you handle sensitive client data."
+      ]
+    },
+    {
+      "heading": "How to set up a Grammarly style guide for a team: writing rules that work",
+      "paragraphs": [
+        "To set up a Grammarly style guide for a team, turn each brand decision into one clear instruction with a one-line reason. Each instruction should do one thing: replace a term, flag a phrase or set a format.",
+        "Product and company names are the most valuable rules, because getting them wrong looks careless to clients. List every wrong version you've actually seen, such as “Bright Desk,” “Brightdesk” and “bright desk,” and point each one to the correct spelling. Rules may or may not treat capital and lowercase letters differently, so test in the editor before you assume one rule catches every version. If your plan lets you add accepted terms for the whole team, use that for industry jargon and client names that would otherwise show up as misspellings.",
+        "Banned phrases come next. Some have a simple replacement, like “e-mail” → “email.” Others just need a warning and some guidance. For example, flag “guaranteed results” with the note “We don't promise outcomes. Describe what we deliver.” Warnings like this matter most in finance, legal and health-related businesses, where an overconfident phrase can create real risk.",
+        "Formatting rules cover date style, number style, currency symbols, the Oxford comma and heading capitalization. Grammarly may offer ready-made settings for common preferences. Use them where they match your doc, and write custom rules only for the gaps. Tone doesn't belong in word-level rules. An instruction like “be friendly but direct” goes in the brand tone settings.",
+        "Use one format for every rule in your source doc so it's quick to copy into Grammarly: wrong term → correct term | rule type | reason. Here are some examples:"
+      ],
+      "bullets": [
+        "Bright Desk, Brightdesk → BrightDesk | Replace | Our product name is one word with two capitals.",
+        "customers → clients | Replace | We sell ongoing services, so we say “clients.”",
+        "just checking in → no replacement | Flag | Say why you're following up: a deadline, a question or new information.",
+        "guaranteed results → no replacement | Flag | We don't promise outcomes. Describe what we deliver.",
+        "One rule, one decision. Don't bundle several preferences into a single rule.",
+        "Start with the rules that cost money or credibility when broken: names, pricing language, claims and promises.",
+        "Skip everyday words with several meanings. Those rules flag correct text and teach people to ignore every flag."
+      ]
+    },
+    {
+      "heading": "How to test the style guide on real emails and proposals",
+      "paragraphs": [
+        "To test the style guide, run 5–10 documents your team has already sent through Grammarly. Record each suggestion as correct or wrong, and note any errors it missed.",
+        "Choose a realistic mix: a cold outreach email, a follow-up, a proposal, a payment reminder and a support reply. Paste each one into the apps your team actually writes in, such as Gmail, Outlook, Google Docs or Word, because Grammarly's availability and behavior can differ between apps.",
+        "Then score the results. A correct flag means the rule works. A wrong flag (a false positive) means the rule is too broad and needs narrowing or deleting. A missed error means you need to add another wrong version or a new rule. Read the tone suggestions too. If Grammarly keeps pushing a proposal toward a voice you wouldn't use, adjust the brand tone settings.",
+        "Finally, note where Grammarly doesn't work. Proposal software, CRMs, website builders and PDF editors don't always support it. List the tools where it doesn't appear, so the team knows to draft in a supported editor or check the source doc by hand."
+      ],
+      "bullets": [
+        "Use real documents you've sent, not made-up examples.",
+        "Log each suggestion in a three-column table: correct, false positive, missed.",
+        "Ask one or two frequent client writers to use the rules for a week and note anything that felt wrong.",
+        "Re-run the same documents after making changes to confirm the fixes worked."
+      ]
+    },
+    {
+      "heading": "How to roll out the style guide without annoying your team",
+      "paragraphs": [
+        "Roll the style guide out in two stages: a one-week pilot, then a short walkthrough for everyone. Link the source doc and name one person to answer questions.",
+        "The most common rollout problem is sign-in. Team members logged in to a personal Grammarly account won't see the team's rules. After you send the invitations, ask everyone to type a sentence with a known wrong term, such as “Bright Desk,” and check that the style guide suggestion appears.",
+        "In the walkthrough, explain why each rule exists, not just what it says. Consistent product names look professional. Banned phrases prevent awkward or risky promises. A shared tone makes a small business seem established. People follow rules they understand.",
+        "Give the team an easy way to push back. A chat channel or simple form for “this rule flagged something it shouldn't” turns frustration into fixes. It also stops people from quietly dismissing every suggestion."
+      ],
+      "bullets": [
+        "Announcement template: “From Monday, Grammarly will suggest our house terms and tone as you write. Accept the invite, type ‘Bright Desk’ in any draft, and reply here if no suggestion appears. Rules and reasons: [source doc link]. Wrong flag? Post it in [channel].”",
+        "Run the pilot with the people who write to clients most often.",
+        "Pin the source doc in the tools people already use.",
+        "Name one owner who approves new rules and changes."
+      ]
+    },
+    {
+      "heading": "How to keep your style guide current every quarter",
+      "paragraphs": [
+        "Each quarter, review three things: what changed in the business, which rules the team found unhelpful and how the rules perform on fresh documents. Then update the source doc first and Grammarly second.",
+        "Most updates come from business changes: new products, renamed services, retired offers, pricing changes, new markets and new compliance guidance. Don't wait for the quarterly review to make urgent changes like a product rename. Update right away and record the change in the changelog.",
+        "Depending on your plan, the admin panel may show reports on how often suggestions appear and how often they're accepted or dismissed. If you have those reports, rewrite or delete rules that keep getting dismissed.",
+        "Keep a short changelog at the top of the source doc listing the date, the rule added or removed and the reason. Send the team a two-line summary after each review, and set a recurring calendar event so the review actually happens."
+      ],
+      "bullets": [
+        "10 minutes: list business changes since the last review.",
+        "10 minutes: go through team feedback and any suggestion reports.",
+        "15 minutes: re-test five recently sent documents.",
+        "10 minutes: update the source doc, then Grammarly, then announce the changes."
+      ]
+    },
+    {
+      "heading": "When a shared Notion style doc is enough",
+      "paragraphs": [
+        "A shared Notion style doc is enough if you're a solo operator, or if one person writes or reviews every client message before it goes out.",
+        "In that case, paying for team features to check your own writing rarely adds much. One well-organized page can hold the same decisions. A Notion database works well for the product names table, because you can add columns for misspellings and notes.",
+        "Pair the doc with Grammarly's free or individual plan for general grammar and clarity help. Add your product names to your personal dictionary so they stop being flagged as misspellings. That won't apply replacement rules automatically, but for a single writer, the doc plus good habits usually covers it.",
+        "You've outgrown the doc-only approach when a second or third person starts writing to clients, when wrong product names keep showing up in sent emails, or when you spend real time each week fixing other people's drafts. At that point a Grammarly team style guide is worth considering. Keep the Notion doc as the place where you decide and record the rules."
+      ],
+      "bullets": [
+        "Product names: correct spelling, common misspellings, one-line description.",
+        "Banned phrases: the phrase, why it's banned, what to say instead.",
+        "Tone: three adjectives plus one before-and-after example.",
+        "Formatting: dates, numbers, currency, headings, sign-offs.",
+        "Changelog: the date and a summary of each update."
+      ]
+    },
+    {
+      "heading": "Common mistakes small teams make (and how to fix them)",
+      "paragraphs": [
+        "The most common mistakes are adding too many rules too fast, skipping the source doc and assuming everyone is on the team account. When someone says the style guide “isn't working,” check these first."
+      ],
+      "bullets": [
+        "Importing a 40-page brand book on day one. Fix: keep the 15–30 rules that matter most and leave the rest in the source doc.",
+        "Rules without explanations. Fix: add a one-line reason to every rule, because people dismiss flags they don't understand.",
+        "No owner. Fix: name one person who approves changes so rules don't pile up or contradict each other.",
+        "Testing in only one app. Fix: check every tool your team uses to write to clients.",
+        "Treating Grammarly as a legal review. Fix: remember that it flags the phrases you chose to ban but doesn't know your compliance obligations, so have regulated claims reviewed by someone qualified."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Grammarly",
+      "best_for": "Small teams with two or more people writing to clients who want product names, banned phrases and tone checked while they type in email and documents.",
+      "not_for": "Solo operators who already review all their own client writing, and teams that mostly write in apps Grammarly doesn't support. Before you buy, confirm that your chosen plan includes the style guide and brand tones."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Holding the master style doc: the product names table, banned phrases, tone examples and changelog. It also works on its own for solo operators who need a reference page and templates.",
+      "not_for": "Teams that need automatic checking while they write. Notion doesn't check what you type in Gmail, Outlook or other apps."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Grammarly's free plan include a team style guide?",
+      "answer": "No. Team style guides and brand tones have generally been limited to Grammarly's paid team and business plans. Plan names and features change, so confirm on Grammarly's pricing page before you buy. Free and individual users can still add words to a personal dictionary."
+    },
+    {
+      "question": "What's the difference between a Grammarly style guide and brand tones?",
+      "answer": "A style guide covers specific words and formatting, such as product names, banned phrases and preferred spellings. Brand tones cover your overall voice, such as sounding confident and friendly rather than formal or pushy. Most teams need both: the style guide for exact wording and the brand tone for how the writing feels."
+    },
+    {
+      "question": "Why can't a team member see style guide suggestions?",
+      "answer": "Usually they're signed in to a personal Grammarly account instead of the team account. The browser extension or desktop app may also be missing, or they may be writing in an app Grammarly doesn't support. To check, have them type a sentence with a known wrong term and see whether a suggestion appears."
+    },
+    {
+      "question": "How many rules should a small business style guide start with?",
+      "answer": "About 15 to 30 rules covering product names, banned phrases and a few formatting choices is a practical first set. People trust a short, accurate list. A long list that flags correct text teaches people to ignore every flag. Add rules at each quarterly review as real problems come up."
+    },
+    {
+      "question": "Does a Grammarly team style guide work in Gmail, Outlook and Google Docs?",
+      "answer": "Grammarly works in many common tools through its browser extension, desktop app and add-ins. Team rules generally appear wherever a member is signed in to the team account. Support varies by app and changes over time, so check Grammarly's current list of supported apps and test a known wrong term in each tool your team uses."
+    },
+    {
+      "question": "Can Grammarly stop someone from sending an off-brand email?",
+      "answer": "No. Style guide and brand tone suggestions are recommendations that writers can accept or dismiss, so they reduce mistakes rather than prevent them. For important documents like proposals and contracts, keep a quick human review before anything goes out."
+    }
+  ],
+  "conclusion": "A Grammarly style guide works best as a way to enforce decisions you've already made. Write your rules in one source doc, then confirm on Grammarly's pricing page that your plan includes team style guides and brand tones. Start with 15–30 high-impact rules, each with a one-line reason. Test them on real emails and proposals before turning them on for everyone, and use a test sentence to confirm each person is on the team account. After that, a 45-minute quarterly review keeps the rules accurate. If you're a solo operator, start with a Notion style doc today. Look at Grammarly's team features again once other people start writing to your clients.",
+  "keyword": "how to set up a grammarly style guide for a team",
+  "niche": "AI tools for small business productivity",
+  "version": 2,
+  "slug": "how-to-set-up-a-grammarly-style-guide-for-a-team-in-7-steps",
+  "published": "2026-10-08T17:03:52+00:00"
+}

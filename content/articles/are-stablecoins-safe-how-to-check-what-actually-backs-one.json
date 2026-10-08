@@ -1,0 +1,272 @@
+{
+  "title": "Are Stablecoins Safe? How to Check What Actually Backs One",
+  "meta_description": "Are stablecoins safe? Learn how the 3 types fail, why coins depeg, how to read a reserve report, and when an insured savings account fits better.",
+  "quick_answer": "Stablecoins are safer than volatile crypto in one narrow way: they aim to hold a steady $1 value. They are not bank deposits and carry no government deposit insurance. They can lose their peg, or collapse entirely, if reserves are weak, a bank or issuer fails, or the design breaks. How safe one is depends on what backs it, how its reserves are verified and where you hold it.",
+  "key_takeaways": [
+    "Stablecoins are not bank deposits and have no government deposit insurance, even when the issuer keeps reserves at an insured bank.",
+    "Risk depends on the type. Fiat-backed coins rely on reserves and the issuer. Crypto-backed coins rely on collateral and code. Algorithmic coins rely on market confidence and have the worst track record.",
+    "Before you trust a coin, read its latest reserve report. Check the date, the accounting firm, reserves versus coins in circulation, and how much is held in cash and short-term government debt.",
+    "Where you hold the coin adds risk. Exchanges can freeze withdrawals or fail, and mistakes in self-custody usually can't be reversed.",
+    "Earning yield on stablecoins adds lending or code risk. A higher rate usually means more risk, not a better savings account.",
+    "Rules and tax treatment differ by country, so check with your regulator. For an emergency fund, an insured savings account usually fits better."
+  ],
+  "who_this_is_for": "This guide is for anyone who holds stablecoins, or is thinking about it, for trading, payments or parking cash, and who wants to understand the real risks and check what backs a coin before trusting it with money.",
+  "intro": "Stablecoins promise the speed of crypto without the wild price swings, so they can look like a safe place to keep money. The reality is more complicated. A stablecoin is only as stable as the assets, code and companies behind it. Several have broken their $1 promise, and at least one major stablecoin collapsed almost completely.\n\nThis guide explains how the main types of stablecoins work, why they lose their peg and how to read the reserve reports issuers publish. It includes an eight-step checklist and a check-up log you can reuse. It also covers custody risk, how rules and taxes differ by country, and when an insured savings account is the better choice. This is general education, not financial, legal or tax advice.",
+  "steps": [
+    {
+      "name": "Identify the exact coin, type and issuer",
+      "text": "Go to the issuer's official website by typing the address yourself rather than clicking ads, search results or links in messages. Note who issues the coin, which type it is (fiat-backed, crypto-backed, algorithmic or synthetic) and its official contract address on each blockchain it runs on. Compare that address with the token in your wallet or on your exchange to rule out lookalike tokens."
+    },
+    {
+      "name": "Find the reserve or transparency page",
+      "text": "Look for a page labelled transparency, reserves or attestations on the issuer's site. For crypto-backed coins, find the protocol's public collateral dashboard. If you can't find any reserve information, treat that as a serious red flag and stop here."
+    },
+    {
+      "name": "Check the report type, date and author",
+      "text": "Note whether the document is an attestation or a full audit, which date it covers, how often reports are published and which accounting firm signed it. A recent report from a named, established firm, published on a regular schedule, tells you more than an old or one-off document."
+    },
+    {
+      "name": "Compare reserves with coins in circulation",
+      "text": "On the same date, total reserves should equal or exceed the number of coins outstanding. Any shortfall needs a clear explanation. So do figures that don't add up across the blockchains the coin is issued on."
+    },
+    {
+      "name": "Read the reserve breakdown",
+      "text": "Look at what the reserves actually are. Cash, short-term government bills, repurchase agreements backed by Treasuries and government money market funds are generally easier to sell quickly than corporate debt, loans, precious metals or crypto."
+    },
+    {
+      "name": "Check custody, redemption and freeze terms",
+      "text": "Read the issuer's terms. Find out which banks and custodians hold the reserves, who can redeem coins for dollars, what minimums or fees apply, how long redemptions take and when the issuer can freeze tokens."
+    },
+    {
+      "name": "Verify regulatory status where you live",
+      "text": "Check whether the issuer and your exchange are authorized by your national financial regulator. Use the regulator's own public register rather than the company's claims. Rules differ by country and are changing."
+    },
+    {
+      "name": "Choose where to hold it and set a review date",
+      "text": "Decide between an exchange and self-custody based on which risks you can manage best. Make a small test transfer before you move larger amounts, and write down what you found in a check-up log. Re-check reserve reports and issuer news on a set schedule, because a coin that looked sound last year can change."
+    }
+  ],
+  "comparison": {
+    "caption": "How stablecoin types compare with an insured savings account",
+    "headers": [
+      "Option",
+      "What backs it",
+      "Getting $1 back",
+      "Government deposit insurance",
+      "Main ways it can fail"
+    ],
+    "rows": [
+      [
+        "Fiat-backed stablecoin (e.g. USDC, USDT)",
+        "Cash, bank deposits and short-term government debt held by the issuer",
+        "Usually only approved customers, often institutions, can redeem directly with the issuer. Everyone else sells on an exchange.",
+        "No",
+        "Weak or hard-to-sell reserves, a bank or custodian failing, issuer freezes, regulatory action"
+      ],
+      [
+        "Crypto-backed stablecoin (e.g. DAI)",
+        "More crypto collateral locked in smart contracts than the value of coins issued",
+        "Sell on the market or use the protocol's own mechanisms",
+        "No",
+        "A sharp collateral crash, liquidations that fail, smart contract bugs, governance decisions"
+      ],
+      [
+        "Algorithmic stablecoin (e.g. the failed TerraUSD)",
+        "Code and market incentives, often a sister token, with little or no hard reserves",
+        "Depends entirely on market demand",
+        "No",
+        "A loss of confidence that triggers a collapse, as happened to TerraUSD in 2022"
+      ],
+      [
+        "Synthetic or yield-bearing dollar token",
+        "A trading or lending strategy, often using derivatives on crypto exchanges",
+        "Sell on the market, or redeem under the issuer's terms, which may limit who can redeem",
+        "No",
+        "Strategy losses, a trading partner (counterparty) failing, smart contract bugs, limits on redemptions"
+      ],
+      [
+        "Insured high-yield savings account",
+        "A deposit at a regulated bank or credit union",
+        "Withdraw at full value under the account's terms",
+        "Yes, within coverage limits (FDIC or NCUA in the US; national deposit guarantee schemes elsewhere)",
+        "Interest rates can fall; balances above the insurance limit are exposed; fintech middlemen can fail"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Are stablecoins safe? What 'safe' really means",
+      "paragraphs": [
+        "Stablecoins hold a steady price far better than volatile cryptocurrencies, but they are not as safe as money in an insured bank account.",
+        "A stablecoin is a crypto token designed to keep a fixed value, usually $1, by tracking a traditional currency. When things work, one coin trades at or very close to $1. That is why traders use stablecoins to move between cryptocurrencies, and why some people use them for fast transfers between countries.",
+        "A stablecoin is not a bank deposit. In the US, deposits at FDIC-insured banks are covered up to the standard limit, currently $250,000 per depositor, per insured bank, per ownership category (confirm on FDIC.gov). That protection does not extend to stablecoin holders, even when the issuer keeps reserves at an insured bank. SIPC protection for brokerage accounts generally does not cover crypto, and deposit guarantee schemes in other countries usually exclude stablecoins too.",
+        "Whether a stablecoin is safe enough for your purpose comes down to three questions: what backs it, whether you can get $1 back when markets are under stress, and where you hold it. Each of these can fail on its own, so a well-backed coin held on a failing exchange can still cost you money."
+      ],
+      "bullets": [
+        "Reserve risk: the assets backing the coin may be too small, too risky or hard to sell quickly.",
+        "Depeg risk: the market price can fall below $1, briefly or for good.",
+        "Platform risk: the exchange or app holding your coins can freeze withdrawals or go bust.",
+        "Technology risk: smart contract bugs, hacks, or coins sent to the wrong address.",
+        "Issuer control: many issuers can freeze tokens held at specific addresses.",
+        "Regulatory risk: rules change, and some countries restrict certain coins."
+      ]
+    },
+    {
+      "heading": "The main types of stablecoins and how each can fail",
+      "paragraphs": [
+        "Most stablecoins are fiat-backed, crypto-backed or algorithmic. Each type rests on a different promise, and each promise can break in a different way.",
+        "Fiat-backed stablecoins are the largest group. The issuer says it holds reserves worth at least as much as the coins in circulation, typically cash, bank deposits and short-term government debt such as US Treasury bills. Tether's USDT and Circle's USDC are well-known examples. With this type, you are trusting the issuer's honesty, its banks and custodians, and the quality of its reserves. That trust is worth checking: in 2021, Tether settled with the New York Attorney General and the US Commodity Futures Trading Commission over past statements about its reserves.",
+        "Crypto-backed stablecoins are created when users lock up other cryptocurrencies as collateral. The collateral is usually worth more than the coins issued, which gives a cushion against price swings. DAI, originally created by MakerDAO, is the best-known example. The main risks are a collateral crash too fast for automatic sell-offs (liquidations) to keep up, smart contract bugs, and decisions by the people who govern the protocol. Some designs also use fiat-backed stablecoins or tokenized real-world assets as collateral, so they take on those risks as well.",
+        "Algorithmic stablecoins try to hold their peg mainly through code and market incentives, often by creating and destroying a sister token, instead of holding full reserves. They have the worst track record. TerraUSD (UST) collapsed in May 2022 when heavy selling set off a 'death spiral' with its sister token, LUNA. Tens of billions of dollars in combined market value disappeared, and UST ended up worth a few cents.",
+        "Newer 'synthetic dollars' and dollar tokens that pay a yield use derivatives trading or lending to aim for $1. In a wallet they look just like stablecoins, but their risks are closer to an investment's: they depend on exchanges as trading partners, and their strategies can lose money in some market conditions."
+      ],
+      "bullets": [
+        "Fiat-backed: depends on the reserves, the banks holding them and the issuer's honesty.",
+        "Crypto-backed: depends on collateral values, liquidations and code.",
+        "Algorithmic: depends on market confidence, and this type has collapsed before.",
+        "Synthetic or yield-bearing: depends on a trading strategy, so treat it as an investment, not cash."
+      ]
+    },
+    {
+      "heading": "What depegging is and why it happens",
+      "paragraphs": [
+        "Depegging is when a stablecoin trades clearly away from its target, usually below $1. It happens when the market doubts the coin can be redeemed at full value, or when buyers briefly disappear.",
+        "Arbitrage normally keeps the peg in place. If a fiat-backed coin trades at $0.99, approved customers can buy it and redeem it with the issuer for $1. If it trades above $1, they can create new coins and sell them. This only works while redemptions keep flowing and people trust the reserves. Most retail holders can't redeem directly with the issuer, so they rely on the market staying orderly.",
+        "Even well-reserved coins can wobble. In March 2023, Circle disclosed that about $3.3 billion of USDC's reserves were held at Silicon Valley Bank when the bank failed. USDC traded well below $1 that weekend and recovered after US authorities said the bank's depositors would be protected. A cash-backed coin is only as safe as the banks holding its cash, and crypto markets trade 24/7 while banks don't.",
+        "Gaps of a fraction of a cent are normal and usually come from fees and trading volume. The warning sign is a gap that lasts or keeps growing, especially alongside bad news about the issuer, its banks or its collateral."
+      ],
+      "bullets": [
+        "Doubts about whether the reserves exist or are good quality",
+        "A bank or custodian that holds reserves fails",
+        "Redemption requests arrive faster than reserves can be sold",
+        "Crypto collateral crashes",
+        "A hack or smart contract exploit",
+        "Regulatory action, delistings, or too little trading on one exchange or blockchain"
+      ]
+    },
+    {
+      "heading": "How to read a stablecoin reserve report or attestation",
+      "paragraphs": [
+        "A reserve report shows the assets an issuer says back its coins on a specific date. An attestation is an independent accountant's check of that claim. It's useful, but narrower than a full audit.",
+        "Most large fiat-backed issuers publish a transparency page with a breakdown of their reserves and regular attestation reports. An attestation checks management's claims about the reserves at a single point in time. It usually does not test the company's controls and finances across a whole year, as a financial statement audit does.",
+        "Start by comparing total reserves with the coins in circulation on the same date; reserves should be at least 100% of the coins outstanding. Then read the breakdown. Cash, bank deposits, short-term US Treasury bills, overnight repurchase agreements backed by Treasuries and government money market funds are generally the easiest to sell quickly. Corporate debt, secured loans, precious metals, bitcoin and other crypto are riskier, and in a crisis they may be hard to sell at full value.",
+        "Next, check where the reserves are held. Look for named banks and custodians, whether the reserves are kept separate from the issuer's own money, and whether too much sits with a single institution. Then read the accountant's opinion, including any paragraphs that limit or qualify it.",
+        "For crypto-backed stablecoins, you do the same check on the blockchain itself. Protocols usually publish dashboards showing total collateral, the collateralization ratio (how much collateral there is for each coin) and what the collateral is made of. They also publish security audits of their smart contracts. A code audit says nothing about reserves, though, and it doesn't guarantee the code has no bugs. Also note that an exchange's 'proof of reserves' covers the exchange's own holdings, not a stablecoin issuer's reserves."
+      ],
+      "bullets": [
+        "There is no reserve report, or the latest one is months old",
+        "Reserves are described only in vague categories such as 'other investments'",
+        "Reserves are below 100% of the coins in circulation",
+        "Large holdings of loans, crypto or assets linked to companies related to the issuer",
+        "Marketing calls an attestation an 'audit' or suggests government insurance"
+      ]
+    },
+    {
+      "heading": "Exchange or self-custody: where you hold the coin matters",
+      "paragraphs": [
+        "Where you hold a stablecoin adds its own layer of risk, separate from whether the coin itself is well backed.",
+        "Keeping stablecoins on an exchange or app is convenient, but you depend on that company. If it is hacked, freezes withdrawals or goes bankrupt, you may become a creditor waiting on a court process. Customers of FTX, Celsius and BlockFi found this out in 2022. Before using a platform, check whether it is licensed or registered with your regulator, how its terms describe who owns customer assets, whether 'earn' features lend out your coins, and what fees apply.",
+        "Self-custody means keeping coins in a wallet where you control the private keys or seed phrase (the backup words that restore the wallet). It removes the risk of an exchange failing, but you carry full responsibility. Losing your seed phrase usually means losing the funds, and nobody can reverse a transfer sent by mistake.",
+        "Some details matter whichever option you choose. The same stablecoin can exist on several blockchains, and 'bridged' versions on some networks are different tokens from the issuer's own version. Scammers create lookalike tokens with the same names and tickers, so check the contract address on the issuer's official website. Issuers of centrally controlled stablecoins can usually freeze tokens at specific addresses, often at law enforcement's request, so self-custody doesn't remove the issuer's control."
+      ],
+      "bullets": [
+        "Send a small test amount first, and confirm the receiving network matches the sending network.",
+        "Keep your seed phrase offline. Never put it in cloud notes, email or screenshots.",
+        "Real support staff will never ask for your seed phrase or ask you to 'validate' your wallet.",
+        "From time to time, review your wallet's token approvals and revoke any you no longer use.",
+        "Wherever you hold the coin, its own reserve, depeg and freeze risks still apply."
+      ]
+    },
+    {
+      "heading": "Why stablecoin rules and taxes differ by country",
+      "paragraphs": [
+        "Stablecoin rules vary by country and are changing quickly. The protections you have depend on where you live, which coin you hold and which platform you use.",
+        "In the United States, the GENIUS Act became law in July 2025. It set up a federal framework for payment stablecoin issuers, with rules on reserves, disclosures and supervision. It also restricts issuers from paying interest to holders just for holding the coin. Many details are being phased in through regulations, so check the current status with official sources. None of this turns a stablecoin into an FDIC-insured deposit.",
+        "In the European Union, the Markets in Crypto-Assets Regulation (MiCA) has covered stablecoins since mid-2024 and requires issuers to be authorized. Some exchanges restricted stablecoins that did not meet its requirements for users in the European Economic Area. The UK, Singapore, Hong Kong and other places have introduced or are finalizing their own rules.",
+        "Tax treatment differs too. Many countries treat stablecoins as property or crypto-assets rather than currency. That means swapping, spending or earning rewards on them can be taxable or have to be reported, even when the price barely moves. Check your tax authority's guidance or ask a qualified tax professional."
+      ],
+      "bullets": [
+        "Your financial regulator's register of authorized firms and its list of consumer warnings",
+        "The issuer's licensing page, confirmed on the regulator's own website",
+        "Your exchange's disclosures and terms for your country",
+        "Your tax authority's guidance on digital assets"
+      ]
+    },
+    {
+      "heading": "When a high-yield savings account is the better fit",
+      "paragraphs": [
+        "If you want to keep cash safe and earn some interest, an insured high-yield savings account usually fits better than a stablecoin.",
+        "A high-yield savings account at an FDIC-insured bank or NCUA-insured credit union is an ordinary deposit, covered by government insurance up to the limits. There's no peg to lose, no seed phrase to protect and no exchange in the middle. Rates differ between providers and change over time, so compare current rates on the providers' own websites. Outside the US, look up your country's deposit guarantee scheme and its limits.",
+        "If you open the account through a fintech app, confirm which partner bank holds your money and how the insurance applies. When the fintech middleman Synapse went bankrupt in 2024, many app users could not reach their funds for months. Deposit insurance covers a bank failing, not every company between you and the bank.",
+        "Stablecoin 'yields' work differently. The returns come from lending your coins to traders, putting them into DeFi (decentralized finance) protocols or sharing income from reserves, and each of these adds risk from the other party or from the code. Celsius advertised high yields before it went bankrupt in 2022. A higher yield usually means higher risk, not a better savings account."
+      ],
+      "bullets": [
+        "A savings account usually fits better for an emergency fund, money for a goal in the next few years, or cash you can't afford to have frozen.",
+        "A stablecoin may fit if you actively use crypto platforms or have a specific payment need, you accept the risks, and you hold only as much as that use requires.",
+        "For decisions about your own money, consider talking to a licensed financial adviser."
+      ]
+    },
+    {
+      "heading": "A reusable stablecoin check-up log (template)",
+      "paragraphs": [
+        "A simple log turns the checks in this guide into a routine you can repeat, so you notice quickly when something changes.",
+        "Create one entry per stablecoin in a spreadsheet or note app and update it on a set schedule, such as monthly or whenever the issuer publishes a new report. Record only facts copied from primary sources, with links. Never store seed phrases, private keys or exchange passwords in the log."
+      ],
+      "bullets": [
+        "Coin, type and issuer, with the address of the issuer's official website",
+        "Official contract address for each blockchain you use, copied from the issuer's site",
+        "Latest reserve report: period covered, attestation or audit, and the accounting firm",
+        "Reserves and coins in circulation, with both figures and the ratio between them",
+        "Share of reserves in cash and short-term government debt versus riskier assets",
+        "Redemption terms: who can redeem, minimums, fees and timing",
+        "Regulatory status where you live, with a link to the regulator's register",
+        "Where you hold the coin, and whether any 'earn' or lending feature is switched on",
+        "Any red flags you spotted this time, and the date of your next review"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping the check-up log from this guide in one database you update on a schedule: issuer links, contract addresses, reserve report dates, red flags and next review dates.",
+      "not_for": "Storing seed phrases, private keys, passwords or 2FA backup codes. Those should never go in any cloud app. Notion is for keeping records, not a source of truth, so always re-check addresses and reserve figures on the issuer's own site."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Automating review reminders, such as a monthly prompt to re-check reserve reports, or sending new posts from an issuer's or regulator's public news feed (where one exists) to your email or your log.",
+      "not_for": "People holding small amounts who can just set a calendar reminder, or anyone who wants real-time depeg alerts. Never connect automations to exchange or wallet accounts that have trading or withdrawal permissions."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are stablecoins FDIC insured?",
+      "answer": "No. FDIC insurance covers deposits at insured banks, and a stablecoin is not a deposit, even if the issuer keeps part of its reserves at an insured bank. Be wary of any platform that suggests your stablecoins are government insured, and read the exact wording in its terms."
+    },
+    {
+      "question": "Can a stablecoin lose all its value?",
+      "answer": "Yes. The algorithmic stablecoin TerraUSD (UST) collapsed in 2022 and ended up worth a few cents. Coins backed by reserves are built more solidly, but they can still trade below $1. If the reserves turned out to be too small or the issuer failed, holders could get back less than full value."
+    },
+    {
+      "question": "Which stablecoin is the safest?",
+      "answer": "There's no single answer, and this guide doesn't recommend any particular coin. Compare the quality of the reserves, how often and by whom they are checked, the coin's regulatory status where you live, its redemption terms and how well it held its peg during past market stress. Remember that the platform holding the coin adds its own risk."
+    },
+    {
+      "question": "Is earning interest on stablecoins safe?",
+      "answer": "It's riskier than simply holding the stablecoin. The yield has to come from somewhere, usually lending to borrowers, DeFi protocols or shared income from reserves, and each of these adds risk from the other party or from the code. The lending platform Celsius offered high yields before it went bankrupt in 2022, and stablecoin rewards aren't protected by deposit insurance."
+    },
+    {
+      "question": "What happens to my stablecoins if my exchange goes bankrupt?",
+      "answer": "It depends on the exchange's terms, how it held customer assets and the laws where it operates. When FTX and Celsius failed, withdrawals were frozen and customers waited through long bankruptcy processes to get money back. Check whether your platform is regulated in your country and how its terms describe who owns your assets."
+    },
+    {
+      "question": "Do I pay tax on stablecoins?",
+      "answer": "Possibly, depending on where you live. Many tax authorities treat stablecoins like other crypto-assets, so swapping, selling, spending or earning rewards may be taxable or have to be reported, even if the price barely changes. Check your tax authority's guidance or ask a qualified tax professional."
+    }
+  ],
+  "conclusion": "Stablecoins can deliver what they promise, but their stability comes from reserves, code and the companies behind them, and none of those carries a government guarantee. Before you trust one, check what backs it and read the latest reserve report with a critical eye. Decide where you can hold it most safely, and confirm the rules and tax treatment where you live. Then keep a simple log and review it on a schedule, because a coin's backing, its regulatory status and the platforms that hold it can all change. If what you really want is a safe place for cash, an insured high-yield savings account is usually the simpler choice. For decisions about your own money, talk to a licensed financial adviser or use your local regulator's consumer resources.",
+  "keyword": "are stablecoins safe",
+  "niche": "crypto basics, risks and crypto ETFs",
+  "version": 2,
+  "slug": "are-stablecoins-safe-how-to-check-what-actually-backs-one",
+  "published": "2026-10-08T17:08:59+00:00"
+}

@@ -1,0 +1,268 @@
+{
+  "title": "Money Market Account vs Money Market Fund: Which Is Safer?",
+  "meta_description": "Money market account vs money market fund: one is an insured bank deposit, the other an investment. Compare safety, yield, access and when to use each.",
+  "quick_answer": "A money market account is a deposit at a bank or credit union. It's insured by the FDIC or NCUA up to $250,000 per depositor, per institution, per ownership category. A money market fund is an investment, usually held at a brokerage. It isn't deposit-insured and can lose value, though that's rare. SIPC covers a brokerage failure, not a drop in value. If you want guaranteed principal, the insured account is safer.",
+  "key_takeaways": [
+    "A money market account is an insured bank or credit union deposit. A money market fund is an investment with no deposit insurance, even if you buy it through a bank.",
+    "SIPC replaces missing assets if a member brokerage fails. It never covers a drop in a fund's value.",
+    "To see which pays more, compare an account's APY with a fund's 7-day effective yield, then subtract fees and taxes.",
+    "Many people keep emergency money in an insured account and keep cash they plan to invest in a money market fund at their brokerage.",
+    "Check whether your brokerage's cash sweep is a bank deposit program or a money market fund. Confirm current rates and terms with each provider before moving money."
+  ],
+  "who_this_is_for": "This guide is for US savers and investors deciding where to keep an emergency fund or uninvested brokerage cash who can't tell whether a 'money market' product is an insured bank account or an investment.",
+  "intro": "Ask your bank about a 'money market' and you'll be offered an account. Ask your brokerage and you'll probably be offered a fund. The names sound interchangeable and the rates can look similar, but legally they're different products with different protections. This guide explains what each one is, which is safer against which kind of risk and how to compare yields fairly. It also shows how access, minimums and settlement timing differ. It ends with practical guidance for emergency funds and for cash you plan to invest, plus a simple 'cash map' template you can copy. The guide covers US rules, so if you live elsewhere, check with your local regulator. Rates and terms change often, so confirm the current details with any provider before you move money.",
+  "steps": [
+    {
+      "name": "Decide what the cash is for",
+      "text": "Write down what this money is for and when you might need it. It might be an emergency fund, cash waiting to be invested or a short-term goal with a fixed date. The answer tells you what matters most: guaranteed principal, fast access to checking or quick settlement inside a brokerage."
+    },
+    {
+      "name": "Identify what you're actually looking at",
+      "text": "Read the disclosures, not the product name. A named bank or credit union, the words 'Member FDIC' or 'Federally insured by NCUA' and a rate quoted as APY mean it's a deposit account. A ticker symbol, a prospectus, a 7-day yield and a warning like 'not FDIC insured, may lose value' mean it's a fund."
+    },
+    {
+      "name": "Check the protection and limits",
+      "text": "For an account, look up the institution in the FDIC's BankFind tool or the NCUA's Credit Union Locator. Then add up your balances at that institution in each ownership category. The FDIC's EDIE calculator and the NCUA's Share Insurance Estimator can help. For a fund, confirm your brokerage is a SIPC member at sipc.org and check whether the fund is a government, Treasury, prime or tax-exempt fund."
+    },
+    {
+      "name": "Compare yields like for like",
+      "text": "Put the account's APY next to the fund's 7-day effective yield. If the fund only publishes a 7-day SEC yield, use that. Subtract any account fees you'd realistically pay. Make sure the advertised rate applies to your balance tier and isn't a short introductory offer."
+    },
+    {
+      "name": "Read the minimums, fees and limits",
+      "text": "For an account, look for a minimum opening deposit, minimum balance rules, monthly maintenance fees and excess-transaction fees. For a fund, look for the expense ratio, the minimum investment, any brokerage transaction fees and any liquidity-fee policy in the prospectus."
+    },
+    {
+      "name": "Check how fast your money moves",
+      "text": "Find out how long it takes to get cash into your checking account and how long it takes to get it into an investment. For a fund, note the daily order cutoff time and the day a sale settles. For both products, check how long an ACH transfer to an outside bank takes."
+    },
+    {
+      "name": "Factor in taxes",
+      "text": "Estimate what you'd earn after tax. Income from Treasury-focused funds may be partly exempt from state and local tax, and fund companies often publish the share of income that came from US government securities each tax year. Income from municipal funds may be exempt from federal tax. Rules vary by state and country, so confirm with a tax professional."
+    },
+    {
+      "name": "Map your cash and set a review reminder",
+      "text": "Keep a simple cash map with one row per account or fund. Use these columns: name, type (deposit or fund), institution, protection (FDIC, NCUA or SIPC), ownership category, balance, current rate and how it's quoted, fees, access time, purpose and next review date. Every few months, or whenever interest rates move noticeably, recheck your rates, fees and brokerage sweep setting."
+    }
+  ],
+  "comparison": {
+    "caption": "Money market account vs money market fund at a glance (US rules; confirm current terms with each provider)",
+    "headers": [
+      "Feature",
+      "Money market account (MMA)",
+      "Money market fund (MMF)"
+    ],
+    "rows": [
+      [
+        "What it is",
+        "A deposit account at a bank or credit union",
+        "A mutual fund, usually held at a brokerage or fund company, that buys short-term, high-quality debt. You own shares in it."
+      ],
+      [
+        "Main protection",
+        "FDIC or NCUA insurance. The standard limit is currently $250,000 per depositor, per institution, per ownership category.",
+        "SEC regulation of the fund. SIPC covers missing assets if a member brokerage fails, but not losses in value."
+      ],
+      [
+        "Can the value drop?",
+        "No, within insurance limits (fees can still reduce your balance)",
+        "Rarely, but yes. The $1.00 share price is a target, not a guarantee."
+      ],
+      [
+        "How the yield is set and quoted",
+        "The institution sets the rate, often tiered by balance, and can change it at any time. Quoted as APY.",
+        "What the fund's holdings earn, minus expenses. Quoted as a 7-day SEC yield and tends to track short-term rates."
+      ],
+      [
+        "Minimums and fees",
+        "There may be an opening deposit, a minimum balance, monthly fees or excess-transaction fees.",
+        "Minimum investments vary. Every fund has an expense ratio. Some brokerages charge transaction fees, and some non-government funds can charge liquidity fees during market stress."
+      ],
+      [
+        "Access and timing",
+        "Your money is already cash. Transfers within the same bank are often instant. Transfers to an outside bank commonly take one to three business days.",
+        "You sell shares first. Settlement is often the same or next business day, and moving the cash to a bank is a separate transfer."
+      ],
+      [
+        "US tax treatment (general)",
+        "Interest is generally taxed as ordinary income.",
+        "Dividends are generally taxed as ordinary income. Treasury income may be exempt from state tax, and municipal fund income may be exempt from federal tax."
+      ],
+      [
+        "Often used for",
+        "Emergency funds and short-term savings",
+        "Cash waiting to be invested and cash balances held at a brokerage"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Money market account vs money market fund: the core difference",
+      "paragraphs": [
+        "The core difference is that a money market account is a deposit that a bank or credit union owes you, while a money market fund is an investment in which you own shares. Protection, yield, access and risk all follow from that one distinction.",
+        "A money market account (MMA), also called a money market deposit account, is a savings-type account at a bank or credit union. The institution owes you your balance, and federal deposit insurance backs that promise up to the legal limit.",
+        "A money market fund (MMF) is a mutual fund. It pools money from many investors and buys short-term, high-quality debt, such as US Treasury bills, government agency securities, repurchase agreements and, in some funds, corporate commercial paper. Your shares are worth whatever those holdings are worth.",
+        "The two products share a name because both are tied to the 'money market', which is the market for very short-term borrowing. Both also pay rates that tend to rise and fall with short-term interest rates. Apps often show them side by side. A fund you buy through a bank's investment arm is still not a deposit."
+      ],
+      "bullets": [
+        "It's an account if you see a named bank or credit union, 'Member FDIC' or 'Federally insured by NCUA', and a rate quoted as APY.",
+        "It's a fund if you see a ticker symbol, a prospectus, a '7-day yield', the word 'shares' and a warning such as 'not FDIC insured, may lose value'.",
+        "If the product name and the disclosures disagree, trust the disclosures."
+      ]
+    },
+    {
+      "heading": "How a money market account works and how it's protected",
+      "paragraphs": [
+        "A money market account works like a savings account with a few checking-style extras. At a bank it's protected by FDIC insurance, and at a federally insured credit union it's protected by NCUA share insurance.",
+        "Standard deposit insurance currently covers up to $250,000 per depositor, per insured institution, for each ownership category. Examples of ownership categories are individual accounts, joint accounts and certain retirement accounts. You can confirm a bank's insured status with the FDIC's BankFind tool and estimate your coverage with its EDIE calculator. The NCUA offers a Credit Union Locator and a Share Insurance Estimator.",
+        "The institution sets the interest rate, and the rate is usually variable, so it can change at any time. Many accounts pay tiered rates depending on your balance, and some advertise introductory rates that later drop. Rates are quoted as an annual percentage yield (APY), which includes the effect of compounding.",
+        "Some money market accounts come with checks or a debit card. In 2020 the Federal Reserve removed the old limit of six withdrawals per month from savings-type accounts, which was part of a rule called Regulation D. Banks can still set their own limits or charge excess-transaction fees, so read the account agreement."
+      ],
+      "bullets": [
+        "Principal: your balance doesn't go up or down in value. It only falls through withdrawals or fees.",
+        "Protection: FDIC or NCUA insurance, within limits, if the institution fails.",
+        "Rate: variable and set by the institution.",
+        "Watch for: minimum balance rules, monthly fees, tier thresholds and the date an introductory rate ends."
+      ]
+    },
+    {
+      "heading": "How a money market fund works and what SIPC does and doesn't cover",
+      "paragraphs": [
+        "A money market fund is a regulated investment that tries to keep a stable share price while paying income. SIPC protects your fund shares only if your brokerage fails. It does not protect you if the fund loses value.",
+        "In the US, the Securities and Exchange Commission (SEC) regulates money market funds under Rule 2a-7. The rule limits how long the fund's holdings can take to mature, sets credit-quality standards and requires the fund to keep a minimum level of easy-to-sell assets. Most funds sold to individuals aim for a stable value of $1.00 per share. Income builds up daily and is usually paid monthly as dividends.",
+        "Different types of fund carry different risks. Government funds hold almost entirely cash, government securities and repurchase agreements backed by them, and Treasury funds are a narrower version of these. Prime funds can also hold corporate debt, which adds credit risk, meaning the risk that a borrower doesn't pay. Tax-exempt funds hold short-term debt from state and local governments. Some non-government funds can charge a fee on withdrawals during periods of market stress, so check the prospectus.",
+        "A money market fund can lose value. In September 2008, the Reserve Primary Fund 'broke the buck', falling below $1.00 per share after Lehman Brothers, whose debt it held, went bankrupt. In March 2020, heavy withdrawals from prime funds led the Federal Reserve to set up an emergency support facility. The rules have been tightened since then and losses are rare, but fund documents still warn that you could lose money.",
+        "SIPC, the Securities Investor Protection Corporation, steps in when a member brokerage fails and customer assets are missing. It generally covers up to $500,000 per customer, including up to $250,000 in cash. It never covers a fall in an investment's value. Check sipc.org for the current limits and to confirm your broker is a member."
+      ],
+      "bullets": [
+        "Principal: the fund aims for $1.00 per share, but that isn't guaranteed.",
+        "Protection: the SEC regulates the fund, and SIPC covers missing assets within its limits if a member broker fails.",
+        "Yield: what the fund's holdings earn, minus the fund's expenses.",
+        "Watch for: the fund type, the expense ratio, any liquidity-fee policy and the minimum investment."
+      ]
+    },
+    {
+      "heading": "Which is safer? It depends on which risk you mean",
+      "paragraphs": [
+        "An insured money market account is safer in the strict sense, because your principal is guaranteed up to the insurance limit. A money market fund, especially a government fund, is very low-risk but not guaranteed.",
+        "If your main worry is losing principal, the insured account wins. Within the limits, deposits are backed by the full faith and credit of the US government. A money market fund's $1.00 share price is a target that the fund maintains through regulation and conservative investing. It is not a promise.",
+        "For large balances, the answer is less clear-cut. Money above the insurance limit at one institution in one ownership category isn't insured. Some savers spread large balances across several banks or ownership categories. Others use government or Treasury money market funds and accept a small investment risk. Which trade-off suits you is a personal decision that's worth discussing with a licensed adviser.",
+        "Neither product is a long-term answer to inflation. Both are built for stability and easy access, and over many years their returns may not keep up with rising prices."
+      ],
+      "bullets": [
+        "Risk of losing value: none for an insured account within limits; low but real for a fund.",
+        "Credit risk: lowest in government and Treasury funds, higher in prime funds.",
+        "Institution risk: deposits above the insurance limit aren't covered, and a brokerage failure is covered by SIPC only within its limits.",
+        "Middleman risk: depends on how an app or brokerage actually holds your money.",
+        "Inflation risk: applies to both."
+      ]
+    },
+    {
+      "heading": "How to compare yields: APY vs 7-day SEC yield",
+      "paragraphs": [
+        "A money market account pays a rate the bank chooses, quoted as APY. A money market fund passes on what its holdings earn minus its expenses, and the result is usually quoted as a 7-day SEC yield.",
+        "With an account, the bank decides what to pay. When short-term interest rates change, banks may adjust their rates quickly, slowly or not at all, and your rate may depend on your balance tier. The APY shows what you would earn over a year, including compounding, if the rate stayed the same.",
+        "With a fund, the 7-day SEC yield takes the fund's income over the past seven days, after expenses, and converts it to a yearly rate. The fund keeps buying new short-term securities as old ones mature, so its yield tends to follow short-term interest rates fairly closely, whether they rise or fall. Some funds also publish a 7-day effective yield, which assumes dividends are reinvested and is closer to an APY.",
+        "Fees and taxes change the comparison. A fund's expense ratio is already taken out of its SEC yield, but an account's monthly fee isn't reflected in its APY. Income from US Treasury securities may be exempt from state and local tax, and income from municipal funds may be exempt from federal tax, depending on where you live.",
+        "Here is a hypothetical example (these are not current rates). On a $10,000 balance, an account paying 3.75% APY earns about $375 a year, and a fund with a 3.50% 7-day effective yield earns about $350. If the account charges a $5 monthly fee ($60 a year), it nets about $315, so the fund comes out ahead. If the fund's income is also exempt from state tax and you pay state income tax, the gap widens."
+      ],
+      "bullets": [
+        "Compare the APY with the 7-day effective yield where the fund publishes one.",
+        "Subtract any account fees you would realistically pay.",
+        "Make sure the advertised rate applies to your balance and isn't a short introductory offer.",
+        "Compare what you'd earn after tax, using current rates from each provider's site."
+      ]
+    },
+    {
+      "heading": "Access, minimums and settlement timing",
+      "paragraphs": [
+        "A money market account usually gets money into your checking account faster. A money market fund usually gets money into investments faster, as long as it's at the same brokerage where you invest.",
+        "With an account, your money is already cash. Transfers to a checking account at the same bank are often instant, and some accounts come with checks or a debit card. Transfers to an outside bank usually go by ACH, the standard bank-to-bank transfer system, and commonly take one to three business days.",
+        "With a fund, you first have to sell (redeem) your shares. Many funds settle a sale on the same business day if your order arrives before the fund's daily cutoff time. Others settle on the next business day. Orders placed after the cutoff, at weekends or on market holidays are processed on the next business day. Moving the cash to a bank is then a separate ACH or wire transfer.",
+        "Inside the brokerage, the fund has the speed advantage. Some brokerages let you buy stocks, ETFs or other funds and automatically sell money market fund shares to pay for them. Others require you to sell the fund shares first.",
+        "Minimums vary for both products. Some accounts require an opening deposit, or a minimum balance to avoid fees or earn the top rate. Some funds have no minimum initial investment, while others require several thousand dollars. Some brokerages also charge transaction fees for buying funds run by other companies."
+      ],
+      "bullets": [
+        "If I ask for my money on a Friday afternoon, when can it reach my checking account?",
+        "What is the fund's daily order cutoff time, and on which day does a sale settle?",
+        "Can I buy investments directly with my fund shares, or do I have to sell them first?",
+        "Which minimums, monthly fees or transaction fees apply?"
+      ]
+    },
+    {
+      "heading": "Emergency fund vs cash waiting to be invested: which to use",
+      "paragraphs": [
+        "For an emergency fund, many people prefer an insured money market account because the principal is guaranteed and the money can reach checking quickly. For cash waiting to be invested, a money market fund at your brokerage is often the more practical choice.",
+        "An emergency fund has to be there, in full, when something goes wrong. An insured money market account or high-yield savings account does that job. The value doesn't change, the deposit is insured within limits and the money is only a short step from the account you pay bills from. Many people see any small difference in yield as the price of that certainty.",
+        "Some people split their emergency fund. They keep a few weeks of expenses at the bank and hold the rest in a government money market fund. That can work, but it means accepting a small investment risk and waiting longer to reach the larger amount.",
+        "Cash waiting to be invested needs to be ready as soon as you decide to buy. Keeping it in a money market fund at the same brokerage means you don't have to wait days for a bank transfer. Check what your brokerage's default cash sweep pays, because it may differ from what a money market fund in the same account pays.",
+        "For a short-term goal with a fixed date, such as a home deposit or a tax bill, either product can work. What matters is that the principal stays stable and that you can get the money before your deadline. This is general information, not personal advice."
+      ],
+      "bullets": [
+        "Emergency fund: guaranteed principal and fast access to checking matter most.",
+        "Cash waiting to be invested: keeping it in the brokerage and quick settlement matter most.",
+        "Short-term goal with a fixed date: stability and timing come first, and yield comes second.",
+        "Any large balance: check it against the FDIC or NCUA limits and the SIPC limits."
+      ]
+    },
+    {
+      "heading": "Common mix-ups and red flags to check",
+      "paragraphs": [
+        "The most common mix-up is assuming that anything labelled 'money market' is FDIC-insured, so always check how the money is actually held.",
+        "Brokerage cash sweeps are the biggest source of confusion. A cash sweep is where a brokerage automatically puts your uninvested cash. It may go into a bank deposit program, where it's held at partner banks and may be FDIC-insured within limits. It may go into a money market fund, which isn't FDIC-insured. Or it may stay as a cash balance at the brokerage, which SIPC covers within its cash limit. To see which one you have and what it pays, look for the 'core position', 'sweep' or 'cash settings' page in your account.",
+        "Fintech 'cash' and 'savings' accounts are another trap. Many apps aren't banks themselves and instead place your money at partner banks. Deposit insurance can pass through to you, but usually only if the bank's records correctly show that the money is yours. If the app or another middleman fails, you may have to wait to get your money, even if the bank itself is healthy. Some customers found this out after the fintech middleman Synapse went bankrupt in 2024.",
+        "Outside the US, the names and protections are different. Many countries have their own deposit guarantee schemes and fund rules, with their own limits. Check your local regulator's website before assuming any of the US protections described here apply to you."
+      ],
+      "bullets": [
+        "A 'money market' product with no named bank and no prospectus. Ask what it legally is.",
+        "An advertised rate with fine print about balance tiers or an introductory period.",
+        "Any claim that a money market fund is 'guaranteed' or 'FDIC-insured'. Money market funds are not.",
+        "Pressure to move money quickly to lock in a rate."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Savers who want to build the 'cash map' from step 8 as a simple database. Each account or fund gets its own row, recording its protection type, ownership category, balance, how its rate is quoted and next review date. Date reminders can prompt you to recheck rates and sweep settings.",
+      "not_for": "Anyone who wants live balances, rate alerts or advice. On its own, Notion doesn't pull data from your bank or brokerage, so you update the tracker by hand. It can't tell you which product suits you."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners who keep operating reserves in a business money market account or fund and need the interest and dividend income categorised and reconciled for bookkeeping and tax time.",
+      "not_for": "Individuals managing personal savings, or anyone expecting software to choose between products or monitor a fund's risk. Before relying on it, check whether your bank or brokerage connects to its bank feeds. If not, you may need to enter statements manually."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a money market fund FDIC insured?",
+      "answer": "No. A money market fund is an investment, not a bank deposit, so FDIC and NCUA insurance don't apply, even if you buy the fund through a bank. If the fund is held at a SIPC-member brokerage that fails with customer assets missing, SIPC can help within its limits. SIPC doesn't cover a fall in the fund's value."
+    },
+    {
+      "question": "Can you lose money in a money market fund?",
+      "answer": "Yes, although it's rare. Most funds sold to individuals aim to keep a value of $1.00 per share, but that isn't guaranteed. The Reserve Primary Fund fell below $1.00 in 2008. Government and Treasury funds hold the lowest-risk assets, while prime funds take on some risk from lending to companies."
+    },
+    {
+      "question": "Is a money market account or a money market fund better for an emergency fund?",
+      "answer": "Many people prefer an insured money market account or high-yield savings account for an emergency fund, because the principal is guaranteed within limits and transfers to checking are quick. A government money market fund is low-risk but not guaranteed, and getting the cash to your bank takes an extra step. Which fits you depends on your situation, so consider a licensed adviser for personal decisions."
+    },
+    {
+      "question": "Is a money market account the same as a high-yield savings account?",
+      "answer": "They are very similar. Both are insured bank or credit union deposits with variable rates. Money market accounts sometimes add checks or a debit card and may have higher minimum balances or tiered rates, so compare the actual terms rather than the label."
+    },
+    {
+      "question": "What's the difference between FDIC and SIPC protection?",
+      "answer": "FDIC insurance protects bank deposits if the bank fails, and within the limits the deposit itself can't lose value. SIPC protects customers of member brokerages if the firm fails and assets are missing, up to its limits. Neither SIPC nor any government agency protects you from investment losses."
+    },
+    {
+      "question": "Are money market fund dividends taxed differently from savings interest?",
+      "answer": "In the US, both are generally taxed as ordinary income. Part of the income from Treasury-focused funds may be exempt from state and local tax, and income from municipal money market funds may be exempt from federal tax. Rules vary by state and country, so check with a tax professional."
+    }
+  ],
+  "conclusion": "A money market account and a money market fund can both be sensible places to keep cash, but they are not the same thing. The account is a deposit with a government-backed guarantee within limits. The fund is a low-risk investment with no such guarantee, and SIPC covers it only if the brokerage fails. To choose, start with the job your cash needs to do and check how each option is protected. Then compare yields after fees and taxes, and find out how quickly the money actually moves. Rates, fees and rules change, so confirm current terms with each provider. For decisions that depend on your personal circumstances, talk to a licensed financial adviser or tax professional.",
+  "keyword": "money market account vs money market fund",
+  "niche": "banking, savings accounts and interest explained",
+  "version": 2,
+  "slug": "money-market-account-vs-money-market-fund-which-is-safer",
+  "published": "2026-10-08T17:09:00+00:00"
+}

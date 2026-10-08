@@ -1,0 +1,22 @@
+{
+  "term": "Inference (AI)",
+  "section": "AI & Tech",
+  "short_definition": "Inference is the stage where a trained AI model is actually used to produce outputs, such as answering a prompt, classifying an image or making a prediction, as opposed to training, when the model learns.",
+  "explanation": [
+    "Training is the expensive, occasional process in which a model adjusts its internal parameters using large amounts of data. Inference happens every time you use the finished model: you send an input, and the model generates an output without changing its underlying parameters. Every message you send to a chatbot triggers inference.",
+    "Inference matters because it drives the cost, speed and privacy of AI tools. Many AI APIs charge by the number of tokens processed during inference, often with different prices for input and output. Running smaller models on your own device, known as on-device or local inference, can keep data off third-party servers.",
+    "The main trade-off is capability against cost and speed. Larger models are generally more capable but slower and more expensive per request. Smaller or local models are cheaper and more private but may be less accurate. Models that 'think' step by step often use more tokens per answer. Pricing changes often, so confirm current rates on the provider's pricing page."
+  ],
+  "example": "Illustrative example (simplified, ignoring separate input and output pricing): A small business runs a support chatbot through an AI API. Each customer question uses about 1,500 tokens in total. At an illustrative $2 per million tokens, 10,000 questions a month (15 million tokens) cost about $30. A larger model at an illustrative $15 per million would cost about $225 for the same volume.",
+  "common_mistake": "Assuming a chatbot permanently 'learns' your corrections during a conversation. Usually the underlying model isn't updated, and what is kept depends on the product's memory features and data settings.",
+  "related_terms": [
+    "Machine Learning",
+    "Large Language Model (LLM)",
+    "Fine-Tuning",
+    "Token (AI)",
+    "API (Application Programming Interface)"
+  ],
+  "title": "Inference (AI)",
+  "slug": "inference-ai",
+  "published": "2026-10-08T17:13:57+00:00"
+}

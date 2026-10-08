@@ -1,0 +1,22 @@
+{
+  "term": "Customer Acquisition Cost (CAC)",
+  "section": "Accounting & Business",
+  "short_definition": "Customer acquisition cost (CAC) is the average amount a business spends on sales and marketing to win one new customer, calculated as total acquisition spending divided by new customers gained.",
+  "explanation": [
+    "To calculate CAC, add up all sales and marketing costs for a period, including ad spend, marketing tools, agency fees and sales salaries or commissions. Then divide by the number of new customers won in that same period. Some businesses track 'blended' CAC across all channels and 'paid' CAC for advertising channels only.",
+    "CAC matters because it shows whether growth is affordable. Businesses compare it with how much gross profit a customer generates over time, often called customer lifetime value, and with how many months it takes to earn the CAC back. Healthy targets vary a lot by industry and business model.",
+    "CAC is easy to understate if you leave out salaries, tools or discounts, or if you credit ads for customers who would have found you anyway. CAC often rises as a channel gets saturated. Cutting marketing lowers CAC on paper but can also slow growth, so look at it alongside revenue and profit."
+  ],
+  "example": "Illustrative example: In one quarter, a subscription app spends $12,000 on ads, $3,000 on marketing software and $5,000 on a part-time marketer, $20,000 in total. It gains 400 new customers, so CAC = $20,000 ÷ 400 = $50. If each customer pays $10 a month at a 70% gross margin ($7 of gross profit a month), it takes a little over 7 months to earn back the $50.",
+  "common_mistake": "Counting only ad spend and leaving out salaries, tools and promotional discounts, which makes CAC look far cheaper than it really is.",
+  "related_terms": [
+    "Return on Investment (ROI)",
+    "Profit Margin",
+    "Revenue vs Profit",
+    "Burn Rate",
+    "Break-Even Point"
+  ],
+  "title": "Customer Acquisition Cost (CAC)",
+  "slug": "customer-acquisition-cost-cac",
+  "published": "2026-10-08T17:13:57+00:00"
+}

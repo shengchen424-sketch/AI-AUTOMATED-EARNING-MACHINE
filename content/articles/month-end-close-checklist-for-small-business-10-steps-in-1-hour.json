@@ -1,0 +1,300 @@
+{
+  "title": "Month-End Close Checklist for Small Business: 10 Steps in 1 Hour",
+  "meta_description": "Use this month end close checklist for small business: 10 steps with QuickBooks Online paths, what freelancers can skip, and a 60-minute printable.",
+  "quick_answer": "A month-end close is the routine of checking, correcting and locking last month's books so your reports match your bank statements. For a small business, the checklist is: reconcile every bank, card and processor account; clear uncategorized transactions; review receivables and payables; record owner draws and transfers; check sales tax; compare the P&L with last month; and lock the period with a closing date.",
+  "key_takeaways": [
+    "Reconcile every bank, credit card, loan and payment-processor account to its statement every month. No business should skip this step.",
+    "Bring the Uncategorized accounts to zero, and record transfers, card payments and owner draws correctly so they don't distort your profit.",
+    "Compare this month's P&L with last month's. If you can't explain a change in one sentence, look into it.",
+    "Lock each finished month in QuickBooks Online with a password-protected closing date. Menu names change, so check the current path on Intuit's support site.",
+    "Use the 60-minute version once your books are up to date. Your first close will take longer.",
+    "If the close regularly takes more than half a day or won't reconcile, consider hiring a bookkeeper."
+  ],
+  "who_this_is_for": "This guide is for small business owners and solo freelancers who keep their own books in QuickBooks Online or a similar tool and want a monthly routine that keeps their reports accurate and makes tax time easier.",
+  "intro": "A month-end close is a short monthly routine: you check, correct and lock last month's books so your reports match your bank statements. If you skip it, you may end up rebuilding a whole year of bookkeeping at tax time. This guide gives small business owners a 10-step month-end close checklist and shows where each step lives in QuickBooks Online. It also covers what solo freelancers can do in a lighter form, how to fix a reconciliation that won't balance, signs you need a bookkeeper, and a printable 60-minute version with a simple close log. QuickBooks changes its menus often, so treat the paths here as signposts and check the current names on Intuit's QuickBooks support site.",
+  "steps": [
+    {
+      "name": "Gather statements and refresh bank feeds",
+      "text": "Download the month's statements for every business bank account, credit card, loan and payment processor. Get the PDF statements, not just CSV transaction exports, because you need the official ending balance. Collect any receipts or bills you haven't entered yet. In QuickBooks Online, go to Transactions > Bank transactions (called Banking in some versions) and click Update so each connected feed pulls in the latest activity. Reconnect any feed that shows an error. QuickBooks renames menus often, so check every path in this checklist on Intuit's QuickBooks support site."
+    },
+    {
+      "name": "Review every transaction in the bank feed",
+      "text": "Work through the For review tab until nothing from the month is left. Before you add anything new, try to match each item to an invoice, bill or payment you've already recorded. Adding instead of matching is a common cause of duplicate income and expenses. Assign everything else to a specific account and payee. In QuickBooks Online, go to Transactions > Bank transactions > For review. Create rules for repeat transactions in the Rules area, and check what a rule has categorized before you accept it."
+    },
+    {
+      "name": "Reconcile every bank and credit card account",
+      "text": "Reconciling confirms that QuickBooks agrees with each statement to the cent as of the statement's ending date. In QuickBooks Online, go to Settings (gear icon) > Tools > Reconcile, or Transactions/Accounting > Reconcile in some layouts. Choose the account, enter the statement's ending date and ending balance, and tick each transaction that appears on the statement. Finish only when the difference is 0.00. Repeat for every checking, savings, credit card, loan and payment-processor account, and save each reconciliation report."
+    },
+    {
+      "name": "Clear uncategorized transactions",
+      "text": "At month-end, Uncategorized Income, Uncategorized Expense and Uncategorized Asset should all be empty. In QuickBooks Online, open the Chart of accounts (under Accounting or Transactions, depending on your layout). Click View register on each Uncategorized account and move every entry to the correct account. Reports > Account QuickReport also works. Check any suspense or 'Ask My Accountant' account you use as well. If Opening Balance Equity changed this month, flag it for your accountant. Labels vary, so check Intuit's site."
+    },
+    {
+      "name": "Review accounts receivable aging",
+      "text": "Run the aging report as of the last day of the month and confirm that every customer payment is applied to the right invoice. Unapplied payments make customers who have paid look overdue. In QuickBooks Online, go to Reports > Accounts receivable aging summary (or detail). Follow up on overdue invoices. List any you may not be able to collect so your accountant can decide how to handle them. Check that Undeposited Funds (called Payments to deposit in some versions) only holds payments that haven't reached the bank yet."
+    },
+    {
+      "name": "Review accounts payable aging",
+      "text": "If you enter bills, check that what QuickBooks says you owe matches reality. In QuickBooks Online, run Reports > Accounts payable aging summary as of month-end. Link each bank or card payment to the bill it paid instead of recording it as a separate expense. Delete duplicates and enter any bills you've received but not recorded. Bill tracking depends on your plan, so check Intuit's plan comparison. If you pay every cost immediately, this step takes about two minutes."
+    },
+    {
+      "name": "Record owner draws, contributions and transfers",
+      "text": "Money moving between your own accounts is neither income nor an expense, so record it as a transfer. In QuickBooks Online, use + New > Transfer for moves between business accounts and + New > Pay down credit card for card payments. Record money you take out as an owner's draw, or in whatever equity or payroll account your accountant specifies for your business type. Record money you put in as an owner contribution. Move any personal purchases made on business cards to draws."
+    },
+    {
+      "name": "Check sales tax and other liabilities",
+      "text": "Check that the tax you collected matches your taxable sales and that the amount owed on your books is what you expect. In QuickBooks Online, go to Taxes > Sales tax (VAT or GST in some regions) and run the sales tax liability report for the month. Record payments to the tax authority with the sales tax payment feature so they reduce the liability. Don't record them as an expense. If you run payroll, check payroll liabilities too. Registration rules, rates and deadlines vary by location, so confirm them with your tax authority or an accountant."
+    },
+    {
+      "name": "Compare the P&L with last month",
+      "text": "Put this month next to last month and explain every big change. In QuickBooks Online, run Reports > Profit and Loss Comparison, or run the standard Profit and Loss report with a previous-period comparison column. Look for missing recurring costs such as rent or software, income that looks too high or too low, and expense accounts with negative balances. Then run the Balance Sheet. Check that bank and card balances agree with your reconciliation reports, allowing for uncleared items. If you can't explain a change in one sentence, look into it."
+    },
+    {
+      "name": "Lock the period with a closing date",
+      "text": "Once the numbers make sense, lock the month so nobody changes it by accident. In QuickBooks Online, go to Settings (gear icon) > Account and settings > Advanced > Accounting > Close the books. Enter the last day of the month as the closing date and require a password for changes. Export the P&L, Balance Sheet and reconciliation reports to a dated folder. Agree with your accountant how they'll post any later adjustments, which usually means sharing the closing-date password. Check the current menu path on Intuit's support site."
+    }
+  ],
+  "comparison": {
+    "caption": "Month-end close steps by business type. *Menu labels vary by version and region, so check them on Intuit's QuickBooks support site.",
+    "headers": [
+      "Checklist step",
+      "Solo freelancer (no staff, no sales tax)",
+      "Small business (staff, bills or sales tax)",
+      "Where in QuickBooks Online*"
+    ],
+    "rows": [
+      [
+        "Reconcile bank and card accounts",
+        "Every account, every month",
+        "Every account, every month, plus loan and payment-processor accounts",
+        "Settings (gear) > Tools > Reconcile"
+      ],
+      [
+        "Clear uncategorized transactions",
+        "Always; aim for zero",
+        "Always, plus a check of suspense accounts and Opening Balance Equity",
+        "Chart of accounts > View register, or Reports > Account QuickReport"
+      ],
+      [
+        "Review accounts receivable aging",
+        "Quick look at open invoices",
+        "Full aging review and follow-up on overdue invoices",
+        "Reports > Accounts receivable aging summary"
+      ],
+      [
+        "Review accounts payable aging",
+        "Skip if you pay costs immediately",
+        "Always, if you enter bills",
+        "Reports > Accounts payable aging summary"
+      ],
+      [
+        "Owner draws and transfers",
+        "Always (usually only a few entries)",
+        "Always; confirm with your accountant how the owner is paid",
+        "+ New > Transfer; + New > Pay down credit card"
+      ],
+      [
+        "Sales tax, VAT or GST",
+        "Skip only after confirming you have no obligation",
+        "Always; match the figures to the returns you file",
+        "Taxes > Sales tax (VAT/GST in some regions)"
+      ],
+      [
+        "Compare P&L with last month",
+        "5-minute scan",
+        "Full review alongside the Balance Sheet",
+        "Reports > Profit and Loss Comparison"
+      ],
+      [
+        "Lock the period",
+        "Recommended",
+        "Always, with a password",
+        "Settings > Account and settings > Advanced > Close the books"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is a month-end close, and why does it matter?",
+      "paragraphs": [
+        "A month-end close is a monthly routine. You confirm that every transaction is recorded, correctly categorized and matched to your bank and card statements, then you lock the month so the numbers stop changing. It matters because it gives you financial reports you can trust. Large companies run complex closes. A small business needs a simple close that happens every month without fail.",
+        "The main benefit is a Profit and Loss report you can rely on. Accurate monthly figures help you price your work, plan cash flow and catch problems while they're small. A duplicate charge, a customer payment that wasn't applied or a forgotten subscription takes minutes to fix after four weeks. After twelve months, it can take a long, frustrating search to untangle.",
+        "A regular close also makes tax season easier. If each month has been reconciled and locked, year-end is a review of twelve clean months instead of a rebuild, and your accountant usually has fewer questions. How much time or money that saves depends on your accountant and your situation.",
+        "Accounting software such as QuickBooks Online automates a lot, including bank feeds, suggested categories and bank rules. But those are only suggestions. The close is when a person checks that they were right."
+      ],
+      "bullets": [
+        "Reports that match your actual bank and card balances",
+        "Early warning of errors, duplicate charges and possible fraud",
+        "A clear list of who owes you money and who you owe",
+        "A reliable starting point for tax returns, loan applications and budgets"
+      ]
+    },
+    {
+      "heading": "What to gather before you start your close",
+      "paragraphs": [
+        "Before you open QuickBooks, collect every statement and missing receipt for the month and block out time without interruptions. Most closes stall because something is missing halfway through.",
+        "Bank and card statements usually become available a few days after the month ends, so many owners schedule their close for the first or second week of the following month. Credit card statements often end mid-month. Reconcile to the statement's ending date rather than the calendar month-end, and the next statement will pick up the remaining days."
+      ],
+      "bullets": [
+        "PDF statements for every business checking, savings, credit card, loan and credit line account",
+        "Payout reports from payment processors and marketplaces, such as Stripe, PayPal, Square, Shopify or Etsy, showing gross sales, fees and refunds",
+        "Receipts and bills you haven't entered yet. Photograph them with the QuickBooks mobile app, or forward them to your QuickBooks receipt email if you use that feature.",
+        "A note of any money you moved between personal and business accounts",
+        "Last month's Profit and Loss and Balance Sheet, for comparison",
+        "A QuickBooks user role that can change company settings, which you need to set a closing date"
+      ]
+    },
+    {
+      "heading": "How to fix reconciliations that won't balance in QuickBooks Online",
+      "paragraphs": [
+        "When a reconciliation won't reach a difference of 0.00, the cause is usually one of a few common mistakes. Working through them in the order below usually finds it.",
+        "Don't force the reconciliation through. If you try to finish with a difference remaining, QuickBooks Online may offer to post an adjustment. That adjustment typically goes to a Reconciliation Discrepancies account, which hides the problem instead of fixing it, and the gap can grow over the following months. If you can't find the difference after a reasonable search, write down the amount and ask a bookkeeper or accountant before you adjust anything."
+      ],
+      "bullets": [
+        "The beginning balance doesn't match the statement: an already-reconciled transaction was edited, deleted or un-ticked. On the Reconcile page, open History by account to compare. The Audit log (Settings > Tools > Audit log) shows who changed what.",
+        "Duplicates: the same money was entered twice. A common example is recording an invoice payment by hand and then adding the bank deposit again as new income. Match feed items to existing transactions instead of adding them.",
+        "Credit card payments recorded as expenses: paying the card from checking is a transfer, not a cost. If you record it as an expense, every purchase on the card gets counted twice.",
+        "Processor payouts recorded net of fees: suppose a payout of 950 is really 1,000 in sales minus 50 in fees (example figures). Record the gross sale and the fee separately, or use a separate clearing account for the processor.",
+        "Wrong dates: a transaction dated in the wrong month falls outside the statement period.",
+        "Transposed digits: if the difference divides evenly by 9, look for two digits typed in the wrong order, such as 54 entered as 45."
+      ]
+    },
+    {
+      "heading": "What a solo freelancer can safely skip",
+      "paragraphs": [
+        "A solo freelancer with no employees, no inventory and no sales tax obligation can usually do a lighter version of the receivables, payables and sales tax steps. Reconciliation, clearing uncategorized items, recording owner draws and setting a closing date still apply to everyone.",
+        "Some steps keep your numbers accurate, and every business needs them. Others track what you owe to other people, such as bills, staff costs and tax collected from customers, and those grow as your business gets more complex. A lighter version means a quicker check, not skipping the step for good. If you've only skimmed a step for a few months, do the full version before your next quarterly tax payment or VAT/GST return."
+      ],
+      "bullets": [
+        "Lighten: skip the accounts payable aging report if you pay every cost immediately by card or bank transfer and don't enter bills.",
+        "Lighten: if you only have a few clients, a quick scan of open invoices can replace the full receivables aging review.",
+        "Lighten: skip sales tax only after confirming with your tax authority or an accountant that you have no obligation. Some services and many digital products are taxable in some places, so don't assume they aren't.",
+        "Lighten: check that bank and card balances match each month, and review the full Balance Sheet once a quarter.",
+        "Never skip: reconciling every account, including the business card you rarely use",
+        "Never skip: clearing the Uncategorized accounts",
+        "Never skip: recording personal spending and transfers as owner draws, not expenses",
+        "Never skip: setting a closing date once the month is done"
+      ]
+    },
+    {
+      "heading": "Warning signs it's time to hire a bookkeeper",
+      "paragraphs": [
+        "Consider hiring a bookkeeper when your close regularly runs long, won't reconcile, or involves rules you aren't confident applying.",
+        "Doing your own books makes sense for many small businesses, but mistakes cost more as you grow. If any of the signs below sound familiar, outside help may be worth it in accuracy, time or peace of mind.",
+        "When you interview bookkeepers, ask whether they work in QuickBooks Online every day and whether they hold a certification such as QuickBooks ProAdvisor. Ask exactly what the monthly fee covers, how they charge for catch-up work and how they'll send you questions. Stay the primary admin on your QuickBooks account so you always control your data.",
+        "A bookkeeper keeps your records accurate. Tax planning and decisions about your business structure belong with a qualified accountant or licensed tax professional in your country. Some firms offer both, so ask."
+      ],
+      "bullets": [
+        "You're two or more months behind and keep failing to catch up",
+        "Reconciliations often don't balance, or you've accepted adjustments you can't explain",
+        "Your Uncategorized or Opening Balance Equity balances keep growing",
+        "You've hired employees or contractors and now run payroll",
+        "You collect sales tax, VAT or GST in more than one jurisdiction, or you sell on several marketplaces",
+        "You hold inventory or need accrual-basis reports",
+        "A lender, investor or buyer has asked for financial statements",
+        "You've received a tax authority notice you don't fully understand",
+        "The close regularly takes more than half a day and pulls you away from paid work"
+      ]
+    },
+    {
+      "heading": "Printable month-end close checklist for small business (60-minute version)",
+      "paragraphs": [
+        "This version fits the 10 steps into about 60 minutes. It's designed for a business whose books are up to date, with a handful of bank and card accounts and a moderate number of transactions.",
+        "Your first close, or any close after months of catching up, will take longer, sometimes much longer. That's normal. After a few clean months the routine gets faster, because bank rules, matched transactions and earlier reconciliations do much of the work.",
+        "If a block runs over, write the issue on a 'parking lot' list, keep going, and come back to it at the end. To print the checklist, copy it into a document and add lines for the month, the date you finished and your initials.",
+        "Keep a simple close log next to the checklist, with one row per month. Use these columns: month, date closed, accounts reconciled with their ending balances, Uncategorized balance (should be 0), open issues, closing date set (yes/no) and initials. The log gives you and your accountant a clear record of what was checked and when."
+      ],
+      "bullets": [
+        "0–5 min: Download statements. Click Update in Bank transactions and reconnect any broken feeds.",
+        "5–20 min: Clear the For review tab. Match first, then categorize. Add bank rules for vendors you pay often.",
+        "20–35 min: Reconcile each bank and card account to its statement's ending balance and save the reports.",
+        "35–40 min: Bring the Uncategorized accounts to zero and confirm Opening Balance Equity hasn't changed.",
+        "40–45 min: Receivables aging: apply payments, list overdue invoices to chase and check Undeposited Funds.",
+        "45–48 min: Payables aging: mark paid bills, enter missing ones and delete duplicates.",
+        "48–51 min: Record owner draws, contributions, transfers and card payments.",
+        "51–54 min: Check the sales tax, VAT or GST you owe and note the next due date.",
+        "54–58 min: Run the Profit and Loss Comparison and the Balance Sheet, and explain every big change.",
+        "58–60 min: Set the closing date with a password, export the reports to a dated folder and fill in the close log."
+      ]
+    },
+    {
+      "heading": "Automating parts of the close without losing control",
+      "paragraphs": [
+        "Automation can handle most of the typing and reminders in your close. A person should still do the reconciliation and the final review.",
+        "Check what any new integration records during its first month. A badly configured connection can create duplicates faster than you would by hand, and those duplicates show up as reconciliation differences. Only automate a step after you've done it by hand successfully for at least a couple of months."
+      ],
+      "bullets": [
+        "Bank rules in QuickBooks Online categorize repeat transactions such as software, rent or utilities. Until you trust a rule, set it to suggest a category rather than add transactions automatically.",
+        "Recurring transactions (Settings > Lists > Recurring transactions) handle fixed monthly entries, such as a set owner draw or a loan payment.",
+        "Receipt capture through the QuickBooks mobile app or the receipt-forwarding email gets receipts into your books before you close.",
+        "Payment-processor and online store integrations can record gross sales, fees and refunds separately, which makes processor accounts much easier to reconcile.",
+        "A repeating calendar event, plus a reusable checklist and close log in Notion or a simple spreadsheet, keeps the routine on schedule.",
+        "If you already use Zapier or Make, they can save emailed receipts to a folder or create the monthly close task automatically. Check each tool's current pricing and its QuickBooks integration on the vendor's site."
+      ]
+    },
+    {
+      "heading": "Rules that vary by country and business type",
+      "paragraphs": [
+        "Several close steps depend on where you operate and how your business is legally structured. Confirm them with a qualified accountant instead of copying another business's setup.",
+        "This article is general information about bookkeeping routines. It isn't tax, legal or financial advice. For decisions about your own business, check your local tax authority's guidance or speak to a licensed accountant or tax adviser."
+      ],
+      "bullets": [
+        "Owner pay: sole proprietors and many single-owner businesses take owner's draws. Corporations may pay a salary, dividends or distributions instead, and each is recorded and taxed differently.",
+        "Sales tax, VAT and GST: whether you must register, what's taxable and how often you file all vary by country, state or province.",
+        "Cash vs. accrual basis: your accounting method decides whether unpaid invoices and bills appear on your Profit and Loss.",
+        "Month-end adjustments: on the accrual basis, your accountant may record accrued expenses, prepaid expenses, depreciation or inventory adjustments. Simple cash-basis businesses often have few or none.",
+        "Payroll: tax withholding, employer contributions and filing schedules are set locally.",
+        "Record keeping: how long you must keep statements and receipts depends on where you operate."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small businesses and freelancers who want bank feeds, reconciliation, receivables and payables aging reports and a password-protected closing date in one tool. This checklist is built around that workflow.",
+      "not_for": "Freelancers with very few transactions who can manage with a spreadsheet, or businesses whose accountant works in a different platform. Features such as bill tracking vary by plan and region, so check Intuit's site before you choose a plan."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping a reusable close checklist, a monthly close log and a 'parking lot' list of open issues that you can share with a bookkeeper or accountant.",
+      "not_for": "Doing the bookkeeping itself, because it isn't accounting software. If you don't already use Notion, a simple spreadsheet or the printed checklist works just as well."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Owners who already receive many receipts and bills by email and want them routed automatically, or who want a monthly close task created on schedule. Make is a similar visual alternative, so compare both on the vendors' sites.",
+      "not_for": "Anyone whose books aren't yet reconciled, because automation repeats mistakes quickly. It's also unnecessary if QuickBooks' built-in bank rules, recurring transactions and receipt forwarding already cover your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long should a month-end close take for a small business?",
+      "answer": "It depends on how many accounts and transactions you have and whether your books are up to date. Once you're caught up, a simple business with a few accounts can often aim for about an hour using a timed checklist. Your first close, or one after months of backlog, can take much longer. If it regularly takes more than half a day, simplify your setup or get help."
+    },
+    {
+      "question": "When should I do my month-end close?",
+      "answer": "Do it once all the month's statements are available, which for many businesses is the first or second week of the following month. Pick a fixed date and put it on your calendar so it doesn't slip. Finishing before any sales tax, VAT or payroll deadlines gives you time to fix problems before you file."
+    },
+    {
+      "question": "What's the difference between categorizing and reconciling?",
+      "answer": "Categorizing puts each transaction in an account, such as Software or Owner's draw. Reconciling confirms that the transactions in your books match your bank or card statement, so the ending balances agree to the cent. You need both: categorizing makes your P&L meaningful, and reconciling shows that nothing is missing or duplicated."
+    },
+    {
+      "question": "Do I have to close the books in QuickBooks Online?",
+      "answer": "It isn't required, but setting a closing date protects finished months from accidental changes. In QuickBooks Online, it's under Settings > Account and settings > Advanced > Accounting > Close the books, where you can also require a password. Your accountant can still post adjustments later with that password. Check the current menu path on Intuit's support site."
+    },
+    {
+      "question": "Can I reopen a closed month in QuickBooks Online?",
+      "answer": "Yes. You can edit a transaction dated before the closing date if you have the password, or you can move the closing date back. Changes to a closed, reconciled month can affect reports you've already shared or filed from, so write down what you changed and tell your accountant."
+    },
+    {
+      "question": "Do solo freelancers need a month-end close?",
+      "answer": "Yes, but it can be a lighter one. Reconciling every account, clearing uncategorized items and recording owner draws keep your income figures accurate, and those figures matter for tax. Steps such as reviewing bills or sales tax may not apply to you, but confirm your sales tax status rather than assuming."
+    }
+  ],
+  "conclusion": "A month-end close doesn't take accounting expertise. It means running the same ten checks every month, before small errors pile up. Reconcile every account, clear the uncategorized items, record transfers and owner draws correctly, check the tax you owe, compare with last month and lock the period. Use the full checklist for your first close, then switch to the 60-minute version and the close log once your books are current. QuickBooks Online menu names change, so check Intuit's support site if a path doesn't match your screen. If the routine regularly runs long or your numbers won't match your statements, it may be time to bring in a bookkeeper. For tax or structure questions, talk to a licensed accountant in your country.",
+  "keyword": "month end close checklist for small business",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "month-end-close-checklist-for-small-business-10-steps-in-1-hour",
+  "published": "2026-10-08T16:58:27+00:00"
+}

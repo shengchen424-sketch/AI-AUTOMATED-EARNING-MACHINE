@@ -1,0 +1,22 @@
+{
+  "term": "Two-Minute Rule",
+  "section": "Self-Development",
+  "short_definition": "The two-minute rule is a productivity guideline with two common versions: do any task taking under two minutes immediately, or start a new habit with a version that takes two minutes.",
+  "explanation": [
+    "The first version comes from David Allen's 'Getting Things Done' method: if a next action takes less than two minutes, do it now, because tracking it would take longer than finishing it. The second version, popularised by James Clear's 'Atomic Habits', says to shrink a new habit to a two-minute starting point, such as 'read one page' instead of 'read every night', so it is easy to begin.",
+    "The rule matters because it clears small tasks before they pile up into mental clutter. It also lowers the effort needed to start a habit. It puts consistency first, on the logic that a habit has to exist before it can be improved.",
+    "The risk is that, applied all day, the first version turns into constant interruption. Many people batch two-minute tasks into set times instead. With the habit version, the two-minute start is a launch pad, so it needs to grow over time or it stays a token gesture."
+  ],
+  "example": "Illustrative example: While processing email you find 12 messages. Five need a one-line reply of about 1 minute each, so you answer them right away in about 5 minutes. The other seven need real work, so they go on your task list. For a savings habit, the two-minute version could be 'open my banking app and move $5 to savings each payday', which you can increase later.",
+  "common_mistake": "Letting the rule run your day by doing every tiny task the moment it appears, so a stream of two-minute jobs crowds out important focused work.",
+  "related_terms": [
+    "Habit Stacking",
+    "Deep Work",
+    "Time Blocking",
+    "Pomodoro Technique",
+    "Kaizen (Continuous Improvement)"
+  ],
+  "title": "Two-Minute Rule",
+  "slug": "two-minute-rule",
+  "published": "2026-10-08T17:13:57+00:00"
+}

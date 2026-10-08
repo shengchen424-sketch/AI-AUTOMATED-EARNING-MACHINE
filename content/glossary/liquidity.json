@@ -1,0 +1,22 @@
+{
+  "term": "Liquidity",
+  "section": "Banking & Money",
+  "short_definition": "Liquidity is how quickly and easily an asset can be converted into cash without significantly lowering its price; cash is the most liquid asset, while property is typically illiquid.",
+  "explanation": [
+    "Assets sit on a liquidity spectrum. Cash and checking accounts are instantly usable, and savings accounts are close behind. Widely traded stocks and ETFs can usually be sold quickly on trading days, though settlement takes time and the price may be down. CDs may charge early-withdrawal penalties. Real estate, private business stakes and collectibles can take weeks or months to sell. For businesses, liquidity means the ability to pay short-term bills.",
+    "Liquidity matters because emergencies and bills need cash on time. If you have to sell an illiquid asset in a hurry, you may need to accept a much lower price. Being liquid is also not the same as being stable: you can sell a stock in seconds, but possibly at a loss.",
+    "The trade-off is that more liquid places to hold money often pay less. Locking money up, for example in term deposits or retirement accounts with withdrawal restrictions, may offer higher potential returns or tax benefits but less access. Liquidity can also vanish suddenly: some funds can limit withdrawals, and small crypto tokens or troubled exchanges can become impossible to sell at a fair price."
+  ],
+  "example": "Illustrative example: Your car needs a $2,000 repair. If you have $2,000 in a savings account, you can transfer it the same day at no cost. If it is in a CD with an early-withdrawal penalty of three months' interest, you pay that penalty to get it out. If it is tied up in a rental property, you can't sell part of the house quickly, so you'd likely need to borrow.",
+  "common_mistake": "Assuming an investment you can sell instantly is safe for emergency money. It may be liquid, but its price could be down right when you need the cash.",
+  "related_terms": [
+    "Emergency Fund",
+    "High-Yield Savings Account",
+    "Certificate of Deposit (CD)",
+    "Working Capital",
+    "Cash Flow"
+  ],
+  "title": "Liquidity",
+  "slug": "liquidity",
+  "published": "2026-10-08T17:13:57+00:00"
+}
