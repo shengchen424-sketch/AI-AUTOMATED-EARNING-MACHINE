@@ -47,6 +47,7 @@ jobs:
           python -m earnbot run
 
       - name: Commit new content
+        if: github.event_name != 'push'   # push runs only rebuild the site
         run: |
           git config user.name "earnbot"
           git config user.email "earnbot@users.noreply.github.com"
