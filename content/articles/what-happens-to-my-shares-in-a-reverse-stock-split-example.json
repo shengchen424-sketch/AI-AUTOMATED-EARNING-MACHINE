@@ -1,0 +1,279 @@
+{
+  "title": "What Happens to My Shares in a Reverse Stock Split? (Example)",
+  "meta_description": "What happens to my shares in a reverse stock split? Fewer shares, higher price, same value. 1-for-10 example, cost basis and fractions explained.",
+  "quick_answer": "In a reverse stock split, your shares are combined into fewer shares at a proportionally higher price, so your position's total value is unchanged at the moment of the split. In a 1-for-10 split, 1,000 shares at $0.80 become 100 shares at about $8.00, still $800. Leftover fractions are usually paid in cash, your total cost basis carries over, and the price then moves with the market.",
+  "key_takeaways": [
+    "At the moment of a reverse split, your position's total value doesn't change. You hold fewer shares at a proportionally higher price.",
+    "Leftover fractional shares are usually paid out as \"cash in lieu.\" If you own fewer shares than the split ratio, you could be cashed out entirely.",
+    "Your total cost basis carries over, and your per-share basis rises by the split ratio on every tax lot. Check it after the split is processed.",
+    "Expect a new CUSIP and possibly a new ticker. Many brokers cancel open orders around a split, and options contracts are usually adjusted.",
+    "Reverse splits often follow a falling share price and an exchange's minimum-price rule. Read the company's filings to find out why it's splitting.",
+    "Tax rules differ by country and account type. Check your local tax authority's guidance or ask a qualified professional about your situation."
+  ],
+  "who_this_is_for": "This guide is for investors who just got a reverse-split notice from their broker or from a company they own and want to know what will happen to their shares, cost basis and brokerage account.",
+  "intro": "A reverse split notice usually raises one question: will I lose money? At the moment the split takes effect, you won't. You end up with fewer shares, each priced higher, and your position is worth the same total. A few practical details still matter, though. You'll want to know how fractional shares are handled, how your cost basis changes, what your brokerage account will show and why the company is splitting in the first place. This guide works through a 1-for-10 example step by step, explains why many investors see reverse splits as a warning sign, and gives you a checklist for before and after the effective date. It's general education, not personal financial, tax or legal advice.",
+  "steps": [
+    {
+      "name": "Find the split ratio and effective date",
+      "text": "Find the company's announcement, press release or regulatory filing (in the US, often a Form 8-K). Write down the ratio, such as 1-for-10, and the date the shares start trading on a split-adjusted basis. Check which way the ratio runs: a 1-for-10 reverse split divides your share count by 10, while a 10-for-1 forward split multiplies it."
+    },
+    {
+      "name": "Read how fractional shares will be handled",
+      "text": "The announcement or proxy statement will say whether fractions are paid in cash, rounded up to a whole share, or handled some other way. If you own fewer shares than the ratio, you could be cashed out completely."
+    },
+    {
+      "name": "Check your broker's corporate action notice",
+      "text": "Look in your broker's message center, email or corporate actions page for the notice about this split. It explains timing and processing. Some brokers charge a fee for mandatory corporate actions, so check the fee schedule. If you hold shares directly with a transfer agent or as paper certificates, follow the transfer agent's instructions instead."
+    },
+    {
+      "name": "Review open orders and options before the effective date",
+      "text": "Many brokers cancel open orders, such as good-'til-cancelled limit orders and stop orders, around a split. List any orders you'd want to re-enter at split-adjusted prices. If you hold options, read the adjustment notice for the new contract terms."
+    },
+    {
+      "name": "Work out your expected post-split numbers",
+      "text": "Divide your share count by the ratio and multiply your per-share cost basis by the ratio for each tax lot. Note any fraction that may be cashed out. With these numbers written down, you can spot processing errors quickly."
+    },
+    {
+      "name": "Verify your position after the split",
+      "text": "A few business days after the effective date, confirm that your share count was divided by the ratio, that the price reflects the split, and that the security shows the new CUSIP or ticker if one was assigned."
+    },
+    {
+      "name": "Confirm your cost basis was adjusted",
+      "text": "Check that your total cost basis hasn't changed, apart from the part attached to any cashed-out fraction. Your per-share basis should have risen by the split ratio on every tax lot. Look closely at shares transferred in from another broker, because errors are more common there."
+    },
+    {
+      "name": "Look for the cash-in-lieu payment",
+      "text": "If you had a fractional share, watch for the cash payment. It can arrive days or weeks after the split. Contact your broker if it doesn't show up within a reasonable time."
+    },
+    {
+      "name": "Read why the company split and revisit your plan",
+      "text": "Review the company's stated reason, any delisting notice, its cash position, any going-concern warnings and its financing plans. Then make your decision based on your own goals and risk tolerance. For personal decisions, consider talking to a licensed adviser."
+    },
+    {
+      "name": "Save your records and update your trackers",
+      "text": "Keep the broker notice, statements from before and after the split, and confirmation of any cash payment. Update any spreadsheet or portfolio app that won't adjust on its own. You'll need accurate records to report the fractional-share sale and keep your cost basis correct."
+    }
+  ],
+  "comparison": {
+    "caption": "What changes in a 1-for-10 reverse split (illustrative example: 1,055 shares bought at $2.00, now trading at $0.80)",
+    "headers": [
+      "Item",
+      "Before the split",
+      "After the split",
+      "What to check"
+    ],
+    "rows": [
+      [
+        "Shares held",
+        "1,055",
+        "105 whole shares + 0.5 share cashed out",
+        "Your share count on or shortly after the effective date"
+      ],
+      [
+        "Price per share",
+        "$0.80",
+        "About $8.00 (theoretical)",
+        "The real price is set by the market from the first post-split trade"
+      ],
+      [
+        "Total market value",
+        "$844.00",
+        "$840.00 in shares + about $4.00 cash",
+        "Cash-in-lieu amount and payment date"
+      ],
+      [
+        "Cost basis per share",
+        "$2.00",
+        "$20.00",
+        "Every tax lot adjusted by the same ratio"
+      ],
+      [
+        "Total cost basis",
+        "$2,110.00",
+        "$2,100.00 on remaining shares + $10.00 on the cashed-out fraction",
+        "Gain or loss reported on the fractional sale"
+      ],
+      [
+        "Ownership percentage",
+        "Your existing stake",
+        "Essentially unchanged",
+        "Only changes meaningfully if you were fully cashed out"
+      ],
+      [
+        "Identifiers",
+        "Old CUSIP and ticker",
+        "Usually a new CUSIP; ticker may change",
+        "Broker notice and your own records"
+      ],
+      [
+        "Open orders and options",
+        "Active",
+        "Orders may be cancelled; options usually adjusted",
+        "Re-enter orders; read the options adjustment notice"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What happens to my shares in a reverse stock split?",
+      "paragraphs": [
+        "In a reverse stock split, your shares are combined into fewer new shares and the price per share rises by the same ratio. The total value of your position doesn't change at the moment the split takes effect.",
+        "Reverse splits are written as a ratio, such as 1-for-5, 1-for-10 or 1-for-50. The first number is how many new shares you get, and the second is how many old shares it takes to make them. In a 1-for-10 reverse split, every 10 shares become 1 share, so a stock trading at $0.80 would in theory open at about $8.00. A 10-for-1 forward split does the opposite, so read the ratio carefully.",
+        "Your percentage ownership of the company stays essentially the same. Every shareholder's holding is divided by the same number, so the split doesn't make anyone's stake bigger or smaller. The only exception is tiny differences when fractional shares are cashed out.",
+        "A reverse split doesn't change the business itself. The company has the same revenue, cash, debt and prospects the day before the split and the day after. That's why \"at the moment of the split\" matters: from the next trade onward, the price moves with the market and can rise or fall."
+      ],
+      "bullets": [
+        "Goes down: the number of shares you hold.",
+        "Goes up: the price per share and your cost basis per share.",
+        "Stays the same at the split: your total market value, total cost basis and ownership percentage, apart from any cashed-out fractions.",
+        "Often changes: the CUSIP identifier, and sometimes the ticker symbol."
+      ]
+    },
+    {
+      "heading": "A worked 1-for-10 reverse split example",
+      "paragraphs": [
+        "To work out a 1-for-10 reverse split, divide your share count by 10 and multiply the price by 10. Your total value comes out the same.",
+        "Say you own 1,055 shares of a company trading at $0.80, and you originally paid $2.00 per share. Before the split, your position is worth 1,055 × $0.80 = $844.00. Your total cost basis is 1,055 × $2.00 = $2,110.00.",
+        "After the split, 1,055 ÷ 10 = 105.5 new shares. Most companies don't issue half shares, so you'd typically get 105 whole shares plus cash for the 0.5 share. At a theoretical post-split price of $8.00, the 105 shares are worth $840.00 and the half share brings about $4.00 in cash. That's $844.00 in total, the same as before.",
+        "Your cost basis carries over too. The $2,110.00 total is spread across 105.5 new shares, which works out to $20.00 per share. Your 105 whole shares keep $2,100.00 of basis, and the half share carried $10.00. That half share was cashed out for about $4.00, so in this example you'd have a small realized loss of roughly $6.00 on the fractional piece.",
+        "Keep two caveats in mind. First, $8.00 is a theoretical price. The actual price on the first post-split trading day is set by the market and may be different. Second, the company's terms set the cash paid for fractions, often based on a market price around the effective date, so the real amount may differ slightly from this simple calculation. All figures here are illustrative."
+      ],
+      "bullets": [
+        "Before: 1,055 shares × $0.80 = $844.00 in value, with a total cost basis of $2,110.00 ($2.00 per share).",
+        "After: 105 shares × $8.00 = $840.00, plus about $4.00 in cash for the 0.5 share.",
+        "New cost basis: $20.00 per share, or $2,100.00 in total on the 105 remaining shares.",
+        "Quick formula: new share count = old share count ÷ ratio. New per-share price and cost basis = old figure × ratio."
+      ]
+    },
+    {
+      "heading": "What happens to fractional shares in a reverse split",
+      "paragraphs": [
+        "Fractional shares left over after a reverse split are most often paid out in cash, which is called \"cash in lieu.\" The exact treatment depends on the company's terms and on how your broker processes the corporate action.",
+        "Companies explain their approach in the split announcement or shareholder documents. Some pay cash for any fraction, and some round fractions up to the next whole share. At some brokers that support fractional shares, the fraction may stay in your account. Don't assume which method applies; read the notice for your specific stock.",
+        "Cash in lieu doesn't always arrive on the day the split takes effect. The transfer agent and your broker can take several business days or longer to calculate and credit the payment, so a short gap in your account is normal.",
+        "If you own fewer shares than the split ratio, you could be cashed out completely. In a 1-for-10 split, someone holding 7 shares would end up with 0.7 of a share. If the company pays cash for fractions, that person gets cash and no longer owns the stock. Occasionally a company chooses a very large ratio partly to cut down the number of small shareholder accounts, so look closely at any unusually big ratio."
+      ],
+      "bullets": [
+        "Company press release: states the ratio and effective date.",
+        "Shareholder proxy statement: explains the proposal and fractional-share terms if a vote was required.",
+        "Regulatory filings (in the US, often a Form 8-K): confirm the final ratio and timing.",
+        "Your broker's corporate action notice: explains how your account will be processed."
+      ]
+    },
+    {
+      "heading": "Why companies do reverse stock splits",
+      "paragraphs": [
+        "Companies most often do a reverse split to lift a low share price back above a stock exchange's minimum price requirement so the stock isn't delisted.",
+        "In the US, Nasdaq and the NYSE generally require listed shares to trade at $1 or more. A stock that stays below that level for a sustained period typically gets a deficiency notice and a deadline to fix it, and a reverse split is the fastest mechanical way to raise the price. In recent years, US exchanges have tightened their rules for companies that rely on repeated reverse splits, and exchanges in other countries set their own standards. Check the current rules on the relevant exchange's website.",
+        "Companies often need shareholder approval for a reverse split, depending on where they're incorporated and on their governing documents. Proxy proposals often ask shareholders to approve a range of ratios and let the board choose the final one. That means the exact ratio may not be known until shortly before the split."
+      ],
+      "bullets": [
+        "Meeting exchange listing standards, especially minimum-price rules.",
+        "Attracting investors whose policies avoid very low-priced stocks, such as some funds and institutions.",
+        "Improving margin eligibility, since brokers often restrict margin on low-priced shares.",
+        "Preparing to move (\"uplist\") from an over-the-counter market to a major exchange.",
+        "Resetting the share price after a merger, restructuring or spin-off.",
+        "Fund shares too: some ETFs, particularly leveraged and inverse ones, do reverse splits after long price declines."
+      ]
+    },
+    {
+      "heading": "Why investors often read a reverse split as a warning sign",
+      "paragraphs": [
+        "Many investors see a reverse split as a warning sign because it usually follows a steep drop in the share price and changes the price per share without improving the business.",
+        "Companies rarely need a reverse split when things are going well. Most reverse splits come after a long slide has left the stock near or below a listing threshold. The announcement can confirm problems the market has already priced in, such as ongoing losses, high cash burn or heavy debt.",
+        "Dilution risk is another worry. If a company cuts its outstanding shares but doesn't cut its authorized shares by the same proportion, it has more room to issue new stock later. That isn't automatically bad, but reverse splits are sometimes followed by share offerings that dilute existing shareholders. The proxy statement usually shows whether authorized shares are changing.",
+        "Trading after a split can also be bumpy. With fewer shares outstanding, trading volume may fall and price swings may get larger, and some holders sell after the split. Investors treat a pattern of repeated reverse splits as an especially strong red flag.",
+        "Still, a reverse split doesn't prove a company will fail. Some are part of genuine turnarounds, mergers or uplistings. Use the split as a reason to read the company's filings, not as a buy or sell signal by itself. For decisions about your own portfolio, consider talking to a licensed financial adviser."
+      ],
+      "bullets": [
+        "What reason does the company give, and is it responding to a delisting notice?",
+        "Has the company done reverse splits before, and how recently?",
+        "Are authorized shares being reduced in proportion, or left unchanged?",
+        "Do recent filings mention going-concern doubt or plans to raise capital?"
+      ]
+    },
+    {
+      "heading": "What changes in your brokerage account",
+      "paragraphs": [
+        "After the effective date, your account should show fewer shares at a higher price, a higher cost basis per share and, in most cases, a new CUSIP number. The ticker symbol may stay the same or change.",
+        "Brokers don't always update positions right away. For a day or so you might see the old share count, a \"pending\" label or a temporary placeholder position while the corporate action is processed. Check again after a few business days, and contact your broker if something still looks wrong.",
+        "A CUSIP is a nine-character code that identifies a specific US or Canadian security. Reverse splits usually trigger a new one because the shares themselves have changed. Other markets use ISINs, which may also change. The new code matters for transfers, tax records and any app that tracks your holdings by identifier.",
+        "Open orders need special attention. Many brokers cancel open orders, such as good-'til-cancelled limit orders and stop orders, around a split. A stop price set at $0.70 makes no sense once the stock trades near $7.00. Write down the orders you still want before the effective date and re-enter them at split-adjusted prices afterward.",
+        "Options contracts are usually adjusted rather than cancelled. In the US, the Options Clearing Corporation typically changes what each contract delivers. For example, after a 1-for-10 split a contract might deliver 10 new shares instead of 100, plus cash for fractions. Adjusted contracts often get a new symbol and can be harder to price and trade, so read your broker's notice and the clearing house memo if you hold options.",
+        "If you hold shares directly with a transfer agent or as paper certificates instead of through a broker, the transfer agent handles the split. It typically sends an updated statement or instructions, and sometimes a letter of transmittal for exchanging old certificates."
+      ],
+      "bullets": [
+        "Share count: divided by the ratio.",
+        "Price and cost basis per share: multiplied by the ratio, across every tax lot.",
+        "Historical charts and past per-share figures: usually restated on a split-adjusted basis.",
+        "Dividends per share, if any: scaled in proportion.",
+        "Fees: some brokers charge for processing mandatory corporate actions, so check your broker's fee schedule."
+      ]
+    },
+    {
+      "heading": "Common mistakes to avoid after a reverse split",
+      "paragraphs": [
+        "The most common reverse-split mistakes are misreading temporary account changes, losing protective orders, and leaving your cost basis or personal records unadjusted.",
+        "Some account screens or third-party apps can briefly show a large gain or loss because the share count and price update at different times. Check your total position value before you react. If the total matches your pre-split value (allowing for market movement and any cash in lieu), the split was most likely processed correctly.",
+        "A higher headline price can also mislead you. A stock jumping from $0.80 to about $8.00 overnight is arithmetic, not a rally. Compare split-adjusted charts and figures when you judge performance."
+      ],
+      "bullets": [
+        "Forgetting that a cancelled stop or limit order left your position without the instructions you'd set.",
+        "Assuming your cost basis was adjusted correctly, especially for transferred shares or multiple tax lots.",
+        "Leaving the small cash-in-lieu sale off your tax records.",
+        "Not updating spreadsheets or portfolio trackers, which can distort your performance figures.",
+        "Misreading the ratio and expecting more shares instead of fewer."
+      ]
+    },
+    {
+      "heading": "Tax and record-keeping basics",
+      "paragraphs": [
+        "In many countries, including the US, a reverse split itself generally isn't a taxable event. Cash you receive for fractional shares, however, is usually treated as a sale and may create a small gain or loss.",
+        "In the US, your total cost basis and holding period generally carry over to the new shares. Cash in lieu usually appears on your broker's tax forms, often Form 1099-B. Brokers normally adjust the basis automatically for shares they hold, but mistakes happen, especially with shares transferred in from another firm or bought in several lots.",
+        "Tax treatment differs by country and by account type. A reverse split inside a tax-advantaged account may have no immediate tax effect at all. This is general information, not tax advice. Check your local tax authority's guidance or ask a qualified tax professional about your situation.",
+        "A simple record for each corporate action makes tax time easier. Use the fields below as a template, and keep copies of the broker notice, your statements from before and after the split, and confirmation of any cash-in-lieu payment."
+      ],
+      "bullets": [
+        "Company name, ticker, and old and new CUSIP.",
+        "Split ratio and effective date.",
+        "Shares before and after the split, for each tax lot.",
+        "Per-share cost basis before and after the split, for each tax lot.",
+        "Fraction cashed out, cash received, payment date and the basis assigned to it.",
+        "Where the source documents are saved."
+      ]
+    }
+  ],
+  "recommendations": [],
+  "faq": [
+    {
+      "question": "Do I lose money in a reverse stock split?",
+      "answer": "Not at the moment of the split. Your total position value stays the same, except for small rounding differences in the cash paid for fractional shares. After the split, the price moves with the market and can rise or fall, and the split doesn't change the company's fundamentals."
+    },
+    {
+      "question": "Is a reverse stock split good or bad for shareholders?",
+      "answer": "The split itself is neutral. It changes your share count and the price per share, but not the value of your stake or the business. What matters is why the company is doing it. Many reverse splits follow a long price decline or a delisting notice, which investors often read as a warning sign, while others come with mergers, restructurings or uplistings, so read the company's filings for context."
+    },
+    {
+      "question": "What happens if I own fewer shares than the reverse split ratio?",
+      "answer": "You may be cashed out completely. For example, 7 shares in a 1-for-10 split become 0.7 of a share, and if the company pays cash for fractions, you get cash and no longer hold the stock. The company's announcement and your broker's notice will confirm how fractions are handled."
+    },
+    {
+      "question": "Is a reverse stock split taxable?",
+      "answer": "In the US and many other countries, the split itself generally isn't a taxable event, and your total cost basis carries over. Cash paid for fractional shares is usually treated as a sale, which can create a small gain or loss. Rules differ by country and account type, so check with your local tax authority or a qualified tax professional."
+    },
+    {
+      "question": "Do I need to do anything when a stock I own does a reverse split?",
+      "answer": "Usually you don't need to take any action, because your broker processes the split automatically. It's still worth reviewing open orders, which are often cancelled, and any options positions, which are usually adjusted. After the effective date, check that your share count, cost basis and any cash-in-lieu payment are correct."
+    },
+    {
+      "question": "Should I sell before a reverse stock split?",
+      "answer": "That's a personal decision this guide can't make for you, because it depends on your view of the company, your goals, your risk tolerance and your tax situation. The split itself doesn't change your position's value, so any gain or loss comes from market price moves, not from the split. Weigh the company's stated reasons, trading costs and taxes, and consider a licensed financial adviser for personal guidance."
+    }
+  ],
+  "conclusion": "When a stock you own does a reverse split, you end up with fewer shares at a proportionally higher price, and your position is worth the same at the moment of the split. In a 1-for-10 example, your share count drops by a factor of 10, the price and your per-share cost basis rise by 10, and any leftover fraction is usually paid out in cash. In your account, you'll most likely see a new CUSIP, and you may also see a new ticker, cancelled open orders and adjusted options contracts. Start with your broker's corporate action notice, work out your expected numbers, and check your position and cost basis once the split has been processed. Many reverse splits respond to a falling price and an exchange's minimum-price rule, so read the company's filings to find out why it's splitting. Exchange rules and tax treatment differ by country. Check your local securities regulator or exchange for current requirements, and talk to a licensed adviser or tax professional if you need personal guidance.",
+  "keyword": "what happens to my shares in a reverse stock split",
+  "niche": "stock market basics for beginners",
+  "version": 2,
+  "slug": "what-happens-to-my-shares-in-a-reverse-stock-split-example",
+  "published": "2026-10-08T09:02:30+00:00"
+}

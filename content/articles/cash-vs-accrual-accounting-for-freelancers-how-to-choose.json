@@ -1,0 +1,258 @@
+{
+  "title": "Cash vs Accrual Accounting for Freelancers: How to Choose",
+  "meta_description": "Cash vs accrual accounting for freelancers: see how one December invoice can shift tax years, when each method fits, and how to set it in QuickBooks.",
+  "quick_answer": "Cash basis accounting records income when a client pays you and expenses when you pay them. Accrual accounting records income when you earn it, usually at invoicing, and expenses when you incur them. The totals match; only the timing differs. Solo service freelancers without inventory often choose cash basis because it's simpler. Accrual fits deposits, retainers, inventory or lender requests. Confirm eligibility with your tax authority or accountant.",
+  "key_takeaways": [
+    "Cash basis counts income when you're paid. Accrual counts it when you earn it. Total income is the same over time, and only the timing changes.",
+    "If you invoice before your tax year-end and get paid after it, the income falls in a different tax year depending on which method you use.",
+    "Solo freelancers who sell only services, hold no inventory and get paid quickly often find cash basis simpler.",
+    "Deposits, retainers, inventory, projects that run past your year-end and lender requests are the main reasons to look at accrual.",
+    "The accounting method setting in QuickBooks Online changes how your reports look. It doesn't change your tax method.",
+    "Changing your tax method can require a formal process, so check with your tax authority or an accountant first."
+  ],
+  "who_this_is_for": "This guide is for self-employed freelancers and solo consultants who invoice clients and want to know which accounting method to use and how it affects when their income counts for tax.",
+  "intro": "Cash basis accounting records income when a client pays you and expenses when you pay them. Accrual accounting records income when you earn it and expenses when you incur them, no matter when the money moves. That sounds technical until you send an invoice in December, get paid in January, and the income ends up in a different month, quarter or even tax year. This guide follows one made-up project through both methods so you can see exactly where the income lands. It explains which freelancers usually pick each method and when accrual starts to make sense. It also shows where to find the setting in QuickBooks Online, what to check before changing your method for tax, and ends with a short decision checklist. This is general information, not tax advice. Eligibility rules and method-change requirements differ by country and change over time, so confirm them with your tax authority or an accountant.",
+  "steps": [
+    {
+      "name": "Check what your tax authority allows",
+      "text": "Find out whether your type and size of business can use cash basis, and whether your legal structure or holding inventory changes that. Rules differ by country and change over time, so check current guidance from your tax authority or ask an accountant."
+    },
+    {
+      "name": "Map how money flows in your business",
+      "text": "Write down how you get paid: payment terms, deposits, prepaid retainers, milestone billing, inventory and projects that run past your year-end. The more of these you have, the further apart your cash and accrual figures will be."
+    },
+    {
+      "name": "Ask who else reads your numbers",
+      "text": "Think about whether a bank, investor, landlord or possible buyer might ask for accrual-basis financial statements. If any of them might, keep records that can produce both views."
+    },
+    {
+      "name": "Choose a method and write it down",
+      "text": "Pick the method that fits your situation and your tax rules. Note it in your business records with the date you adopted it, tell your accountant, and use it consistently every year."
+    },
+    {
+      "name": "Set the default in your accounting software",
+      "text": "In QuickBooks Online, go to Settings (gear icon) > Account and settings > Advanced > Accounting > Accounting method, choose Cash or Accrual, then select Save and Done. This only controls how reports are displayed. It doesn't change your tax method."
+    },
+    {
+      "name": "Record transactions so both views stay accurate",
+      "text": "Create invoices for client work and use Receive payment to apply each payment to its invoice. When that deposit appears in your bank feed, choose Match instead of adding it as new income. Enter supplier bills as bills and pay them through Pay bills."
+    },
+    {
+      "name": "Compare cash and accrual reports at year-end",
+      "text": "Run your Profit and Loss report for the year on both Cash and Accrual. Then run the accounts receivable and accounts payable aging reports to see your open invoices and unpaid bills, which explain most of the difference. Share both versions with your accountant."
+    },
+    {
+      "name": "Review your choice every year",
+      "text": "Look at your method again whenever your business changes, for example when you start taking deposits, selling products, hiring or applying for a loan. If you decide to change your tax method, follow your tax authority's formal process."
+    }
+  ],
+  "comparison": {
+    "caption": "Cash basis vs accrual basis for freelancers at a glance",
+    "headers": [
+      "Criterion",
+      "Cash basis",
+      "Accrual basis"
+    ],
+    "rows": [
+      [
+        "When income is recorded",
+        "When the payment is received",
+        "When it's earned, usually when you invoice"
+      ],
+      [
+        "When expenses are recorded",
+        "When you pay them",
+        "When you incur them, e.g. when a supplier's bill arrives"
+      ],
+      [
+        "December invoice paid in January",
+        "Income lands in January (the next tax year for calendar-year filers)",
+        "Income lands in December"
+      ],
+      [
+        "Invoices that are never paid",
+        "Never counted as income",
+        "Already counted as income; usually written off later as a bad debt"
+      ],
+      [
+        "Deposits and retainers",
+        "Usually counted as income when received",
+        "Usually held as a liability (unearned revenue) until the work is delivered"
+      ],
+      [
+        "Bookkeeping effort",
+        "Lower",
+        "Higher, because you track receivables and payables"
+      ],
+      [
+        "What it can hide",
+        "How much clients owe you and how much you owe",
+        "A cash shortage when clients pay late"
+      ],
+      [
+        "Typical users",
+        "Solo service freelancers with no inventory",
+        "Growing businesses, product sellers, and anyone who needs statements a lender will accept"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What cash and accrual accounting mean",
+      "paragraphs": [
+        "Cash and accrual accounting are two rules for deciding when income and expenses count in your books. Cash basis follows the money. Accrual basis follows the work you deliver and the bills you owe.",
+        "Under cash basis, you record income on the day a client's payment reaches you and an expense on the day you pay it. If you invoice in March and get paid in May, the income belongs to May. Your profit and loss report closely tracks your bank account.",
+        "Under accrual basis, you record income when you've earned it. For most freelancers, that means when the work is delivered and invoiced. You record expenses when you incur them, for example when a subcontractor sends a bill, even if you pay weeks later. Money owed to you sits in accounts receivable, and money you owe sits in accounts payable.",
+        "Over the life of a business, both methods count the same total income. The only difference is timing: which month, quarter and tax year each invoice and bill falls in. That timing affects your monthly reports and any estimated or advance tax payments. Depending on where you live, it can also decide which tax return the income goes on."
+      ],
+      "bullets": [
+        "Cash basis: income when received, expenses when paid.",
+        "Accrual basis: income when earned, expenses when incurred.",
+        "Accounts receivable: invoices you've sent that haven't been paid yet.",
+        "Accounts payable: bills you've received but haven't paid yet.",
+        "Unearned revenue (deferred income): money you've received for work you haven't delivered yet. Under accrual, it's held as a liability."
+      ]
+    },
+    {
+      "heading": "One project, two methods: a December invoice paid in January",
+      "paragraphs": [
+        "The clearest way to see the difference is to follow one project through both methods. The name and numbers below are made up for illustration.",
+        "Maya is a freelance brand designer whose tax year is the calendar year. On 10 December 2026 she delivers a logo package and sends a $4,000 invoice with 30-day payment terms. On 18 December, a copywriter she hired sends her a $600 bill, which Maya pays by bank transfer on 8 January 2027. The client pays the $4,000 invoice on 15 January 2027.",
+        "Both methods give the same $3,400 profit. Under cash basis, that profit moves into 2027 because the money arrived in January. Under accrual basis, it stays in 2026, the year Maya did the work, even though nothing reached her bank until the new year.",
+        "Tax years don't always follow the calendar. The UK personal tax year runs from 6 April to 5 April, so Maya's project would fall in a single tax year under either method. In the UK, the same shift happens with work invoiced in late March and paid in mid-April. Australia's tax year runs from 1 July to 30 June. Whatever your year-end, the two methods only change your tax-year totals for invoices and bills that cross it.",
+        "Each method also has a blind spot. Under cash basis, a month full of invoiced work can look like a dead month. Under accrual basis, a month can look profitable even though no money has come in, which can hide a cash shortage if clients pay late.",
+        "Tax systems also have rules about when money counts as received. In the US, for example, the constructive receipt rule generally treats a cheque you receive in December as December income, even if you deposit it in January. Don't hold back invoices or deposits to push income into another year without first checking the rules with an accountant."
+      ],
+      "bullets": [
+        "Cash basis, December 2026: income $0, expenses $0, profit $0. No money has moved yet.",
+        "Cash basis, January 2027: income $4,000, expenses $600, profit $3,400. The whole project falls in 2027.",
+        "Accrual basis, December 2026: income $4,000, expenses $600, profit $3,400. The year-end balance sheet shows $4,000 in accounts receivable and $600 in accounts payable.",
+        "Accrual basis, January 2027: no new profit. The client's payment clears the receivable, and Maya's payment clears the payable."
+      ]
+    },
+    {
+      "heading": "Cash vs accrual accounting for freelancers: who usually picks which",
+      "paragraphs": [
+        "Solo freelancers who sell services, hold no inventory and get paid within a few weeks of invoicing usually choose cash basis. It's simpler, and their bank account already tells most of the story.",
+        "Cash basis suits a one-person service business for three practical reasons. First, your reported profit matches the money you actually have. Second, you don't need to track receivables for tax. Third, in many tax systems you aren't taxed on an invoice a client never pays. Under accrual, that income has already been counted, so you usually have to write it off later as a bad debt.",
+        "The trade-off is visibility. Under cash basis, profit can swing sharply from month to month, especially if one big client pays quarterly. Cash basis also hides how much you're owed, so you need a separate habit, such as checking your unpaid invoices every Friday, to stay on top of collections.",
+        "Accrual basis gives a more accurate picture of how the business did in a given period, and that matters more as you grow. It takes more work, because you record invoices and bills when they happen and then match payments to them. Accounting software handles much of that matching for you."
+      ],
+      "bullets": [
+        "Signs cash basis may fit: you work alone or only occasionally hire subcontractors.",
+        "You sell services, not physical products.",
+        "Most clients pay within a few weeks of your invoice.",
+        "You rarely take deposits or prepaid retainers.",
+        "Nobody outside the business needs accrual-basis financial statements."
+      ]
+    },
+    {
+      "heading": "When accrual accounting starts to make sense",
+      "paragraphs": [
+        "Accrual accounting starts to make sense when the timing of payments no longer matches the work you're doing. The usual reasons are deposits and retainers, inventory, long projects, outside requests for accrual statements, and growth.",
+        "Deposits and retainers are the most common reason freelancers look at accrual. Under cash basis, a $6,000 deposit received in December for a project delivered in February counts as December income. That can inflate one year and make the next look thin. Under accrual, the deposit is usually held as unearned revenue and moves into income as you deliver the work. Some countries have specific tax rules for advance payments, so check those too.",
+        "Inventory also changes things. If you sell physical goods as well as services, such as prints, merchandise or equipment you resell, special rules for inventory costs may apply. Some tax systems also limit who can use cash basis once inventory is involved.",
+        "Requests from outside the business are another reason. A bank reviewing a loan, an investor or a possible buyer may want accrual-basis statements, because these show receivables, payables and profit for each period. Software can often produce them even if you file on cash basis, but only if your invoices, bills and payments are recorded and linked.",
+        "Growth can tip the balance too. Once you have staff, several subcontractors, large bills on payment terms or projects that last months, accrual reports show whether each month actually made money. Some tax systems require accrual above certain size limits or for certain business structures. UK limited companies, for example, prepare accrual-based accounts. These limits change, so check the current rules rather than relying on figures you've read online."
+      ],
+      "bullets": [
+        "Signs accrual may fit: you regularly take deposits or prepaid retainers.",
+        "You bill in milestones on projects that run past your year-end.",
+        "You hold inventory or resell products.",
+        "A lender, investor or buyer has asked for accrual statements.",
+        "You want accurate profit for each month, not just cash in minus cash out."
+      ]
+    },
+    {
+      "heading": "How to check or change the accounting method in QuickBooks Online",
+      "paragraphs": [
+        "In QuickBooks Online, you set the default accounting method for reports under Settings > Account and settings > Advanced > Accounting. Many reports also let you switch between cash and accrual each time you run them.",
+        "To change the default, select the gear icon, choose Account and settings, open the Advanced tab and click the Accounting section to edit it. Under Accounting method, choose Cash or Accrual, then select Save and Done. Profit and Loss, Balance Sheet and similar reports will then use that method unless you change it for a single report.",
+        "To compare both views, open Reports and run Profit and Loss for the period you want. Look for the Accounting method option, usually near the date range or in the report's customise or settings panel. Run the report on Cash, then on Accrual. Intuit updates its layouts from time to time, and regional versions differ, so if the labels don't match, search the in-product help for 'accounting method'.",
+        "This setting only changes how QuickBooks Online displays your data. Your transactions stay the same, nothing is sent to a tax authority, and your tax accounting method doesn't change. Your tax method depends on how you file under your country's rules.",
+        "Both views are only accurate if your transactions are linked. Record each client payment with Receive payment and apply it to the matching invoice. When the deposit later appears in your bank feed, choose Match instead of adding it as new income. If you add it, accrual reports can count the income twice and the invoice stays open. Enter supplier bills as bills and pay them through Pay bills. Bill management may not be included on every plan, so check what yours includes."
+      ],
+      "bullets": [
+        "Default method: Settings > Account and settings > Advanced > Accounting > Accounting method.",
+        "One-off comparison: run a report and switch its Accounting method option.",
+        "Year-end: run the accounts receivable (A/R) and accounts payable (A/P) aging summaries to list open invoices and unpaid bills.",
+        "Bank feed: match deposits to the invoice payments you've already recorded.",
+        "The setting doesn't change the method you file taxes on."
+      ]
+    },
+    {
+      "heading": "Changing methods for tax: what to check first",
+      "paragraphs": [
+        "Changing the setting in your software takes seconds. Changing your accounting method for tax may need permission, a formal election or adjustments in the year you switch, so check with your tax authority or an accountant first.",
+        "Rules differ by country. In the US, for example, the IRS generally requires Form 3115 (Application for Change in Accounting Method). Some changes get automatic consent, and others need approval in advance. In the UK, cash basis became the default for many sole traders and partnerships from the 2024–25 tax year, and you can opt out and use accrual (traditional) accounting instead. These are examples only, so check the current guidance from your own tax authority.",
+        "The main practical risk in any switch is counting income twice or not at all. If you move from accrual to cash, an invoice you counted when you issued it could be counted again when it's paid. If you move from cash to accrual, invoices still unpaid on the switch date could be missed. Tax systems usually have adjustment rules to prevent this, which is another reason to get professional help.",
+        "If you do switch, plan it for the start of a financial year. Save a record of your open invoices, unpaid bills and deposits held on the switch date, give it to your accountant, and then stick with the new method. Switching back and forth makes your records hard to compare from year to year and can lead to questions from the tax authority."
+      ],
+      "bullets": [
+        "Before you switch, gather: your current method and the year you adopted it.",
+        "Open invoices (accounts receivable) and unpaid bills (accounts payable) on the switch date.",
+        "Any deposits or retainers you've received for work not yet delivered.",
+        "Your tax authority's current guidance or form for changing methods."
+      ]
+    },
+    {
+      "heading": "A short decision checklist",
+      "paragraphs": [
+        "Use this checklist to narrow your choice. If most of the first group applies to you, cash basis is probably a reasonable fit. If anything in the second group applies, talk to an accountant about accrual.",
+        "Whichever method you choose, run your Profit and Loss report both ways at year-end. That shows how much income is sitting in open invoices and how much cost is sitting in unpaid bills."
+      ],
+      "bullets": [
+        "Cash basis likely fits: I work alone and sell only services.",
+        "Cash basis likely fits: I don't hold inventory or resell products.",
+        "Cash basis likely fits: Most clients pay within a few weeks of my invoice.",
+        "Cash basis likely fits: My tax authority allows cash basis for my type and size of business.",
+        "Consider accrual: I regularly take deposits or prepaid retainers.",
+        "Consider accrual: My projects often run past my tax year-end.",
+        "Consider accrual: A lender, investor or buyer wants accrual statements.",
+        "Consider accrual: I need accurate monthly profit to price my work or plan hiring.",
+        "Either way: Every client payment is linked to its invoice, and every bill payment to its bill.",
+        "Either way: I don't time invoices or deposits to move income between years without advice.",
+        "Either way: I've confirmed eligibility and any method-change rules with my tax authority or an accountant."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers who invoice clients and want profit reports on both a cash and an accrual basis from the same records. You can set a default method and switch individual reports. Linked invoices, payments and bills, plus bank-feed matching, keep both views accurate. Plans, prices and features, including bill management, vary by plan and region, so check what each plan includes on Intuit's website.",
+      "not_for": "Anyone who expects software to choose or change their tax method. That's a decision for you and your accountant under your local rules. If you send only a handful of invoices a year and don't need accrual reports, a well-kept spreadsheet may be enough."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can freelancers use cash basis accounting?",
+      "answer": "Many can. Lots of tax systems let small self-employed businesses use cash basis. Whether you qualify can depend on your business size, your legal structure and whether you hold inventory, and these rules differ by country and change over time. Check the current rules with your tax authority or an accountant."
+    },
+    {
+      "question": "Is cash or accrual accounting better for taxes?",
+      "answer": "Neither method changes how much you earn over time. They change when income and expenses count, which can move taxable profit from one year to another. Whether that matters depends on your situation and local rules, so ask an accountant to compare both before you choose."
+    },
+    {
+      "question": "Do I pay tax on invoices that haven't been paid yet?",
+      "answer": "Under cash basis, usually not, because income generally counts when you receive the payment, subject to rules such as constructive receipt in the US. Under accrual basis, an invoice usually counts as income when you issue it, so you may owe tax on it before the client pays. If it's never paid, you may need to write it off as a bad debt. Rules differ by country, so check with your tax authority or an accountant."
+    },
+    {
+      "question": "Does changing the accounting method in QuickBooks Online change my tax method?",
+      "answer": "No. The accounting method setting in QuickBooks Online only changes how your reports are displayed. Your transactions stay the same and nothing is sent to a tax authority. Your tax method depends on how you file under your country's rules."
+    },
+    {
+      "question": "How is a client deposit treated under cash vs accrual accounting?",
+      "answer": "Under cash basis, a deposit usually counts as income when you receive it. Under accrual basis, it's usually recorded as a liability called unearned revenue and becomes income as you deliver the work. Some countries have specific tax rules for payments received in advance, so check how they apply to you."
+    },
+    {
+      "question": "When should a freelancer switch from cash to accrual accounting?",
+      "answer": "Common reasons are taking regular deposits or retainers, selling inventory, running projects past your year-end, or a lender asking for accrual statements. If you switch for tax, plan it for the start of a financial year. Before you do, check your tax authority's eligibility rules and procedure for changing methods."
+    }
+  ],
+  "conclusion": "For many solo freelancers who sell only services and hold no inventory, cash basis is the simpler place to start, because your books match your bank account. Accrual becomes more useful when deposits, retainers, inventory, long projects or a lender's request mean the timing of payments no longer reflects your work. The December invoice example shows the key point: both methods give the same total, but the income can land in a different tax year. Set up your records so your software can show both views, link every payment to its invoice or bill, and run both reports at year-end. Before you settle on a method for tax, confirm eligibility and any method-change requirements with your tax authority or an accountant.",
+  "keyword": "cash vs accrual accounting for freelancers",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "cash-vs-accrual-accounting-for-freelancers-how-to-choose",
+  "published": "2026-10-08T09:00:26+00:00"
+}

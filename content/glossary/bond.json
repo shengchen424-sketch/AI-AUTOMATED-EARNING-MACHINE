@@ -1,0 +1,22 @@
+{
+  "term": "Bond",
+  "section": "Investing",
+  "short_definition": "A bond is a loan you make to a government or company that usually pays you regular interest and promises to repay your original amount, called the principal, on a set maturity date.",
+  "explanation": [
+    "A bond works like a formal IOU. The issuer borrows money from investors, pays a stated interest rate (the coupon) on a schedule, and repays the face value when the bond matures. You can buy bonds individually or through bond funds and bond ETFs. You can also sell a bond on the market before it matures, at whatever price buyers will pay.",
+    "Bonds matter because they usually behave differently from stocks. That is why many portfolios hold them to reduce swings and to provide more predictable income. Government bonds from financially stable countries are generally seen as lower risk than corporate bonds. Credit ratings give a rough guide to how likely an issuer is to repay.",
+    "Bonds carry three main risks: interest-rate risk, credit risk and inflation risk. When market rates rise, existing bonds with lower coupons fall in price. An issuer in trouble can miss payments or default. High inflation can eat away at what fixed payments will buy. Bond funds also charge ongoing fees, and tax on bond interest differs by country, so check local rules or ask a licensed adviser before making personal decisions."
+  ],
+  "example": "Illustrative example: you buy a bond with a $1,000 face value, a 4% annual coupon and a 5-year maturity. You receive $40 a year in interest ($200 over five years), and you get the $1,000 back at the end as long as the issuer doesn't default. Now suppose market rates for similar bonds rise to 6% after year one and you need to sell early. Buyers will pay less than $1,000 for your bond, because new bonds pay more.",
+  "common_mistake": "Assuming bonds can't lose money. Bond prices fall when interest rates rise. Bond funds have no single maturity date you can wait for. Lower-rated ('high-yield' or 'junk') bonds can default. A higher yield usually means higher risk, not free extra return.",
+  "related_terms": [
+    "Asset Allocation",
+    "Diversification",
+    "Inflation",
+    "Rebalancing",
+    "Expense Ratio"
+  ],
+  "title": "Bond",
+  "slug": "bond",
+  "published": "2026-10-08T09:18:03+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Debt-to-Income Ratio (DTI)",
+  "section": "Banking & Money",
+  "short_definition": "Debt-to-income ratio (DTI) is the percentage of your gross monthly income that goes toward monthly debt payments, and lenders use it to judge whether you can afford a new loan.",
+  "explanation": [
+    "To calculate your debt-to-income ratio, add up your required monthly debt payments, such as a mortgage, car loan, student loan, personal loan and minimum credit card payments. Divide that total by your gross (pre-tax) monthly income and multiply by 100. Everyday costs like groceries and utilities are usually left out. Some lenders also look at a 'front-end' ratio that counts only housing costs.",
+    "Debt-to-income ratio matters because it is one of the main numbers lenders check, along with your credit score, when deciding whether to approve a mortgage or loan and on what terms. A lower DTI generally points to more room in your budget. Lenders' limits vary by country, loan type and lender, so ask the lender which ratio and method they use.",
+    "Debt-to-income ratio is a blunt measure. It is based on gross income, so it ignores taxes and local living costs, and it says nothing about your savings. A DTI that a lender will accept can still feel tight in real life, so also check affordability against your actual take-home budget."
+  ],
+  "example": "Illustrative example: your gross monthly income is $5,000. Your monthly debt payments are a $1,200 mortgage, a $300 car loan and $100 in minimum card payments, for a total of $1,600. Your DTI is $1,600 ÷ $5,000 = 32%. Paying off the car loan would lower it to $1,300 ÷ $5,000 = 26%.",
+  "common_mistake": "Calculating DTI from take-home pay instead of gross income, or confusing it with credit utilization (how much of your credit limits you are using). Either way you end up with a different number from the one lenders typically use.",
+  "related_terms": [
+    "Credit Score",
+    "Debt Snowball vs Debt Avalanche",
+    "Cash Flow",
+    "50/30/20 Rule"
+  ],
+  "title": "Debt-to-Income Ratio (DTI)",
+  "slug": "debt-to-income-ratio-dti",
+  "published": "2026-10-08T09:18:03+00:00"
+}

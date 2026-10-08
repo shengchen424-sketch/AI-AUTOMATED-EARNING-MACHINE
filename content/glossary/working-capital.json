@@ -1,0 +1,21 @@
+{
+  "term": "Working Capital",
+  "section": "Accounting & Business",
+  "short_definition": "Working capital is a company's current assets minus its current liabilities, showing whether it has enough short-term resources, like cash and receivables, to cover bills due within the next year.",
+  "explanation": [
+    "Working capital is calculated from the balance sheet. Current assets include cash, accounts receivable (money customers owe you), inventory and anything else expected to turn into cash within a year. Current liabilities include supplier bills (accounts payable), short-term loans, wages and taxes due within a year. Working capital = current assets − current liabilities. The current ratio uses the same two figures but divides them instead.",
+    "Working capital matters because a profitable business can still run out of cash. If customers pay slowly, or too much money is tied up in unsold stock, the business may struggle to pay suppliers and staff on time even though the income statement shows a profit. Positive working capital gives a cushion. Negative working capital can be a warning sign, although some business models run that way normally, such as retailers that collect from customers before they pay suppliers.",
+    "More working capital isn't always better. A very high figure can mean cash sitting idle or excess inventory at risk of going out of date. The goal is enough to operate safely, which you manage through how quickly you collect from customers, how much stock you hold and the payment terms you agree with suppliers."
+  ],
+  "example": "Illustrative example: a small bakery has $8,000 in cash, $4,000 owed by café customers and $3,000 of ingredients and packaging, so its current assets are $15,000. It owes $6,000 to suppliers, $2,000 in wages and $2,000 on a short-term loan, so its current liabilities are $10,000. Working capital = $15,000 − $10,000 = $5,000, and the current ratio is $15,000 ÷ $10,000 = 1.5.",
+  "common_mistake": "Treating working capital as the same thing as cash. A business can show positive working capital on paper and still be short of cash, because customers haven't paid yet or the inventory hasn't sold.",
+  "related_terms": [
+    "Balance Sheet",
+    "Cash Flow",
+    "Income Statement",
+    "EBITDA"
+  ],
+  "title": "Working Capital",
+  "slug": "working-capital",
+  "published": "2026-10-08T09:18:03+00:00"
+}

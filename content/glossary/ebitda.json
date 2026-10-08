@@ -1,0 +1,22 @@
+{
+  "term": "EBITDA",
+  "section": "Accounting & Business",
+  "short_definition": "EBITDA stands for earnings before interest, taxes, depreciation and amortization, a measure of a company's operating profit that strips out financing costs, taxes and non-cash charges that spread asset costs over time.",
+  "explanation": [
+    "A common way to calculate EBITDA is to start with net income from the income statement and add back interest expense, income taxes, depreciation (for physical assets like machines) and amortization (for intangible assets like software licences or patents). Another way is to take operating profit (EBIT) and add depreciation and amortization.",
+    "EBITDA matters because it lets you compare the core operating performance of businesses that have different debt levels, tax situations and asset ages. Lenders, buyers and investors often use it, for example in valuation multiples and in loan terms.",
+    "EBITDA can make a business look healthier than it is. Interest, taxes and replacing worn-out equipment are real cash costs, and EBITDA leaves them all out. It is generally not a defined measure under major accounting standards such as GAAP or IFRS. Companies may also report 'adjusted EBITDA' calculated in different ways, so always check what has been added back."
+  ],
+  "example": "Illustrative example: a company reports net income of $100,000. During the year it paid $20,000 in interest and $30,000 in income tax, and it recorded $40,000 of depreciation and $10,000 of amortization. EBITDA = $100,000 + $20,000 + $30,000 + $40,000 + $10,000 = $200,000. If the company needs about $40,000 a year to replace equipment, that cash need doesn't show up in EBITDA.",
+  "common_mistake": "Treating EBITDA as cash flow or as profit the owners can take out. It leaves out debt payments, taxes, equipment replacement and changes in working capital, and all of those use real cash.",
+  "related_terms": [
+    "Income Statement",
+    "Depreciation",
+    "Profit Margin",
+    "Cash Flow",
+    "Working Capital"
+  ],
+  "title": "EBITDA",
+  "slug": "ebitda",
+  "published": "2026-10-08T09:18:03+00:00"
+}

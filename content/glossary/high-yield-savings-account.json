@@ -1,0 +1,21 @@
+{
+  "term": "High-Yield Savings Account",
+  "section": "Banking & Money",
+  "short_definition": "A high-yield savings account is a savings account, often offered by online banks, that pays a noticeably higher interest rate than a typical traditional savings account while keeping your money easy to access.",
+  "explanation": [
+    "A high-yield savings account pays interest on your deposits, usually quoted as an APY and often compounded daily or monthly. Online banks can sometimes pay more because they don't run branches. The rate is usually variable, so the bank can change it at any time, and it often moves with the central bank's policy rate.",
+    "A high-yield savings account matters because money kept for an emergency fund or a near-term goal, such as a home deposit, can earn more without stock-market risk. Many countries have a government deposit insurance or guarantee scheme that covers accounts at licensed banks up to a limit. Examples are the FDIC in the US and the FSCS in the UK. Confirm that the provider is covered and check the current limit.",
+    "High-yield savings accounts have some catches. The advertised rate may be a temporary introductory or bonus rate. Some accounts limit withdrawals or require a minimum balance. The interest may still be lower than inflation. Some fintech apps are not banks and hold your money through partner banks, which can change how protection applies. Interest is usually taxable, and the rules differ by country."
+  ],
+  "example": "Illustrative example: you keep a $5,000 emergency fund. In a traditional account paying an illustrative 0.5% APY, it earns about $25 in a year. In a high-yield account paying an illustrative 4.0% APY, it earns about $200. Real rates vary and change often, so compare current rates on providers' websites.",
+  "common_mistake": "Picking an account by its headline rate alone. Also check whether the provider is a licensed bank covered by deposit insurance, whether the rate is a temporary promotion, and what fees or withdrawal limits apply.",
+  "related_terms": [
+    "Emergency Fund",
+    "APR vs APY",
+    "Compound Interest",
+    "Inflation"
+  ],
+  "title": "High-Yield Savings Account",
+  "slug": "high-yield-savings-account",
+  "published": "2026-10-08T09:18:03+00:00"
+}

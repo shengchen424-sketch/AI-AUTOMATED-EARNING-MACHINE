@@ -1,0 +1,266 @@
+{
+  "title": "How to Budget With Irregular Income: Pay Yourself a Salary",
+  "meta_description": "How to budget with irregular income in 8 steps: plan on your lowest month, pay yourself a steady salary, set aside tax and give every surplus a job.",
+  "quick_answer": "To budget with irregular income, find your lowest typical month from the past 6–12 months and build a bare-bones budget of essentials that fits inside it. Send every payment to one holding account, move a tax share out as each payment lands, and pay yourself the same fixed 'salary' each month. Give surplus a written order in advance: tax top-up, buffer, debt, then goals.",
+  "key_takeaways": [
+    "Budget to your lowest typical month from the past 6–12 months, not your average or your best month.",
+    "Keep a baseline budget of essentials only, including a monthly share of annual bills, and make sure it fits inside that low month.",
+    "Route all income to a holding account and transfer the same salary to your everyday account on the same date each month.",
+    "Move a tax share out of every self-employed payment as soon as it lands. Base the percentage on your own tax history or professional advice.",
+    "Write your surplus order down before a good month arrives, for example tax top-up, buffer, high-interest debt, emergency fund, then goals.",
+    "Build your buffer in stages: one month of salary first, then about three months, then six or more if your income is seasonal or depends on a few clients."
+  ],
+  "who_this_is_for": "This guide is for freelancers, gig workers, contractors and commission earners whose pay changes from month to month and who want a predictable personal budget that doesn't depend on guessing next month's income.",
+  "intro": "A normal budget is built around one fixed paycheque. When your pay changes every month, that kind of budget tends to fall apart halfway through a slow month. Freelancers, gig workers, contractors and commission earners need a system that expects the ups and downs. This guide walks through the baseline-month method. You budget to your lowest typical month and keep essential spending lean. All income goes into a holding account, that account pays you a steady salary, and you decide ahead of time where extra money goes. You'll get the exact steps, a worked example, a simple spreadsheet setup and the mistakes to avoid. It works in a spreadsheet or any budgeting app. This is general information, not personal financial or tax advice. Tax rules and deposit protection differ by country, so check your own obligations with your tax authority or a licensed adviser.",
+  "steps": [
+    {
+      "name": "Gather 6–12 months of income data",
+      "text": "Pull your bank statements, invoicing records and platform payout reports. Log each payment on the date it reached your account, not the date you invoiced. Subtract business costs and platform fees to get net income for each month."
+    },
+    {
+      "name": "Find your lowest typical month",
+      "text": "If nobody withholds tax for you, subtract your tax set-aside from each month. Then pick the lowest month that reflects normal working conditions, and leave seasonal lows in. If clients pay in large, infrequent chunks, take your lowest three-month total and divide it by three."
+    },
+    {
+      "name": "Build a bare-bones baseline budget",
+      "text": "List essentials only: housing, utilities, groceries, insurance, minimum debt payments, childcare, and the transport, phone and internet you need for work. Add one-twelfth of each annual bill. The total must fit inside your baseline month."
+    },
+    {
+      "name": "Open a holding account and a tax account",
+      "text": "Use two separate savings accounts or bank sub-accounts ('pots'). Before you choose, check fees, transfer limits and whether your country's deposit protection scheme covers them."
+    },
+    {
+      "name": "Route all income into the holding account",
+      "text": "Update your payment details with every client, platform and employer so all money lands in the holding account. As soon as a self-employed payment arrives, move your tax share to the tax account."
+    },
+    {
+      "name": "Pay yourself a fixed salary",
+      "text": "Set up an automatic transfer of the same amount to your everyday account on the same date each month. Pick an amount between your baseline budget and your baseline month. If the holding account is empty, save up one full month of salary in it before switching the transfer on."
+    },
+    {
+      "name": "Write down your surplus order",
+      "text": "Before a good month arrives, decide the order extra money will follow. For example: tax top-up, holding-account buffer, high-interest debt, emergency fund, then goals. Write it down where you'll see it each month."
+    },
+    {
+      "name": "Review monthly and adjust quarterly",
+      "text": "Spend 15 minutes each month logging income, confirming the tax and salary transfers, and checking how many months of salary the holding account covers. Every quarter, decide whether your salary should go up, stay the same or go down."
+    }
+  ],
+  "comparison": {
+    "caption": "Five common ways to budget on irregular income, compared",
+    "headers": [
+      "Approach",
+      "How it works",
+      "Works best when",
+      "Main risk"
+    ],
+    "rows": [
+      [
+        "Baseline-month method",
+        "You budget to your lowest typical month and pay yourself a fixed salary from a holding account. Surplus follows a list you wrote in advance.",
+        "Income swings a lot and you want steady, predictable personal cash flow",
+        "Feels tight at first, and saving the first month of salary in the holding account takes time"
+      ],
+      [
+        "Average-month budget",
+        "You budget to your average monthly income over the past year",
+        "Income is fairly stable and you already have a large buffer",
+        "Every below-average month leaves a gap, and it's easy to overspend in good months"
+      ],
+      [
+        "Percentage split per payment",
+        "You split each payment by fixed percentages (tax, bills, savings, spending) as it arrives",
+        "You get many small payments and like simple rules",
+        "Bills are fixed amounts, so in lean months the percentages may not cover them"
+      ],
+      [
+        "Live on last month's income",
+        "You spend only money that arrived last month and give it jobs at the start of each month",
+        "You already have one month of income saved",
+        "Needs a one-month cushion before you start, and doesn't by itself plan for long dry spells"
+      ],
+      [
+        "Priority list ('pay as it lands')",
+        "You rank expenses and pay them in that order whenever money arrives",
+        "You're just starting out, with very unpredictable income and no buffer",
+        "You can't see far ahead, and savings goals often get skipped"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to budget with irregular income: the baseline-month method in plain terms",
+      "paragraphs": [
+        "The baseline-month method means you budget as if every month will be your worst normal month. Anything you earn above that is surplus, and it already has a job. You plan around an amount you've already lived on, so you don't have to guess what clients or platforms will pay next month.",
+        "Standard budgets assume the same paycheque arrives on the same date. If you budget to your average income instead, every below-average month leaves a gap, and that gap often ends up on a credit card. Budgeting to your floor reverses this. Lean months are covered from the start, and good months become progress rather than permission to spend.",
+        "Here is a worked example with made-up figures. Sam, a freelance designer, reviews 12 months of records. After business costs and tax set-aside, Sam's monthly take-home ranged from 2,600 to 6,400 and averaged about 4,000. The lowest normal month was 2,600, a slow August that comes round every year. Sam's essentials cost 2,450, so Sam sets a fixed salary of 2,600. In a 5,200 month, 2,600 pays the salary and the other 2,600 follows the surplus plan. In an unusually bad 1,900 month, the holding account covers the 700 shortfall."
+      ],
+      "bullets": [
+        "Floor (baseline month): your lowest typical take-home month from the past 6–12 months.",
+        "Baseline budget: essentials only, sized to fit under that floor.",
+        "Holding account: where all income lands first. A fixed salary moves from there to your everyday account each month.",
+        "Surplus plan: a written order for extra money, such as tax top-up, then buffer, then goals."
+      ]
+    },
+    {
+      "heading": "How to find your baseline month",
+      "paragraphs": [
+        "Your baseline month is the lowest take-home amount from the past 6–12 months that reflects normal working conditions. It is not your average and not your best month.",
+        "Pull the figures from bank statements, your invoicing or accounting tool, and platform payout reports. Record money on the date it reached your account, not the date you invoiced, because only cash in the bank pays bills. Subtract business costs and platform fees. If nobody withholds tax for you, subtract your tax set-aside as well. Commission earners on a payroll can usually start from net pay.",
+        "Keep seasonal lows in the data, because a dip that happens every December or every summer will come back. You can swap a one-off low for the next-lowest month only if it had a clear cause that won't repeat, such as a month you chose to take off. Write that reason down. If you have little or no buffer yet, use the true lowest month.",
+        "Single months can mislead you if clients pay in large, infrequent chunks, because a good quarter can still contain a month with nothing in it. In that case, find your lowest three-month period and divide it by three. If you have less than six months of history, count only confirmed work and treat your first few months mainly as time to build a buffer."
+      ],
+      "bullets": [
+        "Template columns: month, cash received, business costs and fees, tax set-aside, take-home.",
+        "Sort take-home from lowest to highest. Your lowest normal month is your baseline.",
+        "For lumpy payments, use your lowest three-month total divided by three.",
+        "Note any month you excluded and the reason beside it."
+      ]
+    },
+    {
+      "heading": "How to build a bare-bones baseline budget",
+      "paragraphs": [
+        "A baseline budget covers only what you must pay to keep your home, health, work and credit in good standing. Its total has to fit inside your baseline month.",
+        "List each essential at its real monthly cost. Some bills arrive yearly or quarterly, such as insurance renewals, professional memberships, vehicle costs and annual software plans. For each one, divide the yearly total by 12 and set that amount aside every month, ideally in a separate 'sinking fund' pot so the money is ready when the bill arrives. For debts, use the minimum required payment. Extra repayments come from surplus later.",
+        "Leave out anything you could pause for a few months without lasting harm, such as eating out, most subscriptions, travel and upgrades. They aren't banned. They move into the surplus plan, so good months pay for them.",
+        "If your baseline budget doesn't fit inside your baseline month, you've found a real shortfall, and a buffer can only delay it. Your realistic options are cutting fixed costs such as housing, vehicles and insurance, raising your income floor, or both. Retainers, minimum-term contracts, a steady part-time job or higher rates can all raise the floor. If you already rely on credit to cover gaps, a free, non-profit debt advice service in your country can help you review your options."
+      ],
+      "bullets": [
+        "Housing (rent or mortgage) and essential utilities",
+        "Groceries and basic household supplies",
+        "Insurance, healthcare and regular medication",
+        "Minimum debt payments",
+        "Transport, phone and internet needed for work",
+        "Childcare and other costs for dependents",
+        "One-twelfth of each annual or quarterly bill"
+      ]
+    },
+    {
+      "heading": "How the holding account and steady salary work",
+      "paragraphs": [
+        "A holding account is a separate account where all your income lands first. From it, you transfer the same fixed salary to your everyday account on the same date each month.",
+        "This separates the day money arrives from the day you spend it. Your everyday account behaves like it would with a regular job: one predictable deposit, with bills paid from it. The holding account absorbs the swings in the background, so a big invoice clearing no longer creates a false sense of wealth.",
+        "Set your salary somewhere between your baseline budget and your baseline month. In Sam's example, essentials cost 2,450 and the lowest month paid 2,600. A 2,600 salary leaves a small margin and never promises more than Sam's worst normal month has paid.",
+        "Getting started is the tricky part, because the system works best when last month's income pays this month's salary. If you have savings, you can start the holding account with one month's salary. If you don't, live on the baseline budget, pay essentials directly and let any extra build up until the holding account holds one full salary. Then switch on the fixed transfer.",
+        "Many banks offer sub-accounts, 'pots' or a second current account that work well for this. Check fees and transfer limits, and confirm that your country's deposit protection scheme covers the account."
+      ],
+      "bullets": [
+        "Point every client, platform and employer payment at the holding account.",
+        "Schedule the salary transfer for a fixed date, such as the 1st of the month.",
+        "If seeing the holding account tempts you to spend, hide it in your banking app.",
+        "Where possible, don't attach a debit card to the holding account."
+      ]
+    },
+    {
+      "heading": "How much to set aside for taxes on irregular income",
+      "paragraphs": [
+        "Set aside a fixed share of every self-employed payment for tax the moment it arrives. Base the percentage on your own tax history or professional advice, not a generic number.",
+        "In many countries, self-employed people pay income tax and social contributions themselves, and some systems require instalments during the year. US quarterly estimated tax and UK Self Assessment payments on account are two well-known examples. Deadlines, thresholds and penalties for underpaying differ by country and change over time, so check your tax authority's guidance for your situation.",
+        "A practical starting point is last year's effective tax rate. As a made-up example, a total tax bill of 8,000 on 40,000 of profit is an effective rate of 20%. Many people round that figure up for safety when their income is growing, because progressive tax systems can tax higher earnings at higher rates. If you have no tax history yet, your tax authority's calculators or an accountant can help you choose a figure.",
+        "If you're registered for sales tax, VAT or GST, the tax you collect from customers isn't your income, so move it into the tax account too. Many people keep tax money in an easy-access savings account rather than in anything whose value can fall, because the bill arrives on a fixed date whatever the markets do."
+      ],
+      "bullets": [
+        "Move the tax share before you do anything else with a payment.",
+        "Keep the tax account separate from the holding account.",
+        "Add every tax deadline for the year to your calendar, with a reminder two weeks ahead.",
+        "Recheck your percentage after each tax return or any big change in income."
+      ]
+    },
+    {
+      "heading": "How big your buffer should be and where surplus goes",
+      "paragraphs": [
+        "Aim first for one month of salary in your holding account, then build toward several months of essential costs. Give every surplus a written order before a good month arrives.",
+        "It helps to think of two buffers. The income buffer in your holding account smooths out normal swings in pay. An emergency fund covers shocks such as a broken laptop, a medical bill or losing a major client. Early on, the two can share one pot. A common rule of thumb is three to six months of essential expenses, and many guides suggest people with variable income aim higher. For a figure based on your own data, look at your worst run of lean months and add up how far short of your salary each one fell. Your income buffer should be at least that total.",
+        "A written order, often called a waterfall, means a rule decides where surplus goes instead of your mood. Many people also give a small fixed share of each surplus to guilt-free spending, for example 10%, which makes the system easier to stick with. Retirement accounts and investments come with their own rules, fees and risks, and they differ by country, so check official guidance or a licensed adviser before choosing.",
+        "Here is how Sam's 2,600 surplus from the 5,200 month might flow, using made-up figures. First, 260 (10%) goes to guilt-free spending. The tax account is already on track, so it needs nothing. Next, 1,800 brings the holding account up to one month of salary. The remaining 540 goes toward paying down a credit card."
+      ],
+      "bullets": [
+        "1. Top up the tax account if it holds less than you expect to owe.",
+        "2. Fill the holding account to your current buffer milestone: one month, then about three, then six or more if your income is seasonal or relies on one or two clients.",
+        "3. Pay down high-interest debt beyond the minimum payments.",
+        "4. Build a separate emergency fund toward your target.",
+        "5. Fund your goals, such as retirement savings, an equipment-replacement fund or a holiday."
+      ]
+    },
+    {
+      "heading": "How to run the system in a spreadsheet or app",
+      "paragraphs": [
+        "You can run this method in a simple spreadsheet or in any budgeting app that works with money you already have. What matters is that you can see how many months of salary your holding account covers.",
+        "A four-tab spreadsheet is enough. The income log records each payment's date, source, amount, fees and tax set-aside. The baseline budget tab lists your essentials. The holding-account tracker shows the balance and one key formula: balance ÷ monthly salary = months covered. The surplus tab records your waterfall and where each surplus went.",
+        "Envelope-style and zero-based budgeting apps suit this method because they work with money you have, not money you expect. Bank sub-accounts can act as the holding and tax accounts. If you run a business, accounting software keeps invoices and expense categories tidy so your take-home figure is accurate. Features and prices change, so confirm them on each provider's website.",
+        "Do a quick monthly review and a salary check every quarter. Here are two example rules some people use. Raise your salary only when the buffer is at target and your recent lowest month has climbed above your current salary. Lower it if the holding account stays below one month of salary for two months in a row."
+      ],
+      "bullets": [
+        "Log every payment received this month.",
+        "Confirm the tax share was moved for each payment.",
+        "Check the salary transfer went through on its fixed date.",
+        "Update months covered (holding balance ÷ salary).",
+        "Apply the waterfall to income above this month's salary."
+      ]
+    },
+    {
+      "heading": "Common mistakes when budgeting on irregular income",
+      "paragraphs": [
+        "Most irregular-income budgets fail for a few predictable reasons, and nearly all of them come from treating a good month as the new normal.",
+        "The biggest trap is raising your spending after one strong month. A single big invoice doesn't change your floor. Only a lasting rise in your lowest months does. The second trap is forgetting money that isn't really yours: tax, any sales tax, VAT or GST you've collected, and the monthly share of annual bills.",
+        "Avoid keeping your buffer or tax money in volatile assets. Shares can fall sharply right when you need the cash. Crypto is even more volatile and can lose most or all of its value. It is also a common target for scams and rug pulls, and you carry custody and exchange-failure risk. It usually lacks the protections that cover regulated bank deposits."
+      ],
+      "bullets": [
+        "Budgeting from invoices sent instead of cash received.",
+        "Spending straight from the holding account instead of waiting for the salary transfer.",
+        "Mixing business and personal money in one account, which hides your true take-home pay.",
+        "Not recalculating your baseline straight away after losing a major client.",
+        "Waiting for a perfect setup. A rough version this month is better than a perfect one later."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers and sole traders who invoice clients and want business income and expenses categorised in one place. Seeing real costs makes it easier to work out true monthly take-home pay and to prepare figures at tax time. Check current plans, features and availability in your country on the vendor's site.",
+      "not_for": "Gig workers with one or two payout sources who are happy with a spreadsheet, or anyone looking for a household budgeting app. It's accounting software for the business side of your finances, not a personal budget tool."
+    },
+    {
+      "product": "Notion",
+      "best_for": "People who already use Notion and want their income log, baseline budget, holding-account tracker and surplus waterfall in one workspace, built with databases and formulas. Confirm current features and plan limits on Notion's site.",
+      "not_for": "Anyone who wants a dedicated budgeting app that pulls in bank transactions for them, or anyone who doesn't already use Notion. A plain spreadsheet is quicker to set up and does the same job."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Freelancers paid through several online platforms who want each payment logged automatically as a new row in their budget spreadsheet, or a reminder to move their tax share. Check that your payment tools and spreadsheet are supported before you sign up.",
+      "not_for": "People who receive only a few payments a month, since typing them in takes minutes. It doesn't move money between accounts. Use it for logging and reminders, and set up the actual transfers in your bank."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the best way to budget with irregular income?",
+      "answer": "No single method suits everyone. Budgeting to your lowest typical month rather than your average is one of the most dependable approaches, because lean months are covered from the start. Pair it with a holding account that pays you a fixed monthly salary and a written plan for surplus. Once your buffer reaches its target, you can consider budgeting to a slightly higher figure."
+    },
+    {
+      "question": "How much should I set aside for taxes as a freelancer?",
+      "answer": "There's no universal percentage. The right amount depends on your country, income, deductions, and whether you also owe social contributions or sales tax. A practical method is to work out last year's effective rate (total tax divided by profit) and round it up for safety. If you have no tax history, use your tax authority's calculators or ask an accountant."
+    },
+    {
+      "question": "How big should my emergency fund be if my income is irregular?",
+      "answer": "A common rule of thumb is three to six months of essential expenses, and many guides suggest people with variable income aim for the higher end or beyond. For a more personal measure, add up the shortfalls in your worst run of lean months and make sure your buffer is bigger than that. Build it in stages, starting with one month of salary in your holding account."
+    },
+    {
+      "question": "What if my lowest month doesn't cover my essentials?",
+      "answer": "That means you have a real shortfall, and a buffer can only delay it, not fix it. Your options are lowering fixed costs, raising your income floor with retainers, minimum-term contracts or a part-time job, or both. If you're covering gaps with credit, a free, non-profit debt advice service in your country can help you review your options."
+    },
+    {
+      "question": "Does the 50/30/20 rule work with irregular income?",
+      "answer": "The 50/30/20 rule is a common guideline that splits after-tax income into roughly 50% needs, 30% wants and 20% savings or debt repayment. With fluctuating pay, the percentages shrink in lean months while fixed bills stay the same, so needs may not be covered. Some people apply the split to their fixed salary instead, or use it to divide surplus once their buffer is full."
+    },
+    {
+      "question": "Does the baseline-month method work for commission-based employees?",
+      "answer": "Yes. Treat your net base pay as your baseline, and treat commissions and bonuses as surplus that follows your written order. Tax is often deducted through payroll, but the amount taken from commissions may not match what you finally owe. Check your payslips and your tax authority's guidance."
+    }
+  ],
+  "conclusion": "Budgeting with irregular income gets easier when you stop trying to predict next month and plan around a month you've already lived through. The baseline-month method has four parts. You budget on a floor. A holding account turns lumpy income into a steady salary. A tax account keeps future bills from becoming emergencies. A written plan tells good months where the money goes. Start small: this week, pull your last 6–12 months of statements, find your baseline month and list your essentials. Then aim to save one month of salary in your holding account. Tax rules, deposit protection and account options vary by country, so confirm the details with your tax authority, your bank or a licensed adviser before making personal decisions.",
+  "keyword": "how to budget with irregular income",
+  "niche": "budgeting and personal finance fundamentals",
+  "version": 2,
+  "slug": "how-to-budget-with-irregular-income-pay-yourself-a-salary",
+  "published": "2026-10-08T09:06:40+00:00"
+}

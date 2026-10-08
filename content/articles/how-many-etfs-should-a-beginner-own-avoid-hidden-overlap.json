@@ -1,0 +1,274 @@
+{
+  "title": "How Many ETFs Should a Beginner Own? Avoid Hidden Overlap",
+  "meta_description": "How many ETFs should a beginner own? Often just one to three. Learn to spot hidden overlap, read fact sheets and test if a new fund earns its place.",
+  "quick_answer": "There's no magic number, but many beginners can be broadly diversified with one to three ETFs, because a single broad index fund can hold hundreds or thousands of companies. What each fund holds matters more than how many you own: extra ETFs tracking similar indexes mostly add overlap, not diversification. A new fund earns its place only if it has a distinct job, reasonable costs and risks you understand.",
+  "key_takeaways": [
+    "Many beginners can be broadly diversified with one to three ETFs. What the funds hold matters more than how many you own.",
+    "ETFs that track similar size-weighted indexes mostly add overlap (the same big companies again), not diversification.",
+    "A common trap is holding an S&P 500 fund, a US total market fund and a large-cap growth fund together, because all three share the same top holdings.",
+    "To check overlap, use fact sheets, full holdings lists and a free overlap tool. Judge overlap by weight, not by the number of shared names.",
+    "Before you add a fund, make sure it has a distinct job, reasonable costs and risks you understand. Before you sell one, check the tax rules where you live."
+  ],
+  "who_this_is_for": "This guide is for beginner investors who are building a first ETF portfolio, or who already hold several ETFs across different accounts, and want to know whether their funds really spread risk or just repeat the same companies.",
+  "intro": "When you start investing with ETFs, it's tempting to keep adding funds. You buy an S&P 500 fund, then a total market fund, then a growth fund because it did well last year. It feels like diversification, but often it isn't. The honest answer to how many ETFs a beginner should own is that the number matters far less than what's inside each fund. Many beginners can be broadly diversified with a small number of funds. Extra ETFs often add overlap (the same big companies held several times) rather than anything new. This guide shows you how to spot hidden overlap using fund fact sheets and free overlap tools. It walks through simple one-, two- and three-fund setups as examples and includes a one-page plan template. It also gives you a checklist for deciding whether a new ETF earns its place. This is general education, not personal financial advice.",
+  "steps": [
+    {
+      "name": "Decide on coverage and mix first",
+      "text": "Before you look at any fund names, write down which parts of the market you want to own (your home market, international markets, smaller companies) and roughly how you'd split money between stocks and steadier assets like bonds or cash. The funds you need follow from these two decisions, not the other way round."
+    },
+    {
+      "name": "List every fund you own or are considering",
+      "text": "Include ETFs and mutual funds in all your accounts: brokerage accounts, retirement or pension accounts, workplace plans and any robo-adviser accounts. Overlap often hides across accounts rather than inside one. Target-date and all-in-one funds count too, because they already hold a full mix."
+    },
+    {
+      "name": "Write each fund's job in one sentence",
+      "text": "Describe what each fund is for, such as 'global stocks', 'US large companies' or 'government bonds'. If two funds have the same job, flag them for a closer look."
+    },
+    {
+      "name": "Download the fact sheet and holdings list",
+      "text": "On each provider's fund page, find the fact sheet and the full holdings file. Record the index tracked, the number of holdings, the top 10 holdings and their weights, the sector and country breakdowns, and the ongoing charge (expense ratio)."
+    },
+    {
+      "name": "Compare top holdings side by side",
+      "text": "Put each fund's top 10 holdings in separate columns of a spreadsheet. If the same company names keep turning up near the top of several funds, that's a strong sign of overlap."
+    },
+    {
+      "name": "Run pairs through a free overlap tool",
+      "text": "Enter the tickers two at a time into a free ETF overlap tool. Note the overlap by weight, not just the count of shared holdings, and check the date of the holdings data the tool uses."
+    },
+    {
+      "name": "Estimate your combined exposure to the biggest names",
+      "text": "For a company that appears in several funds, multiply its weight in each fund by that fund's share of your portfolio, then add the results. Hypothetical example: if half your money is in a fund where Company X is 7% and half is in a fund where it's 10%, Company X is about 8.5% of your total portfolio (0.5 × 7% + 0.5 × 10%)."
+    },
+    {
+      "name": "Test each fund against the checklist",
+      "text": "Keep a fund in your plan only if it adds holdings you don't already have, at a reasonable cost, with risks you understand. Use the 'does a new ETF earn its place?' checklist below."
+    },
+    {
+      "name": "Plan any changes carefully",
+      "text": "Selling can trigger taxes and trading costs, and the rules depend on your country and account type. Some investors simplify gradually by sending new money to the funds they want to keep. If you're unsure, speak to a licensed adviser."
+    },
+    {
+      "name": "Review once or twice a year",
+      "text": "Pick a fixed date. Check whether your mix has drifted from your plan and whether the funds' holdings or charges have changed. Record what you decided, and don't add funds because of headlines or recent performance."
+    }
+  ],
+  "comparison": {
+    "caption": "Simple ETF portfolio structures compared (illustrations only, not recommendations)",
+    "headers": [
+      "Structure",
+      "Typical building blocks",
+      "Main strength",
+      "Main trade-offs to check"
+    ],
+    "rows": [
+      [
+        "One fund (all-in-one / multi-asset)",
+        "A single ETF holding stocks and bonds in a set ratio",
+        "Very simple, and the fund rebalances itself",
+        "You accept the provider's mix. Compare its ongoing charge with the cost of buying the building blocks separately"
+      ],
+      [
+        "One fund (global stocks only)",
+        "A single global stock index ETF",
+        "Thousands of companies across many countries in one holding",
+        "Full stock market risk with no bond cushion. Check the country breakdown, because the US is often a large share"
+      ],
+      [
+        "Two fund",
+        "Broad stock ETF + broad bond ETF",
+        "You choose the split between stocks and bonds",
+        "You have to rebalance periodically. Bond funds carry interest-rate, credit and inflation risk"
+      ],
+      [
+        "Three fund",
+        "Home-market stock ETF + international stock ETF + bond ETF",
+        "You control both the home vs international split and the stock vs bond split",
+        "More decisions to make. The mix can drift or lean too heavily towards your home market"
+      ],
+      [
+        "Overlapping stack (e.g. S&P 500 + US total market + large-cap growth)",
+        "Several funds tracking similar large-company indexes",
+        "Looks diversified on paper",
+        "The same top companies repeated, more concentration risk, and extra fees and admin for little new exposure"
+      ],
+      [
+        "All-in-one fund + extra stock funds",
+        "A target-date or multi-asset fund plus separate stock ETFs",
+        "Feels like a 'core plus extras' approach",
+        "The extras undo the fund's set mix, and its automatic rebalancing no longer covers your whole portfolio"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How many ETFs should a beginner own?",
+      "paragraphs": [
+        "There's no single correct number. Many beginners can get broad diversification from one to three ETFs, because a single broad index ETF can hold hundreds or even thousands of companies.",
+        "Counting funds is a poor way to measure diversification. Diversification means owning things that don't all move for the same reasons: different companies, sectors, countries, company sizes and asset classes such as stocks and bonds. Five ETFs that all track large US companies are, in practice, less diversified than one ETF that tracks the global stock market.",
+        "A better starting point is coverage and mix. Coverage is which parts of the market you want to own. Mix is how you split your money between growth assets like stocks and steadier assets like bonds or cash. Once you've made those two decisions, the number of ETFs usually follows, and it tends to be small.",
+        "This is general education, not personal advice. The right mix depends on your goals, timeline, tolerance for losses, and the accounts and funds available in your country."
+      ],
+      "bullets": [
+        "One ETF: possible when a single fund already covers your whole plan, such as an all-in-one multi-asset ETF or a global stock ETF.",
+        "Two or three ETFs: common when you want to set the stock/bond split yourself, or the split between your home market and the rest of the world.",
+        "Four or more: justified only when each extra fund adds holdings (measured by weight) that you don't already own, and when you'll actually keep up with managing it."
+      ]
+    },
+    {
+      "heading": "Why more ETFs often means more overlap, not more diversification",
+      "paragraphs": [
+        "Adding ETFs often increases overlap because many popular funds track similar indexes and weight companies by size. That puts the same large companies at the top of all of them.",
+        "ETF overlap is the share of one fund's holdings that also appears in another fund you own. It's most useful when measured by weight, meaning how much of each fund's money sits in the shared companies, rather than by counting shared names.",
+        "Most broad index ETFs are weighted by market capitalisation: the bigger a company's total stock market value, the bigger its slice of the fund. That's a sensible, low-cost design, but it means the largest companies dominate many different funds at once. Stacking those funds can quietly concentrate your money in the same handful of names.",
+        "Investors sometimes call this 'diworsification'. You get more fees to compare, more holdings to rebalance and more temptation to tinker, but the portfolio isn't likely to behave much differently when markets fall."
+      ],
+      "bullets": [
+        "Several of your funds list the same companies in their top 10 holdings.",
+        "Their sector breakdowns look alike, for example with a heavy technology weighting in each.",
+        "Their historical price charts move almost in step (past performance doesn't predict future results).",
+        "You can't say in one sentence what each fund does that the others don't."
+      ]
+    },
+    {
+      "heading": "The most common overlap traps beginners fall into",
+      "paragraphs": [
+        "The most common overlap trap is owning an S&P 500 ETF, a US total market ETF and a US large-cap growth ETF together. All three are dominated by the same largest US companies.",
+        "An S&P 500 fund holds about 500 large US companies. A total market fund holds those same companies plus thousands of mid-sized and smaller ones, but because it's weighted by size, the large companies still make up most of its value. The index provider, S&P Dow Jones Indices, describes the S&P 500 as covering roughly 80% of available US market capitalisation; you can check the current figure on its fact sheet. A large-cap growth fund holds a subset of large companies classed as 'growth', which in recent years has typically meant a heavy weighting in technology-related businesses.",
+        "Put the three together and the investor may feel they own three strategies. In practice they own one large-company US portfolio with an extra tilt towards the biggest growth names, which increases concentration risk instead of reducing it. The combination isn't automatically wrong, and some investors want a growth tilt on purpose. It becomes a problem when it happens by accident.",
+        "The same pattern shows up in other combinations, so watch for these:"
+      ],
+      "bullets": [
+        "A global stock ETF plus a separate US fund: the global fund often already has a large US weighting.",
+        "A world fund plus a technology sector fund: the biggest tech companies are usually already near the top of the world fund.",
+        "A target-date or all-in-one fund plus extra stock funds: the extras undo the fund's set mix, and its automatic rebalancing no longer covers your whole portfolio.",
+        "The same index from two providers: the tickers and brands differ, but the holdings are nearly identical.",
+        "A workplace plan fund plus a similar ETF in a personal account: overlap across accounts is easy to miss."
+      ]
+    },
+    {
+      "heading": "How to check ETF overlap using fact sheets and free tools",
+      "paragraphs": [
+        "You can check overlap in a single sitting. Compare each fund's fact sheet and full holdings list, then confirm what you find with a free ETF overlap tool.",
+        "Start with the fact sheet, which you'll find on each fund's page on the provider's website. Investors in the UK and Europe will usually also find a standardised key information document or a similar summary. Note the index tracked, the number of holdings, the top 10 holdings and their weights, the sector and country breakdowns, and the ongoing charge (expense ratio). The index name alone tells you a lot: two funds tracking the same or a near-identical index are near-duplicates, even if they come from different providers.",
+        "Next, open the full holdings list, which many providers offer as a downloadable spreadsheet. The top 10 is a quick first check. The full list shows whether the fund's smaller holdings are actually different from what you already own.",
+        "Then use a free overlap tool. Several fund research websites and some brokerages let you enter two tickers and see how much the funds share; search for 'ETF overlap tool' to find one. Check whether the tool reports overlap by number of holdings or by weight, because weight is usually more meaningful. A common method takes the smaller of each shared company's two weights and adds them up.",
+        "Here's a hypothetical worked example. Company A is 6% of Fund 1 and 9% of Fund 2, so it adds 6 percentage points of overlap. Company B is 4% and 2%, so it adds 2 points. Repeat this for every shared holding and add up the results to get the weighted overlap.",
+        "Overlap tools have limits. They may not cover every exchange, they may use older data, and they usually compare pairs of funds better than whole portfolios. Treat the result as a prompt for questions, not a final verdict."
+      ],
+      "bullets": [
+        "For each fund, record the index tracked and the number of holdings.",
+        "Record the combined weight of the top 10 holdings.",
+        "Record the largest sector and the largest country, with their weights.",
+        "Record the ongoing charge (expense ratio).",
+        "Record the date of the data you used."
+      ]
+    },
+    {
+      "heading": "Sample one-fund, two-fund and three-fund structures",
+      "paragraphs": [
+        "Simple ETF portfolios usually use one, two or three funds. The examples below show how investors commonly organise their holdings. They aren't recommendations or model portfolios.",
+        "A one-fund structure uses a single ETF that already covers the whole plan. That could be an all-in-one multi-asset ETF that holds stocks and bonds in a set ratio and rebalances itself. Or it could be a global stock ETF for someone who has decided to hold only stocks. The trade-off is simplicity versus control, and a stock-only fund carries full stock market risk.",
+        "A two-fund structure usually pairs a broad stock ETF, often a global one, with a broad bond ETF. The investor picks the split, for example a hypothetical 70% stocks and 30% bonds, and rebalances from time to time to keep it on target. Bond funds can still lose value because they carry interest-rate, credit and inflation risk.",
+        "A three-fund structure splits stocks into a home-market fund and an international fund, then adds a bond fund. It gives more control over how much you hold at home versus abroad. The cost is more decisions and more chances for the mix to drift.",
+        "What these structures share matters more than how many funds they use. Each fund has a distinct job, and no two funds target the same slice of the market."
+      ],
+      "bullets": [
+        "Before choosing any structure, ask: When might I need this money?",
+        "How would I react to a large, long-lasting fall in value?",
+        "Will I actually rebalance, or do I want a fund that does it for me?",
+        "Which funds and account types are available where I live?"
+      ]
+    },
+    {
+      "heading": "Checklist: does a new ETF earn its place?",
+      "paragraphs": [
+        "A new ETF earns its place only if it adds holdings you don't already own, at a reasonable cost, for a reason you can write down in one sentence.",
+        "Go through these questions before buying. If a fund fails more than one or two of them, it's probably adding complexity rather than diversification."
+      ],
+      "bullets": [
+        "Job: Can I say in one sentence what this fund does that my current funds don't?",
+        "Overlap: Have I checked its overlap by weight with each fund I own, using fact sheets and an overlap tool?",
+        "Index: Does it track a genuinely different index, or just a variation of one I already hold?",
+        "Cost: Is the ongoing charge reasonable compared with similar funds? Have I counted commissions, bid-ask spreads and currency fees?",
+        "Risk: Do I understand what could make it fall sharply, such as concentration, currency moves, interest rates or thin trading?",
+        "Structure: Is it a plain index fund, or something more complex (leveraged, inverse, synthetic or options-based) that needs extra research?",
+        "Size: Does it have enough assets and trading volume? Very small funds can be closed.",
+        "Tax and account: How is it taxed where I live, and which of my accounts should hold it?",
+        "Motive: Is it part of my written plan, or am I chasing recent performance or headlines?",
+        "Maintenance: Will I still want to monitor and rebalance it in five years?"
+      ]
+    },
+    {
+      "heading": "A one-page ETF plan template you can copy",
+      "paragraphs": [
+        "A one-page written plan is the simplest way to stop overlap creeping in, because every fund needs a stated job before you buy it.",
+        "Keep the plan wherever you'll actually open it at review time: a spreadsheet, a notes app or a workspace tool such as Notion. Don't store account passwords or full account numbers in it.",
+        "Fill in the fields below. The blanks and percentages are placeholders or hypothetical examples, not suggestions."
+      ],
+      "bullets": [
+        "Goal and timeline: what the money is for and roughly when you might need it.",
+        "Target mix: __% stocks / __% bonds or cash; __% home market / __% international.",
+        "Fund table: name, ticker, one-sentence job, index tracked, ongoing charge, target %, and which account holds it.",
+        "Rebalancing rule (example): review on a fixed date each year and rebalance if any fund drifts more than __ percentage points from its target.",
+        "New-fund rule (example): a fund must pass the checklist above, and I wait a set cooling-off period, such as 30 days, before buying.",
+        "Review log: one line per review recording the date, what changed and why."
+      ]
+    },
+    {
+      "heading": "Before you simplify: costs, taxes and risks to weigh",
+      "paragraphs": [
+        "Combining overlapping ETFs can make a portfolio easier to manage. But selling can trigger costs and taxes that depend on your country and account type, so check before you act.",
+        "In a taxable account, selling an ETF at a profit may create a capital gains tax bill. Sales inside tax-advantaged accounts often don't. Rules, allowances and account types vary widely from country to country. Some investors simplify gradually instead: they send new contributions to the funds they want to keep and leave existing holdings where they are.",
+        "Compare the full cost of owning each fund: ongoing charges, platform or account fees, trading commissions, bid-ask spreads and currency conversion fees. Holding fewer funds can reduce some of these costs, but not always.",
+        "Fewer funds doesn't mean less risk. A one-fund, all-stock portfolio can still fall sharply in a downturn. All investments can lose value, and past performance isn't a reliable guide to the future. ETFs aren't bank deposits, so deposit protection schemes generally don't cover investment losses.",
+        "For decisions about your own situation, use your national regulator's investor-education resources (for example, the SEC and FINRA in the US or the FCA in the UK). Or speak to a licensed adviser who is clear about how they're paid."
+      ],
+      "bullets": [
+        "Fund availability differs by country. Retail investors in Europe, for example, usually buy Europe-domiciled (UCITS) ETFs, which may track the same indexes under different tickers.",
+        "Currency matters. International funds expose you to exchange-rate movements, which can add to your returns or reduce them.",
+        "Funds can close. Very small or niche ETFs can be shut down, which may force a sale at an awkward time.",
+        "Loss rules vary. Some countries restrict claiming a tax loss if you sell and quickly buy back the same or a very similar investment, so check your local rules."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Beginners who want to keep their written ETF plan, the one-sentence job for each fund, the 'earns its place' checklist and a yearly review log on one searchable page they'll actually revisit.",
+      "not_for": "Calculating overlap or tracking live prices and holdings. Notion isn't an investment or portfolio-analysis tool, so use fund providers' data, an overlap tool and a spreadsheet for the numbers. It's also unnecessary if a simple spreadsheet or paper notes already work for you, and you shouldn't store account passwords or full account numbers in it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is one ETF enough for a beginner?",
+      "answer": "One ETF can be enough if it covers everything you want to own, such as an all-in-one multi-asset ETF or a broad global stock ETF. A single fund keeps costs and decisions simple, but you accept its mix and its risks, and a stock-only fund will rise and fall with stock markets. Whether one fund suits you depends on your goals, timeline and tolerance for losses."
+    },
+    {
+      "question": "Is it bad to own an S&P 500 ETF and a total market ETF together?",
+      "answer": "It isn't harmful in itself, but it usually adds little diversification. Both funds are weighted by company size, so the same large US companies dominate both, and the pair tends to behave much like either fund on its own. If you hold both, be clear about what extra exposure the second fund is meant to add."
+    },
+    {
+      "question": "How much ETF overlap is too much?",
+      "answer": "There's no official threshold. A practical test is whether the new fund adds meaningful holdings, by weight, that you don't already own; if most of its money sits in companies you already hold, it mostly duplicates your portfolio. Overlap you choose on purpose, such as a deliberate tilt, is a decision. Accidental overlap is the kind worth fixing."
+    },
+    {
+      "question": "Should I own both a global ETF and a US ETF?",
+      "answer": "A global stock ETF usually already has a large weighting in US companies, so adding a separate US fund raises your US share further. Some investors do this on purpose and others do it by accident. Check the global fund's country breakdown on its fact sheet before deciding whether an extra US fund adds anything you actually want."
+    },
+    {
+      "question": "How many ETFs should I own if I'm only investing a small amount?",
+      "answer": "With a small amount, fewer funds usually keeps things simpler. Splitting a modest sum across many ETFs creates tiny positions that are harder to rebalance and may cost more in trading fees. Whether you can buy fractional shares, and what each trade costs, depends on your broker, so check its fee schedule."
+    },
+    {
+      "question": "Do more ETFs mean less risk?",
+      "answer": "Not necessarily. Risk depends on what you own (the mix of stocks, bonds, regions, sectors and company sizes), not on how many funds you hold. Several overlapping stock ETFs can be just as risky as one broad fund, or more concentrated."
+    }
+  ],
+  "conclusion": "For most beginners, the real question isn't how many ETFs to own but whether each one does a different job. Start by deciding on coverage and mix: which markets you want to own and how to split your money between stocks and steadier assets. Then choose the fewest funds that cover that plan, and write the plan down on one page. Before adding another ETF, check its fact sheet and holdings, run it through a free overlap tool and go through the checklist. Watch for common traps such as stacking an S&P 500 fund, a total market fund and a large-cap growth fund, or adding extra funds on top of an all-in-one fund. Keep fees, risks and local tax rules in mind, and review your plan on a fixed date once or twice a year. Investing involves risk, including the loss of money. For decisions about your own situation, check your local regulator's guidance or speak to a licensed adviser.",
+  "keyword": "how many etfs should a beginner own",
+  "niche": "ETFs and index fund investing",
+  "version": 2,
+  "slug": "how-many-etfs-should-a-beginner-own-avoid-hidden-overlap",
+  "published": "2026-10-08T09:03:30+00:00"
+}

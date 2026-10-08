@@ -1,0 +1,270 @@
+{
+  "title": "How to Summarize an Earnings Call Transcript With AI Accurately",
+  "meta_description": "Learn how to summarize an earnings call transcript with AI: a copy-ready prompt, citation rules and a checklist to verify every number.",
+  "quick_answer": "To summarize an earnings call transcript with AI, download the transcript and press release from the company's investor relations page, upload both to an AI assistant and tell it to use only those documents. Ask for a structured summary of results, guidance changes, margin drivers, risks, dodged questions and cited verbatim quotes. Then check every number against the press release or 10-Q, because AI can misread or invent figures.",
+  "key_takeaways": [
+    "Give the AI primary sources only: this quarter's press release, the call transcript and last quarter's release. Tell it to answer 'NOT IN DOCUMENTS' when something is missing.",
+    "Use the same structured prompt every quarter so your summaries are comparable and gaps are easy to spot.",
+    "Require a document, paragraph number and exact sentence for every claim, then confirm each one with Ctrl+F (Cmd+F on a Mac).",
+    "Check each figure's value, unit, period, GAAP or adjusted basis and comparison period against the press release or 10-Q, and recalculate any growth rates yourself.",
+    "Use AI to organize themes and flag questions. Don't use it to judge valuation or decide whether to buy or sell."
+  ],
+  "who_this_is_for": "This guide is for individual investors, finance students and newsletter writers who want to get through quarterly earnings calls faster without blindly trusting an AI-generated summary.",
+  "intro": "Earnings calls are where management explains the numbers, but transcripts are long, dense and easy to skim badly. An AI assistant can turn one into a neat summary in minutes. The catch is that a neat summary can include a wrong number stated with complete confidence. This guide gives you a workflow you can repeat every quarter. First, collect the right documents from the company's investor relations page. Next, run a structured prompt that pulls out guidance changes, margin commentary, risks, dodged questions and cited quotes. Finally, check every figure against the press release or 10-Q. You also get a copy-ready prompt, a fact-check checklist and three quick tests for made-up output. Everything here is educational and is not investment advice.",
+  "steps": [
+    {
+      "name": "Collect the source documents",
+      "text": "On the company's investor relations page, download this quarter's earnings press release, the call transcript (or the webcast replay if there's no transcript), any slide deck and last quarter's press release. For US-listed companies, the 8-K and 10-Q are also free on SEC EDGAR."
+    },
+    {
+      "name": "Label the files and number the paragraphs",
+      "text": "Give each document a clear name, such as DOC A (press release), DOC B (transcript) and DOC C (last quarter's release). If the transcript has no timestamps, number its paragraphs so the AI can cite exact locations."
+    },
+    {
+      "name": "Open a fresh AI session with strict rules",
+      "text": "Start a new chat for each company and upload the files. Tell the assistant to use only those documents, to write 'NOT IN DOCUMENTS' when information is missing and to give no investment opinions."
+    },
+    {
+      "name": "Run the structured prompt",
+      "text": "Ask for headline results labeled GAAP or adjusted, guidance changes compared with last quarter, margin commentary, the risks mentioned, analyst questions that got only partial answers, and 5–8 verbatim quotes with the speaker and paragraph number."
+    },
+    {
+      "name": "Require a citation for every claim",
+      "text": "Every number and statement in the output should name the document, the paragraph or timestamp and the exact sentence it relied on. Send anything uncited back and ask again."
+    },
+    {
+      "name": "Run three quick coverage tests",
+      "text": "Ask the AI to quote the final paragraph of each document and to list, in order, every analyst who asked a question. Then ask one question you know the documents don't answer. If it fails any of these, it may have skipped content or be filling gaps with guesses."
+    },
+    {
+      "name": "Verify every figure and recalculate",
+      "text": "Use Ctrl+F (Cmd+F on a Mac) to find each quoted phrase in the source. Check the value, unit, period, GAAP or adjusted basis and comparison period. Recalculate any growth rates and margins in a spreadsheet."
+    },
+    {
+      "name": "Write and file your own summary",
+      "text": "Rewrite the verified points in your own words, log any corrections and open questions, and save the summary next to last quarter's so you can compare them."
+    }
+  ],
+  "comparison": {
+    "caption": "Where AI helps and where it falls short when summarizing earnings calls",
+    "headers": [
+      "Task",
+      "AI reliability",
+      "Main risk",
+      "How to check"
+    ],
+    "rows": [
+      [
+        "Pulling out themes and topics",
+        "Generally strong",
+        "Gives too much weight to whatever was repeated most",
+        "Skim the prepared remarks and Q&A topics yourself"
+      ],
+      [
+        "Extracting stated numbers and guidance",
+        "Useful but error-prone",
+        "Wrong period, unit, table column or GAAP/adjusted basis",
+        "Find each figure with Ctrl+F in the press release or 10-Q"
+      ],
+      [
+        "Comparing guidance with last quarter",
+        "Good if both releases are uploaded",
+        "Pulls outdated prior guidance from its training data",
+        "Open last quarter's release and compare line by line"
+      ],
+      [
+        "Flagging dodged analyst questions",
+        "Mixed",
+        "Treats normal non-disclosure as evasion",
+        "Read the full question and answer yourself"
+      ],
+      [
+        "Judging tone or confidence",
+        "Weak",
+        "Reads too much into wording, working from text alone",
+        "Listen to the key moments in the webcast replay"
+      ],
+      [
+        "Calculating growth rates and margins",
+        "Unreliable unless checked",
+        "Arithmetic mistakes stated confidently",
+        "Recalculate in a spreadsheet"
+      ],
+      [
+        "Judging valuation or whether to buy or sell",
+        "Poor; don't use it for this",
+        "Confident opinions without market data or knowledge of your situation",
+        "Keep this decision yours, and consider a licensed adviser for personal advice"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What an AI earnings call summary should (and shouldn't) do",
+      "paragraphs": [
+        "An AI earnings call summary should be a structured, sourced map of what management said. It is not a verdict on whether the company is a good investment. Its job is to shrink a long call down to the few points worth reading closely, and to show exactly where each point came from.",
+        "Most earnings calls follow the same pattern. Executives, usually including the CEO and CFO, give prepared remarks on results and outlook. Analysts then ask questions in a Q&A session. The earnings press release comes out around the same time and holds the official numbers. The call adds context: why margins moved, what management expects next and how executives answer when questioned.",
+        "This workflow only stays trustworthy if each side keeps to its role. The AI organizes the material and points to sources. You check the facts and make every judgment about what they mean for you."
+      ],
+      "bullets": [
+        "Guidance: management's stated outlook for future results, such as a revenue or earnings-per-share range for the next quarter or the full year. Not every company gives guidance.",
+        "GAAP vs adjusted (non-GAAP): GAAP figures follow standard US accounting rules. Adjusted figures leave out items management considers unusual. US companies that report adjusted figures generally have to reconcile them to GAAP, usually in tables in the press release.",
+        "10-Q and 10-K: the quarterly and annual reports US-listed companies file with the SEC. Other countries use different reports and regulators.",
+        "Forward-looking statements: the disclaimer at the start of most calls warning that projections may not come true."
+      ]
+    },
+    {
+      "heading": "Where to get the transcript, press release and filings",
+      "paragraphs": [
+        "Start at the company's investor relations (IR) page, usually linked as 'Investors' in the site menu or footer. Download the original documents rather than news articles about them.",
+        "A typical IR page has a quarterly results or events section with the earnings press release, a slide presentation and a webcast replay. Some companies post a full transcript, but many don't. Third-party providers and some brokerage platforms publish transcripts; some are free and some are paid. Check the provider's terms before you upload its transcript to an AI tool.",
+        "For US-listed companies, SEC EDGAR is a free backup source. The earnings press release is usually attached as an exhibit to a Form 8-K. The 10-Q (or the 10-K after the fourth quarter) has the full financial statements. The 10-Q may be filed on the same day as the release or later, so you may need to come back to finish checking. Outside the US, look for the equivalent filings on your national regulator's or stock exchange's website. Report names and timing differ by country.",
+        "Also download last quarter's press release and, if you can, its transcript. Without the previous numbers, neither you nor the AI can tell whether guidance was raised, cut or quietly dropped.",
+        "If the press release is available as both a web page and a PDF, keep both. AI tools can misread PDF tables and put a number in the wrong column or period, and the web version gives you a second copy to check against."
+      ],
+      "bullets": [
+        "This quarter's press release (web page and PDF)",
+        "This quarter's transcript, or the webcast replay",
+        "The slide deck, if the company publishes one",
+        "Last quarter's press release and transcript",
+        "The 10-Q or 10-K (or your country's equivalent) once it's filed"
+      ]
+    },
+    {
+      "heading": "The structured prompt to summarize an earnings call transcript with AI",
+      "paragraphs": [
+        "The most reliable way to summarize an earnings call transcript with AI is to use the same fixed prompt every quarter. It should ask for named sections, require a source for every claim and ban outside knowledge.",
+        "A loose request like 'summarize this call' tends to produce smooth, generic text that mixes facts with filler. A structured prompt makes the assistant fill in specific sections. Gaps become obvious, and one quarter's summary lines up with the next.",
+        "Prepare the files before you prompt. Label each one clearly, for example 'DOC A: Q3 press release', 'DOC B: Q3 transcript' and 'DOC C: Q2 press release'. Most written transcripts have no timestamps. If yours doesn't, number the paragraphs yourself (pasting one paragraph per spreadsheet row works) and ask for paragraph numbers instead. If you transcribe the webcast audio yourself, you'll get timestamps, but you'll also have speech-to-text errors to check.",
+        "Start a fresh chat for each company so details from other conversations don't leak in. Upload the documents, then paste the prompt below and adjust it to suit you. File-size limits and how well tools handle long documents vary by tool and plan, so check your assistant's documentation. If a transcript is very long, run the prepared remarks and the Q&A separately.",
+        "Every line of output should be this specific (these are placeholders, not real figures): 'Full-year revenue guidance: raised, from $[X]–[Y] billion to $[X2]–[Y2] billion [DOC A, Outlook; DOC C, Outlook], plus the exact sentence quoted.' Send anything vaguer back to the AI."
+      ],
+      "bullets": [
+        "Rules: Use ONLY the uploaded documents. If information is missing, write 'NOT IN DOCUMENTS'. Do not use outside knowledge, estimates, consensus figures or share prices. Do not give investment opinions.",
+        "1. Headline results: list each metric management highlighted, labeled GAAP or adjusted, with its period and the period it is compared with.",
+        "2. Guidance changes: compare current guidance (DOC A/B) with prior guidance (DOC C). Mark each item as raised, lowered, maintained, introduced or withdrawn.",
+        "3. Margin commentary: what management said drove gross and operating margins this quarter, and what they expect next.",
+        "4. Risks: each risk management named, in their own words, plus any risks analysts raised.",
+        "5. Partial answers: analyst questions where the reply did not address what was asked. Quote both and explain the gap in one sentence.",
+        "6. Key quotes: 5–8 verbatim quotes, each with the speaker, the section (prepared remarks or Q&A) and the paragraph number.",
+        "Citation rule: after every number or claim, add [document, paragraph] and the exact sentence you relied on."
+      ]
+    },
+    {
+      "heading": "How to fact-check the AI summary against the press release and 10-Q",
+      "paragraphs": [
+        "To fact-check the summary, treat every figure in it as unverified until you've found it yourself in the press release, the transcript or the 10-Q. This step is the core of the workflow, so never skip it or hand it off to automation.",
+        "The fastest method is a find-in-document check. Open the source, press Ctrl+F (Cmd+F on a Mac) and search for the sentence the AI quoted. If the sentence is there, compare the number in the summary with the number in the source. If it isn't there word for word, the AI has paraphrased, merged two passages or made the line up, so check the claim by hand.",
+        "Search for a distinctive phrase of four to six words rather than the whole sentence. Line breaks, hyphenation and curly quotation marks in PDFs can make a long search fail even when the text is there.",
+        "If the AI left anything uncited, ask: 'For each number in your summary, quote the exact sentence it came from and name the document and paragraph.' If it can't produce a matching sentence for a figure, don't use that figure.",
+        "Use the right source for each kind of number. The press release has the headline income statement, usually the guidance, and the reconciliation from adjusted to GAAP figures. The 10-Q adds the full financial statements and notes, segment detail, management's discussion and analysis, and updated risk factors. Numbers spoken on the call should match the release. If they seem not to, look for a rounding or basis difference before deciding either one is wrong.",
+        "Recalculate anything the AI worked out itself. Growth rates, margins and changes between periods are arithmetic, and language models can get arithmetic wrong even when the inputs are right. Put the raw figures in a spreadsheet and do the calculations yourself."
+      ],
+      "bullets": [
+        "Value: does the number match the source exactly, including rounding?",
+        "Unit: is it in millions or billions? Is a change in percent, percentage points or basis points?",
+        "Period: does it cover the quarter, the year to date or the full year? Is that a fiscal or calendar period?",
+        "Basis: is it GAAP or adjusted? Reported or constant currency?",
+        "Comparison: is it year over year or quarter over quarter (sequential)?",
+        "Scope: does it cover the whole company, or one segment or region?"
+      ]
+    },
+    {
+      "heading": "Common AI mistakes and hallucinated figures to watch for",
+      "paragraphs": [
+        "The AI mistakes most likely to get past you in an earnings summary aren't wild inventions. They're believable numbers attached to the wrong period, basis or segment, and because they look right at a glance, you have to check for them on purpose.",
+        "Three quick tests catch many of these problems. First, ask the assistant to quote the final paragraph of each document. If it can't, it may not have read the whole file. Second, ask it to list every analyst who asked a question, in order, and compare that list with the transcript. Third, ask about something you know isn't in the documents, such as a product the company doesn't make. A well-behaved session answers 'NOT IN DOCUMENTS'. If it invents an answer, trust the rest of its output a little less.",
+        "When you find an error, fix it in your notes, then check every other figure from the same table or passage yourself. One wrong-period mistake can mean there are others nearby, and asking the AI to 'double-check' is no substitute for checking yourself."
+      ],
+      "bullets": [
+        "GAAP and adjusted mixed up: adjusted EPS reported as plain EPS, or the two blended in one sentence.",
+        "Wrong period or column: last year's figure reported as this year's (for example, from a misread PDF table), or full-year guidance presented as quarterly guidance.",
+        "Unit slips: millions read as billions, or a change in percentage points described as a percent change.",
+        "Invented precision: a margin or growth rate management never gave, which the AI calculated or estimated without saying so.",
+        "Outside knowledge leaking in: figures from the model's training data, which may be out of date or about a company with a similar name.",
+        "Misattributed quotes: an analyst's words credited to the CFO, or one executive's comment credited to another.",
+        "Partial reading: some tools read only part of a long upload, so later sections such as the Q&A come out thin or missing.",
+        "Made-up beats and misses: whether a company 'beat' depends on analyst consensus estimates, which usually aren't in the release or transcript. If the AI says 'beat', ask where the consensus figure came from."
+      ]
+    },
+    {
+      "heading": "What AI handles well and badly with earnings calls",
+      "paragraphs": [
+        "AI is good at organizing and comparing text you give it. It is poor at anything that needs judgment, live market data or a view on value.",
+        "Here's where it helps: pulling out recurring themes, grouping analyst questions by topic, explaining jargon, extracting the guidance ranges management gave and comparing wording between quarters. That last one is underrated. Asking 'How did management's language about demand change between DOC B and last quarter's transcript?' can surface shifts you'd otherwise miss, as long as you read the quoted passages yourself.",
+        "Here's where it struggles: deciding whether a stock is cheap or expensive, whether guidance is conservative, how the share price will react or whether management is credible. Those questions depend on prices, market expectations, other options and your own circumstances, and none of that is in a transcript. An assistant may still answer confidently, but a confident answer isn't analysis.",
+        "Be careful with any output about tone or dodged questions. The AI reads text, not voices, and a reply like 'we don't break out that figure' may be standard company policy rather than evasion. Treat these flags as reasons to read the full exchange, or listen to that part of the replay, not as conclusions."
+      ],
+      "bullets": [
+        "Follow-up: 'List the topics analysts asked about most, with paragraph numbers for each question.'",
+        "Follow-up: 'Quote every sentence where management mentions [topic], in order.'",
+        "Follow-up: 'Which items from last quarter's guidance are not mentioned this quarter?'"
+      ]
+    },
+    {
+      "heading": "Building a repeatable quarterly routine",
+      "paragraphs": [
+        "A repeatable routine uses the same documents, prompt and checklist every quarter, and stores each verified result where you can compare it next time.",
+        "Keep one page or file per company, with a short log for each quarter: the call date, the documents used, the AI tool used, the verified summary, any figures you corrected and open questions for next quarter. The corrections column is useful in its own right. If the same kind of error keeps showing up, tighten the prompt.",
+        "Automate the alerts, not the judgment. Many IR sites offer email alerts or RSS feeds, and an automation tool can send those into your notes or task list. If you follow only a few companies, a calendar reminder for each earnings date may be all you need. Keep the checking step manual, because automating the summary and skipping the check defeats the purpose.",
+        "Keep an eye on costs and protect your data. Paid transcript services, AI subscriptions and automation plans can add up, so weigh them against how many companies you actually follow, and confirm current pricing on each vendor's site. Transcripts and press releases are public, but review your AI tool's privacy and data-use settings before you add personal portfolio notes.",
+        "Know the limits of this workflow. It is for research and education, not investment advice. Investing carries risk, including losing money, and fees, taxes and investor protections differ by country. For decisions about your own money, check your local regulator's guidance or speak to a licensed financial adviser."
+      ],
+      "bullets": [
+        "Use the same saved prompt every quarter, and note any changes to it",
+        "Run the same checklist on every figure",
+        "Keep last quarter's summary open next to the new one",
+        "Write a short 'what changed' note in your own words"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping your saved prompt, your fact-check checklist and a log of verified quarterly summaries for each company in one searchable workspace. Its built-in AI can help draft notes, but the same citation and fact-check rules apply. Check Notion's site for current AI features and pricing.",
+      "not_for": "Anyone who expects market data or transcripts to appear automatically, because Notion supplies neither. It's also more structure than you need if you summarize a call only occasionally; a simple document will do."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending earnings alerts into your notes, task list or calendar without writing code, so you know when new documents are posted. Typical sources are IR email alerts or RSS feeds, where companies offer them. Check Zapier's site for supported apps and current pricing.",
+      "not_for": "Fully automated pipelines that summarize and publish without anyone checking. It's also unnecessary if you follow only a few companies, where calendar reminders work fine."
+    },
+    {
+      "product": "Make",
+      "best_for": "Investors tracking many companies who want a visual, multi-step alert workflow, such as filtering RSS items by company and filing them into a notes database. Depending on your plan, it can cost less than Zapier for high-volume workflows, so compare current pricing on both vendors' sites.",
+      "not_for": "Beginners who want the simplest possible setup, or anyone hoping to automate the fact-checking step, which should stay manual."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT or Claude summarize an earnings call accurately?",
+      "answer": "General-purpose AI assistants can produce useful structured summaries when you upload the transcript and press release, but they can still misread or invent figures. They're more accurate when you limit them to the uploaded documents, require exact citations and check every number yourself. Treat the output as a draft, not a source."
+    },
+    {
+      "question": "Where can I find earnings call transcripts for free?",
+      "answer": "Start with the company's investor relations page. It usually has the press release and webcast replay, and sometimes a full transcript. Some brokerage platforms and financial websites publish transcripts, some free and some paid. For US-listed companies, the press release and 10-Q are free on SEC EDGAR even when no transcript is available."
+    },
+    {
+      "question": "Should I check numbers against the press release or the 10-Q?",
+      "answer": "Start with the press release. It's available on earnings day and includes the headline tables and the reconciliations from adjusted to GAAP figures. Once the 10-Q is filed, use it for the full statements, segment detail and risk factors. If the two seem to disagree, look into the reason yourself rather than asking the AI to settle it."
+    },
+    {
+      "question": "Which AI tool is best for summarizing earnings call transcripts?",
+      "answer": "Any capable assistant that accepts file uploads and handles long documents can do the job, and features and limits change often. Test a tool on a call you already know well, check whether it reads the whole Q&A and cites accurately, and confirm current plan limits on the vendor's site. Your checking process matters more than which tool you pick."
+    },
+    {
+      "question": "Can AI tell whether management dodged an analyst's question?",
+      "answer": "AI can flag exchanges where the answer doesn't seem to address the question, which is a useful starting point. It can't tell whether a non-answer is evasion or a normal policy of not disclosing certain details. Read the full exchange, and if it matters, listen to that part of the replay."
+    },
+    {
+      "question": "Can I ask AI whether to buy a stock after earnings?",
+      "answer": "You can ask, but an AI summary isn't a reliable basis for that decision. AI assistants may not have current market data, can't judge valuation well and don't know your finances, goals or tax situation. For personal decisions, consider a licensed financial adviser, and remember that investing carries risk, including losing money."
+    }
+  ],
+  "conclusion": "Summarizing an earnings call transcript with AI can save real time, but only the checked version is worth keeping. Work from the original documents, run the same structured prompt every quarter, insist on exact citations and check every figure against the press release or 10-Q. Let the AI find themes and flag questions. Judgments about value, risk and your own money stay with you, with help from a licensed professional where appropriate. This article is educational only and is not investment advice.",
+  "keyword": "how to summarize an earnings call transcript with ai",
+  "niche": "AI tools for investing research and personal finance",
+  "version": 2,
+  "slug": "how-to-summarize-an-earnings-call-transcript-with-ai-accurately",
+  "published": "2026-10-08T09:01:46+00:00"
+}

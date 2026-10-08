@@ -1,0 +1,256 @@
+{
+  "title": "How to Write SOPs With Notion AI Your Team Can Actually Use",
+  "meta_description": "Learn how to write SOPs with Notion AI: turn brain-dumps into clear procedures, track review dates in a database, and catch the mistakes AI makes.",
+  "quick_answer": "To write SOPs with Notion AI, capture the real process first: a narrated walkthrough or brain-dump from the person who does the task. Paste it into a fixed SOP template and ask Notion AI to restructure it using only your notes, flagging gaps instead of guessing. Then have the task-doer test the SOP, fix errors and sign off, and track owners and review dates in a Notion database.",
+  "key_takeaways": [
+    "Start by capturing the real process with a narrated recording or brain-dump. Don't ask AI to write an SOP from a one-line prompt.",
+    "Use the same template for every SOP: purpose, owner, tools, steps, edge cases and last reviewed.",
+    "Tell Notion AI to use only your notes and to add [QUESTION: …] markers where it would otherwise guess.",
+    "Only mark an SOP Approved after the person who does the task has followed it word for word and signed off.",
+    "Track each SOP's owner and last-reviewed date in a Notion database with a Needs review view, so out-of-date SOPs show up automatically.",
+    "Before you build the workflow around Notion AI, check Notion's pricing page to see whether your plan includes it."
+  ],
+  "who_this_is_for": "This guide is for founders, operations leads and small-team managers whose key know-how lives in a few people's heads and who want SOPs the team can trust without spending weeks writing them.",
+  "intro": "On most small teams, a lot of know-how lives in one or two people's heads. When those people are on holiday, busy or gone, tasks stall or get done differently each time. Standard operating procedures (SOPs) solve that. But writing them from scratch is slow, so they rarely get written. Notion AI can take care of most of the blank-page work by turning a messy walkthrough into a clean, consistent SOP. It can also confidently add steps nobody does and drop the exceptions that matter. This guide gives you a workflow where AI handles the structure and people check the facts. You capture the process, restructure it, test it, sign it off and review it on a schedule. You also get the database setup, prompts and review view that stop SOPs from quietly going out of date.",
+  "steps": [
+    {
+      "name": "Pick one recurring task and the person who does it",
+      "text": "Choose a task that comes up at least monthly and breaks when the usual person is away, such as processing refunds or onboarding a client. Name the person who does it today. They are both your source and your first tester. Don't start with your most complex process."
+    },
+    {
+      "name": "Set up the SOP database and default template",
+      "text": "Create a Notion database with Owner, Status, Last reviewed, Review cycle (days), Approved by and Overdue properties. Then add a default template with six headings (Purpose, Owner, Tools, Steps, Edge cases, Last reviewed) and a 'Raw notes (source)' toggle at the bottom."
+    },
+    {
+      "name": "Capture the real process",
+      "text": "While doing the task for real, the task-doer records a narrated screen walkthrough, a voice memo or a rough bullet list. Ask them to say out loud what they check, what they skip and what has gone wrong before. Those comments become your edge cases."
+    },
+    {
+      "name": "Paste the raw notes into a new SOP page",
+      "text": "Click New in the SOP database so the default template is applied. Then paste the transcript or brain-dump into the Raw notes toggle. Keeping the source inside the page means reviewers can check the AI's output against what was actually said."
+    },
+    {
+      "name": "Ask Notion AI to restructure, not invent",
+      "text": "Select the raw notes and choose Ask AI. Tell it to use only the notes, follow your six headings and write numbered steps with one action each. Ask it to insert [QUESTION: …] wherever information is missing, unclear or contradictory. Put the result above the raw notes, not in place of them."
+    },
+    {
+      "name": "Review the draft against the source",
+      "text": "Compare the draft with the raw notes line by line. Delete any step that isn't in the source and add back any exceptions that were dropped. Replace vague phrases like 'verify accuracy' with what the person actually checks. Collect the [QUESTION] markers to go through with the task-doer."
+    },
+    {
+      "name": "Test it on a real run of the task",
+      "text": "Set Status to In test. The next time the task is actually needed, the task-doer follows the SOP word for word. They note every guess, missing permission or wrong name. If you can, have a second person also try it cold while the usual doer watches."
+    },
+    {
+      "name": "Sign off and schedule reviews",
+      "text": "When every [QUESTION] is resolved and the test passes, set Status to Approved and fill in Approved by and Last reviewed. Once the review cycle runs out, the SOP will show up again in the Needs review view."
+    }
+  ],
+  "comparison": {
+    "caption": "Five ways to produce an SOP: speed versus accuracy risk",
+    "headers": [
+      "Approach",
+      "Speed to first draft",
+      "Accuracy risk",
+      "When it makes sense"
+    ],
+    "rows": [
+      [
+        "Write from scratch by hand",
+        "Slowest",
+        "Low if the writer does the task; high if they don't",
+        "Very short tasks, or sensitive procedures you don't want in any AI tool"
+      ],
+      [
+        "Ask Notion AI to write an SOP from a one-line prompt",
+        "Fastest",
+        "High: generic content, made-up steps, missing exceptions",
+        "Only as a checklist of headings to consider, never as the SOP itself"
+      ],
+      [
+        "Notion AI restructures a recording transcript or brain-dump",
+        "Fast",
+        "Medium: may add filler or drop exceptions",
+        "First drafts for most recurring tasks"
+      ],
+      [
+        "Another approved AI assistant restructures the notes, then you paste into the Notion template",
+        "Fast, with some copy-paste work",
+        "Medium: same risks as any AI draft",
+        "When Notion AI isn't on your plan, or company policy points to a different AI tool"
+      ],
+      [
+        "AI restructure plus a task-doer test and human sign-off",
+        "Fast draft, plus one real run of the task",
+        "Lowest",
+        "Any SOP your team will follow without asking questions"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What a Good Small-Team SOP Includes",
+      "paragraphs": [
+        "A good small-team SOP has six parts: purpose, owner, tools, steps, edge cases and a last-reviewed date. That's short enough that people will actually keep it updated. It's also complete enough that someone new can follow it without tapping a colleague on the shoulder.",
+        "Consistency matters more than length. When every SOP uses the same headings in the same order, readers learn where to look and Notion AI has a clear shape to fit your notes into. A one-page SOP that follows the template beats a ten-page document nobody can skim.",
+        "Write each step as a single action that starts with a verb, such as 'Filter the payments dashboard by failed payments.' If a step involves a judgement call, spell out the decision and the rule. For example, write 'If the refund is above your approval limit, stop and message the finance owner,' not 'check everything is correct.'"
+      ],
+      "bullets": [
+        "Purpose: what the task achieves and what triggers it. Example: 'Refund a customer once their refund request is approved in the support inbox.'",
+        "Owner: the one person responsible for keeping the SOP accurate. This isn't always the person who does the task each time.",
+        "Tools: every app, file, template and login location needed, so nobody hits a missing permission halfway through. Link to your password manager instead of writing credentials down.",
+        "Steps: numbered, one action each, in the order they actually happen.",
+        "Edge cases: what to do when something looks different. Example: 'If the order was paid by bank transfer, ask finance to send the refund manually.'",
+        "Last reviewed: the date a person confirmed the SOP still matches reality, plus who approved it."
+      ]
+    },
+    {
+      "heading": "How to Set Up an SOP Database in Notion",
+      "paragraphs": [
+        "Keep your SOPs in a Notion database, not a folder of loose pages, so every procedure has an owner, a status and a review date you can filter on. Create a full-page table database on a new page and give it an obvious name, such as 'SOPs'.",
+        "Add the properties listed below. The names are only suggestions. What matters is that each SOP has one named owner and a date that tells you whether it's out of date.",
+        "For the Overdue property, use a formula along the lines of dateBetween(now(), prop(\"Last reviewed\"), \"days\") > prop(\"Review cycle (days)\"). It returns a checkbox that ticks itself once an SOP passes its review window. Notion's formula syntax has changed before, so if it throws an error, check Notion's formula help page for the current dateBetween format.",
+        "Next, build the template. Click the dropdown arrow next to the database's New button, choose New template, and add the six headings from the previous section. Add a toggle at the bottom called 'Raw notes (source)'. Then, in the same dropdown, use the ••• menu next to the template to set it as the default, so every new SOP starts with the same structure.",
+        "Some paid Notion plans also let you verify pages and set an expiry date. If your plan has this, it can do a similar job to the Overdue formula. Check Notion's help centre for what your plan includes, and pick one method so owners aren't tracking review dates in two places."
+      ],
+      "bullets": [
+        "Name (title): the task written as an action, e.g. 'Process a customer refund'.",
+        "Owner (Person): the one accountable person.",
+        "Status (Status or Select): Draft, In test, Approved, Needs review.",
+        "Area (Select): Finance, Sales, Support, Ops and so on.",
+        "Tools (Multi-select): the apps the SOP uses, so you can find every affected SOP when a tool changes.",
+        "Last reviewed (Date): set only when a person signs off.",
+        "Review cycle (days) (Number): e.g. 90 for stable tasks, shorter for tasks tied to software that changes often.",
+        "Approved by (Person): who signed off the latest version.",
+        "Overdue (Formula): flags SOPs that are past their review cycle."
+      ]
+    },
+    {
+      "heading": "How to Write SOPs With Notion AI, Step by Step",
+      "paragraphs": [
+        "To write SOPs with Notion AI, give it real source material and a strict instruction to restructure rather than invent. The SOP can only be as good as what you feed in, so put most of your effort into the capture step.",
+        "Capture the know-how in whatever way is easiest for the person who does the task. A narrated screen recording suits software tasks, and many screen-recording tools can produce a transcript you can copy. A voice memo or rough bullet list suits physical or judgement-heavy work. If your plan includes Notion's AI meeting notes, you can transcribe a live walkthrough call straight into Notion. Whichever you use, ask the person to say out loud what they check, what they skip and what has gone wrong before.",
+        "Paste the transcript or brain-dump into the Raw notes toggle of a new SOP page. Then select the text, choose Ask AI and use a prompt like the one below.",
+        "Example prompt: 'Restructure these notes into an SOP using exactly these headings: Purpose, Owner, Tools, Steps, Edge cases, Last reviewed. Use only information that appears in the notes. Write steps as numbered single actions starting with a verb. Do not add steps, tools or best practices that are not in the notes. Where information is missing, unclear or contradictory, insert [QUESTION: …] instead of guessing. List every exception or \"if this happens\" comment under Edge cases.'",
+        "Insert the result above the raw notes, not in place of them. Then ask a follow-up such as 'List any step in the SOP that does not clearly appear in the raw notes.' Treat the answer as a hint, not proof, because the AI can miss its own additions. The [QUESTION] markers become your agenda for a short conversation with the task-doer.",
+        "Once the draft is accurate, these follow-up prompts make it easier to use. Run them one at a time and re-check anything whose meaning changes."
+      ],
+      "bullets": [
+        "'List every tool, file, link and permission mentioned in the notes': use this to fill the Tools section.",
+        "'Rewrite step [n] so someone who has never used [tool] can follow it, without adding new actions.'",
+        "'Turn the Steps section into a to-do checklist': useful for tasks people tick off as they go.",
+        "'Which steps involve a judgement call? Rewrite each as a decision with the rule stated in the notes, or add a [QUESTION].'",
+        "'Suggest three realistic test scenarios for this SOP, including one edge case': use these to plan the task-doer test, but check that each scenario can actually happen."
+      ]
+    },
+    {
+      "heading": "What Notion AI Gets Wrong in SOP Drafts",
+      "paragraphs": [
+        "The two most common problems in Notion AI SOP drafts are made-up steps and missing exceptions. AI models are built to produce plausible, complete-sounding text, not to admit gaps. A draft can read beautifully and still be wrong in the one place that matters.",
+        "These errors are hard to spot because they look reasonable. A made-up step like 'Notify the finance team by email' sounds sensible. But if your team actually posts in a chat channel, someone will follow the wrong process with full confidence. Always review a draft with the raw notes open beside it.",
+        "A tighter prompt cuts down these problems but doesn't get rid of them. Only someone who does the task can confirm that every step, name and exception is real."
+      ],
+      "bullets": [
+        "Made-up steps: generic best practices ('back up the file first', 'double-check with a manager') that nobody on the team actually does.",
+        "Missing exceptions: offhand comments like 'unless it's an annual plan' get dropped or buried inside a step.",
+        "Made-up menu names and settings: the AI may describe a button or menu path that doesn't exist in your version of a tool.",
+        "Reordered or merged steps: two actions squashed into one, or a step moved because it seems to fit better elsewhere.",
+        "Lost judgement calls: 'I eyeball whether it looks off' becomes 'verify accuracy', which tells a new person nothing.",
+        "Borrowed old instructions: if you point Notion AI at other workspace pages for context, it can repeat out-of-date steps. Stick to your fresh notes as the source.",
+        "Filler: phrases like 'ensure high quality' that add length but no instruction."
+      ]
+    },
+    {
+      "heading": "Why the Task-Doer Test and Human Sign-Off Matter",
+      "paragraphs": [
+        "You can only trust an SOP once the person who actually does the task has followed it word for word and confirmed it works. The test catches what both the AI and the reviewer missed. The sign-off makes a named person accountable for the document.",
+        "Run the test the next time the task actually needs doing, not as a read-through at a desk. When people only read an SOP, they fill gaps from memory without noticing. Following it word for word exposes missing permissions, wrong button names and steps in the wrong order. If you can, also ask someone who doesn't normally do the task to try it while the usual doer watches. That cold run is the closest thing to onboarding a new hire.",
+        "Keep the Status at In test during this phase, and switch it to Approved only when the test passes. At sign-off, fill in Approved by and Last reviewed. That date drives your review reminders, so only set it when a person has confirmed the procedure matches reality. Never update it just because AI rewrote the page."
+      ],
+      "bullets": [
+        "Follow every step word for word, in order, without skipping the 'obvious' ones.",
+        "Note anywhere you had to guess, ask someone or look something up.",
+        "Resolve every [QUESTION] marker before approving.",
+        "Confirm each edge case with a real example, or label it as untested.",
+        "Check that links, file locations and tool names are current."
+      ]
+    },
+    {
+      "heading": "How to Keep SOPs From Going Stale",
+      "paragraphs": [
+        "To keep SOPs current, add a filtered Needs review view to your SOP database. It should show anything that's overdue, has never been reviewed, or has been flagged by the team. An outdated SOP can be worse than none, because people trust it and follow it anyway.",
+        "To build the view, add a table or list view called Needs review to the SOP database. Add an advanced filter set to match any of three rules: Overdue is checked, Last reviewed is empty, or Status is Needs review. Sort by Last reviewed, oldest first, and group by Owner so each person sees their own list. Link the view from a team dashboard or the top of your wiki.",
+        "Make reviewing a habit, not a project. A short weekly or fortnightly slot where owners clear their items works better than an annual clean-up. If nothing has changed, a review should only take minutes: confirm the SOP still matches, update Last reviewed and move on. When a tool changes, filter by the Tools property to find every SOP that uses it.",
+        "If owners won't open the view on their own, add a nudge. Depending on your plan, Notion's database automations may be able to send notifications. You can also use an automation tool such as Zapier or Make to send a weekly Slack or email digest of overdue SOPs. Get the manual view working first, and only automate once the habit exists."
+      ],
+      "bullets": [
+        "Filter: Overdue is checked OR Last reviewed is empty OR Status is Needs review.",
+        "Sort: Last reviewed, oldest first.",
+        "Group: Owner.",
+        "Let anyone flag an SOP by switching its Status to Needs review when they notice something wrong."
+      ]
+    },
+    {
+      "heading": "Notion AI Plan Availability, Privacy and Alternatives",
+      "paragraphs": [
+        "Check Notion's current pricing page before you build this workflow, because Notion has changed how it packages Notion AI. Some plans have offered only a limited trial of AI features while others include them fully, so confirm what your workspace has today.",
+        "The workflow doesn't depend on Notion AI. If AI isn't on your plan, run the same restructuring prompt in another AI assistant your company has approved. Paste the output into your Notion SOP template, then use the database, test and review views exactly as described. The human steps are what make the SOPs reliable.",
+        "Be careful about what goes into any AI tool. Keep passwords, API keys and customer personal data out of SOPs entirely. Point to your password manager or the system that holds that data instead. Read Notion's current AI security and privacy documentation, and check whether your workspace admin has turned AI features on or restricted them."
+      ],
+      "bullets": [
+        "Confirm which plans include Notion AI and whether there are usage limits.",
+        "Confirm your workspace settings allow AI features for your members.",
+        "Agree as a team on what must never be pasted into SOPs or AI prompts."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Small teams that want SOP drafting, the SOP database, owner and review-date tracking, and the Needs review view in one workspace. Confirm your plan includes Notion AI, or pair Notion with another approved AI assistant for drafting.",
+      "not_for": "Businesses that need a formal quality management system with strict document control, audit trails or regulated e-signatures. Also not needed for teams already happy with another wiki who only want a better SOP template."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending owners a scheduled Slack or email digest of overdue SOPs from your Notion database, especially if your team already uses Zapier for other automations.",
+      "not_for": "Very small teams who will simply open the Needs review view each week. Don't add automation before the manual review habit works."
+    },
+    {
+      "product": "Make",
+      "best_for": "Teams that prefer a visual, step-by-step scenario builder for the same overdue-SOP digest, or that already run larger-volume automations in Make and want everything in one tool. Compare current pricing with Zapier for your expected usage.",
+      "not_for": "Teams that haven't got a manual review habit going yet, or that only need one simple reminder their Notion plan's built-in automations can already handle."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I use Notion AI to write SOPs on the free plan?",
+      "answer": "That depends on how Notion currently packages AI. Notion has changed which plans include AI, and some plans have offered only a limited trial, so check Notion's pricing page. If AI isn't included, you can draft with another approved AI assistant and still run the database and review workflow in Notion."
+    },
+    {
+      "question": "What is the best format for an SOP?",
+      "answer": "For small teams, a consistent one-page format works best: purpose, owner, tools, numbered steps, edge cases and a last-reviewed date. Each step should be a single action that starts with a verb. Using the same template for every SOP makes them easier to skim and gives AI a clear structure to fit your notes into."
+    },
+    {
+      "question": "Can Notion AI turn a video walkthrough into an SOP?",
+      "answer": "The most reliable route is to work from a transcript of the video. Many screen-recording tools produce transcripts you can copy, and Notion's AI meeting notes can transcribe calls on plans that include that feature. Paste the transcript into the SOP page and ask Notion AI to restructure it using only that content."
+    },
+    {
+      "question": "How often should SOPs be reviewed?",
+      "answer": "There's no universal rule, so set a review cycle for each SOP based on how quickly its tools and policies change. Quarterly is a sensible starting point for stable tasks, with shorter cycles for anything tied to software that updates often. Also review an SOP straight away whenever a tool, price or policy it depends on changes."
+    },
+    {
+      "question": "Is it safe to put company processes into Notion AI?",
+      "answer": "Read Notion's current AI security and privacy documentation and your own company policy before deciding. As a rule, keep passwords, API keys and customer personal data out of SOPs altogether, and link to the secure system that holds them instead. This is general guidance, not legal advice, so regulated businesses should check with their compliance lead."
+    },
+    {
+      "question": "Who should own an SOP?",
+      "answer": "The owner should be the person responsible for keeping the SOP accurate, usually whoever does the task most often or manages that area. Give each SOP one named owner rather than a shared team owner, because shared ownership often means nobody reviews it. Record the owner as a Person property so your Needs review view can group by them."
+    }
+  ],
+  "conclusion": "Writing SOPs with Notion AI works best when you treat the AI as a fast editor, not the author. Capture the real process from the person who does it and let Notion AI fit it into a fixed template. Don't mark anything Approved until that person has tested it and signed off. Give every SOP an owner, a last-reviewed date and a place in a Needs review view, and your procedures will stay trustworthy as your tools change. Start with one task this week, ideally the one that breaks whenever a particular person is away.",
+  "keyword": "how to write sops with notion ai",
+  "niche": "AI tools for small business productivity",
+  "version": 2,
+  "slug": "how-to-write-sops-with-notion-ai-your-team-can-actually-use",
+  "published": "2026-10-08T09:05:49+00:00"
+}

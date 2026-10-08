@@ -1,0 +1,258 @@
+{
+  "title": "Ex-Dividend Date vs Record Date vs Payment Date: Who Gets Paid",
+  "meta_description": "Ex-dividend date vs record date vs payment date, explained with a T+1 example: who gets paid, when to own shares, and why the price drops.",
+  "quick_answer": "The ex-dividend date decides who gets the dividend: you must own the shares before it, so your purchase must execute no later than the trading day before it. The record date is when the company checks its shareholder list; under US T+1 settlement it's usually the same day as the ex-date. The payment date is when cash arrives. Sell on or after the ex-date and you're still paid.",
+  "key_takeaways": [
+    "You must own the shares before the ex-dividend date, so your purchase has to execute no later than the trading day before it. If you buy on the ex-date, you miss this dividend.",
+    "In the US, T+1 settlement started on May 28, 2024. Since then, the ex-date and the record date usually fall on the same business day for regular dividends. Older articles that describe a one-day gap between them are using the old T+2 rules.",
+    "You still get the dividend if you sell on or after the ex-date. You don't need to hold the shares until the payment date.",
+    "On the ex-date, the price usually opens lower by roughly the dividend amount. That means buying just before the ex-date doesn't earn you free money, especially once you count taxes and trading costs.",
+    "Check the dates in the company's announcement and with your broker, and treat 'estimated' dates as unconfirmed. Settlement rules, special dividends and taxes vary by market, so check the rules where you invest."
+  ],
+  "who_this_is_for": "This guide is for investors who own, or are thinking about buying, dividend-paying stocks, ETFs or funds, and who want to know exactly when they need to own the shares to get paid and what the ex-dividend date does to the share price.",
+  "intro": "Every dividend announcement comes with several dates. Mixing them up is one of the easiest ways to miss a payment you expected, or to buy shares \"for the dividend\" and then wonder why the price fell the next morning. The good news is that only one date decides who gets paid. This guide defines the ex-dividend, record and payment dates in one sentence each and walks through a dated calendar example. It explains how US T+1 settlement links the dates and why the price drop on the ex-date means buying just before it isn't free money. It also covers selling around the ex-date, common mistakes, special cases and where to find dates you can trust. This is general education, not personal investment or tax advice.",
+  "steps": [
+    {
+      "name": "Find the official dividend announcement",
+      "text": "Open the company's investor relations page (or the fund provider's website for an ETF or mutual fund) and find the latest dividend announcement. Note the amount per share, the record date, the payment date and, if it's listed, the ex-dividend date. Make sure the board has actually declared the dividend, rather than a website estimating it from past payments."
+    },
+    {
+      "name": "Confirm the ex-date with your broker",
+      "text": "Check the stock's quote page, the dividend calendar or the corporate-action notices in your brokerage account. Your broker uses this ex-date to decide which trades qualify. If it doesn't match the company's announcement or the exchange notice, contact your broker before you trade."
+    },
+    {
+      "name": "Work out the last day to buy",
+      "text": "Count back one trading day from the ex-date, skipping weekends and exchange holidays. If the ex-date is a Monday, the last day to buy is usually the Friday before. The rule to remember: the last day to buy is the trading day immediately before the ex-date."
+    },
+    {
+      "name": "Make sure your order actually executes in time",
+      "text": "Only an order that actually executes (fills) counts. A limit order that hasn't filled by the end of the last day to buy doesn't qualify. A pre-market trade on the ex-date gets the ex-date as its trade date, so it misses the dividend. If you plan to trade after hours on the last day to buy, ask your broker which trade date those trades get."
+    },
+    {
+      "name": "Expect the price drop and review your open orders",
+      "text": "On the ex-date, the price usually opens lower by roughly the dividend amount, so don't count the dividend as profit. Check whether your broker will lower the price on your open buy limit or sell stop orders by the dividend amount, and whether it offers a 'do not reduce' option."
+    },
+    {
+      "name": "Understand how selling affects your dividend",
+      "text": "If you own the shares going into the ex-date, the dividend is yours even if you sell on the ex-date or later. You don't need to hold until the payment date. If you sell before the ex-date, the buyer gets the dividend."
+    },
+    {
+      "name": "Check that the payment arrived",
+      "text": "On or shortly after the payment date, look for the dividend as cash, or as extra shares if you're in a dividend reinvestment plan (DRIP). Expected amount = shares held going into the ex-date × dividend per share, minus any tax withheld. If nothing arrives within a few business days, contact your broker and have your trade confirmation ready."
+    },
+    {
+      "name": "Keep records for tax time",
+      "text": "Save your trade confirmations and dividend statements. Log each payment's date, amount, tax withheld and account. How dividends are taxed, and whether holding-period rules apply, depends on your country and account type, so ask a qualified tax professional about your situation."
+    }
+  ],
+  "comparison": {
+    "caption": "The dividend timeline at a glance (made-up Example Co. under US T+1 rules; dates are for illustration only)",
+    "headers": [
+      "Date",
+      "Who sets it (US)",
+      "What it means",
+      "What it means for you",
+      "Made-up example (US T+1)"
+    ],
+    "rows": [
+      [
+        "Declaration date",
+        "The company's board",
+        "The board announces the dividend amount, record date and payment date",
+        "The timeline starts here. Note the dates; there's nothing to do yet",
+        "Tue, Nov 3, 2026"
+      ],
+      [
+        "Last day to buy (last cum-dividend day)",
+        "Not set separately: it's the trading day before the ex-date",
+        "The last trading day on which shares still come with the upcoming dividend",
+        "Your purchase must execute by the end of this day to qualify",
+        "Fri, Nov 13, 2026"
+      ],
+      [
+        "Ex-dividend date",
+        "The exchange (FINRA for over-the-counter stocks)",
+        "The first trading day the shares trade without the dividend",
+        "Buyers today don't get the dividend; sellers today still do. The price usually drops by roughly the dividend amount",
+        "Mon, Nov 16, 2026"
+      ],
+      [
+        "Record date",
+        "The company's board",
+        "The company checks its list of shareholders to see who gets the dividend",
+        "Your purchase must have settled by this day. The published ex-date already allows for this",
+        "Mon, Nov 16, 2026"
+      ],
+      [
+        "Payment date",
+        "The company's board",
+        "The dividend is paid to eligible shareholders",
+        "Cash, or reinvested DRIP shares, arrives. You don't need to still own the shares",
+        "Tue, Dec 1, 2026"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The four dividend dates, each defined in one sentence",
+      "paragraphs": [
+        "A regular cash dividend goes through four official dates, and each has one job: announce the payout, cut off new buyers, confirm who gets paid, and pay. They're defined below in the order they happen.",
+        "There's also an unofficial date worth knowing: the last day to buy, sometimes called the last cum-dividend day ('cum' means 'with'). It's the trading day immediately before the ex-date, and it's the last day on which a purchase comes with the upcoming dividend.",
+        "Knowing who sets each date helps you find it. In the US, the company's board sets the record and payment dates. The ex-dividend date is set by the exchange where the stock is listed, or by FINRA (the US brokerage regulator) for over-the-counter stocks. That's why some company announcements show only the record and payment dates."
+      ],
+      "bullets": [
+        "Declaration date: the day the company's board announces the dividend, its amount per share, and the record and payment dates.",
+        "Ex-dividend date (ex-date): the first trading day on which the shares trade without the right to the upcoming dividend, so anyone who buys on or after this day doesn't receive it.",
+        "Record date: the day the company, through its transfer agent (the firm that keeps its list of shareholders), checks who is on its books and therefore entitled to the dividend.",
+        "Payment date: the day the dividend is actually paid, in cash or as extra shares if you're enrolled in a dividend reinvestment plan (DRIP)."
+      ]
+    },
+    {
+      "heading": "Ex-dividend date vs record date vs payment date: a worked calendar example",
+      "paragraphs": [
+        "On any dividend calendar, one rule decides who gets paid: you must own the shares before the ex-dividend date. The record date and the payment date follow from that.",
+        "Here's a made-up example using US T+1 rules. Example Co. is a fictional company that declares a quarterly dividend of $0.50 per share. The dates and amounts are for illustration only.",
+        "Notice the weekend. Settlement counts business days, so the last day to buy is Friday, November 13, not Sunday, November 15. Market holidays work the same way: if the day before the ex-date is an exchange holiday, the last day to buy is the trading day before that holiday.",
+        "Notice, too, the two-week gap between the record date and the payment date. That's normal: the company and its paying agent use that time to process the payments. You don't need to still own the shares on the payment date to get the money."
+      ],
+      "bullets": [
+        "Tuesday, November 3, 2026 (declaration date): Example Co. announces a $0.50 dividend, with a record date of Monday, November 16 and a payment date of Tuesday, December 1.",
+        "Friday, November 13 (last day to buy): shares bought by the close qualify. Under T+1, the trade settles on Monday, November 16, which is the record date.",
+        "Monday, November 16 (ex-dividend date and record date): the shares now trade without the dividend. Anyone who buys today misses it. Anyone who held shares at Friday's close keeps it, even if they sell today.",
+        "Tuesday, December 1 (payment date): eligible shareholders receive $0.50 per share. Someone holding 200 shares at Friday's close would expect $100 before any tax withheld, paid as cash or as reinvested shares."
+      ]
+    },
+    {
+      "heading": "How T+1 settlement links the record date and the ex-date",
+      "paragraphs": [
+        "The ex-dividend date exists because of settlement: you aren't recorded as the owner of shares you buy until the trade settles, and that happens after the trade date.",
+        "In the US, most stock and ETF trades settle on T+1, which means one business day after the trade date (T). US markets moved from T+2 to T+1 on May 28, 2024.",
+        "Under T+1, a purchase made on the business day before the record date settles on the record date itself, so the buyer is on the company's books in time. A purchase made on the record date settles one day too late. That's why the US ex-date and record date now usually fall on the same business day for regular dividends.",
+        "Under the old T+2 rules, the ex-date was usually one business day before the record date. Many older articles still describe that gap, so check when anything you read was written. Some markets still settle on T+2. Several European markets, for example, had announced a move to T+1 but hadn't completed it at the time of writing. Check your exchange's current rules.",
+        "In practice, the published ex-date already takes settlement into account. If you remember only 'own the shares before the ex-date', you never need to work out settlement yourself."
+      ],
+      "bullets": [
+        "Trade date (T): the day your order executes, not the day you placed it.",
+        "Settlement date: the day ownership officially transfers to you. For most US stocks and ETFs, that's T+1.",
+        "In a T+1 market: the ex-date and the record date are usually the same day.",
+        "In a T+2 market: the ex-date is usually one business day before the record date."
+      ]
+    },
+    {
+      "heading": "Why the share price drops on the ex-dividend date",
+      "paragraphs": [
+        "On the ex-dividend date, a stock usually opens lower by roughly the dividend amount. New buyers no longer get the upcoming payment, and that cash is about to leave the company.",
+        "Take the made-up Example Co. If it closes at $50.00 on Friday, you'd expect it to open around $49.50 on Monday, all else being equal. In real markets, news, overall market moves and normal daily swings also move the price. The drop is rarely exactly the dividend amount, and bigger moves on the same day can hide it.",
+        "If you already own the shares, the drop doesn't change your total value by itself. You now hold a share worth about $0.50 less plus the right to $0.50 in cash. Part of your money has moved from the share price into a payment that's on its way. It hasn't grown.",
+        "The ex-date can also change orders you've placed that haven't filled yet. Under FINRA Rule 5330, US brokers generally lower the price of open buy limit and sell stop orders by the dividend amount on the ex-date. They don't do this if the order is marked 'do not reduce' (DNR). Policies and the order types on offer vary by broker, so check how yours handles this."
+      ],
+      "bullets": [
+        "Why it drops: a share bought on the ex-date no longer comes with the upcoming payment.",
+        "How much: roughly the dividend amount, in theory.",
+        "What you actually see: that drop mixed in with the day's normal price moves.",
+        "What to check: whether your broker adjusts your open limit or stop orders, and whether you want it to."
+      ]
+    },
+    {
+      "heading": "Why 'buying the dividend' isn't free money",
+      "paragraphs": [
+        "Buying shares just before the ex-date to collect a dividend doesn't make you money by itself, because the price drop on the ex-date roughly cancels out the payment.",
+        "Here's the maths with the made-up Example Co. numbers. You buy 100 shares at $50.00 on Friday for $5,000. On Monday they open near $49.50, so they're worth about $4,950, and you're owed $50 in dividends. Before costs, you're roughly back where you started.",
+        "Once you add costs, taxes and risk, you can end up behind. The main reasons are listed below.",
+        "Some traders try 'dividend capture': they buy before the ex-date and sell soon after. It only works if the price recovers faster than usual and costs and taxes stay low. It carries a real risk of losses, and results vary widely.",
+        "None of this makes dividends worthless. It means that timing a purchase around the ex-date doesn't earn you anything extra on its own. Investors who rely on dividend income tend to care more about whether the business can keep paying, judged by its earnings, cash flow and debt, than about the calendar."
+      ],
+      "bullets": [
+        "Taxes: in a taxable account, the dividend is generally taxed as income now, while the matching price drop usually only affects your tax when you sell. The details depend on your country and account type.",
+        "Trading costs: any commissions, the bid-ask spread (the gap between buying and selling prices) and, for foreign shares, currency conversion fees.",
+        "Market risk: while you hold the shares, the price can fall by more than the dividend for unrelated reasons.",
+        "Holding-period rules: in some tax systems, including the US, how long you hold the shares around the ex-date can affect how the dividend is taxed."
+      ]
+    },
+    {
+      "heading": "Buying or selling around the ex-date: who gets the dividend?",
+      "paragraphs": [
+        "Whoever owns the shares going into the ex-date gets the dividend. If you sell on or after the ex-date, it's still yours; if you sell before it, the buyer gets it.",
+        "Selling on the ex-date to 'take the dividend and run' runs into the same maths as buying the dividend. Your shares usually sell at a price that has already dropped by roughly the dividend amount.",
+        "If a dividend lands in your account weeks after you sold, that's normal. It's the payment you earned by owning the shares before the ex-date. If you've sold a stock short (borrowed shares and sold them) and still hold that position on the ex-date, you generally have to pay the dividend amount to whoever lent you the shares. Check your broker's terms."
+      ],
+      "bullets": [
+        "You sell before the ex-date (on or before the last day to buy): the buyer receives the dividend. In theory, the price you get still includes the value of the upcoming payment.",
+        "You sell on the ex-date: you keep the dividend. Your sale settles after the record date, so you're still the shareholder of record.",
+        "You sell after the ex-date but before the payment date: you're still paid on the payment date, even though you no longer own the shares.",
+        "You buy on the ex-date or later: you don't get this dividend, but you'll qualify for the next one if you still own the shares before its ex-date."
+      ]
+    },
+    {
+      "heading": "Where to find reliable dividend dates and how to track them",
+      "paragraphs": [
+        "The most reliable sources for dividend dates are the company's official announcement and the dividend or corporate-action information in your brokerage account.",
+        "Watch the difference between 'declared' and 'estimated'. Many financial websites show expected dates based on past payments before the board has declared anything. Until a dividend is declared, it isn't confirmed, and companies can change, cut, delay or suspend dividends. When sources disagree, trust the company and your broker over third-party data sites, and ask your broker before you trade if anything looks wrong.",
+        "If you hold several dividend-paying stocks, a simple log makes tax time easier and missing payments easy to spot. A spreadsheet works fine, and so does a database in a workspace app such as Notion. Useful columns: ticker, account, declared date, amount per share, ex-date, record date, payment date, shares held going into the ex-date, expected amount, amount received, tax withheld, and a link to the announcement."
+      ],
+      "bullets": [
+        "The company's investor relations page: look for the latest dividend press release or a 'dividend history' section. It lists the amount, record date and payment date, and often the ex-date.",
+        "Your broker: check the stock's quote page, a dividend calendar, or corporate-action notices for stocks you hold. Your broker uses its ex-date to decide who gets the dividend.",
+        "Stock exchange notices: exchanges publish ex-dates and corporate-action announcements. These are especially useful for special or unusually large dividends.",
+        "Fund provider websites: for ETFs and mutual funds, the fund company lists when payouts (distributions) are made and how much they are."
+      ]
+    },
+    {
+      "heading": "Common pitfalls, special cases and a word on taxes",
+      "paragraphs": [
+        "The 'own it before the ex-date' rule covers most regular cash dividends, but a few common mistakes and special situations work differently.",
+        "Tax treatment varies widely. Dividends are generally taxable in an ordinary taxable account. But tax rates, holding-period rules, tax withheld on foreign dividends and the treatment of tax-advantaged accounts all depend on where you live and the account you use. This article is general information, not tax or investment advice. For your own situation, check your local tax authority's guidance or speak to a qualified tax professional."
+      ],
+      "bullets": [
+        "Buying before the market opens on the ex-date: the trade's date is the ex-date, so it doesn't qualify.",
+        "Unfilled limit orders: if your order hasn't executed by the end of the last day to buy, you don't own the shares.",
+        "Outdated sources: US articles from before May 2024 often put the ex-date one business day before the record date. That reflects the old T+2 rules.",
+        "Large special dividends: in the US, when a payout is very large compared with the share price (generally 25% or more), the ex-date is normally set after the payment date. Shares sold in between come with a 'due bill', which passes the dividend to the buyer. Read the exchange notice for these.",
+        "ETFs and mutual funds: their payouts (distributions) use the same dates, and the fund's price or net asset value (NAV) usually drops by about the payout amount on the ex-date.",
+        "DRIPs: reinvested shares are usually bought on or shortly after the payment date, not on the ex-date.",
+        "Foreign shares and ADRs (US-listed certificates that represent foreign shares): the dates can differ from the home market, and foreign tax withholding or depositary fees can reduce what you receive.",
+        "Lent or margin shares: if your broker lends out your shares, you may receive a 'payment in lieu' of the dividend instead, which can be taxed differently. Check your account agreement.",
+        "Options: if you've sold in-the-money call options, the risk that the buyer exercises early tends to rise just before the ex-date, because they may want to collect the dividend."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors with several dividend-paying holdings across different accounts who want one place to log declared dates, amounts received, tax withheld, and links to announcements and trade confirmations. A Notion database can show these as a table or calendar. Features and pricing change, so check Notion's website for what's currently offered.",
+      "not_for": "Anyone who wants automatic imports from their broker, live dividend data or tax calculations. Notion doesn't pull data from your broker on its own and won't tell you what tax you owe. If you only hold a few stocks, a free spreadsheet does the same job."
+    }
+  ],
+  "faq": [
+    {
+      "question": "If I buy a stock the day before the ex-dividend date, do I get the dividend?",
+      "answer": "Yes, as long as your order actually executes on that trading day. In the US, a purchase on the trading day before the ex-date settles on the record date under T+1, so you're on the company's books in time. An order you placed that hasn't filled by then doesn't count."
+    },
+    {
+      "question": "Can I sell on the ex-dividend date and still get the dividend?",
+      "answer": "Yes. If you owned the shares going into the ex-date, the dividend is yours even if you sell on the ex-date itself. The person who buys from you doesn't receive it, and you'll be paid on the payment date."
+    },
+    {
+      "question": "Is the record date the same as the ex-dividend date?",
+      "answer": "In the US, for regular dividends, they usually fall on the same business day since the move to T+1 settlement on May 28, 2024. In markets that still use T+2 settlement, the ex-date is usually one business day before the record date. Either way, go by the ex-date your broker or the exchange publishes."
+    },
+    {
+      "question": "Do I have to hold the shares until the payment date?",
+      "answer": "No. What counts is owning the shares before the ex-dividend date, not on the payment date. You can sell on or after the ex-date and still receive the dividend when it's paid."
+    },
+    {
+      "question": "Why did my stock fall on the ex-dividend date?",
+      "answer": "Anyone buying on the ex-date no longer gets the upcoming dividend, so the price usually opens lower by roughly the dividend amount. Other market moves on the same day can make the drop look bigger or smaller. If you owned the shares before the ex-date, the dividend you'll receive largely makes up for the drop."
+    },
+    {
+      "question": "Where can I find a stock's ex-dividend date?",
+      "answer": "Start with the official dividend announcement on the company's investor relations page. Then confirm the date on your broker's quote page, dividend calendar or corporate-action notices. For ETFs and mutual funds, check the fund provider's website. Treat 'estimated' dates on third-party sites as unconfirmed until the dividend is declared."
+    }
+  ],
+  "conclusion": "Of the three dates, the ex-dividend date is the one that decides who gets paid. If you own the shares before it, the dividend is yours, even if you sell on the ex-date itself. In the US, T+1 settlement means the record date usually falls on the same day, and the payment date is simply when the money arrives. The share price usually drops by roughly the dividend amount on the ex-date, so timing a purchase around it isn't free money, especially after costs and taxes. Check the dates with the company and your broker, and keep a simple log for tax time. For personal tax or investment decisions, check your local regulator's guidance or speak to a qualified, licensed professional.",
+  "keyword": "ex-dividend date vs record date vs payment date",
+  "niche": "dividend and long-term investing strategies",
+  "version": 2,
+  "slug": "ex-dividend-date-vs-record-date-vs-payment-date-who-gets-paid",
+  "published": "2026-10-08T09:06:45+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Cryptocurrency",
+  "section": "Investing",
+  "short_definition": "Cryptocurrency is a digital asset that uses cryptography and a shared public ledger called a blockchain to record ownership and transfers, typically without a central bank or government issuing or backing it.",
+  "explanation": [
+    "Cryptocurrencies such as Bitcoin and Ether run on networks of computers that agree on a shared record of transactions, called the blockchain. You hold crypto through a wallet controlled by private keys. With a custodial account at an exchange, the company holds the keys for you. With a self-custody wallet, only you hold them. Crypto trades on exchanges 24 hours a day, and its price is set by that trading.",
+    "Cryptocurrency matters for beginners because it is heavily marketed and widely discussed. Some people use it for payments, some for speculation, and some hold a small amount as part of a portfolio. Knowing how crypto works helps you judge claims critically and spot the many scams that use it as bait.",
+    "The risks of cryptocurrency are serious. Prices are extremely volatile and can drop sharply within days, and you can lose your entire investment. Scams, fake platforms, rug pulls (where a project's creators disappear with investors' money), hacks and exchange collapses all happen. If you lose your private keys or send funds to the wrong address, there is usually no way to get them back. Crypto is generally not covered by the deposit insurance that protects regulated bank accounts. Legal status and tax treatment vary widely by country, so check your local financial regulator's warnings and ask a licensed adviser before making any decision."
+  ],
+  "example": "Illustrative example: someone puts $500 into a cryptocurrency, and the price then falls 60%. Falls of that size have happened more than once in crypto's history. The holding is now worth $200, and getting back to $500 would take a 150% gain. If the exchange holding the coins fails, or the coin turns out to be a scam, the value could go to $0.",
+  "common_mistake": "Treating crypto like a savings account, or acting on 'guaranteed return' offers from social media, messaging apps or new online contacts. Promises of guaranteed or very high returns are a classic scam warning sign. Money sent to scammers in crypto is very rarely recovered.",
+  "related_terms": [
+    "Diversification",
+    "Asset Allocation",
+    "Rebalancing",
+    "Emergency Fund"
+  ],
+  "title": "Cryptocurrency",
+  "slug": "cryptocurrency",
+  "published": "2026-10-08T09:18:03+00:00"
+}

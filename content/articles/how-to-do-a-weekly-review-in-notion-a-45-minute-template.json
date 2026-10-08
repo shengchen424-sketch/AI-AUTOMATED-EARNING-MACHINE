@@ -1,0 +1,250 @@
+{
+  "title": "How to Do a Weekly Review in Notion: A 45-Minute Template",
+  "meta_description": "Learn how to do a weekly review in Notion: one database, a one-click template and a 45-minute three-block routine, plus a 15-minute busy-week version.",
+  "quick_answer": "To do a weekly review in Notion, build one 'Weekly Reviews' database with five properties (Week, Wins, Open loops, Top 3 priorities, Energy rating), a default review template and a button that creates each week's page. Then run 45 minutes in three blocks: clear inboxes (10 min), review your calendar and overdue or undated tasks (20 min), and plan next week's top 3 (15 min).",
+  "key_takeaways": [
+    "Use one 'Weekly Reviews' database instead of a new loose page each week. That way every review is a row you can sort, filter and compare.",
+    "Keep it to five properties (Week, Wins, Open loops, Top 3 priorities and Energy rating) and put the detail in the page body.",
+    "Set a default template, then create each week's page with a Button block or a repeating template. You'll never have to rebuild the checklist.",
+    "Put a linked view of your tasks inside the template, filtered to unfinished tasks that are overdue or have no due date. That's where dropped balls hide.",
+    "Run three timed blocks: inboxes (10 min), look back (20 min) and plan (15 min). On busy weeks, run the 15-minute version instead of skipping.",
+    "Notion renames menus and changes its template features often. If a label here doesn't match your screen, look for the closest option."
+  ],
+  "who_this_is_for": "This guide is for freelancers, small-business owners and busy professionals who use Notion (or are willing to) and want a weekly review that takes under an hour and works from the task list they already have.",
+  "intro": "Most weekly reviews fail for one of two reasons: they take too long, or they're cut off from the task list you actually use. This guide fixes both. You'll build one 'Weekly Reviews' database in Notion, a template that creates each week's page in one click, and a filtered view that pulls overdue and undated tasks straight from your existing tasks database. Then you'll run the review in three timed blocks (clear inboxes, look back, plan next week's top 3) in about 45 minutes. There's also a 15-minute version for weeks that get away from you. One caveat: Notion renames menus and changes its template features fairly often. Treat the exact labels here as a guide and match them to what you see on your screen.",
+  "steps": [
+    {
+      "name": "Create the Weekly Reviews database",
+      "text": "On a new page, type /database (or /table in some versions), choose the full-page option and name it Weekly Reviews. Rename the title property to Review. Then add five properties: Week (Date), Wins (Text), Open loops (Text), Top 3 priorities (a Relation to your Tasks database, or Text if you don't have one) and Energy rating (Select with options 1 to 5, or Number)."
+    },
+    {
+      "name": "Build the default Weekly Review template",
+      "text": "Click the small arrow next to the New button, add a template called Weekly Review, and set it as the default from the template's ••• menu. In the page body, add three headings: Clear inboxes (10 min), Look back (20 min) and Plan next week (15 min). Put a short to-do checklist under each one."
+    },
+    {
+      "name": "Add the Overdue & undated task view",
+      "text": "Open the template itself, not a single week's page. Under the Look back heading, type /linked and create a linked view of your Tasks database. Filter it to Status is not Done AND (Due date is before Today OR Due date is empty). Sort by Due date, oldest first, and name the view Overdue & undated."
+    },
+    {
+      "name": "Set up one-click or automatic page creation",
+      "text": "Type /button on your dashboard to add a Button block. Set its action to add a page to Weekly Reviews, and choose the Weekly Review template if the action offers that option. If your version of Notion lets templates repeat, you can instead set the template to repeat weekly from its menu, and the page will appear on its own."
+    },
+    {
+      "name": "Block 1: Clear inboxes (10 minutes)",
+      "text": "Go through email, chat apps, phone notes, voice memos, downloads and paper. If an item takes under two minutes, do it now. Otherwise, turn it into a task in your Tasks database, file it or delete it."
+    },
+    {
+      "name": "Block 2: Look back (20 minutes)",
+      "text": "Spend 10 minutes on your calendar. Check last week for follow-ups and the next two weeks for anything you need to prepare. Spend the other 10 minutes on the Overdue & undated view. Every task gets scheduled, handed off, renegotiated or deleted."
+    },
+    {
+      "name": "Block 3: Plan next week's top 3 (15 minutes)",
+      "text": "Choose three priorities and write each one as an outcome. Link them in Top 3 priorities and block calendar time for each. Finish by writing one line each in Wins and Open loops and setting your Energy rating."
+    },
+    {
+      "name": "Protect the slot",
+      "text": "Create a recurring 45-minute calendar event and paste the link to your Notion button or dashboard into its description. On busy weeks, run the 15-minute version rather than skipping."
+    }
+  ],
+  "comparison": {
+    "caption": "Full 45-minute weekly review vs the 15-minute busy-week version",
+    "headers": [
+      "Block",
+      "Full review (45 min)",
+      "Busy-week version (15 min)"
+    ],
+    "rows": [
+      [
+        "Clear inboxes",
+        "10 min: process email, chat, notes, downloads and paper until each inbox is empty or every item is a task",
+        "3 min: skim for urgent or time-sensitive items only and leave the rest"
+      ],
+      [
+        "Look back: calendar",
+        "10 min: check last week for follow-ups and the next two weeks for prep",
+        "3 min: look ahead at next week only"
+      ],
+      [
+        "Look back: tasks",
+        "10 min: decide on every item in the Overdue & undated view",
+        "4 min: handle overdue items only and skip undated ones"
+      ],
+      [
+        "Plan next week",
+        "12 min: choose and link your top 3, then block calendar time for each",
+        "4 min: choose and link your top 3, and skip time-blocking if needed"
+      ],
+      [
+        "Capture and rate",
+        "3 min: write Wins and Open loops, set Energy rating, add notes",
+        "1 min: write one win and set Energy rating"
+      ],
+      [
+        "Total",
+        "45 minutes",
+        "15 minutes"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What a weekly review in Notion is (and why one database works best)",
+      "paragraphs": [
+        "A weekly review in Notion is a short session of about 45 minutes that you repeat every week from a dedicated Notion page. In it, you clear your inboxes, look back at last week's calendar and tasks, and choose your top three priorities for the week ahead.",
+        "The habit is best known from David Allen's Getting Things Done (GTD) method, but you don't need to follow GTD to benefit. The idea is simple: once a week, you catch what slipped, close the loops you can, and decide what matters before the week decides for you.",
+        "Building the review as one 'Weekly Reviews' database, rather than writing a new loose page every Friday, is what makes Notion worth using here. Each review becomes a row with the same properties. After a couple of months, you can sort by energy rating, scan the open loops you keep carrying forward, and see which priorities keep slipping. A folder of free-form pages can't do that."
+      ],
+      "bullets": [
+        "A 'Weekly Reviews' database with five properties: Week, Wins, Open loops, Top 3 priorities and Energy rating",
+        "A default database template that fills each review page with a three-block checklist",
+        "A linked view of your existing tasks database that shows overdue and undated tasks",
+        "A button or repeating template that creates each week's page for you",
+        "A 15-minute fallback version for weeks when 45 minutes isn't realistic"
+      ]
+    },
+    {
+      "heading": "Set up the Weekly Reviews database and its five properties",
+      "paragraphs": [
+        "The Weekly Reviews database needs a title plus five properties: Week, Wins, Open loops, Top 3 priorities and Energy rating. Extra properties tend to go unfilled by week three.",
+        "Create it as a full-page database so it gets its own spot in your sidebar. On a blank page, type /database (or /table in some versions), choose the full-page option and keep the Table layout. Rename the default title property to 'Review'. Name each page after its week, for example 'Week of 5 Oct 2026', so the list is easy to read.",
+        "Use properties for one-line summaries and the page body for detail. Wins and Open loops should hold one short sentence each, such as 'Sent proposal to client B' or 'Waiting on accountant re: Q3 figures'. Reflections, longer notes and the checklist go inside the page. That keeps the table easy to skim when you look back over a quarter.",
+        "Sort the default view by Week, newest first. For a visual overview, add a Calendar view based on the Week property, so any missed weeks show up as gaps."
+      ],
+      "bullets": [
+        "Week (Date): either the Monday of the week you're reviewing or the day you run the review. Pick one and stick to it so sorting stays reliable.",
+        "Wins (Text): one line on what went well or got finished.",
+        "Open loops (Text): one line on what's still unresolved, such as things you're waiting on, half-finished projects or decisions you're putting off.",
+        "Top 3 priorities (Relation to Tasks): links to three tasks in your tasks database for the coming week. Use a Text property instead if you don't have a tasks database yet.",
+        "Energy rating (Select, options 1 to 5): a quick gut score for the past week. Use a Number property instead if you want Notion to average it at the bottom of the column."
+      ]
+    },
+    {
+      "heading": "Build the review template and a one-click way to create each week's page",
+      "paragraphs": [
+        "A default database template holds the review checklist. You create each week's page from it in one of three ways: the New button, a Button block or a repeating template. Either way, every review starts with the same structure and no setup.",
+        "To create the template, open the Weekly Reviews database, click the small arrow next to the New button, and choose the option to add a new template. Name it 'Weekly Review' and build the page body from the outline below. Then open the template's ••• menu and set it as the default, so clicking New applies it automatically. Labels vary between Notion versions, so look for the closest match if these don't line up exactly.",
+        "To start the review in one click from your dashboard, type /button to add a Button block and set its action to add a page to Weekly Reviews. If the action lets you pick a template or set property values, choose 'Weekly Review' and set Week to the current date. If it doesn't, apply the template from the options shown on the new blank page.",
+        "Older tutorials talk about a 'template button' block. Notion has since replaced it with the more flexible Button block, which is why you may not find 'template button' in the menu. Recent versions can also make a database template repeat on a schedule, for example every Friday afternoon, which creates the page without a click. Look in your template's menu for a repeat setting, and check Notion's help pages if it has moved."
+      ],
+      "bullets": [
+        "Heading '1. Clear inboxes (10 min)': to-dos for email, chat apps, phone notes, the downloads folder, a physical in-tray and any Notion inbox",
+        "Heading '2. Look back (20 min)': to-dos for last week's calendar, the next two weeks' calendar and the Overdue & undated task view",
+        "Heading '3. Plan next week (15 min)': to-dos for choosing and linking your top 3, blocking calendar time, and filling in Wins, Open loops and Energy rating",
+        "A short Notes area at the bottom for anything that doesn't fit a property"
+      ]
+    },
+    {
+      "heading": "Link the review to your tasks database",
+      "paragraphs": [
+        "The review becomes really useful when it shows your actual tasks. The simplest way to do that is to put a linked view of your existing tasks database inside the review template, filtered to unfinished tasks that are overdue or have no due date.",
+        "Overdue and undated tasks are where commitments quietly get forgotten. Overdue items are promises you've already broken, to yourself or to someone else. Undated items are vague intentions that never get scheduled. Seeing both in one list once a week forces you to decide on each.",
+        "To set it up, open the Weekly Review template itself, not a single week's page. Under the Look back heading, type /linked and choose the option to create a linked view of an existing database. Select your Tasks database and add the filters below. Sort by Due date, oldest first, so the oldest problems come up first, and name the view 'Overdue & undated'. Every new review page then gets its own live copy.",
+        "Two optional extras make the link work both ways. First, when you create the Top 3 priorities relation, turn on the option that also shows it on the Tasks database, so each task shows which review made it a priority. Second, add a 'Done this week' view: Status is Done and Last edited time is within the past week. Editing an old task also brings it into this view, so a 'Completed on' date property is more accurate.",
+        "Don't have a tasks database yet? Create a basic one with three properties (Name, Status and Due date) before you build the review. The filtered view needs a status and a date to work."
+      ],
+      "bullets": [
+        "Filter 1: Status is not Done. Add the same filter for any other finished status, such as Cancelled. If you use a checkbox instead of Status, filter to Done is unchecked.",
+        "Filter group: use the advanced filter option set to 'Or', with Due date is before Today OR Due date is empty",
+        "Join Filter 1 and the group with 'And', so the view shows only unfinished tasks that are overdue or undated",
+        "Show only the properties you need to make decisions: Name, Due date, Status and Project"
+      ]
+    },
+    {
+      "heading": "How to do a weekly review in Notion: the 45-minute, three-block run",
+      "paragraphs": [
+        "You run the review in three timed blocks, working from top to bottom on that week's page: clear inboxes (10 minutes), look back at your calendar and tasks (20 minutes) and plan next week's top 3 (15 minutes).",
+        "Block 1, Clear inboxes, gets every loose input into one place you trust. Go through email, chat apps, phone notes, voice memos, downloads and any paper. If an item takes under two minutes, do it now. Otherwise, turn it into a task in your Tasks database, file it or delete it. The goal isn't inbox zero for its own sake. It's making sure nothing important sits somewhere you won't look again.",
+        "Block 2, Look back, spends ten minutes on your calendar and ten on your tasks. Scroll through last week's calendar and ask of each meeting whether it left a follow-up, a promise or a note you need to capture. Then scan the next two weeks for anything you need to prepare now. Finally, open the Overdue & undated view and decide on every task: schedule it, hand it off, renegotiate the deadline or delete it. Any task you leave undecided will be back next week.",
+        "Block 3, Plan next week, narrows everything down to three priorities. Pick the three outcomes that would make next week a success even if nothing else got done. Link those tasks in Top 3 priorities and block time for each on your calendar. Then write one line of Wins and one of Open loops, set the Energy rating, tick the last checkbox and close the page.",
+        "Three priorities is a deliberate limit, not a law. It's few enough to protect in a week full of meetings and requests, and it forces you to choose. If you keep finishing all three by Wednesday, set bigger priorities. If you rarely finish even one, you need more protected time in your week, not more priorities."
+      ],
+      "bullets": [
+        "Write each priority as an outcome, not an activity: 'Send Q4 pricing to three clients', not 'Work on pricing'.",
+        "Make sure each one can be finished, or clearly moved forward, within the week.",
+        "Make at least one of the three move a longer-term goal forward, not just clear urgent work.",
+        "Block time for all three on your calendar before you close the review."
+      ]
+    },
+    {
+      "heading": "The 15-minute weekly review for busy weeks",
+      "paragraphs": [
+        "When 45 minutes isn't realistic, run a 15-minute version instead of skipping the review. It keeps only the two most valuable steps: dealing with overdue tasks and choosing next week's top 3.",
+        "Skipping one week often turns into skipping three, and the backlog makes the next full review feel heavier. A short review keeps your habit going and your database complete, because that week still gets a row, even if it's a thin one.",
+        "To make it easy, add a second database template called 'Weekly Review – Quick' with the shorter checklist below, and pick it from the New dropdown when time is tight. The comparison table in this guide sets the two versions side by side."
+      ],
+      "bullets": [
+        "Inboxes (3 min): skim only for urgent or time-sensitive items and leave the rest for next week",
+        "Calendar (3 min): look ahead at next week only",
+        "Tasks (4 min): handle overdue items and leave undated tasks for the next full review",
+        "Plan (4 min): pick and link your top 3, and skip time-blocking if you have to",
+        "Capture (1 min): write one win and set your Energy rating",
+        "Try not to run the quick version more than two weeks in a row, because undated tasks pile up quickly"
+      ]
+    },
+    {
+      "heading": "Make the habit stick, avoid common mistakes and learn from past reviews",
+      "paragraphs": [
+        "A weekly review sticks when it has three things: a fixed calendar slot, a one-click start and a payoff you can see. That payoff comes from a monthly look back across your Weekly Reviews database.",
+        "Pick a slot and protect it. Friday afternoon works well if you like to finish the week with a clear head, and Monday morning suits people who plan better when fresh. Either way, create a recurring 45-minute calendar event. Paste the link to your Notion button or dashboard into the event description so you can start with one click.",
+        "Once a month, spend ten minutes in the table view. Open loops that show up three or more weeks in a row need a decision, not more carrying forward. Compare your energy ratings with what was on your calendar those weeks. Patterns such as low energy after weeks of back-to-back meetings are worth acting on. If your Notion plan includes Notion AI, it can summarise your recent reviews, but read the original pages before you act on the summary.",
+        "Automation is optional, and it's best added once the habit is steady. If your inputs are scattered across many apps, Zapier (or Make, if you prefer a visual builder) can send items such as starred emails or form submissions into a single Notion inbox database, which makes Block 1 shorter. Before you build anything, check which triggers are available for your apps and what your plan allows."
+      ],
+      "bullets": [
+        "Too many properties: if a property stays blank three weeks in a row, delete it.",
+        "Reviewing without deciding: every overdue task should leave Block 2 with a date, an owner, a new deadline or a deletion.",
+        "A top 10 instead of a top 3: extra tasks belong in the tasks database, not in the priorities property.",
+        "Editing one week's page instead of the template: changes to filters or the checklist only carry forward to future weeks if you make them in the template.",
+        "Rebuilding the checklist from scratch: if you're doing this each week, your template or button isn't set up correctly. Fix it once."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "People who want their weekly review, task list and notes in one workspace, connected with database templates, buttons and filtered linked views.",
+      "not_for": "People who want a ready-made review app with no setup, or who'd rather use a paper notebook or a simple checklist. The database setup in this guide takes some time up front."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "People whose inputs are spread across email, chat and forms, and who want those items sent to a single Notion inbox database automatically before each review.",
+      "not_for": "Anyone still building the review habit, or anyone with only one or two inboxes. Capturing by hand is free and simpler, while automation adds cost and upkeep. Check Zapier's current plans and Notion triggers before you start."
+    },
+    {
+      "product": "Make",
+      "best_for": "People who want the same automatic capture into Notion but prefer a visual, flowchart-style builder, or who expect to run many automations.",
+      "not_for": "Beginners with only a few inboxes, or anyone who hasn't settled into the review habit yet. Manual capture is simpler. Check Make's current pricing and Notion support on its site."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long should a weekly review take?",
+      "answer": "The template in this guide is built for 45 minutes, split into three blocks: 10 minutes for inboxes, 20 for looking back and 15 for planning. On busy weeks, a 15-minute version that covers overdue tasks and next week's top 3 is much better than skipping. If your review regularly runs past an hour, your inboxes or task list probably need a clean-up outside the review."
+    },
+    {
+      "question": "What is the best day to do a weekly review?",
+      "answer": "Friday afternoon and Monday morning are the two common choices. Friday lets you close the week while it's fresh, and Monday lets you plan with a rested head. The best day is the one you can protect every week, so put it on your calendar as a recurring event."
+    },
+    {
+      "question": "Can I do a weekly review in Notion without a tasks database?",
+      "answer": "Yes. Make Top 3 priorities a Text property and write your priorities straight into it. You'll miss the most useful part, though: the filtered view of overdue and undated tasks. A basic tasks database with Name, Status and Due date takes only a few minutes to set up and makes the review far more useful."
+    },
+    {
+      "question": "Does Notion have a built-in weekly review template?",
+      "answer": "Notion's template gallery has weekly review and planning templates made by Notion and its community, and the selection changes over time. A ready-made template is a quick start, but it won't be connected to your own tasks database. You'll usually need to add the linked task view and the relation yourself."
+    },
+    {
+      "question": "How do I make Notion create my weekly review page automatically?",
+      "answer": "Recent versions of Notion can make a database template repeat on a schedule. Look in the template's menu for a repeat option and set it to weekly. If you don't see that option, a Button block that adds a page to your Weekly Reviews database creates the page in one click. Notion changes these features often, so check its help pages for the current steps."
+    },
+    {
+      "question": "What should I write in the Wins and Open loops fields?",
+      "answer": "Write one short line in each so the table view stays easy to skim, and put longer notes in the page body. A win might be 'Signed client C' or 'Finished tax prep'. An open loop is anything unresolved, such as 'Waiting on supplier quote'. If the same open loop shows up three weeks running, it needs a decision."
+    }
+  ],
+  "conclusion": "A weekly review in Notion doesn't need a complicated dashboard. You need one database, one default template, one filtered view of your tasks and a protected 45-minute slot. Build it this week, run the full version once to learn the flow, and keep the 15-minute version for weeks that get away from you. After a month, your Weekly Reviews table becomes a record of your wins, stuck loops and energy, and that's where the real insight comes from. Notion changes its menus and template features regularly, so if a label in this guide doesn't match your screen, look for the closest option. The structure matters far more than the button names.",
+  "keyword": "how to do a weekly review in notion",
+  "niche": "productivity and personal systems for ambitious people",
+  "version": 2,
+  "slug": "how-to-do-a-weekly-review-in-notion-a-45-minute-template",
+  "published": "2026-10-08T08:59:38+00:00"
+}

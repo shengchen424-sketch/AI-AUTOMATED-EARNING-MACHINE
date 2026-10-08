@@ -1,0 +1,21 @@
+{
+  "term": "Return on Investment (ROI)",
+  "section": "Accounting & Business",
+  "short_definition": "Return on investment (ROI) is a percentage that compares what you gained or lost on an investment with what it cost, calculated as net profit divided by the cost, times 100.",
+  "explanation": [
+    "The basic formula for return on investment is ROI = (gain from investment − cost of investment) ÷ cost of investment × 100. It works for almost anything you spend money on hoping to get more back, such as a marketing campaign, new equipment, a course, a rental property or a share purchase. A positive ROI means you got back more than you put in. A negative ROI means you lost money.",
+    "Return on investment matters because it gives a quick, comparable way to rank options that are competing for the same limited money. Businesses use ROI to decide which projects to fund. Individuals can use it to sanity-check purchases that are supposed to 'pay for themselves'.",
+    "Simple ROI ignores both time and risk. A 20% return in one year is very different from 20% spread over five years, and two projects with the same ROI can carry very different chances of loss. For multi-year comparisons, use annualized return or a similar measure. Include every cost, including fees, taxes and your own time, or the ROI will look better than reality."
+  ],
+  "example": "Illustrative example: a small online shop spends $2,000 on an ad campaign that brings in $5,000 in sales. The products sold cost $1,500 to make, so the campaign produced $3,500 in gross profit. ROI = ($3,500 − $2,000) ÷ $2,000 × 100 = 75%. If you wrongly used the $5,000 of revenue instead of profit, ROI would come out at 150%.",
+  "common_mistake": "Using revenue instead of profit, or leaving out costs such as fees, shipping, taxes and your own time. Both make the ROI look far better than it really is.",
+  "related_terms": [
+    "Profit Margin",
+    "Opportunity Cost",
+    "Break-Even Point",
+    "Compound Interest"
+  ],
+  "title": "Return on Investment (ROI)",
+  "slug": "return-on-investment-roi",
+  "published": "2026-10-08T09:18:03+00:00"
+}

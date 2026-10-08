@@ -1,0 +1,260 @@
+{
+  "title": "Is My Money FDIC Insured in a Fintech Savings App? How to Check",
+  "meta_description": "Is my money FDIC insured in a fintech savings app? See how pass-through coverage works, where it fails, and 7 checks to confirm you're protected.",
+  "quick_answer": "Often, but only indirectly. Most fintech savings apps aren't banks, so the app itself isn't FDIC insured. Your money can be covered up to $250,000 per depositor, per bank, per ownership category, but only if it sits at an FDIC-insured partner bank and the records correctly show you as the owner. That protects you if the bank fails, not if the app or a middleman fails.",
+  "key_takeaways": [
+    "A fintech app is usually not a bank. FDIC insurance applies only to money held at its FDIC-insured partner bank.",
+    "Pass-through coverage depends on accurate records that show exactly how much of a pooled account is yours.",
+    "FDIC insurance pays out if the partner bank fails. It does not pay out if the app or a middleman fails, makes errors or freezes accounts.",
+    "Limits apply per depositor, per bank, per ownership category. Add up everything you hold at each bank, including sweep-network banks.",
+    "Keep your own statements and dated balance screenshots. They can matter if records ever need to be reconciled.",
+    "Crypto, investments and money market mutual funds held in an app are never FDIC insured."
+  ],
+  "who_this_is_for": "This guide is for US savers and small-business owners who keep cash in a fintech savings app, neobank or cash-management account and want to check whether it's really FDIC protected.",
+  "intro": "Fintech savings apps make saving easy, and many show \"FDIC insured\" somewhere on the screen. But the app usually isn't the bank, and that changes what the label means. This guide explains how FDIC coverage works for money held in an app. It covers pass-through insurance, why a middleman's records can matter as much as the bank itself, and what happened when one of those middlemen failed in 2024. You'll also get a seven-step check you can run today, including a list of questions you can copy and send to the app. This is general information for US readers. If you live elsewhere, see the section on local deposit insurance schemes.",
+  "steps": [
+    {
+      "name": "Find the partner bank's legal name",
+      "text": "Look in the app's footer, its Legal or About page, the account agreement and your monthly statements for wording such as \"Banking services provided by [Bank], Member FDIC.\" Write down the bank's exact legal name, not a brand name or the app's name. If you can't find a bank named anywhere, treat that as a red flag and ask support in writing (step 4)."
+    },
+    {
+      "name": "Verify the bank in FDIC BankFind",
+      "text": "Search the legal name in BankFind Suite on FDIC.gov and confirm that the bank is active and FDIC insured. Note its FDIC certificate number and headquarters city so you don't confuse it with a bank that has a similar name. If the partner is a credit union, use the NCUA's online credit union lookup instead, because credit unions are insured by the NCUA, not the FDIC."
+    },
+    {
+      "name": "Read the account agreement",
+      "text": "Open the agreement, which is usually in the app's settings or legal documents section. Search it for \"FDIC,\" \"pass-through,\" \"custodial,\" \"for the benefit of,\" \"program bank\" and \"program manager.\" Check who holds your money, who keeps the record of your balance, whether your money is a bank deposit or some other product, and what happens if the app shuts down. Agreements change, so save a dated PDF copy."
+    },
+    {
+      "name": "Ask the app five questions in writing",
+      "text": "Use in-app chat or email so you have a record, and save the replies. Template: (1) Which bank or banks hold my money, and what are their FDIC certificate numbers? (2) Is my balance a deposit held in a custodial or FBO account for customers? (3) Who keeps the official record of my individual balance, and how often is it reconciled with the bank? (4) Which program banks is my balance spread across right now, and can I opt out of any? (5) How would I get my money back if your company shut down? A vague answer, or no answer, tells you something too."
+    },
+    {
+      "name": "Check for sweep networks",
+      "text": "Find out whether your balance stays at one bank or is spread across several program banks. Get the current list of banks, confirm each one in BankFind, and check whether you can opt out of any bank where you already hold money. Note how your balance is split between the banks, because the advertised maximum coverage usually depends on that split."
+    },
+    {
+      "name": "Add up your totals per bank and ownership category",
+      "text": "List every account you hold at each bank: direct accounts, CDs and any other fintech apps that use the same partner bank. Group the balances by ownership category, such as single or joint, and compare each total with the current FDIC limit. The FDIC's Electronic Deposit Insurance Estimator (EDIE) can check the math for you."
+    },
+    {
+      "name": "Keep your own records and set a review routine",
+      "text": "Download your monthly statements, take dated balance screenshots, and save transaction confirmations and the agreement somewhere that doesn't depend on the app. A simple tracker works well. Use one row per app, with columns for the partner or program bank, FDIC certificate number, ownership category, balance and date, other money at the same bank, total compared with the limit, and where your documents are saved. Run these checks again when you open an account, get a notice that the partner bank is changing, or see your balance grow significantly."
+    }
+  ],
+  "comparison": {
+    "caption": "What protects your fintech savings in different failure scenarios (general information; confirm details with the FDIC and your account agreement)",
+    "headers": [
+      "Scenario",
+      "Does FDIC insurance apply?",
+      "What typically happens",
+      "What helps protect you"
+    ],
+    "rows": [
+      [
+        "The partner bank fails",
+        "Yes, up to the limit, if the pass-through conditions are met",
+        "The FDIC pays insured deposits. Pass-through claims may take longer while records are verified.",
+        "Accurate ownership records and staying within per-bank limits"
+      ],
+      [
+        "The fintech app shuts down or goes bankrupt",
+        "No. The FDIC doesn't insure nonbanks.",
+        "Money at the bank generally still belongs to customers, but you may have to wait for access during a wind-down or bankruptcy.",
+        "Reconciled records, your own statements, and moving money promptly when warning signs appear"
+      ],
+      [
+        "A middleware (BaaS) provider fails",
+        "No",
+        "Accounts may be frozen while ledgers are reconciled. Shortfalls are possible if the records don't match, as in the 2024 Synapse case.",
+        "Your own records, and limiting how much you keep in any one app"
+      ],
+      [
+        "Your total at one bank exceeds the limit",
+        "Only up to the limit for each ownership category",
+        "Anything above the limit is uninsured if that bank fails.",
+        "Adding up balances per bank, including sweep banks and direct accounts"
+      ],
+      [
+        "Your money is in crypto, stocks or funds",
+        "No",
+        "Values can fall, and crypto can go to zero. If the platform fails, you also face custody risk.",
+        "Understanding the product. SIPC may apply at brokerages, but it doesn't cover investment losses."
+      ],
+      [
+        "An unauthorized transfer or scam",
+        "No. Deposit insurance isn't fraud protection.",
+        "You may have dispute rights under Regulation E. Outcomes vary, especially if you authorized the payment.",
+        "Reporting quickly and using strong security settings such as two-factor authentication"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Is my money FDIC insured in a fintech savings app? The two-part answer",
+      "paragraphs": [
+        "Your money in a fintech savings app is usually FDIC insured only if two things are true: it is actually deposited at an FDIC-insured bank, and the records clearly show that it belongs to you.",
+        "Most savings apps, neobanks and budgeting tools are technology companies, not chartered banks. They partner with one or more banks that hold customer deposits. The app handles design, marketing and customer service. The partner bank holds the money and is the institution the FDIC actually insures. Look for wording such as \"Banking services provided by [Bank name], Member FDIC\" in the app's footer, legal page or account agreement.",
+        "This setup means FDIC insurance protects you against one specific event: the partner bank failing. It does not protect you if the app itself, or a technology middleman between the app and the bank, goes out of business, makes accounting errors or freezes accounts. Those are separate risks, and most real-world problems with fintech savings have come from them.",
+        "The standard FDIC limit is $250,000 per depositor, per insured bank, per ownership category. Single accounts, joint accounts, certain retirement accounts and trust accounts are examples of separate categories. Some details have changed in recent years, including how trust accounts are counted, so confirm the current rules at FDIC.gov or with the FDIC's Electronic Deposit Insurance Estimator (EDIE)."
+      ],
+      "bullets": [
+        "The fintech app is usually a technology company and isn't insured itself.",
+        "The partner bank holds the money and is insured if it's an FDIC member.",
+        "FDIC insurance pays out if that bank fails, up to the limit.",
+        "It doesn't cover an app or middleman failing, record errors, fraud or investment losses."
+      ]
+    },
+    {
+      "heading": "How pass-through FDIC insurance works",
+      "paragraphs": [
+        "Pass-through insurance is the FDIC rule that extends coverage through an account held by an intermediary to each person whose money is in it. Each owner is insured as if they had deposited the money at the bank directly.",
+        "Fintech apps rarely open a separate bank account in each customer's name. Customer money is usually pooled in custodial accounts, often titled \"for the benefit of\" (FBO) the app's customers. If the FDIC treated that pool as one depositor's money, the whole pool would get a single limit and most of it would be uninsured. Pass-through rules prevent that, but only when the three conditions listed below are met.",
+        "If any condition isn't met, the FDIC may not be able to insure your share as your own deposit. The third condition, accurate and current records of who owns what, is usually the weakest link, because the app or a middleman often keeps those records instead of the bank.",
+        "Pass-through claims can also take longer to pay than ordinary deposits. The FDIC may need to get and verify the intermediary's records before it can pay each customer."
+      ],
+      "bullets": [
+        "Ownership: the money must actually belong to the customers, not the app, and the account agreement should say so.",
+        "Account titling: the bank's records must show that the account is held in a custodial or agency capacity, such as an FBO account.",
+        "Identifiable owners: it must be possible to work out each customer's identity and share from records kept by the bank, or by the intermediary in good faith and in the normal course of business."
+      ]
+    },
+    {
+      "heading": "The middleman problem: why records decide whether you get paid",
+      "paragraphs": [
+        "When a fintech app or its technology middleman fails, the main danger is not that the money disappears from the bank. The danger is that nobody can quickly prove which customer owns which dollars.",
+        "Many apps run on a banking-as-a-service (BaaS) model. The app sits on top of a middleware provider, which connects to one or more partner banks. The middleware company may keep the detailed ledger of each customer's balance, while the bank sees only large pooled totals. If that ledger is late, incomplete or wrong, the bank can't simply pay everyone out.",
+        "Your account agreement may name this company as a \"program manager\" or \"technology service provider.\" If it doesn't, ask the app who keeps the official record of your individual balance and how often that record is reconciled with the bank.",
+        "The clearest example is Synapse Financial Technologies, a middleware firm that filed for bankruptcy in 2024. Many customers of apps built on Synapse lost access to their money for months while the bankruptcy court, partner banks and regulators tried to reconcile the records. According to reports, the funds held at the banks didn't match what customers were owed, and some customers said they got back less than their balances.",
+        "Because no insured bank failed, FDIC insurance didn't apply. The FDIC has stated that deposit insurance covers only the failure of an insured bank. It doesn't cover the failure of a nonbank company such as an app or middleware provider.",
+        "Regulators have responded. In 2024, the FDIC proposed a rule that would require banks holding certain custodial accounts for fintech customers to keep, or have direct access to, more detailed ownership records. Rules in this area are still changing, so check FDIC.gov for the current status. In the meantime, watch any app you use for the warning signs below."
+      ],
+      "bullets": [
+        "Transfers or withdrawals suddenly take much longer than usual.",
+        "Customer support goes quiet or gives inconsistent answers.",
+        "The app announces a sudden change of partner bank or technology provider.",
+        "Your balance in the app doesn't match your own records."
+      ]
+    },
+    {
+      "heading": "Sweep networks: more coverage, more moving parts",
+      "paragraphs": [
+        "A sweep network spreads your balance across several partner banks so that more of it can be FDIC insured, because each bank comes with its own coverage limit.",
+        "Some fintech savings and cash-management accounts use sweep networks to advertise coverage well above $250,000. Brokerages and traditional banks use similar networks. The logic is sound, but the arrangement adds more parties and more records, so the fine print matters.",
+        "Here's a hypothetical example of how overlap catches people out. You keep $300,000 in an app that sweeps across several program banks, and the app places $180,000 of your balance at Bank A. You also have $100,000 in a savings account you opened directly at Bank A in your name alone. Your single-ownership total at Bank A is $280,000. About $30,000 would be uninsured if Bank A failed, even though the app's advertised coverage looked like more than enough.",
+        "Ask the app for its current list of program banks and how your balance is split between them, then confirm each bank in BankFind. If an app won't share this, many cautious savers keep their balance there below the standard limit until they get a clear answer."
+      ],
+      "bullets": [
+        "Overlap: money you hold directly at a program bank counts toward the same limit as money swept there.",
+        "Opt-outs: some programs let you exclude specific banks. Check whether yours does and how to request it.",
+        "Allocation: the advertised maximum usually assumes your money is spread across all program banks exactly as the program describes.",
+        "Timing: deposits and withdrawals may pass through a pooled account before being divided up, so coverage can work differently while money is moving.",
+        "Changing lists: banks can be added or removed, so read every program notice you receive."
+      ]
+    },
+    {
+      "heading": "What FDIC insurance does not cover in a fintech app",
+      "paragraphs": [
+        "FDIC insurance covers deposits at insured banks, such as checking, savings, money market deposit accounts and certificates of deposit (CDs). It covers nothing else, even when other products are sold inside the same app.",
+        "Crypto needs a specific warning. Prices can swing sharply, and a token can lose all of its value. Platforms can freeze withdrawals or collapse, scams and \"rug pulls\" are common, and the safety of anything held on an exchange depends on that company's custody practices. Deposit insurance doesn't back any of this, and the protections are very different from those for regulated bank deposits.",
+        "Brokerage accounts may have SIPC protection, which can help if a member brokerage fails and customer assets are missing. SIPC doesn't cover investment losses and isn't the same as FDIC insurance. Uninvested cash at a brokerage is sometimes swept to banks. When that happens, FDIC rules and the pass-through conditions apply again.",
+        "Theft isn't a deposit insurance issue either. Federal electronic transfer rules (Regulation E) may let you dispute unauthorized transfers, but deadlines apply. Payments you were tricked into authorizing are often harder to recover, so report problems quickly."
+      ],
+      "bullets": [
+        "Crypto assets, including stablecoins, even if the app also offers an insured cash account",
+        "Stocks, bonds, ETFs and mutual funds",
+        "Money market mutual funds, which are investments and are not the same as money market deposit accounts",
+        "Annuities and insurance products",
+        "Losses caused by an app or middleman failing, record errors, fraud or scams"
+      ]
+    },
+    {
+      "heading": "Red flags in fintech marketing and disclosures",
+      "paragraphs": [
+        "The clearest red flag is an app that says \"FDIC insured\" without naming the bank or explaining that coverage applies only if that bank fails.",
+        "Federal law prohibits misrepresenting deposit insurance, and the FDIC has updated its rules on how insured status may be displayed and advertised, including online and in apps. Vague or misleading wording still appears, so watch for the signs listed below.",
+        "None of these signs alone proves an app is unsafe. Each one is a reason to send the written questions in step 4 and to think about how much money you're comfortable keeping there until you get clear answers."
+      ],
+      "bullets": [
+        "No partner bank is named anywhere in the app, on the website or in the agreement.",
+        "\"FDIC insured\" appears next to crypto, investment or rewards products.",
+        "The app calls itself a bank but has no bank charter.",
+        "The disclosures mention \"partner institutions\" but never list them.",
+        "Nothing explains what happens to your money if the app shuts down.",
+        "Coverage is described as \"up to\" a large amount, with no detail on how your money is divided between banks."
+      ]
+    },
+    {
+      "heading": "Outside the US: check your local deposit insurance scheme",
+      "paragraphs": [
+        "If you live outside the United States, the FDIC isn't your safety net unless your money is held at a US bank. Check your own country's deposit insurance scheme instead.",
+        "Most countries with developed banking systems run their own scheme. Examples include the Financial Services Compensation Scheme (FSCS) in the UK, national deposit guarantee schemes in EU countries, the Canada Deposit Insurance Corporation (CDIC) and Australia's Financial Claims Scheme. Limits, covered products and payout processes differ, so confirm the details with the scheme or your financial regulator.",
+        "Watch for one common trap. In the UK and EU, many payment and savings apps are licensed as electronic money (e-money) institutions rather than banks. E-money is generally protected by \"safeguarding\" rules, which require customer funds to be kept separate, rather than by the deposit guarantee scheme. If the firm fails, you may face delays and costs before you get your money back. Some of these apps also offer savings held at a partner bank, which may be covered by the scheme, so check which product you actually hold."
+      ],
+      "bullets": [
+        "Is the app a licensed bank or an e-money or payment firm? Check your regulator's public register.",
+        "If it partners with a bank, which one is it, and is that bank covered by your local scheme?",
+        "Does the scheme cover the specific product you hold?"
+      ]
+    },
+    {
+      "heading": "What to do if your fintech app freezes or shuts down",
+      "paragraphs": [
+        "If your app freezes withdrawals or announces that it's closing, act quickly. Document everything, use only official channels, and ignore anyone who offers to \"recover\" your money for a fee.",
+        "This article is general information, not legal or financial advice. What happens to your money depends on your account agreement and the specific facts, so ask the FDIC, your regulator or a licensed professional about your situation."
+      ],
+      "bullets": [
+        "Screenshot your balance and recent transactions, and download every statement available.",
+        "If withdrawals still work, consider moving money to an account in your own name at a bank you've verified. Check transfer limits, fees and any early-withdrawal penalties first, for example on CDs.",
+        "Read notices from the app, the partner bank and any bankruptcy trustee, and respond by the stated deadlines.",
+        "If a partner bank has failed, check the FDIC's failed bank list for instructions on making a claim.",
+        "File complaints with the Consumer Financial Protection Bureau (CFPB) and your state financial regulator.",
+        "For large sums, consider consulting a licensed attorney about your options."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Savers who already use Notion and want one private tracker page for step 7. It can hold each app, its partner and program banks, FDIC certificate numbers, the ownership category, dated balance snapshots, and links to saved statements and agreements.",
+      "not_for": "Storing passwords, full account numbers or login details. Use a password manager or encrypted storage for those. If you don't already use Notion, a simple spreadsheet does the same job."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners who keep operating cash in a fintech business account and want a ledger that doesn't depend on the app. Connecting the account, or importing statements, and reconciling it every month gives you your own dated record of balances and transactions. Check on Intuit's site that your account can connect and what the current plans include.",
+      "not_for": "Personal savers. It's business accounting software, and a spreadsheet is enough for household records. It also doesn't verify FDIC coverage, so you still need to run the checks in this guide."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a fintech app the same as a bank?",
+      "answer": "Usually not. Most fintech apps are technology companies that partner with a chartered bank to hold deposits. To check whether a company is itself an insured bank, search its legal name in the FDIC's BankFind tool. If it isn't listed, look for the partner bank named in the app's disclosures."
+    },
+    {
+      "question": "What does 'FDIC insured through a partner bank' mean?",
+      "answer": "It means the app isn't a bank. Your money is deposited at a named bank that is an FDIC member, and pass-through rules extend the coverage to you. You're protected up to the limit if that bank fails, as long as the account is set up correctly and the records show your share. It doesn't cover the app or a middleman failing."
+    },
+    {
+      "question": "What happens to my money if a fintech app goes bankrupt?",
+      "answer": "FDIC insurance doesn't cover a nonbank's failure. Getting your money back depends on whether it's held at a partner bank and whether the records clearly show what you own. If the records are accurate, funds can usually be returned, though there may be delays. If the records are incomplete, as in the 2024 Synapse bankruptcy, access can be frozen for months and some customers may get back less than their balance."
+    },
+    {
+      "question": "Can a fintech app give me more than $250,000 of FDIC coverage?",
+      "answer": "Some apps use sweep networks to spread deposits across several insured banks, which can raise your total coverage because each bank has its own limit. The limit still applies per depositor, per bank, per ownership category. Money you hold directly at a program bank counts toward the same limit. Check the list of program banks and confirm the current rules at FDIC.gov."
+    },
+    {
+      "question": "Is the cash in my crypto or investing app FDIC insured?",
+      "answer": "Only if the app sweeps that cash into deposits at an FDIC-insured bank and the pass-through conditions are met, and the app's disclosures should say so. Crypto, stocks, ETFs and funds are never FDIC insured and can lose value, and crypto can fall to zero. Brokerage accounts may have SIPC protection, which covers missing assets if a member firm fails but not investment losses."
+    },
+    {
+      "question": "How long does the FDIC take to pay if a partner bank fails?",
+      "answer": "The FDIC aims to pay insured deposits promptly after a bank fails, often within a few business days. It does this either by moving accounts to another bank or by paying depositors directly. Pass-through deposits can take longer, because the FDIC may need the intermediary's records to confirm each owner's share. Keeping your own statements can help if questions come up."
+    }
+  ],
+  "conclusion": "Fintech savings apps can offer real FDIC protection, but it comes with conditions. Your money must sit at an FDIC-insured partner bank, the records must show it's yours, and your total at each bank must stay within the limit for each ownership category. So far, the biggest real-world risk hasn't been banks failing. It has been middlemen failing and leaving records that didn't match. You can run the seven checks in one sitting. Repeat them whenever you open an account, get a notice that the partner bank is changing, or see your balance grow a lot. Rules in this area are still changing, so confirm the current details at FDIC.gov. For decisions about large sums or a frozen account, talk to a licensed professional.",
+  "keyword": "is my money fdic insured in a fintech savings app",
+  "niche": "banking, savings accounts and interest explained",
+  "version": 2,
+  "slug": "is-my-money-fdic-insured-in-a-fintech-savings-app-how-to-check",
+  "published": "2026-10-08T09:06:55+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Dividend",
+  "section": "Investing",
+  "short_definition": "A dividend is a share of a company's profits paid to its shareholders, usually in cash on a regular schedule, which the company's board can raise, cut or suspend at any time.",
+  "explanation": [
+    "A company's board decides whether to pay a dividend and how much per share. If you own the shares before the ex-dividend date, you receive the payment on the pay date. On the ex-dividend date the share price tends to fall by roughly the dividend amount, all else being equal, because that cash has left the company. Funds and ETFs that hold dividend-paying stocks pass the dividends on to their investors, either as cash or as automatic reinvestment.",
+    "Dividends matter because they are one of the two ways stock investors earn a return; the other is changes in the share price. Reinvesting dividends lets compounding work over long periods. Investors often compare income using dividend yield, which is annual dividends per share divided by the share price.",
+    "Dividends are not guaranteed, and they are not 'free money'. The payout comes out of the company's value, and a company that pays out a lot may have less cash left to grow. In many countries dividends are taxed in the year you receive them, even if you reinvest them. Rules differ by country and account type, so check your tax authority's guidance or ask a licensed adviser."
+  ],
+  "example": "Illustrative example: you own 100 shares of a company that pays $0.50 per share each quarter. That is $50 per quarter, or $200 a year. If the share price is $40, the dividend yield is $2 ÷ $40 = 5%. If you reinvest the $200 at $40 per share, you get 5 more shares, and those earn dividends of their own.",
+  "common_mistake": "Chasing the highest dividend yield. A very high yield often shows up because the share price has fallen sharply on bad news, and the company may soon cut the dividend. This 'yield trap' can cost you both income and capital.",
+  "related_terms": [
+    "Compound Interest",
+    "Exchange-Traded Fund (ETF)",
+    "Index Fund",
+    "Diversification"
+  ],
+  "title": "Dividend",
+  "slug": "dividend",
+  "published": "2026-10-08T09:18:03+00:00"
+}

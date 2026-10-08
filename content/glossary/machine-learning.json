@@ -1,0 +1,21 @@
+{
+  "term": "Machine Learning",
+  "section": "AI & Tech",
+  "short_definition": "Machine learning is a branch of artificial intelligence in which computers learn patterns from data to make predictions or decisions, instead of following only rules written step by step by programmers.",
+  "explanation": [
+    "A machine learning model is 'trained' by giving it many examples, such as past card transactions labelled 'fraud' or 'not fraud', and adjusting its internal settings until its predictions match those examples as closely as possible. Once trained, the model can make predictions on new data it hasn't seen. The main types are supervised learning (learning from labelled examples), unsupervised learning (finding patterns in unlabelled data) and reinforcement learning (learning by trial, error and reward).",
+    "Machine learning matters because it powers many everyday tools, including spam filters, card fraud alerts, product recommendations, speech recognition and the large language models behind AI chatbots. Knowing the basics helps you judge what these tools can and can't do.",
+    "A machine learning model is only as good as its data. Incomplete, outdated or biased training data can produce predictions that are confident but wrong or unfair, and many models are hard to explain. Models should be tested on real-world data and monitored over time, because patterns change."
+  ],
+  "example": "Illustrative example: a bank trains a fraud model on 1,000,000 past card transactions, 2,000 of which were confirmed fraud. The model learns warning patterns, such as a large purchase in an unusual country at 3 a.m., and flags new transactions that look similar. Suppose it flags 100 transactions and 80 turn out to be real fraud. The other 20 were genuine customers who were inconvenienced, and the bank has to tune how sensitive the model is.",
+  "common_mistake": "Assuming machine learning means the computer understands things the way a person does. Models find statistical patterns in data, and they can fail badly in situations that don't resemble their training data.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Generative AI",
+    "AI Hallucination",
+    "Retrieval-Augmented Generation (RAG)"
+  ],
+  "title": "Machine Learning",
+  "slug": "machine-learning",
+  "published": "2026-10-08T09:18:03+00:00"
+}

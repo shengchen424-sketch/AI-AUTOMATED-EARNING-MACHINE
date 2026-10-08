@@ -1,0 +1,22 @@
+{
+  "term": "Debt Snowball vs Debt Avalanche",
+  "section": "Banking & Money",
+  "short_definition": "The debt snowball and debt avalanche are two payoff strategies: the snowball clears your smallest balance first for quick wins, while the avalanche targets your highest interest rate first to minimize total interest.",
+  "explanation": [
+    "The debt snowball and debt avalanche work the same way except for the order. You list every debt, keep paying the minimum on each one, and put all your extra money toward a single target debt. Once that debt is paid off, you roll its payment into the next target, so the amount going to each debt grows over time. The snowball targets the smallest balance first. The avalanche targets the highest APR first.",
+    "Choosing between the snowball and the avalanche matters because a clear order turns a vague goal ('pay off debt') into a plan you can follow. The avalanche usually costs less in interest and can finish sooner. The snowball gives faster early wins, which helps some people stay motivated.",
+    "The trade-off between the snowball and the avalanche is math versus motivation. With large balances at high rates, the snowball can cost noticeably more in interest. When rates are similar, the difference may be small. Check for prepayment fees before paying extra. If you are struggling to cover even the minimums, a non-profit credit counsellor or your lender may be a better first step, and the options available differ by country."
+  ],
+  "example": "Illustrative example: you have $200 a month extra and three debts. Card A is $500 at 22% APR, Card B is $3,000 at 25% APR, and Loan C is $6,000 at 8% APR. The snowball goes after Card A first because it is the smallest balance, and pays it off within a few months. The avalanche goes after Card B first because it has the highest rate. That usually means less total interest, but a longer wait before the first debt disappears.",
+  "common_mistake": "Not rolling payments forward. When one debt is paid off, many people spend the freed-up payment instead of adding it to the next target, and that removes the snowball effect that makes both methods work. Another common mistake is running up new card balances while paying off the old ones.",
+  "related_terms": [
+    "APR vs APY",
+    "Compound Interest",
+    "Credit Score",
+    "Debt-to-Income Ratio (DTI)",
+    "50/30/20 Rule"
+  ],
+  "title": "Debt Snowball vs Debt Avalanche",
+  "slug": "debt-snowball-vs-debt-avalanche",
+  "published": "2026-10-08T09:18:03+00:00"
+}

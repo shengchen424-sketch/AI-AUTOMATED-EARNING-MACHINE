@@ -1,0 +1,21 @@
+{
+  "term": "Deep Work",
+  "section": "Self-Development",
+  "short_definition": "Deep work is focused, distraction-free concentration on a cognitively demanding task for an extended block of time, a term popularized by computer science professor Cal Newport in his 2016 book Deep Work.",
+  "explanation": [
+    "Deep work means setting aside a block of time with notifications off, email closed and one clear goal, such as writing a report, analysing your budget or learning a new skill. Beginners might start with 60–90 minutes and build up from there. The opposite is 'shallow work': logistical tasks like replying to messages and sitting in routine meetings, which are easy to do while distracted.",
+    "Deep work matters because hard, valuable work usually needs sustained attention, and switching between tasks often makes it harder to get back into focus. The ability to do deep work is increasingly useful in jobs where chat and email break much of the day into fragments.",
+    "Deep work comes at the cost of being less available. Going offline for long stretches may not suit roles that need quick responses, such as customer support or on-call work, and it can frustrate colleagues if you don't tell them. Many people handle this by scheduling deep work blocks in advance, letting their team know, and answering messages in set batches."
+  ],
+  "example": "Illustrative example: you have been working on a business plan in scattered 15-minute bursts between messages throughout the week. Instead, you book two 90-minute deep work sessions on Tuesday and Thursday mornings, with your phone in another room and email closed. The total time is the same three hours, but it comes in two focused stretches instead of a dozen interrupted ones.",
+  "common_mistake": "Expecting to focus for four hours straight on the first day. Concentration is a skill that builds with practice, so start with shorter blocks you can actually finish and lengthen them gradually.",
+  "related_terms": [
+    "Time Blocking",
+    "Pomodoro Technique",
+    "Eisenhower Matrix",
+    "Habit Stacking"
+  ],
+  "title": "Deep Work",
+  "slug": "deep-work",
+  "published": "2026-10-08T09:18:03+00:00"
+}

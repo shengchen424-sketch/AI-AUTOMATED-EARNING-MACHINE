@@ -1,0 +1,21 @@
+{
+  "term": "API (Application Programming Interface)",
+  "section": "AI & Tech",
+  "short_definition": "An API (application programming interface) is a set of rules that lets one software program request data or services from another, like a weather app fetching forecasts from a server.",
+  "explanation": [
+    "An API works a bit like a restaurant menu and waiter. The provider publishes what you can ask for and in what format (the 'endpoints'), your program sends a request, and the service sends back a response, often in a structured format called JSON. Most APIs require an API key, a secret code that identifies who is making the request and is used for access control and billing.",
+    "APIs matter because they are how modern software connects. Budgeting apps use them to link to bank accounts (in some countries through open banking), online stores use them to take card payments, and automation tools use them to move data between apps. AI models are also commonly offered through APIs, which lets developers build chatbots or AI agents into their own products. Usage is typically paid for as you go, often based on tokens.",
+    "APIs come with risks around cost, dependency and security. Usage-based charges can climb quickly if a script runs out of control. The provider can change prices, limits or features. A leaked API key can let others run up charges or access data. Store keys securely and never put them in public code. Set usage limits or budget alerts where the provider offers them, and confirm current pricing and terms on the vendor's site."
+  ],
+  "example": "Illustrative example: a small online shop connects to an AI model's API to draft product descriptions, and each request uses about 1,000 tokens. At a hypothetical price of $0.002 per 1,000 tokens, 5,000 descriptions would cost about $10. Real prices vary by model and change often, so check the provider's pricing page and set a spending cap.",
+  "common_mistake": "Putting an API key in code that is shared publicly (for example, on GitHub) or in a website's front-end code. Anyone can copy it from there and run up charges on your account.",
+  "related_terms": [
+    "Token (AI)",
+    "AI Agent",
+    "Large Language Model (LLM)",
+    "Generative AI"
+  ],
+  "title": "API (Application Programming Interface)",
+  "slug": "api-application-programming-interface",
+  "published": "2026-10-08T09:18:03+00:00"
+}

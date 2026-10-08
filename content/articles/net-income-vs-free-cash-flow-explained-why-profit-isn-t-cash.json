@@ -1,0 +1,270 @@
+{
+  "title": "Net Income vs Free Cash Flow Explained: Why Profit Isn't Cash",
+  "meta_description": "Net income vs free cash flow explained with a worked example, a step-by-step 10-K routine and red flags that show when profit isn't turning into cash.",
+  "quick_answer": "Net income is accounting profit: revenue minus all expenses, interest and taxes, recorded when earned or incurred rather than when cash moves. Free cash flow is operating cash flow minus capital expenditures, the cash left after running the business and paying for long-term assets. Depreciation, unpaid customer invoices, inventory and equipment purchases separate the two, which is why a profitable company can still run short of cash.",
+  "key_takeaways": [
+    "Net income is accrual-based profit. Free cash flow is operating cash flow minus capital expenditures: the cash left after running and reinvesting in the business.",
+    "Most of the gap between the two comes from four things: depreciation, changes in receivables and inventory, changes in payables, and capital spending.",
+    "A gap in one year is normal, especially at fast-growing companies. Net income rising while operating cash flow falls for two or more years in a row is a red flag to investigate.",
+    "Neither US GAAP nor IFRS defines free cash flow. Rebuild any 'adjusted' figure from the company's reconciliation before you compare companies.",
+    "Work out both numbers yourself from the 10-K, add them up over three to five years and check cash and debt on the balance sheet before drawing conclusions."
+  ],
+  "who_this_is_for": "This guide is for investors, finance students and small-business owners who can read a basic income statement but want to understand why reported profit and the cash a company actually generates often tell different stories.",
+  "intro": "A company can report record profits and still struggle to pay suppliers, service its debt or fund its next expansion. That happens because net income and free cash flow measure different things, and the gap between them can widen quietly for years. This guide defines both terms in plain language. It then follows one made-up company from its income statement to its free cash flow so you can see exactly where the money went. You'll also get a seven-step routine for finding both figures in a real 10-K, a list of red flags, the accounting differences that make 'adjusted' free cash flow hard to compare, and a simple tracking template. All example numbers are invented for illustration. Nothing here is investment advice.",
+  "steps": [
+    {
+      "name": "Get the annual report",
+      "text": "Go to sec.gov, open EDGAR's company search, enter the company name or ticker and filter by form type '10-K'. The company's investor relations site usually links to the same filing. Foreign companies listed in the US often file Form 20-F instead. Outside the US, use the company's annual report. Most 10-Ks show three years of cash flows (smaller reporting companies may show two), so the latest filing plus the one from three years earlier covers about six years. Many EDGAR filing pages also have an 'Interactive Data' view that shows the statements as tables you can copy or download as a spreadsheet."
+    },
+    {
+      "name": "Record net income",
+      "text": "In Item 8, 'Financial Statements and Supplementary Data,' open the consolidated statements of operations. This statement may also be called the statement of income or earnings. Net income is near the bottom. If the company has noncontrolling interests, use 'net income attributable to' the company's shareholders. Check the header for units, because figures are often in thousands or millions. Also note any large one-off gains that pushed profit up."
+    },
+    {
+      "name": "Record operating cash flow",
+      "text": "Open the consolidated statements of cash flows in the same section. The operating activities block usually starts with net income and then lists adjustments: depreciation, stock-based compensation and changes in receivables, inventory and payables. Write down the total, 'Net cash provided by (used in) operating activities,' for every year shown. For IFRS reporters, check which section interest paid appears in, because the standards have allowed a choice."
+    },
+    {
+      "name": "Add up capex and calculate free cash flow",
+      "text": "In the investing activities block, find lines such as 'Purchases of property and equipment,' 'Capital expenditures' or 'Capitalized software development costs.' They appear in parentheses as cash outflows. Add all the capex lines together and subtract the total from operating cash flow: free cash flow = operating cash flow − capital expenditures. Leave acquisitions and purchases of investments out of this basic calculation, but write down how large they are."
+    },
+    {
+      "name": "Calculate conversion ratios and multi-year totals",
+      "text": "For each year, divide operating cash flow by net income (cash conversion) and free cash flow by net income (free cash flow conversion). Then add up net income and free cash flow over three to five years and compare the totals. Skip the ratios in years when net income is negative or close to zero, because the results stop meaning anything."
+    },
+    {
+      "name": "Compare your figure with the company's own free cash flow",
+      "text": "If the company reports free cash flow, find its non-GAAP reconciliation. It is usually in the earnings release, which is often attached to a Form 8-K as an exhibit, or in the MD&A. Compare it line by line with your number and list every difference: excluded capex, added-back costs, lease treatment or asset-sale proceeds."
+    },
+    {
+      "name": "Read the MD&A, footnotes and balance sheet",
+      "text": "Read Item 7, Management's Discussion and Analysis, especially 'Liquidity and Capital Resources,' for explanations of swings in working capital and capex. Skim the footnotes on revenue recognition, receivables, inventory, leases, supplier finance programs and debt. Finish with the balance sheet: cash, total debt and how much debt is due within 12 months show whether any cash shortfall is a real problem."
+    }
+  ],
+  "comparison": {
+    "caption": "Net income vs operating cash flow vs free cash flow at a glance",
+    "headers": [
+      "Feature",
+      "Net income",
+      "Operating cash flow",
+      "Free cash flow"
+    ],
+    "rows": [
+      [
+        "What it measures",
+        "Profit after all expenses, interest and taxes (accrual basis)",
+        "Cash generated by day-to-day operations",
+        "Operating cash left after paying for long-term assets"
+      ],
+      [
+        "Where to find it",
+        "Bottom of the income statement",
+        "Total of the operating activities section of the cash flow statement",
+        "Usually not a line item: calculate operating cash flow minus capex, or see the company's non-GAAP reconciliation"
+      ],
+      [
+        "Treatment of depreciation",
+        "Subtracted as an expense",
+        "Added back as a non-cash charge",
+        "Not deducted; the actual cash spent on capex is deducted instead"
+      ],
+      [
+        "Affected by when receivables and inventory turn into cash?",
+        "No: sales and costs are recorded when earned or incurred",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Affected by capital spending?",
+        "Only gradually, through depreciation",
+        "No: capex sits in investing activities",
+        "Yes, in full in the year it is paid"
+      ],
+      [
+        "Defined by US GAAP or IFRS?",
+        "Yes",
+        "Yes, though US GAAP and IFRS classify interest and lease payments differently",
+        "No: definitions vary by company"
+      ],
+      [
+        "Common blind spot",
+        "Can look strong while cash is tied up in receivables and inventory",
+        "Can be boosted by paying suppliers later or selling receivables",
+        "Can be boosted by cutting needed investment or by a narrow 'adjusted' definition"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Net Income vs Free Cash Flow Explained in Plain English",
+      "paragraphs": [
+        "Net income tells you whether a company made a profit. Free cash flow tells you whether it produced spare cash after paying to run and maintain itself.",
+        "Net income is revenue minus all expenses, interest and taxes for a period. It is calculated under accrual accounting, which records a sale when it is earned and a cost when it is incurred, whenever the money actually changes hands. That keeps profit comparable from year to year, but it means net income is not a cash figure.",
+        "Free cash flow is usually calculated as operating cash flow minus capital expenditures. It is the cash left from day-to-day operations after paying for long-term assets such as machinery, buildings, vehicles and capitalized software. A company can use this money to repay debt, pay dividends, buy back shares or build a cash cushion without borrowing or raising new capital.",
+        "The two numbers drift apart because accrual accounting separates earning money from collecting it, and spending money from expensing it. A sale on 60-day credit counts as revenue today, even though the cash arrives later. A machine paid for in full this year is expensed a little at a time, through depreciation, over its useful life."
+      ],
+      "bullets": [
+        "Operating cash flow (OCF): cash generated by core operations. The cash flow statement shows it as 'Net cash provided by (used in) operating activities.'",
+        "Capital expenditures (capex): cash spent buying or upgrading long-term assets, shown in the investing section of the cash flow statement.",
+        "Depreciation: a non-cash expense that spreads an asset's cost over the years it is used.",
+        "Working capital: short-term operating items, mainly receivables (money customers owe), inventory and payables (money owed to suppliers)."
+      ]
+    },
+    {
+      "heading": "Worked Example: What Northfield Gear's Income Statement Shows",
+      "paragraphs": [
+        "On its income statement, Northfield Gear Co. looks healthy: it earns $105,000 of net income on $1,000,000 of revenue, a 10.5% net margin.",
+        "Northfield Gear is a made-up company, and every figure here is illustrative. It makes camping equipment and sells it to outdoor retailers on 60-day payment terms. Sales are growing, so it is stocking up for next season and buying equipment to keep up with orders.",
+        "To keep the example simple, assume interest and taxes are paid in cash in the year they are recorded, at an illustrative 25% tax rate. Real companies also have timing differences in these items, such as deferred taxes, which show up as extra lines on their cash flow statements.",
+        "An investor who stopped at the bottom line would see rising sales, a solid margin and no losses. The income statement can't show when cash actually came in or went out."
+      ],
+      "bullets": [
+        "Revenue: $1,000,000",
+        "Cost of goods sold: −$600,000",
+        "Gross profit: $400,000",
+        "Operating expenses (salaries, rent, marketing): −$200,000",
+        "Depreciation: −$50,000",
+        "Operating income: $150,000",
+        "Interest expense: −$10,000",
+        "Pre-tax income: $140,000",
+        "Income tax (illustrative 25%): −$35,000",
+        "Net income: $105,000"
+      ]
+    },
+    {
+      "heading": "From Net Income to Free Cash Flow: Where Northfield's Cash Went",
+      "paragraphs": [
+        "After adjusting for depreciation, working capital and capital spending, Northfield's $105,000 profit becomes negative free cash flow of $115,000, a $220,000 gap.",
+        "Depreciation narrows the gap. The $50,000 charge reduced net income, but no cash left the business for it this year. That cash went out when the equipment was first bought, so the cash flow statement adds depreciation back.",
+        "Working capital widens the gap. Sales grew and retailers pay within 60 days, so customers owe $90,000 more at year-end than at the start. That money counts in net income but isn't in the bank yet. Inventory rose by $80,000, which is cash sitting on warehouse shelves. Partly offsetting this, Northfield owes suppliers $20,000 more, which keeps that cash in its account for now.",
+        "Capital expenditures widen the gap further. Northfield spent $120,000 on warehouse shelving and a delivery van. That spending will reach the income statement only gradually, as depreciation in future years, but the cash has already gone.",
+        "The result is a profitable, growing company that has to borrow, use its savings or raise money to keep operating. This is the most common reason profitable businesses run short of cash: growth uses up cash before it brings any in."
+      ],
+      "bullets": [
+        "Net income: $105,000",
+        "Add back depreciation: +$50,000",
+        "Increase in accounts receivable: −$90,000",
+        "Increase in inventory: −$80,000",
+        "Increase in accounts payable: +$20,000",
+        "Operating cash flow: $5,000",
+        "Capital expenditures: −$120,000",
+        "Free cash flow: −$115,000 (all figures illustrative)"
+      ]
+    },
+    {
+      "heading": "When the Gap Is Normal and When Free Cash Flow Beats Profit",
+      "paragraphs": [
+        "A gap between net income and free cash flow is normal in any single year. It deserves a closer look when it lasts several years and you can't find an explanation in the filing.",
+        "Fast growth is the most common innocent cause. A company that is expanding quickly ties up cash in receivables and inventory. If the growth is real and customers pay their bills, that cash should come back as invoices are collected and stock is sold.",
+        "Lumpy investment is another innocent cause. A new factory or IT system can push free cash flow below zero for a year or two before spending drops back. Adding up net income and free cash flow over three to five years evens out these swings.",
+        "The gap can also run the other way. Free cash flow can exceed net income at subscription businesses that bill customers upfront, at companies whose depreciation is larger than their ongoing capex, and at companies that pay staff partly in stock. Higher free cash flow isn't automatically good news, because a company that puts off necessary maintenance can make its free cash flow look better for a while."
+      ],
+      "bullets": [
+        "Is revenue growing fast enough to explain the rise in receivables and inventory?",
+        "Does the MD&A explain large capex, and does it say whether the spending is for maintenance or expansion?",
+        "Does the gap shrink when you add up three to five years?",
+        "Is the gap driven by one large line the company explains, or by many vague 'other' items?"
+      ]
+    },
+    {
+      "heading": "Red Flags: Rising Profit While Operating Cash Flow Falls",
+      "paragraphs": [
+        "The clearest red flag is net income rising year after year while operating cash flow falls, because it suggests reported profit isn't turning into cash.",
+        "Here is an illustrative pattern with made-up numbers. Year 1: net income $80,000, operating cash flow $90,000. Year 2: net income $95,000, operating cash flow $50,000. Year 3: net income $105,000, operating cash flow $5,000. Profit climbs every year while cash generation almost disappears. Growth can explain one year like that, but three in a row should send you looking for an explanation in the filing.",
+        "Red flags are reasons to investigate, not proof of wrongdoing. Many have ordinary causes, such as a large new customer with longer payment terms or a deliberate stock build-up before a product launch. Your job is to find the explanation in the 10-K and judge whether it holds up in later years."
+      ],
+      "bullets": [
+        "Net income up and operating cash flow down for two or more years in a row.",
+        "Receivables growing much faster than revenue. A quick check is to divide year-end receivables by annual revenue each year. A steadily rising percentage can mean customers are paying more slowly or revenue is being recorded too early.",
+        "Inventory growing much faster than sales. This can mean stock is selling slowly and may later be written down.",
+        "Operating cash flow boosted by paying suppliers later, selling receivables to a third party (factoring) or using supplier finance programs. Both US GAAP and IFRS now require disclosures about supplier finance arrangements, so check the footnotes. These boosts can reverse.",
+        "Capex consistently far below depreciation in an equipment-heavy business. This can make free cash flow look better while the equipment ages.",
+        "Net income lifted by gains on asset sales, fair-value gains or other non-cash items.",
+        "Frequent changes in how the company defines its own free cash flow."
+      ]
+    },
+    {
+      "heading": "Adjusted Free Cash Flow: Why Company Definitions Differ",
+      "paragraphs": [
+        "Neither US GAAP nor IFRS defines free cash flow. Companies choose their own formulas, so their headline figures often can't be compared directly.",
+        "Operating cash flow minus capex is the textbook starting point. The versions companies publish in earnings releases and investor presentations may add or remove items. Under US SEC rules, companies that publicly present non-GAAP measures generally must reconcile them to the most directly comparable GAAP measure. For free cash flow, that is usually net cash from operating activities. Find that reconciliation and read every line.",
+        "The accounting rulebook can also shift cash between sections before any adjustments. US GAAP puts interest paid in operating activities, while IFRS has let companies show it in financing instead, which raises operating cash flow. The newer IFRS 18 standard narrows that choice for future periods. Lease payments differ too: under IFRS 16, the principal part of lease payments is a financing cash flow, while US GAAP puts operating lease payments in operating activities. Check the accounting policies note before comparing a US company with an IFRS reporter.",
+        "Analysts also use valuation versions, such as free cash flow to the firm (before payments to lenders) and free cash flow to equity (after debt-related cash flows). These have their own formulas, so don't confuse them with a company's headline free cash flow figure."
+      ],
+      "bullets": [
+        "Which capex counts: some companies subtract capitalized software or development costs; others subtract only what they call 'maintenance' capex.",
+        "Leases: equipment obtained through leases may never appear as capex, and companies differ on whether they deduct lease payments.",
+        "Acquisitions: usually left out, so a company that grows by buying others can look cash-rich while spending heavily on deals.",
+        "Add-backs: some companies exclude restructuring, legal or acquisition-related cash costs as 'one-time.'",
+        "Asset sales: some companies add the proceeds from selling assets back in, which offsets capex.",
+        "Stock-based compensation: added back as a non-cash expense, so free cash flow ignores the cost to shareholders when new shares dilute their stake."
+      ]
+    },
+    {
+      "heading": "How to Use Both Numbers Together: Ratios and a Tracking Template",
+      "paragraphs": [
+        "Use net income and free cash flow side by side, over several years, with the balance sheet and footnotes. Each metric covers blind spots in the other.",
+        "Two simple ratios compare profit with cash. Cash conversion is operating cash flow divided by net income, and free cash flow conversion is free cash flow divided by net income. For Northfield, cash conversion is about 0.05 ($5,000 ÷ $105,000), and free cash flow conversion is negative. As a rough rule of thumb, a ratio that stays well below 1 for several years is worth investigating. Normal levels vary widely by industry, so compare a company with its own history and with similar businesses.",
+        "The balance sheet shows how much a cash shortfall matters. Negative free cash flow is far more serious for a company with heavy debt, loans due soon and little cash than for one with a large cash reserve and no borrowing. Check the debt footnote and the 'Liquidity and Capital Resources' part of the MD&A.",
+        "A simple spreadsheet is enough to track all of this. Use one row per fiscal year and the columns listed below.",
+        "Small-business owners can use the same approach in their own books. Review your profit and loss report and your cash flow statement side by side each month, and watch how much cash is tied up in unpaid invoices and stock. Your capex is equipment, vehicles and fit-outs.",
+        "This article is general education, not investment, tax or accounting advice. Accounting standards, disclosure rules and tax treatment differ by country. For personal decisions, talk to a licensed financial adviser or accountant and check your local regulator's guidance."
+      ],
+      "bullets": [
+        "Fiscal year and units (thousands or millions)",
+        "Revenue, plus year-end receivables and inventory",
+        "Net income attributable to shareholders",
+        "Operating cash flow",
+        "Capital expenditures (all capex lines combined)",
+        "Your free cash flow and the company's reported free cash flow, if any",
+        "Cash conversion and free cash flow conversion",
+        "Cash, total debt and debt due within 12 months",
+        "Notes: explanations from the MD&A and footnotes"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners who want to see the gap between profit and cash in their own books. It can produce profit and loss and cash flow reports from your categorized transactions and track unpaid invoices, so you can see how much cash customers still owe you. Confirm which reports your plan includes, and current pricing, on Intuit's website.",
+      "not_for": "Investors analyzing public companies' 10-Ks. It is bookkeeping software, not a stock research tool, and it doesn't replace review of your books or taxes by a qualified accountant."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Investors and finance students who want a reusable 10-K checklist and research log in one place. For example, you could keep a database with one page per company and fields for each year's net income, operating cash flow, capex and notes from the footnotes. Its built-in AI can help summarize text you paste in, but check every number against the filing. Confirm current plans and AI pricing on Notion's website.",
+      "not_for": "Heavy number-crunching or multi-year ratio models, where a spreadsheet works better. It also doesn't pull financial data from EDGAR for you."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a company have positive net income but negative free cash flow?",
+      "answer": "Yes, and it's common in growing businesses. Profit is recorded when sales are earned, but cash can be tied up in unpaid invoices, extra inventory and new equipment. It becomes a concern when the pattern lasts several years and the company keeps borrowing or issuing shares to cover it."
+    },
+    {
+      "question": "What is the difference between operating cash flow and free cash flow?",
+      "answer": "Operating cash flow is the cash generated by day-to-day operations, and it is a standard line on the cash flow statement under US GAAP and IFRS. Free cash flow subtracts capital expenditures from operating cash flow, so it shows what is left after paying for long-term assets. A company can have healthy operating cash flow and negative free cash flow if it is investing heavily."
+    },
+    {
+      "question": "Is free cash flow more important than net income?",
+      "answer": "Neither is more important on its own. Net income shows profitability under consistent accounting rules. Free cash flow shows whether the business actually produces spare cash, but it can swing with the timing of investment and can be boosted by cutting necessary spending. Looking at both over several years gives a more reliable picture."
+    },
+    {
+      "question": "Is free cash flow a GAAP measure?",
+      "answer": "No. Neither US GAAP nor IFRS defines free cash flow, so companies calculate it in different ways. Under US SEC rules, companies that present it publicly generally must reconcile it to the most comparable GAAP figure, usually net cash from operating activities. Look for that reconciliation before comparing companies."
+    },
+    {
+      "question": "Where do I find capital expenditures in a 10-K?",
+      "answer": "Look in the investing activities section of the consolidated statement of cash flows, in Item 8. The line is often labeled 'Purchases of property and equipment,' 'Capital expenditures' or 'Additions to property, plant and equipment,' and it appears in parentheses as a cash outflow. Some companies show capitalized software costs on a separate line, so add those in too."
+    },
+    {
+      "question": "How does stock-based compensation affect free cash flow?",
+      "answer": "Stock-based compensation is an expense on the income statement, but it is added back in operating cash flow because no cash is paid. That can make free cash flow look stronger than net income, even though shareholders bear the cost when new shares dilute their stake. Some analysts subtract stock-based compensation from free cash flow for a more cautious view."
+    }
+  ],
+  "conclusion": "Net income tells you whether a company is profitable on paper. Free cash flow tells you whether that profit turns into cash after the business pays to maintain and grow itself. The two drift apart for ordinary reasons: depreciation, receivables, inventory, payables and capital spending. A gap in one year is rarely alarming on its own. What matters is the pattern. When profits rise while operating cash flow falls year after year, read the MD&A and footnotes closely and check the balance sheet. Work out both numbers yourself, add them up over several years, rebuild any 'adjusted' figure from the company's reconciliation, and don't let a single metric make the decision for you. Accounting rules and tax treatment vary by country, so for personal investment decisions, talk to a licensed adviser and check your local regulator's guidance.",
+  "keyword": "net income vs free cash flow explained",
+  "niche": "reading financial statements and understanding company numbers",
+  "version": 2,
+  "slug": "net-income-vs-free-cash-flow-explained-why-profit-isn-t-cash",
+  "published": "2026-10-08T09:00:05+00:00"
+}

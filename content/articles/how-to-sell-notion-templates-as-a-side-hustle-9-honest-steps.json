@@ -1,0 +1,288 @@
+{
+  "title": "How to Sell Notion Templates as a Side Hustle: 9 Honest Steps",
+  "meta_description": "Learn how to sell Notion templates as a side hustle: pick a niche, test with real users, then price, list and promote it. Honest steps, no income hype.",
+  "quick_answer": "To sell Notion templates as a side hustle, pick one narrow audience with a recurring problem, build a small template that solves it, and test it with 3–5 real users. Publish a duplicable page. Then list it on Notion's template marketplace or a digital storefront and promote it in one niche community. Expect slow, uncertain sales, and check each platform's fees and your tax obligations first.",
+  "key_takeaways": [
+    "Build for one problem and one group of people, such as a booking-and-invoice tracker for freelance dog groomers, not another general planner.",
+    "Before you list, watch 3–5 real people set up your template. Every place they get confused is something to fix.",
+    "Let AI draft the 'Start here' page, listing copy and FAQs. Then check every claim against what the template actually does.",
+    "Test prices one change at a time, and judge each change by visits, sales and refunds rather than gut feel.",
+    "Promote in one niche community with a 60–90 second demo video instead of posting everywhere.",
+    "Before your first sale, check platform fees, platform rules and your local tax obligations. Keep simple records from day one."
+  ],
+  "who_this_is_for": "This guide is for Notion users with a few spare hours a week who want to try selling a low-cost digital product and can accept that it may earn little or nothing.",
+  "intro": "Notion templates look like the perfect side hustle: build it once, list it online and sell it while you sleep. Real life is messier. Template marketplaces are crowded with free options, many listings sell little or nothing, and fees and taxes take a cut of whatever does sell. This guide takes you from idea to first listing in nine realistic steps. You'll choose a narrow audience problem, build a small template, test it with 3–5 real users and use AI to draft your instructions and listing copy. Then you'll publish, price and promote it without spreading yourself thin. You'll also learn which technical mistakes lead to refunds, which fee and tax questions to check first, and who should skip this side hustle. There are no income promises here, just the steps that give a template its best honest chance.",
+  "steps": [
+    {
+      "name": "Pick one audience and one recurring problem",
+      "text": "Choose a group you know well, such as freelance wedding photographers or home bakers who sell at markets. Then pick one task they repeat every week or for every client. Write a one-sentence promise: 'This template helps [who] do [job] without [pain].' If you can't fill in all three blanks, narrow your idea further."
+    },
+    {
+      "name": "Check demand and competition",
+      "text": "Spend an hour in the online communities where that audience gathers. Note the complaints that keep coming up, the spreadsheets people share and the questions that get asked again and again. Then search Notion's template marketplace and popular storefronts for similar templates. Write down one specific reason yours fits this group better."
+    },
+    {
+      "name": "Build the smallest working version",
+      "text": "Create only the databases, views and properties needed to solve the problem from start to finish. Add a 'Start here' page, two or three sample entries that contain no real personal data, and a changelog page that shows a version number."
+    },
+    {
+      "name": "Test with 3–5 real users",
+      "text": "Give the template free to people in your target audience in exchange for honest feedback. Watch some of them duplicate it and set it up on a video call, and note every point where they get confused. Fix those spots, and ask permission before you quote anything a tester says."
+    },
+    {
+      "name": "Draft the written materials with AI, then edit",
+      "text": "Give Notion AI or a chatbot your template's structure and your testers' questions. Ask it to draft a 'Start here' page, listing copy and FAQs. Check every claim against what the template actually does, and replace vague hype with plain descriptions."
+    },
+    {
+      "name": "Publish and set up delivery",
+      "text": "Publish the template page to the web and turn on the duplicate-as-template option in Share → Publish. Notion's wording for this setting can change. Test the link from a different Notion account. Before you list on Notion's marketplace or a storefront, check its current fees, payout options, refund rules and tax handling."
+    },
+    {
+      "name": "Set a starting price and plan one experiment",
+      "text": "Base your first price on similar niche templates on the same platform. Change one thing at a time, such as the price, a free lite version or a bundle. Record visits, sales and refunds for each version."
+    },
+    {
+      "name": "Promote in one community with a short demo video",
+      "text": "Follow the community's self-promotion rules, and help other members before you post links. Share your template only where it genuinely helps. Record a 60–90 second screen demo of the template solving the problem and add it to your listing."
+    },
+    {
+      "name": "Review results and decide what's next",
+      "text": "After a fixed period of active promotion, such as six to eight weeks, work out whether your problem is traffic, the listing or the product itself. Then improve the template, switch to a new niche or stop. All three are reasonable outcomes."
+    }
+  ],
+  "comparison": {
+    "caption": "Common ways to sell Notion templates (fees and rules change, so confirm on each platform before listing)",
+    "headers": [
+      "Option",
+      "How buyers get the template",
+      "Main strength",
+      "Main trade-off",
+      "Check before listing"
+    ],
+    "rows": [
+      [
+        "Notion's template marketplace",
+        "They get or buy it on the marketplace, then duplicate it into their own workspace",
+        "Reaches people who are already browsing for Notion templates",
+        "Crowded with free templates; there's a review process and a platform fee on paid sales",
+        "Creator requirements, submission guidelines, current fees and supported payout countries"
+      ],
+      [
+        "Creator storefront (e.g., Gumroad, Payhip)",
+        "They pay, then get the duplicate link by email or on a download page",
+        "Control over pricing, discounts, bundles and contact with buyers",
+        "You have to bring in your own traffic",
+        "Per-sale and processing fees, payout schedule, and whether it handles sales tax or VAT for you"
+      ],
+      [
+        "Etsy (digital downloads)",
+        "They download a file, often a PDF, that contains the duplicate link",
+        "Shoppers already search there, so you get some built-in traffic",
+        "Lots of competing listings, plus listing and transaction fees",
+        "Current fee schedule and seller rules for digital items"
+      ],
+      [
+        "Your own website plus a payment link",
+        "They check out through a payment provider and get the link by automatic or manual email",
+        "The most control over your brand and customer relationships",
+        "You handle delivery, tax and support yourself",
+        "Payment provider fees, your tax obligations and how you'll automate delivery"
+      ],
+      [
+        "Free template (any channel)",
+        "The duplicate link is shared openly",
+        "Builds trust, gets you feedback and grows an audience for a paid version",
+        "No direct revenue",
+        "Whether the platform lets you link from a free version to a paid one"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Is selling Notion templates a realistic side hustle?",
+      "paragraphs": [
+        "Selling Notion templates can be a realistic side hustle if you treat it as a low-cost experiment rather than a reliable source of income. Start-up costs are mostly your time, a Notion account and somewhere to list. But sales are uncertain, and many templates sell little or nothing.",
+        "The low barrier to entry works both ways. Anyone can build a template in an afternoon, and Notion's own gallery already offers many free templates. AI tools also make building faster for everyone, including your competitors. What you can control is relevance. A template built around one group's recurring problem is easier to describe, find and recommend than another all-purpose planner.",
+        "This side hustle is a poor fit if you need dependable money soon. Sales can be zero for weeks, and a platform can change its search ranking, fees or rules at any time. Selling a skill directly, such as freelance work, is usually far more predictable.",
+        "If you have a job, check your employment contract before you start. Some contracts restrict side businesses or claim ownership of work made with company tools or on company time."
+      ],
+      "bullets": [
+        "You already use Notion regularly and enjoy building systems in it.",
+        "You know a community that shares a specific workflow problem.",
+        "You're willing to answer buyer questions and release updates after launch.",
+        "You want to learn product skills like writing, pricing and marketing, with little financial risk."
+      ]
+    },
+    {
+      "heading": "How to sell Notion templates as a side hustle: start with a narrow problem",
+      "paragraphs": [
+        "The first step in selling Notion templates as a side hustle is to pick one narrow audience with one recurring, annoying problem, instead of designing another generic planner.",
+        "Generic templates such as habit trackers, weekly planners and 'life operating systems' compete with a flood of free alternatives and look alike in search results. A narrow template speaks to someone who already knows they have the problem. One example is a client, contract and invoice tracker for freelance wedding photographers. Others are an ingredient-costing and order sheet for home bakers who sell at markets, or a grant-deadline tracker for volunteers at small nonprofits.",
+        "A strong niche problem usually has three traits. First, it repeats, either weekly or with every client. Second, it currently lives in messy spreadsheets, scattered notes or someone's memory. Third, the people who have it gather somewhere you can reach, such as a subreddit, Facebook group, Discord server, Slack community or industry forum.",
+        "Check for demand before you build. Spend an hour reading those communities, and note the complaints that keep coming up, the spreadsheets people share and the questions that get asked again and again. Then search Notion's template marketplace and popular storefronts for similar templates. Competition isn't a bad sign, because it suggests people want this. But you need one clear reason why yours fits this group better."
+      ],
+      "bullets": [
+        "Who exactly is it for? Name a role or situation, not 'busy people'.",
+        "What job does the template do every week, or for every client?",
+        "What are they using now, and what frustrates them about it?",
+        "Where do they talk online, and does that space allow sharing tools?",
+        "What would make them say, 'This was built for me'?"
+      ]
+    },
+    {
+      "heading": "Build a minimum template and test it with 3–5 real users",
+      "paragraphs": [
+        "Build the smallest template that solves the problem from start to finish. Then watch 3–5 people from your target audience set it up and use it before you list it.",
+        "A minimum template has a few databases, clear views and sample entries that show how everything connects. Every extra relation, rollup or formula is one more thing a buyer has to understand, so cut anything that doesn't serve the main job. Put a 'Start here' page at the top and add one or two example entries that buyers can delete once they understand the layout.",
+        "Find testers in the communities you researched and offer them the template free in exchange for honest feedback. If you can, watch a few of them on a video call while they duplicate it and set it up. Don't help unless they're completely stuck. Every pause, misclick or 'what does this do?' goes on your list of fixes.",
+        "Ask testers to use the template for real for about a week. Then ask where they got stuck, what they actually used, what's missing and what could go. Also ask whether they'd recommend it to someone in their field. If someone stopped using it, that's useful information, not a failure. Only quote feedback with the tester's permission.",
+        "Before anyone tests the template, duplicate it from a second Notion account and run the technical checks below. These problems are behind many support emails and refund requests."
+      ],
+      "bullets": [
+        "Linked views point to databases inside the template. Views that point to databases elsewhere in your workspace won't work for buyers.",
+        "Sample entries contain no real client names, emails or other personal data.",
+        "Formulas, buttons and relations still work after the template is duplicated.",
+        "Note any feature that may need a paid Notion plan, such as Notion AI or certain automations, so you can mention it in your listing.",
+        "Pages are easy to read on a phone, if your audience works on mobile.",
+        "A changelog page records the version number and what changed."
+      ]
+    },
+    {
+      "heading": "Use AI to draft the instructions page, listing copy and FAQs",
+      "paragraphs": [
+        "Notion AI or a general chatbot can write useful first drafts of your instructions page, listing copy and FAQs. You still need to edit and fact-check every line.",
+        "For the 'Start here' page, give the AI your database names, key properties, views and the spots where testers got stuck. Ask for five short parts: what the template is for, a five-minute setup, what a typical week looks like, how to customise it without breaking anything, and where to get help or updates.",
+        "Use a fixed structure for your listing copy so nothing important is missing. Include a headline that names the audience and the outcome, then who the template is and isn't for and what's included. Add the requirements, such as a Notion account or features that need a paid plan. Finish with how delivery works and your refund and support policy. AI drafts often lean on vague phrases like 'transform your workflow', so replace them with plain descriptions of what the template does.",
+        "For the FAQs, paste in real questions from your testers. Common ones are whether a paid Notion plan is needed, whether it works on mobile, how updates are delivered and what the refund policy is. Only publish answers you can stand behind."
+      ],
+      "bullets": [
+        "Instructions prompt: 'Here is the structure of my Notion template: [paste]. Write a Start Here page for [audience] in five plain-language sections.'",
+        "Listing prompt: 'Draft a product description for [template] aimed at [audience]. Open with the problem, list what's included, state the requirements, and make no promises about results.'",
+        "FAQ prompt: 'Turn these tester questions into an FAQ with two- to three-sentence answers: [paste].'",
+        "Final check: make sure every feature you mention exists and every screenshot matches the current version."
+      ]
+    },
+    {
+      "heading": "Where to sell your Notion template and how to price it",
+      "paragraphs": [
+        "Most sellers either list on Notion's template marketplace or use a digital storefront that sends buyers a link to a duplicable Notion page. Which is better depends on where your buyers already look and how much control you want.",
+        "Delivery works the same way in both cases. You publish the template page to the web and turn on the duplicate-as-template option in the page's Share → Publish settings. Notion's wording for this can change. Buyers open the link, click Duplicate and get their own copy. Anyone with the link can copy the page, so links do get passed around. Most small sellers accept this and focus on what a shared link doesn't include, such as updates and support.",
+        "Two delivery details catch out many new sellers. First, a buyer's copy doesn't change when you edit your original, so explain in your listing how you'll announce new versions. Second, if you unpublish or move the page, the link breaks for anyone who hasn't duplicated it yet, so keep the published master copy somewhere stable.",
+        "Notion's marketplace puts your template in front of people who are already browsing templates. In return, expect creator requirements, a review step and a fee on paid sales. Storefronts give you more control over pricing, discounts and buyer emails, but you have to bring in the traffic yourself. Check current fees, payout countries and rules on each platform before you list.",
+        "For pricing, start with what similar niche templates charge on the same platform. Then change one thing at a time and leave it in place long enough to see a pattern. When you only have a few visitors, a couple of sales either way is random noise, not proof."
+      ],
+      "bullets": [
+        "Offer a free lite version plus a paid full version.",
+        "Give a launch discount to the community that helped you test, then move to a standard price.",
+        "Try pay-what-you-want with a suggested amount, if your storefront supports it.",
+        "Sell a bundle that adds a setup video or checklist.",
+        "For each experiment, log visits, sales, refunds and support questions in a simple Notion database."
+      ]
+    },
+    {
+      "heading": "Simple promotion: one niche community and a short demo video",
+      "paragraphs": [
+        "The simplest promotion plan for a small seller is to show up regularly in one niche community and share a short demo video of the template solving the problem.",
+        "Read each community's rules first. Many ban self-promotion, only allow it in certain threads or need a moderator's approval. Answer questions and help out before you post a link. A post like 'I built this for [problem], here's a free version, feedback welcome' usually goes down much better than a sales pitch.",
+        "For the demo, a 60–90 second screen recording is enough, and clarity matters more than polish. Start by stating the problem in one sentence. Then show the template doing the job, such as adding a client or spotting an overdue invoice, and finish by saying where to get it. Post it where your audience already watches videos, such as YouTube, LinkedIn, TikTok or Instagram, and add it to your listing.",
+        "Keep a simple log of what you posted, where and when, and compare it with your storefront's traffic. If your storefront shows where visitors came from, use that data. If it doesn't, share a separate link in each channel. After a few weeks you'll see which channels bring buyers, and you can drop the rest."
+      ],
+      "bullets": [
+        "Three to five annotated screenshots of the template in use.",
+        "One 60–90 second demo video.",
+        "A free lite version or sample page people can try.",
+        "A one-sentence description to reuse in profiles and introductions."
+      ]
+    },
+    {
+      "heading": "Why many Notion templates sell little or nothing",
+      "paragraphs": [
+        "Many Notion templates sell little or nothing because they target a vague problem, compete with free alternatives or never reach the people who would buy them. Check your listing against the causes below before you decide the idea itself is bad.",
+        "Set a review date after a fixed period of active promotion, then work out which problem you have. If nobody visits, you have a traffic problem. If people visit but don't buy, work on the listing, screenshots and price. If testers loved it but strangers don't buy, the niche may be too small or too hard to reach. Improving the template, switching niches and stopping are all reasonable outcomes."
+      ],
+      "bullets": [
+        "Too generic: an 'ultimate life planner' competes with endless free versions.",
+        "Nobody sees it: listing and waiting rarely works by itself, and marketplaces may favour items that already have sales and reviews.",
+        "Unclear at a glance: shoppers can't tell what it does from the thumbnail and first screenshots.",
+        "Too complicated: complex setups lead to confused buyers, refunds and abandoned copies.",
+        "Easy to copy: if buyers could build it in an hour with AI, it needs to save more time or include know-how they don't have.",
+        "Given up too early: the seller changed nothing after the first quiet weeks."
+      ]
+    },
+    {
+      "heading": "Fees, taxes and record-keeping basics",
+      "paragraphs": [
+        "Platform and payment fees reduce every sale, and template income is usually taxable, so get to grips with the money side before your first listing.",
+        "Marketplaces and storefronts may charge a percentage of each sale, a fixed fee per sale, payment processing fees and sometimes listing fees. Read each platform's current fee page. Then work out what you'd actually keep at the price you're planning, after fees and likely refunds.",
+        "Tax rules differ by country, and sometimes by state or region. Income from selling digital products usually has to be reported. Digital sales can also mean you owe sales tax or VAT based on where the buyer lives. Some platforms act as the 'merchant of record', which means they collect and pay that tax for you, while others leave it to the seller. This is general information, not tax advice. Check with your local tax authority or a licensed tax professional about your own situation.",
+        "Keep records from your first sale. Note the date, platform, sale amount, fees, refunds and what you kept, and save receipts for related costs such as software subscriptions. A spreadsheet or Notion database is enough at first. If sales grow, automations can log them for you, and accounting software becomes worth a look. Also read Notion's brand guidelines before you use the word 'Notion' in a shop or product name."
+      ],
+      "bullets": [
+        "The platform's current fee page and payout schedule.",
+        "Which countries and payout methods the platform supports.",
+        "Whether the platform collects and pays sales tax or VAT for you.",
+        "The platform's refund rules for digital products.",
+        "Notion's brand and trademark guidelines."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Building, testing and publishing your template as a duplicable page. You can keep your changelog, experiment log and sales records in the same workspace, and Notion AI can draft instructions and FAQs if your plan includes it.",
+      "not_for": "Finding buyers, because it doesn't do any marketing for you. Notion AI access depends on your plan, so check current plans and pricing on Notion's website."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "Fixing clarity, tone and typos in AI-drafted listing copy, 'Start here' pages and FAQs before you publish.",
+      "not_for": "Deciding what to sell or who to sell to. It improves wording but can't fix a vague offer. For one short listing, the free version may be enough; check current plan features on Grammarly's site."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Automating small chores once sales start, such as adding each storefront sale to a Notion sales log or sending buyers a follow-up email with setup tips. This only works if your storefront has a Zapier integration.",
+      "not_for": "Sellers with only a handful of sales, who can log each one by hand in a minute. Costs can rise as you run more automated tasks, so check current plan limits and pricing on Zapier's site."
+    },
+    {
+      "product": "Make",
+      "best_for": "Sellers who are comfortable with a visual automation builder and want multi-step workflows, such as logging a sale, tagging the buyer and updating an experiment tracker in one go. It's especially worth a look once volume grows and the cost of each run matters.",
+      "not_for": "Complete beginners who want the quickest setup, or anyone whose storefront isn't supported. Check Make's current app list and pricing before you build anything."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Sellers whose template income has grown alongside other freelance or small-business income, and who want income and expenses sorted into categories ready for tax time.",
+      "not_for": "Early-stage sellers with only a few sales, for whom a spreadsheet or Notion database is enough. Features, pricing and availability vary by country, so check QuickBooks' site. It doesn't replace advice from a tax professional."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you really make money selling Notion templates?",
+      "answer": "Some creators do earn money from Notion templates, but results vary widely and many templates sell little or nothing. What matters most is how specific the problem is, how clearly the listing explains it and whether you can reach the right audience. Treat it as an experiment, not a reliable source of income."
+    },
+    {
+      "question": "Do I need a paid Notion plan to sell templates?",
+      "answer": "You can usually build a template and publish a duplicable page on Notion's free plan. But plan features and the requirements for selling on Notion's marketplace can change, so check Notion's website before you start. If your template relies on features that need a paid plan, such as Notion AI, say so clearly in your listing."
+    },
+    {
+      "question": "Is it allowed to sell Notion templates?",
+      "answer": "Generally, yes. Notion runs a template marketplace that includes templates made by creators, and many creators also sell through independent storefronts. Read Notion's terms and brand guidelines, plus the rules of any platform you use. Make sure the template is your own work and doesn't copy someone else's design or content."
+    },
+    {
+      "question": "How do I stop people sharing my Notion template link?",
+      "answer": "You can't fully stop it, because anyone with a duplicate link can copy the page. Most small sellers accept some sharing as part of selling digital products. They focus on what a shared link doesn't include, such as version updates, setup help and tutorial videos for buyers."
+    },
+    {
+      "question": "Can I use ChatGPT or Notion AI to create Notion templates?",
+      "answer": "Yes. AI can help you plan a database structure, suggest formulas, and draft instructions, listing copy and FAQs. It can't tell you whether real people find the template useful, so you still need to test it with users from your target audience. Always check that AI-suggested formulas work in your workspace and that your written claims match what the template actually does."
+    },
+    {
+      "question": "How much should I charge for a Notion template?",
+      "answer": "There's no single right price, so start by looking at what similar niche templates charge on the same platform. Then test one change at a time, such as a free lite version or a different price, and judge each change by visits, sales and refunds. Remember to subtract platform and payment fees when working out what you'd actually keep."
+    }
+  ],
+  "conclusion": "Selling Notion templates as a side hustle works best as a small, structured experiment. Pick one narrow audience and one real problem, build the smallest template that solves it, and watch 3–5 real people set it up. Use AI to draft your instructions and listing, then check every claim yourself. Promote the template in one place where your audience already gathers, and track visits, sales and refunds. Before you list, check platform fees, platform rules and your tax obligations. Your local tax authority or a licensed professional can advise on your situation. Keep records from day one, and set a review date so you can improve, switch niches or stop based on what actually happened. If you need dependable income soon, look elsewhere first. If you have spare time and curiosity, a first listing is a practical way to learn how digital products really sell.",
+  "keyword": "how to sell notion templates as a side hustle",
+  "niche": "making money and side income with AI tools",
+  "version": 2,
+  "slug": "how-to-sell-notion-templates-as-a-side-hustle-9-honest-steps",
+  "published": "2026-10-08T09:00:06+00:00"
+}

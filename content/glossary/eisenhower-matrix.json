@@ -1,0 +1,21 @@
+{
+  "term": "Eisenhower Matrix",
+  "section": "Self-Development",
+  "short_definition": "The Eisenhower Matrix is a prioritization tool that sorts tasks into four boxes by urgency and importance—do now, schedule, delegate, or delete—so you focus on what truly matters.",
+  "explanation": [
+    "The Eisenhower Matrix is a 2×2 grid. Quadrant 1 is urgent and important, so you do it now (for example, a deadline today). Quadrant 2 is important but not urgent, so you schedule it (planning, learning, exercise, building savings). Quadrant 3 is urgent but not important, so you delegate it or keep it small (many interruptions and routine messages). Quadrant 4 is neither, so you drop it (for example, mindless scrolling). The matrix is named after US President Dwight D. Eisenhower, and Stephen Covey popularized it in 'The 7 Habits of Highly Effective People'.",
+    "The Eisenhower Matrix matters because urgent tasks demand attention while important-but-not-urgent work keeps getting pushed back, and that is the work that builds your skills, health, relationships and finances. The matrix makes this trade-off visible so you can protect time for Quadrant 2.",
+    "The Eisenhower Matrix depends on honest judgment, and it doesn't tell you what order to work in within a quadrant or how long tasks will take. Many people pair it with time blocking: the matrix decides what matters and the calendar decides when it happens. If you work alone and can't delegate, treat Quadrant 3 as 'batch it or limit it'."
+  ],
+  "example": "Illustrative example: you sort four Monday tasks. A tax form due tomorrow goes in Q1, so you do it today. Setting up automatic transfers to savings goes in Q2, so you book a 30-minute slot on Wednesday. Replying to a non-urgent group chat goes in Q3, so you batch it at 5 p.m. Reorganizing your phone's app icons goes in Q4, so you drop it. Only one task has to happen today, and an important one now has a protected time slot.",
+  "common_mistake": "Putting nearly everything in Quadrant 1. If everything feels urgent and important, you are probably sorting by stress rather than by real deadlines and consequences. Ask yourself: 'What actually happens if this waits a week?'",
+  "related_terms": [
+    "Time Blocking",
+    "Pareto Principle (80/20 Rule)",
+    "Deep Work",
+    "Parkinson's Law"
+  ],
+  "title": "Eisenhower Matrix",
+  "slug": "eisenhower-matrix",
+  "published": "2026-10-08T09:18:03+00:00"
+}

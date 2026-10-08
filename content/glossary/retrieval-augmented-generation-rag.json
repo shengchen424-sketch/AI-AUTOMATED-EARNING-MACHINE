@@ -1,0 +1,22 @@
+{
+  "term": "Retrieval-Augmented Generation (RAG)",
+  "section": "AI & Tech",
+  "short_definition": "Retrieval-augmented generation (RAG) is a technique where an AI system first searches a chosen collection of documents for relevant information, then gives that information to a language model to ground its answer.",
+  "explanation": [
+    "Retrieval-augmented generation works in three steps. First, your documents, such as policies, manuals or past support tickets, are split into chunks and indexed, often using embeddings so the system can search by meaning instead of exact keywords. Second, when someone asks a question, the system retrieves the most relevant chunks. Third, those chunks are placed in the model's prompt, inside its context window, along with an instruction to answer from them and ideally cite the sources.",
+    "Retrieval-augmented generation matters because a language model on its own only knows its training data, which may be out of date and won't include your private documents. RAG lets a chatbot answer questions about your organization's own information without retraining the model. Showing the sources also makes answers easier to check.",
+    "Retrieval-augmented generation is only as reliable as its search and its documents. If retrieval pulls the wrong passages, or the documents are outdated or contradict each other, the answer will be wrong, and the model can still misread a source or hallucinate. RAG also takes work to set up and maintain. Access controls matter, so the system doesn't show users documents they shouldn't see."
+  ],
+  "example": "Illustrative example: a small accounting firm loads its 200-page staff handbook into a RAG-based assistant. A staff member asks, 'What's our deadline for sending year-end checklists to clients?' The system retrieves the two most relevant paragraphs, the model answers from them, and the reply cites page 47 so the staff member can check it.",
+  "common_mistake": "Assuming RAG eliminates hallucinations. It reduces them when retrieval works well, but you still need up-to-date documents, good search and the habit of checking the cited source.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "AI Hallucination",
+    "Context Window",
+    "Generative AI",
+    "AI Agent"
+  ],
+  "title": "Retrieval-Augmented Generation (RAG)",
+  "slug": "retrieval-augmented-generation-rag",
+  "published": "2026-10-08T09:18:03+00:00"
+}

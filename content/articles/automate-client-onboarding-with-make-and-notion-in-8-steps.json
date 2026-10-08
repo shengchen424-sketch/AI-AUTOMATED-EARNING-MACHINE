@@ -1,0 +1,293 @@
+{
+  "title": "Automate Client Onboarding With Make and Notion in 8 Steps",
+  "meta_description": "Automate client onboarding with Make and Notion: one scenario creates the client page, dated tasks and an AI welcome draft you approve first.",
+  "quick_answer": "To automate client onboarding with Make and Notion, build one Make scenario: a form or paid-invoice trigger, a filter for genuine new clients, a data-store duplicate check, a Notion module that creates the client page, and a Task Library search that adds dated tasks. An AI module then drafts a welcome email saved unsent for your review, and a final module reminds you. Test with dummy data first.",
+  "key_takeaways": [
+    "Pick one trigger that truly means 'new client', either a completed intake form or a paid first invoice. Filter out renewals, test events and incomplete submissions.",
+    "Keep your onboarding checklist in a Notion Task Library database with day offsets. That way you can change your process in Notion without editing the scenario.",
+    "Block duplicates with a Make data store keyed on lower(email) or the customer ID. Write the record as soon as the client page exists.",
+    "Let AI draft the welcome email, but always save it as a draft. Sending stays a manual step you take after reading it.",
+    "Test every path with dummy clients. Then check Make's current usage limits and pricing against how many new clients you expect each month."
+  ],
+  "who_this_is_for": "This guide is for coaches, consultants, freelancers and one-person agencies who already run client work in Notion and want every new client onboarded as soon as they sign up or pay, without losing the personal touch.",
+  "intro": "Clients are most excited right after they pay, and that's also when solopreneurs most often drop the ball. The kickoff link goes missing, someone forgets the access invite, or the welcome email goes out three days late. This guide walks you through one Make scenario, module by module. A form submission or paid invoice starts it. The scenario then creates a Notion client page, adds a dated onboarding checklist, has an AI module draft a personalized welcome email that waits for your review, and sends you a reminder. You'll also add filters, duplicate checks and error handlers, test with dummy data, and see exactly where a human should stay in the loop. Module names, menus and plan limits change over time, so check the details against Make's and Notion's current documentation as you build.",
+  "steps": [
+    {
+      "name": "Build the three Notion databases",
+      "text": "In Notion, create three databases under one parent page: Clients, Onboarding Tasks and Task Library. Link Onboarding Tasks to Clients with a relation property, and give Task Library a 'Days after start' number property. Then share the parent page with your Make connection through the ••• menu > Connections."
+    },
+    {
+      "name": "Add the trigger in a new Make scenario",
+      "text": "Start with your form app's trigger, Webhooks > Custom webhook, or your payment tool's paid-invoice event. Click Run once and send a test submission so Make learns the incoming data structure before you map any fields. If you use a webhook, consider turning on sequential processing in the scenario settings."
+    },
+    {
+      "name": "Filter and check for duplicates",
+      "text": "Add a filter that requires a valid email and a recognized onboarding package. For invoice triggers, also exclude renewals. Next, add a Make data store check keyed on lower(email) or the customer ID, and let the route continue only if no record exists."
+    },
+    {
+      "name": "Create the client page in Notion",
+      "text": "Add Notion > Create a Database Item for the Clients database. Map the name, email, package, start date and source ID, and set Status to Onboarding. Straight after it, add a data store 'Add/replace a record' module that saves the new Notion page ID."
+    },
+    {
+      "name": "Generate dated onboarding tasks",
+      "text": "Search the Task Library for items whose Service matches the client's package, sorted by Order. For each result, create an Onboarding Task linked to the client page by page ID, with Due set to addDays(Start date; Days after start)."
+    },
+    {
+      "name": "Draft the welcome email with AI",
+      "text": "Pass only the details the email needs to an AI module with a strict prompt. Save the output with Gmail > Create a Draft or your provider's equivalent. Then copy it into the client's Welcome draft property with Notion > Update a Database Item."
+    },
+    {
+      "name": "Send yourself a reminder",
+      "text": "Send yourself a reminder by Slack, Telegram or email. Include the client's name, the Notion page URL and the first task due, and note that a welcome draft is waiting for your review."
+    },
+    {
+      "name": "Add error handlers, test, then go live",
+      "text": "Attach Break, Resume or Ignore error handlers to the right modules, and allow incomplete executions in the scenario settings. Run every test case with dummy data in a sandbox. Then switch to live connections, delete the test records and turn the scenario on."
+    }
+  ],
+  "comparison": {
+    "caption": "What can go wrong at each step of the onboarding scenario, and how to guard against it",
+    "headers": [
+      "Scenario step",
+      "Typical Make module",
+      "What can go wrong",
+      "Safeguard"
+    ],
+    "rows": [
+      [
+        "Trigger",
+        "Form app trigger, Custom webhook, or a payment tool's event watcher",
+        "The wrong event fires, such as a renewal invoice or a test submission",
+        "Filter on event type, package and status. In Stripe, check billing_reason"
+      ],
+      [
+        "Duplicate check",
+        "Data store: check the existence of a record",
+        "The same client gets onboarded twice, or two near-simultaneous runs both get through",
+        "Key on lower(email) or the customer ID, write the record early, and turn on sequential processing for webhooks"
+      ],
+      [
+        "Package value",
+        "Field mapping from the trigger to a Notion select",
+        "A spelling mismatch creates a new select option, so the Task Library search finds nothing",
+        "Use fixed dropdown choices in the form and identical option names in Notion"
+      ],
+      [
+        "Client page",
+        "Notion: Create a Database Item",
+        "Make can't access the database, or property types don't match",
+        "Share the parent page with the connection, match property types, and add a Break handler with retries"
+      ],
+      [
+        "Onboarding tasks",
+        "Notion search module plus Create a Database Item",
+        "Due dates are a day off, a package has no tasks, or Notion rate-limits the requests",
+        "Calculate dates with addDays(), check timezone settings, cover every package in the library, and use Break with retries"
+      ],
+      [
+        "Welcome draft",
+        "OpenAI or Anthropic app",
+        "Off-tone copy, invented promises or timeouts",
+        "Send minimal inputs, use a strict prompt, and add a Resume handler with fallback text"
+      ],
+      [
+        "Email",
+        "Gmail: Create a Draft",
+        "The email goes out before anyone reads it",
+        "Use a draft module only and leave send modules out of this scenario"
+      ],
+      [
+        "Reminder",
+        "Slack: Create a Message, Telegram or email",
+        "The notification fails without anyone noticing",
+        "Add an Ignore handler and check the scenario's History every week"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to automate client onboarding with Make and Notion: the scenario map",
+      "paragraphs": [
+        "To automate client onboarding with Make and Notion, you build one Make scenario that runs once for each new client. It carries that client's details from the trigger all the way to a reminder on your phone. In Make, the scenario is the whole workflow, each circle on the canvas is a module, and data moves between modules in units called bundles.",
+        "This build uses about eight modules in a straight line, plus filters and error handlers. It automates the copying, dating and drafting, and leaves the judgment calls to you. No client-facing message leaves your outbox until you've read it, which keeps onboarding personal."
+      ],
+      "bullets": [
+        "Trigger: a completed intake form or a paid first invoice.",
+        "Filter: lets the run continue only for a real, new client.",
+        "Duplicate check: looks up a unique key in a Make data store.",
+        "Notion: creates the client page in your Clients database.",
+        "Notion: finds the matching Task Library items and creates one dated task for each.",
+        "AI module: drafts a personalized welcome email.",
+        "Email module: saves that email as an unsent draft.",
+        "Reminder: tells you the new client is ready for your review."
+      ]
+    },
+    {
+      "heading": "Set up Notion before you open Make",
+      "paragraphs": [
+        "Build and connect three linked Notion databases before you add a single module, because Make can only fill fields that already exist. Keep property names short and stable. If you rename a property later, the mappings in your scenario break.",
+        "Use select options for your packages and spell them exactly the same everywhere: in your form, your Task Library and your Clients database. If Make sends a value that doesn't exactly match an existing option, Notion may create a new option instead. When that happens, your Task Library search quietly finds nothing.",
+        "When you create the Notion connection in Make, Notion asks which pages the integration can access. Grant access to the parent page that holds all three databases. If a database later disappears from Make's dropdowns, open it in Notion, choose the ••• menu, then Connections, and check that your Make connection is listed.",
+        "Notion's database templates are handy when you add clients by hand, but pages created through Notion's API haven't always applied them. Check whether Make's Notion module currently offers a template option. If it doesn't, the Task Library can replace your template's checklist, and a Notion module that appends page content can add standard blocks such as a kickoff agenda or a links section."
+      ],
+      "bullets": [
+        "Clients: Name (title), Email (email), Service (select), Start date (date), Status (select: Onboarding, Active, Paused), Source ID (text), Welcome draft (text) and Email sent (checkbox).",
+        "Onboarding Tasks: Task (title), Client (relation to Clients), Due (date) and Status, plus an optional Owner (person) if a VA helps you.",
+        "Task Library: Task (title), Days after start (number), Service (multi-select) and Order (number). This database is your reusable checklist."
+      ]
+    },
+    {
+      "heading": "Choose one trigger: a form submission or a paid invoice",
+      "paragraphs": [
+        "Use the one event that reliably means 'this person is now a client'. That's usually a completed intake form or a paid first invoice. Don't wire up both unless your duplicate check is strict.",
+        "Make has apps for many popular form builders. If yours isn't one of them, make Webhooks > Custom webhook the first module and paste the URL it generates into your form tool's webhook settings. Webhooks fire instantly. Scheduled (polling) triggers check on an interval and may count toward your usage on every check, even when nothing new has arrived, so confirm how your plan counts them.",
+        "For paid invoices, use the Make app for your payment or accounting tool, such as Stripe or QuickBooks Online, and check which events it exposes. Some modules only watch for new invoices or payments, so you'd filter on status instead. Recurring billing needs care, because every renewal is also a paid invoice. In Stripe, the invoice's billing_reason field separates a subscription's first invoice (subscription_create) from renewals (subscription_cycle).",
+        "Whichever trigger you choose, make sure it delivers these fields:"
+      ],
+      "bullets": [
+        "Full name and email address.",
+        "The package or service purchased, chosen from a fixed dropdown rather than typed in.",
+        "Preferred start date and timezone.",
+        "One open question, such as 'What would make the first 30 days a win?'",
+        "A unique ID, such as the form response ID or the payment tool's customer ID.",
+        "Before you map anything, click Run once and send a test submission so Make learns the data structure."
+      ]
+    },
+    {
+      "heading": "Create the client page and dated onboarding tasks",
+      "paragraphs": [
+        "One Notion module creates the client page. A search module and a second create module then add every onboarding task with its own due date.",
+        "Add Notion > Create a Database Item. Exact module names can change as Notion's API evolves. Choose the Clients database, map the name, email, service, start date and source ID from the trigger, and set Status to Onboarding. The module outputs the new page's ID and URL, and you'll reuse both later.",
+        "Next, add a Notion search module pointed at the Task Library. Filter it so Service contains the client's package, and sort by Order. The search returns one bundle per task, and Make runs the next module once for each bundle, so you don't need a separate Iterator. Then add a second Create a Database Item module for Onboarding Tasks. Map the task title, set the Client relation to the page ID from the earlier module, and set Due to addDays(Start date; Days after start).",
+        "A starter library might look like this. Day 0: send the kickoff booking link. Day 1: grant tool access. Day 3: kickoff call. Day 7: first check-in. Day 14: progress review. Because the library lives in Notion, you can add, reword or reorder tasks without touching the scenario."
+      ],
+      "bullets": [
+        "Map relations by page ID, never by client name, so two clients both called Sam never get mixed up.",
+        "Check the timezone in your Make profile and organization settings. If it doesn't match yours, due dates can land a day early or late.",
+        "If the search finds no tasks for a package, no tasks get created and nothing warns you. Add library entries for every package you sell.",
+        "Notion limits how fast its API accepts requests, and a long task list sends many requests in quick succession. A Break handler with retries (covered below) handles the occasional rejected request."
+      ]
+    },
+    {
+      "heading": "Draft the welcome email with AI, then keep a human in the loop",
+      "paragraphs": [
+        "Let an AI module write the first draft and save it unsent. Sending is a manual step you take after reading it.",
+        "Make has apps for AI providers such as OpenAI and Anthropic. They usually need your own API key, and the provider bills you separately from Make. Give the module only what the email needs: first name, package, kickoff date, booking link and the client's answer about their goals.",
+        "Here's a prompt that works well: 'Write a warm, plain-text welcome email under 150 words to {{first name}}, who has just started {{package}}. Their goal: {{goal}}. Mention the kickoff call on {{date}} and this booking link: {{link}}. Do not promise results, mention prices or add details not given here. Sign off as {{your name}}.' Strict limits like these cut down on invented promises but don't stop them completely, so you still need to read every draft.",
+        "Send the output to Gmail > Create a Draft, or your email provider's equivalent, with a subject such as 'Welcome aboard, {{first name}}'. Then use Notion > Update a Database Item to copy the draft into the client's Welcome draft property. Keep emails short, because Notion's API limits how much text a single text value can hold.",
+        "Finish with a reminder to yourself. That can be Slack > Create a Message, a Telegram bot message or an email to your own inbox. Include the client's name, the Notion page URL, the first task due, and a note that a draft is waiting. These jobs should stay with a human:"
+      ],
+      "bullets": [
+        "Reading, editing and sending every client-facing message.",
+        "Anything involving scope, price, refunds, contracts or deadlines.",
+        "Sensitive intake answers about health, money or legal matters. Keep them out of AI prompts, and check your AI provider's data-use terms.",
+        "Exceptions such as referrals, VIP clients or someone who sounded hesitant.",
+        "Spot-checking tasks and due dates on the first few real runs."
+      ]
+    },
+    {
+      "heading": "Add error handling: filters, duplicate checks and error handlers",
+      "paragraphs": [
+        "Three layers keep the scenario clean. Filters block the wrong events, a duplicate check blocks repeat runs, and error handlers decide what happens when a module fails.",
+        "Filters sit on the links between modules. To add one, click the line and choose Set up a filter. After the trigger, the filter should require three things: Email exists and contains '@', Service matches one of your onboarding packages, and, for invoice triggers, the status is paid and the invoice isn't a renewal.",
+        "For the duplicate check, create a Make data store called Onboarded clients with a stable key. Use either the email passed through lower(), so a capital letter can't create a second record, or your payment tool's customer ID. Add the data store module that checks whether a record exists, followed by a filter that lets the run continue only if it doesn't. Right after the Notion page is created, add 'Add/replace a record' and store the page ID. Because the record is written early, a retry later in the run can't create a second client page.",
+        "Two more safeguards help. A Notion search can also catch duplicates, but when a search returns nothing, Make usually stops that route, which is the opposite of what you want here. A data store check avoids that problem. If you use a webhook, also look at sequential processing in the scenario settings. With it on, two near-simultaneous submissions from the same person run one after the other, so both can't slip past the check at once.",
+        "To attach an error handler, right-click a module and choose Add error handler. Make offers five: Resume, Ignore, Break, Commit and Rollback. Break saves the failed run as an incomplete execution you can retry, but only if you've allowed incomplete executions in the scenario settings."
+      ],
+      "bullets": [
+        "Notion modules: Break with automatic retries, because temporary API errors and rate limits usually clear up on their own.",
+        "AI module: Resume with fallback text such as 'AI draft failed: write this one yourself', so the rest of onboarding still runs.",
+        "Reminder module: Ignore, and check the scenario's History every week.",
+        "Error notifications: keep them on so you hear about a failure the same day."
+      ]
+    },
+    {
+      "heading": "Test with dummy data before you go live",
+      "paragraphs": [
+        "Run every path with fake clients in a sandbox before any real client goes through. A broken onboarding run is a bad first impression.",
+        "Duplicate your three Notion databases into a page called Sandbox, or add a Test checkbox you can filter on later. If your email provider supports plus-addressing, use it for test emails (for example you+test1@gmail.com). Name test records 'TEST – Ada Example', and use your payment tool's test mode through a separate Make connection.",
+        "Click Run once, trigger an event, then click the bubble above each module to see exactly what went in and what came out. The run details also show how much usage each module consumed, which you'll need for your cost estimate.",
+        "Run these test cases:"
+      ],
+      "bullets": [
+        "Happy path: a new client goes through and every module succeeds.",
+        "The same email twice: the second run should stop at the duplicate check.",
+        "A missing email or an unknown package: the filter should stop the run.",
+        "A renewal invoice: nobody should be onboarded.",
+        "A long, rambling goal answer: the AI draft should stay short and on topic.",
+        "A forced AI failure, such as a deliberately invalid key in a test connection: the fallback text and the reminder should still appear.",
+        "Once every case passes, switch to live connections, delete the test records from Notion and the data store, and turn the scenario on. Watch the first few real runs in History before you rely on it."
+      ]
+    },
+    {
+      "heading": "When Zapier is the simpler choice, and what to check on Make's pricing",
+      "paragraphs": [
+        "Zapier is often the simpler choice when your onboarding is short and linear and you care more about a fast setup than visual control over every step.",
+        "Say your process is just 'form arrives, create a Notion page, message me'. Zapier's step-by-step editor gets that live quickly, and if you already pay for Zapier, one more workflow may not cost anything extra. Zapier supports branching and looping too. Make's canvas, though, makes loops, routers, data stores and error routes easier to see and debug, and Make is often cheaper for high-volume workflows.",
+        "To estimate Make usage, count the modules that run for each client. Remember that modules after the Task Library search run once per task, so eight tasks means that module runs eight times. Multiply your test run's usage by the number of new clients you expect each month, and add a buffer for tests and retries. Then check these on Make's current pricing page and in its help docs:"
+      ],
+      "bullets": [
+        "How usage is counted (operations or credits) and your plan's monthly allowance.",
+        "Whether scheduled triggers use up your allowance when nothing new arrives.",
+        "Your plan's minimum scheduling interval.",
+        "Whether data stores are included in your plan, and their size limits.",
+        "The maximum run time for a single scenario execution.",
+        "Whether AI modules count against your Make allowance on top of what your AI provider bills you."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Make",
+      "best_for": "Solopreneurs who want onboarding in one visual scenario with loops, filters, data-store duplicate checks and error handlers, especially as the number of new clients grows.",
+      "not_for": "Anyone who wants the quickest setup for a two- or three-step workflow and doesn't want to learn about bundles, field mapping and error handlers."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Service businesses that want client pages, onboarding tasks and a reusable task library in one flexible workspace they already use every day.",
+      "not_for": "Businesses that need a locked-down client portal with detailed client permissions, or that already run clients in a dedicated CRM they're happy with."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Short, linear onboarding flows (form, then Notion page, then notification), or anyone who already pays for Zapier and wants to keep everything in one tool.",
+      "not_for": "Loop-heavy, high-volume onboarding where per-task usage can add up. Compare current pricing for your volume before you commit."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Service businesses that need proper invoicing and bookkeeping anyway and want a paid first invoice to be the event that starts onboarding.",
+      "not_for": "Solopreneurs who only need payment links or already bill through Stripe. Don't add accounting software just to get an onboarding trigger, and check that Make's QuickBooks module can watch the event you need."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Make create a Notion page from a template?",
+      "answer": "That depends on what Make's Notion module offers when you build, so check the module's fields. Pages created through Notion's API haven't always applied database templates automatically. A reliable workaround is to set the page properties with Make, add standard content with an append-content module, and create tasks from a Task Library database."
+    },
+    {
+      "question": "How many Make operations does a client onboarding scenario use?",
+      "answer": "It depends on how many modules run and how many tasks you create, because modules after a search run once per result. The easiest way to find out is to do a test with Run once and read the usage in the run details. Then compare that with Make's current plan limits for the number of clients you expect each month."
+    },
+    {
+      "question": "Should the AI send the welcome email automatically?",
+      "answer": "We don't recommend it. AI drafts can get details wrong or make promises you never intended, and the welcome email sets the tone for the whole relationship. Save it as a draft and send it yourself after a quick read."
+    },
+    {
+      "question": "Do I need to know how to code to automate client onboarding with Make and Notion?",
+      "answer": "No. You build it in Make's visual editor by mapping fields and using a couple of built-in functions, such as addDays() and lower(). The most technical part is pasting a webhook URL into your form tool, and most form builders have a settings menu for that."
+    },
+    {
+      "question": "Is Make or Zapier better for client onboarding?",
+      "answer": "Make suits onboarding that needs loops, branches and duplicate checks, and it's often cheaper at higher volume. Zapier is often simpler for short, linear workflows, especially if you already use it. Compare both tools' current pricing for your actual number of steps and clients before you decide."
+    },
+    {
+      "question": "Is it safe to send client intake data to an AI module?",
+      "answer": "Send only what the email needs, and leave out sensitive answers about health, finances or legal matters. Before you connect a provider, review its data-use and retention terms as well as your own client agreements. This is general information, not legal advice."
+    }
+  ],
+  "conclusion": "Good onboarding automation is predictable. Every time someone signs up or pays, you get the same client page, the same dated checklist and a warm welcome draft waiting for you. Build the scenario in the order above, starting with one package and a short Task Library, and run every dummy-data test before a real client goes through it. Keep the human steps yourself: reading and sending the welcome email, and handling exceptions. Then check Make's current usage limits and pricing against your monthly client count. If your process turns out to be a simple straight line, compare Make with Zapier before you commit.",
+  "keyword": "automate client onboarding with make and notion",
+  "niche": "AI agents and automation for solopreneurs",
+  "version": 2,
+  "slug": "automate-client-onboarding-with-make-and-notion-in-8-steps",
+  "published": "2026-10-08T08:59:46+00:00"
+}

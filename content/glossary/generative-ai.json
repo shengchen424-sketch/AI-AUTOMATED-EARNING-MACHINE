@@ -1,0 +1,22 @@
+{
+  "term": "Generative AI",
+  "section": "AI & Tech",
+  "short_definition": "Generative AI is a type of artificial intelligence that creates new content—such as text, images, audio, video or code—based on patterns it learned from large amounts of training data.",
+  "explanation": [
+    "Generative AI models are trained on very large datasets so they learn the statistical patterns of language, images or sound. When you give one a prompt, it produces new output that fits those patterns. A large language model generates text one token at a time, while an image model creates a picture that matches a description. Chat assistants such as ChatGPT, Claude and Gemini are well-known examples of the category.",
+    "Generative AI matters because it can speed up many everyday tasks: drafting emails, summarizing documents, brainstorming, writing simple code and creating marketing images. That makes it useful for individuals and small businesses. Many tools offer free and paid plans, but features and prices change often, so check each vendor's site for current details.",
+    "Generative AI has real limitations. Its output can sound confident and still be wrong (a hallucination), it can reflect biases in its training data, and it can raise copyright and privacy questions. Don't paste sensitive personal, client or financial data into a tool until you have checked how that data is stored and used. Always review the output before relying on it, especially for money, legal or health matters."
+  ],
+  "example": "Illustrative example: a freelancer asks a generative AI tool for five newsletter subject lines and a 150-word product description. The tool drafts them in seconds. The freelancer then spends 10 minutes checking facts, adjusting the tone and removing one product feature the tool made up. That is still faster than starting from a blank page, but the review step is essential.",
+  "common_mistake": "Copying AI-generated content directly into published work, client documents or financial decisions without checking the facts, numbers and sources.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "AI Hallucination",
+    "Prompt Engineering",
+    "Machine Learning",
+    "Token (AI)"
+  ],
+  "title": "Generative AI",
+  "slug": "generative-ai",
+  "published": "2026-10-08T09:18:03+00:00"
+}
