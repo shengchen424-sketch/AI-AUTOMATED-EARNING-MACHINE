@@ -13,8 +13,7 @@ SECTION_ZH = {
     "Banking & Money": "银行与理财",
     "Accounting & Business": "会计与商业财务",
     "Self-Development": "自我提升",
-    "AI & Money": "AI 与理财",
-    "AI & Productivity": "AI 与效率（旧）",
+    "AI & Tech": "AI 与科技",
 }
 
 
