@@ -1,0 +1,258 @@
+{
+  "title": "What Happens to My Crypto If an Exchange Goes Bankrupt? 8 Steps",
+  "meta_description": "What happens to my crypto if an exchange goes bankrupt? See how claims work, why it's usually not insured, and 8 steps to cut your risk.",
+  "quick_answer": "If a crypto exchange goes bankrupt, withdrawals are usually frozen and you may become an unsecured creditor holding a claim, not coins. Recovery can take years and may return less than you held. The outcome depends on the terms of service, whether customer assets were segregated, and local insolvency law. Exchange balances generally aren't covered by deposit insurance. Coins in your own wallet aren't part of the bankruptcy.",
+  "key_takeaways": [
+    "If an exchange goes bankrupt, its customers may become unsecured creditors. That can mean waiting years and getting back less than they held.",
+    "Your position depends on three things: the terms of service, whether customer assets were actually kept separate, and which country's insolvency law applies.",
+    "Crypto on an exchange is generally not covered by deposit insurance such as the FDIC (US) or the FSCS (UK).",
+    "Proof-of-reserves reports are snapshots, not audits. They don't prove an exchange can pay all its debts.",
+    "A common way to limit exposure is to keep only a working trading balance on exchanges, use self-custody only if you can secure the keys, and export your records regularly.",
+    "Crypto ETFs change who holds the coins. They don't reduce crypto's volatility or the risk of large losses."
+  ],
+  "who_this_is_for": "This guide is for anyone who keeps crypto on an exchange, trading app or yield platform and wants to understand, and reduce, what they could lose if that company fails.",
+  "intro": "Crypto exchanges have failed before. Mt. Gox, Celsius and FTX all froze customer accounts, and each bankruptcy took years to work through. If you keep crypto on an exchange or app, the useful question isn't how popular your platform is. It's what legal position you'd be in if the platform failed. The short answer is that you might not get your coins back quickly, or in full. This guide explains why. It shows you how to check your own exposure step by step, how to read the parts of the terms of service that matter, and what to do if withdrawals are ever frozen. Remember that crypto is volatile and you can lose your entire investment. This is general information, not legal, tax or financial advice. Rules and tax treatment differ by country, so check with your local regulator or a licensed professional before making personal decisions.",
+  "steps": [
+    {
+      "name": "List every place you hold crypto",
+      "text": "Make a simple inventory with one row per platform. Use these columns: platform, the legal entity that runs your account, country, assets and rough value, product type (spot, earn, staking or lending) and the date you checked. The legal entity is usually named in the terms of service or the website footer. You can't manage exchange risk until you know how much of your crypto third parties hold."
+    },
+    {
+      "name": "Read the custody clauses in each user agreement",
+      "text": "Open each platform's terms and press Ctrl+F (Cmd+F on a Mac) to search for 'title', 'segregated', 'lend', 'insolvency' and 'governing law'. Note whether you keep ownership of your crypto, whether it's held separately from company assets, and whether the platform can lend it out. Save a dated PDF of the terms, plus any separate terms for earn or staking products."
+    },
+    {
+      "name": "Set a working trading balance",
+      "text": "Decide how much you realistically need on each exchange for near-term trading. For example, this might be what you expect to use in the coming weeks, but the right amount is personal. Anything above that counts as long-term holdings that don't need to sit on a platform. You can decide separately whether to move them into self-custody or hold them some other way."
+    },
+    {
+      "name": "Set up and back up a self-custody wallet (if you choose one)",
+      "text": "Download a well-known software wallet only from its official website or app store, or buy a hardware wallet directly from the manufacturer or an authorised seller. Write the seed phrase on paper or metal and store it offline. Never photograph it, type it into a website or share it. If you're not confident you can protect a seed phrase, self-custody may add more risk than it removes."
+    },
+    {
+      "name": "Send a small test withdrawal",
+      "text": "Before moving a large amount, send a small test first. Choose the same network on the exchange and in the wallet, and add a memo or destination tag if the coin needs one. Check the whole address character by character, not just the first and last few. 'Address poisoning' scams plant lookalike addresses in your transaction history. Check the withdrawal fee before you send, because fees vary."
+    },
+    {
+      "name": "Secure your exchange account and move long-term holdings",
+      "text": "Once the test arrives, withdraw your long-term holdings. In the exchange's security settings, use an authenticator app or security key instead of SMS codes. If the exchange offers withdrawal-address allowlisting, turn it on so funds can only go to addresses you've approved in advance. Some exchanges make you wait before a new address can be used, which is another reason to set this up early."
+    },
+    {
+      "name": "Export and store your records",
+      "text": "In your account settings, look for 'Transaction history', 'Statements' or 'Reports'. Export everything as CSV files, including trades, deposits, withdrawals, fees and rewards. Add dated screenshots of your balances that show your account ID. Keep copies in two places you control. These records support any bankruptcy claim and your tax reporting."
+    },
+    {
+      "name": "Review on a schedule",
+      "text": "Set a monthly or quarterly calendar reminder. Each time, export fresh records, check the latest proof-of-reserves report and the platform's regulatory status, and look for changes to the terms of service and for the warning signs covered in this guide. Then bring your exchange balances back to your working amount."
+    }
+  ],
+  "comparison": {
+    "caption": "How different ways of holding crypto compare if the company in the middle fails (general structures only; details vary by provider and country, so check each provider's terms)",
+    "headers": [
+      "Way of holding",
+      "Who controls the crypto",
+      "If the provider fails",
+      "Main risks to weigh"
+    ],
+    "rows": [
+      [
+        "Standard exchange account (custodial)",
+        "The exchange holds the keys; you have an account balance",
+        "Depends on the terms, segregation and jurisdiction; you may be an unsecured creditor facing delays",
+        "Insolvency, withdrawal freezes, hacks, account lockouts, price volatility"
+      ],
+      [
+        "Exchange earn, lending or yield products",
+        "The exchange, or third parties it lends to",
+        "The terms may transfer ownership to the platform, which can leave you in a weaker position",
+        "Lending losses, lock-up periods, insolvency, price volatility"
+      ],
+      [
+        "Crypto bought in a fintech or broker app",
+        "The app or a partner custodian; some apps don't let you move coins out",
+        "Depends on the terms of both the app and its custody partner, so the failure of either company could affect you",
+        "Insolvency of the app or partner, limited withdrawal options, fees, price volatility"
+      ],
+      [
+        "Self-custody wallet (software or hardware)",
+        "You hold the private keys and seed phrase",
+        "Coins in your wallet aren't part of the exchange's bankruptcy estate",
+        "Lost seed phrase, theft, phishing, user error, usually with no way to recover funds"
+      ],
+      [
+        "Crypto ETF or ETP in a brokerage account",
+        "A fund custodian holds the crypto; you own fund shares",
+        "Fund assets are generally held by a separate custodian; a broker failure is handled under securities rules where they apply",
+        "Full crypto price volatility, fund fees, custodian concentration, coins usually can't be withdrawn"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What happens to my crypto if an exchange goes bankrupt?",
+      "paragraphs": [
+        "If a crypto exchange goes bankrupt, your account is usually frozen while a court or appointed administrator works out what the company owns and who it owes. You may end up as an unsecured creditor, meaning you hold a legal claim against the company rather than coins you can simply withdraw.",
+        "An unsecured creditor is someone who is owed money but has no specific asset pledged to guarantee repayment. In many insolvency systems, unsecured creditors are paid only after secured lenders and priority costs, such as administrators' and lawyers' fees. They then share whatever is left. That can mean a long wait and getting back only part of what you're owed.",
+        "Whether exchange customers are treated as owners of their crypto or as unsecured creditors usually depends on three things. These are the terms of service, how customer assets were actually held, and which country's insolvency law applies to the company you signed up with.",
+        "Owning your crypto on paper only helps if the coins still exist. If an exchange lent out, lost or misused customer assets, even customers whose terms say they own their crypto may have to share the shortfall with everyone else.",
+        "How claims are valued also matters. In some bankruptcies, crypto claims have been converted into regular currency at their value on the date the bankruptcy was filed. In the FTX case, customer claims were valued in US dollars as of the November 2022 filing, so customers did not benefit from crypto price rises after that date.",
+        "This is general information about how past exchange bankruptcies have worked. It is not a prediction for any future case and not legal advice. If you're caught up in a real exchange failure, speak to a qualified insolvency lawyer in your jurisdiction."
+      ],
+      "bullets": [
+        "Terms of service: whether the contract says you keep ownership (title) of your crypto or transfer it to the platform.",
+        "How the assets were actually held: kept separate for customers, mixed with company funds, lent out, or missing.",
+        "Jurisdiction: which country's insolvency rules apply. This depends on the legal entity named in your contract, not the brand name on the app."
+      ]
+    },
+    {
+      "heading": "Custodial vs. self-custody: who actually holds your crypto",
+      "paragraphs": [
+        "Custodial means a company holds the private keys that control your crypto. Self-custody means you hold those keys yourself. This difference decides whether an exchange bankruptcy can affect your coins at all.",
+        "On a typical exchange, your coins sit in wallets the exchange controls. These are often pooled 'omnibus' wallets that hold many customers' assets together. Your balance is the exchange's internal record of what it owes you. You get convenience, such as instant trades, password resets and customer support. But your access depends on the company staying solvent, honest and running.",
+        "With self-custody, you control the keys through a software wallet (an app) or a hardware wallet (a dedicated device). The wallet is backed up by a recovery phrase, also called a seed phrase, which is usually 12 or 24 words. Crypto in your own wallet isn't on an exchange's books, so it isn't part of the exchange's bankruptcy estate.",
+        "The trade-off is that security becomes entirely your job. If you lose your seed phrase or someone tricks you into revealing it, there is usually no company, court or support team that can get your funds back. Self-custody swaps the risk of an exchange failing for the risk of your own mistakes. It doesn't remove risk."
+      ],
+      "bullets": [
+        "Custodial: easy trading, account recovery and support. But you're exposed to insolvency, withdrawal freezes, hacks and account lockouts.",
+        "Self-custody: those coins aren't exposed to an exchange bankruptcy. But you alone are responsible for your keys, your backups and avoiding scams.",
+        "Seed phrase rules: keep it offline on paper or metal, never photograph it or type it into a website, and never share it. No genuine support agent will ever ask for it.",
+        "'Not your keys, not your coins' is a popular saying. It's right about custody risk, but it ignores the real risk of losing your own keys."
+      ]
+    },
+    {
+      "heading": "Why exchange balances aren't protected like bank deposits",
+      "paragraphs": [
+        "Crypto held on an exchange is generally not covered by government deposit insurance. Those schemes protect deposits at banks that fail, not crypto held by non-bank companies.",
+        "In the US, FDIC insurance protects deposits at insured banks if the bank fails. It doesn't cover crypto, and it doesn't protect you if a crypto company fails. SIPC protection at member brokerage firms covers missing securities and cash up to set limits. It generally doesn't cover crypto that isn't a registered security, and it never covers market losses. In the UK, the Financial Services Compensation Scheme (FSCS) generally doesn't cover crypto either. Schemes in other countries typically have similar limits.",
+        "Some exchanges say customer cash (dollars, not crypto) is held at partner banks in a way that may qualify for 'pass-through' deposit insurance. Where this applies, it protects you if the partner bank fails, not if the exchange fails. It also depends on specific record-keeping conditions being met. Treat it as something to check, not a promise.",
+        "Regulation is changing, and new rules can help. In the EU, the Markets in Crypto-Assets Regulation (MiCA) requires licensed providers that hold client crypto to keep it legally separate from their own assets. The aim is that the provider's creditors can't claim that crypto if the provider becomes insolvent. These rules are not a government-backed guarantee, and they only protect you if the specific company you deal with is covered.",
+        "To check a platform's status, search your local regulator's public register. Examples include the FCA register in the UK and ESMA's register of MiCA-authorised providers in the EU. Check what the registration actually covers. Some registrations are for anti-money-laundering purposes only and say nothing about a company's financial strength."
+      ],
+      "bullets": [
+        "Deposit insurance schemes (FDIC, FSCS and similar) are designed for bank deposits, not crypto.",
+        "Exchange 'insurance' or 'protection funds' are private arrangements. Check which events they cover, the limits, and whether insolvency is included. Many focus on events such as hacks or theft.",
+        "A licence can improve your position, but it doesn't guarantee you'll get everything back."
+      ]
+    },
+    {
+      "heading": "What to look for in an exchange's terms of service",
+      "paragraphs": [
+        "The terms of service are the contract that may decide whether a bankruptcy court treats your crypto as yours or as the exchange's property. Read the clauses on custody, ownership and insolvency before you deposit a significant amount.",
+        "This has already decided real cases. In the Celsius bankruptcy, a US court ruled in January 2023 that crypto in the company's 'Earn' program belonged to the bankruptcy estate under its terms of use. Accounts in its separate custody program were treated differently. It was the same company, but different product terms led to very different outcomes for customers.",
+        "To find the relevant clauses quickly, open the user agreement and use your browser's find function (Ctrl+F, or Cmd+F on a Mac) to search for the words in the list below. Then read the paragraphs around them. Clear wording that you keep ownership and that assets are held separately is a better sign than silence. It still isn't a guarantee, because a court decides how the contract applies and the assets still have to actually be there.",
+        "Platforms update their terms, sometimes in the middle of a crisis. Save a dated PDF of the version you agreed to, plus any separate terms for earn, staking or lending products. Then write down five facts in a simple record: the legal entity, the governing law, what the ownership clause says, what the segregation clause says, and whether lending is allowed."
+      ],
+      "bullets": [
+        "'Title' or 'ownership': do you keep title to your crypto, or does it pass to the platform?",
+        "'Segregated', 'trust' or 'for the benefit of': is customer crypto held separately from company assets?",
+        "'Lend', 'pledge' or 'rehypothecate' (reuse as collateral): can the exchange lend out or reuse your crypto?",
+        "'Earn', 'staking' or 'yield': do these products have their own terms that change ownership or lock up your funds?",
+        "'Insolvency' or 'bankruptcy': does the agreement say what happens if the company fails?",
+        "'Entity' and 'governing law': which company is your contract with, and under which country's law?",
+        "'Suspend' or 'restrict': in what situations can the exchange pause withdrawals?"
+      ]
+    },
+    {
+      "heading": "Proof-of-reserves reports: what they show and what they don't",
+      "paragraphs": [
+        "A proof-of-reserves report shows that an exchange controlled certain crypto at a particular moment. It does not prove the company is solvent, meaning able to pay all its debts.",
+        "Many exchanges build these reports with a Merkle tree. This is a cryptographic method that lets you confirm your own balance was included in the total owed to customers without revealing anyone else's balance. Some reports are checked by an accounting firm under limited 'agreed-upon procedures'. That is a much narrower check than a full financial audit.",
+        "To use a report, log in and look for a page with a name like 'Proof of reserves' or 'Verify my balance'. Check the report date and confirm your balance is included. Then note which coins and company entities the report covers, who prepared it, and what its limitations section says was not tested."
+      ],
+      "bullets": [
+        "It's a snapshot: assets could be borrowed for the reporting date and moved afterwards.",
+        "Debts are often missing: loans, other debts and legal claims may be left out, and proving solvency requires both assets and debts.",
+        "Control isn't ownership: being able to move funds from a wallet doesn't prove those funds aren't owed to someone else.",
+        "The scope may be limited: some reports cover only certain coins or certain parts of the company.",
+        "Treat a strong, recent, regularly updated report as one good sign among several, not a guarantee of safety."
+      ]
+    },
+    {
+      "heading": "How crypto ETFs differ in structure",
+      "paragraphs": [
+        "A crypto exchange-traded fund (ETF) holds crypto through a professional custodian, and you own shares in the fund through a brokerage account instead of holding coins on an exchange. This changes who holds the crypto. It doesn't change the price risk.",
+        "US spot bitcoin and ether ETFs are examples of this structure. The fund's crypto is generally held by a third-party custodian, separate from the fund manager's own assets, and your shares sit in your brokerage account. If a US brokerage firm fails, securities held there may be protected by SIPC up to its limits. That protection covers missing shares, not falling prices.",
+        "With an ETF, you still face crypto's full volatility, including large, fast price drops and the possibility of heavy losses. You pay an ongoing fund fee, and you generally can't withdraw the underlying coins. You can usually only trade during stock market hours, and you're relying on the custodian and the fund's structure to work as described.",
+        "Outside the US, crypto exposure is often sold as exchange-traded products or notes (ETPs or ETNs). Some of these notes are a debt owed by the company that issued them, which can add the risk of that company failing. Read the prospectus or key information document to see what backs the product. Availability, tax treatment and investor protections differ by country."
+      ],
+      "bullets": [
+        "You own fund shares, not coins, and you can't send them to a wallet.",
+        "A fund custodian holds the underlying crypto, not you or a crypto exchange.",
+        "An ETF is a different structure, not a safe version of crypto."
+      ]
+    },
+    {
+      "heading": "Warning signs an exchange may be in trouble",
+      "paragraphs": [
+        "No single sign proves an exchange is failing, but past collapses have often come after warning signs you can recognise and look into.",
+        "Celsius and FTX both paused customer withdrawals before they filed for bankruptcy in 2022. Once withdrawals are frozen, it's usually too late to act. That's why the habits in this guide work best as a regular routine rather than a reaction to bad news.",
+        "Exchange failure is only one of crypto's risks. Prices can fall sharply and tokens can lose all their value. Scams are common, including 'rug pulls', where a project's creators disappear with investors' money. A widely used rule of thumb is to invest only money you could afford to lose entirely."
+      ],
+      "bullets": [
+        "Withdrawals slow down, are 'temporarily' limited, or certain coins or currencies suddenly become unavailable.",
+        "Yields look far higher than elsewhere, and the explanation of where the returns come from is vague.",
+        "The exchange relies heavily on its own token, a problem highlighted in the FTX collapse.",
+        "Banking partners drop the platform, or regulators issue warnings or take enforcement action.",
+        "The terms of service suddenly change on ownership, lending or withdrawal rights.",
+        "Proof-of-reserves reports stop, cover less than before, or arrive late.",
+        "Senior executives leave suddenly, or customer support becomes much slower to respond."
+      ]
+    },
+    {
+      "heading": "What to do if your exchange freezes withdrawals or files for bankruptcy",
+      "paragraphs": [
+        "If an exchange pauses withdrawals or files for bankruptcy, your priorities are to stop sending it money, keep evidence of your balance, and use only official channels for your claim.",
+        "Expect the process to be slow. Mt. Gox collapsed in 2014 and only began repaying creditors in 2024. FTX filed in November 2022, and its first customer payments began in early 2025. Every case is different, and past timelines don't predict future ones.",
+        "Withdrawals made shortly before a bankruptcy filing can sometimes be challenged. In some jurisdictions, the bankrupt company's estate can try to recover payments made during a 'look-back' period as preferential transfers. In the US, that period is generally 90 days before the filing, or one year for insiders. Legal defences exist, so speak to an insolvency lawyer if this affects you.",
+        "How losses from a bankrupt exchange are treated for tax depends on your country, and it can depend on when the loss is considered final. Keep your records and ask a tax professional before you report anything."
+      ],
+      "bullets": [
+        "Stop depositing, and never send money to 'unlock' withdrawals. That is a classic scam.",
+        "Save evidence while the site still works: CSV exports, statements, dated screenshots showing your account ID, and emails.",
+        "Find the official source, such as court filings or the appointed trustee, administrator or claims agent. Type their web address yourself instead of clicking links.",
+        "Note the deadline for filing a claim, often called the bar date, and file on time with your supporting records.",
+        "Be ready for identity checks and tax forms. In the FTX case, customers had to complete these before they could receive payments.",
+        "Watch for recovery scams, such as 'fund recovery' services that charge upfront fees and fake claims portals that ask for your seed phrase or login."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping an organised, dated log in one place: your exchange inventory, saved terms-of-service PDFs, proof-of-reserves links, support tickets and claim deadlines. If you ever need to file a bankruptcy claim or prepare tax records, your evidence is ready.",
+      "not_for": "Storing seed phrases, private keys or passwords. Never put these in Notion or any other cloud app. It also does nothing to protect your crypto itself, and you don't need it if a simple spreadsheet and folder already work for you. Check current plans and account security options, such as two-step verification, on Notion's site."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is my crypto insured if an exchange goes bankrupt?",
+      "answer": "Generally, no. Government deposit insurance, such as the FDIC in the US or the FSCS in the UK, is designed for bank deposits, not crypto held by exchanges. Some exchanges advertise private insurance or protection funds, but these often cover specific events such as hacks rather than insolvency. Check the exact terms and limits on the exchange's site."
+    },
+    {
+      "question": "Will I get my crypto back or just its cash value?",
+      "answer": "It depends on the case and the jurisdiction. In the FTX case, claims were valued in US dollars as of the November 2022 filing date, so customers missed out on later price rises. Mt. Gox, by contrast, repaid many creditors partly in crypto. Nobody can promise which approach a future case will take."
+    },
+    {
+      "question": "How long does it take to get money back from a bankrupt crypto exchange?",
+      "answer": "It can take years. Mt. Gox collapsed in 2014 and began repayments in 2024, while FTX filed in November 2022 and began paying customers in early 2025. Timelines depend on how complex the case is, the jurisdiction and how much can be recovered."
+    },
+    {
+      "question": "What should I do if my exchange freezes withdrawals?",
+      "answer": "Stop depositing, save evidence of your balance (CSV exports, statements and dated screenshots), and follow only official announcements from the exchange or, if it files for bankruptcy, the court-appointed administrator or claims agent. Never pay anyone who offers to 'unlock' or recover your funds for a fee, and never share your seed phrase or login. If a significant amount is involved, get advice from an insolvency lawyer."
+    },
+    {
+      "question": "Can a bankrupt exchange claw back withdrawals I made before it failed?",
+      "answer": "In some jurisdictions, yes. A bankruptcy estate can sometimes challenge payments made shortly before the filing as 'preferential transfers'. In the US, the look-back period is generally 90 days, or one year for insiders. Legal defences exist and outcomes vary, so speak to an insolvency lawyer if you receive a demand."
+    },
+    {
+      "question": "Are crypto ETFs safer than keeping crypto on an exchange?",
+      "answer": "Their risks are different, not absent. With an ETF, a fund custodian holds the crypto and you own shares in a brokerage account, so you aren't directly exposed to a crypto exchange failing. You still face crypto's full price volatility, fund fees and the fund's own structural risks, and you can't withdraw the coins."
+    }
+  ],
+  "conclusion": "If an exchange goes bankrupt, your crypto may be frozen and turned into a claim. You could wait years and get back less than you held, possibly valued at the filing date rather than today's price. How you're treated depends on the terms of service, whether customer assets were really kept separate, and which country's insolvency rules apply. You can't control how an exchange is run, but you can control how much you're exposed to it. List where your crypto is, read the custody clauses, and keep only a working balance on exchanges. Use self-custody only if you can protect a seed phrase, treat reserve reports as one signal rather than a guarantee, and export your records on a schedule. Crypto is volatile and can lose all its value, scams are common, and protections are different from those for regulated bank deposits. Rules and tax treatment vary by country, so for decisions about your own situation, check with your local regulator or speak to a licensed adviser or lawyer. This article is general information, not legal, tax or financial advice.",
+  "keyword": "what happens to my crypto if an exchange goes bankrupt",
+  "niche": "crypto basics, risks and crypto ETFs",
+  "version": 2,
+  "slug": "what-happens-to-my-crypto-if-an-exchange-goes-bankrupt-8-steps",
+  "published": "2026-10-08T12:27:55+00:00"
+}

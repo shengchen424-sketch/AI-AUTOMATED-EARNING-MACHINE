@@ -1,0 +1,22 @@
+{
+  "term": "Embeddings",
+  "section": "AI & Tech",
+  "short_definition": "Embeddings are lists of numbers that represent the meaning of text, images or other data, so that similar items end up close together and AI systems can compare them mathematically.",
+  "explanation": [
+    "An embedding model turns a piece of content, such as a sentence, a document chunk or a product photo, into a vector, often hundreds or thousands of numbers long. Content with similar meaning produces vectors that sit close together even when the wording differs. For example, 'How do I reset my password?' and 'I forgot my login' would land near each other.",
+    "Embeddings matter because they power semantic search, recommendations, duplicate detection and retrieval-augmented generation (RAG), where an AI system finds the most relevant passages in your documents before answering. They are usually stored in a vector database so similar items can be found quickly.",
+    "The trade-off is that embeddings measure similarity, not truth, so the closest match isn't always the right answer. Results depend heavily on the embedding model and on how documents are split into chunks, and switching models usually means re-embedding everything. Sending sensitive documents to a third-party embedding service also raises privacy questions, so check the provider's data policies."
+  ],
+  "example": "Example (illustrative numbers): A help center turns each of its 500 articles into an embedding. A customer types 'my card got declined abroad.' The system embeds the question, finds the 3 articles whose vectors are closest, such as 'Using your card overseas' and 'Why payments fail', and shows them, even though none of them contains the word 'declined'.",
+  "common_mistake": "Assuming a high similarity score means the retrieved text is correct or up to date. You still need good source content and checks on what gets shown to users or passed to an AI.",
+  "related_terms": [
+    "Retrieval-Augmented Generation (RAG)",
+    "Large Language Model (LLM)",
+    "Machine Learning",
+    "Neural Network",
+    "Token (AI)"
+  ],
+  "title": "Embeddings",
+  "slug": "embeddings",
+  "published": "2026-10-08T12:42:18+00:00"
+}

@@ -1,0 +1,240 @@
+{
+  "title": "Should Freelance Writers Disclose AI Use to Clients? + Templates",
+  "meta_description": "Should freelance writers disclose AI use to clients? Usually yes, in writing. Get a 3-level policy, contract clauses and scripts for AI-ban clients.",
+  "quick_answer": "Yes, in most cases. Freelance writers should tell clients in writing, before work starts, whether and how they use AI tools. Disclosure keeps you within contract terms and publication policies, protects confidential client material and avoids lost trust if a client discovers AI use later. A simple three-level policy (no AI, AI for research and editing only, or AI-assisted drafting with human rewrite) makes it easy.",
+  "key_takeaways": [
+    "Tell clients about your AI use in writing before work starts. Don't wait for them to ask or find out.",
+    "Give every project one of three levels: No AI; AI for research and editing only; or AI-assisted drafting with human rewrite.",
+    "Put the level in each project's statement of work, and get an explicit 'Confirmed' reply to your onboarding message.",
+    "Never paste confidential client material into an AI tool unless you have written permission and have checked the tool's data settings.",
+    "If a client bans AI, ask whether Grammarly and built-in assistants count, then follow the answer exactly.",
+    "AI and copyright rules vary by country. This is general information, so have a lawyer review your clauses."
+  ],
+  "who_this_is_for": "This guide is for freelance writers, copywriters and content marketers who use AI tools, or are deciding whether to, and want a professional, written way to tell clients without losing work or trust.",
+  "intro": "Sooner or later, a client will ask whether you used AI. If the first they hear of it is after delivery, even excellent work can start to look like a confession. The fix is simple: set your AI policy before the project starts, put it in writing and get the client to agree to it. This guide gives you a direct answer and the reasons behind it. It also includes a three-level disclosure framework, contract clauses you can copy, onboarding and delivery messages, and a script for clients who ban AI, including how to handle Grammarly. Everything here is general information, not legal advice. Rules on AI, contracts and copyright vary by country.",
+  "steps": [
+    {
+      "name": "List every tool you actually use",
+      "text": "List every tool that touches your writing: chatbots, AI rewriting features, grammar checkers such as Grammarly, transcription services and AI assistants built into your word processor, email or workspace (for example, Copilot in Microsoft Word or Gemini in Google Docs). You can't describe your process accurately until you know everything that's in it."
+    },
+    {
+      "name": "Choose your default level",
+      "text": "Decide which of the three levels you normally work at: Level 1 (No AI), Level 2 (AI for research and editing only) or Level 3 (AI-assisted drafting with human rewrite). Treat your default as a starting offer. Each client can still choose a different level for each project."
+    },
+    {
+      "name": "Check the client's rules before you quote",
+      "text": "Search the client's contract, style guide and brief for terms like 'AI', 'artificial intelligence', 'original', 'sole author' and 'confidential'. Ask where the content will be published, because many outlets have their own AI policies. Also ask whether it will run under someone else's name."
+    },
+    {
+      "name": "Check data settings on every AI tool",
+      "text": "Open each tool's privacy or data controls and find out whether what you type in is stored, for how long, and whether it can be used to train models. In ChatGPT, for example, these settings have been under Settings > Data controls; confirm the current location on the vendor's site. Business plans may have different terms from free ones. Never paste confidential client material into any AI tool without the client's written permission."
+    },
+    {
+      "name": "Add the matching clause to the statement of work",
+      "text": "Put the agreed level and a client-materials clause in the contract or statement of work for each project. Have a qualified lawyer in your country review your template once before you rely on it."
+    },
+    {
+      "name": "Send the onboarding message and get a reply",
+      "text": "Before any research or drafting starts, send a plain-language message that states your level and asks the client to confirm. Ask for an explicit reply such as 'Confirmed'; don't treat silence as agreement. Save the reply with the project files."
+    },
+    {
+      "name": "Keep a light record of your process",
+      "text": "Draft in Google Docs (File > Version history > See version history) or in Word files saved to OneDrive or SharePoint, where version history is available. Log which tools you used on each deliverable, and add a one-line AI note when you deliver."
+    },
+    {
+      "name": "Re-confirm when anything changes",
+      "text": "If you want to use more AI, the scope changes or the client updates its policy, confirm the level again in writing before you continue."
+    }
+  ],
+  "comparison": {
+    "caption": "The three AI disclosure levels compared",
+    "headers": [
+      "Level",
+      "What AI may do",
+      "What stays 100% human",
+      "Good fit for",
+      "Main risk to manage"
+    ],
+    "rows": [
+      [
+        "Level 1: No AI",
+        "Nothing. Basic spell-check only if the client explicitly approves it",
+        "Research, outlining, drafting, editing and fact-checking",
+        "Clients that ban AI, publications with no-AI policies, ghostwriting, regulated topics",
+        "Using AI by accident through assistants built into everyday apps"
+      ],
+      [
+        "Level 2: AI for research and editing only",
+        "Brainstorm angles, summarize public sources, transcribe approved interviews, suggest line edits",
+        "Every sentence of the draft, all fact-checking and the final edit",
+        "Most B2B content, blogs and newsletters where the client wants your voice",
+        "Unchecked AI summaries slipping in as facts; confidential material ending up in prompts"
+      ],
+      [
+        "Level 3: AI-assisted drafting with human rewrite",
+        "Produce outlines and partial first drafts",
+        "Heavy rewriting, original examples, fact-checking, brand voice and responsibility for the final piece",
+        "Internal docs, product descriptions and high-volume content where the client approves AI",
+        "Generic voice, factual errors and limited copyright protection for AI-generated material"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Should freelance writers disclose AI use to clients? Usually, yes",
+      "paragraphs": [
+        "Freelance writers should usually disclose AI use to clients in writing before the project starts. Treat it as part of your scope of work, like turnaround time or revision rounds, because it tells the client exactly what they're buying and how it will be made.",
+        "When you tell them matters more than how you word it. An AI policy shared before work begins is a professional standard the client can accept, adjust or decline. The same facts revealed after delivery can look like something you hid.",
+        "The main gray area is everyday tools such as spell-check, grammar suggestions, transcription and assistants built into word processors. Many clients don't count these as 'AI use,' but some do. The safe default is to name the tools you use and let the client decide."
+      ],
+      "bullets": [
+        "Always disclose when your contract or the client's style guide mentions AI, originality or sole authorship.",
+        "Always disclose when an outlet with its own AI policy will publish the work.",
+        "Always disclose when you'll handle confidential material such as interview transcripts, unreleased product details or customer data.",
+        "Always disclose when you're ghostwriting under someone else's name, because their reputation depends on the words.",
+        "Always disclose when AI will be used for any part of drafting, not just research or editing."
+      ]
+    },
+    {
+      "heading": "Five reasons disclosure protects you and your client",
+      "paragraphs": [
+        "Disclosing AI use protects you because AI affects five things clients care about: their contracts, their publishers' rules, their search performance and brand voice, their confidential information and their trust in you.",
+        "None of these risks means AI is off-limits. They mean the client should get to make an informed choice about their own content, and you should have a written record showing you did what was agreed."
+      ],
+      "bullets": [
+        "Contracts: Many freelance agreements and agency statements of work now include AI terms. These can be an outright ban, a requirement to disclose, or a warranty (a formal promise) that the work is original and written by you. Breaching them can cost you payment or the client, so read the warranty and confidentiality sections of every new contract.",
+        "Publication policies: Many magazines, journals, trade outlets and platforms restrict or ban AI-generated submissions. If your client places your work with one of them, your AI use becomes their problem. Ask where the piece will run and read that outlet's contributor guidelines.",
+        "SEO and brand voice: Google's public guidance says it rewards helpful, people-first content however it's produced. Its spam policies target content mass-produced mainly to manipulate rankings. Many clients also worry that AI-drafted copy sounds generic. Disclosure gives you a chance to explain how you protect quality and voice.",
+        "Confidentiality: Pasting client drafts, transcripts, customer data or unreleased plans into an AI tool shares that material with an outside service. Depending on the tool, plan and settings, it may be stored or used to improve the tool's models. Many NDAs forbid sharing with third parties without permission.",
+        "Trust: Some clients run finished work through AI detectors, which are unreliable and can flag human writing as AI-generated. A surprise flag on work you never disclosed damages the relationship. If the work followed a policy you both agreed in advance, the flag isn't a problem."
+      ]
+    },
+    {
+      "heading": "The 3-level AI disclosure framework",
+      "paragraphs": [
+        "The simplest way to disclose AI use is to give every project one of three levels, so the client knows exactly what AI did and didn't touch.",
+        "The levels are a menu, not a ranking of virtue. You might work at Level 1 for a legal publisher that bans AI, Level 2 for a software company's blog and Level 3 for a client's internal help docs. What matters is that each client agrees to a level in writing and you stick to it.",
+        "Define 'AI' once in your policy. Use it to mean generative tools that create, summarize or rewrite text, such as chatbots and AI rewriting features. List helper tools like spell-checkers, transcription software and built-in assistants separately, so the client can approve or reject each one."
+      ],
+      "bullets": [
+        "Level 1 (No AI): No generative AI at any stage, including research, outlining, drafting, rewriting and summarizing. You use basic spell-check only if the client explicitly approves it. Client material never goes into an AI tool.",
+        "Level 2 (AI for research and editing only): AI may help you brainstorm angles, summarize public sources that you then check against the originals, transcribe client-approved interviews and suggest line edits. You write every sentence of the draft and never cite AI output as a source.",
+        "Level 3 (AI-assisted drafting with human rewrite): AI may produce outlines or partial first drafts. You rewrite and restructure them heavily, add your own examples, fact-check every claim, match the brand voice and take full responsibility for the final piece.",
+        "Changing levels: Get the client's written approval before you use more AI mid-project. If you're switching to less AI, a quick heads-up is enough."
+      ]
+    },
+    {
+      "heading": "Sample AI contract clauses for each level",
+      "paragraphs": [
+        "Add one AI clause to your contract or statement of work that matches the project's level. Then add a second clause on client materials and changes, which applies at every level.",
+        "The wording below is a plain-English starting point, not legal advice. Contract law, copyright and AI rules vary by country, so have a qualified lawyer where you work review these clauses before you rely on them.",
+        "Put the level in each project's statement of work, not only in a master agreement. That way, a client who hires you for different kinds of work can approve a different level for each one."
+      ],
+      "bullets": [
+        "Level 1 clause: \"AI Use (Level 1: No AI). Writer will not use generative artificial intelligence tools, including AI chatbots and AI writing, rewriting or summarizing features, to research, outline, draft, rewrite or edit the Deliverables. Writer may use standard spelling and grammar checking only if Client approves in writing. Writer will not enter any Client Materials into an AI tool.\"",
+        "Level 2 clause: \"AI Use (Level 2: Research and Editing Only). Writer may use AI tools for background research on publicly available information, idea generation, Client-approved interview transcription and line-level editing suggestions. Writer will personally write all text in the Deliverables, will verify all facts, statistics and quotations against primary sources, and will not cite AI output as a source.\"",
+        "Level 3 clause: \"AI Use (Level 3: AI-Assisted Drafting). Writer may use AI tools to generate outlines and partial first drafts. Writer will substantially rewrite and edit all AI-generated text, verify all factual claims against primary sources and apply Client's style guide. Writer remains responsible for the accuracy and originality of the Deliverables and will list the AI tools used on request. Client acknowledges that copyright protection for AI-generated material may be limited depending on jurisdiction.\"",
+        "Clause for every level: \"Client Materials and Changes. Writer will not enter confidential Client Materials into any AI tool unless Client approves the specific tool in writing and Writer has confirmed that its settings do not allow the material to be used for model training. Writer will obtain Client's written approval before increasing the level of AI use on any project.\""
+      ]
+    },
+    {
+      "heading": "Onboarding and delivery messages you can copy",
+      "paragraphs": [
+        "The best onboarding message states your AI level in plain language and asks the client to confirm by reply. That reply becomes your written record.",
+        "Send it with your proposal or kickoff email, before any research or drafting. Ask for an explicit reply such as 'Confirmed,' save the thread with the project files and adjust the wording so it sounds like you. Every message needs four things: the level, what stays human, how you'll handle client material and a request for confirmation.",
+        "Close the loop at delivery with a one-line AI note. It reminds the client what was agreed and shows you followed it."
+      ],
+      "bullets": [
+        "Level 1 message: \"Quick note on AI before we start: I'll research and write this project entirely myself, with no AI chatbots or AI rewriting tools, and your materials won't go into any AI tool. I'd like to run a standard spell-check on the final draft, but let me know if you'd prefer I skip that too. Could you reply 'Confirmed' so we're aligned?\"",
+        "Level 2 message: \"Before we kick off, here's how I use AI: I sometimes use AI tools to brainstorm angles, summarize public background sources (which I then check against the originals) and suggest line edits. I write every sentence you receive and verify every fact against a primary source. Your confidential materials won't go into any AI tool without your written OK. Could you reply 'Confirmed' if that works?\"",
+        "Level 3 message: \"Here's my process for this project: I'll use AI to produce an outline and rough first draft. Then I'll rewrite it heavily in your brand voice, add my own examples and fact-check every claim. I take full responsibility for the final piece. One thing to know: copyright protection for AI-generated text can be limited, depending on the country. If you'd rather I write from scratch, I can quote for that instead. Please reply to confirm which you prefer.\"",
+        "Delivery note (any level): \"AI note: This draft was produced at Level 2. Tools used: [chatbot name] to brainstorm headline options; Grammarly for spelling and grammar. I wrote and fact-checked every sentence, and the sources are linked in the comments.\""
+      ]
+    },
+    {
+      "heading": "How to handle clients who ban AI tools (including Grammarly)",
+      "paragraphs": [
+        "If a client bans AI, follow the ban exactly. Then confirm in writing which everyday tools it covers, especially grammar checkers like Grammarly.",
+        "Grammarly is the most common gray area because it does two different jobs. Its traditional features flag spelling, grammar and punctuation errors. Its generative AI features can rewrite sentences, change the tone or produce new text. A client who says 'no AI' might mean only chatbots drafting copy, or it might mean any AI-powered service that processes their text. Don't guess. Ask.",
+        "The same question applies to AI transcription services, autocomplete in email and document editors, and assistants built into word processors and workspaces. List the ones you use and let the client decide on each one.",
+        "Here's a script you can adapt: \"Thanks for sharing your AI policy. I'll follow it fully. To be precise, I won't use AI chatbots, AI rewriting or AI summarizing tools on your project. I normally use Grammarly for spelling and grammar corrections only. Is that acceptable, or would you like me to switch it off for your work? Either way, I'll list the tools I used when I deliver.\""
+      ],
+      "bullets": [
+        "Ask one precise question that names your tools, rather than tucking a vague 'Is Grammarly OK?' into another email.",
+        "If the ban covers Grammarly, stop using it on that client's work. Check whether your plan lets you switch off its generative features. If you're not sure, use a basic built-in spell-checker or none at all.",
+        "Turn off built-in AI assistants for that client's documents where the app allows it, and check the setting again after software updates.",
+        "Keep version history on, so you can show how a draft developed if a detector flags it.",
+        "If the ban adds time (for example, because you have to transcribe interviews by hand), include that time in your quote rather than absorbing it."
+      ]
+    },
+    {
+      "heading": "Copyright, warranties and transparency rules: the legal fine print",
+      "paragraphs": [
+        "AI use can affect who owns the work, what you're promising and what you may need to label. Rules vary by country, so treat this section as general information, not legal advice.",
+        "Copyright: In the United States, the Copyright Office has said that copyright protects human authorship. Material generated by AI without enough human creative control isn't protected, but human-written text and creative human selection or arrangement can be. Most freelance contracts transfer copyright to the client, so AI-drafted sections could mean you're handing over less than the client assumes. That's another reason to disclose Level 3 work. Other countries take different approaches, and the law is still developing.",
+        "Warranties: Many contracts ask you to warrant, or formally promise, that the work is original and doesn't infringe anyone's rights. AI tools can confidently produce factual errors, made-up quotes and, occasionally, text that closely resembles existing material. You're responsible for the deliverable either way, so verify facts against primary sources and run an originality check when the client requires one.",
+        "Transparency rules: Some places are introducing rules on labeling certain AI-generated content. The EU AI Act, for example, includes transparency obligations. Exactly who these apply to, and from when, can be technical, so check current guidance for your market. If the client's instructions are stricter, follow them.",
+        "Personal data: If client material includes personal data, such as customer names, interview subjects or email lists, putting it into an AI tool may raise data protection issues as well as NDA ones. Ask the client before you include any personal data in a prompt."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Common AI disclosure mistakes to avoid",
+      "paragraphs": [
+        "The most common disclosure mistakes are vague wording, treating silence as agreement and changing how you work without telling the client. Each one is easy to fix with the templates above."
+      ],
+      "bullets": [
+        "Vague wording: 'I may use some AI tools' tells the client nothing. Name the level and the tools.",
+        "Treating silence as consent: An unanswered email isn't a written agreement. Ask for an explicit reply.",
+        "Silent drift: Moving from Level 2 to Level 3 mid-project without approval is the classic way to break trust.",
+        "Forgetting built-in assistants: If the client says 'no AI,' AI features in your word processor, email or workspace count too.",
+        "Citing AI as a source: Trace every fact, statistic and quote back to a primary source.",
+        "Over-apologizing: Present your policy as a quality standard, not a confession."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Grammarly",
+      "best_for": "Writers at Level 2 or 3, or at Level 1 with the client's explicit approval, who want spelling, grammar, clarity and tone checks. Grammarly also has generative rewriting features, so agree with each client which features are allowed. Check Grammarly's site for current plans and settings.",
+      "not_for": "Clients who ban all AI-powered tools or forbid sending confidential drafts to outside services. For those clients, use a basic built-in spell-checker or none at all."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping one tidy record per client in a reusable page or database. It can hold the agreed AI level, the saved confirmation, the tools used on each deliverable and your clause and message templates.",
+      "not_for": "Storing confidential material for clients who ban AI tools, unless you've checked how Notion's built-in AI features and data settings work on your plan. It also isn't a contract or e-signature tool."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I have to tell clients I use Grammarly?",
+      "answer": "If the client has an AI policy or a confidentiality agreement, yes. Name Grammarly and say which features you use. Basic spelling and grammar correction is often treated differently from generative rewriting, but some clients ban any AI-powered tool that processes their text. Even if there's no policy, mentioning it in one line of your onboarding message can prevent a dispute later."
+    },
+    {
+      "question": "Is it illegal for a freelance writer not to disclose AI use?",
+      "answer": "There's usually no single law requiring every freelancer to disclose AI use, but your contract may require it, and breaking it can cost you payment or the client. Some places are also introducing transparency rules for certain AI-generated content, and these vary by country. This is general information, not legal advice, so check with a lawyer where you work."
+    },
+    {
+      "question": "Can clients own copyright in AI-assisted writing?",
+      "answer": "It depends on the country and how much human creative work went into the piece. In the US, the Copyright Office has said purely AI-generated material isn't protected, while human-written parts and creative human selection and arrangement can be. Because rules differ elsewhere, tell clients if AI drafted any part of the work."
+    },
+    {
+      "question": "Will clients pay less if I disclose AI use?",
+      "answer": "Some may, especially if they assume AI makes the work trivial. Price based on what you deliver (research, judgment, voice, accuracy and accountability), and explain what stays human at each level. A client who only wants the cheapest possible text may not be a good fit anyway."
+    },
+    {
+      "question": "What should I do if I already used AI without telling a client?",
+      "answer": "First, re-read your contract to see what it says about AI, originality and confidential information. Then send your AI policy for future work and offer to answer questions about past work honestly. If the contract banned AI or you shared confidential material, consider getting legal advice before you reply."
+    },
+    {
+      "question": "Do AI detectors prove a writer used AI?",
+      "answer": "No. AI detectors give probability estimates and can flag human writing as AI-generated, so a result on its own isn't proof. Keep version history on in Google Docs or Word so you can show how your draft developed if a client questions your work."
+    }
+  ],
+  "conclusion": "Disclosing AI use isn't about apologizing for your tools. It's about agreeing on scope. Pick a level for each project, write it into the statement of work, confirm it with a short onboarding message, add a one-line AI note at delivery and keep a simple record of how you worked. When a client bans AI, follow the ban and settle gray areas like Grammarly in writing. Rules on AI, copyright and transparency vary by country and keep changing, so review your templates regularly and get legal advice for anything high-stakes.",
+  "keyword": "should freelance writers disclose ai use to clients",
+  "niche": "AI writing and content tools for freelancers",
+  "version": 2,
+  "slug": "should-freelance-writers-disclose-ai-use-to-clients-templates",
+  "published": "2026-10-08T12:24:27+00:00"
+}

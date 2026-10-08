@@ -1,0 +1,20 @@
+{
+  "term": "Two-Factor Authentication (2FA)",
+  "section": "AI & Tech",
+  "short_definition": "Two-factor authentication (2FA) is a login security method that requires two different types of proof, such as a password plus a code from your phone, before granting account access.",
+  "explanation": [
+    "2FA asks for two different kinds of proof when you log in. These can be something you know (a password or PIN), something you have (a phone, authenticator app or physical security key) or something you are (a fingerprint or face scan). Even if a criminal steals your password, they generally can't get in without the second factor. You can usually turn it on in an account's Security or Login settings.",
+    "2FA matters most for email, banking, brokerage and crypto exchange accounts, because your email often controls password resets for everything else. Methods differ in strength. SMS codes are better than nothing but can be stolen through SIM-swap attacks, authenticator apps are generally stronger, and hardware security keys or passkeys are among the most resistant to phishing. Deposit insurance covers a bank failing, not a criminal emptying a hacked account, and crypto stolen from an exchange or wallet is often impossible to recover, so account security is your first line of defense.",
+    "The trade-offs are a little extra friction and the risk of locking yourself out. If you lose your phone and have no backup codes, recovery can be slow, and for some services, such as certain crypto wallets, impossible. Store backup codes securely offline. Remember that 2FA doesn't stop every attack: scammers often try to trick people into reading out a code, so never share one with anyone who contacts you."
+  ],
+  "example": "Example (illustrative): A criminal gets your email password from a data breach at another website where you reused it. Because you use 2FA with an authenticator app, the login stops at the second step: they don't have the 6-digit code that changes every 30 seconds on your phone. If the service sends you a login alert, that's your cue to change the password everywhere you reused it.",
+  "common_mistake": "Turning on 2FA without saving backup codes or a recovery method, then getting locked out when your phone is lost, broken or replaced.",
+  "related_terms": [
+    "Cryptocurrency",
+    "Deposit Insurance",
+    "Credit Score"
+  ],
+  "title": "Two-Factor Authentication (2FA)",
+  "slug": "two-factor-authentication-2fa",
+  "published": "2026-10-08T12:42:18+00:00"
+}

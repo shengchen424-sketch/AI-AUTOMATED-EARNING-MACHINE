@@ -1,0 +1,268 @@
+{
+  "title": "How to Set Up the PARA Method in Notion: A 60-Minute Build",
+  "meta_description": "Learn how to set up the PARA method in Notion in about an hour: exact properties, filtered views, a dashboard and a simple monthly archive routine.",
+  "quick_answer": "To set up the PARA method in Notion, create one full-page database with five properties: Type (Project, Area, Resource), Status (including Archived), Deadline, an Area relation and Last edited time. Add filtered views for Active Projects, Overdue, Areas, Resources, Needs sorting and Archive, then put them on one dashboard page. Archive finished items monthly, and move old pages in only when you need them.",
+  "key_takeaways": [
+    "PARA sorts information by how soon you'll act on it. Projects have a finish line, Areas are ongoing, Resources are topics you save for later and Archives hold anything inactive.",
+    "For a solo build you can finish in an hour, use one Notion database with five properties: Type, Status, Area (relation), Deadline and Last edited.",
+    "Make Archived a Status value, not a Type. Each item keeps its category and comes back with one click.",
+    "Put the Active Projects, Overdue and Needs sorting views at the top of a PARA Home dashboard, and open that page at the start of every weekly review.",
+    "Don't migrate your old workspace. Move it all into one dated archive page and bring pages into PARA only when you need them.",
+    "Spend about 15 minutes a month archiving. If a simple task list already covers your work, skip PARA."
+  ],
+  "who_this_is_for": "This guide is for Notion users with several projects on the go and a growing pile of reference notes, such as freelancers, side-business owners, managers and students, whose workspace has become hard to navigate and who want a structure they can build in one sitting.",
+  "intro": "If your Notion sidebar has become a long scroll of half-finished pages, the PARA method gives it a structure you can build in one sitting. This guide takes about 60 minutes. It gives you the exact properties to add, the filtered views for an Active Projects dashboard, a monthly archive routine and a way to bring your existing workspace across without losing a weekend to migration.\n\nIt also answers honestly whether PARA is worth it for you. It works well if you juggle many projects and reference notes. If your work fits on a simple to-do list, it's overkill.\n\nNotion often changes its menus and plan features. If a button in your version has a slightly different name, use the closest match, and check any plan-specific feature on Notion's website.",
+  "steps": [
+    {
+      "name": "Choose your structure (5 minutes)",
+      "text": "Choose between one master database with a Type property and separate linked databases (see the comparison table). If you work alone and want to finish in an hour, choose the master database. The steps below build that version, and the section on linked databases explains what to change for the other one."
+    },
+    {
+      "name": "Create the PARA database and its properties (10 minutes)",
+      "text": "Create a new page, add a full-page table database (type /database and pick the full-page option) and name it PARA. Then add five properties. Type (Select) with the options Project, Area and Resource. Status (Status): rename the default 'In progress' option to Active, add On hold to the same group, and add Archived to the Complete group next to Done. Deadline (Date). Area (Relation) pointing to this same PARA database, with the two-way option turned on and the reverse property named Linked items. Last edited (Last edited time)."
+    },
+    {
+      "name": "Add your Areas first (10 minutes)",
+      "text": "Write down the ongoing responsibilities you couldn't comfortably drop, such as Finances, Health, Home, Day job, Side business or one area per client. Create a row for each one with Type = Area and Status = Active. Keep the list short enough to read at a glance, because you can always split an area later."
+    },
+    {
+      "name": "Add only your active projects (10 minutes)",
+      "text": "Add a row for each piece of work you're doing now or will start in the next few weeks. Set Type = Project, Status = Active or Not started, a Deadline (one you set yourself is fine) and an Area. Name projects as outcomes, like 'Publish pricing page', rather than topics. If something has no finish line, it's an Area, not a Project."
+    },
+    {
+      "name": "Seed a few Resources (5 minutes)",
+      "text": "Add three to five topics you already collect material on, with Type = Resource and Status = Active. Link an Area if one fits, and paste a few links or notes into each page. Don't import old notes yet. They come over gradually during the migration described later."
+    },
+    {
+      "name": "Build six filtered views (10 minutes)",
+      "text": "Click + next to the current view tab, choose Table, name the view and add each condition as a separate filter. Active Projects: Type is Project, Status is Active, sorted by Deadline (earliest first). Overdue: Type is Project, Status is not Done, Status is not Archived, Deadline is before Today. Areas: Type is Area, Status is not Archived. Resources: Type is Resource, Status is not Archived. Needs sorting: Type is empty. Archive: Status is Archived, sorted by Last edited (newest first)."
+    },
+    {
+      "name": "Assemble the PARA Home dashboard (5 minutes)",
+      "text": "Create a page called PARA Home. Type /linked, insert a linked view of the PARA database and choose the Active Projects view. Repeat this for Overdue and Needs sorting at the top of the page, then place Areas and Resources side by side in two columns below. Open the ••• menu and add PARA Home to Favorites so it stays at the top of your sidebar."
+    },
+    {
+      "name": "Add templates and schedule maintenance (5 minutes)",
+      "text": "Open the dropdown next to the database's New button and create three templates. The Project template sets Type = Project and Status = Not started and includes headings for Goal, Next step and Notes. Make similar templates for Area and Resource. Set the Project template as the default for the Active Projects view. Then add a recurring calendar reminder for the monthly archive routine."
+    }
+  ],
+  "comparison": {
+    "caption": "One master PARA database vs separate linked databases in Notion",
+    "headers": [
+      "Criterion",
+      "One master database (Type property)",
+      "Separate linked databases"
+    ],
+    "rows": [
+      [
+        "Setup time",
+        "Fastest: one database with one set of properties",
+        "Slower: several databases plus the relations between them"
+      ],
+      [
+        "Moving items between categories",
+        "Change the Type or Status value",
+        "Move the page to another database. Properties that don't exist in the destination may not carry over"
+      ],
+      [
+        "Properties",
+        "Shared, so some (such as Deadline) stay empty for Areas and Resources",
+        "Each database holds only the properties it needs"
+      ],
+      [
+        "Area relation",
+        "Points to the same database. The picker lists every item, so you search by name",
+        "Projects link to a separate Areas database, so the picker shows only Areas"
+      ],
+      [
+        "Reporting and rollups",
+        "Possible, but counting only active projects per area needs a formula",
+        "Simpler rollups, such as projects per area"
+      ],
+      [
+        "Sharing with others",
+        "Sharing the database shares every row by default",
+        "You can share one database, such as Projects, on its own"
+      ],
+      [
+        "Best for",
+        "Solo users who want speed and flexibility",
+        "Power users and small teams who want strict structure and reporting"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is the PARA method?",
+      "paragraphs": [
+        "The PARA method organises digital information into four categories (Projects, Areas, Resources and Archives) according to how actionable each item is right now.",
+        "Productivity author Tiago Forte created PARA and explains it in his books Building a Second Brain and The PARA Method. The core idea is to file information by where you'll use it next, not by its subject. For example, a note on pricing psychology belongs on the sales-page project you're working on, not in a general 'Marketing' folder.",
+        "One question does most of the sorting: does this end? If it has a finish line, it's a Project. If it continues indefinitely, it's an Area. Many messy workspaces mix the two up. They track ongoing responsibilities such as 'Fitness' as if they were projects, or bury real projects inside general pages."
+      ],
+      "bullets": [
+        "Projects: short-term efforts with a specific outcome and a deadline, such as 'Launch portfolio site by 30 November' or 'Finish Q4 budget review'.",
+        "Areas: ongoing responsibilities with a standard to maintain but no finish line, such as Finances, Health, Home or each client you serve.",
+        "Resources: topics you collect material on for future use, such as copywriting examples, Notion formulas or investing research.",
+        "Archives: anything inactive from the other three categories, such as finished projects, areas you've handed off and resources you no longer need."
+      ]
+    },
+    {
+      "heading": "One master database or four linked databases?",
+      "paragraphs": [
+        "Use one master database with a Type property if you work alone and want the fastest, most flexible setup. Use separate linked databases if you need different properties for each category, cleaner reporting or team permissions.",
+        "In the master version, every Project, Area and Resource is a row in one database, and the Type property says which is which. PARA expects items to change category: a resource becomes a project, and a finished project goes to the archive. Being able to do that by changing one value is a real advantage, and it's why this guide builds the master version.",
+        "In the multi-database version, each category gets its own database, and relations connect them. Each database has only the properties it needs, so Resources never show an empty Deadline column and Areas can count their projects with a simple rollup. The cost is a longer setup, and changing an item's category means moving its page to another database.",
+        "A practical middle ground is three databases (Projects, Areas and Resources) with Archived as a Status value in each, plus an Archive page holding three filtered views. You keep all four PARA categories but never have to move pages between databases. If you choose this setup, use the properties below and remove the Type condition from every view filter."
+      ],
+      "bullets": [
+        "Projects database: Name, Status (Not started, Active, On hold, Done, Archived), Deadline, and an Area relation to the Areas database, set to two-way and limited to one page.",
+        "Areas database: Name, Status (Active, Archived), the reverse relation from Projects, and optionally a rollup or formula that counts related projects.",
+        "Resources database: Name, Status (Active, Archived) and an optional Area relation.",
+        "A separate Archives database (only if you want the literal four-database model): use the same property names and types as Projects. Properties that don't exist in the destination generally don't survive a move, so test with one page first."
+      ]
+    },
+    {
+      "heading": "How to set up the PARA method in Notion: properties and views",
+      "paragraphs": [
+        "A working PARA setup in Notion needs one database with five properties (Type, Status, Area, Deadline and Last edited) and six filtered views, each of which answers one question about your work.",
+        "Archived is a Status value rather than a fourth Type so that each item keeps its original category. That means you can filter for archived projects specifically, and restoring an item takes one click. If you prefer the literal four-category model, add Archive as a Type option instead, but don't use both methods at once.",
+        "Simple filters in Notion combine with AND, so add each condition as its own filter. The Overdue view deliberately catches late projects whatever their status, including ones marked On hold or Not started that would never appear in Active Projects.",
+        "For example, a freelance designer's database might contain 'Redesign Acme homepage' (Project, Active, Deadline 15 November, Area: Client – Acme), 'Client – Acme' (Area, Active) and 'Typography references' (Resource, Active, no Area).",
+        "To show each Area's count of active projects, add a Formula property along the lines of prop(\"Linked items\").filter(current.prop(\"Type\") == \"Project\" and current.prop(\"Status\") == \"Active\").length(). Notion's formula syntax changes from time to time, so check its formula help pages if this returns an error."
+      ],
+      "bullets": [
+        "Type (Select): Project, Area, Resource. Leave it blank for anything you haven't sorted yet, and it will appear in the Needs sorting view.",
+        "Status (Status): Not started in the To-do group; Active and On hold in the In progress group; Done and Archived in the Complete group.",
+        "Area (Relation to the same database): turn on the two-way option and name the reverse property 'Linked items', so every Area page lists its projects and resources. Set the limit to one page if each project should belong to exactly one area.",
+        "Deadline (Date): fill it in for projects only. A project without a deadline tends to drift into being an Area.",
+        "Last edited (Last edited time): Notion fills this in automatically, and you'll use it to spot stale items during the monthly archive.",
+        "Active Projects view: Type is Project and Status is Active, sorted by Deadline, earliest first.",
+        "Overdue view: Type is Project, Status is not Done, Status is not Archived, and Deadline is before Today.",
+        "Areas and Resources views: Type is Area (or Resource) and Status is not Archived.",
+        "Needs sorting view: Type is empty.",
+        "Archive view: Status is Archived, sorted by Last edited, newest first."
+      ]
+    },
+    {
+      "heading": "A 15-minute monthly archive routine",
+      "paragraphs": [
+        "Once a month, spend about 15 minutes moving finished and stale items to Archived so your active views stay short enough to trust.",
+        "Archiving in this setup never deletes anything. It only changes the Status value, so archived pages still show up in Notion search and return to your active views as soon as you change their Status back.",
+        "If you want to record when something was archived, add an Archived on (Date) property and fill it in during the routine. Notion's database automations may be able to fill this in when Status changes to Archived, but automation features vary by plan, so check what yours includes. Set a recurring reminder for the first working day of each month so the routine actually happens."
+      ],
+      "bullets": [
+        "Done projects: open a temporary view filtered to Type is Project and Status is Done, select all the rows and change Status to Archived in one bulk edit. First, add a two-line 'What I'd reuse' note to any project worth learning from.",
+        "On hold: give each project a new Deadline and reactivate it, or archive it. On hold should be a waiting room, not a storage unit.",
+        "Areas: archive responsibilities you've genuinely handed off, such as a client who has left, a role you no longer hold or a property you've sold.",
+        "Resources: sort by Last edited, oldest first, and archive topics you've lost interest in. Archiving is cheap and reversible, so don't agonise over it.",
+        "Needs sorting: give every item a Type or delete it, so each month starts with an empty inbox."
+      ]
+    },
+    {
+      "heading": "How to move a messy workspace into PARA without migrating everything",
+      "paragraphs": [
+        "Don't migrate your old workspace. Move it all into one dated archive page and bring items into PARA only when you actually need them.",
+        "Full migrations tend to stall. Sorting hundreds of old pages is tedious, and much of that material will never be opened again. If you migrate only on demand, you spend effort only on pages that prove useful.",
+        "Moving pages in Notion generally keeps their content and links intact, because @mentions point to the page itself rather than its location. Still, spot-check a few important links after your first moves."
+      ],
+      "bullets": [
+        "Park everything: create a page called 'Archive – pre-PARA (October 2026)' and drag your old top-level pages and databases into it. Nothing is deleted, and Notion search still finds every page.",
+        "Move only live projects: for each project you'll work on in the next two weeks, open its old page, choose ••• → Move to and pick your PARA database. Then set its Type, Status, Deadline and Area.",
+        "Rebuild Areas from scratch: base them on your current responsibilities, not old folder names, which often reflect a life you no longer have.",
+        "Pull pages in on demand: whenever you open an old page for real work, move it into PARA and give it a Type. Over a few months the useful material moves itself across, and whatever stays behind is what you never needed.",
+        "Leave working databases alone: if an old content calendar, client list or budget tracker still works, keep it where it is and @mention it from the relevant Area page."
+      ]
+    },
+    {
+      "heading": "Connecting PARA to your weekly review",
+      "paragraphs": [
+        "Make PARA Home the first page you open in your weekly review, because its views already show what needs attention.",
+        "If you already run a weekly review, PARA adds three quick checks to it, done in the order below. If you don't, these three checks make a good starting routine on their own.",
+        "Keep pruning out of the weekly review. The weekly pass moves active work forward, and the monthly archive clears things out. Mixing the two is the fastest way to make a weekly review overrun."
+      ],
+      "bullets": [
+        "Needs sorting: give each new item a Type (plus an Area if it's a project), or delete it.",
+        "Overdue: for each late project, set a realistic new Deadline, move it to On hold or mark it Done.",
+        "Active Projects: check that every project has a next step written at the top of its page. If you can't name one, the project probably belongs in On hold."
+      ]
+    },
+    {
+      "heading": "Common PARA mistakes in Notion and how to fix them",
+      "paragraphs": [
+        "Most PARA setups in Notion fail for a few predictable reasons, and each one has a quick fix.",
+        "If the system starts to feel heavy, work through this list before you rebuild anything. Usually one or two of these explain the problem."
+      ],
+      "bullets": [
+        "Creating pages outside the database: a page added from the sidebar or inside another page won't appear in any PARA view. Always create items with the New button on PARA Home, and use ••• → Move to for any strays.",
+        "Projects with no outcome or deadline: 'Website' is a topic, while 'Launch new homepage by 1 December' is a project. Rename vague projects or reclassify them as Areas.",
+        "Too many Areas: if you can't read your Areas view at a glance, merge related ones, for example 'Gym' and 'Diet' into 'Health'.",
+        "Filing by subject instead of use: notes you need for an active project belong on that project's page, even if they would also fit under a Resource topic. Move them to a Resource when the project ends.",
+        "Mixing archive methods: choose either Archived as a Status or Archive as a Type. If you use both, items will slip through your filters.",
+        "Over-engineering on day one: skip extra formulas, rollups, icons and views until you've used the basic setup for a month and know what's missing."
+      ]
+    },
+    {
+      "heading": "Is PARA worth it for you? An honest fit check",
+      "paragraphs": [
+        "PARA is worth setting up if you juggle several projects at once and keep collecting reference notes. If your work fits on a simple task list, it just adds overhead.",
+        "A middle path is to start with only Projects and Areas, then add Resources once reference material starts piling up with nowhere to go. Adding to a structure later is easy. Slimming down a system you over-built on day one is much harder."
+      ],
+      "bullets": [
+        "Good fit: freelancers and consultants with several clients, side-business owners with a day job, students and researchers collecting sources, and managers running overlapping initiatives.",
+        "Good fit: anyone whose Notion search regularly turns up five versions of the same note.",
+        "Poor fit: people whose work is mostly a to-do list. A single tasks database or a checklist page will be faster every day.",
+        "Poor fit: people who usually have only one or two projects and few notes to keep.",
+        "Poor fit: people who enjoy building systems more than using them. PARA can quietly become a hobby that replaces the actual work."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Building a PARA system with databases, relations, filtered views, templates and a dashboard in one workspace. It suits solo users and small teams who manage several projects and lots of reference notes.",
+      "not_for": "People who only need a simple checklist, or who prefer plain folders and local files to databases. Check Notion's pricing page for any limits that affect your plan."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Optional capture automation that sends items from other apps (such as starred emails, form submissions or saved links) into your PARA database with Type left blank, so they land in the Needs sorting view. It's a good fit if you want quick, no-code setups across many apps.",
+      "not_for": "Anyone who already captures everything with Notion's web clipper or mobile app. PARA works without automation, so check Zapier's current plans and task limits before you pay for it."
+    },
+    {
+      "product": "Make",
+      "best_for": "The same optional capture workflows built on a visual, step-by-step canvas. It can cost less than Zapier if you run a high volume of automations each month.",
+      "not_for": "Beginners who want the quickest possible setup, or anyone who doesn't need automation at all. Compare Make's current pricing and operation limits with your expected volume before choosing it over Zapier."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between a Project and an Area in PARA?",
+      "answer": "A Project has a specific outcome and a finish line, usually a deadline. An Area is an ongoing responsibility with a standard you maintain but never finish. 'Run a half marathon in April' is a project, and 'Health' is the area it belongs to. If you can't say when something will be done, it's an Area."
+    },
+    {
+      "question": "Should I use a Notion PARA template or build my own?",
+      "answer": "A template gets you started faster, and Notion's template gallery and creator marketplaces offer plenty of PARA-style options. If you spend about an hour building your own, you'll understand every property and filter, which makes the system easier to maintain and adjust. If you do use a template, remove anything you don't understand within the first week."
+    },
+    {
+      "question": "Where do tasks go in a Notion PARA setup?",
+      "answer": "For most people, a checklist inside each project page is enough. If you need to see tasks from every project in one list, create a separate Tasks database with a relation to your PARA database. Don't add Task as a fourth Type, because tasks would flood your PARA views."
+    },
+    {
+      "question": "Can I set up PARA on Notion's free plan?",
+      "answer": "This build uses databases, select and status properties, relations, filtered views and templates, which have generally been available on Notion's free plan. Limits on things like file uploads, page history, guests and automations differ by plan and change over time. Check Notion's pricing page before relying on a specific feature."
+    },
+    {
+      "question": "How often should I archive items in PARA?",
+      "answer": "Monthly works for most people. That's often enough to keep active views short, but not so often that it becomes a chore. You can also archive a project as soon as it's done and let the monthly routine catch anything you missed."
+    },
+    {
+      "question": "Is PARA the same as Building a Second Brain?",
+      "answer": "No. Building a Second Brain is Tiago Forte's broader approach to personal knowledge management, which covers capturing, organising, distilling and expressing ideas. PARA is the organising part of that approach, and you can use it in Notion on its own without adopting the rest."
+    }
+  ],
+  "conclusion": "You now have a working PARA system in Notion: one database, five properties, six filtered views and a PARA Home dashboard that shows what needs attention. Building it takes about an hour. Its value comes from two small habits: opening PARA Home in your weekly review, and spending about 15 minutes on the archive each month.\n\nStart today with your active projects and your list of Areas, and move everything else into one dated archive page. Give the system a month to prove itself. If you find you only ever use the Active Projects view, that's not a failure. It's a sign to simplify, and a plain task list may serve you better.",
+  "keyword": "how to set up the para method in notion",
+  "niche": "productivity and personal systems for ambitious people",
+  "version": 2,
+  "slug": "how-to-set-up-the-para-method-in-notion-a-60-minute-build",
+  "published": "2026-10-08T12:19:27+00:00"
+}

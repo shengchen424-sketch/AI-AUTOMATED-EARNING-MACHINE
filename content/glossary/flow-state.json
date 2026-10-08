@@ -1,0 +1,21 @@
+{
+  "term": "Flow State",
+  "section": "Self-Development",
+  "short_definition": "A flow state is a mental state of deep, effortless-feeling focus in which you're fully absorbed in a challenging task, often losing track of time while performing well.",
+  "explanation": [
+    "Flow is a state of complete absorption in a task, a concept described by the psychologist Mihaly Csikszentmihalyi. It tends to happen when a task's difficulty roughly matches your skill: too easy and you get bored, too hard and you get anxious. Clear goals and quick feedback on whether you're making progress also help.",
+    "Flow matters because much high-quality work, learning and creative output happens in it, and many people find it deeply satisfying. You can't force flow, but you can set up the conditions for it: turn off notifications, block out uninterrupted time, set one specific outcome for the session, and choose work at the edge of your ability.",
+    "The trade-off is that flow is fragile and takes time to get back after an interruption. It also doesn't suit every task, since work that needs collaboration or frequent replies rarely allows it. Flow can make you skip breaks, sleep or priorities, and being absorbed in the wrong task still means working on the wrong task."
+  ],
+  "example": "Example (illustrative): A developer blocks out 9:00–11:00 a.m., closes email and chat, and sets one goal: 'finish the checkout page.' After a slow start she becomes absorbed, and the next time she looks at the clock it's 10:50 and the feature is done. On a typical day with a message every few minutes, the same task might stretch across an afternoon.",
+  "common_mistake": "Expecting flow on demand while leaving phone notifications and chat open. Frequent interruptions make deep focus very hard to reach and keep.",
+  "related_terms": [
+    "Deep Work",
+    "Time Blocking",
+    "Pomodoro Technique",
+    "Growth Mindset"
+  ],
+  "title": "Flow State",
+  "slug": "flow-state",
+  "published": "2026-10-08T12:42:18+00:00"
+}

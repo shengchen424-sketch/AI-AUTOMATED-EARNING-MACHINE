@@ -1,0 +1,22 @@
+{
+  "term": "Certificate of Deposit (CD)",
+  "section": "Banking & Money",
+  "short_definition": "A certificate of deposit (CD) is a savings product where you leave money with a bank or credit union for a fixed term in exchange for a fixed interest rate.",
+  "explanation": [
+    "With a CD, you deposit a lump sum for a set term, usually anywhere from a few months to several years, at an interest rate fixed at the start. When the term ends (maturity), you get your money back plus interest. Outside the US, similar products are called term deposits, fixed deposits or fixed-rate savings bonds.",
+    "CDs matter because they give predictable, low-risk growth for money you won't need for a while, such as a house deposit due in two years. Deposits at regulated banks are usually covered by the country's deposit insurance scheme up to a limit. Longer terms often pay more than instant-access accounts, but not always.",
+    "The trade-off is access. Taking money out early usually costs a penalty, often several months' interest, and some products don't allow early withdrawals at all. If rates rise after you lock in, you're stuck with the lower rate. If inflation is higher than your rate, your money still loses buying power. Compare rates, terms and penalties on the bank's own site, and confirm the product is covered by deposit insurance."
+  ],
+  "example": "Example (illustrative numbers): You put $5,000 into a 1-year CD at an example rate of 4% APY. At maturity you get back about $5,200. If you withdrew after 6 months and the penalty was 3 months' interest, you would give up about $50 of the interest earned so far.",
+  "common_mistake": "Locking an emergency fund into a long-term CD, then paying an early-withdrawal penalty when an unexpected expense comes up.",
+  "related_terms": [
+    "High-Yield Savings Account",
+    "APR vs APY",
+    "Deposit Insurance",
+    "Emergency Fund",
+    "Inflation"
+  ],
+  "title": "Certificate of Deposit (CD)",
+  "slug": "certificate-of-deposit-cd",
+  "published": "2026-10-08T12:42:18+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Cost of Goods Sold (COGS)",
+  "section": "Accounting & Business",
+  "short_definition": "Cost of goods sold (COGS) is the direct cost of producing or buying the products a business sold during a period, including materials and direct labor but not general overheads.",
+  "explanation": [
+    "COGS covers only the costs directly tied to making or buying what you sold: raw materials, the wholesale price of goods, direct production labor, and often inbound shipping and packaging. It leaves out indirect costs such as office rent, marketing and admin salaries, which count as operating expenses. On the income statement, revenue minus COGS equals gross profit.",
+    "COGS matters because it sets your gross margin: how much of each sale is left to cover everything else and produce a profit. Tracking it shows whether your prices cover production costs and how rising supplier prices eat into profit. Service businesses often use a similar figure called 'cost of revenue' or 'cost of sales'.",
+    "The hard part is consistency. Businesses with inventory must choose a costing method, such as FIFO or weighted average, and the methods allowed differ by country and accounting framework. Putting costs in the wrong place, such as marketing in COGS or materials in overheads, distorts your margins and can affect tax, so agree clear rules with your accountant."
+  ],
+  "example": "Example (illustrative numbers): A candle maker sells 200 candles at $20 each, earning $4,000 in revenue. Each candle takes $4 of wax, wick, jar and fragrance plus $2 of direct labor, so COGS is 200 × $6 = $1,200. Gross profit is $4,000 − $1,200 = $2,800, a 70% gross margin. Her $600 of website and advertising costs are operating expenses, not COGS.",
+  "common_mistake": "Counting all the inventory bought in a period as COGS instead of only the items actually sold. Unsold stock stays on the balance sheet as inventory.",
+  "related_terms": [
+    "Profit Margin",
+    "Income Statement",
+    "Break-Even Point",
+    "Fixed vs Variable Costs"
+  ],
+  "title": "Cost of Goods Sold (COGS)",
+  "slug": "cost-of-goods-sold-cogs",
+  "published": "2026-10-08T12:42:18+00:00"
+}

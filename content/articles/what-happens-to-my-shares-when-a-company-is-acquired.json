@@ -1,0 +1,268 @@
+{
+  "title": "What Happens to My Shares When a Company Is Acquired?",
+  "meta_description": "What happens to my shares when a company is acquired? See how cash, stock and mixed deals pay out, when you must act, and what to check on closing day.",
+  "quick_answer": "When a company is acquired, your shares are usually converted automatically at closing into what the deal pays: cash, the buyer's shares, or both. In a cash deal, a fixed amount of cash replaces your shares, usually within days. In a stock deal, you get buyer shares at a set exchange ratio, plus cash for fractions. Tender offers and election deals may require you to act by a deadline.",
+  "key_takeaways": [
+    "Check how the buyer is paying (cash, stock or a mix). That decides what lands in your account and how much price risk you carry until closing.",
+    "In a standard merger, your shares convert automatically. In a tender offer or election deal, respond to your broker's notice before its deadline, which is often earlier than the official one.",
+    "The gap between the share price and the offer (the deal spread) reflects the wait and the risk that the deal fails. It isn't free money.",
+    "If the deal collapses, you keep your shares and the price can fall sharply. Termination fees go to the companies, not to shareholders.",
+    "Save your cost basis records before closing. After closing, confirm that the cash, new shares and any cash in lieu arrived correctly.",
+    "Cash from an acquisition is often taxable, and the rules vary by country and account type. Check your own situation with a qualified tax professional."
+  ],
+  "who_this_is_for": "This guide is for individual investors who own shares in a public company that has announced it's being acquired and want to know what they'll receive, when they'll receive it, and whether they need to do anything.",
+  "intro": "You open your brokerage app and see the headline: a company you own is being bought. The stock has jumped, there's talk of a \"per-share offer,\" and you're not sure what you'll end up with, when it will arrive, or whether you need to do anything.\n\nThe short answer is that it depends on how the buyer is paying: cash, its own stock, or a mix of both. This guide uses made-up examples to show what each type of deal puts in your account. It then walks through the timeline from announcement to closing, explains when you have to act (tender offers and elections), what happens if the deal collapses, what your account shows on closing day, and the tax and record-keeping points people often miss.\n\nThis is general education, not personal advice. Rules, filing systems and tax treatment differ by country. For decisions about your own holdings, check your local regulator's guidance or speak to a licensed adviser.",
+  "steps": [
+    {
+      "name": "Find the official deal documents",
+      "text": "Start with the press release on the target company's investor relations page, then find the formal filings. In the US, search the company on the SEC's EDGAR database for the Form 8-K announcing the deal, the merger proxy statement, a Form S-4 registration statement if buyer shares are being issued, and Schedule TO and Schedule 14D-9 if it's a tender offer. Other countries have their own regulators and filing systems, so check your local exchange or regulator."
+    },
+    {
+      "name": "Identify exactly what you get per share",
+      "text": "Write down the consideration: a cash amount per share, an exchange ratio (buyer shares per target share), or both. Then look for the details that can change your result: a collar, a fixed-value formula, an option to choose cash or stock (an election), and any proration rules."
+    },
+    {
+      "name": "Calculate what your position converts into",
+      "text": "Multiply your share count by the per-share terms. For stock deals, separate the whole buyer shares from any fraction, which is usually paid as cash in lieu. Remember that the value of the stock portion changes every day with the buyer's share price."
+    },
+    {
+      "name": "Record the key dates and set reminders",
+      "text": "Note the record date for voting, the shareholder meeting date, any tender or election deadline (use your broker's date, not just the official one), and the expected closing window. Set calendar reminders a few days before each one, and check later filings and press releases for updates."
+    },
+    {
+      "name": "Check whether you need to act",
+      "text": "In a standard merger, voting is optional and conversion is automatic. In a tender offer or election deal, look for a voluntary corporate action notice in your broker's messages or corporate actions section and respond before the broker's deadline. Some brokers charge a fee to process voluntary corporate actions, so check the fee schedule."
+    },
+    {
+      "name": "Understand your options for the waiting period",
+      "text": "You can generally keep your shares through closing or sell them in the market before then. The two routes differ in risk, timing, fees and tax. This is a personal decision, so weigh it against your own goals and, if needed, talk to a licensed financial adviser."
+    },
+    {
+      "name": "Save your cost basis records before closing",
+      "text": "Download or screenshot the purchase dates, share counts and cost basis for every lot you own, in every account. Brokers sometimes update basis after a merger, and your own records make it easier to check their figures."
+    },
+    {
+      "name": "Check your account after closing",
+      "text": "Confirm that the old ticker is gone, that the right cash amount or number of buyer shares has arrived, that any cash in lieu has been paid, and that your cost basis and acquisition dates carried over. If anything is missing after several business days, contact your broker."
+    }
+  ],
+  "comparison": {
+    "caption": "How the main acquisition structures compare for shareholders. These are general patterns, so always check the documents for your specific deal.",
+    "headers": [
+      "Deal type",
+      "What you receive",
+      "Price risk before closing",
+      "Action usually needed",
+      "General tax note"
+    ],
+    "rows": [
+      [
+        "All-cash merger",
+        "A fixed cash amount per share, credited to your account",
+        "Mainly the risk that the deal doesn't close; the payout is fixed if it does",
+        "None beyond an optional vote",
+        "Often treated as a sale; may be taxable"
+      ],
+      [
+        "All-stock merger",
+        "Buyer shares at an exchange ratio, plus cash for fractions",
+        "Value rises and falls with the buyer's share price",
+        "None beyond an optional vote",
+        "May be tax-deferred in some countries if it qualifies; fractional cash may be taxable"
+      ],
+      [
+        "Cash-and-stock mix",
+        "Fixed cash plus a set number of buyer shares per share",
+        "The stock portion moves with the buyer's price",
+        "None beyond an optional vote",
+        "The cash portion may be taxable even if the stock portion isn't"
+      ],
+      [
+        "Election deal",
+        "Your choice of cash or stock, subject to proration",
+        "Depends on the mix you actually receive",
+        "Submit your election by the broker's deadline, or receive the default",
+        "Depends on the final mix of cash and stock"
+      ],
+      [
+        "Tender offer",
+        "The offer price for shares you tender; untendered shares are often converted in a follow-up merger",
+        "Risk that conditions, such as the minimum tender, aren't met",
+        "Tender through your broker by its deadline",
+        "Similar to a cash or stock deal, depending on what's offered"
+      ],
+      [
+        "Scheme of arrangement (e.g. UK)",
+        "The scheme consideration: cash, shares or both",
+        "Risk that shareholder, court or regulatory approval fails",
+        "None beyond an optional vote; it binds all holders once sanctioned by the court",
+        "Depends on the consideration and your country of residence"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What happens to my shares when a company is acquired?",
+      "paragraphs": [
+        "When the deal closes, your shares are converted into whatever the buyer pays: cash, its own stock, or a mix of both. The merger agreement sets this \"merger consideration\" for each share of the company being bought (the target), and every outstanding share gets the same terms.",
+        "In a standard merger, the conversion is automatic. It applies whether you voted for the deal, against it, or not at all, and you don't need to place a sell order. After closing, the target's shares stop trading and are delisted, and the consideration replaces your position.",
+        "The trade-off is that your upside is largely capped once a deal is announced. In an all-cash deal, the most you'll receive if the deal closes is the offer price, unless a higher bid appears. In a stock deal, your future returns depend on the buyer's business and share price, not the target's."
+      ],
+      "bullets": [
+        "All-cash deal: your shares are cancelled and you receive a set amount of cash per share.",
+        "All-stock deal: your shares are exchanged for buyer shares at a set exchange ratio.",
+        "Cash-and-stock deal: you receive some cash and some buyer shares for each share you own.",
+        "Election deal: you choose cash or stock, but your choice may be prorated if too many holders pick the same option."
+      ]
+    },
+    {
+      "heading": "Worked examples: what lands in your account in cash, stock and mixed deals",
+      "paragraphs": [
+        "To work out what you'll receive, multiply your share count by the per-share deal terms. The examples below use made-up companies (BuyerCo and TargetCo) and made-up numbers, purely to show the math.",
+        "Cash deal example: BuyerCo agrees to pay $40.00 in cash for each TargetCo share, and you own 150 shares. At closing, the 150 shares leave your account and $6,000 arrives (150 × $40.00). The amount doesn't change if BuyerCo's stock price moves.",
+        "Stock deal example: BuyerCo instead offers 0.80 of a BuyerCo share for each TargetCo share. Your 150 shares become 120 BuyerCo shares (150 × 0.80). With 151 shares, the math gives 120.8, so you'd usually receive 120 whole shares plus cash for the 0.8 fraction. The value isn't fixed. If BuyerCo trades at $50 at closing, your 120 shares are worth $6,000. At $40, they're worth $4,800.",
+        "Mixed deal example: BuyerCo offers $20.00 in cash plus 0.40 BuyerCo shares for each TargetCo share. Your 150 shares become $3,000 in cash plus 60 BuyerCo shares. The cash part is fixed, but the stock part rises and falls with BuyerCo's price until closing.",
+        "Read the fine print before you do your own calculation. Some stock deals have a \"collar\" that adjusts the exchange ratio if the buyer's price moves outside a set range. Others promise a fixed dollar value instead of a fixed ratio. You'll find these terms in the merger agreement and proxy statement."
+      ],
+      "bullets": [
+        "Cash: your shares × cash per share = cash received.",
+        "Stock: your shares × exchange ratio = buyer shares (whole shares, plus cash for any fraction).",
+        "Mixed: do both calculations and add the results.",
+        "Timing: cash and new shares usually arrive within days of closing, but processing times vary by broker."
+      ]
+    },
+    {
+      "heading": "The acquisition timeline: announcement, shareholder vote and closing",
+      "paragraphs": [
+        "Most acquisitions of public companies take several months or longer to close, because shareholders and regulators usually have to approve them first.",
+        "A deal starts with a press release that gives the per-share terms and an expected closing window, such as \"the first half of next year.\" Formal documents follow. These include a proxy statement that explains the deal and asks for votes and, in stock deals, a registration document for the new buyer shares.",
+        "Only people who own shares on the record date can vote at the special shareholder meeting. The approval threshold depends on the target's jurisdiction and governing documents, and in some stock deals the buyer's shareholders vote too. Once the deal is approved, the result binds every shareholder, including those who voted no.",
+        "Regulatory review is often the longest stage. Competition (antitrust) authorities in each relevant country may need to clear the deal, and sectors such as banking, telecoms or defence can need extra approvals. A simple deal might close within a few months, while a large deal facing in-depth review can take a year or more. Companies update the expected timing in later filings and press releases."
+      ],
+      "bullets": [
+        "Announcement: the deal terms and expected closing window are published.",
+        "Filings: the proxy statement, registration documents (for stock deals) and regulatory submissions.",
+        "Record date and vote: owning shares on the record date gives you a vote.",
+        "Regulatory approvals: competition and sector regulators review the deal.",
+        "Closing: the conditions are met, shares convert, and the target is delisted."
+      ]
+    },
+    {
+      "heading": "Mergers vs. tender offers: do you need to do anything?",
+      "paragraphs": [
+        "In a standard merger, you usually don't need to do anything. In a tender offer or an election deal, you may have to respond through your broker by a deadline.",
+        "A tender offer is a public offer made directly to shareholders to buy their shares at a set price. It usually comes with conditions, such as a minimum percentage of shares being tendered. Because no shareholder meeting is needed, tender offers can close faster than mergers. If the offer succeeds, the buyer often completes a follow-up \"second-step\" merger that converts untendered shares into the same consideration. Check the offer documents to confirm that this applies to your deal.",
+        "To take part, respond to your broker's voluntary corporate action notice, which usually appears in your account messages or in a corporate actions or documents section. Broker deadlines are often earlier than the official expiration time, and some brokers charge a processing fee. If you hold paper certificates or hold shares directly with a transfer agent, you may need to return a letter of transmittal to get paid.",
+        "Other countries use other structures. In the UK, many deals use a court-approved scheme of arrangement, which binds all shareholders once approved, much like a merger. A contractual takeover offer works differently: you have to accept it. Wherever you are, the key question is the same: does conversion happen automatically, or do you have to accept the offer?",
+        "Some jurisdictions offer appraisal or dissenters' rights. These let shareholders who don't support a deal, and who follow strict procedures, ask a court to set a \"fair value\" for their shares. The process is slow and technical, and the court can award less than the deal price, so it's mostly used by large holders with legal advice."
+      ],
+      "bullets": [
+        "Merger: voting is optional and conversion is automatic at closing.",
+        "Tender offer: tender through your broker before its deadline, or wait for any second-step merger.",
+        "Election deal: submit your choice of cash or stock, or accept the default.",
+        "Paper certificates or transfer-agent holdings: you may need to send a letter of transmittal."
+      ]
+    },
+    {
+      "heading": "Risks while you wait: the deal spread and broken deals",
+      "paragraphs": [
+        "Until the deal closes, the target's shares usually trade a little below the offer value, because the deal could still be delayed, renegotiated or cancelled.",
+        "This gap is called the deal spread, and trading it is known as merger arbitrage. In the hypothetical cash example, TargetCo might trade at $39.20 against a $40.00 offer. The $0.80 difference reflects the wait, the cost of tying up money, and the market's view of what could go wrong. In a stock deal, compare the target's price with the implied value (the exchange ratio × the buyer's current price), which changes every day.",
+        "A widening spread often signals that the market sees more risk or a longer timeline. A target trading above the offer price can suggest the market expects a higher or rival bid, but there's no guarantee one will come. The spread isn't free money: the possible gain is small and capped, while the possible loss if the deal breaks can be much larger.",
+        "If a deal is terminated, you keep your shares and receive nothing from the buyer. Deals can fail because regulators block them, shareholders vote them down, financing collapses or a closing condition isn't met. The price often drops on the news and won't necessarily return to its pre-announcement level, because the business and the market have changed in the meantime. Termination fees pass between the companies, not to shareholders. If a rival bidder wins, you receive the winner's terms once that deal closes."
+      ],
+      "bullets": [
+        "Time until the expected closing date.",
+        "Regulatory, financing or shareholder-vote risk.",
+        "The buyer's share price (in stock and mixed deals).",
+        "The chance of a rival bid or a renegotiated price.",
+        "Any dividends expected before closing (check the merger agreement)."
+      ]
+    },
+    {
+      "heading": "What your brokerage account shows on closing day",
+      "paragraphs": [
+        "On or shortly after closing day, your broker removes the target's shares and replaces them with cash, buyer shares, or both.",
+        "Brokers usually process this as a mandatory corporate action, sometimes labelled a mandatory reorganization. For a day or more, you may see a placeholder line, a \"pending\" status, or a position valued at zero while the paying agent distributes the consideration. That's normal. If nothing has appeared after several business days, contact your broker.",
+        "Fractional shares are usually paid out as \"cash in lieu.\" The merger agreement sets the method, which is often a reference price or the proceeds from selling all the fractions together. This cash can arrive a few days after the new shares.",
+        "If you hold listed options on the target, the contract terms are usually adjusted under the options exchange's rules, which can change what each contract delivers. Employee stock options and restricted stock units follow your plan documents and the merger agreement, so check with your plan administrator."
+      ],
+      "bullets": [
+        "The old ticker has been removed from your holdings.",
+        "The correct cash amount or number of buyer shares has been credited.",
+        "Cash in lieu has been paid for any fractional share.",
+        "Your cost basis and acquisition dates have carried over.",
+        "Open orders and dividend reinvestment on the old ticker are usually cancelled. Set them up again on the new holding if you still want them."
+      ]
+    },
+    {
+      "heading": "Taxes and cost basis after an acquisition",
+      "paragraphs": [
+        "In many countries, receiving cash for your shares in an acquisition is treated like selling them, so a cash deal can create a taxable gain or a loss you may be able to claim.",
+        "How it affects you depends on your cost basis, how long you held the shares, the type of account, and where you're resident for tax purposes. You also don't control the timing. In a cash deal, the closing date generally decides which tax year the sale falls in.",
+        "Some stock-for-stock deals can qualify for tax deferral if they meet local rules (in the US, these are called reorganizations). In that case, your original cost basis usually carries over to the new shares, but any cash portion or cash in lieu may still be taxable. If a stock deal is taxable, your new shares' basis is generally their value at closing instead. The proxy or offer documents include a section on tax consequences. It's useful background, but it isn't personal advice.",
+        "Shares held in tax-advantaged accounts, such as many retirement or savings accounts, are often not taxed when a deal closes, but the rules vary by country. Cross-border deals can involve withholding tax for non-resident holders. Brokers sometimes update cost basis weeks after closing, so compare their figures with your own records. Check your situation with a qualified tax professional or your local tax authority."
+      ],
+      "bullets": [
+        "Cash deal: often treated as a sale.",
+        "Stock deal: may be tax-deferred if it meets the local rules.",
+        "Mixed deal: the cash portion may be taxable.",
+        "Cash in lieu: often taxable even when the rest of the exchange isn't."
+      ]
+    },
+    {
+      "heading": "Common mistakes to avoid (plus a simple deal tracker)",
+      "paragraphs": [
+        "The most common mistakes are missing broker deadlines, assuming a stock deal's value is fixed, and falling for scams aimed at shareholders in announced deals.",
+        "Be careful with unsolicited offers. US regulators have warned investors about \"mini-tender\" offers, which seek a small percentage of a company's shares, sometimes below market price and with fewer investor protections than a standard tender offer. Be wary of anyone who says you must pay a fee to release your merger proceeds. Check any offer through your broker or the company's investor relations page.",
+        "A simple tracker keeps everything in one place. Set one up in a spreadsheet, notes app or workspace tool with these fields: company and ticker; deal type and per-share terms; your share count and expected payout; record date, meeting date, broker deadline and expected closing; links to the key filings; screenshots of your cost basis; and a post-closing checklist. Don't store passwords or full account numbers in it."
+      ],
+      "bullets": [
+        "Treating a stock deal's headline value as fixed when it moves with the buyer's share price.",
+        "Relying on the official deadline in the press release instead of your broker's earlier one.",
+        "Missing an election deadline and getting the default mix of cash and stock.",
+        "Assuming the offer price is guaranteed before the deal closes.",
+        "Leaving paper certificates unclaimed. Depending on local rules, unclaimed proceeds can eventually be transferred to a government unclaimed-property office."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who want one page to track a pending deal's terms, key dates, broker deadlines, filing links and cost-basis screenshots, especially if they hold the stock in more than one account. Check Notion's website for current plans and pricing.",
+      "not_for": "Anyone who expects it to track prices, calculate tax or process corporate actions. It's a notes and database tool, not a brokerage or tax software, and a simple spreadsheet works just as well for a single holding. Don't store passwords or full account numbers in it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I have to sell my shares when a company is acquired?",
+      "answer": "No. In a standard merger, your shares convert automatically into the deal consideration at closing, so there's nothing to sell. In a tender offer, you choose whether to tender, and shares you don't tender are often converted later in a follow-up merger. You can also sell in the market before closing, but that's a personal decision with its own price, fee and tax consequences."
+    },
+    {
+      "question": "How long does it take to get paid after an acquisition closes?",
+      "answer": "Cash or new shares usually appear in a brokerage account within a few business days of closing, depending on the paying agent and your broker. Cash for fractional shares can arrive a little later. Shares held as paper certificates or directly with a transfer agent may take longer and may need paperwork, such as a letter of transmittal."
+    },
+    {
+      "question": "If I buy shares after a deal is announced, do I still get the offer price?",
+      "answer": "Yes, as long as you still own the shares when the deal closes. Every holder at closing receives the same per-share consideration, no matter when they bought. The shares usually keep trading until closing, typically a little below the offer value, and only holders on the record date can vote. The deal can also still fail before it closes."
+    },
+    {
+      "question": "Can I lose money when a company I own is acquired?",
+      "answer": "Yes. You can end up with less than you paid if you bought above the eventual payout, if the deal collapses and the price falls, or if the buyer's shares drop before a stock deal closes. Fees and taxes also reduce what you keep, so compare the payout with your own cost basis rather than just the headline premium."
+    },
+    {
+      "question": "What happens to my stock options or RSUs when my employer is acquired?",
+      "answer": "Employee equity is governed by your plan documents and the merger agreement, not by the rules for ordinary shares. Depending on those terms, awards might be converted into the buyer's equity, paid out in cash, vested early or, in some cases, cancelled. Check with your plan administrator or HR, and consider getting professional tax advice."
+    },
+    {
+      "question": "What does cash in lieu of fractional shares mean?",
+      "answer": "It means you receive cash instead of a fraction of a buyer share when the exchange ratio doesn't produce a whole number. In a hypothetical deal, 151 shares at a 0.80 ratio works out to 120.8 shares, so you'd receive 120 shares plus cash for the 0.8. In many countries, that cash can be taxable even if the rest of the exchange isn't."
+    }
+  ],
+  "conclusion": "What happens to your shares when a company is acquired comes down to how the buyer pays. A cash deal swaps your shares for a fixed amount of money. A stock deal swaps them for the buyer's shares at a set ratio, and their value moves with the buyer's price. A mixed deal gives you some of each. In most mergers this happens automatically at closing. In tender offers and election deals, you may need to respond by your broker's deadline.\n\nUntil closing, the price usually trades a little below the offer, because deals can be delayed, renegotiated or cancelled. When closing day comes, check that the right cash or shares arrived, that any fractional share was paid out in cash, and that your cost basis carried over correctly.\n\nTaxes and rules depend on where you live and the type of account you hold. Read the deal's official documents, keep your own records, and talk to a licensed tax professional or financial adviser before you make decisions about your holdings.",
+  "keyword": "what happens to my shares when a company is acquired",
+  "niche": "stock market basics for beginners",
+  "version": 2,
+  "slug": "what-happens-to-my-shares-when-a-company-is-acquired",
+  "published": "2026-10-08T12:25:38+00:00"
+}

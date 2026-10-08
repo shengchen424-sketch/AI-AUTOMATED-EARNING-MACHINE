@@ -1,0 +1,21 @@
+{
+  "term": "Capital Gains",
+  "section": "Investing",
+  "short_definition": "A capital gain is the profit you make when you sell an asset such as shares, property or crypto for more than you paid, and in many countries it can be taxed.",
+  "explanation": [
+    "A capital gain is the sale price minus your cost basis. Your cost basis is what you paid plus eligible costs such as purchase fees. While you still own the asset, any rise in value is an 'unrealized' gain that exists only on paper. It becomes 'realized' when you sell. If you sell for less than your cost basis, you have a capital loss.",
+    "Capital gains matter because tax can make a big difference to your real return. Many countries tax gains differently depending on how long you held the asset, your income, the type of asset and the account it was held in. Some tax-advantaged retirement or savings accounts defer the tax or shelter gains completely. In some countries, losses can offset gains. Crypto is extremely volatile, so paper gains can vanish quickly, and its tax treatment varies widely.",
+    "The trade-off is that tax rules are complicated, differ by country and change over time. Letting tax drive every decision, such as holding a risky position only to avoid tax, can cost you more than the tax would. Keep records of purchase prices and fees, and check with your local tax authority or a qualified tax adviser."
+  ],
+  "example": "Example (illustrative numbers): You buy shares for $2,000 and pay a $10 fee, so your cost basis is $2,010. Two years later you sell for $2,600 and pay another $10 fee. If your local rules let you deduct selling costs, your realized gain is $2,600 − $10 − $2,010 = $580. Whether you owe tax on it, and how much, depends on your country's rules, how long you held the shares and the type of account.",
+  "common_mistake": "Not tracking cost basis, including fees and reinvested dividends. This can lead to overpaying tax or reporting gains incorrectly, especially with crypto bought on several exchanges.",
+  "related_terms": [
+    "Stock (Equity)",
+    "Return on Investment (ROI)",
+    "Cryptocurrency",
+    "Rebalancing"
+  ],
+  "title": "Capital Gains",
+  "slug": "capital-gains",
+  "published": "2026-10-08T12:42:18+00:00"
+}

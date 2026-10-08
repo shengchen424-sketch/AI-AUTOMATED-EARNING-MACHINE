@@ -1,0 +1,22 @@
+{
+  "term": "Accrual vs Cash Accounting",
+  "section": "Accounting & Business",
+  "short_definition": "Cash accounting records income and expenses when money actually changes hands, while accrual accounting records them when they're earned or incurred, regardless of when payment happens.",
+  "explanation": [
+    "The difference is timing. With cash accounting, a sale counts when the customer's payment arrives, and a bill counts when you pay it. With accrual accounting, a sale counts when you deliver the product or service, even if the invoice is unpaid, and an expense counts when you receive the goods or services, even if you pay later. Accrual accounting tracks these timing gaps with accounts receivable and accounts payable.",
+    "The choice matters because it changes how profitable any given month looks. Cash accounting is simpler and matches what's in the bank, which is why many freelancers and small businesses use it. Accrual accounting shows performance over time more accurately, and larger companies and formal financial statements generally require it.",
+    "The trade-off is simplicity versus accuracy. Under cash accounting, a business can look profitable in a month when big bills are about to fall due. Under accrual accounting, it can show a healthy profit while customers haven't paid and cash is running short. Which method you may or must use for tax depends on your country, business size and structure, so check with your tax authority or an accountant."
+  ],
+  "example": "Example (illustrative numbers): In March, a web designer finishes a $3,000 project and sends the invoice; the client pays in April. Also in March, she uses a subcontractor who bills $500, which she pays in April. On a cash basis, March shows $0 income and $0 expenses, and April shows $3,000 income and $500 expenses. On an accrual basis, March shows $3,000 revenue and $500 expenses ($2,500 profit), and these transactions add nothing new in April.",
+  "common_mistake": "Looking only at accrual profit and assuming the money is there to spend, then running short because customers haven't paid yet.",
+  "related_terms": [
+    "Cash Flow",
+    "Income Statement",
+    "Accounts Receivable",
+    "Working Capital",
+    "Balance Sheet"
+  ],
+  "title": "Accrual vs Cash Accounting",
+  "slug": "accrual-vs-cash-accounting",
+  "published": "2026-10-08T12:42:18+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Accounts Receivable",
+  "section": "Accounting & Business",
+  "short_definition": "Accounts receivable (AR) is money customers owe a business for goods or services already delivered but not yet paid for, recorded as a current asset on the balance sheet.",
+  "explanation": [
+    "Accounts receivable is created whenever a business sells on credit, for example by sending an invoice with 30-day payment terms. When the customer pays, AR goes down and cash goes up. The mirror image is accounts payable: money the business owes its own suppliers.",
+    "AR matters because a sale isn't cash until it's collected. A business can be profitable on paper and still struggle to pay wages or rent if too much money is stuck in unpaid invoices. A common measure is days sales outstanding (DSO), which estimates how many days it takes on average to get paid.",
+    "The risk is that some customers pay late or not at all. Businesses often set aside an allowance for doubtful accounts and eventually write off bad debts, which reduces profit. Generous payment terms can win customers but tie up working capital, while strict terms protect cash but may cost sales."
+  ],
+  "example": "Example (illustrative numbers): In June, a small agency invoices three clients for $4,000, $2,500 and $1,500, all on 30-day terms. At the end of June, its accounts receivable is $8,000. In July, two clients pay $6,500 between them, leaving $1,500 in AR. If the last client never pays, the agency may eventually write off the $1,500 as a bad debt.",
+  "common_mistake": "Being slow to chase overdue invoices. The longer an invoice goes unpaid, the harder it usually is to collect, and cash flow suffers in the meantime.",
+  "related_terms": [
+    "Working Capital",
+    "Cash Flow",
+    "Balance Sheet",
+    "Accrual vs Cash Accounting"
+  ],
+  "title": "Accounts Receivable",
+  "slug": "accounts-receivable",
+  "published": "2026-10-08T12:42:18+00:00"
+}

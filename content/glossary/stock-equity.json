@@ -1,0 +1,22 @@
+{
+  "term": "Stock (Equity)",
+  "section": "Investing",
+  "short_definition": "A stock is a unit of ownership in a company; its price rises or falls with the company's prospects and market sentiment, and some stocks pay dividends.",
+  "explanation": [
+    "A stock, also called a share or equity, is a small piece of ownership in a company. Companies issue shares to raise money, and investors then buy and sell them on stock exchanges, where supply and demand set the price. Shareholders can gain in two ways: the share price rising (a capital gain when sold) or the company paying out part of its profits as dividends.",
+    "Stocks matter because they are one of the main ways ordinary investors take part in business growth over long periods. Many people own them indirectly through index funds, ETFs or mutual funds instead of picking individual companies, which spreads the risk across many businesses.",
+    "The main trade-off is risk. Share prices can swing sharply in the short term, and a single company can fail and its stock can fall to zero. If a company goes bankrupt, shareholders are paid after lenders. Brokerage fees, currency costs and the tax on gains and dividends differ by country and platform, so check your local rules or a licensed adviser before making personal decisions."
+  ],
+  "example": "Example (illustrative numbers): You buy 10 shares at $50 each, investing $500. A year later the price is $60 and the company has paid $1 per share in dividends. Your shares are worth $600 and you received $10 in dividends, a $110 gain before fees and taxes. If the price had dropped to $35 instead, your shares would be worth $350, a $150 loss on paper.",
+  "common_mistake": "Putting a large share of savings into one or two individual stocks because of a news story or social-media tip, without understanding the business or spreading the risk.",
+  "related_terms": [
+    "Dividend",
+    "Diversification",
+    "Index Fund",
+    "Capital Gains",
+    "Price-to-Earnings Ratio (P/E Ratio)"
+  ],
+  "title": "Stock (Equity)",
+  "slug": "stock-equity",
+  "published": "2026-10-08T12:42:18+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Price-to-Earnings Ratio (P/E Ratio)",
+  "section": "Investing",
+  "short_definition": "The price-to-earnings (P/E) ratio divides a company's share price by its earnings per share, showing how much investors are paying for each unit of the company's annual profit.",
+  "explanation": [
+    "The P/E ratio is the share price divided by earnings per share (EPS). EPS is the company's net profit divided by its number of shares. A trailing P/E uses the last 12 months of actual earnings. A forward P/E uses analysts' estimates of future earnings, and those estimates can be wrong.",
+    "P/E is popular because it gives a quick way to compare valuations. A high P/E may mean investors expect strong growth, or that the stock is expensive. A low P/E may mean the market expects slow growth or problems, or that the stock is undervalued. It works best for comparing companies in the same industry, or a company against its own history.",
+    "The limitation is that P/E is a single snapshot. It doesn't work for companies that make no profit, one-off gains or losses can distort it, and it ignores debt, cash flow and the quality of growth. Use it as a starting question, not as a signal to buy or sell."
+  ],
+  "example": "Example (illustrative numbers): Company A's shares trade at $40 and it earned $2 per share last year, so its P/E is 40 ÷ 2 = 20. Investors are paying $20 for every $1 of annual earnings. Company B, in the same industry, trades at $30 with EPS of $3, a P/E of 10. B looks cheaper on this measure, but you would need to find out why. Slower growth, more debt or a one-time profit boost could explain the gap.",
+  "common_mistake": "Assuming a low P/E means a bargain. Sometimes the price is low because earnings are expected to shrink, which is known as a 'value trap'.",
+  "related_terms": [
+    "Stock (Equity)",
+    "Profit Margin",
+    "Income Statement",
+    "Return on Investment (ROI)"
+  ],
+  "title": "Price-to-Earnings Ratio (P/E Ratio)",
+  "slug": "price-to-earnings-ratio-p-e-ratio",
+  "published": "2026-10-08T12:42:18+00:00"
+}

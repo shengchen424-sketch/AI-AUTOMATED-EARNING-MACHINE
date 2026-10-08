@@ -1,0 +1,22 @@
+{
+  "term": "Neural Network",
+  "section": "AI & Tech",
+  "short_definition": "A neural network is a machine-learning model made of layers of connected mathematical units that learn patterns from data by adjusting the strength of their connections during training.",
+  "explanation": [
+    "A neural network turns input data into an output by passing it through layers of simple calculations. The input is numbers representing text, pixels or sound, and the output might be a prediction or the next word. During training, the network compares its outputs with the correct answers and adjusts millions or billions of internal numbers, called weights or parameters, to make fewer errors. Despite the name, it is only loosely inspired by the brain.",
+    "Neural networks matter because they power most modern AI, including image recognition, speech-to-text, recommendation systems and large language models. Networks with many layers are called deep learning models, and they can learn complex patterns that would be impractical to program by hand.",
+    "The trade-offs are cost, data and transparency. Large networks need huge amounts of training data and computing power, can absorb biases from that data, and are hard to interpret, so it's often unclear why they gave a particular answer. They can also be confidently wrong, so anything used for important decisions needs human checking."
+  ],
+  "example": "Example (illustrative numbers): A simple spam-filter network might look at features such as the number of links, certain keywords and the sender's history. After training on, say, 10,000 emails labelled 'spam' or 'not spam', it gives each new email a score from 0 to 1. If an email scores 0.92 and the filter's threshold is 0.8, it goes to the junk folder.",
+  "common_mistake": "Assuming a neural network understands or reasons like a person. It learns statistical patterns from its training data and can fail in unexpected ways on situations unlike that data.",
+  "related_terms": [
+    "Machine Learning",
+    "Large Language Model (LLM)",
+    "Generative AI",
+    "Fine-Tuning",
+    "Embeddings"
+  ],
+  "title": "Neural Network",
+  "slug": "neural-network",
+  "published": "2026-10-08T12:42:18+00:00"
+}

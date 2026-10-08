@@ -1,0 +1,274 @@
+{
+  "title": "n8n Self-Hosted vs Cloud for Beginners: Which Should You Pick?",
+  "meta_description": "n8n self hosted vs cloud for beginners: compare setup, maintenance, backups, security, licensing and costs, plus a checklist to choose with confidence.",
+  "quick_answer": "For most beginners, n8n Cloud is the better choice. n8n runs the servers, updates, HTTPS and infrastructure, and you pay a subscription based mainly on monthly workflow executions. Self-host the free Community Edition only if you can secure a Linux server, apply updates and test backups every month. Self-hosting has no license fee for internal use, but you still pay for the server, your time and downtime risk.",
+  "key_takeaways": [
+    "Start on n8n Cloud unless you already run Linux servers. n8n handles setup, updates, HTTPS and infrastructure for you.",
+    "Self-hosted n8n Community Edition has no license fee for internal business use. You still pay for the server, spend time on maintenance and carry the risk of downtime.",
+    "If you self-host, keep copies of the database and n8n's encryption key somewhere other than the server, and test a restore. Without the key, n8n can't decrypt your saved credentials.",
+    "Estimate your monthly executions before you pick a Cloud plan. One execution is one full workflow run, and a workflow scheduled every 5 minutes runs about 8,640 times in a 30-day month.",
+    "Read n8n's Sustainable Use License before you host n8n for clients or build it into a product you sell.",
+    "For a few simple app-to-app automations, Zapier or Make may be easier than either version of n8n."
+  ],
+  "who_this_is_for": "This guide is for non-developer founders, freelancers and small-business owners who want to automate with n8n and need to choose between paying for n8n Cloud and running it on their own server.",
+  "intro": "You've seen what n8n can do: connect your apps, automate lead follow-ups and build AI-powered reports. Now you face your first real decision. Should you use n8n's cloud, or host it yourself for \"free\"? Tutorials often make self-hosting look quick, and the first install can be. The real work comes later: updates, backups, HTTPS certificates, security patches, and the night your server quietly stops running workflows without telling anyone. This guide explains the trade-offs in plain language. It covers setup effort, maintenance, security, uptime, licensing and how costs really work. It also includes the exact steps, settings and common mistakes for each path, so you can choose the option that fits your skills, time and business, not just the one that looks cheapest on paper.",
+  "steps": [
+    {
+      "name": "List your first workflows and estimate monthly runs",
+      "text": "Write down 3–5 automations you want, the apps each one connects and what starts it. Then work out how many times each will run per month. A Schedule Trigger every 15 minutes runs about 2,880 times in a 30-day month. A form that gets 10 submissions a day runs about 300 times. On n8n Cloud, this total largely decides your plan, because each full workflow run counts as one execution."
+    },
+    {
+      "name": "Check your use against n8n's license",
+      "text": "If n8n will only automate your own business, the Community Edition's Sustainable Use License generally allows it. If you plan to host n8n for clients, resell access to it or build it into a product, read n8n's license page and license FAQ before you invest any time."
+    },
+    {
+      "name": "Be honest about how much maintenance you can handle",
+      "text": "Answer two questions. Are you comfortable with SSH, Docker and DNS records? Can you set aside time every month for updates and backup checks? If either answer is no, choose n8n Cloud. You can still move to self-hosting later."
+    },
+    {
+      "name": "Learn n8n on Cloud (or on your laptop) first",
+      "text": "Start an n8n Cloud trial (check the current terms on the pricing page). For practice only, you can also run n8n on your laptop with Docker or the npx n8n command. Build one real workflow from start to finish, then activate or publish it (the label depends on your version) so it uses the production webhook URL, not the test URL. This way you learn n8n before you have to learn server administration."
+    },
+    {
+      "name": "If you self-host, set up a secure VPS",
+      "text": "Rent a VPS, log in with SSH keys, turn off password logins, and set up a firewall that only allows ports 22, 80 and 443. Follow n8n's official Docker Compose guide. Put n8n behind Caddy or Traefik so it gets HTTPS automatically. Set N8N_HOST, WEBHOOK_URL, GENERIC_TIMEZONE and N8N_ENCRYPTION_KEY, and check those names against n8n's environment variable docs. Pin a specific n8n version tag instead of 'latest'."
+    },
+    {
+      "name": "Automate backups and test a restore",
+      "text": "Schedule nightly database backups and send them to storage that isn't on the server. For SQLite, use SQLite's backup command or stop n8n briefly before copying the file, because copying it while n8n is running can give you a corrupted backup. For PostgreSQL, use pg_dump. Save the encryption key in a password manager. Then restore a backup onto a separate test instance and check that your workflows open and your credentials still connect."
+    },
+    {
+      "name": "Add monitoring, error alerts and an update routine",
+      "text": "Point an external uptime monitor at your n8n URL's /healthz endpoint. Create an error workflow that starts with the Error Trigger node and emails or messages you, then select it under each workflow's settings. Book a monthly calendar slot to install operating system updates, read n8n's release notes, back up, update n8n and confirm your backups ran."
+    },
+    {
+      "name": "Review after 30 days",
+      "text": "Compare the time you spent, how reliable things were and what you paid. If self-hosting took more effort than expected, export your workflows as JSON, import them into Cloud and re-enter your credentials. If you're on Cloud and costs keep rising as volume grows, look at self-hosting again or cut back schedules that run more often than they need to."
+    }
+  ],
+  "comparison": {
+    "caption": "n8n Cloud vs self-hosted n8n vs Zapier or Make: who handles what. Features and pricing change, so confirm current details on each vendor's website.",
+    "headers": [
+      "Factor",
+      "n8n Cloud",
+      "n8n Self-Hosted (Community Edition)",
+      "Zapier or Make"
+    ],
+    "rows": [
+      [
+        "Setup effort",
+        "Sign up and build in the browser",
+        "Rent a VPS, install Docker, set up DNS, a reverse proxy and HTTPS",
+        "Sign up and build in the browser"
+      ],
+      [
+        "Updates and maintenance",
+        "n8n handles them",
+        "You install n8n and operating system updates yourself",
+        "The vendor handles them"
+      ],
+      [
+        "Backups",
+        "n8n runs the infrastructure; check its docs on backups and export your key workflows yourself",
+        "All yours: the database, the encryption key, off-server copies and restore tests",
+        "The vendor handles them; check what export options you have"
+      ],
+      [
+        "Security and uptime",
+        "n8n secures and runs the platform; you secure your account. Check the status page and whether your plan has an SLA",
+        "You secure the server, logins and patches; uptime depends on your server and your monitoring",
+        "The vendor secures and runs the platform; you secure your account"
+      ],
+      [
+        "Custom code and nodes",
+        "Code node available; community nodes limited to the ones n8n allows on Cloud",
+        "Full control, including custom and community nodes",
+        "The vendor's app library plus generic HTTP/webhook steps; code options vary by plan"
+      ],
+      [
+        "Cost model",
+        "Subscription tiered mainly by monthly executions (one execution = one full workflow run)",
+        "No license fee for eligible use, plus server costs, your time and downtime risk",
+        "Subscription billed by tasks (Zapier) or by operations/credits (Make)"
+      ],
+      [
+        "Business licensing",
+        "Covered by your subscription terms",
+        "Sustainable Use License: internal use is generally fine; hosting n8n for others or reselling it is restricted",
+        "Standard software-subscription terms"
+      ],
+      [
+        "Best for",
+        "Beginners who want n8n's power without running a server",
+        "Technical users with a clear reason to self-host",
+        "Simple automations between popular apps"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "n8n Self-Hosted vs Cloud for Beginners: What Each Option Means",
+      "paragraphs": [
+        "n8n Cloud is the managed version of n8n that the n8n team runs for you. Self-hosted n8n is the same core software running on a server you rent and look after yourself. Both give you the visual workflow editor, the app integrations (n8n calls them nodes), triggers and AI features. The difference is who takes care of everything underneath: the server, the database, the HTTPS certificate, updates and backups.",
+        "For most beginners, 'self-hosted' means the free Community Edition installed with Docker on a virtual private server (VPS). n8n also sells paid self-hosted plans that unlock team and enterprise features, such as single sign-on and Git-based version control. Those plans are aimed at larger organizations.",
+        "Two in-between options are worth knowing about. You can run n8n on your own laptop with Docker or the npx n8n command to practise for free. Scheduled workflows and webhooks stop whenever the laptop sleeps, though, so treat it as a place to learn. Some hosting companies also sell one-click or managed n8n. Check exactly who handles updates, backups and security, because 'one-click' often covers only the install."
+      ],
+      "bullets": [
+        "n8n Cloud: n8n hosts it, updates it and runs it. You pay a subscription.",
+        "Self-hosted Community Edition: no license fee for eligible use, but you provide and run the server.",
+        "Paid self-hosted plans: your own server, plus licensed features for teams and enterprises.",
+        "Local install on your laptop: free and fine for learning, but not for live business workflows.",
+        "Third-party managed hosting: what's included varies, so confirm who handles updates and backups."
+      ]
+    },
+    {
+      "heading": "Setup Effort: Minutes on Cloud, a Real Project Self-Hosted",
+      "paragraphs": [
+        "Setting up n8n Cloud takes minutes. You create an account, name your workspace and start building in the browser. n8n has typically offered a free Cloud trial, so check the current terms on its pricing page before you commit.",
+        "Self-hosting is a real technical project, even when a tutorial makes it look quick. A setup you can safely rely on for business workflows involves every step below, and a beginner can get stuck at any of them.",
+        "n8n's own documentation is direct about this. It recommends self-hosting for experienced users and warns that mistakes can lead to data loss, security issues and downtime. If several items on this list are new to you, that's a strong signal to start on Cloud."
+      ],
+      "bullets": [
+        "Rent a VPS and secure it with SSH keys, turn off password logins and set up a firewall.",
+        "Install Docker and Docker Compose, then follow n8n's official Docker Compose guide.",
+        "Create a DNS A record that points a subdomain (for example, n8n.yourdomain.com) at the server's IP address.",
+        "Run n8n behind a reverse proxy such as Caddy, Traefik or Nginx so it's served over HTTPS.",
+        "Set environment variables such as N8N_HOST, WEBHOOK_URL, GENERIC_TIMEZONE and N8N_ENCRYPTION_KEY, and check the names in n8n's docs.",
+        "Choose a database. The default, SQLite, is fine to start with; many production setups use PostgreSQL, so check n8n's database docs."
+      ]
+    },
+    {
+      "heading": "The Ongoing Work: Updates, Backups and HTTPS",
+      "paragraphs": [
+        "The biggest difference between self-hosted and cloud n8n isn't the setup. It's the maintenance, which never stops. On n8n Cloud, n8n upgrades and runs the infrastructure. When you self-host, every task below is yours for as long as you rely on your workflows.",
+        "Updates: n8n releases new versions often, including bug fixes and security patches. With Docker Compose, updating usually means changing the pinned version tag, then running docker compose pull and docker compose up -d. Pin a specific version instead of 'latest' so upgrades happen when you choose. Back up first, and read the release notes before major versions, because they can include breaking changes.",
+        "Backups: your workflows, saved credentials and run history live in n8n's database. By default that's a SQLite file in the n8n data volume; if you use PostgreSQL, you back it up with pg_dump. Store copies off the server, along with a safe copy of the encryption key. Without that key, n8n can't decrypt your saved credentials, so a database backup on its own may leave you reconnecting every app by hand. n8n's command-line tools can also export workflows as JSON, which gives you an extra safety net.",
+        "Two beginner mistakes cause many self-hosting disasters. Running docker compose down -v deletes the volumes that hold your data. And if WEBHOOK_URL isn't set, n8n may show webhook addresses like localhost:5678, which outside apps can't reach. HTTPS also needs an occasional check. Caddy and Traefik renew free Let's Encrypt certificates automatically, but a DNS change or a configuration mistake can stop renewal without any warning."
+      ],
+      "bullets": [
+        "Install operating system security updates and restart the server if needed.",
+        "Read n8n's release notes, back up, then update to a newer pinned version.",
+        "Confirm that your latest backup ran and reached storage off the server.",
+        "Restore a backup onto a test instance every few months.",
+        "Check disk space and n8n's settings for clearing old run data (EXECUTIONS_DATA_PRUNE and EXECUTIONS_DATA_MAX_AGE).",
+        "Confirm your HTTPS certificate is valid and renewing."
+      ]
+    },
+    {
+      "heading": "Security and Uptime: Who Is Responsible When Something Breaks",
+      "paragraphs": [
+        "On n8n Cloud, n8n is responsible for securing and running the platform. When you self-host, all of that is on you. This matters because n8n stores logins and API keys for your most important accounts, such as email, CRM, payment tools and cloud storage. Someone who breaks into your n8n instance could get into all of them.",
+        "n8n publishes security advisories and fixes, and some have been serious enough that you should update straight away. Cloud users get these patches without doing anything; self-hosters are only protected once they update. Follow n8n's release notes and its security advisories on GitHub. Also remember that anyone with editing access can run custom code in the Code node on your server, so only give editing access to people you trust.",
+        "If your self-hosted server goes down, scheduled workflows don't run and incoming webhooks fail. Some apps retry a failed webhook, but many don't. Nobody warns you unless you've set up monitoring, so a lead-capture workflow can stay broken for days before you notice.",
+        "Cloud can have outages too, but n8n's team is on call instead of you. Check n8n's status page for its track record, and confirm whether your plan includes a formal uptime guarantee (an SLA). On either option, set up an error workflow. Build a workflow that starts with the Error Trigger node and sends you an email or chat message, then select it as the error workflow in each workflow's settings."
+      ],
+      "bullets": [
+        "Log in with SSH keys and turn off password logins.",
+        "Set up a firewall that only allows SSH, HTTP and HTTPS (ports 22, 80 and 443).",
+        "Serve n8n only over HTTPS, and turn on two-factor authentication for n8n accounts if your version supports it.",
+        "Install n8n and operating system security updates promptly.",
+        "Point an external uptime monitor at n8n's /healthz endpoint so you get an alert when it goes down."
+      ]
+    },
+    {
+      "heading": "Licensing: Can You Use Self-Hosted n8n for Business?",
+      "paragraphs": [
+        "Yes, you can usually self-host the n8n Community Edition for internal business use. But n8n isn't traditional open source, and some commercial uses need a separate agreement. n8n calls its model 'fair-code' and releases the Community Edition under its own Sustainable Use License.",
+        "In general, that license lets you use and modify n8n for your own internal business purposes and for personal or non-commercial use. It restricts things like offering n8n to others as a hosted service, or selling a product whose value comes from n8n itself. Some parts of the code fall under a separate enterprise license and need a paid plan.",
+        "The grey areas mostly affect freelancers and agencies. Building workflows for a client on the client's own n8n instance is not the same as running one instance and charging several clients to use it. Read n8n's license page and license FAQ, and ask n8n or a lawyer if your situation isn't clear. This article is general information, not legal advice.",
+        "On Cloud, your subscription terms cover the licensing. You should still read the terms of service and data processing details, especially where your data is stored, if you have GDPR obligations or client contracts that limit where data can live."
+      ],
+      "bullets": [
+        "Usually fine: automating your own company's lead routing, invoice reminders, reports or internal tools.",
+        "Check carefully: hosting n8n for several clients, putting your own brand on it, or charging people to use it.",
+        "Likely needs a commercial agreement: building n8n into software you sell."
+      ]
+    },
+    {
+      "heading": "How Cost Works in Practice (and Why 'Free' Isn't Free)",
+      "paragraphs": [
+        "n8n Cloud is a predictable subscription. Self-hosting means a server bill plus your time and your risk. The most common beginner mistake is comparing only the Cloud subscription with the VPS price.",
+        "Cloud plans are tiered mainly by how many workflow executions you get per month. They also differ on things like how many workflows can run at the same time, how long run history is kept, and team or admin features. In n8n, one execution is one full run of a workflow, no matter how many nodes it has. Check n8n's pricing page for the current tiers and what happens if you go over your limit.",
+        "Schedules are where beginners get surprised. A workflow on a Schedule Trigger every 5 minutes runs 288 times a day. That's about 8,640 executions in a 30-day month, even when there's nothing for it to do. The same check every hour comes to about 720. Do this calculation for each workflow, and ask whether each schedule really needs to run that often.",
+        "Self-hosting has no license fee for eligible use, but it isn't free. You pay for the VPS, possibly a domain, storage for off-server backups and maybe a monitoring service. On top of that comes your time: the first setup, monthly maintenance, and the occasional emergency when an update breaks a workflow or old run logs fill up the disk.",
+        "Self-hosting really does pay off in some cases. Maybe your volume would push you onto an expensive Cloud tier, or you already manage servers. Maybe you need your data on your own infrastructure, or you depend on custom or community nodes that Cloud doesn't allow."
+      ],
+      "bullets": [
+        "Cloud: the plan that covers your estimated monthly executions, taken from n8n's current pricing page.",
+        "Self-hosted: VPS + domain + backup storage + (maintenance hours per month × what an hour of your time is worth).",
+        "Both: add an allowance for what an outage of your most important workflow would cost."
+      ]
+    },
+    {
+      "heading": "Decision Checklist: n8n Cloud or Self-Hosted?",
+      "paragraphs": [
+        "Choose n8n Cloud if any of the Cloud statements below is true for you. Only self-host if every self-host statement is true. The checklist is strict on purpose, because when self-hosting goes wrong, your business pays for it in lost credentials and downtime nobody notices.",
+        "For most beginners, the practical path is to learn on Cloud first. If a solid reason to self-host comes up later, download your workflows as JSON or use n8n's export tools, then import them into your own instance. After that, re-enter your credentials and update the webhook URLs in every app that calls them."
+      ],
+      "bullets": [
+        "Choose Cloud if you've never used SSH, Docker or DNS settings.",
+        "Choose Cloud if you can't set aside regular time each month for updates and backup checks.",
+        "Choose Cloud if your workflows affect revenue or customers and downtime would hurt.",
+        "Choose Cloud if you'd rather pay a predictable bill than fix a server late at night.",
+        "Self-host only if you can rent, secure and patch a Linux VPS.",
+        "Self-host only if you'll run automatic off-server backups and have tested a restore.",
+        "Self-host only if your use fits the Sustainable Use License or you've confirmed a commercial agreement.",
+        "Self-host only if you have a solid reason beyond 'free': high volume, control over your data, or custom nodes."
+      ]
+    },
+    {
+      "heading": "When Zapier or Make Is a Simpler Fit Than Either",
+      "paragraphs": [
+        "If you only need a few simple automations between popular apps, Zapier or Make can be easier than any version of n8n. n8n is powerful but fairly technical. You'll run into expressions, JSON data, HTTP requests and loops sooner than you might expect.",
+        "Zapier suits simple 'when this happens, do that' automations and has one of the largest app libraries. It generally charges by tasks, meaning each action step that runs, so costs can climb quickly when automations run often or have many steps.",
+        "Make gives you a visual canvas where workflows can split into different paths. It's often cheaper than Zapier for multi-step workflows that run a lot. Its billing is based on usage per module, so check how its current plans count operations or credits.",
+        "Neither tool needs a server. Stick with n8n if you need self-hosting or control over your data, complex logic, custom code, or lots of long workflows where paying per execution saves money. Compare each vendor's current pricing page using your own estimate of monthly runs."
+      ],
+      "bullets": []
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Zapier",
+      "best_for": "Non-technical solo owners and small teams who want the fastest, simplest way to connect popular apps with no server to manage and no JSON or expressions to learn",
+      "not_for": "Workflows with many steps that run often, where per-task billing adds up, or anyone who needs to self-host to keep control of their data"
+    },
+    {
+      "product": "Make",
+      "best_for": "People who like to see workflows visually and run multi-step or frequent automations, and who want a managed tool that's often cheaper than Zapier at higher volume",
+      "not_for": "Anyone who needs self-hosting or on-premises data control, or who wants one or two very basic automations set up as simply as possible"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is self-hosted n8n really free?",
+      "answer": "The Community Edition has no license fee for eligible uses, but running it isn't free. You pay for a server, often a domain and backup storage, and you spend your own time on setup and monthly maintenance. You also carry the risk of downtime or data loss."
+    },
+    {
+      "question": "Is there a free version of n8n Cloud?",
+      "answer": "n8n Cloud is a paid subscription, and n8n has typically offered a time-limited free trial rather than a permanent free plan. The free option is the self-hosted Community Edition, which you can also run on your laptop for learning. Check n8n's pricing page for current trial terms and plans."
+    },
+    {
+      "question": "Can I use self-hosted n8n for my business?",
+      "answer": "Generally yes, for internal business use under n8n's Sustainable Use License, such as automating your own sales, operations or reports. There are restrictions on offering n8n as a hosted service to others, selling it under your own brand, or building it into a product you sell. Read n8n's license page and FAQ, and get legal advice if your situation isn't clear."
+    },
+    {
+      "question": "Do I need to know how to code to self-host n8n?",
+      "answer": "You don't need to be a programmer, but you do need to be comfortable with the Linux command line, SSH, Docker, DNS and basic server security. Some understanding of JSON and n8n expressions also makes building workflows easier on either option. If the server skills are unfamiliar, n8n Cloud is the safer place to start."
+    },
+    {
+      "question": "Can I move from n8n Cloud to self-hosted later, or the other way around?",
+      "answer": "Yes. You can export workflows as JSON files and import them into another n8n instance. Plan to re-enter your credentials and to update webhook URLs, which change when your domain changes. Check n8n's documentation for its current migration advice."
+    },
+    {
+      "question": "Is n8n cheaper than Zapier or Make?",
+      "answer": "It depends on how often your workflows run and how many steps they have. n8n Cloud counts each full workflow run as one execution, while Zapier counts each action step as a task and Make bills by usage per module. That means long multi-step workflows can work out cheaper on n8n. Compare each vendor's current pricing page using your own estimate of monthly runs."
+    }
+  ],
+  "conclusion": "For most beginners, n8n Cloud is the right first step. You spend your time learning n8n instead of running a server, and someone else handles updates, HTTPS and infrastructure. Self-hosting makes sense when you have a solid reason, such as high volume, control over your data or custom nodes, and also the skills and discipline to patch, back up and monitor a server every month. A \"free\" self-hosted setup still costs money, time and risk, so count all three honestly. Whichever you choose, estimate your monthly executions, check n8n's current pricing and license pages, set up an error workflow, and keep your own JSON exports of important workflows. Then look at the decision again after 30 days of real use. And if you only need a few simple app connections, Zapier or Make might get you there faster.",
+  "keyword": "n8n self hosted vs cloud for beginners",
+  "niche": "no-code AI automation workflows (Zapier, Make, n8n)",
+  "version": 2,
+  "slug": "n8n-self-hosted-vs-cloud-for-beginners-which-should-you-pick",
+  "published": "2026-10-08T12:26:25+00:00"
+}

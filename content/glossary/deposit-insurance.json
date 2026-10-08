@@ -1,0 +1,21 @@
+{
+  "term": "Deposit Insurance",
+  "section": "Banking & Money",
+  "short_definition": "Deposit insurance is a government-backed scheme that protects money held in eligible bank and credit-union accounts, up to a set limit per depositor per institution, if the institution fails.",
+  "explanation": [
+    "If a regulated bank fails, the deposit insurer pays eligible depositors back up to the coverage limit, usually without them having to do anything. Examples include the FDIC in the United States (and the NCUA for credit unions), the FSCS in the United Kingdom, and national schemes in the EU, Canada, Australia and elsewhere. Limits, eligible products and rules differ by country, so check your scheme's official website for current figures.",
+    "Deposit insurance matters because it is the main reason a regulated bank deposit counts as one of the safest places to keep cash. Knowing the limit helps you decide whether to spread larger balances across separately licensed banks.",
+    "The main risk is assuming everything is covered. Stocks, bonds, ETFs, mutual funds, crypto and many investment or e-money products are generally not covered. Some have separate investor-protection schemes, but these cover things like a broker failing, not falling investment values. Some fintech apps hold your money at a partner bank, and whether it's covered can depend on how the funds are held, so read the app's disclosures."
+  ],
+  "example": "Example (illustrative numbers): Say your country's scheme covers up to 100,000 (in local currency) per depositor per bank, and you hold 130,000 at one bank. If that bank failed, 100,000 would be protected and 30,000 could be at risk. With 70,000 at one licensed bank and 60,000 at another, separately licensed bank, both balances would stay within the example limit.",
+  "common_mistake": "Opening accounts with two brands that share one banking licence and assuming each gets its own coverage limit. Check which licence each bank operates under.",
+  "related_terms": [
+    "High-Yield Savings Account",
+    "Certificate of Deposit (CD)",
+    "Emergency Fund",
+    "Cryptocurrency"
+  ],
+  "title": "Deposit Insurance",
+  "slug": "deposit-insurance",
+  "published": "2026-10-08T12:42:18+00:00"
+}

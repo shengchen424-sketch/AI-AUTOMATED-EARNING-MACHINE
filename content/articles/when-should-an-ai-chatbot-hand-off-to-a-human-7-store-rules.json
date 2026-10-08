@@ -1,0 +1,302 @@
+{
+  "title": "When Should an AI Chatbot Hand Off to a Human? 7 Store Rules",
+  "meta_description": "When should an AI chatbot hand off to a human? 7 escalation rules for online stores, Tidio setup steps and copy-paste handoff message templates.",
+  "quick_answer": "An AI chatbot should hand off to a human when money, emotion or uncertainty enters the conversation. For online stores, that means refunds or chargebacks, damaged or missing orders, angry or repeated messages, VIP or large orders, questions it can't answer confidently, legal or safety issues, and any request for a person. Routine questions like order tracking stay with the bot. Have the bot collect the order number first.",
+  "key_takeaways": [
+    "Hand off when money, emotion or uncertainty is involved. Keep order tracking, shipping times and policy questions with the bot.",
+    "Build seven triggers: refunds and chargebacks, damaged or missing orders, angry or repeated messages, VIP and large orders, low-confidence answers, legal and safety issues, and any request for a human.",
+    "Use a two-strikes rule: if the bot fails to answer twice in a row, it brings in a person.",
+    "Collect the order number, email and photos before handing off, and never let the bot promise a refund or any other outcome.",
+    "Only state reply times your team can actually hit, and switch to offline message capture when nobody is online.",
+    "Spend 30 minutes a week reading 10–20 failed transcripts and log one fix for each."
+  ],
+  "who_this_is_for": "This guide is for e-commerce store owners and small support teams who already run an AI chatbot, especially Tidio, and need clear rules for when the bot should step aside and let a person take over.",
+  "intro": "Your AI chatbot can answer \"Where's my order?\" at 2am without trouble. But when a customer types \"I want a refund\" or \"this is the third time I've asked,\" the bot has a different job. It should stop trying to solve the problem and bring in a person quickly, along with the details that person needs. This guide covers one principle and seven escalation rules for online stores. It also includes a checklist of what the bot should collect, a Tidio setup walkthrough, handoff messages you can copy and a weekly review that keeps the system improving. It assumes your chatbot is already installed.",
+  "steps": [
+    {
+      "name": "Audit your recent conversations",
+      "text": "Read through your last 50–100 chats. Mark each one as 'bot could handle' or 'needed a person,' and copy the exact phrases customers used when they needed help. Those phrases become your starting keyword list."
+    },
+    {
+      "name": "Write a one-page escalation policy",
+      "text": "List the seven escalation rules in a shared document. For each rule, note the owner (for example, whoever can approve refunds), what the bot must collect before handing off and the response time you'll promise customers."
+    },
+    {
+      "name": "Make every trigger objective",
+      "text": "Define your VIP threshold (an order value, bulk quantity or repeat-customer status), what counts as 'repeated' (the same question twice, or two failed bot answers in a row) and which phrases signal frustration. Clear definitions mean the bot and your team make the same call every time."
+    },
+    {
+      "name": "Turn on the AI agent's human handoff",
+      "text": "In Tidio's AI agent settings, allow handoff when the agent can't find an answer and when a visitor asks for a person. Setting names change, so check Tidio's help docs for the current labels."
+    },
+    {
+      "name": "Build keyword Flows for high-risk topics",
+      "text": "Create Flows that react to words like refund, chargeback, damaged, never arrived, wrong item, lawyer, allergic, agent and human, plus variants from your audit. Add a button step that separates policy questions from real requests. Then have the Flow send your handoff message, ask for the order number and route the chat to your team."
+    },
+    {
+      "name": "Set operator hours, routing and notifications",
+      "text": "Set your working hours and time zone and keep operator statuses accurate. Turn on desktop and mobile notifications for everyone who takes handoffs. If your plan supports assignment rules, send refunds and legal issues to someone who has the authority to resolve them."
+    },
+    {
+      "name": "Configure offline message capture",
+      "text": "Outside working hours, have the bot ask for an email address, order number and one-line description, plus photos for damage. It should also tell the customer when they'll get a reply."
+    },
+    {
+      "name": "Add your handoff message templates",
+      "text": "Paste in versions of your handoff message for online, offline, upset-customer, VIP and legal or safety situations. Use response times your team can actually hit."
+    },
+    {
+      "name": "Test every rule end to end",
+      "text": "From a private browser window, act out each of the seven scenarios both during and outside working hours, which makes 14 tests. Fix any path where the customer gets stuck, the bot promises an outcome or the agent is missing context."
+    },
+    {
+      "name": "Review failed transcripts weekly",
+      "text": "Spend 30 minutes each week reading 10–20 conversations the bot handled badly. Give each one a cause and a fix, log both, and update your keywords and knowledge base to match."
+    }
+  ],
+  "comparison": {
+    "caption": "The 7 chatbot-to-human escalation rules at a glance (the priorities are suggestions, so set your own)",
+    "headers": [
+      "Rule",
+      "Signals to watch for",
+      "Bot collects before handoff",
+      "Owner",
+      "Suggested priority"
+    ],
+    "rows": [
+      [
+        "1. Refund or chargeback",
+        "\"refund\", \"money back\", \"chargeback\", \"dispute\", \"my bank\"",
+        "Order number and reason; promises nothing",
+        "Whoever can approve refunds",
+        "Same day, because chargebacks have deadlines"
+      ],
+      [
+        "2. Damaged, missing or wrong order",
+        "\"broken\", \"damaged\", \"never arrived\", \"missing item\", \"wrong item\"",
+        "Order number and photos",
+        "Support or fulfilment lead",
+        "Same day"
+      ],
+      [
+        "3. Angry or repeated messages",
+        "Same question twice, all caps, swearing, \"useless\", \"third time\"",
+        "Order number if not already given; apologises once and stops answering",
+        "Most experienced agent available",
+        "Next available agent"
+      ],
+      [
+        "4. VIP or large order",
+        "Order above your threshold, bulk or wholesale enquiry, repeat customer",
+        "Quantity, deadline and contact details",
+        "Owner or sales lead",
+        "Same day, because revenue is at stake"
+      ],
+      [
+        "5. Low-confidence question",
+        "No clear answer in the knowledge base; compatibility or custom requests",
+        "The full question; admits it doesn't know instead of guessing",
+        "Agent with strong product knowledge",
+        "Normal reply time"
+      ],
+      [
+        "6. Legal or safety issue",
+        "Injury, allergic reaction, \"lawyer\", \"unsafe\", data deletion request",
+        "Contact details only; gives no advice",
+        "Owner",
+        "Immediate, and alert the owner"
+      ],
+      [
+        "7. Customer asks for a human",
+        "\"human\", \"agent\", \"real person\", \"speak to someone\"",
+        "Order number if relevant",
+        "Next available agent",
+        "On the first request, with no gatekeeping"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "When Should an AI Chatbot Hand Off to a Human? The Core Rule",
+      "paragraphs": [
+        "An AI chatbot should hand off to a human whenever money, emotion or uncertainty enters the conversation. Between them, those three signals cover nearly every case where a wrong or robotic answer costs more than a slightly slower reply from a person.",
+        "In chatbot handoffs, money means anything that could make the store lose or owe cash: refunds, chargebacks, replacements, price disputes and large orders. A bot usually can't approve these. A confident wrong answer such as \"Sure, you'll get a full refund!\" creates a promise your team then has to keep or take back.",
+        "In chatbot handoffs, emotion means a customer who is frustrated, anxious or angry. Bots are good at giving information and poor at reassuring people, so repeating a policy to an upset customer usually makes things worse.",
+        "In chatbot handoffs, uncertainty means the bot doesn't have a reliable answer, or a wrong answer would be costly. Questions about product compatibility, custom requests, safety and legal matters all count.",
+        "Routine questions such as order tracking, shipping times, return-policy wording and size guides should stay with the bot. A good handoff policy protects customers when the stakes are high without pulling your team back into routine work."
+      ],
+      "bullets": [
+        "Money: refunds, chargebacks, replacements, discounts, large or bulk orders.",
+        "Emotion: frustration, repeated messages, complaints, distress.",
+        "Uncertainty: no answer in the knowledge base, high-stakes topics, unusual requests.",
+        "Bot territory: order status, shipping info, store policies, product basics."
+      ]
+    },
+    {
+      "heading": "The 7 Escalation Rules for Online Stores",
+      "paragraphs": [
+        "These seven rules turn the money, emotion and uncertainty principle into specific triggers you can build into almost any store chatbot.",
+        "Rule 1: Refund or chargeback requests go to a human. Refunds need judgement about the return window, the item's condition and whether a partial refund would be fair. Chargebacks are formal disputes raised through the customer's bank or card provider, and they come with response deadlines, so they shouldn't sit in a queue. The bot collects the order number and the reason, then hands off without promising an outcome.",
+        "Rule 2: Damaged, missing or wrong orders go to a human. The customer has already had a bad experience, and fixing it usually means choosing between a replacement, a refund and a claim with the carrier. Asking for the order number and photos before the handoff saves a full round of messages.",
+        "Rule 3: Angry or repeated messages go to a human. Watch for the same question asked twice, messages in all caps, swearing, or phrases like \"this is useless\" or \"third time asking.\" A simple two-strikes rule works well: if the bot fails to answer twice in a row, it apologises once and brings in a person.",
+        "Rule 4: VIP and large orders go to a human. Set an objective threshold, such as an order value, a bulk quantity or a repeat-customer count that matters to your margins. Wholesale enquiries, corporate gifts and big pre-sale questions are worth a person's time because there is revenue at stake.",
+        "Rule 5: Questions the bot can't answer confidently go to a human. If the answer isn't clearly in your knowledge base, the bot should say so and offer a person instead of guessing. Guesses about compatibility, ingredients, materials or delivery dates lead to returns and complaints.",
+        "Rule 6: Legal or safety issues go to a human immediately. This covers injuries, allergic reactions, defects that could cause harm, threats of legal action and privacy requests such as deleting personal data, which privacy laws in many regions require you to answer within a set time. The bot collects contact details and gives no advice.",
+        "Rule 7: Any request for a human gets a human. If a customer types \"agent,\" \"real person\" or \"speak to someone,\" hand off the first time they ask. Making people fight the bot to reach a person quickly destroys their trust."
+      ],
+      "bullets": [
+        "Could a wrong answer cost the store money? Hand off.",
+        "Is the customer upset or repeating themselves? Hand off.",
+        "Is the bot unsure, or is safety or the law involved? Hand off.",
+        "None of the above? Let the bot answer, and keep the option to reach a person visible."
+      ]
+    },
+    {
+      "heading": "What the Bot Should Collect Before Handing Off",
+      "paragraphs": [
+        "Before any handoff, the bot should gather the details an agent needs to act, so the customer never has to repeat themselves.",
+        "Context is what makes a handoff useful rather than just a transfer. If the agent's first message is \"Can I have your order number?\", the bot saved nobody any time. Ask for three or four details at most, because long forms frustrate customers who are already unhappy.",
+        "If your chatbot can save answers to contact fields, add tags or leave internal notes, give the agent a short handoff summary built from the fields below. The agent can then read the situation in seconds."
+      ],
+      "bullets": [
+        "Order number, or the email used at checkout.",
+        "Rule triggered: refund, damage, angry, VIP, unsure, legal or safety, or human request.",
+        "The customer's request in one line, in their own words.",
+        "What the bot has already told them, so the agent doesn't contradict it.",
+        "Photos attached: yes or no.",
+        "Never let the bot promise a refund, replacement, discount or legal position before the handoff."
+      ]
+    },
+    {
+      "heading": "How to Set Up Handoff Rules in Tidio",
+      "paragraphs": [
+        "In Tidio, handoffs are generally controlled in three places: the AI agent's handoff settings, Flows that react to keywords or conditions, and your team's operator availability. Tidio updates its product often, so confirm the current menu and setting names in Tidio's help center. The guidance below tells you what to look for, not the exact button labels.",
+        "Start with Tidio's AI agent, which is marketed as Lyro at the time of writing. Find the settings that control when it transfers a conversation to a human. Usually that happens when it can't find an answer in your knowledge sources or when a visitor asks for a person. Make sure handoff is switched on, and check what the agent says when no operators are online.",
+        "Use Tidio Flows for your fixed rules. A Flow triggered by what the visitor types can watch for words like refund, chargeback, damaged, never arrived, lawyer, allergic or human. It can then send your handoff message, ask for the order number and route the chat to your team. Include the variants customers actually use, such as \"money back\" and \"reimburse.\"",
+        "Watch out for false positives in keyword Flows. \"What's your refund policy?\" contains the word refund, but it's a question the bot can answer. Add a button step that asks \"Are you asking about our policy, or requesting a refund for an order?\" and only hand off on the second choice. Also test whether your keyword Flows run before or after the AI agent replies in your setup, because that decides which rule wins.",
+        "Set operator availability honestly. That means accurate working hours, time zone and statuses, with desktop or mobile notifications on for everyone who takes handoffs. If your plan supports departments or assignment rules, route refunds and legal issues to someone with the authority to resolve them. Check whether your store integration shows order details in the Tidio inbox. If it doesn't, have the bot ask for the order number early."
+      ],
+      "bullets": [
+        "AI agent handoff is on for unanswered questions and direct requests for a human.",
+        "There is one Flow for each high-risk keyword group: refunds, damage, legal and safety, and human requests.",
+        "A button step separates refund-policy questions from actual refund requests.",
+        "Working hours and time zone are correct, and every operator has notifications switched on.",
+        "Offline capture has been tested from a logged-out private browser window."
+      ]
+    },
+    {
+      "heading": "What to Do When No Human Is Online",
+      "paragraphs": [
+        "When no one is available, the bot should collect everything a person needs to resolve the issue and tell the customer exactly when they'll hear back.",
+        "A handoff that ends in an empty chat window is worse than no handoff at all. Outside working hours, switch the message from \"connecting you now\" to \"leave your details and we'll reply by email.\" Tidio can generally capture offline messages so you can reply by email later, but confirm how this works on your plan.",
+        "Decide in advance how legal or safety issues are handled out of hours, including who gets alerted and how. Some owners send these to a phone notification; others accept handling them the next morning. Make that choice on purpose, not in the middle of an incident."
+      ],
+      "bullets": [
+        "Email address (required).",
+        "Order number or checkout email.",
+        "A one-sentence description of the problem.",
+        "Photos for damaged or wrong items.",
+        "A reply time you will actually meet, stated plainly (for example, \"by midday tomorrow\")."
+      ]
+    },
+    {
+      "heading": "Handoff Message Templates That Set Honest Expectations",
+      "paragraphs": [
+        "A good handoff message tells the customer three things: a person is taking over, roughly when they'll reply, and they won't need to repeat themselves.",
+        "Only promise response times your team hits consistently. If you usually reply within an hour during business hours, say \"within an hour,\" not \"in a few minutes.\" A longer estimate you meet builds more trust than a fast one you miss. Replace the bracketed placeholders below and adjust the tone to match your brand."
+      ],
+      "bullets": [
+        "Online handoff: \"Thanks, [first name]. I'm passing this to a member of our team so a real person can sort it out. During [business hours, time zone] we usually reply within [your typical time]. They'll see this whole conversation, so you won't need to repeat anything.\"",
+        "Offline handoff: \"Our team is offline right now. We're available [days, hours, time zone]. Leave your email and order number below, and a person will reply by [realistic time, e.g. midday next business day]. We've saved this conversation, so you won't need to explain it again.\"",
+        "Upset customer: \"I'm sorry this has happened, and I don't want to keep you going back and forth with a bot. I'm bringing in a member of our team now. [Online or offline timing line.] Your order number and any photos will help them fix this faster.\"",
+        "VIP or bulk order: \"Thanks for your interest. For an order this size, a member of our team can help with [pricing, lead times or custom options]. What quantity and deadline are you working to, and what's the best email to reach you?\"",
+        "Legal or safety: \"Thank you for telling us. This needs a person, so I'm passing it straight to our team. Please share your email and order number, and we'll contact you by [time]. If anyone is hurt or in danger, please contact local emergency services first.\""
+      ]
+    },
+    {
+      "heading": "The Weekly Review: Fix the Transcripts Your Bot Failed On",
+      "paragraphs": [
+        "A 30-minute weekly review of failed conversations is the most reliable way to improve both your handoff rules and the bot's answers.",
+        "Count a conversation as failed if the bot couldn't answer, gave a wrong or incomplete answer, the customer asked for a human, the customer left right after a bot reply, the chat got a poor rating, or an agent had to correct the bot. Depending on your Tidio plan, you may be able to filter by tags, AI agent outcome or rating. If not, tag these conversations by hand.",
+        "Read 10 to 20 failures properly rather than skimming hundreds. Give each failure one cause and one fix, and log both in a shared table or wiki page. After a few weeks, patterns appear: the same missing answer, a phrase your Flows don't catch, or handoffs that keep happening too late."
+      ],
+      "bullets": [
+        "Missing knowledge: add or rewrite a help article or knowledge source.",
+        "Wrong answer: correct the source content, then ask the bot the same question again.",
+        "Escalated too late: add the customer's exact wording to your keyword Flows.",
+        "Escalated when it didn't need to: add a clear answer so the bot can handle it next time.",
+        "Slow human reply: review operator hours, notifications or staffing."
+      ]
+    },
+    {
+      "heading": "Common Handoff Mistakes to Avoid",
+      "paragraphs": [
+        "The most common handoff mistakes are hiding the human option, handing off without context and promising response times your team can't meet.",
+        "Most of these mistakes creep in when a bot is set up once and never checked again. The weekly review catches them before they turn into a run of bad reviews."
+      ],
+      "bullets": [
+        "Hiding the human: forcing customers through several bot replies frustrates people who already know they need a person.",
+        "Handing off without context: if the agent has to ask for the order number again, the handoff saved no time.",
+        "Letting the bot promise outcomes: \"You'll get a full refund\" should only come from someone who can approve it.",
+        "Showing 'online' when nobody is watching: an accurate status matters more than looking available.",
+        "Over-triggering on keywords: escalating every mention of \"refund\" sends simple policy questions to your team.",
+        "Escalating everything: if every chat goes to a human, you're paying for a bot that only says hello.",
+        "Never updating keywords: customers describe problems in their own words, so add new phrases as you find them."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Tidio",
+      "best_for": "Small and mid-sized online stores that want an AI support agent and live chat in one inbox, with handoff to human operators, keyword-triggered Flows and offline message capture.",
+      "not_for": "Teams that need a large multichannel helpdesk with complex routing and SLA reporting, or stores that don't offer live chat. Check current plans, how AI conversations are counted and which features each tier includes on Tidio's site."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping your escalation policy, handoff message templates and weekly failed-transcript log on one shared page the whole team can edit.",
+      "not_for": "Real-time alerts or customer conversations. It's a documentation workspace, not a support inbox."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending extra handoff alerts to Slack or email, or logging escalated conversations to a spreadsheet, when Tidio's built-in notifications aren't enough. Check which Tidio triggers the integration currently offers.",
+      "not_for": "Stores already well served by Tidio's own app notifications. For very high-volume logging, Zapier's task-based pricing can add up and Make may be cheaper, so compare current pricing on both sites."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "Polishing handoff templates and agent replies so they sound warm and clear, especially for team members writing in a second language.",
+      "not_for": "Escalation logic or routing. It improves wording, not when or where a chat gets handed off. Check that it works inside your support inbox before relying on it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should a chatbot always offer the option to talk to a human?",
+      "answer": "Yes. Customers should always be able to reach a person, even if that means leaving a message for later. The option doesn't need to appear on every bot reply, but the bot should hand off the first time someone asks."
+    },
+    {
+      "question": "How many failed answers before a chatbot should escalate?",
+      "answer": "For most stores, a two-strikes rule works well: if the bot fails to answer twice in a row, or the customer repeats the same question, it hands off. There's no universal standard, so check your transcripts to see where frustration starts. For high-stakes topics like refunds, damage or safety, escalate on the first message instead."
+    },
+    {
+      "question": "How quickly should a human respond after a chatbot handoff?",
+      "answer": "There's no universal standard. The right target is one your team can hit consistently. Give customers a realistic window during business hours and a specific time for offline messages, then check in your weekly review whether you're meeting it."
+    },
+    {
+      "question": "Can Tidio's AI agent hand off to a human automatically?",
+      "answer": "Tidio's AI agent can be set to pass conversations to your team, for example when it can't find an answer or when a visitor asks for a person. You can add Flows for keyword rules like refunds or damaged orders. Setting names and plan availability change, so check Tidio's help center and pricing page for current details."
+    },
+    {
+      "question": "Should a chatbot process refunds on its own?",
+      "answer": "For most small stores, no. A bot can explain your refund policy and collect the order number and reason, but approving a refund involves money and judgement, so a person should decide. If you automate any part of refunds, limit it to clearly defined low-value cases and review them regularly."
+    },
+    {
+      "question": "How do I know if my chatbot escalates too much or too little?",
+      "answer": "Read the failed and handed-off transcripts each week. If your team keeps answering simple questions the bot could have handled, you're escalating too much, so add those answers to the knowledge base. If customers get angry or repeat themselves before reaching a person, you're escalating too little, so tighten your keyword triggers."
+    }
+  ],
+  "conclusion": "The best chatbot handoff rule is simple: when money, emotion or uncertainty enters the conversation, a person takes over. Start with the seven rules, make each trigger objective, and build them into Tidio's AI agent settings, Flows and operator hours. Collect the order number before every handoff, tell customers honestly when they'll hear back, and switch to offline capture when nobody is around. Then spend 30 minutes a week fixing one thing for each failed transcript. Over time the bot handles more of the routine questions, and your team can spend its time on the conversations that most affect whether customers come back.",
+  "keyword": "when should an ai chatbot hand off to a human",
+  "niche": "AI customer support chatbots for online stores",
+  "version": 2,
+  "slug": "when-should-an-ai-chatbot-hand-off-to-a-human-7-store-rules",
+  "published": "2026-10-08T12:24:50+00:00"
+}

@@ -1,0 +1,282 @@
+{
+  "title": "A Simple Chart of Accounts for Freelancers: 25-Account Template",
+  "meta_description": "Copy this simple chart of accounts for freelancers: 25 accounts in five groups, a rule for each, common mistakes and how to set it up in QuickBooks.",
+  "quick_answer": "A simple chart of accounts for freelancers is a short list of about 25 categories for recording every transaction, grouped into assets, liabilities, equity, income and expenses. Most solo freelancers need a bank account, a credit card, a tax reserve, owner's draw and contribution accounts, one or two income accounts, and about a dozen expense accounts named after your local tax form's lines. Add more only when genuinely needed.",
+  "key_takeaways": [
+    "Start with about 25 accounts in five groups. Add one only when your tax form has a separate line for it or you need the number to make a decision.",
+    "Name your expense accounts after the lines on your local business tax form, and have an accountant check how they line up once.",
+    "Money you take out for yourself goes to Owner's Draw in equity. It is never a business expense.",
+    "Don't create a 'Miscellaneous' account. Treat Uncategorized accounts as an inbox and empty them every month.",
+    "In QuickBooks Online, rename accounts or make them inactive instead of trying to delete them. Merging accounts is permanent.",
+    "If you only have a handful of transactions a year, a spreadsheet with consistent categories is enough."
+  ],
+  "who_this_is_for": "This guide is for solo freelancers and consultants running a service business who are setting up bookkeeping software or cleaning up a messy list of categories and want a short chart of accounts that's ready for tax time.",
+  "intro": "A chart of accounts is the master list of categories your business uses to record every transaction, grouped into assets, liabilities, equity, income and expenses. For a solo freelancer, a good one means tax season starts with running a report. A bad one means digging through bank statements at year-end. Most people either keep the long default list their accounting software creates or make up a new category whenever something unusual turns up. This guide gives you a 25-account starter list for a one-person service business that you can copy. Each account comes with a one-line rule for what goes in it and what doesn't. You'll also see where tricky transactions belong and which mistakes make books messy. It also covers how to edit the default list in QuickBooks Online without changing past entries by accident, and when a plain spreadsheet is all you need. This is general bookkeeping information, not tax advice. Tax rules differ by country, so confirm how anything is treated with your tax authority or a qualified accountant.",
+  "steps": [
+    {
+      "name": "Decide whether you need full books",
+      "text": "If you have only a handful of business transactions a year, a spreadsheet with columns for date, description, amount, category and a receipt link may be enough. If you invoice every month, have several income sources or are registered for sales tax, VAT or GST, set up a full chart of accounts."
+    },
+    {
+      "name": "Get your local tax form",
+      "text": "Download the current business-income form or its instructions from your tax authority's website, such as Schedule C in the US or Form T2125 in Canada. Write down every expense line it lists."
+    },
+    {
+      "name": "Copy the starter list",
+      "text": "Start with the 25 accounts in this guide. Remove any that don't apply to you, such as Loan Payable if you have no business loan or Sales Tax Payable if you aren't registered."
+    },
+    {
+      "name": "Match and rename your expense accounts",
+      "text": "Link each expense account to exactly one line on your tax form and rename it using the form's wording. If an account would feed two lines, split it into two accounts."
+    },
+    {
+      "name": "Write a one-line rule for each account",
+      "text": "In each account's description field, note what goes in, what doesn't and which tax line it feeds. For example: 'SaaS and cloud tools; not hardware.' Then you'll categorize the same way every month, even when you're busy."
+    },
+    {
+      "name": "Set it up in your software",
+      "text": "In QuickBooks Online, go to Settings (gear icon) > Chart of accounts. Rename default accounts that match yours, add the ones that are missing, and make unused ones inactive instead of trying to delete them. Then create bank rules for regular payees so routine transactions are categorized the same way each time."
+    },
+    {
+      "name": "Review every month",
+      "text": "Reconcile each bank, card and payment processor account against its statement, and empty the Uncategorized accounts. Check that no personal spending is sitting in expenses and no business costs are sitting in Owner's Draw. Move your tax set-aside into Tax Reserve Savings at the same time."
+    },
+    {
+      "name": "Get an accountant review once",
+      "text": "Before your first tax filing with the new structure, ask an accountant to check how your accounts line up with the tax form. They can also set up anything specialist, such as depreciation or payroll."
+    }
+  ],
+  "comparison": {
+    "caption": "Where common freelancer transactions go",
+    "headers": [
+      "Transaction",
+      "Record it in",
+      "Not in"
+    ],
+    "rows": [
+      [
+        "Annual subscription to a design app",
+        "Software & Subscriptions (expense)",
+        "Equipment (asset)"
+      ],
+      [
+        "New laptop",
+        "Equipment (asset) if your local rules require you to record it as an asset; otherwise Office Supplies & Small Equipment",
+        "Software & Subscriptions"
+      ],
+      [
+        "Transfer to your personal account to pay household bills",
+        "Owner's Draw (equity)",
+        "Any expense account"
+      ],
+      [
+        "Stripe or PayPal payout with a fee deducted",
+        "Full sale amount in Service Income; fee in Bank & Payment Fees; the payout itself as a transfer from Payment Processor Clearing to Business Checking",
+        "A single deposit for the net amount, which hides the fee"
+      ],
+      [
+        "Client pays an invoice you already sent",
+        "Payment applied to the invoice, which clears Accounts Receivable",
+        "Service Income a second time (double-counting)"
+      ],
+      [
+        "Paying off the business credit card",
+        "Transfer that reduces the Business Credit Card balance",
+        "An expense account (the original charges were already recorded)"
+      ],
+      [
+        "Moving money into your tax savings account",
+        "Transfer to Tax Reserve Savings",
+        "Expenses or Owner's Draw"
+      ],
+      [
+        "Personal money added to cover a slow month",
+        "Owner Contributions (equity)",
+        "Service Income"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What a chart of accounts does (and why simple wins)",
+      "paragraphs": [
+        "A chart of accounts gives every transaction one consistent place to go. That way your profit, tax figures and balance sheet come straight out of your books, and you don't have to rebuild them at tax time.",
+        "The five account groups feed two reports. Assets, liabilities and equity make up the balance sheet, which shows what the business owns and owes on a given date. Income and expenses make up the profit and loss statement (P&L), which shows what you earned and spent over a period such as a month or a year.",
+        "A short list works better because every time you categorize a transaction you make a choice, and fewer accounts means fewer chances to choose differently. With about 25 clear accounts, the same kind of purchase lands in the same place every month. That keeps year-to-year comparisons accurate and makes your accountant's review faster."
+      ],
+      "bullets": [
+        "Assets: what the business owns, such as bank balances, unpaid client invoices and equipment.",
+        "Liabilities: what the business owes, such as credit card balances, sales tax collected and loans.",
+        "Equity: your stake as owner, meaning the money you put in, the money you take out and the profit built up over time.",
+        "Income: money clients pay you for your work.",
+        "Expenses: the costs of running the business, grouped the way your tax form groups them."
+      ]
+    },
+    {
+      "heading": "A simple chart of accounts for freelancers: assets, liabilities and equity",
+      "paragraphs": [
+        "The balance sheet side of a freelancer's chart of accounts needs only about 11 accounts. They track where your money sits, what you owe, and what you've put in or taken out.",
+        "Account numbers are optional, but they keep each group together. The number ranges below leave gaps so you can add accounts later without renumbering. Skip any account that doesn't apply to you.",
+        "These equity accounts assume you're a sole proprietor or another unincorporated business. If you run a limited company or corporation that pays you a salary or dividends, equity and payroll work differently, so ask an accountant how to set them up."
+      ],
+      "bullets": [
+        "1000 Business Checking. In: every deposit and payment through your business bank account. Not: personal accounts. If you pay a business bill from a personal account, record the expense with Owner Contributions as the source of the money.",
+        "1050 Tax Reserve Savings. In: money set aside for income tax and sales tax. Not: personal savings or an emergency fund.",
+        "1100 Accounts Receivable. In: invoices you've sent that haven't been paid yet. Not: payments you've already received. Most software updates this account automatically when you send invoices and record payments.",
+        "1200 Payment Processor Clearing. In: client payments held in PayPal, Stripe or a similar platform before they're paid out to your bank. Not: the processor's fees, which go to Bank & Payment Fees.",
+        "1500 Equipment. In: longer-lasting items such as a computer or camera that your local rules say must be recorded as an asset and depreciated. Not: subscriptions or low-cost items you can expense right away.",
+        "2000 Business Credit Card. In: charges on and payments to your business card. Not: a personal card.",
+        "2100 Sales Tax / VAT / GST Payable. In: tax you collect from clients and owe to the government. Not: your own income tax. Leave this account out if you aren't registered.",
+        "2200 Loan Payable. In: the remaining balance on a business loan. Not: interest, which goes to Interest Expense.",
+        "3000 Owner Contributions. In: personal money you put into the business. Not: client payments or loans.",
+        "3100 Owner's Draw. In: money you move to yourself for personal use. Not: business expenses. Sole proprietors often record personal income tax payments here too, but confirm this with your accountant.",
+        "3900 Retained Earnings. In: profit built up from previous years, which your software calculates for you. Not: anything you post by hand."
+      ]
+    },
+    {
+      "heading": "Income and expense accounts (copy this list)",
+      "paragraphs": [
+        "The profit and loss side of a solo service business needs two income accounts and about a dozen expense accounts.",
+        "The names below are generic. Once you've checked your local tax form, rename them to match its wording so each account flows to exactly one line on your return. Categorize each purchase by what it's for, not where you bought it. A single online marketplace order might be office supplies, software or something personal."
+      ],
+      "bullets": [
+        "4000 Service Income. In: fees clients pay for your work. Not: transfers from savings, owner contributions, loan money or supplier refunds.",
+        "4100 Reimbursed Expense Income. In: costs you pay for and then bill back to clients, such as project travel. Not: your fee. Some accountants prefer to subtract these from the original expense instead, so ask which way they want it.",
+        "6000 Advertising & Marketing. In: ads, sponsored posts, business cards and promotion. Not: website tools, which go to Software & Subscriptions.",
+        "6100 Bank & Payment Fees. In: bank charges and card, PayPal or Stripe processing fees. Not: interest.",
+        "6150 Interest Expense. In: interest on business cards and loans. Not: loan repayments, which reduce Loan Payable.",
+        "6200 Subcontractors. In: other freelancers you pay to help deliver client work. Not: payments to yourself or to your accountant.",
+        "6300 Insurance. In: business policies such as professional liability cover. Not: personal health or life cover, which may be handled on your personal return depending on your country.",
+        "6400 Professional Fees. In: your accountant, bookkeeper or lawyer. Not: subcontractors doing client work.",
+        "6500 Software & Subscriptions. In: SaaS tools, cloud storage, design apps, hosting and domains. Not: hardware or personal streaming services.",
+        "6550 Office Supplies & Small Equipment. In: low-cost items like cables, a keyboard or paper. Not: purchases big enough to record as Equipment.",
+        "6600 Phone & Internet. In: the business share of your phone and internet bills. Not: the personal share. How you work out the split depends on your local rules.",
+        "6700 Travel. In: transport and lodging for business trips. Not: meals, which have their own account, or everyday commuting, which many tax systems don't let you deduct.",
+        "6750 Meals. In: business meals with clients or while traveling. Not: everyday lunches. Many tax systems limit meal deductions, which is why meals get their own account.",
+        "6800 Training & Memberships. In: courses, books, conferences and professional association fees tied to your current work. Not: training for a new career, which may be treated differently."
+      ]
+    },
+    {
+      "heading": "Optional accounts to add only when you need them",
+      "paragraphs": [
+        "Add a new account only when your tax form has a separate line for it, you spend on it regularly, or you need the number to make a business decision.",
+        "If none of those apply, the transaction belongs in an existing account, and you can put any extra detail in the memo. This one rule stops a 25-account list from quietly doubling in size within a year."
+      ],
+      "bullets": [
+        "Rent or Coworking: if you pay for a desk, studio or office outside your home.",
+        "Home Office: many countries calculate this on the tax return rather than through monthly entries, so ask your accountant before creating it.",
+        "Vehicle Expenses: if you drive for work and your local rules let you claim actual costs.",
+        "Licenses & Permits: if your tax form lists them separately.",
+        "Depreciation Expense and Accumulated Depreciation: usually set up by your accountant once you own equipment recorded as an asset.",
+        "Cost of Sales: if you start reselling products or materials as well as selling your time.",
+        "Payroll or salary accounts: if you incorporate and pay yourself through payroll."
+      ]
+    },
+    {
+      "heading": "Match your expense accounts to your local tax form",
+      "paragraphs": [
+        "Tax categories differ by country, so name and group your expense accounts to match the business-income form you actually file.",
+        "Common examples are Schedule C in the US, the self-employment pages of a Self Assessment return in the UK, Form T2125 in Canada, and the business section of an individual tax return in Australia. Each groups expenses differently. The rules on what you can deduct, what must be depreciated and what is restricted also differ, and meals and home offices are common examples. This is general information, not tax advice. Check your tax authority's current guidance and confirm your setup with a qualified accountant.",
+        "Record-keeping rules change too. For example, the UK is phasing in Making Tax Digital for Income Tax, which requires sole traders who fall within its scope to keep digital records and send quarterly updates. Check HMRC's current guidance to see whether and when it applies to you.",
+        "Sales taxes vary in the same way. VAT, GST, HST and US state sales taxes each have their own registration rules and returns. If you're registered, the Payable account keeps that money visibly separate from your income."
+      ],
+      "bullets": [
+        "Download the current form or its instructions from your tax authority's website.",
+        "List every expense line and decide which of your accounts feeds it.",
+        "Make sure no account feeds two lines. If one does, split it.",
+        "Write the matching form line in each account's description field.",
+        "Ask an accountant to check how your accounts line up with the form before your first filing."
+      ]
+    },
+    {
+      "heading": "Common chart of accounts mistakes to avoid",
+      "paragraphs": [
+        "The three mistakes that cause the most cleanup work are having too many accounts, using a 'Miscellaneous' account as a dumping ground, and recording personal draws as business expenses.",
+        "Too many accounts: Splitting software into 'Design Software', 'Project Tools' and 'Cloud Storage' looks organized, but it makes categorizing slower and less consistent. If the extra detail doesn't change a tax line or a decision, use one account and put the detail in the memo.",
+        "A 'Miscellaneous' dumping ground: An account called Miscellaneous or Other Expenses fills up with everything you don't want to think about. Those transactions are the hardest to explain or deduct later. Don't create one, and treat your software's Uncategorized accounts as an inbox you empty every month.",
+        "Personal draws recorded as expenses: Transfers to your personal account and personal purchases on the business card are owner's draws, not expenses. Recording them as expenses makes your profit look smaller and your deductions look bigger than they really are, which can lead to an incorrect tax return."
+      ],
+      "bullets": [
+        "Recording transfers between your own accounts, such as checking to savings or paying off the card, as income or expenses.",
+        "Recording a client's payment on an invoice as new income, which counts it twice.",
+        "Recording a loan you received as income.",
+        "Creating an account for each client or vendor instead of using customer and vendor names.",
+        "Recording processor payouts as the net amount only, which hides both your true income and your fees.",
+        "Using one card for both personal and business spending."
+      ]
+    },
+    {
+      "heading": "How to change the default chart of accounts in QuickBooks Online without breaking past entries",
+      "paragraphs": [
+        "In QuickBooks Online you edit your accounts at Settings (gear icon) > Chart of accounts. The safe rule is to rename accounts and make them inactive freely, but to merge only with care, because a merge can't be undone.",
+        "Menu names and layouts change between versions and regions, and you may also find Chart of accounts under Accounting or Transactions in the left-hand menu. If these steps don't match your screen, check Intuit's current help articles.",
+        "Some built-in accounts, such as Retained Earnings, Opening Balance Equity and the Uncategorized accounts, generally can't be removed. Leave them in place and keep the Uncategorized accounts at zero."
+      ],
+      "bullets": [
+        "Save a record first: run the Account List report and export it so you have a copy of the old structure.",
+        "Rename: choose Edit in the account's Action column. Past transactions stay in the account and simply show the new name, which makes renaming the safest change.",
+        "Add: select New, choose the account type and then the detail type, and enter a name. Only make it a sub-account if you genuinely need the extra level.",
+        "Make inactive: choose Make inactive from the Action column drop-down. Past transactions are kept, and you can reactivate the account later.",
+        "Clear balance sheet accounts first: before making a bank, card or loan account inactive, bring its balance to zero and reconcile it.",
+        "Merge carefully: if you rename an account to exactly the same name as another account with the same account type and detail type, QuickBooks offers to merge them. All past transactions then move into the account you keep. A merge is permanent, so avoid merging accounts that hold transactions from years you've already filed.",
+        "Add bank rules: in the bank transactions area, create rules for regular payees such as your hosting provider or phone company, so their charges go to the same account every month. Check what the rules match instead of accepting everything automatically.",
+        "Protect filed periods: Settings > Account and settings > Advanced > Close the books lets you set a closing date, so changes to earlier periods need a password or show a warning.",
+        "Turn on account numbers: Settings > Account and settings > Advanced > Chart of accounts."
+      ]
+    },
+    {
+      "heading": "Who doesn't need a formal chart of accounts",
+      "paragraphs": [
+        "If you have only a handful of business transactions a year, a spreadsheet with consistent categories does the job, and accounting software is optional.",
+        "That might be a side project with a few client payments and a couple of software receipts. A sheet with columns for date, description, amount, category and a receipt link is enough. Your categories still need to match your tax form's lines, and business money still needs to stay separate from personal money.",
+        "Software becomes worth the subscription as your volume and complexity grow. Prices and plan limits change, so compare current options on the vendors' sites. Ask your accountant which system they work with before you sign up. Signs you've outgrown a spreadsheet include:"
+      ],
+      "bullets": [
+        "You send invoices every month and need to track who still owes you.",
+        "You're registered for sales tax, VAT or GST.",
+        "You have several bank accounts, cards or payment processors to reconcile.",
+        "Your accountant asks for a balance sheet, not just a list of income and expenses.",
+        "Reconciling by hand has become a chore you keep putting off."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers with regular monthly transactions who want bank feeds, invoicing, bank rules for automatic categorizing, and a chart of accounts they can rename, add to and make inactive without losing past entries. Check current plans, prices and regional features on Intuit's site before signing up.",
+      "not_for": "Freelancers with only a handful of transactions a year, who can manage with a spreadsheet, or anyone whose accountant works in a different system and would rather you used that one. It also doesn't replace having an accountant check how your accounts line up with your tax form."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many accounts should a freelancer's chart of accounts have?",
+      "answer": "Most solo service freelancers can manage with about 20 to 25 accounts across the five groups. The right number is the smallest list that lines up cleanly with your tax form and answers the questions you actually ask about your business. Add an account when a tax line or a real decision needs it, not because one transaction looks unusual."
+    },
+    {
+      "question": "Is an owner's draw a business expense?",
+      "answer": "No. For a sole proprietor, money you take out for personal use is an owner's draw. It is recorded in equity and reduces your equity, not your profit. If your business is incorporated and pays you a salary or dividends, the treatment is different, so ask an accountant."
+    },
+    {
+      "question": "Are software subscriptions an expense or an asset?",
+      "answer": "Ongoing subscriptions are normally recorded as an expense in a Software & Subscriptions account, because you're paying for access over time. Physical equipment such as a computer may need to be recorded as an asset and depreciated, depending on its cost and your local tax rules. Ask your accountant what cost threshold applies to you."
+    },
+    {
+      "question": "What's the difference between a chart of accounts and a general ledger?",
+      "answer": "The chart of accounts is the list of categories. The general ledger is the full record of every transaction posted to those categories, with running balances. Accounting software builds the general ledger automatically as you categorize transactions against your chart of accounts."
+    },
+    {
+      "question": "Can I delete accounts in QuickBooks Online?",
+      "answer": "QuickBooks Online doesn't permanently delete accounts. Instead, you make them inactive, which hides them from lists and keeps past transactions intact. You do this from the Action column on the Chart of accounts page, and you can reactivate an account later if you need it."
+    },
+    {
+      "question": "Can I use this chart of accounts in any country?",
+      "answer": "The five groups and the balance sheet accounts work in most places. Your expense categories, though, should follow your local tax form, and sales tax accounts depend on whether and how you're registered. Treat this list as a template and adjust the expense accounts to your country's rules with an accountant."
+    }
+  ],
+  "conclusion": "A simple chart of accounts is a short list of about 25 accounts in five groups that rarely changes and has one clear rule for each account. Copy the starter list, rename the expense accounts to match your local tax form, and keep owner's draws in equity. Don't let a Miscellaneous account creep back in. If you use QuickBooks Online, rename accounts or make them inactive instead of deleting them, and remember that a merge is permanent. Have an accountant check your setup against the tax form once. After that, month-end categorizing becomes a quick routine instead of a guessing game.",
+  "keyword": "simple chart of accounts for freelancers",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "a-simple-chart-of-accounts-for-freelancers-25-account-template",
+  "published": "2026-10-08T12:19:07+00:00"
+}

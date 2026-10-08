@@ -1,0 +1,21 @@
+{
+  "term": "Fixed vs Variable Costs",
+  "section": "Accounting & Business",
+  "short_definition": "Fixed costs stay roughly the same regardless of how much a business sells, like rent, while variable costs rise and fall with output or sales, like materials and transaction fees.",
+  "explanation": [
+    "Fixed costs such as rent, insurance, software subscriptions and salaries must be paid even in a month with zero sales. Variable costs such as raw materials, packaging, shipping, payment-processing fees and sales commissions grow with each unit sold. Some costs are semi-variable, like a phone plan with a base fee plus usage charges.",
+    "The split matters for pricing and planning. A sale's price minus its variable cost is the contribution margin: the amount each sale puts toward fixed costs. Once fixed costs are covered, further contributions become profit, which is how the break-even point is calculated. The same idea applies to personal budgets, where fixed bills sit alongside flexible spending.",
+    "The trade-off is called operating leverage. A business with high fixed costs and low variable costs, such as a software company, can become very profitable as sales grow but suffers badly when sales fall. A business with mostly variable costs copes better with downturns but keeps less from each extra sale. 'Fixed' is also relative, because rents get renegotiated and leases end."
+  ],
+  "example": "Example (illustrative numbers): A small bakery pays $3,000 a month in rent, insurance and equipment leases, which are fixed costs. Each loaf costs $2 in ingredients and packaging (variable) and sells for $6, so each loaf contributes $4. The bakery must sell $3,000 ÷ $4 = 750 loaves a month to break even. From the 751st loaf onward, each sale adds profit.",
+  "common_mistake": "Treating every cost as fixed, or every cost as variable, which leads to underpricing. A common example is forgetting that payment fees and packaging grow with every order.",
+  "related_terms": [
+    "Break-Even Point",
+    "Cost of Goods Sold (COGS)",
+    "Profit Margin",
+    "Cash Flow"
+  ],
+  "title": "Fixed vs Variable Costs",
+  "slug": "fixed-vs-variable-costs",
+  "published": "2026-10-08T12:42:18+00:00"
+}

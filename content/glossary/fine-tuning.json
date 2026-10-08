@@ -1,0 +1,22 @@
+{
+  "term": "Fine-Tuning",
+  "section": "AI & Tech",
+  "short_definition": "Fine-tuning is the process of further training an existing pre-trained AI model on a smaller, specialized dataset so it performs better on a specific task, style or domain.",
+  "explanation": [
+    "Fine-tuning adapts an existing general-purpose model instead of training a new one, which is enormously expensive. You prepare example inputs paired with the outputs you want, such as customer emails paired with ideal replies, and train the model further so its weights shift toward that pattern. Some AI providers offer fine-tuning on their platforms, and open-weight models can be fine-tuned on your own hardware. Options and prices change, so check each provider's current documentation.",
+    "Fine-tuning matters when you need consistent formatting, a particular tone, or strong results on a narrow, repetitive task. It can also let a smaller, cheaper model match a larger one on that specific job.",
+    "The trade-off is effort and upkeep. You need good-quality, well-labelled data, and poor data can make the model worse. Fine-tuning is usually not the best way to teach a model facts that change often; retrieval-augmented generation (RAG) or better prompts are usually cheaper and easier to update. Be careful about putting confidential or personal data into training sets, and test the tuned model before relying on it."
+  ],
+  "example": "Example (illustrative numbers): A small online store wants product descriptions in its exact brand voice, but prompting alone gives inconsistent results. The team collects 300 of its best past descriptions and fine-tunes a model on them. Before switching over, they compare the tuned model with the original on 20 new products to check it really is better.",
+  "common_mistake": "Jumping to fine-tuning before trying clear prompts with examples, or RAG. Many problems can be solved faster and more cheaply without retraining a model.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Prompt Engineering",
+    "Retrieval-Augmented Generation (RAG)",
+    "Machine Learning",
+    "Neural Network"
+  ],
+  "title": "Fine-Tuning",
+  "slug": "fine-tuning",
+  "published": "2026-10-08T12:42:18+00:00"
+}

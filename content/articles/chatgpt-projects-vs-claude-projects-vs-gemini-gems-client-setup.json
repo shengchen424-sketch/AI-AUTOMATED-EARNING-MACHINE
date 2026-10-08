@@ -1,0 +1,276 @@
+{
+  "title": "ChatGPT Projects vs Claude Projects vs Gemini Gems: Client Setup",
+  "meta_description": "ChatGPT Projects vs Claude Projects vs Gemini Gems compared for freelancers: files, memory, sharing and privacy, plus a copy-paste client template.",
+  "quick_answer": "ChatGPT Projects, Claude Projects and Gemini Gems all save instructions and reference files so you don't re-explain a client's context in every chat. ChatGPT and Claude Projects are workspaces that keep one client's chats, files and instructions together. Gemini Gems are reusable custom assistants, a natural fit for Google Drive users. Use the one you already pay for, and confirm limits and privacy settings on each vendor's site.",
+  "key_takeaways": [
+    "All three tools save instructions and files for each client, so every new chat starts with that client's voice, deliverables and rules.",
+    "ChatGPT and Claude Projects keep a client's chats together in one workspace. A Gemini Gem is a reusable assistant, and its chats generally aren't filed in a client folder.",
+    "Choose your memory settings when you create each workspace. In ChatGPT, the project-only memory option may only be available at that point.",
+    "Sharing options and model-training protections depend mostly on your plan. Read the current terms for your exact plan before you upload client files.",
+    "One plain-text template covering role, tone, deliverables, banned phrases and fact rules works in all three tools. Keep the master copy outside the AI tool.",
+    "If you only have one or two clients, skip the setup. A saved brief pasted into a new chat is enough."
+  ],
+  "who_this_is_for": "This guide is for freelance writers, marketers, designers and consultants with three or more regular clients who want ChatGPT, Claude or Gemini to start every chat already knowing each client's voice, deliverables and rules.",
+  "intro": "If you work with several clients, you've probably pasted the same brand guide into ChatGPT, Claude or Gemini dozens of times and still had to fix the tone afterwards. ChatGPT Projects, Claude Projects and Gemini Gems are each vendor's fix for this. They give you a place to save instructions and files, so every chat starts with the right context. This guide compares them for one job: setting up a reusable workspace for each client. It covers instructions, file uploads, memory, sharing and privacy. You'll also get a nine-step setup, an instruction template that works in all three tools, the setup mistakes behind most weak drafts, and an honest answer on when you don't need any of them.",
+  "steps": [
+    {
+      "name": "Decide whether you need it",
+      "text": "Count your regular clients. If you have one or two, keep a saved brief document and paste it in at the start of new chats. Separate workspaces start to pay off at around three or more regular clients with different voices or audiences."
+    },
+    {
+      "name": "Check contracts and data settings first",
+      "text": "Read each client agreement for clauses about confidentiality, third-party tools and AI use. If anything is unclear, ask the client. Then open your AI app's settings: Data controls in ChatGPT, Privacy in Claude, or Gemini's activity setting. Decide whether your chats may be used to improve the vendor's models."
+    },
+    {
+      "name": "Build a small client file kit",
+      "text": "Collect a brand or style guide of one to three pages, two or three approved samples for each deliverable type, a glossary, a banned-phrases list and a decisions log. Use text-based files such as DOCX, TXT, Markdown or PDFs with selectable text, not scanned images. Remove names, customer data and unreleased figures. Keep the master copies in a folder outside the AI tool."
+    },
+    {
+      "name": "Create the workspace",
+      "text": "Name every workspace the same way, for example 'Client – Acme Co'. In ChatGPT, choose New project in the sidebar. In Claude, open Projects and create a new project. In Gemini, open the Gems area (it has appeared as Explore Gems or Gem manager) and choose New Gem. Menu labels change, so follow the vendor's help page if yours look different."
+    },
+    {
+      "name": "Set memory options before the first chat",
+      "text": "In ChatGPT, look in the new-project dialog's settings for a project-only memory option. OpenAI's help pages have said it can't be switched on later. In Claude, check your settings for memory and past-chat search. In Gemini, review the personal context or past-chats settings. These apply to your whole account, not to a single Gem."
+    },
+    {
+      "name": "Paste and fill in the instructions",
+      "text": "Copy the template from this guide into the project instructions in ChatGPT or Claude, or into the Gem's Instructions field in Gemini. Replace every bracketed placeholder and delete any lines that don't apply. Keep it short enough to read in about two minutes."
+    },
+    {
+      "name": "Upload the client kit",
+      "text": "Add your files with descriptive names such as 'APPROVED – Blog post – March' or 'Brand guide – Acme Co'. If you add Google Drive files to a Gem, check whether later edits to those files reach the Gem automatically or whether you need to add them again."
+    },
+    {
+      "name": "Test with a real brief",
+      "text": "Run a real assignment through the workspace. Check the draft against the banned list and one approved sample, tighten any instruction the AI ignored, and test again. Repeat until first drafts are reliably close to what the client approves."
+    },
+    {
+      "name": "Update after feedback, archive at the end",
+      "text": "Add each piece of client feedback to the decisions log or the instructions on the day you get it. Upload the file again if your tool doesn't update it automatically. When the work with that client ends, archive or delete the workspace and its files."
+    }
+  ],
+  "comparison": {
+    "caption": "How the three tools compare when you set up one workspace per client. This describes general behaviour only, so confirm current limits and plan availability on each vendor's site.",
+    "headers": [
+      "Criterion",
+      "ChatGPT Projects",
+      "Claude Projects",
+      "Gemini Gems"
+    ],
+    "rows": [
+      [
+        "What it is",
+        "A workspace that groups one client's chats, files and instructions",
+        "A workspace with project knowledge (your uploaded files) and project instructions",
+        "A reusable custom assistant with its own instructions and files"
+      ],
+      [
+        "Instructions",
+        "Set for each project. OpenAI has said they take priority over your account-wide custom instructions inside the project",
+        "Set for each project and applied to every chat in it",
+        "Written in the Gem editor, which has offered an AI option to expand your instructions"
+      ],
+      [
+        "Files",
+        "Project files are available to every chat in the project",
+        "Files go into project knowledge. With a lot of material, Claude may search the files rather than read all of them",
+        "Knowledge files, including files from Google Drive"
+      ],
+      [
+        "Memory between chats",
+        "Can use other chats in the same project. A project-only memory option has been offered when you create a project",
+        "Designed so each project keeps its own memory. Availability has varied by plan",
+        "Each Gem keeps its own instructions and files. Wider personalisation is an account-level setting"
+      ],
+      [
+        "Where chats live",
+        "Inside the project",
+        "Inside the project",
+        "Generally in your main chat list, not a client folder"
+      ],
+      [
+        "Sharing",
+        "Shared projects have been added, but which plans get them has varied",
+        "Can be shared inside Team or Enterprise organisations, with separate permissions to use or edit",
+        "Can be shared much like a Google Drive file"
+      ],
+      [
+        "Privacy controls",
+        "Data controls on personal plans. Business plans generally don't use your content for training by default",
+        "A model-improvement setting on consumer plans. Commercial plans are generally excluded from training",
+        "An activity setting on personal accounts. Workspace accounts fall under separate business terms"
+      ],
+      [
+        "Best fit",
+        "Mixed tasks, with chats organised by client",
+        "Long-form writing and large reference documents",
+        "Clients whose files already live in Google Drive"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "ChatGPT Projects vs Claude Projects vs Gemini Gems: what each one is",
+      "paragraphs": [
+        "ChatGPT Projects and Claude Projects are workspaces that hold a client's chats, files and instructions in one place. A Gemini Gem is a reusable custom assistant with its own instructions and files. All three save context so you don't have to explain it again in every chat. The real difference is how they're organised.",
+        "For client work, that difference matters. A project keeps a client's chat history next to the brief, so last month's drafts and decisions are one click away. A Gem keeps the client's rules together, but its chats have generally appeared in your main Gemini chat list rather than a client folder. In ChatGPT, the closer equivalent to a Gem is a custom GPT, not a project.",
+        "All three vendors update these features often. This guide describes how they generally work. Before you commit, check file limits, instruction length, memory options and plan availability on each vendor's help and pricing pages."
+      ],
+      "bullets": [
+        "ChatGPT Projects: a folder-like workspace that groups related chats with shared files and project-level instructions.",
+        "Claude Projects: a workspace with project knowledge (your uploaded files) and project instructions that apply to every chat you start inside it.",
+        "Gemini Gems: a saved, customised version of Gemini with your instructions and optional knowledge files, which you open whenever you need that helper."
+      ]
+    },
+    {
+      "heading": "Do you need a separate AI workspace for each client?",
+      "paragraphs": [
+        "You need one when you have around three or more regular clients with different voices or audiences. With one or two clients, a saved brief pasted at the start of a chat does the same job with less setup. So do your app's general custom instructions.",
+        "Freelancers without client workspaces tend to hit three problems. The first is time: pasting the same brand guide and examples into every new chat. The second is drift, where drafts slide back towards generic AI phrasing. The third is bleed, where details from one client's work creep into another's. At best that's embarrassing, and at worst it breaks confidentiality.",
+        "A workspace fixes the time and drift problems directly. It also reduces bleed, as long as you set memory carefully (covered in the next section but one). Over time, the instructions become a living style guide: each round of client feedback goes into them, so the next draft starts closer to approval."
+      ],
+      "bullets": [
+        "You have three or more regular clients with different tones or audiences.",
+        "You paste the same brief or examples into new chats more than once a week.",
+        "You keep correcting the same phrases, formats or facts.",
+        "A subcontractor or assistant needs to follow the same rules as you.",
+        "Your client contracts allow AI-assisted work. Check this before you upload anything."
+      ]
+    },
+    {
+      "heading": "Custom instructions and file uploads compared",
+      "paragraphs": [
+        "All three tools let you write standing instructions and attach reference files to a workspace. They differ in how the instructions interact with your global settings and in how the files are read.",
+        "In ChatGPT Projects, you add instructions and files at the project level, and they apply to every chat in the project. OpenAI's help centre has said project instructions take priority over your account-wide custom instructions inside that project. That helps if your global settings describe a different persona.",
+        "In Claude Projects, you write project instructions and upload files to project knowledge, and every chat in the project can use them. When a project holds a lot of material, Claude may search it for relevant passages rather than read everything. That's why clear file names and headings matter.",
+        "In Gemini Gems, you write instructions in the Gem editor and can add knowledge files, including files from Google Drive. The editor has offered a button that gets Gemini to expand your instructions. Read the result before saving, because it can add vague filler that waters down your actual rules.",
+        "In every tool, a small, clearly labelled kit beats uploading everything you have. AI tools tend to follow a short brand guide and two strong examples more consistently than dozens of past deliverables written in conflicting styles."
+      ],
+      "bullets": [
+        "Brand or style guide: one to three pages, so trim anything longer.",
+        "Two or three approved samples for each deliverable type, named 'APPROVED – [type] – [month]'.",
+        "Glossary of product names, spellings and preferred terms.",
+        "Banned-phrases list, including words the client has rejected before.",
+        "Decisions log, with one line for each piece of feedback, such as 'March: no exclamation marks in headlines (client feedback)'."
+      ]
+    },
+    {
+      "heading": "Memory: how to stop one client's details leaking into another's work",
+      "paragraphs": [
+        "To keep clients separate, set each app's memory options deliberately and treat the workspace instructions and files as the only memory you rely on. Instructions and files always apply inside a workspace. Whether one chat can recall another depends on the app's memory settings.",
+        "ChatGPT can use context from other chats in the same project, which helps on campaigns that run for several weeks. OpenAI has also offered a project-only memory option, which stops a project from using memories from outside it. Its help pages have said you must choose this when you create the project, so decide before you set up client workspaces. Account-wide memory settings are under Settings, then Personalization.",
+        "Anthropic has rolled out Claude's memory plan by plan. It designed memory so each project keeps its own, separate from other projects and from chats outside any project. That suits client work. Still, check Claude's settings to see whether memory and past-chat search are switched on for your account.",
+        "A Gemini Gem always applies its own instructions and files. Personalisation, such as using your past chats, is generally an account-level setting. When it's on, details from other conversations could in principle shape a Gem's answers. If keeping clients separate matters, review Gemini's personal context settings and consider turning them off.",
+        "In practice, record every piece of feedback in the decisions log or the instructions. Don't rely on the AI remembering a chat from three weeks ago."
+      ],
+      "bullets": [
+        "Name every workspace the same way, such as 'Client – Acme Co', so you never start client work outside its workspace.",
+        "Limit account-wide memory if you can't risk one client's details turning up in another's work.",
+        "Start a new chat inside the workspace for each deliverable, because very long chats can lose track of early instructions.",
+        "For high-stakes pieces, repeat your most important rule in the prompt."
+      ]
+    },
+    {
+      "heading": "Sharing with collaborators and privacy controls",
+      "paragraphs": [
+        "Sharing and privacy depend more on your plan than on the feature. Team and business plans generally offer more sharing options and stricter default data handling than individual plans.",
+        "OpenAI has been adding shared projects to ChatGPT, and which plans get them has varied. Claude Projects can be shared with colleagues in a Team or Enterprise organisation, with separate permissions for using and editing a project. Gemini Gems can be shared much like a Google Drive file. Before you share, check what the other person will see, because access to instructions and files isn't the same as access to your chat history.",
+        "On individual plans, each vendor has a setting that affects whether your chats may be used to improve its models. In ChatGPT it's under Data controls, in Claude it's in the privacy settings, and in Gemini it's the activity setting, whose label has changed over time. Google's Gemini privacy information has also said some conversations may be reviewed by people. Business and enterprise versions generally say customer content isn't used for training by default, but read the current terms for your exact plan.",
+        "Your client contract matters as much as any setting. Some NDAs restrict sharing material with third-party services, and some clients ban AI use completely. Check your agreements and ask the client if you're unsure. Remove personal data and unreleased figures before uploading. This is general information, not legal advice."
+      ],
+      "bullets": [
+        "Read each contract for clauses about third-party tools, confidentiality and AI use.",
+        "Choose your plan's model-training and data-retention settings deliberately.",
+        "Remove names, email addresses, customer data and unreleased figures from files.",
+        "If your app offers a temporary or incognito chat, use it for one-off sensitive questions.",
+        "Archive or delete a client's workspace when the work ends."
+      ]
+    },
+    {
+      "heading": "Copy-paste client instruction template (works in all three)",
+      "paragraphs": [
+        "This plain-text template can be pasted unchanged into ChatGPT project instructions, Claude project instructions or a Gemini Gem's Instructions field. Replace everything in square brackets, delete lines you don't need and keep it short. Each tool limits instruction length, so check the current limit if your version runs long.",
+        "To test it, give the workspace a real brief, for example: 'Write a LinkedIn post under 200 words announcing [launch], using the approved samples as a style guide.' Check the draft against the banned list and an approved sample, then tighten whatever the AI ignored.",
+        "The BOUNDARIES line shapes how the AI behaves, but it isn't a security control. Real separation between clients comes from using separate workspaces and the memory settings above."
+      ],
+      "bullets": [
+        "ROLE: You are my assistant for [Client name], a [one-line description of the business] whose audience is [who they sell to].",
+        "TONE: Write in a [e.g. warm, direct, plain-English] voice. Use [British/American] spelling. Prefer short sentences, active voice and concrete examples.",
+        "DELIVERABLES: I create [e.g. 1,200-word blog posts, LinkedIn posts under 200 words, a monthly newsletter]. Match the structure of the files labelled APPROVED. If I don't say which deliverable I need, ask before drafting.",
+        "BANNED PHRASES: Never use 'in today's fast-paced world', 'game-changer', 'unlock', 'elevate', 'seamless', 'delve', [client's rejected words]. No exclamation marks or emojis unless I ask.",
+        "FACTS: Use only facts, figures, product names and claims from the uploaded files or my message. If something is missing, write [CHECK: what's needed] instead of guessing.",
+        "PRIORITY: The brand guide overrides everything else. Approved samples show style, not content to reuse. The decisions log records client feedback, so follow it.",
+        "OUTPUT: Give the draft first. Then add 'Notes for me' with up to three bullets covering assumptions, open questions or claims I should check.",
+        "BOUNDARIES: Only discuss [Client name]'s work here. Don't mention other clients, projects or employers."
+      ]
+    },
+    {
+      "heading": "Common mistakes that make client workspaces fail",
+      "paragraphs": [
+        "Weak client workspaces usually come down to how they were set up, not which tool you chose. Each common mistake has a quick fix.",
+        "The biggest mistake is overloading the workspace by uploading every past deliverable, including drafts the client rejected. The AI can't tell good examples from bad ones unless you label them. Upload only approved work and say so in the file name."
+      ],
+      "bullets": [
+        "Starting client work in a regular chat: name every workspace the same way and pin or star active ones where your app allows it.",
+        "Vague instructions such as 'be professional': replace them with specifics, such as reading level, sentence length and three openings the client liked.",
+        "Contradictory files: an old brand guide alongside a new one confuses the AI, so delete superseded versions instead of adding more.",
+        "Accepting AI-expanded instructions as they are: if Gemini or another helper rewrites your instructions, cut anything you didn't intend.",
+        "Never updating: if feedback lives only in your inbox, the workspace keeps repeating old mistakes, so log it the same day.",
+        "No master copy: if your instructions exist only inside one app, a change to plans or prices locks you in. Keep the original in a document or wiki."
+      ]
+    },
+    {
+      "heading": "Which should you pick?",
+      "paragraphs": [
+        "Pick the AI assistant you already pay for and use every day. Switching only makes sense if one of the points below is a genuine dealbreaker for your client work.",
+        "Whichever you choose, keep the master instructions and file kit outside the AI tool. Then, if plans, limits or prices change, you can rebuild a client workspace in another app in minutes."
+      ],
+      "bullets": [
+        "ChatGPT Projects: you want each client's chats, files and instructions in one folder-like space, you like the option of keeping project memory self-contained, and you use ChatGPT for many tasks besides writing.",
+        "Claude Projects: your work relies on long documents and long-form writing, you want memory kept separate for each project, and your teammates use a Claude Team or Enterprise plan.",
+        "Gemini Gems: your client material already lives in Google Drive or Google Workspace, you want a simple reusable helper for each client or deliverable type, and you'd like to share it the way you share a Drive file.",
+        "None of them: you work with only one or two clients. A saved brief pasted into a new chat does the job with no setup."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Freelancers with several clients who want one master home, outside any AI tool, for each client's brief, instruction template, banned-phrases list and decisions log. You update it once, then copy or export it into ChatGPT, Claude or Gemini, which makes switching tools straightforward.",
+      "not_for": "Freelancers with only one or two clients. It's also unnecessary if your client files already live in Google Drive and you mainly use Gemini Gems, because a Drive folder does the same job without adding another app."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between ChatGPT Projects and Gemini Gems?",
+      "answer": "ChatGPT Projects is a workspace that groups chats, files and instructions in one place. A Gemini Gem is a reusable custom assistant with its own instructions and files. ChatGPT's closer equivalent to a Gem is a custom GPT. If you organise work by client, a project has the advantage of keeping each client's chat history together."
+    },
+    {
+      "question": "Is Claude Projects better than ChatGPT Projects for client work?",
+      "answer": "Neither is better for everyone. Claude Projects suits long-form writing and large reference documents, and it is designed to keep memory separate for each project. ChatGPT Projects suits freelancers who use one tool for many kinds of task and want the option of project-only memory. If you can, test both with the same brief and template, and judge the drafts against your client's approved samples."
+    },
+    {
+      "question": "Are ChatGPT Projects, Claude Projects and Gemini Gems free?",
+      "answer": "It depends on the plan, and availability has changed several times. Paid plans generally get higher limits, more files and more sharing options. Check each vendor's current pricing and help pages before you build your workflow around one of them."
+    },
+    {
+      "question": "Is it safe to upload client files to an AI project or Gem?",
+      "answer": "It depends on your client contract and your plan's data settings. Read the confidentiality and third-party tool clauses, choose the model-training settings deliberately, and remove personal or unreleased information before uploading. Business plans generally have stricter default data handling, but read the current terms for your exact plan. This is general information, not legal advice."
+    },
+    {
+      "question": "Can I share a project or Gem with a subcontractor or my client?",
+      "answer": "Often, yes, but it depends on the tool and your plan. Claude Projects can be shared inside Team or Enterprise organisations, Gemini Gems can be shared much like a Drive file, and ChatGPT has been adding shared projects on some plans. Check what the other person will see before you share, because access to instructions and files isn't the same as access to your chats."
+    },
+    {
+      "question": "Can I use the same instructions in ChatGPT, Claude and Gemini?",
+      "answer": "Yes. Plain-text instructions covering role, tone, deliverables, banned phrases and fact rules work in all three. The main thing to watch is length, because each tool limits how long instructions can be. Keep a master copy outside the AI tool so you can move between apps easily."
+    }
+  ],
+  "conclusion": "ChatGPT Projects, Claude Projects and Gemini Gems all solve the same problem: having to explain a client's context in every new chat. They just organise it in slightly different ways. For most freelancers, the best choice is the tool you already use. Set up one workspace per client, paste in the template, upload a small labelled file kit and choose your memory settings when you create the workspace. Check your contracts and data settings before uploading anything, and confirm current limits and plan availability on each vendor's site. Keep a master copy of your instructions outside the AI tool so you're never locked in. If you only have one or two clients, skip the setup and keep a saved brief instead.",
+  "keyword": "chatgpt projects vs claude projects vs gemini gems",
+  "niche": "ChatGPT, Claude and Gemini guides and prompts for work and money",
+  "version": 2,
+  "slug": "chatgpt-projects-vs-claude-projects-vs-gemini-gems-client-setup",
+  "published": "2026-10-08T12:19:44+00:00"
+}

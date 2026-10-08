@@ -1,0 +1,21 @@
+{
+  "term": "Credit Utilization Ratio",
+  "section": "Banking & Money",
+  "short_definition": "Credit utilization is the percentage of your available revolving credit, such as credit card limits, that you're currently using, and it's a significant factor in many credit-scoring models.",
+  "explanation": [
+    "Credit utilization is your total revolving balances divided by your total credit limits, multiplied by 100. Scoring models usually look at both your overall utilization and the figure for each card. It's based on the balance your card issuer reports to the credit bureaus, which is often your statement balance, not what you owe after paying.",
+    "Utilization matters because a high figure can tell lenders you rely heavily on credit, which can lower your score, while lower utilization generally helps. In many common scoring models, it reflects your most recently reported balances, so its effect can improve once lower balances are reported. Some newer models also look at how your balances trend over time.",
+    "The trade-off is that chasing a perfect ratio can backfire. Opening cards you don't need just to raise your total limit can add hard inquiries and more temptation to spend. Scoring models and credit reporting differ by country and lender, so check your local credit bureau's guidance."
+  ],
+  "example": "Example (illustrative numbers): You have two credit cards with limits of $3,000 and $2,000, so $5,000 in total. Balances of $1,500 and $500 put your overall utilization at $2,000 ÷ $5,000 = 40%, and the first card is at 50% on its own. Paying off $1,000 before the statement date brings overall utilization down to 20%.",
+  "common_mistake": "Closing an old, unused credit card to tidy up your finances. This cuts your total available credit and can push your utilization up immediately.",
+  "related_terms": [
+    "Credit Score",
+    "Debt-to-Income Ratio (DTI)",
+    "APR vs APY",
+    "Debt Snowball vs Debt Avalanche"
+  ],
+  "title": "Credit Utilization Ratio",
+  "slug": "credit-utilization-ratio",
+  "published": "2026-10-08T12:42:18+00:00"
+}

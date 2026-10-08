@@ -1,0 +1,22 @@
+{
+  "term": "Mutual Fund",
+  "section": "Investing",
+  "short_definition": "A mutual fund pools money from many investors to buy a portfolio of stocks, bonds or other assets, managed by professionals and typically priced once per trading day at its net asset value.",
+  "explanation": [
+    "A mutual fund lets you buy units of one shared portfolio instead of buying each investment yourself. The fund manager uses the pooled money to buy many holdings, and your units rise or fall in value along with them. Most traditional mutual funds trade at one price calculated after the market closes, called the net asset value (NAV). ETFs are different: they trade on an exchange throughout the day.",
+    "Mutual funds matter because one purchase gives a small investor instant diversification and professional management. Actively managed funds have a manager who picks investments to try to beat a benchmark. Index mutual funds simply track a market index.",
+    "The main trade-off is cost. Actively managed funds often charge higher expense ratios, and some add sales charges (loads), exit fees or minimum investments. Fees come out every year whether the fund does well or badly, and an active fund is not guaranteed to beat its benchmark. Read the fund's factsheet or prospectus, and check how funds are taxed and regulated in your country."
+  ],
+  "example": "Example (illustrative numbers): You invest $1,000 in a mutual fund when its NAV is $20, so you get 50 units. If the holdings grow and the NAV reaches $22, your 50 units are worth $1,100. If the fund's expense ratio is 1% a year, about $11 a year on that balance goes to fees, taken out inside the fund.",
+  "common_mistake": "Picking a fund because it had the best return last year without checking its fees, strategy and risk level. Past returns don't guarantee future results, and high fees add up against you every year.",
+  "related_terms": [
+    "Exchange-Traded Fund (ETF)",
+    "Index Fund",
+    "Expense Ratio",
+    "Diversification",
+    "Asset Allocation"
+  ],
+  "title": "Mutual Fund",
+  "slug": "mutual-fund",
+  "published": "2026-10-08T12:42:18+00:00"
+}
