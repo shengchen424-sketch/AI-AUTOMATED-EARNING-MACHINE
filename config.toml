@@ -5,13 +5,13 @@
 # ============================================================
 
 [site]
-name = "Northlight Guide"
-tagline = "Practical, honest guides to money, family, learning and the AI tools that make life easier."
+name = "The Wealth Ascent"
+tagline = "Clear, honest guides to investing, banking, money skills and personal growth."
 # Final public URL. With GitHub Pages this is https://<user>.github.io/<repo>
 base_url = "https://shengchen424-sketch.github.io/AI-AUTOMATED-EARNING-MACHINE"
 language = "en"            # "en" = bigger affiliate market; "zh" also works
-author = "Northlight Guide Editorial"
-business_name = "Northlight Guide"   # must match the business name on your Stripe account
+author = "The Wealth Ascent Editorial"
+business_name = "The Wealth Ascent"   # must match the business name on your Stripe account
 contact_email = "shengchen424@gmail.com"   # public support email shown on Contact / Refund pages
 
 [autopilot]
@@ -24,82 +24,97 @@ editor_pass = true         # second "senior editor" pass on every article (bette
 upgrades_per_run = 2       # re-edit older articles into the newest format each run
 
 # ------------------------------------------------------------
-#  Topics (niches). Each run picks the LEAST-covered topics first, so the
-#  site grows evenly across categories. `care` adds stricter writing rules
-#  and an on-page disclaimer:
-#    care = "finance" -> education only, no personal investment advice
-#    care = "health"  -> follows mainstream medical guidance, "ask your doctor"
+#  Topics (niches). Each run picks the LEAST-covered active topics first.
+#  care = "finance" -> stricter rules (education only, no personal advice,
+#  no coin/stock picks, risk warnings) + on-page disclaimer.
+#  active = false -> keep labelling old articles, but write no new ones.
 # ------------------------------------------------------------
 [[niches]]
-name = "AI tools for small business productivity"
-section = "AI & Work"
-
-[[niches]]
-name = "AI writing and content tools for freelancers"
-section = "AI & Work"
-
-[[niches]]
-name = "AI customer support chatbots for online stores"
-section = "AI & Work"
-
-[[niches]]
-name = "no-code AI automation workflows (Zapier, Make, n8n)"
-section = "AI & Work"
-
-[[niches]]
-name = "personal finance and budgeting basics"
-section = "Money & Finance"
+name = "stock market basics for beginners"
+section = "Investing"
 care = "finance"
 
 [[niches]]
-name = "saving, debt payoff and emergency funds"
-section = "Money & Finance"
+name = "ETFs and index fund investing"
+section = "Investing"
 care = "finance"
 
 [[niches]]
-name = "investing basics for beginners (index funds, ETFs, retirement)"
-section = "Money & Finance"
+name = "dividend and long-term investing strategies"
+section = "Investing"
 care = "finance"
 
 [[niches]]
-name = "using AI to manage household money"
-section = "Money & Finance"
+name = "crypto basics, risks and crypto ETFs"
+section = "Investing"
+care = "finance"
+
+[[niches]]
+name = "banking, savings accounts and interest explained"
+section = "Banking & Money"
+care = "finance"
+
+[[niches]]
+name = "credit cards, credit scores and getting out of debt"
+section = "Banking & Money"
+care = "finance"
+
+[[niches]]
+name = "budgeting and personal finance fundamentals"
+section = "Banking & Money"
+care = "finance"
+
+[[niches]]
+name = "accounting and bookkeeping basics for freelancers and small businesses"
+section = "Accounting & Business"
 care = "finance"
 
 [[niches]]
 name = "automating bookkeeping and invoicing with AI"
-section = "Money & Finance"
+section = "Accounting & Business"
 care = "finance"
 
 [[niches]]
-name = "baby care for new parents (0-12 months)"
-section = "Baby & Parenting"
-care = "health"
+name = "reading financial statements and understanding company numbers"
+section = "Accounting & Business"
+care = "finance"
 
 [[niches]]
-name = "toddler routines, sleep and behaviour"
-section = "Baby & Parenting"
-care = "health"
+name = "money mindset and building wealth habits"
+section = "Self-Development"
 
 [[niches]]
-name = "parenting with AI tools and family organisation"
-section = "Baby & Parenting"
+name = "career growth, skills and side income"
+section = "Self-Development"
 
 [[niches]]
-name = "helping kids learn at home (reading, maths, homework)"
-section = "Kids & Education"
+name = "productivity and personal systems for ambitious people"
+section = "Self-Development"
 
 [[niches]]
-name = "AI tutors and learning apps for children"
-section = "Kids & Education"
+name = "AI tools for investing research and personal finance"
+section = "AI & Money"
+care = "finance"
 
 [[niches]]
-name = "screen time, online safety and digital habits for kids"
-section = "Kids & Education"
+name = "AI tools for small business productivity"
+section = "AI & Productivity"
+active = false
 
 [[niches]]
-name = "study skills and AI for students and adult learners"
-section = "Kids & Education"
+name = "AI writing and content tools for freelancers"
+section = "AI & Productivity"
+active = false
+
+[[niches]]
+name = "AI customer support chatbots for online stores"
+section = "AI & Productivity"
+active = false
+
+[[niches]]
+name = "no-code AI automation workflows (Zapier, Make, n8n)"
+section = "AI & Productivity"
+active = false
 
 # ------------------------------------------------------------
 #  Monetisation channel 1: affiliate links

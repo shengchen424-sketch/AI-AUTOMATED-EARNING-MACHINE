@@ -173,13 +173,14 @@ def test_niche_rotation_and_care_rules(cfg):
     assert generate.pick_section(c, [], [{"section": "S1"}]) == "Money"
 
 
-def test_health_article_shows_disclaimer_and_report(cfg):
+def test_finance_article_shows_disclaimer_and_report(cfg):
     from earnbot import report
     from earnbot.config import Niche
     import dataclasses
-    c = dataclasses.replace(cfg, niches=[Niche("n", "Baby & Parenting", "health")])
+    c = dataclasses.replace(cfg, niches=[Niche("n", "Investing", "finance"), Niche("old", "Old", "", False)])
+    assert generate.pick_niches(c, [], 3) == ["n"]                     # inactive niches never picked
     result = pipeline.run(c, FakeLLM(), None)
     page = (c.public_dir / result["articles"][0] / "index.html").read_text()
-    assert "Not medical advice" in page
+    assert "not financial advice" in page
     text = report.render(c, Store(c.content_dir, c.data_dir), result, "RUNURL")
-    assert "婴儿与育儿" in text and "QUICK ANSWER TEXT" in text and "RUNURL" in text
+    assert "投资" in text and "QUICK ANSWER TEXT" in text and "RUNURL" in text

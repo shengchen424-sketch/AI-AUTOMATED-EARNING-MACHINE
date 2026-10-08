@@ -69,10 +69,9 @@ def render(path: Path, title: str, kicker: str, brand: str) -> None:
     for ln in lines:
         draw.text((pad, y), ln, font=font, fill="white")
         y += int(size * 1.18)
-    # North-star brand mark.
-    cx, cy, r, k = pad + 18, H - 92, 20, 6
-    draw.polygon([(cx, cy - r), (cx + k, cy - k), (cx + r, cy), (cx + k, cy + k),
-                  (cx, cy + r), (cx - k, cy + k), (cx - r, cy), (cx - k, cy - k)], fill="white")
+    # Mountain-peak brand mark ("ascent").
+    x, y = pad, H - 112
+    draw.polygon([(x, y + 38), (x + 14, y + 14), (x + 20, y + 24), (x + 28, y + 4), (x + 40, y + 38)], fill="white")
     draw.text((pad + 52, H - 108), brand, font=_font(True, 30), fill="white")
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "PNG", optimize=True)

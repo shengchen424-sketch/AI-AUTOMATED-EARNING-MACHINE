@@ -43,7 +43,10 @@ _SECTIONS = {
 CARE_RULES = {
     "finance": """Money topic (YMYL) — extra rules:
 - Educate, don't advise: explain concepts, trade-offs and how to decide; never tell the reader to buy,
-  sell or hold a specific security, coin or fund, and never promise returns.
+  sell or hold a specific stock, coin, ETF or fund, never give price targets, and never promise returns.
+- Name well-known products/assets only as neutral examples of a category, with their key risks.
+- Crypto: stress volatility, the possibility of total loss, scams/rug pulls, custody and exchange risk,
+  and that protections differ from regulated bank deposits.
 - Mention risk, fees and that rules/tax treatment differ by country; tell readers to check their
   local regulator or a licensed adviser for personal decisions.
 - No specific interest rates, returns or tax thresholds unless clearly labelled as examples.""",
@@ -94,11 +97,12 @@ TOPICS_SCHEMA: dict[str, Any] = {
 
 def pick_niches(cfg: Config, existing: list[dict[str, Any]], count: int) -> list[str]:
     """Least-covered niches first, so the site grows evenly across every category."""
-    counts = {n.name: 0 for n in cfg.niches}
+    active = [n for n in cfg.niches if n.active]
+    counts = {n.name: 0 for n in active}
     for a in existing:
         if a.get("niche") in counts:
             counts[a["niche"]] += 1
-    order = sorted(cfg.niches, key=lambda n: (counts[n.name], cfg.niches.index(n)))
+    order = sorted(active, key=lambda n: (counts[n.name], active.index(n)))
     return [n.name for n in order[:count]]
 
 
@@ -309,7 +313,7 @@ PRODUCT_SCHEMA: dict[str, Any] = {
 
 def pick_section(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> str:
     """Section with the fewest playbooks (ties: the one with the most articles, i.e. most traffic)."""
-    sections = list(dict.fromkeys(n.section for n in cfg.niches)) or ["Guides"]
+    sections = list(dict.fromkeys(n.section for n in cfg.niches if n.active)) or ["Guides"]
     n_prod = {s: sum(p.get("section") == s for p in products) for s in sections}
     n_art = {s: sum(cfg.niche(a.get("niche", "")).section == s for a in articles) for s in sections}
     return min(sections, key=lambda s: (n_prod[s], -n_art[s], sections.index(s)))
@@ -317,7 +321,7 @@ def pick_section(cfg: Config, articles: list[dict[str, Any]], products: list[dic
 
 def create_product(cfg: Config, llm: JSONModel, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> dict[str, Any]:
     section = pick_section(cfg, articles, products)
-    niches = [n for n in cfg.niches if n.section == section]
+    niches = [n for n in cfg.niches if n.section == section and n.active]
     related = [a for a in articles if cfg.niche(a.get("niche", "")).section == section]
     popular = "\n".join(f"- {a['title']}" for a in (related or articles)[:40]) or "(no articles yet)"
     have = "\n".join(f"- {p['title']}" for p in products) or "(none yet)"

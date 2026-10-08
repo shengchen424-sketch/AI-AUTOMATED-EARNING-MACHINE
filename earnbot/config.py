@@ -22,6 +22,7 @@ class Niche:
     name: str
     section: str = "Guides"
     care: str = ""          # "", "finance" or "health": stricter rules + on-page disclaimer
+    active: bool = True     # False: keeps labelling old articles, but no new ones are written
 
 
 @dataclass(frozen=True)
