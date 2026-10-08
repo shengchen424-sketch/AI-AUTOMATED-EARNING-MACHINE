@@ -44,9 +44,24 @@ def test_uses_subscription_cli_and_strips_api_key(tmp_path, monkeypatch):
 ])
 def test_failures_raise_llm_error(tmp_path, payload, code):
     with pytest.raises(LLMError):
-        ClaudeCodeJSON("m", "high", binary=fake_claude(tmp_path, payload, code)).generate_json("s", "p", SCHEMA)
+        ClaudeCodeJSON("m", "high", binary=fake_claude(tmp_path, payload, code), retry_waits=()).generate_json("s", "p", SCHEMA)
 
 
 def test_missing_binary(tmp_path):
     with pytest.raises(LLMError, match="not found"):
-        ClaudeCodeJSON("m", "high", binary=str(tmp_path / "nope")).generate_json("s", "p", SCHEMA)
+        ClaudeCodeJSON("m", "high", binary=str(tmp_path / "nope"), retry_waits=()).generate_json("s", "p", SCHEMA)
+
+
+def test_retries_then_succeeds(tmp_path):
+    counter = tmp_path / "n"
+    script = tmp_path / "claude"
+    ok = json.dumps({"subtype": "success", "is_error": False, "structured_output": {"ok": True}})
+    script.write_text(f"""#!/usr/bin/env python3
+import pathlib, sys
+p = pathlib.Path({str(counter)!r}); n = int(p.read_text()) if p.exists() else 0; p.write_text(str(n + 1))
+sys.stdin.read()
+print({ok!r} if n >= 1 else "overloaded")
+""")
+    script.chmod(script.stat().st_mode | stat.S_IEXEC)
+    llm = ClaudeCodeJSON("m", "high", binary=str(script), retry_waits=(0,))
+    assert llm.generate_json("s", "p", SCHEMA) == {"ok": True} and counter.read_text() == "2"

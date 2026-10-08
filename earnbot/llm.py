@@ -6,6 +6,7 @@ import json
 import os
 import shutil
 import subprocess
+import time
 from typing import Any, Protocol
 
 
@@ -36,7 +37,9 @@ def has_credentials() -> bool:
 class ClaudeCodeJSON:
     """Runs `claude -p` headless with a JSON schema and returns the validated object."""
 
-    def __init__(self, model: str, effort: str, timeout: int = 1800, binary: str = "claude"):
+    def __init__(self, model: str, effort: str, timeout: int = 1800, binary: str = "claude",
+                 retry_waits: tuple[int, ...] = (60, 180)):
+        self.retry_waits = retry_waits
         self.model = model
         self.effort = effort
         self.timeout = timeout
@@ -56,6 +59,15 @@ class ClaudeCodeJSON:
         ]
 
     def generate_json(self, system: str, prompt: str, schema: dict[str, Any]) -> dict[str, Any]:
+        # Retry transient failures (rate limits, overload, timeouts) with backoff before giving up.
+        for wait in self.retry_waits:
+            try:
+                return self._once(system, prompt, schema)
+            except LLMError:
+                time.sleep(wait)
+        return self._once(system, prompt, schema)
+
+    def _once(self, system: str, prompt: str, schema: dict[str, Any]) -> dict[str, Any]:
         env = {k: v for k, v in os.environ.items() if k not in _API_KEY_VARS}
         try:
             proc = subprocess.run(
