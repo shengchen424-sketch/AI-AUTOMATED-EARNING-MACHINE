@@ -1,0 +1,90 @@
+# ============================================================
+#  AI Earning Machine — 主配置 / main configuration
+#  只改这一个文件就能切换赛道、语言、变现方式。
+#  Secrets (API keys) NEVER go here — use env vars / GitHub Secrets.
+# ============================================================
+
+[site]
+name = "AI Toolkit Daily"
+tagline = "Practical, tested guides to AI tools that save small businesses time and money."
+# Final public URL. With GitHub Pages this is https://<user>.github.io/<repo>
+base_url = "https://shengchen424-sketch.github.io/AI-AUTOMATED-EARNING-MACHINE"
+language = "en"            # "en" = bigger affiliate market; "zh" also works
+author = "AI Toolkit Daily Editorial"
+
+[autopilot]
+articles_per_run = 2       # keep modest: quality > volume (search engines penalise spam)
+products_per_run = 1       # new digital product only when the catalog is below max_products
+max_products = 12
+model = "claude-opus-5-5"
+effort = "high"
+
+# Evergreen niches the planner picks topics from. Add / remove freely.
+niches = [
+  "AI tools for small business productivity",
+  "AI writing and content tools for freelancers",
+  "automating bookkeeping and invoicing with AI",
+  "AI customer support chatbots for online stores",
+  "no-code AI automation workflows (Zapier, Make, n8n)",
+]
+
+# ------------------------------------------------------------
+#  Monetisation channel 1: affiliate links
+#  The writer may ONLY recommend products listed here, so it can never
+#  invent a broken or untagged link. Put YOUR affiliate URLs here.
+# ------------------------------------------------------------
+[[affiliates]]
+name = "Notion"
+url = "https://www.notion.so/"
+category = "productivity"
+blurb = "All-in-one workspace with built-in AI for docs, wikis and project tracking."
+
+[[affiliates]]
+name = "Zapier"
+url = "https://zapier.com/"
+category = "automation"
+blurb = "Connects 6,000+ apps and runs AI-powered automations without code."
+
+[[affiliates]]
+name = "Make"
+url = "https://www.make.com/"
+category = "automation"
+blurb = "Visual automation builder, cheaper than Zapier for high-volume workflows."
+
+[[affiliates]]
+name = "Grammarly"
+url = "https://www.grammarly.com/"
+category = "writing"
+blurb = "AI writing assistant for grammar, tone and rewriting."
+
+[[affiliates]]
+name = "QuickBooks Online"
+url = "https://quickbooks.intuit.com/"
+category = "finance"
+blurb = "Small-business accounting with automated categorisation and invoicing."
+
+[[affiliates]]
+name = "Tidio"
+url = "https://www.tidio.com/"
+category = "support"
+blurb = "Live chat plus an AI support agent for e-commerce stores."
+
+# ------------------------------------------------------------
+#  Monetisation channel 2: own digital products (guides / templates)
+#  Generated automatically into content/products/. Sell them with a
+#  Stripe Payment Link or Gumroad: create one link per product and map
+#  slug -> URL below. Products without a link show an email-capture CTA.
+# ------------------------------------------------------------
+[checkout]
+default_price = "$19"
+# "ai-automation-playbook" = "https://buy.stripe.com/xxxx"
+
+# ------------------------------------------------------------
+#  Monetisation channel 3 & 4: ads + email list (all optional)
+# ------------------------------------------------------------
+[ads]
+adsense_client = ""        # e.g. "ca-pub-1234567890" once AdSense approves the site
+
+[newsletter]
+# Form POST endpoint of your email provider (Buttondown, ConvertKit, Beehiiv, Mailchimp...)
+form_action = ""

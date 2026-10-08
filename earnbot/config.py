@@ -1,0 +1,83 @@
+"""Load config.toml into typed objects."""
+
+from __future__ import annotations
+
+import tomllib
+from dataclasses import dataclass, field
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+@dataclass(frozen=True)
+class Affiliate:
+    name: str
+    url: str
+    category: str
+    blurb: str
+
+
+@dataclass(frozen=True)
+class Config:
+    site_name: str
+    tagline: str
+    base_url: str
+    language: str
+    author: str
+    articles_per_run: int
+    products_per_run: int
+    max_products: int
+    model: str
+    effort: str
+    niches: list[str]
+    affiliates: list[Affiliate]
+    default_price: str
+    checkout_links: dict[str, str] = field(default_factory=dict)
+    adsense_client: str = ""
+    newsletter_action: str = ""
+    root: Path = ROOT
+
+    @property
+    def content_dir(self) -> Path:
+        return self.root / "content"
+
+    @property
+    def data_dir(self) -> Path:
+        return self.root / "data"
+
+    @property
+    def public_dir(self) -> Path:
+        return self.root / "public"
+
+    def affiliate(self, name: str) -> Affiliate | None:
+        for a in self.affiliates:
+            if a.name.lower() == name.lower():
+                return a
+        return None
+
+
+def load(path: Path | None = None, root: Path | None = None) -> Config:
+    path = path or ROOT / "config.toml"
+    raw = tomllib.loads(path.read_text(encoding="utf-8"))
+    site, auto = raw["site"], raw["autopilot"]
+    checkout = dict(raw.get("checkout", {}))
+    default_price = checkout.pop("default_price", "$19")
+    return Config(
+        site_name=site["name"],
+        tagline=site["tagline"],
+        base_url=site["base_url"].rstrip("/"),
+        language=site.get("language", "en"),
+        author=site.get("author", site["name"]),
+        articles_per_run=int(auto.get("articles_per_run", 2)),
+        products_per_run=int(auto.get("products_per_run", 1)),
+        max_products=int(auto.get("max_products", 12)),
+        model=auto.get("model", "claude-opus-5-5"),
+        effort=auto.get("effort", "high"),
+        niches=list(auto["niches"]),
+        affiliates=[Affiliate(**a) for a in raw.get("affiliates", [])],
+        default_price=default_price,
+        checkout_links={k: v for k, v in checkout.items() if v},
+        adsense_client=raw.get("ads", {}).get("adsense_client", ""),
+        newsletter_action=raw.get("newsletter", {}).get("form_action", ""),
+        root=root or path.resolve().parent,
+    )

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Playbooks — {{ cfg.site_name }}{% endblock %}
+{% block path %}products/{% endblock %}
+{% block body %}
+<h1>Playbooks</h1>
+<p>Step-by-step systems and templates you can put to work today.</p>
+<ul class="list">{% for p in products %}<li><a href="{{ cfg.base_url }}/products/{{ p.slug }}/">{{ p.title }}</a><br><span class="muted">{{ p.subtitle }}</span></li>
+{% else %}<li class="muted">The first playbook is in production.</li>{% endfor %}</ul>
+{% endblock %}

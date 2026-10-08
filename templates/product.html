@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ p.title }} — {{ cfg.site_name }}{% endblock %}
+{% block description %}{{ p.subtitle }}{% endblock %}
+{% block path %}products/{{ p.slug }}/{% endblock %}
+{% block body %}
+<h1>{{ p.title }}</h1>
+<p><em>{{ p.subtitle }}</em></p>
+<p>{{ p.sales_copy }}</p>
+<div class="card"><strong>Who it's for:</strong> {{ p.audience }}</div>
+<h2>What you'll achieve</h2><ul>{% for o in p.outcomes %}<li>{{ o }}</li>{% endfor %}</ul>
+<h2>What's inside</h2><ol>{% for c in p.chapters %}<li><strong>{{ c.heading }}</strong> — {{ c.summary }}</li>{% endfor %}</ol>
+<p class="muted">Plus {{ p.template_count }} copy-paste templates.</p>
+<div class="card" style="text-align:center">
+{% if checkout %}<a class="cta" href="{{ checkout }}" rel="noopener">Get it — {{ price }}</a><p class="muted">Instant download · 30-day money-back guarantee</p>
+{% else %}<strong>Launching soon.</strong> Subscribe below to get launch pricing.{% endif %}
+</div>
+{% endblock %}

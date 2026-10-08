@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ cfg.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ cfg.site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ cfg.tagline }}{% endblock %}">
+<link rel="canonical" href="{{ cfg.base_url }}/{% block path %}{% endblock %}">
+<link rel="alternate" type="application/rss+xml" title="{{ cfg.site_name }}" href="{{ cfg.base_url }}/feed.xml">
+{% if cfg.adsense_client %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ cfg.adsense_client }}" crossorigin="anonymous"></script>{% endif %}
+{% block head %}{% endblock %}
+<style>
+:root{--bg:#fff;--fg:#1d2330;--muted:#5d6675;--accent:#2457d6;--card:#f4f6fb;--line:#e1e5ee}
+@media (prefers-color-scheme:dark){:root{--bg:#11141a;--fg:#e7eaf0;--muted:#9aa3b2;--accent:#7aa2ff;--card:#1a1f28;--line:#2a313d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--accent)}main,header .in,footer .in{max-width:760px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}header .in{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;flex-wrap:wrap}
+header a.brand{font-weight:700;text-decoration:none;color:var(--fg)}nav a{margin-left:14px;font-size:15px}
+h1{line-height:1.25;font-size:2rem}h2{margin-top:2rem}.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+.disclosure{font-size:14px;color:var(--muted);border-left:3px solid var(--line);padding-left:10px}
+form.sub{display:flex;gap:8px;flex-wrap:wrap}form.sub input{flex:1;min-width:200px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+form.sub button{border:0}footer{border-top:1px solid var(--line);margin-top:48px;padding:20px 0;font-size:14px;color:var(--muted)}
+ul.list{list-style:none;padding:0}ul.list li{padding:12px 0;border-bottom:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header><div class="in"><a class="brand" href="{{ cfg.base_url }}/">{{ cfg.site_name }}</a>
+<nav><a href="{{ cfg.base_url }}/">Guides</a><a href="{{ cfg.base_url }}/products/">Playbooks</a><a href="{{ cfg.base_url }}/about/">About</a></nav></div></header>
+<main>
+{% block body %}{% endblock %}
+{% include "subscribe.html" %}
+</main>
+<footer><div class="in">© {{ year }} {{ cfg.site_name }} · <a href="{{ cfg.base_url }}/about/#disclosure">Affiliate disclosure</a> · <a href="{{ cfg.base_url }}/feed.xml">RSS</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>{{ cfg.site_name }}</h1>
+<p>{{ cfg.tagline }}</p>
+{% if products %}<div class="card"><strong>Featured playbook:</strong>
+<a href="{{ cfg.base_url }}/products/{{ products[0].slug }}/">{{ products[0].title }}</a><br><span class="muted">{{ products[0].subtitle }}</span></div>{% endif %}
+<h2>Latest guides</h2>
+<ul class="list">
+{% for a in articles %}<li><a href="{{ cfg.base_url }}/{{ a.slug }}/">{{ a.title }}</a><br><span class="muted">{{ a.meta_description }}</span></li>
+{% else %}<li class="muted">First guides are being written.</li>{% endfor %}
+</ul>
+{% endblock %}
