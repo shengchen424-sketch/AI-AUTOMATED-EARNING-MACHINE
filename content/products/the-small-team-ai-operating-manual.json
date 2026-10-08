@@ -1,0 +1,52 @@
+{
+  "title": "The Small-Team AI Operating Manual",
+  "subtitle": "A 7-session setup for shared prompts, client-safe data rules and a review process your whole team (and your contractors) will actually follow",
+  "audience": "Freelancers who work with subcontractors, and small agencies, studios and service teams of 2–15 people who already use AI tools such as ChatGPT, Claude, Notion AI or Grammarly on client work, but in an ad-hoc way. Each person has their own prompts, their own habits and their own idea of what is 'safe' to paste in. Not for complete AI beginners, and not for solo operators who use AI only occasionally.",
+  "outcomes": [
+    "A one-page AI Use Policy your team can read in five minutes, covering what AI may be used for, what data must never go in, and who signs off",
+    "A traffic-light map (green/amber/red) of your real recurring tasks, showing where AI helps, where it needs a closer human check, and where it is off-limits",
+    "A shared prompt library of 8–12 tested 'prompt cards' stored in one place, with owners, version numbers and example outputs",
+    "A simple scoring method for testing prompts against real past work before anyone relies on them",
+    "A pre-delivery QA checklist that catches the typical AI mistakes: invented facts, voice drift, leftover placeholders and confidential details",
+    "A 30-minute onboarding routine for new teammates and contractors",
+    "A monthly 45-minute review routine to update prompts, log incidents and check what each tool actually costs and delivers"
+  ],
+  "sales_copy": "Your team already uses AI. The real question is whether everyone uses it the same way. If one person pastes client files into whatever chatbot is open, another rewrites the same prompt from scratch every week, and nobody is sure what needs a human check before delivery, this playbook is for you.\n\nThe Small-Team AI Operating Manual takes you through seven working sessions of about an hour each. By the end you'll have a one-page AI use policy, a traffic-light map of which tasks AI can touch, a shared library of tested prompt cards, a pre-delivery QA checklist and a short monthly review routine. It includes 13 copy-paste templates, from a client disclosure clause to a claim-extraction prompt for fact-checking.\n\nIt works with any tools, whether you use ChatGPT, Claude, Notion AI, Grammarly or a mix. It isn't an introduction to AI, and it isn't legal advice. If you work alone and only use AI now and then, our free articles will probably serve you better. It's built for freelancers who use subcontractors and for teams of 2 to 15 people who want consistent, client-safe AI habits without hiring a consultant.",
+  "chapters": [
+    {
+      "heading": "Chapter 1: Why Ad-Hoc AI Use Quietly Costs You (and What You'll Build)",
+      "summary": "Spot the hidden problems with everyone 'doing their own thing' with AI, and set up the workspace for the seven sessions."
+    },
+    {
+      "heading": "Chapter 2: Session 1 – Audit What Your Team Actually Does with AI",
+      "summary": "Map real recurring tasks, the tools used for each and the data involved, then sort every task into green, amber or red."
+    },
+    {
+      "heading": "Chapter 3: Session 2 – Set Client-Safe Data Rules and Write Your One-Page Policy",
+      "summary": "Check each tool's data settings and your client agreements, then write a one-page AI Use Policy anyone can follow."
+    },
+    {
+      "heading": "Chapter 4: Session 3 – Build a Shared Prompt Library That People Actually Use",
+      "summary": "Turn your top tasks into standardised prompt cards with clear inputs, owners and example outputs, stored where the team works."
+    },
+    {
+      "heading": "Chapter 5: Session 4 – Test Prompts Against Real Work Before You Trust Them",
+      "summary": "Use past projects as test cases and a simple scorecard to decide which prompts are ready, which need work and which to drop."
+    },
+    {
+      "heading": "Chapter 6: Session 5 – Build a Human Review Step That Catches AI's Typical Mistakes",
+      "summary": "Set review levels by traffic light and adopt a pre-delivery QA checklist focused on the errors AI actually makes."
+    },
+    {
+      "heading": "Chapter 7: Session 6 – Roll It Out to Your Team and Contractors",
+      "summary": "Launch the system with a short walkthrough, a practice task and an onboarding routine for anyone new."
+    },
+    {
+      "heading": "Chapter 8: Session 7 and Beyond – Keep the System Alive with a Monthly Review",
+      "summary": "Run a 45-minute monthly review to update prompts, learn from incidents, re-check tool terms and decide what each tool is worth."
+    }
+  ],
+  "template_count": 13,
+  "slug": "the-small-team-ai-operating-manual",
+  "published": "2026-10-08T06:54:27+00:00"
+}
