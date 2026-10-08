@@ -1,0 +1,286 @@
+{
+  "title": "How to Fact-Check AI-Generated Content Before Clients See It",
+  "meta_description": "How to fact-check AI-generated content in 8 steps: trace stats, verify quotes, test every link, and send clients a claim log (template included).",
+  "quick_answer": "To fact-check AI-generated content, have the AI list every checkable claim, but never ask it to confirm them. Trace each statistic to its primary source and find the original of every quote. Open every link and read the cited passage. Re-check date-sensitive facts, names and product features. Cut or soften anything you can't source, polish the wording last, and send a claim log with the draft.",
+  "key_takeaways": [
+    "Use AI to find the claims in a draft. Never use it to confirm them.",
+    "Trace every statistic to the organization that collected the data. Check the year, who was measured and what was measured.",
+    "Open every link and use Ctrl+F (Cmd+F on a Mac) to find the supporting passage. A page that loads doesn't prove the claim.",
+    "If you can't source a claim, cut it or soften it. Never cover the gap with \"studies show.\"",
+    "Do the Grammarly pass last, then re-check any number, quote or name that a rewrite changed.",
+    "Send a claim log with every draft so the client can see what was verified, softened or cut, and what needs their input."
+  ],
+  "who_this_is_for": "This guide is for freelance writers and content marketers who draft articles, blog posts or newsletters with AI and need to give clients accurate work without re-researching every sentence.",
+  "intro": "AI can turn a brief into a usable first draft in minutes, but it can't tell you which of its sentences are true. An invented statistic reads just as smoothly as an accurate line. So does a quote credited to the wrong person, or a link to a page that doesn't exist. When the draft reaches your client, it carries your name, not the model's. This guide gives you an eight-step checklist for fact-checking AI-written drafts and a prompt that pulls out every checkable claim. It also gives you a cut-or-soften rule for anything you can't source, and a claim-log template to send with the work so clients can see exactly what you checked.",
+  "steps": [
+    {
+      "name": "Have the AI list every checkable claim, but don't let it verify them",
+      "text": "Paste the draft into your AI tool and ask it only to pull out the claims. Use a prompt like: 'List every factual claim in this draft that could be checked against a source: numbers, dates, names, job titles, quotes, links, product features, prices, and any \"research shows\" or \"first/only/largest\" statements. Quote each one exactly and note the section it appears in. Do not say whether any claim is true.' Paste the list into your claim log. Then read the draft yourself and add anything the AI missed, especially superlatives, comparisons and cause-and-effect statements."
+    },
+    {
+      "name": "Trace each statistic to its primary source",
+      "text": "For every number, find the organization that first collected the data. That means the survey publisher, government agency, research team or company report, not a blog that repeated it. Search for the exact figure in quotation marks plus two or three topic words, and add the name of any organization the draft credits. On the original, confirm the exact figure, the year the data was collected, who was measured and what was measured. If the trail ends in websites citing each other, treat the statistic as unsourced."
+    },
+    {
+      "name": "Find the original of every quote",
+      "text": "Search for the exact wording in quotation marks. Then search for a distinctive fragment of five to eight words, because AI often rewords real quotes slightly. Find the original interview, transcript, speech, book or post by the speaker, and confirm the words, the speaker and the context. Famous lines are often credited to the wrong person, and AI can produce quotes nobody ever said. If you can't find the original, cut the quote. Don't keep the person's name attached to a paraphrase."
+    },
+    {
+      "name": "Open every link and find the supporting passage",
+      "text": "Click every URL. Check that it loads, that it lands on a specific page rather than a homepage, and that the page backs up the sentence it's attached to. Use Ctrl+F (Cmd+F on a Mac) to find the key figure or phrase. AI can produce realistic-looking URLs that don't exist. If a link is dead, the Internet Archive's Wayback Machine may show what the page once said, but a live primary source is better. Note any paywalls in your claim log."
+    },
+    {
+      "name": "Re-check anything that depends on a date",
+      "text": "Flag words such as 'currently', 'latest', 'new', 'this year', 'recently' and 'now'. Also flag prices, rankings, laws, version numbers and who holds which job. AI models learn from data that stops at a cutoff date, so these details can be out of date even if they were once true. Check each one against a current official source on the day you deliver. Add 'as of [Month Year]' wherever the detail is likely to change."
+    },
+    {
+      "name": "Confirm names, job titles and product features",
+      "text": "Check the spelling and capitalization of every person, company and product name. Confirm current job titles on an official bio, a company team page or a recent press release. Check product features and plan tiers on the vendor's own website or help docs, and don't imply that a paid-plan feature is available to everyone. For claims about the client's own products, customers or internal data, mark the row 'Client to confirm'."
+    },
+    {
+      "name": "Cut or soften anything you couldn't verify",
+      "text": "Before you start, set a time limit for each claim, such as ten minutes for a statistic, and stick to it. If the specific detail is the point of the sentence (a number, a quote or a 'first/only' claim), cut it. If the idea holds up without the specifics, restate it only as strongly as you can support it. Never fill the gap with 'studies show' or 'experts agree'. Record every cut and softened claim in the claim log, with a one-line reason."
+    },
+    {
+      "name": "Polish last, check the draft against your log, then deliver",
+      "text": "Once the facts are settled, do a grammar and clarity pass in Grammarly or your usual editor. Be careful with full-sentence rewrites, because a smoother sentence can drop a hedge or change a figure. Then compare the final draft with your claim log, line by line, so that every number, quote and name matches what you verified. Add a one-line summary to the top of the log and send it with the draft."
+    }
+  ],
+  "comparison": {
+    "caption": "Where to verify each type of claim in an AI-written draft",
+    "headers": [
+      "Claim type",
+      "Verify against",
+      "Typical AI mistake",
+      "If you can't verify it"
+    ],
+    "rows": [
+      [
+        "Statistics and percentages",
+        "The original report, dataset or paper from the organization that collected the data",
+        "Wrong year or population, a figure credited to the wrong organization, or a number with no traceable origin",
+        "Cut the number, or make the general point without it"
+      ],
+      [
+        "Quotes",
+        "The original interview, transcript, speech or book, or the speaker's own published post",
+        "Credited to the wrong person, reworded, or never said at all",
+        "Cut it, and don't keep the speaker's name on a paraphrase"
+      ],
+      [
+        "Links and citations",
+        "The live page itself, with the supporting passage found and read",
+        "A URL that returns an error, redirects to a homepage, or doesn't support the claim",
+        "Replace it with a working primary source or remove the claim"
+      ],
+      [
+        "Date-dependent facts (prices, 'latest', laws, rankings)",
+        "The current official page, checked on the day you deliver",
+        "Out-of-date information presented as current",
+        "Add 'as of [Month Year]' or tell readers to confirm with the source"
+      ],
+      [
+        "Names and job titles",
+        "Official bios, company team pages and recent press releases",
+        "Misspelled names, old job titles, or two people mixed up",
+        "Use the title only if confirmed; otherwise drop it"
+      ],
+      [
+        "Product features and plans",
+        "The vendor's website, help docs and pricing page",
+        "Features listed on the wrong plan or product, or features that have been discontinued",
+        "Describe the feature in general terms and tell readers to confirm on the vendor's site"
+      ],
+      [
+        "Health, legal and financial claims",
+        "Official regulators or government bodies, peer-reviewed research, and a qualified reviewer chosen by the client",
+        "Rules that are oversimplified, out of date, or presented as if they apply everywhere",
+        "Pass it to the client for expert review before publishing"
+      ],
+      [
+        "The client's internal data",
+        "The client",
+        "Plausible-sounding figures about the client's own business",
+        "Mark it 'Client to confirm' in the claim log"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why AI-written drafts need their own fact-check pass",
+      "paragraphs": [
+        "AI-written drafts need a separate fact-check because language models produce text that sounds plausible, not text that has been checked against sources. A model predicts likely wording. When it fills a gap with an invented detail (often called a 'hallucination'), the result reads just as smoothly as a true sentence.",
+        "For freelance writers, the risk falls on you. The client sees your name on the draft, not the model's. One invented figure spotted by their editor or audience can undo the trust you built over many good deliveries.",
+        "There have been widely reported cases of professionals, including lawyers, submitting AI-generated citations to sources that turned out not to exist. The lesson for writers is simple: confirm that every cited source exists and says what the draft claims. Never assume it does.",
+        "The good news is that AI errors tend to show up in the same places. You don't need to re-research every sentence. You need to check every sentence that makes a claim a reader could check. Watch for these patterns:"
+      ],
+      "bullets": [
+        "Statistics with no traceable origin, or real figures attached to the wrong year, country or survey",
+        "Quotes credited to well-known people who never said them",
+        "URLs that look real but don't load, redirect to a homepage, or don't support the claim",
+        "Facts that were true once but are out of date now",
+        "Product features listed on the wrong plan, product or competitor",
+        "Misspelled names, or people given job titles they no longer hold"
+      ]
+    },
+    {
+      "heading": "Why you shouldn't ask the AI to verify its own claims",
+      "paragraphs": [
+        "You can't rely on an AI to verify its own draft, because the process that produced an error can confirm it just as confidently. Ask a model whether a statistic is accurate and it may say yes, cite a source that doesn't exist, or 'correct' a true figure into a false one.",
+        "Pulling out the claims is a different job. Finding every checkable statement in a draft is a reading task, and AI does it quickly, turning a long draft into a checklist. That's why step 1 uses AI to list the claims and stops there.",
+        "Some AI tools can search the web and show sources alongside their answers. Those links can speed up your research, but treat them as leads, not proof. Open each one and read the relevant passage yourself. Search and citation features vary by tool and plan, so check what yours actually does.",
+        "AI-generated claim lists often miss statements that don't look like facts at first glance. When you read the draft yourself, add these to the log:"
+      ],
+      "bullets": [
+        "Superlatives: 'the first', 'the only', 'the largest', 'the leading'",
+        "Comparisons: 'faster than', 'cheaper than most alternatives'",
+        "Vague authority: 'research shows', 'experts agree', 'according to industry data'",
+        "Cause-and-effect claims: 'X leads to Y', 'this increases conversions'",
+        "Hidden time references: 'the new feature', 'the current standard'"
+      ]
+    },
+    {
+      "heading": "What counts as a primary source (and how to find it fast)",
+      "paragraphs": [
+        "A primary source is wherever a fact first appeared. That could be the organization that ran the survey, the agency that released the data, the researchers who wrote the paper, the person who said the words, or the company that makes the product. Anything else is a secondary source repeating it.",
+        "The trap with AI-drafted statistics is the citation chain. A number appears in a blog post that cites another blog post, which cites a report nobody links to. If you follow the chain and it ends nowhere, the statistic is unsourced, however many websites repeat it.",
+        "To find the original quickly, search for the exact figure in quotation marks plus a few topic words. Add the name of any organization the draft credits, and look for a PDF report or a methodology page. For academic claims, Google Scholar is a good starting point. For official data, go straight to the relevant government statistics agency.",
+        "News articles, Wikipedia and industry roundups help you find the original, but they usually shouldn't be the final citation for a statistic. Check your client's style guide too, because some publications have rules about which sources they accept.",
+        "Once you reach the original, check these five things before you mark the claim verified:"
+      ],
+      "bullets": [
+        "The number matches exactly, including units and whether it's a percentage or a change in percentage points (going from 10% to 15% is a rise of 5 percentage points, or 50%)",
+        "The year the data was collected, not just the year an article citing it was published",
+        "Who was measured (country, industry, company size, sample). A survey of US enterprises doesn't tell you about 'businesses' in general.",
+        "What was measured. 'Plan to adopt' is not 'have adopted', and 'survey respondents' is not 'all customers'.",
+        "Who published or paid for it. Vendor surveys can be legitimate, but say who ran them in the text so readers can judge for themselves."
+      ]
+    },
+    {
+      "heading": "The cut-or-soften rule for claims you can't source",
+      "paragraphs": [
+        "If you can't trace a claim to a credible source within the time you've set aside, cut it or soften it into something you can defend. An unverified claim never goes out unchanged.",
+        "Cut the claim when the specific detail is the whole point of the sentence, as with a statistic, a quote or a named comparison. If the number can't be verified, the sentence usually has nothing left to say.",
+        "Soften the claim when the idea behind it is sound but the specifics aren't supported. Remove the exact figure, name or superlative, and state the point only as strongly as you can back it up. For example, an unsourced line like 'Freelancers lose 11 hours a week to admin' (an invented figure, used here only as an illustration) could become 'Admin can quietly eat into billable hours, so it's worth tracking how much time yours takes.'",
+        "Softening has its own rules. Don't replace a missing source with vague authority such as 'studies show' or 'experts agree', because that's an invented citation in disguise. Don't keep someone's name attached to a paraphrase of a quote you couldn't find. And don't add 'reportedly' to a figure you never saw reported anywhere.",
+        "Use this quick sort when you're deciding:"
+      ],
+      "bullets": [
+        "Cut: statistics, quotes, named comparisons and 'first/only/largest' claims you can't source",
+        "Soften: general trends, practical advice and examples where the idea holds up without the specifics",
+        "Pass to the client: their own data, claims about their product, and any health, legal or financial content that may need review by an expert",
+        "Log it: record every cut and softened claim in the claim log so nothing changes without the client knowing"
+      ]
+    },
+    {
+      "heading": "The claim-log template to send with every draft",
+      "paragraphs": [
+        "A claim log is a simple table listing every checkable claim in a draft, the source you checked it against, and what you did with it. Sending it with the draft shows the client your work and speeds up their editorial review.",
+        "A filled-in row might look like this: '#4 | \"Nearly half of respondents said…\" | Section 2, paragraph 1 | Statistic | [Report title], [Publisher], [Year] | [direct URL] | Verified | 8 Oct 2026 | US respondents only; wording changed to say so.'",
+        "Start the log with a one-line summary the client can take in at a glance, for example: 'Fact-check summary: 14 claims checked. 10 verified, 2 softened, 1 cut, 1 needs your confirmation (row 9).' Highlight the 'Client to confirm' rows, because the client has to act on those before publishing.",
+        "Send the log in whatever format the client already uses: a table at the end of the document, a tab in a shared spreadsheet, or a shared database page. Send the finished log, not the raw list the AI produced.",
+        "Use these nine columns, in this order. They work the same in a document table, a spreadsheet or a database:"
+      ],
+      "bullets": [
+        "# — a number that matches a comment or footnote in the draft",
+        "Claim — the exact wording as it appears",
+        "Location — the section heading or paragraph",
+        "Type — statistic, quote, link, date-dependent fact, name/title, product feature or client data",
+        "Source — the title, publisher and publication date",
+        "Link — a direct URL to the supporting page, not a homepage",
+        "Status — Verified, Softened, Cut or Client to confirm",
+        "Checked on — the date you checked the claim, which matters for anything time-sensitive",
+        "Notes — anything the editor should know, such as 'paywalled; passage is on page 4' or 'rounded 47.6% to \"nearly half\"'"
+      ]
+    },
+    {
+      "heading": "Where Grammarly fits in the process (and where it doesn't)",
+      "paragraphs": [
+        "Grammarly belongs at the end of the process because its core job is checking language (grammar, spelling, clarity and tone), not whether a statement is true. A sentence can be grammatically flawless and still factually wrong.",
+        "Run it after the facts are settled, so you're polishing the final wording rather than text you might still cut. Read rewrite suggestions carefully. A version that sounds more confident can delete a hedge you added on purpose when softening a claim, turning 'can reduce' into 'reduces'.",
+        "Grammarly keeps adding AI features, and some may help with jobs like suggesting sources. If your plan includes something like that, treat its suggestions the way you'd treat any AI search result: as leads to open and read, not as verification. Features differ by plan and change over time, so confirm the current details on Grammarly's website.",
+        "After the Grammarly pass, compare the final draft with your claim log, and check again any logged claim that a rewrite touched. Use this rule of thumb for suggestions:"
+      ],
+      "bullets": [
+        "Accept freely: typos, grammar, punctuation and simple readability fixes",
+        "Review carefully: tone changes, full-sentence rewrites and suggestions that make claims sound more certain",
+        "Never accept without re-checking: changes to quoted text, figures, people's names or product names"
+      ]
+    },
+    {
+      "heading": "Common fact-checking mistakes that let AI errors through",
+      "paragraphs": [
+        "The most common fact-checking mistake is a partial check: confirming that a source exists without confirming that it supports the exact claim. Most AI errors that reach clients got past a check that was done, just not done all the way.",
+        "Watch for these gaps in your own process:"
+      ],
+      "bullets": [
+        "Checking that a link loads without reading the passage that's supposed to support the claim",
+        "Checking the number but not the year or population, so an old US-only figure turns into a current global one",
+        "Rounding in the wrong direction, so that '38%' becomes 'nearly half'",
+        "Citing an older edition of an annual report when a newer one has been published",
+        "Fact-checking before the final edit, then accepting rewrites that change verified wording",
+        "Treating the client's brief as a source without asking where its figures came from"
+      ]
+    },
+    {
+      "heading": "How to fact-check AI-generated content without blowing your rate",
+      "paragraphs": [
+        "To fact-check AI-generated content and still make money on the job, treat checking as a defined, paid part of the work rather than unpaid cleanup. Checking sources takes real time, and that time should show up in your rate, your turnaround time or both.",
+        "Start by timing yourself on your next few drafts. Note how many checkable claims a typical article in your niche contains and how long each type of claim takes to verify. That gives you your own numbers to price from instead of a guess.",
+        "Agree with the client at the start on who checks what. Settle who verifies their internal data, whether they want a claim log, and whether health, legal or financial content needs review by a qualified expert. This is common practice, not legal advice, so check your contract to see what you've actually agreed to.",
+        "Prioritize within each draft. Claims about health, money or the law always get full verification, and so do named people, competitors and whatever the headline promises. Everyday general statements need a quick sanity check, not a research project.",
+        "You save the most time before the AI writes anything. Gather your sources first, give them to the AI, and limit what it's allowed to add, because fewer invented claims means fewer to chase. Add these lines to your drafting prompt:"
+      ],
+      "bullets": [
+        "\"Use only the sources I've provided.\"",
+        "\"Don't add statistics, quotes or named studies that aren't in those sources.\"",
+        "\"Mark any claim that needs a source with [NEEDS SOURCE].\"",
+        "\"Don't include URLs; I'll add links myself.\""
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Grammarly",
+      "best_for": "Freelance writers who want a final grammar, clarity and tone pass once the facts are settled (step 8 of the checklist). Check Grammarly's website for current plans and features.",
+      "not_for": "Verifying statistics, quotes or links. Its core checks cover language, not truth, so it can't replace steps 1–7. Re-check any logged claim that one of its rewrites touches."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Writers with several clients who want a reusable claim-log database. Add a Status property (Verified, Softened, Cut, Client to confirm), a 'Checked on' date property and a link property, save it as a template, and share one page per draft.",
+      "not_for": "Writers whose clients work only in Google Docs or Word, where a table at the end of the draft or a spreadsheet works fine without another tool. It's also not a fact-checker, so don't use its built-in AI to confirm claims."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT or another AI fact-check its own content?",
+      "answer": "Not reliably. The same model that made an error can confirm it confidently or cite a supporting source that doesn't exist. Use AI to list the claims or suggest where to look, then verify each claim by opening and reading the original source yourself."
+    },
+    {
+      "question": "How long does it take to fact-check an AI-written article?",
+      "answer": "It depends on how many claims the draft makes and what kind they are, not on word count. A draft full of statistics and quotes takes far longer than a how-to built on general advice. Time yourself on a few drafts to get your own benchmark, then build that time into your rate."
+    },
+    {
+      "question": "What should I do if I can't find the source of a statistic?",
+      "answer": "Cut it or soften it. If the specific figure is the point of the sentence, cut the sentence. If the idea still holds up, restate it in general terms without the number. Don't replace the missing source with phrases like 'studies show', and record your decision in the claim log."
+    },
+    {
+      "question": "Do Grammarly or AI detectors fact-check content?",
+      "answer": "No. Grammarly's core checks cover grammar, spelling, clarity and tone. AI-content detectors estimate whether text looks machine-written. Neither tells you whether a claim is true, so use them alongside fact-checking, not instead of it, and confirm current features on each vendor's website."
+    },
+    {
+      "question": "Should I tell clients I used AI to draft their content?",
+      "answer": "That depends on your contract and the client's own policies, and some clients have explicit rules about AI use. Read your agreement and ask the client if it's unclear. Being upfront and sending a claim log with each draft usually builds more trust than leaving them to guess. This is general information, not legal advice."
+    },
+    {
+      "question": "What is a claim log?",
+      "answer": "A claim log is a table that lists each checkable claim in a draft, along with its source, a direct link, the date you checked it, and its status: verified, softened, cut or client to confirm. You send it with the draft so the client's editor can see what was checked and what needs their input."
+    }
+  ],
+  "conclusion": "Fact-checking AI-generated content comes down to one repeatable habit: let AI find the claims, then check each one yourself against the original source. Trace statistics, find original quotes, open every link, and re-check anything date-sensitive. Cut or soften what you can't support, and polish the wording last. If you send a claim log with every draft, clients get more than clean copy. They get proof that it's accurate. Start with your next draft: run the claim-listing prompt, build the log, and time yourself so you know what to charge.",
+  "keyword": "how to fact check ai generated content",
+  "niche": "AI writing and content tools for freelancers",
+  "version": 2,
+  "slug": "how-to-fact-check-ai-generated-content-before-clients-see-it",
+  "published": "2026-10-08T22:28:12+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "term": "Credit Card Grace Period",
+  "section": "Banking & Money",
+  "short_definition": "A credit card grace period is the window between a statement's closing date and its due date when paying the full statement balance avoids interest on new purchases.",
+  "explanation": [
+    "A grace period lets you borrow for purchases interest-free for a short time, as long as you clear the full statement balance by the due date. When your billing cycle closes, the card issuer sends a statement showing the balance and the due date. Paying that full statement balance on time typically means no interest is charged on the cycle's purchases. Grace periods usually cover purchases only. Cash advances, and often balance transfers, typically start charging interest right away.",
+    "The grace period is why people who pay their card in full every month pay no interest. Used carefully, it lets a credit card work as a convenient, short-term, interest-free payment tool while you build credit history.",
+    "The risk comes with carrying a balance. If you pay most but not all of the statement balance, many issuers remove the grace period. New purchases may then accrue interest from the day you make them until you pay in full again, and that can last more than one cycle. How long the grace period lasts and how it works depends on your card agreement and local regulations, so read your terms and the interest section of your statement."
+  ],
+  "example": "Illustrative example: Your billing cycle closes on March 5 with a statement balance of $800 and a due date of March 30. If you pay $800 by March 30, you pay no interest on those purchases. If you pay only $500, interest is charged on the remaining $300, and on many cards new purchases also start accruing interest right away until the balance is fully paid.",
+  "common_mistake": "Assuming the minimum payment keeps the grace period. Typically, only paying the full statement balance by the due date avoids interest on purchases.",
+  "related_terms": [
+    "APR vs APY",
+    "Credit Utilization Ratio",
+    "Credit Score",
+    "Balance Transfer",
+    "Buy Now, Pay Later (BNPL)"
+  ],
+  "title": "Credit Card Grace Period",
+  "slug": "credit-card-grace-period",
+  "published": "2026-10-08T22:44:53+00:00"
+}

@@ -1,0 +1,264 @@
+{
+  "title": "Qualified vs Ordinary Dividends: Tax Rates, 1099-DIV & Examples",
+  "meta_description": "Qualified vs ordinary dividends explained: how each is taxed, the 60-day holding rule, Form 1099-DIV box 1a vs 1b, and a worked example.",
+  "quick_answer": "Ordinary dividends are your total taxable dividends. Qualified dividends are the part taxed at lower long-term capital gains rates (0%, 15% or 20% federally in recent years). The rest is taxed as regular income. To qualify, the payer must be a US or qualified foreign corporation, and you must hold common shares more than 60 days in the 121-day window around the ex-dividend date. Form 1099-DIV: total in box 1a, qualified in 1b.",
+  "key_takeaways": [
+    "Qualified dividends are a subset of ordinary dividends. The box 1b amount is already included in box 1a, so never add the two boxes together.",
+    "Qualified dividends are taxed at long-term capital gains rates (0%, 15% or 20% federally in recent years). Non-qualified dividends are taxed at your regular income tax rate.",
+    "For common stock, you must hold the shares more than 60 days during the 121-day window that starts 60 days before the ex-dividend date. Days when the position was hedged don't count.",
+    "REITs, money market funds, bond funds, BDCs and some foreign companies usually pay mostly non-qualified dividends, no matter how long you own them.",
+    "The label only changes your yearly tax bill in a taxable account. Dividends inside IRAs and 401(k)s aren't taxed in the year they're paid.",
+    "The income thresholds for each rate change over time. Check current IRS figures every year instead of reusing last year's numbers."
+  ],
+  "who_this_is_for": "US investors with a taxable brokerage account who received a Form 1099-DIV and want to know why some dividends are taxed less than others, and how to report them correctly.",
+  "intro": "Two dividends of the same size can lead to very different tax bills. Usually the reason is one label on your Form 1099-DIV: qualified or not qualified. This guide explains the difference between qualified and ordinary dividends, how the 60-day holding-period rule works, which payers usually don't qualify, how to read boxes 1a and 1b, and why the type of account you invest through matters. A worked example with made-up numbers walks through the math. Everything here is general information about US federal tax rules, not tax, legal or investment advice. Tax law and IRS thresholds change, so check current figures with the IRS or a qualified tax professional before you file.",
+  "steps": [
+    {
+      "name": "Gather every Form 1099-DIV",
+      "text": "Collect a Form 1099-DIV (or consolidated 1099) from every broker, fund company or corporation that paid you dividends in a taxable account. Watch for corrected forms, which are common when funds and REITs reclassify their payouts after year-end. Many brokers post the expected date for final forms on their tax center page."
+    },
+    {
+      "name": "Find total ordinary dividends in box 1a",
+      "text": "Box 1a shows your total ordinary dividends, and that total already includes the qualified part. This is the number that goes on the ordinary dividends line of Form 1040."
+    },
+    {
+      "name": "Find the qualified portion in box 1b",
+      "text": "Box 1b shows the part that may be qualified for lower rates. Subtract box 1b from box 1a to get your non-qualified dividends. Never add the two boxes together."
+    },
+    {
+      "name": "Check the holding period on short-term or hedged positions",
+      "text": "For any shares you bought or sold close to an ex-dividend date, confirm you held the common stock more than 60 days during the 121-day window that starts 60 days before the ex-dividend date. Certain preferred stock uses a longer test: more than 90 days in a 181-day window. Leave out any days when the position was hedged. A dividend that fails the test is non-qualified, even if it appears in box 1b."
+    },
+    {
+      "name": "Separate the other boxes",
+      "text": "Some boxes are reported elsewhere, so don't add them to your box 1a total: capital gain distributions (box 2a), nondividend distributions (box 3), foreign tax paid (box 7) and exempt-interest dividends (box 12 on recent forms). Box 5 (Section 199A dividends) is already part of box 1a. Use it only for the qualified business income deduction, not as extra dividends."
+    },
+    {
+      "name": "Report on Form 1040 and Schedule B",
+      "text": "Enter ordinary dividends and qualified dividends on their own lines of Form 1040. On recent versions these are lines 3b and 3a, but confirm on the current form. Attach Schedule B if your ordinary dividends are above the amount set in the current instructions. If your software imported the numbers, compare them with the 1099 PDF."
+    },
+    {
+      "name": "Calculate the tax using current IRS thresholds",
+      "text": "Use tax software or the Qualified Dividends and Capital Gain Tax Worksheet in the Form 1040 instructions. Look up this year's long-term capital gains thresholds for your filing status instead of reusing old numbers. If you have a lot of dividend income and no withholding, check the Form 1040-ES instructions to see whether you need quarterly estimated payments next year."
+    },
+    {
+      "name": "Review your records and account placement for next year",
+      "text": "Note which holdings paid mostly non-qualified dividends and which trades failed the holding period. Then decide, ideally with a tax professional, whether holding certain assets in tax-advantaged accounts fits your plan, your need for access to the money and your risk tolerance."
+    }
+  ],
+  "comparison": {
+    "caption": "Qualified vs non-qualified ordinary dividends at a glance (US federal rules; confirm current details with the IRS)",
+    "headers": [
+      "Feature",
+      "Qualified dividends",
+      "Non-qualified ordinary dividends"
+    ],
+    "rows": [
+      [
+        "Federal tax rate",
+        "Long-term capital gains rates (0%, 15% or 20% in recent years, tiered by income; check current IRS thresholds)",
+        "Your regular income tax rate"
+      ],
+      [
+        "Form 1099-DIV",
+        "Box 1b (also included in the box 1a total)",
+        "Box 1a minus box 1b"
+      ],
+      [
+        "Form 1040",
+        "Qualified dividends line (3a on recent forms), also included in the ordinary total",
+        "Included in the ordinary dividends total (line 3b on recent forms)"
+      ],
+      [
+        "Holding period",
+        "Common stock: more than 60 days in the 121-day window. Certain preferred stock: more than 90 days in a 181-day window",
+        "No minimum. Any dividend that fails the holding test ends up here"
+      ],
+      [
+        "Typical sources",
+        "Most US corporations, many treaty-country or US-listed foreign companies, many stock funds",
+        "Most REIT payouts, money market funds, bond funds, most BDC payouts, PFICs, shares held too briefly or hedged"
+      ],
+      [
+        "Net Investment Income Tax (3.8%)",
+        "Can apply above certain income levels",
+        "Can apply above certain income levels"
+      ],
+      [
+        "Inside an IRA or 401(k)",
+        "Not taxed in the year paid, so the label doesn't matter",
+        "Not taxed in the year paid, so the label doesn't matter"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What are ordinary dividends and qualified dividends?",
+      "paragraphs": [
+        "Ordinary dividends are all the taxable dividends you receive from a corporation or fund. Qualified dividends are the part of those ordinary dividends that meets IRS rules for lower tax rates. Every qualified dividend is also an ordinary dividend, but not every ordinary dividend is qualified.",
+        "The wording confuses a lot of people. On Form 1099-DIV and Form 1040, “ordinary dividends” means the full total, including the qualified part. In everyday speech, people often say “ordinary dividends” when they mean only the part that isn't qualified. To keep things clear, this guide calls that part “non-qualified dividends.”",
+        "Some payments look like dividends but follow different rules. Fund capital gain distributions, return-of-capital (nondividend) distributions and exempt-interest dividends from municipal bond funds each have their own box. “Dividends” from credit unions and savings accounts count as interest and usually come on Form 1099-INT. Distributions from master limited partnerships (MLPs) generally come with a Schedule K-1 instead."
+      ],
+      "bullets": [
+        "Ordinary dividends: all taxable dividends paid out of a corporation's or fund's earnings. Reported in box 1a of Form 1099-DIV.",
+        "Qualified dividends: the part of box 1a paid by a US or qualified foreign corporation on shares you held long enough. Reported in box 1b.",
+        "Non-qualified dividends: box 1a minus box 1b. Taxed at regular income tax rates.",
+        "Ex-dividend date: the first day a stock trades without the right to the upcoming dividend. To receive the dividend, you generally must own the shares before this date."
+      ]
+    },
+    {
+      "heading": "Qualified vs ordinary dividends: how each is taxed",
+      "paragraphs": [
+        "Non-qualified dividends are taxed at the same federal rates as wages and interest. Qualified dividends are taxed at the lower long-term capital gains rates. For most taxpayers, that means a qualified dividend costs less in federal tax than a non-qualified dividend of the same size.",
+        "In recent tax years, qualified dividends have been taxed at long-term capital gains rates of 0%, 15% or 20%. Which rate applies depends on your taxable income and filing status. The income limits for each rate are generally adjusted for inflation every year, so look them up in the current Form 1040 instructions or on IRS.gov instead of relying on an old figure.",
+        "Qualified dividends are stacked on top of your other income. Your wages and other ordinary income fill the regular tax brackets first. Your qualified dividends and long-term gains then land in the 0%, 15% or 20% tier based on where that combined total falls. That's why a raise or a large capital gain can push some of your qualified dividends into a higher tier.",
+        "Both types are taxable in the year they're paid, even if a dividend reinvestment plan (DRIP) reinvests them automatically. Dividends usually have no tax withheld, so if you receive a lot of them you may need to make quarterly estimated tax payments. The Form 1040-ES instructions explain when that applies."
+      ],
+      "bullets": [
+        "Net Investment Income Tax: an extra 3.8% that can apply to both qualified and non-qualified dividends once your income passes certain levels.",
+        "State income tax: many states tax all dividends as regular income, whatever their federal status, and some states have no income tax. Check your state tax agency's rules.",
+        "Investment interest election: if you elect to count qualified dividends as investment income so you can deduct more margin interest (Form 4952), the amount you elect loses the lower rate.",
+        "Outside the US: other countries tax dividends very differently. Check with your local tax authority or a licensed adviser."
+      ]
+    },
+    {
+      "heading": "The holding-period rule: more than 60 days in a 121-day window",
+      "paragraphs": [
+        "A dividend on common stock is qualified only if you held the shares more than 60 days during the 121-day period that begins 60 days before the ex-dividend date. The window covers the 60 days before the ex-dividend date, the ex-dividend date itself and the 60 days after it.",
+        "When you count, include the day you sold the shares but not the day you bought them. “More than 60 days” means at least 61 days inside the window. In the hypothetical examples below (a non-leap year), the ex-dividend date is March 15, so the window runs from January 14 through May 14.",
+        "Preferred stock has a longer test when its dividends cover periods totaling more than 366 days. In that case you must hold the shares more than 90 days during the 181-day period that begins 90 days before the ex-dividend date. If the dividend covers a shorter period, the common-stock test applies.",
+        "Days when you were hedged don't count. If your risk of loss was reduced, for example because you held a put option on the stock, had an open short sale of substantially identical shares, or had sold certain call options, those days are left out. IRS Publication 550 lists the full rules.",
+        "Funds add a second layer. A mutual fund or ETF can pass qualified dividends through to you only if the fund itself held its stocks long enough, and you also have to meet the holding period on your own fund shares.",
+        "Buy-and-hold investors usually meet the test without trying. The rule mostly catches people who trade around ex-dividend dates (sometimes called dividend capture), who hedge a position, or who move shares between brokers and lose track of the original purchase dates."
+      ],
+      "bullets": [
+        "Buy March 14, sell May 13: you count March 15 through May 13, which is 60 days. That's not more than 60, so the dividend is non-qualified.",
+        "Buy March 14, sell May 14: that's 61 days, so the dividend can be qualified.",
+        "Owned since last year, sell March 15: you held the shares from January 14 through March 15, which is 61 days of the window, so the dividend can still be qualified."
+      ]
+    },
+    {
+      "heading": "Dividends that usually don't qualify",
+      "paragraphs": [
+        "REITs, money market funds, bond funds, BDCs and some foreign companies usually pay non-qualified dividends no matter how long you hold the shares. There are two main reasons: the payout mostly comes from interest or from income the payer didn't pay corporate tax on, or the payer doesn't meet the IRS definition of a qualifying corporation.",
+        "Funds that hold a mix of assets fall somewhere in between. An international stock fund, a balanced fund or a dividend-focused ETF may report part of a payout as qualified and part as non-qualified, depending on what it owns and how long it held it. Check the fund's year-end tax information instead of assuming.",
+        "Tax treatment alone isn't a reason to own or avoid any investment. REITs, bond funds, BDCs and money market funds each carry risks such as interest-rate, credit, property-market, liquidity and fee risk, and any of them can lose value. Money market funds are not bank deposits and are not FDIC-insured."
+      ],
+      "bullets": [
+        "Real estate investment trusts (REITs): most REIT dividends are non-qualified because REITs generally avoid corporate tax by paying out their income. The non-qualified part often appears in box 5 as Section 199A dividends, which may be eligible for the qualified business income deduction. That deduction has its own holding-period test, so check current IRS rules.",
+        "Money market funds: their income is mostly interest, so their dividends are generally non-qualified.",
+        "Bond funds and most fixed-income ETFs: interest passed through to you as dividends generally isn't qualified.",
+        "Business development companies (BDCs): their payouts come largely from interest on loans, so most of their dividends are non-qualified.",
+        "Foreign companies: their dividends qualify only if the company is a “qualified foreign corporation.” That means it is eligible for benefits under a comprehensive US income tax treaty, is incorporated in a US possession, or has shares readily tradable on an established US securities market. Passive foreign investment companies (PFICs) don't qualify.",
+        "Other exceptions: dividends from tax-exempt organizations and farmers' cooperatives, dividends on employer securities held in an ESOP, and payments in lieu of dividends. You can receive those payments when your broker lends out your shares, and they are often reported on Form 1099-MISC."
+      ]
+    },
+    {
+      "heading": "Form 1099-DIV box 1a vs box 1b (and the other boxes)",
+      "paragraphs": [
+        "Box 1a of Form 1099-DIV shows your total ordinary dividends, and box 1b shows how much of that total may be qualified. The box 1b amount is already included in box 1a, so never add the two together.",
+        "To find your non-qualified dividends, subtract box 1b from box 1a. For example, if box 1a shows $2,000 and box 1b shows $1,500 (made-up figures), then $1,500 may get the lower rate and $500 is taxed as regular income.",
+        "Think of box 1b as a starting point, not the final answer. The IRS describes it as the part that may be eligible for the lower rates. Some brokers adjust it for holding periods they can see, but they can't see hedges you hold at another firm or the real purchase date of shares you transferred in. Getting it right is your responsibility.",
+        "On Form 1040, the box 1a total goes on the ordinary dividends line and the box 1b amount goes on the qualified dividends line. On recent versions these are lines 3b and 3a, but confirm on the current form. You also need Schedule B if your ordinary dividends are above the amount set in the current instructions."
+      ],
+      "bullets": [
+        "Box 2a, capital gain distributions: fund payouts from selling investments at a gain. Generally taxed at long-term capital gains rates however long you've held the fund, and reported separately from box 1a.",
+        "Box 3, nondividend distributions: usually a return of your own money. Generally not taxed now, but it lowers your cost basis. Any amount above your basis is generally taxed as a capital gain.",
+        "Box 5, Section 199A dividends: already included in box 1a. Used only for the qualified business income deduction.",
+        "Box 7, foreign tax paid: may be claimable as a credit or a deduction.",
+        "Exempt-interest dividends (box 12 on recent forms): generally free of federal tax but still reported on Form 1040, and your state may tax them.",
+        "Corrected forms: funds and REITs sometimes reclassify payouts after year-end. Waiting for final forms can save you from filing an amended return."
+      ]
+    },
+    {
+      "heading": "Worked example: taxing $5,000 of dividends (made-up numbers)",
+      "paragraphs": [
+        "This hypothetical example shows how box 1a, box 1b and the holding-period rule turn into a tax bill. Every name, dollar amount and tax rate below is invented for illustration. None of them are current IRS rates or thresholds.",
+        "Sam has one taxable brokerage account. His consolidated Form 1099-DIV, the assumed tax rates and the calculation are listed below.",
+        "For comparison, if all $5,000 were taxed at the assumed 22% rate, the tax would be $1,100, so qualified status saves Sam $252 in this example. If Sam wrongly added box 1a and box 1b together, he would report $8,600 of dividends, which is $3,600 more than he actually received.",
+        "Now add a holding-period twist. Suppose $400 of the US fund's dividends came from shares Sam bought 10 days before the ex-dividend date and sold 30 days after it, so he held them for only 40 days of the window. That $400 is non-qualified even if his form puts it in box 1b. His qualified dividends drop to $3,200, his non-qualified dividends rise to $1,800, and the tax becomes $396 + $480 = $876, which is $28 more.",
+        "Real tax returns are messier. Tax software and the Qualified Dividends and Capital Gain Tax Worksheet stack your dividends on top of your other income, so some qualified dividends can fall under one rate and the rest under another. This example also leaves out the Net Investment Income Tax, state tax and any Section 199A deduction."
+      ],
+      "bullets": [
+        "US stock index fund: $3,000 in ordinary dividends, $2,950 reported as qualified.",
+        "International stock fund: $700 ordinary, $600 qualified.",
+        "REIT fund: $600 ordinary, $50 qualified.",
+        "Money market fund: $700 ordinary, $0 qualified.",
+        "Totals: box 1a = $5,000, box 1b = $3,600, non-qualified = $5,000 − $3,600 = $1,400.",
+        "Assumed rates, for illustration only: 22% on non-qualified dividends and 15% on qualified dividends.",
+        "Non-qualified tax: $1,400 × 22% = $308.",
+        "Qualified tax: $3,600 × 15% = $540.",
+        "Estimated federal tax on Sam's dividends: $308 + $540 = $848."
+      ]
+    },
+    {
+      "heading": "Why account placement matters",
+      "paragraphs": [
+        "Account placement matters because the qualified-versus-ordinary label only changes your tax bill in a taxable account. Inside a traditional IRA, Roth IRA, 401(k) or similar tax-advantaged account, dividends aren't taxed in the year they're paid.",
+        "The label doesn't carry over when you take money out either. Withdrawals from traditional IRAs and 401(k)s are generally taxed as ordinary income, even if the money came from qualified dividends. Qualified Roth withdrawals are generally tax-free. So qualified dividends lose their rate advantage inside a traditional account, while non-qualified income held there stops adding to your tax bill each year.",
+        "This is the idea behind “asset location.” Some investors keep holdings that produce mostly non-qualified income, such as REIT funds, bond funds or high-turnover funds, in tax-advantaged accounts. They keep broad stock funds with mostly qualified dividends in taxable accounts. It's a common planning approach, not a rule. A CPA, enrolled agent or fee-only financial planner can test it against your real numbers."
+      ],
+      "bullets": [
+        "Access: retirement accounts can have penalties or restrictions on early withdrawals, so money you may need soon often belongs elsewhere.",
+        "Foreign tax credit: you generally can't claim a credit for foreign tax withheld inside an IRA. That can make a taxable account a better home for foreign stock funds.",
+        "Limited space: annual contribution limits cap how much you can hold in tax-advantaged accounts.",
+        "Fees and risk come first: where you hold a fund doesn't change its expense ratio or its risk of loss, and high fees can cancel out a tax saving.",
+        "Complexity: spreading asset types across several accounts makes rebalancing harder to track."
+      ]
+    },
+    {
+      "heading": "Common mistakes to avoid (plus a simple tracking template)",
+      "paragraphs": [
+        "The most common dividend tax mistakes are adding box 1a and box 1b together, trusting box 1b on short-term or hedged trades, and filing before corrected forms arrive. A simple holding-period log prevents most of them.",
+        "A basic log needs one row per tax lot, with these columns: ticker or fund, account, purchase date, sale date, ex-dividend dates while you held it, days held in each 121-day window, any hedges (puts, short sales, written calls), and payer type (stock, REIT, BDC, bond fund, foreign company). A spreadsheet works fine. If you use a workspace app, don't store account numbers or Social Security numbers there unless you're comfortable with its security settings."
+      ],
+      "bullets": [
+        "Adding box 1a and box 1b together, which overstates your dividends.",
+        "Accepting box 1b without checking short-term, hedged or transferred-in positions.",
+        "Assuming reinvested dividends aren't taxable.",
+        "Filing before corrected 1099s from funds and REITs arrive.",
+        "Reusing last year's capital gains thresholds.",
+        "Forgetting that your state may tax all dividends as regular income."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who already use Notion and want one place for a holding-period log, a checklist of expected 1099s (including corrected forms) and notes for their tax preparer.",
+      "not_for": "Anyone who wants something that calculates tax, imports broker data automatically or decides whether a dividend is qualified. Notion is a general workspace, not tax software, and a plain spreadsheet does the same job. Don't store account numbers or Social Security numbers there unless you're comfortable with its security settings."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are qualified dividends included in ordinary dividends?",
+      "answer": "Yes. Qualified dividends are part of ordinary dividends, so the amount in box 1b of Form 1099-DIV is already included in the box 1a total. Report box 1a as ordinary dividends and box 1b as qualified dividends, and don't add the two together."
+    },
+    {
+      "question": "What tax rate do qualified dividends pay?",
+      "answer": "In recent tax years, qualified dividends have been taxed at the federal long-term capital gains rates of 0%, 15% or 20%, depending on your taxable income and filing status. The income thresholds for each rate are generally adjusted every year, so check the current Form 1040 instructions or IRS.gov. The 3.8% Net Investment Income Tax and state income tax can apply on top."
+    },
+    {
+      "question": "Are reinvested dividends taxed?",
+      "answer": "Yes, if they're in a taxable account. Dividends are taxable in the year they're paid even if they're reinvested automatically, and the same qualified and non-qualified rules apply as for cash dividends. Each reinvestment also buys new shares with their own cost basis, so keep records for when you sell."
+    },
+    {
+      "question": "Are REIT dividends qualified dividends?",
+      "answer": "Usually not. Most REIT dividends are non-qualified because REITs generally don't pay corporate tax on the income they pay out, although a REIT may label part of a payout as qualified. The non-qualified part is often reported in box 5 as Section 199A dividends, which may be eligible for a deduction. Check current IRS rules."
+    },
+    {
+      "question": "Are ETF dividends qualified?",
+      "answer": "It depends on what the ETF holds. A US stock ETF often reports most of its dividends as qualified, while bond, REIT and money market funds usually report little or none. The fund must meet the holding period on its own holdings, and you must meet it on your ETF shares."
+    },
+    {
+      "question": "Why does box 1b show qualified dividends on shares I only held a few weeks?",
+      "answer": "Box 1b shows the amount that may be eligible for lower rates, and your broker may not have full information about your holding period, especially for shares that were transferred in or hedged. If you didn't hold the shares more than 60 days during the 121-day window, those dividends aren't qualified and are taxed as regular income. If the numbers look wrong, ask your broker or a tax professional."
+    }
+  ],
+  "conclusion": "Whether a dividend is taxed as qualified or ordinary depends on three things: who paid it, how long you held the shares, and what kind of account they were in. Box 1a of Form 1099-DIV is your total, and box 1b is the part that may get lower rates. Subtract box 1b from box 1a to find the rest, and never add the two boxes together. Before you file, check the current long-term capital gains thresholds in the Form 1040 instructions. If you trade around ex-dividend dates or hedge positions, read the holding-period rules in IRS Publication 550, and keep a simple log of purchase and sale dates. A qualified tax professional can review your own return. Rules differ outside the US, so investors elsewhere should check with their local tax authority. This article is general information, not tax, legal or investment advice.",
+  "keyword": "qualified vs ordinary dividends",
+  "niche": "dividend and long-term investing strategies",
+  "version": 2,
+  "slug": "qualified-vs-ordinary-dividends-tax-rates-1099-div-examples",
+  "published": "2026-10-08T22:36:43+00:00"
+}

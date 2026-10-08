@@ -1,0 +1,22 @@
+{
+  "term": "Reasoning Model",
+  "section": "AI & Tech",
+  "short_definition": "A reasoning model is an AI model designed to work through problems step by step, often spending extra computation 'thinking' before answering, to improve accuracy on complex tasks like math, coding and planning.",
+  "explanation": [
+    "A reasoning model generates intermediate steps before giving its final answer. It is trained, often with reinforcement learning, to break a problem into parts, check its work and try alternatives along the way. Many AI providers now offer reasoning models or 'thinking' modes, sometimes with a setting that controls how much effort the model spends. Names and availability of these features change often, so check the provider's documentation.",
+    "The extra thinking tends to pay off on multi-step problems where a quick answer is likely to be wrong. Examples include debugging code, analyzing a long contract and solving a word problem with several constraints.",
+    "The trade-off is speed and cost. More thinking usually means slower responses and higher bills, because the reasoning steps consume tokens and many providers charge per token. For simple questions, a standard model may be just as accurate and faster. Reasoning models can still hallucinate, and any reasoning shown to you may not perfectly reflect how the model reached its answer. Verify important outputs."
+  ],
+  "example": "Illustrative example: You ask, 'Pens cost $2 for a pack of 3 and notebooks cost $5 each. I have $20 and need at least 2 notebooks. What's the most pens I can buy?' A quick answer might just guess. A reasoning model works it through: 2 notebooks cost $10, which leaves $10. That buys 5 packs of 3 pens, so 15 pens. The extra steps take longer but reduce arithmetic mistakes.",
+  "common_mistake": "Using a reasoning model at maximum effort for every simple task, which means paying more and waiting longer for answers a faster standard model would get right.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Inference (AI)",
+    "Token (AI)",
+    "AI Hallucination",
+    "Prompt Engineering"
+  ],
+  "title": "Reasoning Model",
+  "slug": "reasoning-model",
+  "published": "2026-10-08T22:44:53+00:00"
+}

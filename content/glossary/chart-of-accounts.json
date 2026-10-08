@@ -1,0 +1,22 @@
+{
+  "term": "Chart of Accounts",
+  "section": "Accounting & Business",
+  "short_definition": "A chart of accounts is the organized list of every account a business uses to record transactions, grouped into categories such as assets, liabilities, equity, revenue and expenses.",
+  "explanation": [
+    "A chart of accounts is the filing system behind your bookkeeping. Each account has a name and usually a number. A common small-business convention numbers assets in the 1000s, liabilities in the 2000s, equity in the 3000s, revenue in the 4000s and expenses from 5000 upward. Every transaction you record is assigned to one or more of these accounts, and they feed directly into the balance sheet and income statement.",
+    "A well-organized chart of accounts is what makes financial reports useful. It shows where money comes from and where it goes, makes tax preparation easier, and answers practical questions such as 'How much did we spend on software this year?'",
+    "The trade-off is detail versus clarity. With too few accounts, everything ends up lumped together and your reports reveal little. With too many, transactions get coded inconsistently and the reports become confusing. Some countries require or recommend a standardized chart, so start from your accounting software's template, review it with your accountant, and avoid restructuring accounts partway through a financial year."
+  ],
+  "example": "Illustrative example: A small design studio sets up accounts such as 1000 Business Checking, 1200 Accounts Receivable, 2000 Credit Card Payable, 3000 Owner's Equity, 4000 Design Revenue, 5100 Software Subscriptions and 5200 Contractor Fees. When it pays a $50 monthly design-software bill by credit card, the bookkeeper records $50 to 5100 Software Subscriptions and $50 to 2000 Credit Card Payable.",
+  "common_mistake": "Putting many transactions into a catch-all 'Miscellaneous' or 'Uncategorized' account. This hides real spending patterns and creates extra cleanup at tax time.",
+  "related_terms": [
+    "Double-Entry Bookkeeping",
+    "Balance Sheet",
+    "Income Statement",
+    "Accounts Payable",
+    "Accounts Receivable"
+  ],
+  "title": "Chart of Accounts",
+  "slug": "chart-of-accounts",
+  "published": "2026-10-08T22:44:53+00:00"
+}

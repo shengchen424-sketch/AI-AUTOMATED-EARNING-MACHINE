@@ -1,0 +1,247 @@
+{
+  "title": "How to Budget Biweekly Paychecks Without Running Short",
+  "meta_description": "Learn how to budget biweekly paychecks: match bills to paycheck 1 or 2, plan your 3-paycheck months and build a one-month buffer. Free template inside.",
+  "quick_answer": "To budget biweekly paychecks, base each month's budget on two paychecks, even though you get 26 a year. The first paycheck of each month (arrives 1st–14th) pays bills due the 15th to month-end. The second (arrives 15th–28th) pays next month's bills due the 1st–14th. Plan the two extra paychecks each year in advance, and build a one-month buffer so payday timing stops mattering.",
+  "key_takeaways": [
+    "Budget each month on two paychecks. Biweekly pay gives you 26 a year, so the two extra checks land in two separate months.",
+    "Paycheck 1 (arrives 1st–14th) pays bills due the 15th to month-end. Paycheck 2 (arrives 15th–28th) pays next month's bills due the 1st–14th.",
+    "Any month with a payday on the 29th, 30th or 31st has three paychecks. Look up yours every January.",
+    "Set aside half of rent and other big bills from each check so neither paycheck gets overloaded.",
+    "A one-month buffer lets you pay this month's bills with last month's income, so it no longer matters when payday falls.",
+    "Decide what each extra paycheck will do before it arrives: buffer, sinking funds, emergency fund, debt or savings."
+  ],
+  "who_this_is_for": "This guide is for anyone paid every two weeks (fortnightly) who runs short before payday, has trouble matching monthly bills to paychecks, or wants a plan for the two extra paychecks each year.",
+  "intro": "Getting paid every two weeks sounds simple until rent is due on the 1st and your paycheck lands on the 6th. Biweekly paychecks don't line up with monthly bills, so some weeks feel tight and others feel flush. This guide shows you how to budget biweekly paychecks with a system that works wherever your paydays fall. First, give every bill its own paycheck. Next, find the two months each year when a third check arrives and decide now what those checks will do. Finally, build a one-month buffer so you're no longer waiting on payday. You'll also get a spreadsheet template you can copy and a matching Notion setup.",
+  "steps": [
+    {
+      "name": "Map every payday for the year",
+      "text": "Get your employer's payroll calendar, which is often in the HR or payroll portal. If you can't find it, start from your first payday of the year and keep adding 14 days until December. You should end up with 26 dates, or occasionally 27."
+    },
+    {
+      "name": "Set your base budget at two paychecks",
+      "text": "Multiply one typical take-home (net) paycheck by two. That's your regular monthly budget. If your pay varies, use your lowest normal paycheck from recent months. You'll plan the extra paychecks separately."
+    },
+    {
+      "name": "List bills, due dates and irregular costs",
+      "text": "Write down every fixed bill with its amount, its due day and whether it's on autopay. Add annual and irregular costs too, and turn each one into a per-paycheck sinking-fund amount. For example, a $600 yearly premium divided by 24 paychecks is $25 per check."
+    },
+    {
+      "name": "Assign each bill to Paycheck 1 or Paycheck 2",
+      "text": "Bills due from the 15th to month-end go to Paycheck 1, the first check of the month, which always arrives between the 1st and 14th. Bills due from the 1st to the 14th go to the previous month's Paycheck 2, which always arrives between the 15th and 28th."
+    },
+    {
+      "name": "Balance the two paychecks",
+      "text": "Fund half of your variable spending, savings and sinking funds from each check. If one check still has too much to cover, set aside half of your biggest bill from each paycheck, or ask the provider whether you can move the due date."
+    },
+    {
+      "name": "Automate the transfers",
+      "text": "Schedule each paycheck's transfers for the day after payday. Set autopay dates at least a few days after the paycheck that covers them. If your employer lets you split direct deposit, you can send a fixed amount straight to a separate bills or savings account."
+    },
+    {
+      "name": "Mark your three-paycheck months and give them a job",
+      "text": "Any month with a payday on the 29th, 30th or 31st has three paychecks. Decide now how you'll split each extra check between your buffer, sinking funds, debt and savings, and write the split into your plan."
+    },
+    {
+      "name": "Build a one-month buffer",
+      "text": "Save one month of budgeted spending in a separate account or category, using extra paychecks and windfalls. Once it's full, fund each month on the 1st with money you earned the month before."
+    },
+    {
+      "name": "Review on every payday",
+      "text": "Confirm the deposit amount and make that paycheck's transfers. Update the plan after a raise, a benefits change or a change to your tax withholding."
+    }
+  ],
+  "comparison": {
+    "caption": "Common ways to budget biweekly pay, compared",
+    "headers": [
+      "Method",
+      "How it works",
+      "Best for",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Paycheck 1 / Paycheck 2 bill matching",
+        "Each bill is paid by the paycheck that arrives before its due date",
+        "Getting started, or months when money is tight before payday",
+        "A big bill can overload one check, and you need a quick check-in each payday"
+      ],
+      [
+        "Split big bills 50/50",
+        "Half of rent or another large bill is set aside from each check in a holding account or category",
+        "Times when one bill takes up most of a single paycheck",
+        "Only works if you leave the set-aside money alone until the bill is due"
+      ],
+      [
+        "One-month buffer (live on last month's income)",
+        "All pay goes into a buffer, and one month's budget moves to checking on the 1st",
+        "Ending payday timing stress for good",
+        "Takes time to build, and the cash earns little while it waits"
+      ],
+      [
+        "Budget each paycheck separately",
+        "Every check gets its own plan for the next 14 days",
+        "People who naturally think in two-week cycles",
+        "Monthly bills still land unevenly, so you have to track due dates anyway"
+      ],
+      [
+        "Average monthly budget (pay × 26 ÷ 12)",
+        "You spend the same averaged amount every month",
+        "Mainly people who already have a full buffer to cover the gaps",
+        "Without a buffer, you come up short in the ten two-paycheck months"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why biweekly pay means 26 paychecks, not 24",
+      "paragraphs": [
+        "Biweekly pay means you're paid every 14 days. That adds up to 26 paychecks in most years, two more than the 24 you'd get if you were paid twice a month. In the UK, Australia and elsewhere, this schedule is usually called fortnightly pay.",
+        "A year has 52 weeks, so being paid every other week gives you 26 paydays. Most months contain exactly two of them. But every month except February is longer than four weeks, and those leftover days add up. As a result, two months each year usually contain a third payday.",
+        "This creates a common budgeting trap. If you divide your yearly take-home pay by 12, you get about 2.17 paychecks per month, but no month actually pays you 2.17 times. Ten months pay you twice and two pay you three times, so a budget built on the average runs short in most months.",
+        "The fix is to build your regular monthly budget on two paychecks and decide in advance what the two extra checks will do. You don't lose anything this way. The extra income is still yours; it just arrives in two lumps instead of being spread across the year.",
+        "Biweekly pay is not the same as semimonthly pay. Semimonthly pay arrives on two fixed dates, such as the 15th and the last day of the month, for 24 paychecks a year. Biweekly paydays fall on the same weekday and move through the calendar, so your first paycheck of the month might land on the 2nd one month and the 13th a few months later."
+      ],
+      "bullets": [
+        "Paid every 14 days = 26 paychecks in most years (occasionally 27).",
+        "Ten months have two paydays and two months have three.",
+        "Budget on two paychecks a month, not on the 2.17 average."
+      ]
+    },
+    {
+      "heading": "How to budget biweekly paychecks: assign each bill to Paycheck 1 or 2",
+      "paragraphs": [
+        "To budget biweekly paychecks, give every bill a home paycheck based on its due date, so you always know which check pays which bill.",
+        "One rule makes this work even though biweekly paydays move around. Because paydays are 14 days apart, your first paycheck of any month always lands between the 1st and the 14th. Your second always lands between the 15th and the 28th. So Paycheck 1 pays bills due from the 15th to the end of the month, and Paycheck 2 pays next month's bills due from the 1st to the 14th.",
+        "Each paycheck only pays bills that come due after it arrives, so the money is always there first. The tightest spot is a bill due on the 15th or 16th, because Paycheck 1 can arrive as late as the 14th. For bills like that, keep a small cushion in your checking account, or ask the provider to move the due date a few days later.",
+        "Variable spending works differently. Groceries, fuel and everyday purchases have no due date, so fund half of each monthly amount from each paycheck. Handle savings and sinking-fund transfers the same way.",
+        "Large bills can leave one paycheck carrying much more than the other. Rent due on the 1st falls entirely on Paycheck 2, while Paycheck 1 has room to spare. One fix is to set aside half of next month's rent from each of this month's paychecks, in a separate account or labelled category. Both checks arrive before the 1st, so the full amount is ready in time. Another fix is to ask providers to move a due date. Many lenders, card issuers and utilities allow this, but policies vary.",
+        "Here's an example with made-up numbers. Say you take home $1,800 per paycheck. Rent ($1,300, due the 1st), internet ($70, due the 5th) and a student loan ($200, due the 10th) go to Paycheck 2, a total of $1,570. Car insurance ($120, due the 18th), phone ($60, due the 22nd) and utilities (about $150, due the 25th) go to Paycheck 1, a total of $330. If you set aside $650 of rent from each check, the totals become $980 for Paycheck 1 and $920 for Paycheck 2. That leaves $820 and $880 for groceries, fuel and savings."
+      ],
+      "bullets": [
+        "Paycheck 1 (arrives 1st–14th) pays bills due the 15th to month-end.",
+        "Paycheck 2 (arrives 15th–28th) pays next month's bills due the 1st–14th.",
+        "Split variable spending, savings and very large bills 50/50 across both checks.",
+        "Set autopay dates a few days after the paycheck that covers them."
+      ]
+    },
+    {
+      "heading": "How to find your 3-paycheck months (and the rare 27th paycheck)",
+      "paragraphs": [
+        "A month has three paychecks when one of its paydays falls on the 29th, 30th or 31st. That's because the paydays 14 and 28 days earlier fall in the same month.",
+        "To find yours, start with your first payday of the year and keep adding 14 days until you reach December. Any month that ends up with three dates is a three-paycheck month. This takes a few minutes on a paper calendar, or the spreadsheet template below can flag them for you.",
+        "Example: if your first payday of 2027 is Friday, January 8, your paydays are January 8 and 22, February 5 and 19, March 5 and 19, then April 2, 16 and 30. The next month with three is October (October 1, 15 and 29). On that schedule, April and October are your three-paycheck months, and the year has 26 paydays in total.",
+        "Occasionally a year has 27 paydays. Twenty-six two-week periods add up to 364 days, so paydays slip a day or two earlier each year. Roughly once every 11 years, a pay schedule fits 27 paydays into one calendar year. For example, a schedule with a payday on Friday, January 1, 2027 would also have paydays on January 29, July 30 and December 31.",
+        "Treat your employer's payroll calendar as the final word. When a payday falls on a weekend or public holiday, many employers pay on the business day before. That can move a check into the previous month or even the previous year, so the January 1 payday above may actually be paid on December 31. Other employers pay on the next business day instead, so ask which rule yours uses."
+      ],
+      "bullets": [
+        "Quick test: a payday on the 29th, 30th or 31st means a three-paycheck month.",
+        "February only gets three paychecks in a leap year, when a payday falls on February 1.",
+        "Check again every January, because your three-paycheck months change from year to year."
+      ]
+    },
+    {
+      "heading": "Build a one-month buffer so you live on last month's money",
+      "paragraphs": [
+        "A one-month buffer is cash set aside that equals one month of your budget. It lets you pay this month's bills with money you earned last month, so you're not waiting for payday.",
+        "Assigning bills to Paycheck 1 and Paycheck 2 keeps everything paid, but your bills still depend on when payday falls. A full buffer removes that dependence. Every paycheck goes into the buffer, and on the 1st of each month you move one month's budget into checking in a single transfer. After that, it doesn't matter whether payday lands on the 2nd or the 13th.",
+        "The buffer also makes three-paycheck months easy to spot. That month, the buffer receives three checks, but you only take out a two-paycheck budget. The extra money stays there, easy to see and ready for the job you gave it.",
+        "If a full month feels out of reach, start smaller. A cushion of one or two weeks of spending already takes the pressure off tight due dates, and you can grow it over time. How quickly you get there depends on your income and costs.",
+        "A buffer is not an emergency fund. You empty and refill the buffer every month to smooth out bill timing. An emergency fund is a separate reserve for job loss, medical bills or major repairs. Keep the two in separate accounts or clearly labelled categories so you don't quietly spend your safety net."
+      ],
+      "bullets": [
+        "Target: your full two-paycheck budget ($3,600 in the example above).",
+        "Where: a separate savings account or labelled sub-account. Check fees, minimum balances and transfer limits, and note that deposit protection rules differ by country.",
+        "How to fill it: extra paychecks, tax refunds, gifts and money left over at the end of each pay period.",
+        "Switching over: once it's full, paychecks go into the buffer and one month's budget moves to checking on the 1st."
+      ]
+    },
+    {
+      "heading": "What to do with your extra paychecks",
+      "paragraphs": [
+        "Extra paychecks work best when you decide what each one is for before it arrives. That might be your buffer, sinking funds, an emergency fund, debt or savings.",
+        "Decide in January, not on the day the money lands, because money you haven't planned for tends to disappear into everyday spending. Write each three-paycheck month into your plan with the expected amount and how you'll split it. For example, part could go to sinking funds, part to debt and a small amount to something fun.",
+        "Sinking funds are a natural home for at least part of an extra check. A sinking fund is money you save in advance for a known but irregular cost, such as car maintenance, annual insurance premiums, holidays or back-to-school shopping. Paying into them keeps those costs from squeezing your regular budget. Our [sinking funds guide](/sinking-funds-guide) shows how to set them up.",
+        "Check whether your extra paycheck is the same size as the others. Some employers take certain deductions, such as benefit premiums, from only 24 paychecks a year, which can make the extra checks larger. Others deduct from all 26. Compare your pay stubs or ask your payroll team.",
+        "This is general budgeting information, not personal financial advice. Whether to pay down debt, save or invest depends on your interest rates, fees, job stability and goals. Tax rules for savings and retirement accounts also differ by country. For decisions specific to you, check your local financial regulator's guidance or speak to a licensed adviser."
+      ],
+      "bullets": [
+        "Still running short before payday? Many people build the buffer first.",
+        "Little or no emergency cash? An emergency fund adds protection, though your other goals will move more slowly while you build it.",
+        "Known irregular costs coming up? Top up your sinking funds, using realistic estimates.",
+        "Carrying high-interest debt? Extra payments reduce the total interest you pay. But money paid to a lender is hard to get back in an emergency, and some loans charge prepayment fees.",
+        "Covered the basics? Long-term saving or investing is an option. Keep in mind that investments can lose value, and fees and account rules vary."
+      ]
+    },
+    {
+      "heading": "A simple biweekly budget template for a spreadsheet or Notion",
+      "paragraphs": [
+        "A simple biweekly budget template has four parts: a payday calendar, a bill list split by paycheck, a plan for each paycheck and a plan for your extra paychecks.",
+        "Tab 1, Payday calendar: type your first payday of the year in cell A2. In A3, enter =A2+14 and fill down to A28, which gives you 27 dates. Delete any that fall in the following year. In B2, enter =IF(DAY(A2)<=14,\"Paycheck 1\",IF(DAY(A2)<=28,\"Paycheck 2\",\"Extra\")) and fill down. Every row labelled Extra is the third payday in a three-paycheck month. Compare the dates against your payroll calendar.",
+        "Tab 2, Bills: use the columns Bill (A), Amount (B), Due day (C), Autopay (D) and Paycheck (E). In E2, enter =IF(C2>=15,\"Paycheck 1\",\"Paycheck 2\") and fill down, so each bill is assigned automatically by its due date. Total each paycheck's bills with =SUMIF(E:E,\"Paycheck 1\",B:B), then use the same formula with \"Paycheck 2\".",
+        "Tab 3, Per-paycheck plan: create two columns, Paycheck 1 and Paycheck 2. Add rows for take-home pay, assigned bills, half of your variable spending, savings and sinking-fund transfers, and a final row for money left over. Aim for the left-over row to be zero or slightly positive in both columns.",
+        "Tab 4, Extra paycheck plan: add one row for each Extra date. Include the expected amount and columns for buffer, sinking funds, debt, savings and fun. Each row should add up to the full paycheck. These formulas work in Excel and Google Sheets, though function names and separators can differ with your language settings.",
+        "In Notion, create a Bills database with Amount, Due day and Autopay properties. Add two table views. Name one Paycheck 1 and filter it to Due day greater than or equal to 15. Name the other Paycheck 2 and filter it to Due day less than 15. Turn on the Sum calculation at the bottom of the Amount column to see each paycheck's total. Then add a Paydays database with a date for every payday and a note on what each extra check will do. Notion's menus change over time, so check its help pages if something looks different."
+      ],
+      "bullets": [
+        "Spreadsheet: works in free tools such as Google Sheets, and best if you want paydays and three-paycheck months calculated for you.",
+        "Notion: best if you already plan your life there and want bills, notes and checklists in one place."
+      ]
+    },
+    {
+      "heading": "Common biweekly budgeting mistakes (and tricky cases)",
+      "paragraphs": [
+        "Most biweekly budgeting mistakes come from budgeting on averages and forgetting that paydays move through the month.",
+        "A two-minute check each payday prevents most of them. Confirm the deposit amount, make that paycheck's transfers and note anything that changed.",
+        "Two situations need extra care. If your hours or overtime vary, base the plan on your lowest typical paycheck from recent months, and treat anything above it as extra money to assign. And in your first month on this system, you may already have spent the paycheck a bill was assigned to. Cover that bill from the paycheck you have now, and everything lines up after one full cycle."
+      ],
+      "bullets": [
+        "Budgeting on average monthly income (paycheck × 26 ÷ 12), which overstates what ten months a year actually pay.",
+        "Assuming your first paycheck of the month always arrives early. It can land as late as the 14th.",
+        "Letting the third paycheck disappear into everyday spending because you never planned what it was for.",
+        "Forgetting annual and irregular bills, which then squeeze your regular paychecks.",
+        "Setting autopay for payday itself, before you can be sure the deposit has arrived.",
+        "Not updating the plan after a raise, a benefits change or a change to your tax withholding.",
+        "Keeping your buffer and your emergency fund in the same place."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "People who want their bill list, Paycheck 1 and Paycheck 2 totals, and three-paycheck-month plan on one customizable page. You can use filtered database views, Sum calculations and notes for what each extra paycheck will do.",
+      "not_for": "People who want automatic bank syncing or transaction imports. Notion doesn't connect to your bank on its own, so you'll enter numbers by hand, and a free spreadsheet or a dedicated budgeting app may suit you better. Check Notion's website for current plans and pricing."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many paychecks do you get a year if you're paid biweekly?",
+      "answer": "Usually 26, because you're paid every 14 days and a year has 52 weeks. Roughly once every 11 years, depending on your pay dates and how your employer handles holidays, a calendar year contains 27 paydays. Your employer's payroll calendar will confirm your exact count."
+    },
+    {
+      "question": "How do I know which months will have 3 paychecks?",
+      "answer": "Start from your first payday of the year and keep adding 14 days. Any month where a payday lands on the 29th, 30th or 31st has three paychecks. Most years have two of these months, and they change from year to year."
+    },
+    {
+      "question": "What's the difference between biweekly and semimonthly pay?",
+      "answer": "Biweekly pay arrives every other week, usually on the same weekday, for 26 paychecks a year. Semimonthly pay arrives on two fixed dates each month, such as the 15th and the last day, for 24 paychecks a year. For the same salary, each semimonthly check is slightly larger, but there are never any three-paycheck months."
+    },
+    {
+      "question": "How do I calculate monthly income from biweekly pay?",
+      "answer": "Multiply your take-home paycheck by 26 and divide by 12. For example, $1,800 × 26 ÷ 12 = $3,900 a month on average. For budgeting, it's safer to plan on two paychecks ($3,600 in this example), because that's what ten months of the year actually pay. The rest arrives as your two extra checks."
+    },
+    {
+      "question": "Should I use my third paycheck to pay off debt or save?",
+      "answer": "It depends on your situation, including your interest rates, whether you have an emergency cushion and how stable your income is. Many people build a buffer or emergency fund first, then put extra money toward high-interest debt or long-term savings. For a decision specific to you, check your local regulator's guidance or speak with a licensed financial adviser."
+    },
+    {
+      "question": "What if my biweekly paycheck amount varies?",
+      "answer": "Base your monthly budget on your lowest typical paycheck from the last few months, multiplied by two. Treat anything above that as extra money and decide what it's for as soon as it arrives, such as topping up your buffer. A buffer is especially useful with variable pay because it covers you when a check comes in low."
+    }
+  ],
+  "conclusion": "Budgeting biweekly paychecks gets easier once you plan around how the calendar actually works. Plan each month on two paychecks, assign every bill to Paycheck 1 or Paycheck 2 by its due date, and mark the two months each year when a third check arrives. Decide what those extra checks will do before they land. Many people start with a one-month buffer so they can live on last month's money, then move on to sinking funds, debt and savings. Set up the template this week. If irregular expenses keep throwing you off, read our [sinking funds guide](/sinking-funds-guide) next.",
+  "keyword": "how to budget biweekly paychecks",
+  "niche": "budgeting and personal finance fundamentals",
+  "version": 2,
+  "slug": "how-to-budget-biweekly-paychecks-without-running-short",
+  "published": "2026-10-08T22:40:25+00:00"
+}

@@ -1,0 +1,249 @@
+{
+  "title": "Target-Date Fund vs Three-Fund Portfolio: Which Fits You?",
+  "meta_description": "Target date fund vs three fund portfolio: compare fees, control, rebalancing and taxes, plus how to switch funds inside a 401(k) or IRA.",
+  "quick_answer": "A target-date fund is one fund that holds stocks and bonds, rebalances itself and gets more conservative as its target year gets closer. A three-fund portfolio uses separate domestic stock, international stock and bond index funds that you allocate and rebalance yourself. Target-date funds generally suit hands-off investors in tax-advantaged accounts. Three-fund portfolios suit people who want control, especially across several accounts. Compare actual fees before you choose.",
+  "key_takeaways": [
+    "Neither option is cheaper by default. Compare the target-date fund's net expense ratio with the weighted average expense ratio of the three funds you would actually use.",
+    "Treat a target-date fund as the only holding in its account. Adding other funds changes your real mix and leaves you rebalancing the total yourself.",
+    "Target-date funds usually fit best in tax-advantaged accounts. In a taxable account you can't choose which account holds the bonds, and the fund may pay out taxable capital gains.",
+    "Read the glide path before you invest. Funds with the same target year from different providers can hold very different amounts in stocks.",
+    "A three-fund portfolio needs written rules for your mix, rebalancing and reducing risk over time, and the discipline to follow them when markets fall.",
+    "Switching funds inside a US 401(k) or IRA generally isn't taxable, but you need to update both your existing balance and your future contributions. Rules differ by country, so check locally."
+  ],
+  "who_this_is_for": "This guide is for investors, especially in the US with a 401(k), IRA or taxable brokerage account, who are choosing between a single target-date fund and a three-fund portfolio, or who already own one and are thinking about switching.",
+  "intro": "Target-date funds and three-fund portfolios are two of the most popular ways to build a simple, diversified, low-maintenance portfolio. Both rely on spreading your money broadly rather than picking winners. What differs is who does the work. A target-date fund hands every decision to a fund provider, while a three-fund portfolio leaves those decisions with you. This guide compares the two on cost, control, rebalancing, glide paths, behavior in downturns and tax efficiency. It also covers the most common mistake people make with target-date funds and how to switch inside a retirement account without creating a tax bill. It's general education, not personal financial advice. All investing carries risk, including the risk of losing money.",
+  "steps": [
+    {
+      "name": "Map every account you own",
+      "text": "List each account (workplace plan, IRA, taxable brokerage, a spouse's accounts) with its tax type, every fund it holds and its current value. You can't compare the two approaches until you can see your whole portfolio in one place."
+    },
+    {
+      "name": "Look up the target-date fund's cost and glide path",
+      "text": "Find the fund's net expense ratio and glide path chart on its fact sheet or prospectus, or in your 401(k)'s participant fee disclosure. Note how much it holds in stocks today and how much it plans to hold at the target year and afterward."
+    },
+    {
+      "name": "Price the three-fund alternative",
+      "text": "Check that your plan or brokerage offers a broad domestic stock index fund, a broad international stock index fund and a broad bond index fund. Multiply each fund's expense ratio by its share of your intended mix and add the three results. Compare that weighted average with the target-date fund's net expense ratio."
+    },
+    {
+      "name": "Write a one-page investment policy statement",
+      "text": "Record your rules before you need them. A simple template: 'Target mix: __% domestic stock / __% international stock / __% bonds. Reduce stocks by __ percentage points every __ years starting at age __. Rebalance on [date] each year, or when any fund drifts more than __ points from its target.'"
+    },
+    {
+      "name": "Stress-test your own behavior",
+      "text": "Ask yourself honestly whether you would sell bonds to buy stocks after a steep market fall, on schedule. If you suspect you would freeze or tinker, give extra weight to the simplicity of a single target-date fund."
+    },
+    {
+      "name": "Decide which account holds each fund",
+      "text": "A target-date fund works best as the only holding in a tax-advantaged account. If you also invest through taxable accounts, a three-fund portfolio lets you keep the bond fund in a tax-advantaged account and the stock funds where they're taxed least."
+    },
+    {
+      "name": "Switch inside the account, not out of it",
+      "text": "If you decide to change, use your plan's or broker's exchange or rebalance function so the money never leaves the tax-advantaged account. Check first for redemption fees, trading restrictions and settlement timing. When moving money between providers, use a direct rollover or a trustee-to-trustee transfer."
+    },
+    {
+      "name": "Update future contributions and schedule a review",
+      "text": "Change your future contribution elections as well, because most plans treat them as a separate setting from your existing balance. Then put a recurring annual review in your calendar to check your allocation, fees and whether your rules still fit your life."
+    }
+  ],
+  "comparison": {
+    "caption": "Target-date fund vs three-fund portfolio at a glance (general traits; check the specific funds and fees available to you)",
+    "headers": [
+      "Criterion",
+      "Target-date fund",
+      "Three-fund portfolio"
+    ],
+    "rows": [
+      [
+        "Cost",
+        "One net expense ratio: low for many index-based series, higher for actively managed ones",
+        "Weighted average of three expense ratios: often low with broad index funds, but verify"
+      ],
+      [
+        "Control",
+        "Provider sets the stock/bond and domestic/international mix",
+        "You set every percentage"
+      ],
+      [
+        "Rebalancing effort",
+        "Automatic, inside the fund",
+        "Manual: on a calendar date, at a drift threshold or by directing new contributions"
+      ],
+      [
+        "How the mix changes over time",
+        "Follows the provider's glide path toward bonds",
+        "Changes only when you change it"
+      ],
+      [
+        "Risk of abandoning the plan in a downturn",
+        "One blended number and few levers to pull",
+        "Separate funds make tinkering and skipped rebalances easier"
+      ],
+      [
+        "Fit for taxable accounts",
+        "Often poor: bonds can't be placed separately, possible capital gains distributions",
+        "Flexible: bond fund in tax-advantaged accounts, losses harvested fund by fund"
+      ],
+      [
+        "Availability",
+        "Often the default option in US workplace plans",
+        "Needs low-cost broad funds for all three building blocks on your menu or platform"
+      ],
+      [
+        "Typical best fit",
+        "Sole holding in a tax-advantaged account",
+        "Several account types plus reliable rebalancing"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is the difference between a target-date fund and a three-fund portfolio?",
+      "paragraphs": [
+        "A target-date fund is a single all-in-one fund that picks, rebalances and gradually reduces the risk of a stock-and-bond mix for you. A three-fund portfolio is a do-it-yourself mix of three broad index funds that you set up and maintain. Both can be broadly diversified and low cost. The real differences are who makes the decisions, what you pay and how taxes affect you.",
+        "A target-date fund is named after a year, such as 2050 or 2060, that roughly matches when you expect to start withdrawing money. Most are funds of funds, meaning they hold several underlying stock and bond funds. The provider sets the starting mix, rebalances it and shifts it toward bonds and cash on a schedule called a glide path.",
+        "A three-fund portfolio, popularized by the Bogleheads investing community, holds a total domestic stock market index fund, a total international stock market index fund and a total bond market index fund. You choose the percentages, rebalance when they drift and decide when to become more conservative. You can build it from mutual funds or ETFs.",
+        "Outside the US, similar products may be called lifestyle, lifecycle or multi-asset funds, and some keep a fixed mix instead of following a glide path. Read the fund documents rather than relying on the name. Both approaches invest in markets, both can lose value and neither guarantees a return."
+      ],
+      "bullets": [
+        "Glide path: the preset schedule a target-date fund follows to cut its stock share and raise its bond share as the target year approaches.",
+        "Expense ratio: the yearly fee a fund charges, shown as a percentage of the money you have in it.",
+        "Rebalancing: selling some of what has grown and buying what has lagged to get back to your chosen mix.",
+        "Asset location: choosing which investments sit in taxable accounts and which sit in tax-advantaged accounts to reduce your overall tax drag."
+      ]
+    },
+    {
+      "heading": "Cost: compare actual expense ratios, not assumptions",
+      "paragraphs": [
+        "Neither option is automatically cheaper. The only reliable comparison uses the actual expense ratios of the specific funds you can buy.",
+        "A target-date fund charges one expense ratio that covers its underlying funds and the management of its glide path. Series built from index funds can be very cheap, while series that use actively managed funds can cost considerably more. Workplace plans may also offer a different share class or a collective investment trust version with its own fee. That means the version in your 401(k) may not cost the same as the price quoted online.",
+        "To price a three-fund portfolio, work out its weighted average expense ratio. Multiply each fund's expense ratio by its share of the portfolio, then add the results. Here is a hypothetical example, not real fund prices: 50% in a domestic fund at 0.04%, 30% in an international fund at 0.08% and 20% in a bond fund at 0.05%. That gives 0.020% + 0.024% + 0.010% = 0.054%. Compare your result with the target-date fund's net expense ratio.",
+        "Fees are charged every year on a growing balance, so even small gaps compound over decades. You can find current figures on each fund's fact sheet or prospectus, on your broker's fund page or in your 401(k)'s annual participant fee disclosure. Recheck them before deciding, because fees change."
+      ],
+      "bullets": [
+        "Net expense ratio (what you actually pay) versus gross expense ratio (before fee waivers, which can expire).",
+        "Whether the target-date fund's underlying holdings are index funds or actively managed funds.",
+        "Account-level fees, such as plan administration or platform fees, which you pay whichever option you choose.",
+        "Purchase or redemption fees, trading commissions and minimum investments for each fund."
+      ]
+    },
+    {
+      "heading": "Control, rebalancing and how the glide path changes your mix",
+      "paragraphs": [
+        "A target-date fund trades control for convenience. The provider sets your mix, rebalances it and makes it more conservative over time. A three-fund portfolio leaves all three jobs to you.",
+        "Glide paths are not standardized. Two funds with the same target year from different providers can hold noticeably different amounts in stocks. A \"to\" glide path reaches its most conservative mix at the target date, while a \"through\" glide path keeps reducing risk for years afterward. Read the glide path chart in the fund documents and ask whether you're comfortable with its stock share today and at your retirement date.",
+        "A three-fund portfolio lets you set the domestic/international split, the bond share and how fast you reduce risk. That matters if you have assets that behave like bonds, such as a pension, or if your risk tolerance differs from the average investor a target-date fund is designed for. One practical starting point is to look up the current allocation of a target-date fund for your year. You can then adjust it deliberately instead of inventing numbers from scratch.",
+        "A target-date fund rebalances with no effort from you. With a three-fund portfolio, most people use one of the rules below, written down in advance and applied consistently."
+      ],
+      "bullets": [
+        "Calendar rule: check and rebalance on a fixed date, for example once a year.",
+        "Threshold rule: rebalance when any fund drifts beyond a band you choose, for example 5 percentage points from its target (an illustration, not a recommendation).",
+        "Contribution rule: direct new money to whichever fund is underweight, which reduces the need to sell."
+      ]
+    },
+    {
+      "heading": "The behavioral risk: abandoning the plan in a downturn",
+      "paragraphs": [
+        "With either approach, the biggest threat is usually not which fund you chose but panic-selling during a market fall. Each design tempts you in a different way.",
+        "A target-date fund shows you one blended number. Because it holds bonds, it typically falls less than a pure stock fund in a downturn. It also rebalances internally, which can mean buying stocks after they've fallen, without any decision from you. For many people, having no levers to pull is a feature.",
+        "A three-fund portfolio shows you each piece separately. In a sharp decline, your stock funds may be well down while the bond fund looks fine. Rebalancing then means selling the part that held up to buy the part that just fell. That's the correct mechanical move, and it's the one many people find hardest to make. Separate funds also invite tinkering, such as dropping the international fund after a weak stretch.",
+        "Neither structure makes you immune. The useful question is which design you're more likely to stick with when markets are ugly. If you know you'd tinker, the simplicity of one fund may be worth more to you than a small fee saving."
+      ],
+      "bullets": [
+        "Have you held investments through a significant market fall, and what did you actually do?",
+        "Would you sell bonds to buy stocks after a steep decline, on schedule, without hesitating?",
+        "Do you check your accounts often and feel an urge to act on what you see?",
+        "Will you write your rules down before the next downturn, not during it?"
+      ]
+    },
+    {
+      "heading": "Tax efficiency: why target-date funds can be a poor fit for taxable accounts",
+      "paragraphs": [
+        "Target-date funds generally work best inside tax-advantaged accounts such as a 401(k) or IRA. They can be a poor fit for a taxable brokerage account because you can't control where their bond income and internal gains end up.",
+        "In the US, interest from most bond funds held in a taxable account is generally taxed as ordinary income each year. A target-date fund bundles stocks and bonds together, so you can't use asset location to keep the bonds in a retirement account and the stocks in a taxable one. As the glide path shifts toward bonds, more of the fund produces that kind of income.",
+        "Target-date funds also rebalance internally. When the fund sells holdings at a gain, it may pay capital gains distributions. In a taxable account those distributions are taxable even if you never sold a share, and some target-date funds have paid unexpectedly large ones. You also can't harvest losses on one part of the fund or swap in tax-exempt municipal bonds.",
+        "A three-fund portfolio is more flexible. Broad stock index funds have historically tended to be relatively tax-efficient, and you can hold the bond fund in a tax-advantaged account. You can also harvest losses fund by fund. For US investors, holding the international fund in a taxable account may make a foreign tax credit available.",
+        "If you already hold a target-date fund in a taxable account with large unrealized gains, selling it could trigger a tax bill. One option to weigh is leaving it in place and directing new money elsewhere. Tax rules differ by country and change over time, so check with a qualified tax professional before acting."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Target-date fund vs three-fund portfolio: who each one suits",
+      "paragraphs": [
+        "A target-date fund generally suits investors who want to make one decision and who invest mostly through tax-advantaged accounts. A three-fund portfolio suits investors who want control, hold several types of account and will rebalance reliably.",
+        "A target-date fund tends to fit if you're new to investing, keep most of your savings in one workplace plan or IRA, and are comfortable with the provider's glide path once you've read it. Many US workplace plans use a target-date fund as their default investment for this reason. It's a weaker fit if you have a large taxable account or unusual risk needs. The same goes if your plan's target-date option is expensive compared with its index funds.",
+        "A three-fund portfolio tends to fit if you have several types of account and want to set your own splits. It also suits you if you have other income to factor in, such as a pension or rental income, and you'll spend a little time each year reviewing. It's a weaker fit if you'll put off rebalancing, tinker when the headlines are scary, or your plan lacks low-cost broad index funds for all three building blocks.",
+        "Some investors combine the two, for example by holding a target-date fund as the only investment in one account and a three-fund mix elsewhere. That works only if you calculate your combined mix across every account."
+      ],
+      "bullets": [
+        "Leans target-date fund: one main account, hands-off, prone to tinkering, comfortable with the glide path.",
+        "Leans three-fund portfolio: several account types, wants a custom mix, willing to rebalance on a schedule.",
+        "Check first: your plan's fund menu and fees may decide this for you."
+      ]
+    },
+    {
+      "heading": "The common mistake: holding a target-date fund alongside other funds",
+      "paragraphs": [
+        "Holding other funds next to a target-date fund usually undermines it. The fund is designed to be your entire allocation in an account, so anything you add changes your real mix.",
+        "Here's a typical example. Someone holds a target-date fund in a 401(k), then adds a US large-company index fund \"for growth\" and a bond fund \"for safety.\" Their overall portfolio is now a blend they have never calculated, probably more US-heavy than intended. It also drifts, because only the target-date portion rebalances itself. They're still paying for automatic upkeep but have lost its main benefit.",
+        "Two related mistakes are splitting money across several target-date funds with different years and spreading contributions evenly across every fund on a plan menu. Broad funds already overlap heavily, so both habits add complexity without adding much real diversification.",
+        "Mixing can be reasonable if you do it on purpose. If you'd rather not track it, there are two simpler routes. Make the target-date fund your only holding in that account, or replace it with a deliberately designed three-fund mix. To check where you stand now, work through these steps."
+      ],
+      "bullets": [
+        "List every fund in every account with its current value.",
+        "Look up each fund's stock/bond and domestic/international breakdown on its fact sheet.",
+        "Add up the totals, weighted by value, and compare them with the mix you intended."
+      ]
+    },
+    {
+      "heading": "How to switch inside a tax-advantaged account without triggering taxes",
+      "paragraphs": [
+        "In US tax-advantaged accounts such as a 401(k), 403(b) or IRA, selling one fund and buying another inside the account generally doesn't create a taxable event. That means you can switch approaches without a tax bill as long as the money never leaves the account.",
+        "Withdrawing money to reinvest it is different. It counts as a distribution, which can be taxed and, depending on your age and account type, penalized. When moving money between providers, such as rolling an old 401(k) into an IRA, use a direct rollover or a trustee-to-trustee transfer rather than taking a check made out to you.",
+        "In a workplace plan, look for a menu option labeled something like \"exchange,\" \"transfer between funds,\" \"rebalance\" or \"change existing balance.\" That moves the money you already have. Future contributions are usually a separate setting, often called \"investment elections\" or \"future contributions.\" Forgetting to update it is a common way people end up holding a target-date fund alongside new funds by accident.",
+        "Before you trade, check for short-term redemption fees, frequent-trading restrictions and settlement timing. Exchanges between mutual funds at the same provider usually happen at that day's closing price. Moves involving ETFs or another fund company may take longer and leave money briefly uninvested.",
+        "Taxable accounts work differently, because switching there generally means realizing gains. Rules for tax-sheltered accounts also vary by country, so check your local tax authority's guidance or a licensed adviser first."
+      ],
+      "bullets": []
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who want one private place for their one-page investment policy statement, an account-by-account fund inventory and a recurring annual review checklist. Features, templates and AI options vary by plan, so confirm current details on Notion's site.",
+      "not_for": "Tracking live prices or performance, choosing investments, or storing account logins and full account numbers. It's a note-taking workspace, not a brokerage, portfolio tracker or financial adviser, and a free spreadsheet or paper notebook does the same job for many people."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a target-date fund better than a three-fund portfolio?",
+      "answer": "Neither is better for everyone. A target-date fund offers simplicity and automatic rebalancing. A three-fund portfolio offers more control, can cost less depending on the funds available, and lets you place funds tax-efficiently across accounts. The better choice is the one whose cost, tax fit and effort level you'll actually stick with."
+    },
+    {
+      "question": "Can I hold a target-date fund together with other funds?",
+      "answer": "You can, but it usually defeats the purpose, because a target-date fund is designed to be your whole allocation in an account. If you add other funds, calculate your combined stock/bond and domestic/international mix across all accounts. You're then responsible for rebalancing that total yourself."
+    },
+    {
+      "question": "Should I hold a target-date fund in a taxable brokerage account?",
+      "answer": "It's often a poor fit. Bond income and internal capital gains distributions can be taxed every year, and you can't move the bond portion into a tax-advantaged account. Tax rules vary by country and situation, so check with a qualified tax professional before buying or selling in a taxable account."
+    },
+    {
+      "question": "Will switching from a target-date fund to three funds in my 401(k) or IRA trigger taxes?",
+      "answer": "In the US, trades inside a 401(k), 403(b) or IRA generally don't create a taxable event as long as the money stays in the account. Withdrawing money to reinvest it is different and may be taxed or penalized. Check your plan for redemption fees or trading restrictions before switching, and remember to update your future contribution elections too."
+    },
+    {
+      "question": "Do I have to pick the target-date fund closest to my retirement year?",
+      "answer": "No. The year is a guide to the fund's risk level, not a rule. Some investors choose a later year to hold more stocks or an earlier year to hold fewer. Compare glide paths first, because the same target year can mean a different stock share at different providers."
+    },
+    {
+      "question": "How often should I rebalance a three-fund portfolio?",
+      "answer": "Many investors rebalance once a year, or whenever an allocation drifts beyond a band they set in advance, and many use new contributions to do it. There's no single correct schedule. What matters most is choosing your rule before markets move and following it consistently."
+    }
+  ],
+  "conclusion": "There's no single right answer in the target-date fund vs three-fund portfolio choice. A target-date fund gives you simplicity, automatic rebalancing and built-in risk reduction, and it fits best as the only holding in a tax-advantaged account. A three-fund portfolio gives you control and tax flexibility, but it asks for decisions and discipline in return. Whichever way you lean, look up the actual expense ratios available to you, read the glide path, and be honest about how you behave when markets fall. Also check that you aren't holding a target-date fund alongside other funds by accident. If you switch, do it inside the account and update your future contributions as well. All investing carries risk, including the loss of money, and tax rules differ by country. For personal decisions, especially in taxable accounts or outside the US, talk to a licensed financial adviser or tax professional.",
+  "keyword": "target date fund vs three fund portfolio",
+  "niche": "ETFs and index fund investing",
+  "version": 2,
+  "slug": "target-date-fund-vs-three-fund-portfolio-which-fits-you",
+  "published": "2026-10-08T22:33:57+00:00"
+}

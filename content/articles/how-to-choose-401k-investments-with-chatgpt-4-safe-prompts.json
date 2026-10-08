@@ -1,0 +1,266 @@
+{
+  "title": "How to Choose 401k Investments With ChatGPT: 4 Safe Prompts",
+  "meta_description": "How to choose 401k investments with ChatGPT safely: what to paste, 4 prompts that quote your plan's numbers, and how to verify every figure.",
+  "quick_answer": "To choose 401(k) investments with ChatGPT, download your plan's fee disclosure and paste only each fund's name, ticker, category and expense ratio, never account numbers or balances. Ask it to sort funds by asset class, compare fees within each class, explain the target-date glide path and flag overlap, quoting your figures exactly. Verify every number against the plan document, then decide yourself or with a fee-only adviser.",
+  "key_takeaways": [
+    "Get your plan's participant fee disclosure (also called the 404a-5 notice or investment comparative chart). It's the official source for your fund names, tickers and expense ratios.",
+    "Paste only four fields for each fund: name, ticker, category and expense ratio. Never paste account numbers, balances or anything that identifies you.",
+    "Start with a setup prompt that makes the AI quote your figures exactly and write 'not in my data' instead of guessing. Then run four prompts covering asset class, fees, the target-date glide path and overlap.",
+    "Before you change anything in your account, check every figure against your plan document, digit by digit.",
+    "Use the AI to explain your options, not to advise you. It doesn't know your timeline or risk tolerance, so the allocation decision is yours, or yours and a fee-only fiduciary adviser's."
+  ],
+  "who_this_is_for": "This guide is for US employees with a 401(k), 403(b) or 457 plan who are looking at a long fund menu with little explanation and want to understand their options, privately and accurately, before deciding how to invest.",
+  "intro": "When you open your 401(k) enrollment page, you'll probably see a long list of funds, unclear category labels and a column of percentages, with nothing explaining how they fit together. ChatGPT can turn that list into a plain-English overview in a few minutes, but only if you give it the right data and make it show its work. This guide walks you through a process that keeps your personal data private. First, get your plan's official fund lineup. Next, paste only public fund data. Then run a setup prompt and four task prompts that quote your figures back to you. Finally, check every number against the plan document. You'll also see what good and bad AI answers look like, which red flags to watch for and when a human adviser is the better choice. Throughout, the AI explains and you make the decisions.",
+  "steps": [
+    {
+      "name": "Download your plan's fund lineup",
+      "text": "Log in to your plan provider's website and find the participant fee disclosure, which may be called the 404a-5 notice or the investment comparative chart. It's usually in a section named something like Plan documents, Investments or Fees. If you can't find it, ask HR or the plan administrator for the latest version."
+    },
+    {
+      "name": "Build a four-column table",
+      "text": "In a spreadsheet or text file, copy only four columns: Fund name, Ticker, Category and Expense ratio, with one fund per row. If the disclosure shows both gross and net expense ratios, choose one, label the column and use it for every fund. If a fund has no ticker, which is common for collective investment trusts, leave that cell blank."
+    },
+    {
+      "name": "Remove personal details",
+      "text": "Delete account and plan numbers, balances, contribution rates, your name and your employer's name. Don't upload the PDF or screenshots of your account. If your AI tool offers a temporary chat or a way to opt out of model training, turn it on, and confirm the current settings on the vendor's site."
+    },
+    {
+      "name": "Paste the setup prompt and your table",
+      "text": "Start a new chat and paste the setup prompt from this guide with your table below it. The prompt tells the AI to use only your data, quote every figure exactly, write 'not in my data' instead of guessing and never recommend an allocation. Check that the fund count it reports matches the number of rows you pasted."
+    },
+    {
+      "name": "Run Prompt 1: Sort funds by asset class",
+      "text": "Ask the AI to put each fund into one asset class: US stocks, international stocks, bonds, cash or stable value, target-date or balanced, company stock, or other. It should return a table that quotes each fund's name, ticker and expense ratio, gives a one-line reason for each choice and ends with a fund count."
+    },
+    {
+      "name": "Run Prompt 2: Compare fees within each class",
+      "text": "Ask which funds look like broad index funds, based only on the names and categories you pasted, and which fund has the lowest expense ratio in each asset class. It should quote each fee exactly and tell you when a class has no index fund or when a fund's name doesn't make it clear."
+    },
+    {
+      "name": "Run Prompt 3: Understand the target-date glide path",
+      "text": "Ask for a plain-language explanation of glide paths, including the difference between 'to' and 'through' designs, and a list of your plan's target-date funds with quoted figures. The series' actual stock/bond mix should come from its fact sheet, so the AI should write 'not in my data' unless you paste that information."
+    },
+    {
+      "name": "Run Prompt 4: Find overlapping funds",
+      "text": "Ask which funds probably hold similar investments, such as a target-date fund alongside a separate US stock fund. For each pair, the AI should name both funds with quoted figures, explain why the overlap matters and say what holdings data you'd need to confirm it."
+    },
+    {
+      "name": "Check every figure against the plan document",
+      "text": "Compare each fund name, ticker and expense ratio in the AI's answers with your fee disclosure, digit by digit. Watch for moved decimal points, swapped rows and made-up tickers. Treat anything you can't trace back to your own document as unverified."
+    },
+    {
+      "name": "Make your decision and save your template",
+      "text": "Decide based on your timeline, risk tolerance and other savings, on your own or with a fee-only adviser. On many plan websites, changing where future contributions go and moving your existing balance are separate actions, so check which one you're doing. Also check whether your plan offers automatic rebalancing. Save your table and prompts so you can repeat the review once a year or whenever the lineup changes."
+    }
+  ],
+  "comparison": {
+    "caption": "Common 401(k) fund types: what they hold, what to compare and the main risks (general information only; check your plan's documents for specifics)",
+    "headers": [
+      "Fund type",
+      "What it usually holds",
+      "What to compare on your menu",
+      "Main risks"
+    ],
+    "rows": [
+      [
+        "Target-date fund",
+        "A mix of stock and bond funds that gradually becomes more conservative as the target year gets closer",
+        "Expense ratio, whether the glide path runs 'to' or 'through' the target date, and the current stock/bond mix",
+        "Still holds stocks at and after the target date. Everyone with the same target year gets the same glide path. It can overlap with any other funds you add."
+      ],
+      [
+        "Broad US stock index fund",
+        "Shares in many US companies, following a market index",
+        "Expense ratio compared with other US stock funds, and which index it follows",
+        "Stock prices can fall sharply, and the fund offers no protection in a downturn."
+      ],
+      [
+        "International stock index fund",
+        "Shares in companies outside the US",
+        "Expense ratio, and whether it covers developed markets, emerging markets or both",
+        "Stock market swings, currency movements, and political and economic risk"
+      ],
+      [
+        "Bond fund (index or active)",
+        "Government and/or corporate bonds",
+        "Expense ratio, types of bonds held, and duration (how sensitive it is to interest rates)",
+        "Prices usually fall when interest rates rise. Corporate bonds add credit risk. Inflation can erode real returns."
+      ],
+      [
+        "Actively managed fund",
+        "Investments chosen by managers who aim to beat an index",
+        "Expense ratio compared with an index fund in the same category",
+        "Fees are often higher, the fund may trail its benchmark, and results can change when managers change."
+      ],
+      [
+        "Stable value or money market fund",
+        "Short-term, lower-volatility holdings. Stable value funds also use insurance-style contracts.",
+        "Expense ratio or crediting rate, plus any transfer rules",
+        "Returns may not keep up with inflation, and these funds aren't bank deposits. Stable value funds carry contract or issuer risk and may restrict some transfers."
+      ],
+      [
+        "Employer company stock",
+        "Shares in the company you work for",
+        "How much of your total savings it represents",
+        "Concentration risk: your paycheck and your savings both depend on one company."
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why your 401(k) fund menu is so hard to read",
+      "paragraphs": [
+        "A 401(k) fund menu is hard to read because it lists funds by name, category and fee with almost no guidance on how they fit together. Your employer, often through a plan committee, chooses the lineup, and you pick from it, usually with very little context.",
+        "Most menus mix several kinds of funds. You'll typically see a series of target-date funds (often one for every five years), a few index funds, some actively managed funds, a cash-like option such as a stable value or money market fund, and sometimes your employer's own stock. A name that includes 'Trust' or 'CIT' often means the fund is a collective investment trust. That's a pooled fund for retirement plans, and it often has no public ticker. Some plans also offer a self-directed brokerage window, which this guide doesn't cover.",
+        "The expense ratio is the easiest number to compare across a menu. It's the yearly fee a fund charges, shown as a percentage of the money you have in it. The fee comes out of the fund's returns rather than arriving as a bill, so it's easy to miss. To illustrate with hypothetical numbers: on a $10,000 balance, a 0.50% expense ratio costs about $50 a year, while a 0.05% ratio costs about $5. Because the fee is charged every year on a balance you hope will grow, small differences add up over a career."
+      ],
+      "bullets": [
+        "Fund name: usually shows the fund company, the strategy and sometimes a share-class code.",
+        "Ticker: usually a five-letter code for mutual funds, and often blank for collective investment trusts.",
+        "Category: a label such as large blend, intermediate core bond or target-date 2050.",
+        "Expense ratio: the yearly cost as a percentage of your money in the fund. Disclosures may show a gross figure (before fee waivers) and a net figure (after waivers). Waivers can expire."
+      ]
+    },
+    {
+      "heading": "What to paste into ChatGPT, and what to keep out",
+      "paragraphs": [
+        "Paste only four public facts about each fund: its name, ticker, category and expense ratio. Leave out everything about you and your account.",
+        "These four facts are the same for everyone in your plan, so sharing them reveals nothing personal. They're also all the AI needs to explain your options. Adding your balance, salary or age won't improve the explanation, but it does create a privacy risk if the chat is stored, reviewed or exposed.",
+        "Don't upload the full disclosure PDF or a screenshot of your account. Statements and some plan documents show your name, account number or balance, and one stray line is easy to miss. Copy the fund table into a spreadsheet or text file, check it, and paste only that.",
+        "Check the tool's data settings before you start. ChatGPT, Claude and Gemini each offer some combination of temporary chats and settings that control whether your conversations are used to train models. Setting names and defaults change, so confirm the current options on each vendor's site. If web search is turned on, the tool may also pull fund figures from websites, which is why the setup prompt tells it to use only your data."
+      ],
+      "bullets": [
+        "Safe to paste: fund names, tickers, category labels, expense ratios and, if you want, a fund's published stock/bond mix from its fact sheet.",
+        "Never paste: account or plan numbers, balances, contribution amounts, salary, Social Security number, date of birth, address, logins or passwords.",
+        "Remove if present: your name, your employer's name and anything else that links the menu to you."
+      ]
+    },
+    {
+      "heading": "How to choose 401k investments with ChatGPT: the prompts to copy",
+      "paragraphs": [
+        "Use one setup prompt followed by four task prompts. Together, they turn a raw fund list into a plain-English overview and make the AI quote your exact figures so you can check its work.",
+        "Start a new chat and paste the setup prompt with your four-column table below it. Check that the fund count the AI reports matches the number of rows you pasted. Then run Prompts 1 to 4 in order in the same chat. The setup rules apply to every answer that follows, so you don't need to repeat them.",
+        "The quoting rule matters because an AI may recognize a fund's name and fill in figures from its training data instead of using your plan's numbers. Those figures may belong to a different share class or be out of date. When the AI has to quote your figures exactly and write 'not in my data' for anything missing, these swaps are much easier to spot."
+      ],
+      "bullets": [
+        "Setup prompt (paste your table below it): I'm going to paste my 401(k) plan's fund menu as a table with four columns: Fund name, Ticker, Category, Expense ratio. Rules for this whole chat: (1) Use only the data I paste. Don't use web search or outside figures. (2) Whenever you mention a fund, quote its name, ticker and expense ratio exactly as I pasted them. (3) If something isn't in my data, write 'not in my data' instead of guessing. (4) Explain my options, but don't recommend an allocation or tell me what to buy or sell. Start by confirming how many funds you received.",
+        "Prompt 1 (sort by asset class): Put every fund in my table into one asset class: US stocks, international stocks, bonds, cash or stable value, target-date or balanced, company stock, or specialty/other. Return a table with each fund's name, ticker and expense ratio quoted exactly, the asset class you chose and a one-sentence reason. Flag any fund whose category is unclear. End by confirming that the number of funds you sorted matches the number I pasted.",
+        "Prompt 2 (fees within each class): Within each asset class, identify which funds look like broad, passively managed index funds, based only on the names and categories I pasted. Flag the lowest expense ratio in each class, and quote every expense ratio exactly. If a class has no index fund, or a fund's name doesn't make it clear, say so. Briefly explain the trade-offs between index funds and actively managed funds. Don't tell me which to choose.",
+        "Prompt 3 (target-date glide path): In plain language, explain how a target-date fund's glide path works, including the difference between a 'to' glide path and a 'through' glide path. Then list the target-date funds in my table with their names, tickers and expense ratios quoted exactly. Unless I paste it, write 'not in my data' for this series' actual glide path and current stock/bond mix, and give me a checklist of what to look for on the fund's fact sheet.",
+        "Prompt 4 (overlap): Identify funds in my table that probably hold the same or similar investments, such as a target-date fund alongside separate stock or bond funds, or two US large-company funds. For each pair, quote both funds' names, tickers and expense ratios exactly. Explain what overlaps and why it can matter, for example concentration or paying two fees for similar holdings. Tell me what information would confirm the overlap, such as each fund's top holdings. Don't tell me what to buy or sell."
+      ]
+    },
+    {
+      "heading": "Worked example: what good and bad AI answers look like",
+      "paragraphs": [
+        "A good answer quotes your figures exactly, labels any gaps 'not in my data' and explains rather than recommends. A bad answer adds numbers or advice you never asked for.",
+        "Here's a hypothetical three-fund excerpt. The names and figures are made up for illustration only: Sample Target 2055 Trust (no ticker, target-date 2055, 0.10%), Sample US Stock Index Trust (no ticker, large blend, 0.02%) and Sample Growth Fund (large growth, 0.65%).",
+        "A good answer to Prompt 4 would read something like this: 'Sample Target 2055 Trust (no ticker, 0.10%) and Sample US Stock Index Trust (no ticker, 0.02%) probably overlap, because target-date funds typically hold US stocks. Holding both increases your US stock exposure above the target-date fund's intended mix. To confirm, compare the top holdings on each fund's fact sheet.'",
+        "A bad answer might claim that 'Sample Growth Fund has beaten its benchmark over 10 years', list its fee as 0.56% instead of 0.65%, or suggest you 'put 70% in the index fund'. None of these claims can be traced back to your table, and the last one breaks the setup rules. Treat them as unverified. If it keeps happening, start a new chat and paste the setup prompt again."
+      ],
+      "bullets": [
+        "A ticker appears for a fund you left blank.",
+        "Performance figures, ratings or manager names appear that you never pasted.",
+        "The fund count doesn't match the number of rows you pasted.",
+        "The answer suggests a percentage split or uses 'you should' language."
+      ]
+    },
+    {
+      "heading": "How to check the AI's answers against your plan documents",
+      "paragraphs": [
+        "To check the AI's work, match every fund name, ticker and expense ratio in its answers against your fee disclosure or fund fact sheets before you change anything in your account.",
+        "Most mistakes are mechanical. A decimal point moves (for example, 0.04% becomes 0.40%), two rows get swapped, a fund without a ticker gets a made-up one, or a category label changes. Other mistakes are about substance, such as a confident claim about a fund's performance, holdings or glide path that you never gave it. If you can't trace a claim back to your own document, treat it as unverified.",
+        "Expense ratios aren't the only cost. Your disclosure may also list plan-wide administrative fees and personal charges, such as loan fees, that apply whichever funds you pick. Some funds also have short-term trading restrictions. If anything in the document is unclear, ask the plan administrator, who is the official source."
+      ],
+      "bullets": [
+        "Count: every table the AI returns has the same number of funds as the rows you pasted.",
+        "Expense ratios: every figure matches your document digit by digit, and you've used gross or net consistently.",
+        "Tickers: every ticker matches exactly, and funds without tickers are still blank.",
+        "Categories: each asset class the AI chose makes sense next to the plan's own category label.",
+        "Target-date details: the glide path and current stock/bond mix come from the fund's fact sheet, not from the chat.",
+        "Outside claims: treat any statement about performance, holdings or fund managers as unverified until you've confirmed it."
+      ]
+    },
+    {
+      "heading": "What ChatGPT can and can't do with your 401(k)",
+      "paragraphs": [
+        "ChatGPT can explain what your 401(k) options are and how they differ. It can't decide how you should split your money between them, and you shouldn't ask it to.",
+        "The right mix depends on things the AI doesn't know and that you shouldn't put in a chat. These include how long you have until retirement, how you'd react to a large drop, your other savings and debts, a spouse's accounts, any pension and your tax situation. Without that information, any allocation it suggests is a generic guess presented as an answer.",
+        "AI tools can sound confident and still be wrong. This article and its prompts are general education, not personal financial, tax or legal advice. All investing carries risk, including the possibility of losing money you put in. Fees reduce your returns, and past performance doesn't predict future results.",
+        "Rules also vary by country. The 401(k) is a US plan, and 403(b) and 457 plans work in broadly similar ways. If you save through a workplace pension in another country, the same approach still applies: paste only public fund data and check every figure. However, disclosures, tax treatment and investor protections are different, so check your local regulator's guidance or speak to a licensed adviser."
+      ],
+      "bullets": [
+        "What it can do: sort funds by asset class, compare the fees you give it, explain terms like glide path, flag likely overlap and suggest questions to ask your plan administrator.",
+        "What it can't do: know your goals, timeline or risk tolerance; reliably look up current fund data on its own; guarantee its figures are right; or make the decision for you."
+      ]
+    },
+    {
+      "heading": "When to see a fee-only adviser instead",
+      "paragraphs": [
+        "If your decision involves more than choosing from a fund menu, or a mistake would be costly, a fee-only fiduciary adviser is a better choice than an AI chat.",
+        "Fee-only means you pay the adviser directly, through an hourly rate, a flat project fee or a percentage of the money they manage. They don't earn commissions on products they sell you. 'Fee-based' sounds similar but can include commissions, so ask directly. A fiduciary must act in your best interest. Ask the adviser to confirm in writing that this applies to all the advice they give you.",
+        "In the US, look up any adviser on the SEC's Investment Adviser Public Disclosure website and on FINRA BrokerCheck before you hire them. These show their registration and any disciplinary history. If you only want a one-time review of your fund menu, many advisers offer hourly or project-based work. Some plans also offer advice through the plan provider, so ask what it costs and how the adviser is paid."
+      ],
+      "bullets": [
+        "You're getting close to retirement and need a plan for turning your savings into income.",
+        "A large share of your savings is in your employer's stock.",
+        "You're deciding whether to roll over an old 401(k) or combine several accounts.",
+        "You have a pension, stock options or a business as well as your 401(k).",
+        "You're dealing with a divorce, an inheritance or the death of a spouse.",
+        "You know you tend to make panic decisions when markets fall."
+      ]
+    },
+    {
+      "heading": "Using the same prompts in Claude and Gemini",
+      "paragraphs": [
+        "The prompts work in Claude and Google Gemini without any changes, because they depend on the table you paste rather than on features of one particular tool.",
+        "You'll notice differences in style. One tool may format tables more neatly, add more caveats or refuse to rank funds at all. That's fine, because the goal is an explanation tied to your figures, not a recommendation.",
+        "Running the prompts in two tools is a quick way to catch mistakes, because wherever the answers disagree, you know which line to check. But two AIs agreeing doesn't prove anything. Your plan document is the only source that counts."
+      ],
+      "bullets": [
+        "Use the same setup prompt and table in each tool.",
+        "Paste only the four public fields, whichever tool you use.",
+        "Check each vendor's current privacy settings before you paste anything."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Readers who want one reusable page for a yearly 401(k) review. The page can hold the cleaned-up four-column fund table, the setup prompt, the four task prompts and the checking checklist, so next year's review is quicker. Plans and AI features change, so confirm the details on Notion's site.",
+      "not_for": "Storing account numbers, balances, logins or any other personal details. You also don't need it if a plain spreadsheet or text file works for you. Any figures its built-in AI produces still have to be checked against your plan document, just like ChatGPT's."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it safe to put my 401(k) information into ChatGPT?",
+      "answer": "Sharing only public fund data (names, tickers, categories and expense ratios) carries little personal privacy risk, because those details are the same for everyone in your plan. Never paste account numbers, balances, your Social Security number, logins or anything else that identifies you. Check the tool's data settings, such as temporary chats or opting out of model training, and confirm the current options on the vendor's site."
+    },
+    {
+      "question": "Can ChatGPT tell me how to allocate my 401(k)?",
+      "answer": "It can explain how your options differ, but it shouldn't decide your allocation. It doesn't know your timeline, risk tolerance, other savings or tax situation, and it can state wrong figures confidently. Treat its answers as education, and make the decision yourself or with a licensed, fee-only fiduciary adviser."
+    },
+    {
+      "question": "What counts as a low expense ratio for a 401(k) fund?",
+      "answer": "There's no single cutoff, so the most useful comparison is between funds in the same category on your own menu. Broad index funds often charge less than actively managed funds, but check your plan's disclosure rather than assuming. FINRA's Fund Analyzer can show how fees add up over time for many publicly offered funds, although collective investment trusts may not be listed."
+    },
+    {
+      "question": "Where do I find my 401(k) fund lineup and fees?",
+      "answer": "Look on your plan provider's website for the participant fee disclosure, the investment comparative chart or the fund lineup. These are usually in the investments or plan documents section. US plans covered by ERISA generally have to give participants fee and investment information at least once a year. If you can't find it, ask HR or the plan administrator."
+    },
+    {
+      "question": "Should I just choose the target-date fund?",
+      "answer": "That's a personal decision this article can't make for you. A target-date fund is designed as a single option that rebalances automatically. However, everyone with the same target year gets the same glide path, fees vary between fund series, and pairing one with other funds can create overlap. Use Prompt 3 to understand how your plan's version works, then decide yourself or ask a fee-only adviser."
+    },
+    {
+      "question": "Can I upload my 401(k) statement or fee disclosure PDF to ChatGPT?",
+      "answer": "Many AI tools accept file uploads, but a statement shows your name, account number and balance, and some plan documents include identifying details too. It's safer to copy only the fund table into a text file, check it and paste that. This also gives you a clean four-column table that's easier to check line by line."
+    }
+  ],
+  "conclusion": "A 401(k) fund menu becomes much less intimidating once you can see the funds sorted by asset class, compared on cost and checked for overlap. ChatGPT, Claude or Gemini can do that sorting in minutes if you give them only public fund data and make them quote it back. Check every figure against your plan document and keep personal details out of the chat. Keep the roles clear: the AI explains your options and you make the decisions. If your situation is complicated or the stakes are high, a fee-only fiduciary adviser is a better choice than a chat. Save your table and prompts, and repeat the review once a year or whenever your plan changes its fund lineup.",
+  "keyword": "how to choose 401k investments with chatgpt",
+  "niche": "AI tools for investing research and personal finance",
+  "version": 2,
+  "slug": "how-to-choose-401k-investments-with-chatgpt-4-safe-prompts",
+  "published": "2026-10-08T22:29:50+00:00"
+}

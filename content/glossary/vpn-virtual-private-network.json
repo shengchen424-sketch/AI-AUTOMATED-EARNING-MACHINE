@@ -1,0 +1,21 @@
+{
+  "term": "VPN (Virtual Private Network)",
+  "section": "AI & Tech",
+  "short_definition": "A VPN (virtual private network) creates an encrypted connection between your device and a VPN server, hiding your internet traffic from your local network and internet provider and masking your IP address from websites.",
+  "explanation": [
+    "A VPN routes your internet traffic through an encrypted tunnel to a server run by the VPN provider, and that server connects to websites on your behalf. Other people on the same Wi-Fi network, and your internet service provider, can see that you are connected to a VPN but not which sites you visit. Websites see the VPN server's IP address and approximate location instead of yours. Businesses also use VPNs so remote employees can securely reach internal systems.",
+    "A VPN adds a privacy layer on public Wi-Fi in places like cafés, airports and hotels, and limits what your internet provider can log about your browsing. Most websites already use HTTPS encryption, so the security benefit on public Wi-Fi is smaller than VPN marketing often suggests. A VPN still hides which sites you visit from the local network.",
+    "Using a VPN means you trust the VPN provider instead of your internet provider, and the VPN provider can see information about your traffic. Its logging policy, ownership and any independent audits therefore matter. 'Free' VPNs may make money from your data. A VPN doesn't make you anonymous. It doesn't stop phishing, malware or tracking through cookies and accounts you're logged into, and it can slow your connection. Some services block VPN traffic, and the rules on VPN use vary by country, so check what applies where you are."
+  ],
+  "example": "Illustrative example: At an airport, you connect to free Wi-Fi to check your email and bank account. Without a VPN, the network operator could see that you visited your bank's website, although HTTPS still encrypts the page contents. With a VPN on, the operator sees only an encrypted connection to the VPN server. Your bank sees the VPN server's IP address and may ask for extra verification because the location looks unusual.",
+  "common_mistake": "Believing a VPN makes you fully anonymous or protects you from scams. It doesn't stop phishing links, malware or tracking through accounts you're logged into.",
+  "related_terms": [
+    "Phishing",
+    "Password Manager",
+    "Two-Factor Authentication (2FA)",
+    "Passkey"
+  ],
+  "title": "VPN (Virtual Private Network)",
+  "slug": "vpn-virtual-private-network",
+  "published": "2026-10-08T22:44:53+00:00"
+}

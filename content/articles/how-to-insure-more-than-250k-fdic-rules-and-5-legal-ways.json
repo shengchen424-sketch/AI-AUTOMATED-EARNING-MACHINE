@@ -1,0 +1,251 @@
+{
+  "title": "How to Insure More Than $250K: FDIC Rules and 5 Legal Ways",
+  "meta_description": "Learn how to insure more than $250K: FDIC ownership categories, trust beneficiaries, separate charters and deposit networks, with a worked example.",
+  "quick_answer": "FDIC insurance covers $250,000 per depositor, per insured bank, per ownership category. It is not a limit per account or per person overall. To insure more than $250K, spread your deposits across several categories (single, joint, trust, retirement). You can also name eligible trust beneficiaries (up to $1.25 million per owner per bank), use banks with separate charters, or use a deposit network. Then check your totals with the FDIC's free EDIE estimator.",
+  "key_takeaways": [
+    "The FDIC limit is $250,000 per depositor, per insured bank, per ownership category. Accounts in the same category at the same bank are added together.",
+    "Using single and joint accounts alone, a couple can insure up to $1 million at one bank: $250,000 each in single accounts plus $500,000 in a joint account.",
+    "Trust and POD accounts are insured up to $250,000 per eligible beneficiary for each owner, counting up to five beneficiaries, so the maximum is $1.25 million per owner per bank. These rules took effect on April 1, 2024, so confirm the details on FDIC.gov.",
+    "Some banks run several brands or apps under one charter. Check each bank's FDIC certificate number in BankFind before you count it as a separate bank.",
+    "Deposit networks and cash sweeps spread your money across many banks. Ask for the list of program banks, because a bank you already use can push you over the limit.",
+    "Run each bank through the FDIC's EDIE estimator and save the report. Run it again after large deposits, beneficiary changes, a death or divorce, or a bank merger."
+  ],
+  "who_this_is_for": "This guide is for US savers, retirees, couples and small-business owners who have more than $250,000 in bank deposits, or soon will (for example after a home sale or inheritance), and want all of it FDIC insured.",
+  "intro": "If you've just sold a house, received an inheritance or built up a lot of savings, you may be over the $250,000 FDIC limit without knowing it. You may also be worrying about a limit that is higher than you think. The FDIC applies its limit per depositor, per bank and per ownership category, so there are several ordinary, legal ways to insure much more than $250,000. This guide explains the rule and walks through five strategies. It includes a worked example for a couple, shows how to check your numbers with the FDIC's own EDIE estimator, and gives you a simple tracker template. It covers US bank deposits only. Credit unions and other countries have their own systems. This is general information, not legal, tax or financial advice. Confirm the current rules on FDIC.gov, and talk to a licensed financial adviser or estate attorney before you retitle accounts or name beneficiaries.",
+  "steps": [
+    {
+      "name": "List every deposit account",
+      "text": "Write down each checking account, savings account, money market deposit account and CD. For each one, note the bank, the exact account title, the owners, any named beneficiaries and the balance, including interest that has built up but not been paid out."
+    },
+    {
+      "name": "Confirm each bank's charter",
+      "text": "Search each bank in the FDIC's BankFind Suite on FDIC.gov and write down its FDIC certificate number. Brands, divisions or apps that share a certificate number count as one bank."
+    },
+    {
+      "name": "Group accounts by bank, then by ownership category",
+      "text": "At each bank, sort your accounts into single, joint, certain retirement, trust and business accounts. Balances in the same category at the same bank are added together."
+    },
+    {
+      "name": "Compare each group to its limit",
+      "text": "Single accounts are insured up to $250,000 per owner. Joint accounts are insured up to $250,000 per co-owner. Certain retirement accounts are insured up to $250,000 per owner. Trust accounts are insured up to $250,000 per owner for each eligible beneficiary, counting at most five. Business accounts are insured up to $250,000 per business."
+    },
+    {
+      "name": "Run each bank through EDIE",
+      "text": "Enter your accounts in the FDIC's Electronic Deposit Insurance Estimator (EDIE), one bank at a time. Save or print the report. It shows how much is insured and how much is not."
+    },
+    {
+      "name": "Close any gaps",
+      "text": "To cover an uninsured amount, you can use a category you aren't using yet, add eligible beneficiaries, open an account at a bank with a different charter, or ask your bank about a deposit-network program. Before retitling anything, check what it means for ownership, access and your estate plan."
+    },
+    {
+      "name": "Make the bank's records match your plan",
+      "text": "Coverage is based on the bank's records. Check that signature cards, account titles and beneficiary designations at the bank match what you entered in EDIE."
+    },
+    {
+      "name": "Review on a schedule",
+      "text": "Check your coverage at least once a year. Also check after large deposits, CD renewals, beneficiary changes, a death or divorce, or when one of your banks announces a merger."
+    }
+  ],
+  "comparison": {
+    "caption": "Five legal ways to get more than $250,000 of FDIC coverage. Amounts are examples only; confirm current rules on FDIC.gov.",
+    "headers": [
+      "Strategy",
+      "How it adds coverage",
+      "Example coverage",
+      "Main catch"
+    ],
+    "rows": [
+      [
+        "1. Single + joint accounts",
+        "Each person's single accounts get one limit, and each co-owner's share of joint accounts gets another",
+        "A couple can reach $1M at one bank ($250K + $250K single, plus $500K joint)",
+        "Joint owners get equal access to the money, and adding one has legal and estate effects"
+      ],
+      [
+        "2. Trust accounts (POD or living trust)",
+        "$250K per eligible beneficiary for each owner, counting up to 5 beneficiaries",
+        "Up to $1.25M per owner per bank",
+        "Beneficiaries must be eligible and on record, and changing them changes who inherits. Rules changed April 1, 2024"
+      ],
+      [
+        "3. Certain retirement accounts",
+        "A separate $250K per owner for bank deposits held in IRAs and similar plans",
+        "An extra $250K per owner per bank",
+        "Only bank deposits count. Stocks and funds inside an IRA are not FDIC insured"
+      ],
+      [
+        "4. Separate bank charters",
+        "Each separately chartered bank gives you a full new set of limits",
+        "One more full set of limits for each additional charter",
+        "Brands can share one charter, and mergers combine your balances after a grace period"
+      ],
+      [
+        "5. Deposit networks / cash sweeps",
+        "One provider spreads your cash across many insured banks",
+        "Depends on the program's bank list and its caps, so ask the provider",
+        "Overlap with banks you already use, possible fees or different rates, and risk from the middleman"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How FDIC insurance limits work: per depositor, per bank, per category",
+      "paragraphs": [
+        "The FDIC insures deposits up to $250,000 per depositor, per FDIC-insured bank, for each account ownership category. The limit is not $250,000 per account, and it is not $250,000 per person overall.",
+        "Each part of the rule matters. \"Per depositor\" means each person or legal entity is counted separately. \"Per insured bank\" means each separately chartered bank has its own limit, no matter how many branches, brands or apps it runs. \"Per ownership category\" means accounts are grouped by how they are legally owned and each group is insured separately. The main categories are single, joint, certain retirement, trust and business accounts.",
+        "Accounts in the same category at the same bank are added together. Say you have a checking account, a savings account and a CD at one bank, all in your name alone. Together they are insured up to $250,000, and that total includes interest earned up to the day the bank fails.",
+        "Coverage is automatic for eligible deposits at FDIC-insured banks, so you don't need to apply. Credit unions have a similar $250,000 system through the NCUA (confirm the details on NCUA.gov). Deposit protection outside the US works differently, so check with your local regulator."
+      ],
+      "bullets": [
+        "Covered: checking accounts, savings accounts, money market deposit accounts, CDs and official bank items such as cashier's checks.",
+        "Not covered: stocks, bonds, mutual funds (including money market mutual funds), annuities, life insurance, crypto assets and the contents of safe deposit boxes, even if you bought them through a bank.",
+        "Protected differently: US Treasury securities are backed by the US government, not by deposit insurance. Their market value can go up or down if you sell before maturity."
+      ]
+    },
+    {
+      "heading": "How to insure more than $250K in FDIC coverage at one bank (Ways 1–3)",
+      "paragraphs": [
+        "You can insure well over $250,000 at one bank by holding deposits in more than one ownership category, because each category has its own limit.",
+        "Way 1 is to combine single and joint accounts. All of one person's single accounts at a bank (no co-owners and no beneficiaries) are insured up to $250,000 combined. Each co-owner's share of all joint accounts at that bank is insured up to another $250,000. So a couple can keep $250,000 each in single accounts plus $500,000 in a joint account and have $1 million insured at one bank.",
+        "Joint coverage has conditions. In general, every co-owner must be a person (not a business or trust), must have equal rights to withdraw, and must have signed the signature card. There are some exceptions, such as CDs. Adding a joint owner also gives that person legal access to the money, so treat it as a legal decision, not just a way to get more insurance.",
+        "Way 2 is to use trust accounts that name beneficiaries. Since April 1, 2024, revocable trusts and irrevocable trusts have shared one trust category. Revocable trusts include payable-on-death (POD) or \"in trust for\" accounts and living trusts. Each owner is insured up to $250,000 per eligible beneficiary, counting up to five. That gives a maximum of $1.25 million per owner per bank, across all of that owner's trust deposits there.",
+        "Eligible beneficiaries are generally living people, charities and other nonprofits. For POD accounts, the beneficiaries must be named in the bank's records. For formal trusts, the trust document names them. A sixth beneficiary does not raise the cap. If you opened trust accounts before 2024, check them against the current rules on FDIC.gov. Talk to an estate attorney before you change beneficiaries, because that changes who inherits.",
+        "Way 3 is to use the certain retirement accounts category. This category covers bank deposits held in traditional and Roth IRAs, SEP and SIMPLE IRAs, self-directed Keogh and defined contribution plans, and 457 plans. These deposits are added together and insured up to $250,000 per owner per bank, separately from the owner's other categories. An IRA CD at a bank counts. Stocks or funds inside an IRA do not. Naming beneficiaries on an IRA does not increase its coverage.",
+        "Business owners have another category. Deposits of a corporation, partnership or LLC that carries on its own business activity are insured up to $250,000 per business per bank, separately from the owners' personal accounts. A sole proprietorship's accounts are different: they count as the owner's single accounts."
+      ],
+      "bullets": [
+        "Single accounts: up to $250,000 per owner per bank, with all of that owner's single accounts added together.",
+        "Joint accounts: up to $250,000 per co-owner per bank, with all joint accounts added together.",
+        "Trust accounts: up to $250,000 per owner for each eligible beneficiary, counting up to five ($1.25 million per owner per bank).",
+        "Certain retirement accounts: up to $250,000 per owner per bank, with all such accounts added together."
+      ]
+    },
+    {
+      "heading": "Way 4: Spread deposits across separate bank charters",
+      "paragraphs": [
+        "Opening an account at another bank only gives you a full new set of limits if that bank has its own FDIC charter. The FDIC counts each chartered bank once, not each brand, branch or app.",
+        "Some banks run online brands under different names on the same charter, and balances held under those brands are added together. To check, look up each bank in the FDIC's BankFind Suite on FDIC.gov and compare the FDIC certificate numbers and any trade names listed. The same certificate number means the same insured bank. Fine print on a bank's website, such as \"a division of\" or \"a brand of,\" is another clue.",
+        "Bank mergers can quietly combine your coverage. When two of your banks merge, deposits from the acquired bank are generally insured separately for six months. CDs from the acquired bank may stay separately insured for longer, depending on when they mature. Confirm the current rule on FDIC.gov and recheck your totals whenever one of your banks announces a merger.",
+        "Many money apps are not banks. They hold your money at one or more partner banks. FDIC coverage only applies if a partner bank fails, and only if the app's records meet the FDIC's pass-through requirements. If an app's partner bank is also a bank you use directly, those balances are added together.",
+        "The trade-off is extra admin. Each additional bank means another login, another statement, another tax form and another account to watch for fraud."
+      ],
+      "bullets": [
+        "Write down every bank's FDIC certificate number from BankFind.",
+        "Check whether any two of your \"banks\" share a certificate number.",
+        "For fintech apps, find out which partner bank actually holds your money."
+      ]
+    },
+    {
+      "heading": "Way 5: Use a deposit network or cash sweep program",
+      "paragraphs": [
+        "A deposit network lets you work with one bank while it places your money at many other FDIC-insured banks, in amounts below the limit, so each portion is insured at a different bank.",
+        "IntraFi's ICS (for checking and savings balances) and CDARS (for CDs) are well-known examples offered through many banks. We name them only to illustrate this type of program, not to endorse them. Brokerages and some fintech apps run similar \"bank sweep\" programs. Coverage is pass-through: the FDIC insures you as if you had deposited directly at each program bank, as long as the records clearly show the money is yours.",
+        "Overlap is the most common trap. If you already have money directly at one of the program banks, the two balances are added together and can go over the limit. Ask for the current list of program banks and use the exclusion option if the program offers one.",
+        "Check the costs and terms before you sign up. A program may pay a different rate from a standard account, charge fees, cap how much it will place for you and, for CDs, lock up your money for a set term. Confirm all of this in the program agreement.",
+        "FDIC insurance only applies when an insured bank fails. It does not cover the failure of a broker, a fintech app or a middleware company, and it does not cover record-keeping errors. When the fintech middleware company Synapse went bankrupt in 2024, many users of its partner apps reportedly could not get to their money for months while the records were sorted out."
+      ],
+      "bullets": [
+        "Which banks are in the program right now, and can I exclude any of them?",
+        "What is the most the program will place for me?",
+        "What are the fees, and how does the rate compare with a standard account?",
+        "Who keeps the ownership records, and can I see how much of my money is at each bank?"
+      ]
+    },
+    {
+      "heading": "Worked example: how a couple can insure $2.5 million at one bank",
+      "paragraphs": [
+        "In this example, a married couple insures $2.5 million at a single FDIC-insured bank by using four ownership categories and naming two eligible beneficiaries.",
+        "Maria and David are a fictional couple with two adult children and no business accounts. Their trust account does most of the work. They co-own a POD account that names both children, so each of them is insured for $250,000 × 2 beneficiaries = $500,000, and the whole account is insured up to $1 million. Their joint account is in a separate category because it names no beneficiaries.",
+        "Small changes can break the math. If they moved an extra $100,000 into the joint account, that $100,000 would be uninsured. If Maria opened her own $100,000 POD account naming the same children, it would be added to her $500,000 share of the joint POD account, leaving $100,000 uninsured. If they added beneficiaries to the joint account, it would move into the trust category.",
+        "Whether it makes sense to keep this much at one bank also depends on interest rates, how quickly they need the money and their estate plans. Those are questions for a licensed financial adviser or estate attorney."
+      ],
+      "bullets": [
+        "Maria's single savings: $250,000 deposited, $250,000 insured (single category).",
+        "David's single savings: $250,000 deposited, $250,000 insured (single category).",
+        "Joint checking and savings: $500,000 deposited, $500,000 insured ($250,000 per co-owner).",
+        "Maria's IRA CD: $250,000 deposited, $250,000 insured (certain retirement category).",
+        "David's IRA CD: $250,000 deposited, $250,000 insured (certain retirement category).",
+        "Joint POD savings naming two children: $1,000,000 deposited, $1,000,000 insured (2 owners × 2 beneficiaries × $250,000).",
+        "Total: $2,500,000 deposited, $2,500,000 insured."
+      ]
+    },
+    {
+      "heading": "How to check your coverage with EDIE and keep a tracker",
+      "paragraphs": [
+        "EDIE, the FDIC's Electronic Deposit Insurance Estimator, is a free tool on FDIC.gov. It works out how much of your money at one bank is insured, category by category.",
+        "Search \"EDIE\" on FDIC.gov and start a new estimate. You'll usually enter the bank name, each owner's name, and each account's ownership category and balance. For trust accounts, you'll also enter the beneficiaries. EDIE then produces a report of insured and uninsured amounts that you can print or save. The screens change from time to time, so follow the prompts you see.",
+        "Run EDIE once for each bank, because coverage is worked out bank by bank. If Maria and David entered all six accounts, they should see $2.5 million insured and $0 uninsured. EDIE only knows what you type in, so confirm the exact account titles with your bank. An account you think of as joint may actually list POD beneficiaries. For complicated situations, call the FDIC at 1-877-ASK-FDIC (1-877-275-3342).",
+        "A simple tracker keeps all this manageable. Use one row per account with the columns below, and don't store full account numbers, passwords or login details in it."
+      ],
+      "bullets": [
+        "Bank name and FDIC certificate number",
+        "Exact account title and ownership category",
+        "Owners and named beneficiaries",
+        "Current balance, including interest earned but not yet paid",
+        "EDIE result (insured and uninsured) and the date you ran it",
+        "Next review trigger, such as a CD maturity date, a merger or a life event"
+      ]
+    },
+    {
+      "heading": "Common mistakes that leave deposits uninsured",
+      "paragraphs": [
+        "Most uninsured balances come from small mistakes in how accounts are titled or counted, not from unusual situations.",
+        "Large one-time payments are a common cause. Money from a home sale, inheritance, business sale or legal settlement can sit in one account for weeks. Decide where it will go before it arrives.",
+        "Life events matter too. After an account owner dies, the FDIC generally keeps insuring their accounts as if they were alive for six months, as long as the accounts are not restructured. After that, coverage can drop. A divorce, a remarriage or a beneficiary's death are all reasons to check your numbers again."
+      ],
+      "bullets": [
+        "Treating different brands or branches of one bank as separate banks.",
+        "Assuming each account in the same category gets its own $250,000.",
+        "Forgetting that interest counts toward the limit, especially on large CDs.",
+        "Naming beneficiaries who don't qualify, or not recording them with the bank.",
+        "Assuming money in a fintech app is insured without checking the partner bank.",
+        "Ignoring a merger that will combine two of your banks after the grace period.",
+        "Assuming investments sold at a bank, such as annuities or mutual funds, are FDIC insured."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Households and family members who want one private page to track each bank's FDIC certificate number, account title, ownership category, beneficiaries, balance, EDIE result and next review date, using the tracker columns in this guide.",
+      "not_for": "Anyone who already keeps a spreadsheet that works, or anyone who wants to store account numbers, passwords or login details. Notion does not calculate FDIC coverage (EDIE does that). Check Notion's current plans and security settings on its website."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners with several connected business bank accounts who want to see each bank's balance in one place, so they can spot when an LLC's or corporation's deposits are getting close to $250,000 at any one bank.",
+      "not_for": "Personal or household savings, or anyone who expects it to calculate FDIC coverage or manage sweep programs. Confirm current plans and bank-connection support on Intuit's website."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is FDIC insurance $250,000 per account or per person?",
+      "answer": "Neither, exactly. FDIC insurance covers $250,000 per depositor, per insured bank, per ownership category. Accounts in the same category at the same bank are added together. Accounts in different categories, or at banks with different charters, are insured separately."
+    },
+    {
+      "question": "Does a joint account get $500,000 of FDIC coverage?",
+      "answer": "A joint account with two co-owners can be insured up to $500,000, because each co-owner's share of all joint accounts at that bank is insured up to $250,000. The co-owners generally must be people with equal rights to withdraw who have signed the signature card. If a joint account names POD beneficiaries, it counts as a trust account instead."
+    },
+    {
+      "question": "How much FDIC coverage does a trust or POD account get?",
+      "answer": "Under the rules in effect since April 1, 2024, each trust owner is insured up to $250,000 per eligible beneficiary, counting up to five beneficiaries. That makes the maximum $1.25 million per owner per bank. The limit applies to all of the owner's revocable and irrevocable trust deposits at that bank combined, so confirm the current details on FDIC.gov."
+    },
+    {
+      "question": "Are brokerage cash sweep accounts FDIC insured?",
+      "answer": "Cash swept into deposit accounts at FDIC-insured program banks can be insured on a pass-through basis, up to the limits at each bank. Money market mutual funds are investments, not deposits, so they are not FDIC insured. SIPC protection covers certain losses if a brokerage firm fails, but it does not cover investment losses, so read your program's disclosures."
+    },
+    {
+      "question": "What happens to deposits over $250,000 if a bank fails?",
+      "answer": "The uninsured amount becomes a claim against the failed bank's assets. You may get some, all or none of it back over time as those assets are sold. In March 2023, regulators protected all depositors at Silicon Valley Bank and Signature Bank, but that was an exception you can't count on. Keeping your balances within insured limits is the most reliable protection."
+    },
+    {
+      "question": "Is it safe to keep more than $250,000 in one bank?",
+      "answer": "It can be fully insured if the money is spread across ownership categories, such as single, joint, trust and retirement accounts, with each one within its limit. Anything above the limit in a single category at that bank is uninsured, however strong the bank appears. Run your accounts through the FDIC's EDIE estimator to see exactly where you stand."
+    }
+  ],
+  "conclusion": "The $250,000 FDIC limit is a building block, not a ceiling. Coverage applies per depositor, per insured bank and per ownership category, so you can legally insure much more. You can combine single and joint accounts, name eligible trust beneficiaries, use the retirement category, spread money across separately chartered banks or use a deposit network. Each option has trade-offs in access, paperwork, fees and estate effects. Start this week: list your accounts, look up each bank's certificate number in BankFind, run each bank through EDIE and save the reports in a simple tracker. Trust rules changed in 2024 and bank products change often, so confirm the details on FDIC.gov. Talk to an estate attorney or licensed financial adviser before you retitle accounts or change beneficiaries.",
+  "keyword": "how to insure more than 250k fdic",
+  "niche": "banking, savings accounts and interest explained",
+  "version": 2,
+  "slug": "how-to-insure-more-than-250k-fdic-rules-and-5-legal-ways",
+  "published": "2026-10-08T22:36:40+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Stock Split",
+  "section": "Investing",
+  "short_definition": "A stock split is when a company increases its number of shares by dividing each existing share into multiple shares, lowering the price per share without changing the total value of holdings.",
+  "explanation": [
+    "A stock split divides each existing share into more shares at a proportionally lower price. In a 2-for-1 split, every share you own becomes two, and the price per share roughly halves when the split takes effect. The company's market capitalization stays the same because no new value is created, much like cutting a pizza into more slices. A reverse split works the opposite way: shares are combined, for example 1-for-10, and the price per share rises.",
+    "Companies often split after a large price rise to make individual shares look more affordable or to encourage trading. If your broker offers fractional shares, a high share price matters less to small investors than it once did.",
+    "A split does not make a company more valuable, so buying a stock because a split was announced is speculation. Reverse splits deserve a closer look. Companies whose share price has fallen very low sometimes use them, for example to meet an exchange's minimum-price listing requirement, and that can be a warning sign."
+  ],
+  "example": "Illustrative example: You own 10 shares at $600 each, worth $6,000 in total. The company announces a 3-for-1 split. Afterward you own 30 shares at about $200 each, still worth about $6,000. Your percentage ownership of the company hasn't changed.",
+  "common_mistake": "Thinking a split makes a stock 'cheaper' in a value sense. The lower price per share comes with a proportionally larger number of shares, so the split itself doesn't change market cap or the P/E ratio.",
+  "related_terms": [
+    "Market Capitalization (Market Cap)",
+    "Stock (Equity)",
+    "Price-to-Earnings Ratio (P/E Ratio)",
+    "Brokerage Account"
+  ],
+  "title": "Stock Split",
+  "slug": "stock-split",
+  "published": "2026-10-08T22:44:53+00:00"
+}

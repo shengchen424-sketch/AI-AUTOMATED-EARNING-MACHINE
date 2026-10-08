@@ -1,0 +1,22 @@
+{
+  "term": "Markup vs Margin",
+  "section": "Accounting & Business",
+  "short_definition": "Markup is profit expressed as a percentage of cost, while margin is profit expressed as a percentage of selling price, so the same sale produces a higher markup percentage than margin percentage.",
+  "explanation": [
+    "Markup and margin measure the same profit in currency terms but divide it by a different base. Markup = (Price − Cost) ÷ Cost. Gross margin = (Price − Cost) ÷ Price. To set a price that hits a target margin, use Price = Cost ÷ (1 − target margin).",
+    "Mixing up the two is one of the most common pricing errors new business owners make. If you want a 50% margin but apply a 50% markup, your margin is only about 33%. That shortfall can quietly erase the profit you were counting on to cover overheads.",
+    "Markup is handy for quickly pricing from cost. Margin is better for comparing profitability, and it is what most financial statements and industry benchmarks report. Neither one accounts for fixed costs such as rent or salaries. A healthy margin per item can still mean an overall loss if you don't sell enough units to cover overheads."
+  ],
+  "example": "Illustrative example: A product costs $60 to make and sells for $100, so the profit is $40. Markup = $40 ÷ $60 = 66.7%. Margin = $40 ÷ $100 = 40%. If you wanted a 40% margin but added a 40% markup by mistake, you would price the product at $84. That earns $24 profit, a margin of only about 28.6%.",
+  "common_mistake": "Using 'markup' and 'margin' interchangeably when setting prices. This produces prices lower than intended and margins too thin to cover overheads.",
+  "related_terms": [
+    "Profit Margin",
+    "Cost of Goods Sold (COGS)",
+    "Break-Even Point",
+    "Revenue vs Profit",
+    "Fixed vs Variable Costs"
+  ],
+  "title": "Markup vs Margin",
+  "slug": "markup-vs-margin",
+  "published": "2026-10-08T22:44:53+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "term": "System Prompt",
+  "section": "AI & Tech",
+  "short_definition": "A system prompt is a set of instructions given to an AI model before a conversation starts, defining its role, tone, rules and limits, and often not visible to the end user.",
+  "explanation": [
+    "A system prompt is the standing instruction that shapes how an AI model behaves for a whole conversation. In chat-based AI APIs, messages are typically separated into roles: system (sometimes called developer), user and assistant. The system prompt sits at the top of the model's context and might say, 'You are a support assistant for Company X. Answer only product questions. Be concise.' Models generally give these instructions priority over user messages, though exact behavior depends on the model and provider. Many consumer chat apps offer a similar feature under names like custom instructions, personalization or project instructions, so check your app's settings.",
+    "System prompts are the main tool for making an AI assistant consistent. They keep the same voice, format and boundaries without repeating instructions in every message. Businesses use them to build specialized assistants on top of general-purpose models.",
+    "A system prompt is not a security boundary. Users can sometimes extract or override it with clever wording or prompt injection. Never put passwords, API keys or confidential data in a system prompt, and enforce critical rules in code as well. Long or contradictory system prompts can also confuse the model and use up the context window."
+  ],
+  "example": "Illustrative example: A small online bookshop's chatbot uses this system prompt: 'You are BookBot for Corner Books. Recommend only titles from the attached catalog. Don't quote prices; send users to the website instead. Reply in under 80 words.' When a user asks for a thriller, the bot suggests two titles from the catalog in a short reply instead of inventing books the shop doesn't stock.",
+  "common_mistake": "Putting sensitive information such as API keys, internal pricing rules or customer data in the system prompt and assuming users can never see it.",
+  "related_terms": [
+    "Prompt Engineering",
+    "Prompt Injection",
+    "Context Window",
+    "Large Language Model (LLM)",
+    "AI Agent"
+  ],
+  "title": "System Prompt",
+  "slug": "system-prompt",
+  "published": "2026-10-08T22:44:53+00:00"
+}

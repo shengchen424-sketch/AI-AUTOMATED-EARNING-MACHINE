@@ -1,0 +1,22 @@
+{
+  "term": "Growth vs Value Investing",
+  "section": "Investing",
+  "short_definition": "Growth investing targets companies expected to grow revenue or earnings faster than average, while value investing targets companies that appear underpriced relative to measures like earnings, assets or cash flow.",
+  "explanation": [
+    "Growth and value are two investing styles defined mainly by what investors pay for. Growth stocks often reinvest profits instead of paying dividends. They tend to trade at higher valuation multiples, such as a high P/E ratio, because buyers are paying for expected future growth. Value stocks usually trade at lower multiples, are often in mature or out-of-favor industries, and more often pay dividends. Index providers use formulas to sort stocks into growth and value, so many funds carry one of these labels.",
+    "The distinction matters because each style has led the market in different periods. Knowing which one your portfolio leans toward helps explain why it may behave differently from the broad market. A broad-market index fund holds both styles.",
+    "Each style has its own risk. Growth stocks can fall sharply if the expected growth doesn't arrive or if rising interest rates make future earnings less attractive. Value stocks can be cheap for good reason. A 'value trap' is a company whose price stays low or keeps falling because the business is genuinely declining. Neither style is guaranteed to outperform."
+  ],
+  "example": "Illustrative example: Company A earns $2 per share and trades at $80, a P/E of 40, because investors expect rapid earnings growth. Company B earns $5 per share and trades at $50, a P/E of 10, in a slow-growing industry. A growth investor may accept A's high price for its expected growth. A value investor may prefer B's lower price per dollar of earnings. Either company could disappoint.",
+  "common_mistake": "Assuming a low P/E ratio automatically means a stock is a bargain. A low price can reflect real problems such as falling sales or heavy debt. This situation is known as a value trap.",
+  "related_terms": [
+    "Price-to-Earnings Ratio (P/E Ratio)",
+    "Stock (Equity)",
+    "Dividend",
+    "Index Fund",
+    "Diversification"
+  ],
+  "title": "Growth vs Value Investing",
+  "slug": "growth-vs-value-investing",
+  "published": "2026-10-08T22:44:53+00:00"
+}

@@ -1,0 +1,281 @@
+{
+  "title": "Is Swapping Crypto a Taxable Event? US Rules + Worked Example",
+  "meta_description": "Is swapping crypto a taxable event? In the US, yes—even into stablecoins. See a worked ETH-to-SOL example, fee rules, DeFi records and Form 1099-DA.",
+  "quick_answer": "Yes, under US federal tax rules. The IRS treats crypto as property, so swapping one coin for another, including into a stablecoin like USDC, counts as selling the coin you give up. Your capital gain or loss equals the US-dollar value you receive, minus fees and your cost basis. Buying crypto with dollars and moving coins between your own wallets generally aren't taxable.",
+  "key_takeaways": [
+    "Every crypto-to-crypto swap, including swaps into stablecoins, counts as selling the coin you give up. Each one can create a capital gain or loss.",
+    "Gain or loss = the US-dollar value you received after fees, minus the cost basis of the coin you gave up. The new coin's cost basis is its dollar value at the time of the swap.",
+    "Buying crypto with dollars and moving coins between your own wallets are generally not taxable. Label transfers between your own wallets so tax software doesn't count them as sales.",
+    "Swaps you make through DeFi apps from your own wallet usually don't appear on Form 1099-DA. You still have to report them.",
+    "For every swap, record the date, transaction hash, amounts, US-dollar value and fees. From 2025, track cost basis separately for each wallet or account.",
+    "This is general information, not tax advice. Confirm the current rules on IRS.gov or with a qualified tax professional."
+  ],
+  "who_this_is_for": "This guide is for US taxpayers who swapped one cryptocurrency for another, on an exchange or through a DeFi app, and want to know whether they owe tax and how to calculate and document it.",
+  "intro": "If you traded ETH for SOL, moved a memecoin into USDC, or swapped tokens in a DeFi app, you may owe tax even though no dollars reached your bank account. Many people assume crypto is taxed only when they cash out. Under current IRS rules, that's wrong. This guide explains why a crypto-to-crypto swap counts as a sale and walks through a worked ETH-to-SOL example. It also covers what isn't taxable, how fees work, how to keep records for DeFi swaps (with a template you can copy), and what Form 1099-DA does and doesn't report. It covers US federal taxes only and is general information, not tax advice. Rules change, so confirm the details on IRS.gov or with a qualified tax professional.",
+  "steps": [
+    {
+      "name": "Gather every swap for the year",
+      "text": "Download your transaction history, usually as a CSV file, from every exchange you used. Then pull the activity for each wallet you control from a block explorer, a website that shows public blockchain records. Include swaps into stablecoins and trades made through DeFi apps, not just trades on centralized exchanges."
+    },
+    {
+      "name": "Separate swaps from transfers between your own wallets",
+      "text": "Label every movement between wallets or accounts you own as a transfer so it isn't counted as a sale. Keep a master list of your wallet addresses and exchange accounts to back up those labels."
+    },
+    {
+      "name": "Find the cost basis of the coin you gave up",
+      "text": "Cost basis is what you paid in US dollars, plus any purchase fees. If you didn't specifically identify which units you swapped, the default is generally first in, first out (FIFO). From 2025, track cost basis separately for each wallet or exchange account."
+    },
+    {
+      "name": "Value the swap in US dollars",
+      "text": "Use the fair market value at the date and time of the swap. The IRS FAQs say that if an exchange recorded the US-dollar value of the trade, you use that figure. For DeFi swaps, choose one reasonable price source, write down which one, and use it every time."
+    },
+    {
+      "name": "Subtract fees and calculate your gain or loss",
+      "text": "Take the US-dollar value of the swap, subtract the fees, then subtract the cost basis of the coin you gave up. A positive result is a capital gain and a negative result is a capital loss. Count each fee only once."
+    },
+    {
+      "name": "Classify the result as short-term or long-term",
+      "text": "If you held the coin you gave up for one year or less, the gain or loss is short-term. If you held it for more than one year, it's long-term. The two are taxed at different rates."
+    },
+    {
+      "name": "Record the new coin's cost basis and acquisition date",
+      "text": "The coin you received gets a cost basis equal to its US-dollar value at the time of the swap. Its holding period starts the day after the swap. Write both down, because you'll need them when you later sell or swap that coin."
+    },
+    {
+      "name": "Reconcile and report",
+      "text": "Compare your records with any Form 1099-DA you receive and fill in any missing cost basis from your own documents. Report each sale or swap on Form 8949 and the totals on Schedule D. If you swapped crypto during the year, answer 'Yes' to the digital asset question on Form 1040."
+    }
+  ],
+  "comparison": {
+    "caption": "Common crypto actions and how the IRS generally treats them (US federal rules, general information only)",
+    "headers": [
+      "Action",
+      "Generally taxable?",
+      "What to record"
+    ],
+    "rows": [
+      [
+        "Buying crypto with US dollars",
+        "No. It sets your cost basis.",
+        "Date, amount, price paid, fees"
+      ],
+      [
+        "Swapping crypto for crypto (e.g., ETH → SOL)",
+        "Yes. It counts as selling the coin you give up.",
+        "Date and time, amounts, US-dollar value, fees, transaction hash"
+      ],
+      [
+        "Swapping crypto into a stablecoin (e.g., ETH → USDC)",
+        "Yes. It's treated like any other crypto swap.",
+        "Same as any swap"
+      ],
+      [
+        "Selling crypto for US dollars",
+        "Yes",
+        "Proceeds, fees, which units you sold"
+      ],
+      [
+        "Spending crypto on goods or services",
+        "Yes. It counts as selling the crypto you spend.",
+        "Fair market value of what you received, fees"
+      ],
+      [
+        "Moving coins between wallets you own",
+        "No. A network fee paid in crypto may count as a small sale.",
+        "Both addresses, transaction hash, fee"
+      ],
+      [
+        "Receiving staking rewards",
+        "Yes. They're generally ordinary income once you control them (Rev. Rul. 2023-14).",
+        "Date received, amount, US-dollar value"
+      ],
+      [
+        "Wrapping or bridging tokens (e.g., ETH → WETH)",
+        "Unsettled. Ask a tax professional.",
+        "Transaction hash, amounts, values, the treatment you chose"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Is swapping crypto a taxable event in the US?",
+      "paragraphs": [
+        "Yes. Under current IRS rules, swapping one cryptocurrency for another is treated as selling the coin you give up, as if you had sold it for dollars and immediately bought the new coin.",
+        "This follows from how the IRS classifies crypto. Since Notice 2014-21, it has treated virtual currency as property, not currency. The IRS's virtual currency FAQs say that exchanging crypto held as a capital asset for other property, including another cryptocurrency, produces a capital gain or loss.",
+        "Stablecoins are not an exception. Swapping ETH into USDC or another dollar-pegged token still means you've disposed of the ETH, and your gain or loss is measured in US dollars at that moment. Later gains or losses on the stablecoin itself are usually small while it holds its peg, but the original swap is still taxable.",
+        "Like-kind exchange rules can't put off the tax. Since the 2017 tax law changes, Section 1031 has applied only to real property, so it doesn't cover crypto swaps."
+      ],
+      "bullets": [
+        "A swap counts as selling the coin you give up and buying the coin you receive.",
+        "The gain or loss is measured in US dollars at the moment of the swap.",
+        "Swaps into stablecoins such as USDC count.",
+        "You can owe tax even if no dollars ever reach your bank account.",
+        "If you swapped crypto during the year, you should generally answer 'Yes' to the digital asset question on Form 1040."
+      ]
+    },
+    {
+      "heading": "Worked example: how an ETH-to-SOL swap is taxed",
+      "paragraphs": [
+        "Your taxable gain on an ETH-to-SOL swap is the US-dollar value you received, after fees, minus what you originally paid for the ETH you gave up. The numbers below are made up and rounded to keep the math simple. They are not real prices or predictions.",
+        "First, the purchase. You buy 2 ETH for $5,000 and pay a $20 trading fee. Buying with dollars isn't taxable. It sets your total cost basis at $5,020, or $2,510 per ETH.",
+        "Next, the swap. Seven months later, you swap 1 ETH, then worth $3,500, for SOL. A $20 fee is deducted, and you receive 24 SOL worth $145 each, or $3,480 in total. The bullets below show the math.",
+        "Then, what happens next. SOL falls, and you sell all 24 SOL later the same year for $3,000 after fees. That's a $480 capital loss. It offsets part of the $970 gain, leaving a net gain of $490 from the two trades. The swap was taxable even though part of the value you gained later disappeared.",
+        "Which ETH counts as 'sold' matters if you bought ETH at different prices. If you don't specifically identify the units you sold, the default is generally first in, first out (FIFO). From 2025, it applies within each wallet or exchange account rather than across everything you own. Rev. Proc. 2024-28 on IRS.gov explains the transition to tracking each wallet separately. Confirm how it applies to you.",
+        "To repeat this calculation in a spreadsheet, use one row per swap: gain or loss = net proceeds (the US-dollar value received, after fees) minus the cost basis of the units you gave up. Mark the result long-term if you held those units for more than one year."
+      ],
+      "bullets": [
+        "Value of the 1 ETH you gave up: $3,500",
+        "Minus the $20 swap fee: net proceeds of $3,480, which matches the value of the 24 SOL you received",
+        "Minus the cost basis of 1 ETH: $2,510",
+        "Equals a $970 capital gain. It's short-term because you held the ETH for one year or less.",
+        "Your new SOL has a cost basis of $3,480 ($145 per SOL). Its holding period starts the day after the swap."
+      ]
+    },
+    {
+      "heading": "What isn't taxable: transfers, dollar purchases and gray areas",
+      "paragraphs": [
+        "Buying crypto with US dollars, holding it, and moving coins between wallets or accounts you own are generally not taxable, because you haven't disposed of the coin.",
+        "Transfers between your own wallets are where records matter most. When you move SOL from an exchange to your own hardware wallet, the exchange records a withdrawal. Tax software may treat that as a sale unless you label it as a transfer. A master list of your addresses lets you show the coins stayed yours. If you pay the network fee in crypto, that small amount may count as a sale on its own.",
+        "Some DeFi actions are a gray area. IRS guidance doesn't directly address wrapping ETH into WETH, moving tokens between blockchains (bridging), depositing into liquidity pools, or receiving liquid staking tokens. Tax professionals disagree on whether each one is a taxable exchange. If these make up much of your activity, agree on a defensible approach with a professional and apply it consistently every year.",
+        "Some things people assume are tax-free are not. Spending crypto counts as selling it. Staking rewards and certain airdrops are generally ordinary income once you control them (see Rev. Rul. 2023-14 and Rev. Rul. 2019-24)."
+      ],
+      "bullets": [
+        "Generally not taxable: buying with US dollars, holding, and moving coins between your own wallets.",
+        "Generally taxable as a sale: crypto-to-crypto swaps, swaps into stablecoins, selling for dollars, and spending crypto.",
+        "Generally ordinary income: staking rewards, certain airdrops, and crypto you're paid for work.",
+        "Unsettled: wrapping, bridging, liquidity pool deposits and liquid staking tokens."
+      ]
+    },
+    {
+      "heading": "How fees are treated on crypto swaps",
+      "paragraphs": [
+        "Fees generally lower your tax. Fees you pay to buy crypto are added to your cost basis, and fees you pay to sell or swap reduce your proceeds.",
+        "The IRS FAQs say cost basis includes fees, commissions and other costs of buying, measured in US dollars. Costs of selling reduce the amount you're treated as receiving. Either way, a fee you record shrinks a gain or increases a loss. A fee you forget to record means paying more tax than you need to.",
+        "In crypto, fees are often paid in crypto. When you pay an Ethereum gas fee in ETH, you are typically disposing of a small amount of ETH, which can create its own tiny gain or loss. Crypto tax software usually handles this automatically if it has your full transaction history.",
+        "Some fee questions are technical or unsettled. Treasury's 2024 broker regulations include specific rules for allocating fees on crypto-for-crypto exchanges. There's no clear guidance on gas spent on failed transactions or on token approvals. Ask your preparer which method they use, and use the same one every year."
+      ],
+      "bullets": [
+        "Fee to buy crypto: add it to the cost basis of the coin you bought.",
+        "Fee to sell for dollars: subtract it from your proceeds.",
+        "Fee on a swap: generally reduces the proceeds from the coin you give up. Confirm how your software or preparer allocates it, and count it only once.",
+        "Gas paid in crypto: may count as a small sale of that crypto.",
+        "Failed transactions and token approvals: the rules are unsettled, so ask a professional."
+      ]
+    },
+    {
+      "heading": "How to keep records for DeFi swaps (template included)",
+      "paragraphs": [
+        "For DeFi swaps, you keep your own records. Decentralized exchanges generally don't issue tax forms, so you have to note each transaction's date, tokens, amounts, US-dollar value and fees yourself.",
+        "The blockchain shows what happened, but not why or what it was worth. A block explorer shows that your address sent ETH and received a token. It won't show that the receiving address was also yours, or what the price was at that minute. Your notes fill those gaps.",
+        "A quarterly routine that works: (1) keep one master list of every wallet address and exchange account you own; (2) export a CSV of your history from each exchange and block explorer; (3) import it into crypto tax software or a swap-log spreadsheet; (4) label transfers between your own wallets; (5) add a note on anything unusual, such as bridges, liquidity pool deposits, airdrops or scam tokens. Do this during the year, because apps shut down and old price data can be hard to find.",
+        "A simple swap-log template uses these columns: date and time (UTC), wallet or account, blockchain, transaction hash, type (swap, own-wallet transfer, bridge, income), token sent, amount sent, token received, amount received, US-dollar value, price source, fee token, fee amount, fee in US dollars, and notes.",
+        "Keep the cost basis records for each coin for as long as you hold it, plus the period during which the IRS can examine the return where you report its sale. IRS.gov explains how long to keep records.",
+        "When you connect a tax tool, share only public addresses and read-only API keys, which let the tool view your history but not trade or withdraw. No legitimate tax tool or preparer needs your seed phrase or private keys."
+      ],
+      "bullets": [
+        "Common mistake: leaving transfers between your own wallets unlabeled, so they look like sales.",
+        "Common mistake: switching between price sources from one transaction to the next.",
+        "Common mistake: mixing UTC timestamps with local time across files.",
+        "Common mistake: ignoring small gas fees and tiny leftover token balances.",
+        "Common mistake: closing exchange accounts before exporting your full history."
+      ]
+    },
+    {
+      "heading": "Form 1099-DA: what crypto brokers report and what they miss",
+      "paragraphs": [
+        "Form 1099-DA is the IRS form that custodial crypto brokers, such as centralized exchanges, use to report your digital asset sales and swaps to you and to the IRS. It generally doesn't cover swaps you make from your own wallet.",
+        "Under final regulations issued in 2024, brokers report gross proceeds for transactions from 2025 onward. Cost basis reporting is being added in stages for certain assets acquired from 2026 onward. Some stablecoin and NFT sales have special reporting rules. Dates, temporary relief and form instructions can change, so check IRS.gov before you file.",
+        "A separate rule that would have treated certain DeFi platforms as brokers was overturned by Congress in 2025. Swaps you make through a DeFi app from your own wallet are still taxable and still have to be reported, even with no form.",
+        "Expect gaps when you compare the form with your records. If you moved coins onto an exchange from somewhere else, the exchange may not know what you paid. The 1099-DA may then show proceeds with the cost basis left blank. Report your actual, documented cost basis on Form 8949 rather than treating it as zero, and keep the records that support it."
+      ],
+      "bullets": [
+        "Check every line on each 1099-DA against your own records.",
+        "Look for missing cost basis on coins you moved onto the exchange from other wallets.",
+        "Report sales and swaps on Form 8949 and the totals on Schedule D. Follow the current Form 8949 instructions to pick the right digital asset checkbox.",
+        "Not getting a 1099-DA doesn't mean you owe no tax. Your duty to report comes from the transaction, not the form."
+      ]
+    },
+    {
+      "heading": "Do it yourself, use crypto tax software, or hire a professional?",
+      "paragraphs": [
+        "Crypto tax software is usually worth paying for once you have more swaps, wallets or blockchains than you can confidently track in a spreadsheet. A CPA or enrolled agent is worth paying for when the amounts are large or your situation is complicated.",
+        "You can probably do it yourself if you made a handful of trades on one exchange, your 1099-DA shows cost basis, and you didn't use DeFi. Mainstream tax-filing software can usually handle Form 8949 entries in a case like that.",
+        "Crypto tax software helps when you have many swaps, several exchanges, self-custody wallets or DeFi activity. It typically imports your transactions, matches transfers between your own wallets, applies a cost-basis method and produces Form 8949. Pricing is often tiered by the number of transactions, and features change. Check on the vendor's site that it supports every blockchain and protocol you used. Then review what it produces for unlabeled transfers and missing prices.",
+        "If you hire someone, look for a CPA, an enrolled agent (EA) or a tax attorney. Ask how often they work with crypto clients, how they treat wrapping and bridging, and how they track cost basis for each wallet."
+      ],
+      "bullets": [
+        "You have large gains or losses compared with your income.",
+        "You use DeFi heavily: liquidity pools, lending, bridging or liquid staking.",
+        "You made swaps in past years that you didn't report.",
+        "You received an IRS letter about crypto.",
+        "You earn crypto from mining, staking or running a business.",
+        "You need to rebuild missing or incomplete cost basis records."
+      ]
+    },
+    {
+      "heading": "Risks to weigh beyond the tax bill",
+      "paragraphs": [
+        "Taxes are only one cost of swapping. Crypto prices swing sharply, and any token can lose most or all of its value.",
+        "A swap can lock in a taxable gain on the coin you gave up even if the coin you received later crashes, as the worked example showed. That means the tax can come due after the money is gone. If you have large gains during the year, ask a tax professional whether you need to make estimated tax payments.",
+        "DeFi and exchanges carry their own risks: rug pulls (developers abandoning a project and taking investors' money), fake tokens, smart contract hacks, phishing sites and exchange failures. Crypto held on an exchange generally isn't protected the way an FDIC-insured bank deposit is, and SIPC coverage generally doesn't apply to crypto that isn't a security.",
+        "This guide covers US federal rules only. State rules vary, and other countries treat crypto swaps differently. If you're outside the US, check with your local tax authority or a licensed adviser before relying on anything here."
+      ],
+      "bullets": [
+        "Prices are highly volatile, and you could lose your entire investment.",
+        "Watch for rug pulls, fake tokens, phishing links and fake 'tax tool' sites that ask for your seed phrase.",
+        "If an exchange or custodian holds your crypto, you're exposed if that company fails.",
+        "Crypto doesn't have the protections of regulated bank deposits.",
+        "Tax treatment differs by state and by country."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping a master list of your wallet addresses and a swap-log database with the columns from the template above (date, transaction hash, tokens, US-dollar value, fees, notes), which you can filter by wallet and tax year.",
+      "not_for": "Calculating gains, applying FIFO or producing Form 8949. It's a notes and database tool, not crypto tax software. Never store seed phrases or private keys in it."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "People who get trade confirmation emails from exchanges and want them automatically copied into a spreadsheet or Notion log, or who want a recurring quarterly reminder to export their transaction history.",
+      "not_for": "People who only make a few trades a year, or anyone hoping to automate the tax math itself. Check on Zapier's site which integrations are available, and never connect anything that needs your private keys or trading API keys with withdrawal permissions."
+    },
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Small-business owners who accept crypto payments or hold crypto in a business and need it reflected in their books alongside invoices and expenses, working with their accountant.",
+      "not_for": "Individual investors tracking personal swaps. It's small-business accounting software, not a crypto tax calculator. Confirm on the vendor's site what crypto support it currently offers, and expect to need dedicated crypto tax tools or an accountant to track cost basis for each wallet."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is swapping crypto for a stablecoin like USDC taxable?",
+      "answer": "Yes. Under current IRS rules, a stablecoin is a digital asset, not US dollars, so swapping ETH or another coin into USDC counts as selling that coin and can create a capital gain or loss. Converting the stablecoin to dollars later is another sale, though the gain or loss is usually small if it kept its peg. Stablecoins can also lose their peg, so they carry their own risk."
+    },
+    {
+      "question": "Do I owe tax if I swap crypto but never cash out to my bank?",
+      "answer": "Generally, yes. A crypto-to-crypto swap counts as a sale even if no dollars ever reach your bank account, so you report it for the tax year in which the swap happened. US tax law hasn't historically had a small-transaction exemption for crypto. Proposals for one have been introduced in Congress, so check IRS.gov to see whether the law has changed."
+    },
+    {
+      "question": "Is moving crypto between my own wallets taxable?",
+      "answer": "Generally, no. Moving coins between wallets or accounts you own isn't a sale, because you still own the same asset. Keep records showing that both addresses are yours so software doesn't count the move as a sale. A network fee paid in crypto may count as a small sale."
+    },
+    {
+      "question": "What if I didn't receive a Form 1099-DA?",
+      "answer": "You still have to report taxable swaps. Swaps made through DeFi apps from your own wallet usually aren't on Form 1099-DA, and broker reporting is being phased in, so check IRS.gov to see which years and assets are covered. Your duty to report comes from the transaction, not from receiving a form."
+    },
+    {
+      "question": "Can a loss from a crypto swap lower my taxes?",
+      "answer": "Yes. A swap creates a capital loss if the coin you gave up was worth less than its cost basis at the time of the swap. Capital losses offset capital gains, and up to an annual IRS limit they can also offset ordinary income, with unused losses carried forward to later years. The wash-sale rule has historically applied to stocks and securities, but Congress has proposed extending it to crypto, so check current law with a professional before selling at a loss to cut your taxes."
+    },
+    {
+      "question": "What should I do if I didn't report crypto swaps in past years?",
+      "answer": "Talk to a CPA, enrolled agent or tax attorney before you file anything. They can help you rebuild your cost basis records, decide whether to amend past returns, and estimate any penalties and interest. Ignoring the problem risks it coming up later through exchange records or IRS letters."
+    }
+  ],
+  "conclusion": "Under current IRS rules, swapping crypto is a taxable event. Every crypto-to-crypto trade, including swaps into stablecoins, counts as a sale and is measured in US dollars at the moment it happens. Most of the work is in the records: cost basis for each wallet, the dollar value of each swap, fees, and proof of transfers between your own wallets. That matters most for DeFi swaps, which usually don't appear on Form 1099-DA. Start a swap log for this year now instead of waiting for tax season. Then decide whether a spreadsheet, crypto tax software or a professional fits how much you trade. Check the current rules and Form 1099-DA details on IRS.gov. This article is general information, not tax, legal or investment advice. For decisions about your own situation, talk to a qualified tax professional.",
+  "keyword": "is swapping crypto a taxable event",
+  "niche": "crypto basics, risks and crypto ETFs",
+  "version": 2,
+  "slug": "is-swapping-crypto-a-taxable-event-us-rules-worked-example",
+  "published": "2026-10-08T22:35:49+00:00"
+}

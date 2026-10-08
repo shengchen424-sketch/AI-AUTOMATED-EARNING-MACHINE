@@ -1,0 +1,22 @@
+{
+  "term": "Market Correction",
+  "section": "Investing",
+  "short_definition": "A market correction is a drop of roughly 10% to 20% from a recent peak in a stock index or asset price, short of the 20% decline often labeled a bear market.",
+  "explanation": [
+    "A market correction is measured from the most recent high to the lowest point that follows. The 10% and 20% thresholds are informal conventions used by financial media and analysts, not official rules. A correction can happen within days or unfold over months. Common triggers include interest-rate changes, disappointing earnings, weak economic data or prices that had risen faster than fundamentals.",
+    "Corrections matter because they are a normal part of investing in stocks and have occurred periodically, including during long-term uptrends. Knowing the term helps you put alarming headlines in context. It also helps you test whether your portfolio and risk tolerance hold up when prices actually fall.",
+    "The main risk is behavioral. Nobody can reliably predict when a correction will start, when it will end or whether it will turn into a bear market. Selling in a panic can lock in losses. Buying the dip with money you need soon can backfire if prices keep falling. Past patterns don't guarantee future results."
+  ],
+  "example": "Illustrative example: An index closes at a record 5,000 points, then falls to 4,400 over six weeks. That is a 600-point drop, or 12% (600 ÷ 5,000), which fits the correction label. If it kept falling to 3,900, a 22% drop from the peak, commentators would usually call it a bear market.",
+  "common_mistake": "Treating every correction as a signal to sell everything. Investors who move to cash after a drop often lock in losses and then struggle to decide when to get back in.",
+  "related_terms": [
+    "Bull Market vs Bear Market",
+    "Volatility",
+    "Risk Tolerance",
+    "Dollar-Cost Averaging",
+    "Rebalancing"
+  ],
+  "title": "Market Correction",
+  "slug": "market-correction",
+  "published": "2026-10-08T22:44:53+00:00"
+}

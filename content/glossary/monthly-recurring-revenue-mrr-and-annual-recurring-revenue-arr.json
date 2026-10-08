@@ -1,0 +1,22 @@
+{
+  "term": "Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR)",
+  "section": "Accounting & Business",
+  "short_definition": "Monthly recurring revenue (MRR) is the predictable revenue a subscription business expects each month from active customers; annual recurring revenue (ARR) is the same figure expressed on a yearly basis.",
+  "explanation": [
+    "MRR adds up the monthly value of all active subscriptions and leaves out one-time charges such as setup or consulting fees. Annual plans are divided by 12 to get their monthly value. Many teams break MRR into movements: new MRR from new customers, expansion MRR from upgrades, contraction MRR from downgrades and churned MRR from cancellations. ARR is commonly calculated as MRR × 12.",
+    "Recurring revenue makes a business more predictable, which helps with hiring, budgeting and estimating cash runway. Investors and buyers of subscription businesses watch MRR growth closely, along with how much revenue existing customers keep or grow over time.",
+    "MRR is a management metric, not cash in the bank and not a formal accounting figure. Definitions vary between companies. The number can be inflated by counting free trials, temporary discounts or contracts that haven't started yet. Read it alongside churn rate, cash flow and the revenue reported in your financial statements."
+  ],
+  "example": "Illustrative example: A software tool has 200 customers on a $30-per-month plan, which adds $6,000 to MRR. It also has 10 customers on a $1,200-per-year plan, each worth $100 a month, which adds $1,000. MRR = $6,000 + $1,000 = $7,000. ARR = $7,000 × 12 = $84,000. If 5 monthly customers cancel next month, churned MRR is $150.",
+  "common_mistake": "Counting setup fees, one-time payments or a full annual prepayment as a single month's MRR. This makes recurring revenue look bigger and more erratic than it really is.",
+  "related_terms": [
+    "Churn Rate",
+    "Customer Lifetime Value (LTV)",
+    "Customer Acquisition Cost (CAC)",
+    "Cash Runway",
+    "Revenue vs Profit"
+  ],
+  "title": "Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR)",
+  "slug": "monthly-recurring-revenue-mrr-and-annual-recurring-revenue-arr",
+  "published": "2026-10-08T22:44:53+00:00"
+}

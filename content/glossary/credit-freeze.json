@@ -1,0 +1,22 @@
+{
+  "term": "Credit Freeze",
+  "section": "Banking & Money",
+  "short_definition": "A credit freeze, or security freeze, restricts access to your credit report so lenders generally can't check it to open new accounts in your name until you temporarily lift or remove the freeze.",
+  "explanation": [
+    "A credit freeze blocks new-account fraud by stopping lenders from pulling your credit report. Most lenders check your report before approving new credit, so a freeze makes it much harder for an identity thief to open a card or loan with your details. In the US, for example, you place a freeze separately with each of the three nationwide credit bureaus (Equifax, Experian and TransUnion), and federal law makes placing and lifting a freeze free. Other countries rely on different tools, such as fraud alerts or protective registration services, so check your local credit bureaus or consumer regulator.",
+    "A freeze is one of the strongest low-cost protections against identity theft, especially after a data breach exposes your personal information. In the US system, a freeze doesn't affect your credit score, and your existing creditors can still access your report to manage your accounts.",
+    "The trade-off is an extra step. Before applying for a loan, a credit card, an apartment rental or anything else that needs a credit check, you have to lift the freeze temporarily. A freeze also doesn't stop fraud on accounts you already have, phishing scams or debit card misuse, so keep checking your statements and credit reports. Store your freeze PINs or login details somewhere secure."
+  ],
+  "example": "Illustrative example: A data breach exposes your ID number, so you freeze your credit at each bureau. Months later, a scammer applies for a credit card in your name. The lender can't pull your report, and the application is declined. When you later apply for a car loan yourself, you lift the freeze for a few days, get approved, and the freeze resumes.",
+  "common_mistake": "Freezing at only one credit bureau. Lenders may check any bureau, so where several bureaus exist you generally need a freeze at each one for full protection.",
+  "related_terms": [
+    "Credit Report",
+    "Hard vs Soft Credit Inquiry",
+    "Phishing",
+    "Credit Score",
+    "Two-Factor Authentication (2FA)"
+  ],
+  "title": "Credit Freeze",
+  "slug": "credit-freeze",
+  "published": "2026-10-08T22:44:53+00:00"
+}

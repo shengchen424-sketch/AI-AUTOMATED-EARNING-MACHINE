@@ -1,0 +1,277 @@
+{
+  "title": "How to Set Up a Company Wiki in Notion Your Team Will Use",
+  "meta_description": "How to set up a company wiki in Notion for a 2–20 person team: a 5-page structure, owners, permissions, AI-ready pages and a 30-day rollout.",
+  "quick_answer": "To set up a company wiki in Notion, create one open teamspace with five top-level pages: Start Here, How We Work, Tools & Access, SOPs and Policies. Give every page a named owner and review date. Keep sensitive material in restricted teamspaces, because Notion AI only uses pages each person can open. Write one topic per page with a searchable title, then roll it out over 30 days.",
+  "key_takeaways": [
+    "Start with five top-level pages: Start Here, How We Work, Tools & Access, SOPs and Policies. Don't add another top-level page for the first month.",
+    "Give every page one named owner and a next review date. For SOPs and Policies, track both as database properties.",
+    "Notion AI only uses pages the person asking can already open, so set up restricted teamspaces before you write anything sensitive.",
+    "Write pages that are easy to quote: titles people would search for, one topic per page, a one-line summary first and a visible 'Last updated' date.",
+    "Keep passwords, customer data and signed contracts out of the wiki. Link to the tool where they're stored.",
+    "Check which AI and permission features your Notion plan includes. Then roll out over 30 days with a 'link, don't type' rule."
+  ],
+  "who_this_is_for": "This guide is for founders, operations leads and managers of 2–20 person teams who keep answering the same questions in chat and want one trusted place that explains how the business runs.",
+  "intro": "Most growing teams hit the same wall. The same questions keep landing in chat, the answers live in one person's head, and new hires spend their first week asking around. A company wiki only fixes this if people trust it and actually open it. This guide shows how to set up a company wiki in Notion for a team of 2–20 people. It covers a five-page starter structure, an owner and review date for every page, and teamspace permissions that limit Notion AI's answers to what each person can already access. It also covers writing habits that help AI quote the right answer, a 30-day plan to make the wiki a habit, and a simple routine to keep it up to date. How to write SOPs is covered in our separate SOP guide, so this article links to it rather than repeating it.",
+  "steps": [
+    {
+      "name": "Check your plan and name a wiki lead",
+      "text": "Look at Notion's pricing page and help centre to see what your plan includes: AI search, teamspace types, page verification, guest limits and database automations. Then name one wiki lead. They own the structure, decide where new pages go and run the 30-day rollout."
+    },
+    {
+      "name": "Create your teamspaces",
+      "text": "In the sidebar, hover over Teamspaces and click + to create a Company Wiki teamspace that all members can open. If you need them, add restricted People and Finance teamspaces and add people to them one by one. Open each teamspace's settings (the ••• menu next to its name) and check that the access level is right."
+    },
+    {
+      "name": "Build the five top-level pages",
+      "text": "Inside Company Wiki, create Start Here, How We Work and Tools & Access as regular pages. Then create SOPs and Policies as full-page databases. Add a three-line 'How to use this wiki' callout to the top of Start Here. Once the layout is settled, use Lock page in the ••• menu so nobody changes it by accident."
+    },
+    {
+      "name": "Add properties and a template to SOPs and Policies",
+      "text": "In both databases, add four properties: Owner (Person), Last reviewed (Date), Next review (Date, with a reminder) and Status (Select: Draft, Current, Needs update, Archived). Then click the arrow next to New and choose New template. Add standard headings to the template and set it as the default."
+    },
+    {
+      "name": "Set and check permissions",
+      "text": "Control access by teamspace, not page by page, because sub-pages inherit their parent's permissions. Open Share on each top-level page and check the Publish tab to make sure nothing is on the public web by mistake. Share only specific pages with guests."
+    },
+    {
+      "name": "Write your first ten pages",
+      "text": "Look back through your team chat for the ten most-asked questions and write one page for each. Use a title people would search for and put a one-line summary first. Add an owner and last-updated line at the top. Link related pages with @-mentions instead of copying text."
+    },
+    {
+      "name": "Test search and Notion AI as a regular member",
+      "text": "Ask a teammate who isn't an admin to ask Notion search and Notion AI ten real questions. Fix vague titles, missing pages and duplicates. Check that nothing from the restricted teamspaces shows up in their results."
+    },
+    {
+      "name": "Launch with the 30-day plan",
+      "text": "Start with a soft launch for two or three people, then launch to everyone with a 'link, don't type' rule: if the wiki answers a question, reply with the link. Keep a two-minute wiki slot in your weekly meeting until the team checks the wiki first by default."
+    },
+    {
+      "name": "Set up the review routine",
+      "text": "In each database, add a Due for review view filtered to show pages where Next review is on or before Today. The wiki lead checks this view weekly and owners update and re-date their pages. Delete obsolete pages, or archive them somewhere outside the open teamspace."
+    }
+  ],
+  "comparison": {
+    "caption": "What goes where in a small-team Notion wiki (review timings are suggestions; adjust them to your team)",
+    "headers": [
+      "Page",
+      "What it contains",
+      "Who should see it",
+      "Typical owner",
+      "Suggested review"
+    ],
+    "rows": [
+      [
+        "Start Here",
+        "Company overview, who's who, first-week checklist, glossary, how to use the wiki",
+        "Everyone, including new hires",
+        "Founder or ops lead",
+        "Quarterly and before each new hire starts"
+      ],
+      [
+        "How We Work",
+        "Hours, time zones, which channel to use for what, meeting rhythm, how decisions are recorded, response times",
+        "All members",
+        "Founder or team lead",
+        "Quarterly"
+      ],
+      [
+        "Tools & Access",
+        "Tool list, how new tools get approved, access requests, offboarding steps, the password-manager rule",
+        "All members (admin-only details go in a restricted teamspace)",
+        "Ops or IT owner",
+        "Quarterly and whenever a tool changes"
+      ],
+      [
+        "SOPs (database)",
+        "One procedure per entry, each with steps, an owner and a review date",
+        "People who do the task; most SOPs can be company-wide",
+        "The person who actually does the task",
+        "Every 3–6 months or when the process changes"
+      ],
+      [
+        "Policies (database)",
+        "Expenses, leave, security, data handling",
+        "Company-wide policies: everyone. Sensitive HR and finance policies: restricted teamspaces",
+        "Founder, ops or finance lead",
+        "At least yearly and whenever a rule changes"
+      ],
+      [
+        "Restricted teamspaces",
+        "Compensation, performance notes, payroll steps, contracts",
+        "Named individuals only",
+        "Founder or finance lead",
+        "Quarterly access check"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to set up a company wiki in Notion: the five-page starter structure",
+      "paragraphs": [
+        "A small-team Notion wiki works best with five top-level pages: Start Here, How We Work, Tools & Access, SOPs and Policies. Together they cover most of what a 2–20 person company needs to write down. Five is also few enough that nobody has to guess where something lives.",
+        "Put all five in one company-wide teamspace, in that order, and don't add a sixth top-level page for at least a month. New pages go under one of the five. If something really won't fit, rename a section rather than adding another top-level page.",
+        "Notion's template gallery has company wiki templates you can copy, but most are built for larger teams. If you start from one, delete every page you can't fill in the first week. Empty pages tell people the wiki isn't real yet.",
+        "At the top of Start Here, add a three-line 'How to use this wiki' callout. It should say where to search, how to request a missing page and who owns the wiki overall."
+      ],
+      "bullets": [
+        "Start Here: the front door for new and existing staff. It covers what the company does, who's who and what to ask them about, a first-week checklist, a short glossary and links to the most-used pages.",
+        "How We Work: your working norms. It covers core hours and time zones, which channel to use for what, the meeting rhythm, how decisions are made and recorded, and expected response times.",
+        "Tools & Access: your software policy. It covers which tool does what, who approves new tools and how people get and lose access. It also states the rule that passwords live in a password manager, never in Notion.",
+        "SOPs: step-by-step procedures for recurring tasks, such as invoicing a client or closing the month. They're kept in a database so each SOP has its own owner and review date.",
+        "Policies: the rules people must follow, such as expenses, leave, security and data handling. Company-wide policies live here. Sensitive HR or finance material goes in a restricted teamspace."
+      ]
+    },
+    {
+      "heading": "Give every page an owner and a review date",
+      "paragraphs": [
+        "Every wiki page needs one named owner and a next review date. Pages without owners go out of date, and a few wrong answers are enough to make people stop trusting the wiki.",
+        "The owner is the person responsible for keeping the page correct. They don't have to be the person who wrote it. Name one person, not a team: 'Ops' can't own anything, but 'Priya' can own the expenses policy. Founders often own most pages at first. Hand each one to whoever actually does the work as soon as you can.",
+        "For SOPs and Policies, track ownership with the four database properties listed below. Fill in Last reviewed by hand instead of relying on Notion's automatic Last edited time property. Last edited time changes whenever someone fixes a typo, which can make an outdated page look fresh.",
+        "Start Here, How We Work and Tools & Access are standalone pages, so put an owner and review line in a callout at the top of each one. Notion also has a built-in wiki option (••• menu → Turn into wiki) that adds owner and verification fields. Check Notion's help centre to see which plans include verification. The database approach works without it."
+      ],
+      "bullets": [
+        "Owner (Person property): exactly one name.",
+        "Last reviewed (Date property): set by hand when the owner confirms the page is still correct.",
+        "Next review (Date property): click the date and add a reminder so the owner is notified on the day.",
+        "Status (Select property): Draft, Current, Needs update or Archived."
+      ]
+    },
+    {
+      "heading": "Set teamspace permissions so Notion AI only shows what each person may see",
+      "paragraphs": [
+        "Notion AI answers questions using only content the person asking can already open, so your permissions are also your AI controls. Notion explains this in its help centre. Read the current version for your plan, especially if you connect apps such as Slack or Google Drive, where access also depends on each tool's own permissions.",
+        "That's why you set up permissions before you add content. AI doesn't create leaks. It makes existing access easier to use. If salary bands sit on an open page, anyone could already read them, and AI search just makes them quicker to find.",
+        "For 2–20 people, two or three teamspaces are enough (see the list below). Set access at the teamspace level and keep page-level exceptions rare. In Notion, sub-pages inherit their parent's permissions by default. A 'private' page inside an open teamspace is only private if someone has deliberately restricted it.",
+        "Then run three checks. Open Share on each top-level page and check the Publish tab to make sure nothing is on the public web. Share specific pages with guests such as freelancers, never whole teamspaces. Add 'remove from Notion' to the offboarding checklist in Tools & Access.",
+        "Teamspace types, guest limits and AI search all vary by plan. Before you rely on them, check Notion's pricing page for four things: workspace-wide AI search, searching connected apps, closed or private teamspaces, and admin controls for AI. If your plan doesn't include AI search, the wiki still works. Regular search and a well-linked Start Here page give you most of the value."
+      ],
+      "bullets": [
+        "Company Wiki (open to all members): Start Here, How We Work, Tools & Access, SOPs and company-wide Policies.",
+        "People or Leadership (restricted): compensation, performance notes, hiring decisions and sensitive HR material. Add members one by one.",
+        "Finance (restricted, optional): banking procedures, payroll steps and investor documents, limited to the people who do that work."
+      ]
+    },
+    {
+      "heading": "Write pages so people and Notion AI find the right answer",
+      "paragraphs": [
+        "Notion AI's answers are only as good as the pages it reads. Write every page so it's easy to quote, with a clear title, one topic and a visible last-updated date. The same habits make pages faster for people to skim.",
+        "A default database template for SOPs and Policies builds these habits in. In each database, click the arrow next to New and choose New template. Add the headings Summary, Who this applies to, Steps or rules, Exceptions and Related pages, plus an owner and date line, then set it as the default.",
+        "Then test it. Ask a regular member, not an admin, to put ten real team questions to Notion search and Notion AI. A wrong or vague answer usually means a page has a vague title, is missing or has a duplicate."
+      ],
+      "bullets": [
+        "Use titles people would search for. 'How to submit an expense claim' beats 'Expenses', and both beat 'Finance misc'.",
+        "Keep one topic per page. If a page covers expenses, travel booking and the company card, split it into three. Mixed pages produce muddled answers.",
+        "Answer in the first line. For example: 'Submit expense claims in our accounting tool by the 5th of the following month; Priya approves them.'",
+        "Show how current the page is at the top, for example 'Owner: Priya · Last updated: 1 Oct 2026 · Next review: 1 Jan 2027'. Anyone reading a page that AI cites can then see how up to date it is.",
+        "Use exact names for tools, channels, people and roles. 'Post in #ops-requests' beats 'post in the usual place'.",
+        "Remove conflicting versions. Two pages with different answers are the quickest way to get a confident but wrong AI reply."
+      ]
+    },
+    {
+      "heading": "Where SOPs fit, and what to keep out of the wiki",
+      "paragraphs": [
+        "SOPs go in the wiki's SOPs database, one entry per procedure, each with an owner and a review date. Writing a good SOP is a separate skill, and our SOP guide covers it step by step. This article only covers where SOPs live and how they connect to the rest of the wiki.",
+        "Link to SOPs instead of copying them. If the invoicing steps appear in three places, the copies will drift apart and AI search may quote an outdated one. Write each procedure once, then type @ and the page name to link to it everywhere else.",
+        "Some things should stay out of the wiki entirely:"
+      ],
+      "bullets": [
+        "Passwords, API keys and recovery codes: keep them in a password manager and link to it.",
+        "Customer personal data: keep it in the system you already store it in, such as your CRM, helpdesk or accounting tool.",
+        "Signed contracts and legal documents: keep the originals where you store documents and link to them.",
+        "Unfinished drafts: keep them in your Private section until they're ready, so search doesn't turn up half-finished answers.",
+        "Meeting notes and project docs: give them their own teamspace so they don't crowd out wiki answers in search."
+      ]
+    },
+    {
+      "heading": "Your 30-day adoption plan",
+      "paragraphs": [
+        "People use a wiki once checking it first becomes a habit. This 30-day plan builds that habit in four weekly stages.",
+        "On day 30, look for three signs: people sharing wiki links in chat, fewer repeated questions, and owners updating pages when processes change. If you see them, book your first quarterly review. If not, the usual fix is fewer, better pages and leaders replying with links instead of answering from memory."
+      ],
+      "bullets": [
+        "Days 1–7, build the core: create the teamspaces and the five top-level pages, set permissions and write the ten pages people ask about most. Find those questions by looking for repeats in team chat. Give each page an owner and a review date.",
+        "Days 8–14, soft launch: ask two or three people to answer real questions using only search and Notion AI. Fix every miss, usually by renaming a page or writing a missing one. Check that restricted pages don't show up for regular members.",
+        "Days 15–21, full launch: walk the team through Start Here in a short meeting and introduce 'link, don't type'. If the wiki answers a question, reply with the link. If it doesn't, whoever answers writes the page or asks the owner to.",
+        "Days 22–30, make it stick: add a two-minute wiki slot to your weekly meeting to cover new pages, overdue reviews and gaps. Pin the wiki in your chat tool and ask everyone to add Start Here to their Notion Favorites. Use your next new hire or contractor as a test. They should get through their first week mostly from Start Here."
+      ]
+    },
+    {
+      "heading": "Keep the wiki current after launch",
+      "paragraphs": [
+        "A wiki stays trustworthy when someone checks for outdated pages on a schedule, instead of waiting for someone to stumble on them. For a small team, the routine below takes a few minutes a week.",
+        "In the SOPs and Policies databases, add a view called Due for review. Filter it to show pages where Next review is on or before Today and Status is not Archived. The wiki lead checks this view weekly and reminds owners.",
+        "Start with Notion's own date reminders. Where your plan includes database automations, use them too, for example to notify an owner when Status changes to Needs update. If you want alerts in another tool, such as a weekly Slack summary of overdue pages, Zapier or Make can connect Notion to it without code."
+      ],
+      "bullets": [
+        "Weekly: check the Due for review view and deal with anything flagged during the wiki slot.",
+        "Monthly: look through chat for repeated questions and write the missing pages.",
+        "Quarterly: review Start Here, How We Work and Tools & Access, and check who has access to each restricted teamspace.",
+        "Whenever a process changes: the owner updates the page that week and resets Last reviewed.",
+        "When a page is obsolete: delete it, or set Status to Archived and move it to an Archive page in a restricted teamspace so it no longer appears in everyone's search."
+      ]
+    },
+    {
+      "heading": "Common mistakes that stop small teams using their wiki",
+      "paragraphs": [
+        "Small-team wikis usually fail because they're neglected, not because of the software. The same few mistakes cause most of the trouble."
+      ],
+      "bullets": [
+        "Building 50 empty pages on day one. It tells people there's nothing in the wiki, so start with ten real pages instead.",
+        "Copying a big-company template. A 12-person team doesn't need a 40-page handbook structure.",
+        "Shared ownership. When everyone owns a page, nobody updates it.",
+        "Leaders who don't use it. If the founder keeps answering from memory, everyone else will too.",
+        "Leaving permissions until later. Set up restricted teamspaces before any sensitive page exists.",
+        "Copying content between pages. Copies drift apart, so link to the one original page instead."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Teams of 2–20 that want their wiki, SOPs and light project tracking in one workspace, with search and Notion AI that follow the permissions you set. Check which AI search and permission features your plan includes.",
+      "not_for": "Regulated teams that need formal document control, such as approval workflows, audit trails and signed policy acknowledgements. It's also not worth switching for teams that are already happy with another wiki tool."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending wiki alerts to other tools without code, such as a Slack or email message when a page's Next review date arrives or its Status changes to Needs update.",
+      "not_for": "Teams whose needs are already covered by Notion's own date reminders and database automations. Try those first before paying for another tool."
+    },
+    {
+      "product": "Make",
+      "best_for": "Teams that already use Make, or that prefer a visual builder for multi-step flows such as a weekly summary of overdue wiki pages grouped by owner.",
+      "not_for": "Teams that only need one or two simple alerts, where Notion's reminders or a single Zapier automation is quicker to set up. Make's lower cost mainly pays off at high volumes, and wiki reminders rarely reach them."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Notion good for a small company wiki?",
+      "answer": "For most teams of 2–20 people, yes. Pages, databases and permissions live in one place and are easy for anyone to edit, and you can track owners and review dates as database properties. Teams with formal compliance requirements may also need a dedicated document-control system."
+    },
+    {
+      "question": "Does Notion AI respect page permissions?",
+      "answer": "Notion says Notion AI only uses content the person asking already has access to, so it shouldn't show anyone a page they can't open. That makes your teamspace and page permissions the real control. Check Notion's current help documentation for your plan, especially if you connect apps like Slack or Google Drive."
+    },
+    {
+      "question": "How much does a Notion company wiki cost?",
+      "answer": "It depends on your plan and team size, and Notion changes its pricing and AI bundles from time to time. A very small team may manage basic wiki pages on a free or entry-level plan. Workspace-wide AI search and more advanced permission controls may need a higher plan. Check Notion's pricing page for current details."
+    },
+    {
+      "question": "Should I use Notion's wiki feature or a regular database?",
+      "answer": "Either works. The built-in wiki option (••• menu → Turn into wiki) adds owner and verification fields, but check whether verification is included on your plan. A regular database with Owner, Last reviewed, Next review and Status properties gives you similar tracking and makes it easy to filter for overdue reviews."
+    },
+    {
+      "question": "How often should company wiki pages be reviewed?",
+      "answer": "A sensible default is quarterly for onboarding and working-norm pages, every three to six months for SOPs, and at least yearly for policies. Review a page sooner whenever a tool, process or rule changes. The exact schedule matters less than having a named owner who gets a reminder."
+    },
+    {
+      "question": "Can contractors or freelancers use our Notion wiki?",
+      "answer": "Yes. Invite them as guests and share only the pages they need, such as the relevant SOPs, not whole teamspaces. Guest limits and controls vary by plan, so check your workspace settings. Remove their access as soon as the work ends."
+    }
+  ],
+  "conclusion": "A company wiki for a 2–20 person team doesn't need to be big, but it does need to be trusted. Start with five pages and give each one an owner and a review date. Put sensitive material in restricted teamspaces before you write it. Write every page so a person or Notion AI can find the right answer in seconds. Check what your Notion plan includes, follow the 30-day plan and keep replying with links. Within a month, your team should be checking the wiki first instead of asking in chat. For the procedures themselves, use our SOP guide to fill your SOPs database one process at a time.",
+  "keyword": "how to set up a company wiki in notion",
+  "niche": "AI tools for small business productivity",
+  "version": 2,
+  "slug": "how-to-set-up-a-company-wiki-in-notion-your-team-will-use",
+  "published": "2026-10-08T22:28:46+00:00"
+}

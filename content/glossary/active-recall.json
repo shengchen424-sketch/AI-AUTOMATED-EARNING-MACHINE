@@ -1,0 +1,21 @@
+{
+  "term": "Active Recall",
+  "section": "Self-Development",
+  "short_definition": "Active recall is a study method in which you retrieve information from memory, for example by self-testing or answering questions, instead of passively rereading or highlighting notes.",
+  "explanation": [
+    "Active recall means pulling information out of your memory instead of putting it in again. You close the material, try to answer questions such as 'What were the three main points?' or 'How does this formula work?', and then check and correct your answers. Common tools include flashcards, practice questions, writing a summary on a blank page and explaining the topic out loud. The effort of retrieving the answer is what makes it work.",
+    "Research on the 'testing effect' in cognitive psychology has repeatedly found that practicing retrieval strengthens long-term memory more than spending the same time rereading. Active recall also shows you what you don't know yet, so you can focus on weak spots. It works especially well combined with spaced repetition.",
+    "The downside is that active recall feels harder and slower than rereading, and getting answers wrong can be discouraging. That tempts many learners back to passive methods that feel productive but work less well. You also need a reliable source to check your answers against, or you may end up reinforcing mistakes."
+  ],
+  "example": "Illustrative example: Preparing for a finance exam, Priya reads a chapter on bonds for 20 minutes. She then closes the book and spends 10 minutes writing down everything she can remember and answering 15 practice questions. She gets 9 right and flags the 6 she missed. In her next session two days later, she reviews those 6 topics first instead of rereading the whole chapter.",
+  "common_mistake": "Looking at the answer too soon. If you flip the flashcard before genuinely trying to remember the answer, you lose most of the benefit.",
+  "related_terms": [
+    "Spaced Repetition",
+    "Feynman Technique",
+    "Deep Work",
+    "Pomodoro Technique"
+  ],
+  "title": "Active Recall",
+  "slug": "active-recall",
+  "published": "2026-10-08T22:44:53+00:00"
+}

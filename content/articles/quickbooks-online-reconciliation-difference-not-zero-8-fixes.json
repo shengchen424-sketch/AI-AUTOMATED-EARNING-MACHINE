@@ -1,0 +1,256 @@
+{
+  "title": "QuickBooks Online Reconciliation Difference Not Zero? 8 Fixes",
+  "meta_description": "QuickBooks Online reconciliation difference not zero? Work through 8 fixes in order, from statement dates and duplicates to the divide-by-9 test.",
+  "quick_answer": "A QuickBooks Online reconciliation difference that isn't zero means the cleared balance doesn't match the statement ending balance you entered. Check these in order: the ending date and balance, a beginning balance changed by an edited or deleted reconciled transaction, bank-feed duplicates, items posted to the wrong account, one-sided transfers, transposed digits (a difference divisible by 9) and unrecorded fees or interest.",
+  "key_takeaways": [
+    "Check the statement ending date and ending balance first. Copy them from the statement itself, not from the live balance in online banking.",
+    "If the beginning balance doesn't match the statement's opening balance, a transaction you already reconciled has changed. Use History by account and the Audit log to find it.",
+    "Before you check line by line, compare the totals of the deposits and payments you ticked with the totals on your statement. That shows you which side is off.",
+    "Bank-feed duplicates usually come from clicking Add instead of Match. If the difference divides evenly by 9, two digits are often swapped.",
+    "Use Save for later while you investigate. Don't force an adjustment. Undo past reconciliations only as a last resort, and only with your accountant."
+  ],
+  "who_this_is_for": "This guide is for small-business owners, freelancers and DIY bookkeepers using QuickBooks Online whose bank or credit card reconciliation won't get the Difference to 0.00.",
+  "intro": "You've ticked every transaction you can see, but the Difference box on the QuickBooks Online reconcile screen still isn't 0.00. It's frustrating, but the cause is almost always on a short list of fixable problems. This guide covers eight fixes in the order a bookkeeper would check them, quickest first. You can find the real cause instead of guessing, and you won't need to hide it with an adjustment. Intuit renames menus from time to time. If a label here doesn't match your screen, look for the closest equivalent or search Intuit's help center. This is general information about bookkeeping software, not accounting or tax advice. If a fix touches a period you've already filed taxes for, bring in your accountant.",
+  "steps": [
+    {
+      "name": "Confirm the statement ending date and balance",
+      "text": "On the reconcile screen, click Edit info. Compare the ending date and ending balance with the statement itself, not the live balance in online banking. For credit cards, enter the new balance shown on the statement, not the minimum payment or the amount you paid."
+    },
+    {
+      "name": "Compare the beginning balance with the statement's opening balance",
+      "text": "If they don't match, a transaction you already reconciled was edited, deleted, added or unticked. Find it with History by account on the Reconcile page and the Audit log (under the gear icon). Then change the amount back or re-enter the deleted item."
+    },
+    {
+      "name": "Find which side is off, then look for duplicates",
+      "text": "Compare the totals of the deposits and payments you ticked with the statement's total deposits and total withdrawals. Then sort the side that's off by amount and look for pairs with the same amount and similar dates. Undo the extra bank-feed item in Banking and match it instead, or delete the copy that isn't reconciled."
+    },
+    {
+      "name": "Find transactions in the wrong account",
+      "text": "Search for the missing amount across all accounts. If it was posted to the wrong bank or card account, open it and change the account. If a customer payment is still in Undeposited Funds (called Payments to deposit in some versions), include it in the right bank deposit."
+    },
+    {
+      "name": "Check transfers on both sides",
+      "text": "Every move between your own accounts, including credit card payments, should be recorded as a Transfer or a credit card payment so it affects both accounts. It shouldn't be recorded as income or an expense. When the other account's bank feed shows the same movement, match it to what you recorded. Don't add it again."
+    },
+    {
+      "name": "Run the divide-by-9 test",
+      "text": "Divide the difference by 9. If it divides evenly, compare each ticked amount with the statement digit by digit and look for swapped numbers, such as 72.50 entered as 27.50. Also check whether the difference equals one transaction, which usually means an item is missing or extra. If it equals twice one transaction, that item was probably entered in the wrong direction."
+    },
+    {
+      "name": "Add bank fees and interest",
+      "text": "Read the statement line by line for service charges, wire fees, overdraft charges and interest, and check the Excluded tab in Banking. Record anything missing, then tick it on the reconcile screen."
+    },
+    {
+      "name": "Undo a reconciliation only as a last resort",
+      "text": "If an earlier period really is wrong, talk to your accountant first. Undoing a whole reconciliation in one step may need an accountant user, so check the current permissions with Intuit. Don't force the difference to zero with an adjustment to Reconciliation Discrepancies."
+    }
+  ],
+  "comparison": {
+    "caption": "Match what you see on the reconcile screen to its most likely cause",
+    "headers": [
+      "What you see",
+      "Likely cause",
+      "Where to look in QBO",
+      "Typical fix"
+    ],
+    "rows": [
+      [
+        "Difference isn't zero even though the ticked items look right",
+        "Wrong statement ending date or ending balance",
+        "Edit info on the reconcile screen",
+        "Re-enter both figures from the statement itself"
+      ],
+      [
+        "Beginning balance doesn't match the statement's opening balance",
+        "A reconciled transaction was edited, deleted, added or unticked",
+        "History by account; Audit log; R column in the account register",
+        "Restore the original amount or re-enter the deleted item"
+      ],
+      [
+        "Two identical amounts, but only one is on the statement",
+        "Bank-feed item added instead of matched",
+        "Banking: the tab for transactions already added (the label varies by version)",
+        "Undo and re-match, or delete the copy that isn't reconciled"
+      ],
+      [
+        "Difference equals one transaction you know you recorded",
+        "Posted to the wrong account, or still in Undeposited Funds / Payments to deposit",
+        "Search by amount; other account registers",
+        "Change the bank or card account, or include the payment in a deposit"
+      ],
+      [
+        "The same amount is off in two of your own accounts",
+        "Transfer recorded on one side only, or as income or an expense",
+        "Both account registers; bank feed",
+        "Record it as a Transfer and match the other side"
+      ],
+      [
+        "Difference divides evenly by 9",
+        "Transposed digits",
+        "Ticked amounts vs. the statement",
+        "Correct the mistyped amount"
+      ],
+      [
+        "Small leftover difference",
+        "Bank fees or interest not recorded",
+        "Statement; Banking > Excluded tab",
+        "Add an expense or deposit, then tick it"
+      ],
+      [
+        "You've confirmed an earlier period is wrong",
+        "A past reconciliation was completed incorrectly",
+        "History by account; reconciliation reports",
+        "Undo with your accountant after confirming permissions with Intuit"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why Your QuickBooks Online Reconciliation Difference Is Not Zero",
+      "paragraphs": [
+        "On the QuickBooks Online reconcile screen, the Difference is the statement ending balance you entered minus the cleared balance QuickBooks calculates from the transactions you've ticked. It shows 0.00 only when those two figures agree.",
+        "The cleared balance starts from the beginning balance. QuickBooks builds that figure from every transaction already marked as reconciled (R) in the account. Then it adds the deposits you tick and subtracts the payments you tick in this session. Here's an example with made-up numbers. Start with a beginning balance of 4,000.00, add ticked deposits of 2,500.00 and subtract ticked payments of 1,800.00. The cleared balance is 4,700.00. If the statement ends at 4,670.00, you have a 30.00 difference to explain.",
+        "So a Difference that isn't zero always has one of three causes. The statement figures you typed in are wrong. The beginning balance no longer matches the previous statement. Or the transactions you ticked don't match this statement. Each fix in this guide targets one of those three.",
+        "Narrow the problem down before you check every line. The top of the reconcile screen summarizes the payments and deposits you've ticked. If your statement shows total deposits and total withdrawals, compare each side. If the deposits agree but the payments don't, you only need to search the payments.",
+        "While you investigate, use Save for later (in the menu next to Finish now) instead of forcing the reconciliation to finish. Your ticks are kept, and nothing wrong gets locked in."
+      ],
+      "bullets": [
+        "Have ready: this period's statement and the previous one",
+        "Your last completed reconciliation report (Reconcile page > History by account)",
+        "A calculator or spreadsheet for testing the difference",
+        "Edit access to the account and, ideally, access to the Audit log"
+      ]
+    },
+    {
+      "heading": "Fix 1: Check the Statement Ending Date and Ending Balance",
+      "paragraphs": [
+        "Start with the statement ending date and ending balance. A typo in either one throws off the Difference, and both take seconds to check.",
+        "Click Edit info at the top of the reconcile screen and compare both figures with the statement document itself. Don't use the balance shown in online banking or the bank feed. Those balances change daily and rarely match the statement's closing balance.",
+        "The ending date matters because the reconcile list generally shows only transactions dated on or before it. Say your statement closes on the 27th but you entered the 31st. Items from the 28th to the 31st will show up even though they belong on next month's statement. If you enter a date that's too early, real items disappear from the list.",
+        "Credit card accounts catch people out. The ending balance should be the new balance on the statement, not the minimum payment, the available credit or the amount you paid. Loans and lines of credit work the same way: use the balance printed on the statement.",
+        "Also watch for timing differences. A check you dated the 30th that cleared on the 2nd belongs on next month's statement, so leave it unticked. A deposit you dated after the ending date won't appear in the list at all, even if the bank posted it earlier. Correct its date and it will show up."
+      ],
+      "bullets": [
+        "Ending balance: the statement's closing balance, to the cent",
+        "Ending date: the statement's closing date, which isn't always the last day of the month",
+        "Credit cards: the new balance on the statement",
+        "Tick only items that actually appear on this statement"
+      ]
+    },
+    {
+      "heading": "Fix 2: Track Down a Beginning Balance That Changed",
+      "paragraphs": [
+        "If the beginning balance on the reconcile screen doesn't equal the opening balance on your statement, a transaction you already reconciled has changed since your last reconciliation. It was edited, deleted, added or unticked.",
+        "This is easy to do by accident. Someone deletes what looks like a duplicate from last month, changes the amount on a reconciled check, or moves a bank-feed item to a different account. Ticking more items this month can't fix it, because the error comes before this statement starts.",
+        "QuickBooks Online may show a warning about the mismatch, with a link to review what changed. The wording varies by version. If you don't see a warning, open the Reconcile page, choose History by account and select the account. Open the most recent reconciliation report and compare its ending balance with that month's statement. Then go back one period at a time until you find the last one that still matches.",
+        "Next, open the Audit log (gear icon, under Tools) and filter it to the dates since that last matching reconciliation. Look for edits or deletions on transactions in this account, especially any marked R in the reconcile column of the account register.",
+        "Once you find the transaction, put it back the way it was. If someone changed an amount by mistake, change it back. If someone deleted a reconciled transaction, re-enter it with the original date, payee and amount, then tick it on the reconcile screen. If the change was a real correction, the earlier reconciliation was wrong. Write down what happened and talk to your accountant before you go further."
+      ],
+      "bullets": [
+        "Clue: the beginning balance doesn't equal the statement's opening balance",
+        "Where to look: History by account, the Audit log and the R column in the register",
+        "Never delete a transaction marked R as a suspected duplicate until you've checked it against the statement"
+      ]
+    },
+    {
+      "heading": "Fixes 3–5: Duplicates, Wrong Accounts and One-Sided Transfers",
+      "paragraphs": [
+        "When the difference comes from this statement's transactions, the bank feed is usually involved. A transaction gets recorded twice, lands in the wrong account, or a transfer gets recorded on only one side.",
+        "Duplicates usually happen when you entered something by hand, such as an expense, check or invoice payment, and then clicked Add on the same bank-feed line instead of Match. Sort the reconcile list by amount and look for pairs with the same amount and similar dates. Keep the one that matches the statement. Get rid of the extra copy in one of two ways. You can undo it in Banking (on the tab for transactions already added, which is labeled differently in different versions) and then match it. Or you can delete the copy that isn't reconciled.",
+        "Old unticked items dated before this statement are worth a look too. Some are checks that genuinely haven't cleared yet. Others are duplicates that will never clear.",
+        "A transaction can be correct in every other way and still sit in the wrong account. Common examples are a check recorded against savings instead of checking, or a charge entered on the wrong credit card. Another is a customer payment still sitting in Undeposited Funds (called Payments to deposit in some versions) instead of being included in a bank deposit. Search for the exact amount across all accounts, then open the transaction and fix the account.",
+        "A transfer between your own accounts has to affect both of them. If you recorded a move from checking to savings as income, or a credit card payment as an expense, one of the accounts will be off. Record it as a Transfer or a credit card payment instead. When the other account's bank feed shows the same movement, match it to the transfer you already recorded. Don't add it again."
+      ],
+      "bullets": [
+        "Duplicate clue: two identical amounts close together, with only one on the statement",
+        "Wrong-account clue: the difference equals one transaction you know you recorded",
+        "Transfer clue: the same amount is off in two of your own accounts",
+        "Fix the problem in Banking first, then go back to the reconciliation you saved for later"
+      ]
+    },
+    {
+      "heading": "Fixes 6–7: Transposed Digits, Fees and Interest",
+      "paragraphs": [
+        "If the reconciliation difference divides evenly by 9, look for transposed digits: two digits swapped, such as 54.00 entered as 45.00.",
+        "Swapping two digits always creates an error that divides evenly by 9. For example, typing 1,520.00 as 1,250.00 creates a 270.00 difference, and 270 ÷ 9 = 30. Other mistakes can also come out as multiples of 9, so treat this as a strong hint, not proof. Compare each ticked amount with the statement until you find the swap.",
+        "Two more quick tests are worth running. If the difference equals one transaction exactly, that item is probably missing, extra or unticked. If it equals twice one transaction, that item was probably entered in the wrong direction. For example, a refund you received might have been recorded as a payment instead of a deposit.",
+        "Bank fees and interest are the last common gap. Monthly service charges, wire fees, overdraft charges and small interest payments sometimes get excluded from the bank feed by accident, or never come through at all. Read the statement line by line and check the Excluded tab in Banking. Record anything missing (an expense for fees, a deposit for interest), then tick it. If you're unsure which category to use, ask your accountant."
+      ],
+      "bullets": [
+        "Difference ÷ 9 is a whole number: check for swapped digits",
+        "Difference equals one transaction: an item is missing, extra or unticked",
+        "Difference equals twice one transaction: entered in the wrong direction (deposit vs. payment)",
+        "Small leftover difference: a fee or interest you haven't recorded"
+      ]
+    },
+    {
+      "heading": "Fix 8: When to Undo a Reconciliation (and When Not To)",
+      "paragraphs": [
+        "Undo a past reconciliation only when you've confirmed an earlier period was reconciled wrongly and fixing individual transactions won't solve it.",
+        "In QuickBooks Online, undoing a whole reconciliation in one step has typically needed an accountant user signed in through QuickBooks Online Accountant. Business users can usually unreconcile transactions one at a time by changing their R status in the account register. Intuit changes permissions from time to time, so confirm the current options in its help center or with Intuit support before you rely on either method.",
+        "If you do undo, start with the most recent reconciliation and go back one period at a time. Then reconcile each period again, going forward. Undoing changes past records that your filed tax returns, sales tax filings or lender reports may rely on. The rules for amending those differ by country, which is another reason to involve your accountant.",
+        "Don't take the shortcut of letting QuickBooks add an adjustment to force the Difference to zero. The adjustment typically goes to an account called Reconciliation Discrepancies. It hides the real error and can distort your expenses. Many accountants accept one only for a tiny, documented difference after every other check has failed."
+      ],
+      "bullets": [
+        "Undo if: an earlier period was reconciled against the wrong statement or the wrong balance",
+        "Don't undo if: restoring one changed transaction would fix it (see Fix 2)",
+        "After fixing, set a closing date (Account and settings > Advanced) to protect the corrected periods"
+      ]
+    },
+    {
+      "heading": "Habits That Keep Next Month's Reconciliation Clean",
+      "paragraphs": [
+        "Reconciliation is easiest when you do it every month, soon after the statement arrives, and after you've already reviewed the bank feed.",
+        "A short routine you repeat every month prevents most of the problems above and keeps next month's beginning balance correct. A simple log helps too. For each account and month, write down the statement period, any difference you found, its cause, the fix and who made it."
+      ],
+      "bullets": [
+        "Review the bank feed weekly, and choose Match over Add whenever QuickBooks suggests a match",
+        "Never edit or delete a transaction marked R without checking the reconciliation report and writing down why",
+        "Record every movement between your own accounts as a Transfer or a credit card payment",
+        "Reconcile every account that has a statement: checking, savings, credit cards, loans and payment processor accounts",
+        "Save each reconciliation report as a PDF next to the statement",
+        "Once a month balances, set a closing date with a password and limit who can edit closed periods",
+        "Keep a one-page month-end checklist (statement details, beginning balance, feed review, transfers, fees) so anyone covering for you follows the same order"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Teams who want a shared month-end checklist and a running log of reconciliation problems and fixes, so whoever reconciles next follows the same steps and can see what happened before",
+      "not_for": "Anyone happy with a spreadsheet or paper checklist. Notion doesn't connect to your QuickBooks reconciliation or find errors for you, so you still have to do every check yourself"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why doesn't my beginning balance match my bank statement in QuickBooks Online?",
+      "answer": "QuickBooks builds the beginning balance from transactions already marked as reconciled, so it changes whenever one of them is edited, deleted or unticked. Check History by account on the Reconcile page and the Audit log for changes since your last reconciliation, then restore the affected transaction. If the very first reconciliation never matched, review the account's opening balance entry with your accountant."
+    },
+    {
+      "question": "Can I finish a QuickBooks Online reconciliation with a difference?",
+      "answer": "QuickBooks may let you finish by adding an adjustment, which typically puts the gap in an account called Reconciliation Discrepancies. That gets the Difference to zero but hides the real error, so treat it as a last resort for small, documented amounts. While you investigate, use Save for later instead."
+    },
+    {
+      "question": "How do I undo a reconciliation in QuickBooks Online without an accountant?",
+      "answer": "Business users can usually unreconcile individual transactions by changing their R status in the account register. Undoing a full reconciliation in one step has typically needed an accountant user. Options change, so confirm the current process with Intuit. Because undoing changes past periods, it's wise to involve your accountant anyway."
+    },
+    {
+      "question": "What does it mean if my reconciliation difference is divisible by 9?",
+      "answer": "A difference that divides evenly by 9 often means two digits were swapped, such as 63.00 entered as 36.00. Compare each ticked amount with your statement to find it. It's a strong hint, not a guarantee, because other mistakes can also produce multiples of 9."
+    },
+    {
+      "question": "Why are some transactions missing from the QuickBooks Online reconcile screen?",
+      "answer": "The reconcile screen generally shows only this account's transactions dated on or before the statement ending date. A missing item may be dated after the ending date or recorded in another account. It may also still be in the bank feed's For review tab, which means it hasn't been added to your books yet. Fix the date, the account or the feed status and it will appear."
+    },
+    {
+      "question": "How often should I reconcile in QuickBooks Online?",
+      "answer": "Many bookkeepers reconcile every bank and credit card account monthly, as soon as each statement is available. Regular reconciliations keep errors small and easy to trace, because fewer transactions have changed since the last one that balanced. Your accountant may suggest a different schedule depending on how many transactions you have and what reports you need."
+    }
+  ],
+  "conclusion": "When a QuickBooks Online reconciliation won't balance, you can almost always trace the cause if you check things in order. Start with the statement details, then the beginning balance. Next, compare deposit and payment totals with the statement. After that, check for duplicates, wrong accounts, transfers, transposed digits, and fees and interest. Only then should you consider undoing a past reconciliation. Use Save for later instead of forcing an adjustment, write down what you found, and set a closing date once the month balances. If the problem reaches into periods you've already filed, bring in your accountant. Tax and record-keeping rules differ by country, and they can confirm the right correction for your business.",
+  "keyword": "quickbooks online reconciliation difference not zero",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "quickbooks-online-reconciliation-difference-not-zero-8-fixes",
+  "published": "2026-10-08T22:36:00+00:00"
+}

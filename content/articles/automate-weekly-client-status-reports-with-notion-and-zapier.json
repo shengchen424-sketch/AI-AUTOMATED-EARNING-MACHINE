@@ -1,0 +1,274 @@
+{
+  "title": "Automate Weekly Client Status Reports With Notion and Zapier",
+  "meta_description": "Automate weekly client status reports: a Friday Zap pulls finished Notion tasks, AI drafts a 5-line update, and Gmail saves it for your review.",
+  "quick_answer": "To automate a weekly client status report, link each Notion task to a Client and record a Done status and Completed date. A Zapier schedule runs every Friday, finds each client's tasks finished that week, and passes only those details to an AI step that writes a five-line update. Gmail then saves it as a draft, so nothing reaches the client until you review and send it.",
+  "key_takeaways": [
+    "Give every Notion task a Client relation, a Status with a Done option and a Completed date. The whole workflow filters on those three fields.",
+    "Trigger the Zap with Schedule by Zapier every Friday and end with Gmail Create Draft, never Send Email, so you review every update.",
+    "Use a fixed five-line prompt (status, done, next, blockers, decisions needed) that forbids the AI from adding anything not in your fields.",
+    "Filter out weeks with zero completed tasks before the AI step. This prevents invented progress and saves Zapier tasks.",
+    "Map only four fields into the AI step. Keep email addresses, rates and internal notes out of the prompt.",
+    "Estimate usage as counted action steps × clients × Fridays, then confirm the current task rules on Zapier's pricing page."
+  ],
+  "who_this_is_for": "Freelancers, consultants and solo agency owners who track client work in Notion and spend Friday afternoons writing near-identical status emails by hand.",
+  "intro": "If you juggle several clients, Friday afternoon probably means opening Notion, checking what you finished and writing roughly the same email four or five times. This guide shows you how to automate that weekly client status report with Notion and Zapier while keeping control of every email. A scheduled Zap finds the tasks you marked Done this week for each client. An AI step turns them into a five-line update, and Gmail saves it as a draft for you to check, edit and send. You'll get the exact Notion properties and formulas, a copy-and-paste prompt, a plan for quiet weeks, rules for keeping client data out of the AI, and a way to estimate Zapier task usage before you build.",
+  "steps": [
+    {
+      "name": "Add the task properties in Notion",
+      "text": "In your Tasks database, add Client (a relation to your Clients database, with the option to show it on Clients switched on), Status (with an option named exactly Done), Completed (a date) and, optionally, Client note (text). Use Client note for a one-line description of the task that the client can read."
+    },
+    {
+      "name": "Add the client properties and formulas",
+      "text": "In your Clients database, add Contact email (email), Contact first name (text) and three text properties: Next up, Blockers and Decisions needed. Then add two formula properties, Done this week and Done count, using the formulas in the Notion section below. Check that they show the right tasks before you move on."
+    },
+    {
+      "name": "Connect Notion to Zapier",
+      "text": "In Zapier, connect your Notion account and give it access to both the Tasks and Clients databases. If a database doesn't appear later, open it in Notion, choose the ••• menu → Connections and add your Zapier connection."
+    },
+    {
+      "name": "Set the Friday trigger",
+      "text": "Create a new Zap with Schedule by Zapier → Every Week as the trigger. Choose Friday and a time that leaves room to review, such as early afternoon. The schedule follows your Zapier time zone setting, so check that it's correct."
+    },
+    {
+      "name": "Find the client's record",
+      "text": "Add a Notion search action. Depending on the current version of the integration, it may be called Find Database Item or Find Data Source Item. Point it at Clients and search the Name property for one client, such as 'Acme Co'. Run a test and check that the output includes Done this week, Done count, Next up, Blockers, Decisions needed, Contact email and Contact first name."
+    },
+    {
+      "name": "Stop on empty weeks",
+      "text": "Add a Filter by Zapier step that continues only if Done count (Number) is greater than 0. If you'd rather send a holding note in quiet weeks, use Paths by Zapier instead. Give the zero-task path a Gmail draft with fixed wording and no AI step."
+    },
+    {
+      "name": "Draft the update with AI",
+      "text": "Add an AI step. You can use AI by Zapier, or the OpenAI or Anthropic app with your own API key. Paste in the five-line prompt template and map only four fields into it: Done this week, Next up, Blockers and Decisions needed."
+    },
+    {
+      "name": "Create the Gmail draft",
+      "text": "Add Gmail → Create Draft. Map Contact email to the To field and use a subject such as 'Weekly update – Acme Co'. Build the body from 'Hi {{Contact first name}},', the AI output and your usual sign-off. If the step offers a body type setting, choose plain text so the five lines keep their line breaks. Test the step, check the draft in Gmail, then publish the Zap."
+    },
+    {
+      "name": "Roll it out to every client",
+      "text": "If you have only a few clients, duplicate the Zap and change the client name in the Notion search step. If you have many, consider Looping by Zapier over a list of client names. Every pass through the loop uses tasks, so recalculate your monthly usage first."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to get each client's completed tasks into a weekly status report",
+    "headers": [
+      "Method",
+      "How it filters by client and date",
+      "Best for",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Manual write-up from a Notion view (no automation)",
+        "You filter a Tasks view to Status is Done and Completed within the past week, grouped by Client",
+        "One or two clients, or a dry run before you automate",
+        "Takes the most time, and it's the first thing skipped on a busy Friday"
+      ],
+      [
+        "Notion formulas on the Clients database (the main method in this guide)",
+        "Formulas keep each client's linked tasks where Status is Done and Completed falls within the last 7 days",
+        "No-code setups with a handful of clients",
+        "Check that formula values appear in Zapier's test output. Very long task histories can hit Notion API limits on large relations"
+      ],
+      [
+        "Notion API Request action in Zapier (if available)",
+        "A JSON filter: the Client relation contains the client's page ID, Status equals Done, and Completed is on or after the start of the week",
+        "People comfortable with JSON who want the filtering done inside the Zap",
+        "The response is long and needs a Formatter or Code step to tidy it. Copy the current endpoint from Notion's developer docs"
+      ],
+      [
+        "Standard Notion search action in Zapier",
+        "Matches a single property value, such as the client's name",
+        "Finding one record, such as the client's page",
+        "Usually returns one match, so on its own it can't list every completed task"
+      ],
+      [
+        "Make scenario (Notion search plus an iterator)",
+        "Filters inside the Notion search module, which can return several items",
+        "Many clients or higher volumes",
+        "Make measures usage differently from Zapier, and you'd need to rebuild if you started in Zapier"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why Automate Weekly Client Status Reports — and Stop at a Draft",
+      "paragraphs": [
+        "Automating your weekly client status report takes care of the repetitive part of the job, which is collecting finished work and turning it into tidy sentences. The judgement calls stay with you.",
+        "A short Friday update shows progress to clients who never see your task board. It flags blockers before they turn into missed deadlines and puts pending decisions in writing. The problem is timing. Friday afternoon is when energy runs lowest, so updates get rushed, delayed or skipped.",
+        "This workflow deliberately ends with a Gmail draft, not a sent email. An AI step can misread a short task name, overstate progress, or word a blocker so it sounds like blame. A two-minute review catches those problems, but an automatic send doesn't. A draft also lets you add a personal line, attach a file, or hold the email when a quick call would work better."
+      ],
+      "bullets": [
+        "Runs every Friday at a time you choose, using Schedule by Zapier.",
+        "Finds each client's Notion tasks marked Done in the last seven days.",
+        "Uses an AI step to write a five-line update covering status, done, next, blockers and decisions needed.",
+        "Saves a Gmail draft addressed to the client. Nothing is sent until you click Send."
+      ]
+    },
+    {
+      "heading": "The Notion Properties and Formulas You Need",
+      "paragraphs": [
+        "You need two linked Notion databases, Tasks and Clients, plus a few properties that let Zapier find each client's finished work without guessing.",
+        "The property names below are only suggestions. Whatever names you choose, use them identically in the formulas and the Zap. Everything depends on the relation between the two databases. When you add the Client relation to Tasks, switch on the option to show it on Clients. Each client page then gets a Tasks property listing that client's work, and the formulas assume that property is called Tasks.",
+        "Next up, Blockers and Decisions needed are filled in by hand on purpose. Notion knows what's finished, but only you know what matters next week and what's genuinely stuck.",
+        "The formulas use Notion's current formula syntax, where current means each linked task. They keep tasks marked Done that have a Completed date in the last seven days. Where a task has a Client note, the formula uses it; otherwise it uses the task name. If Notion shows an error, check that every property name matches exactly, including capital letters.",
+        "To check the logic, create a Tasks view filtered to Status is Done and Completed is within the past week, grouped by Client. Each group shows what that client's draft should contain."
+      ],
+      "bullets": [
+        "Tasks → Name (title): the task as you'd describe it to yourself.",
+        "Tasks → Client (relation to Clients): a task with no client never appears in any update.",
+        "Tasks → Status (status): include an option named exactly Done.",
+        "Tasks → Completed (date): the day you finished the task. If your Notion plan includes database automations, see whether one can fill this in when Status changes to Done. Otherwise, type @today when you close the task.",
+        "Tasks → Client note (text, optional): a line the client can read, such as 'Published the April newsletter' instead of 'fix Mailchimp mess'.",
+        "Clients → Contact email (email), Contact first name (text), and three text properties: Next up, Blockers and Decisions needed.",
+        "Clients → Done this week (formula): prop(\"Tasks\").filter(current.prop(\"Status\") == \"Done\" and not empty(current.prop(\"Completed\")) and dateBetween(now(), current.prop(\"Completed\"), \"days\") < 7).map(if(empty(current.prop(\"Client note\")), current.prop(\"Name\"), current.prop(\"Client note\"))).join(\"; \")",
+        "Clients → Done count (formula): prop(\"Tasks\").filter(current.prop(\"Status\") == \"Done\" and not empty(current.prop(\"Completed\")) and dateBetween(now(), current.prop(\"Completed\"), \"days\") < 7).length()"
+      ]
+    },
+    {
+      "heading": "The AI Prompt Template for a Five-Line Client Update",
+      "paragraphs": [
+        "The prompt below forces a fixed five-line structure and forbids the AI from adding anything beyond the fields you map. That makes every draft quick and safe to review.",
+        "Paste the prompt into the AI step's prompt field, then replace each {{placeholder}} by mapping the matching Notion field. Leave the greeting and sign-off out of the prompt. The Gmail step adds them from fixed text, so they stay the same every week.",
+        "Five fixed lines work because clients skim, and a consistent layout teaches them where to look. Most will jump straight to Decisions needed. A fixed layout also speeds up your review, because you're checking five short claims against Notion instead of rereading a paragraph.",
+        "Here's an example. Suppose Done this week reads 'Published the April newsletter; Updated pricing page copy', Next up reads 'Draft May newsletter', Blockers reads 'Waiting on brand photos' and Decisions needed is empty. A good draft would be: Status: Two items completed this week, with one blocker to clear. Done: Published the April newsletter and updated the pricing page copy. Next: Drafting the May newsletter. Blockers: Waiting on brand photos. Decisions needed: None this week.",
+        "Test the prompt on a real week before you rely on it. Run the AI step in the Zap editor and compare each line with your Notion view. If the AI pads, hedges or claims anything your notes don't support, tighten the Rules line."
+      ],
+      "bullets": [
+        "You are drafting a weekly status update from a freelancer to their client. Write exactly 5 lines of plain text. No greeting, sign-off, bullet symbols or markdown.",
+        "Line 1 – start with \"Status:\" and write one neutral sentence summarising the week, based only on the items below.",
+        "Line 2 – start with \"Done:\" and summarise the completed items in one sentence.",
+        "Line 3 – start with \"Next:\" and summarise next week's items in one sentence.",
+        "Line 4 – start with \"Blockers:\" and summarise them, or write \"None right now.\" if the field is empty.",
+        "Line 5 – start with \"Decisions needed:\" and state each decision the client must make, or write \"None this week.\" if the field is empty.",
+        "Rules: use only the information below. Do not add tasks, dates, numbers, results or promises. Keep each line under 30 words. Use a friendly, plain, professional tone.",
+        "Completed this week: {{Done this week}} | Next week: {{Next up}} | Blockers: {{Blockers}} | Decisions needed: {{Decisions needed}}"
+      ]
+    },
+    {
+      "heading": "What to Do in Weeks With No Completed Tasks",
+      "paragraphs": [
+        "When a client has no completed tasks, the Zap should stop, or switch to a fixed holding note, before the AI step. Given nothing to summarise, an AI tends to fill the gap with vague or invented progress.",
+        "The simplest fix is a Filter by Zapier step straight after the Notion search, set to continue only if Done count (Number) is greater than 0. In a quiet week, the run ends there for that client, and neither the AI step nor the Gmail step runs.",
+        "To keep the weekly rhythm instead, use Paths by Zapier. One path handles normal weeks. The other creates a Gmail draft from fixed wording with no AI step, for example: 'No deliverables wrapped up this week. In progress: {{Next up}}. Needed from you: {{Decisions needed}}.' Check that your Zapier plan includes Paths before you rely on it.",
+        "Treat an empty week as a reason to check Notion. Often the work happened, but the tasks weren't marked Done or given a Completed date. Adding two missing dates and running the Zap again beats telling a client nothing happened when it did."
+      ],
+      "bullets": [
+        "Skip: a Filter means no draft and no AI cost. This suits clients who only want to hear from you when something is finished.",
+        "Holding note: Paths with fixed wording. This suits retainer clients who would worry if they heard nothing.",
+        "Self-check: the zero-task path emails you a reminder to review that client's tasks in Notion."
+      ]
+    },
+    {
+      "heading": "Send the AI Only the Four Fields It Needs",
+      "paragraphs": [
+        "The AI step needs exactly four pieces of text: completed items, next steps, blockers and decisions. It needs nothing else from Notion or the client's record.",
+        "Zapier makes it easy to map every field from an earlier step, and it's tempting to add extras 'for context'. Don't. Each extra field is client data sent to an AI provider for no benefit. More context also gives the AI more to misuse, such as slipping a budget figure into a status line.",
+        "Keep the client's name out of the prompt too. Put it in the Gmail subject and greeting, where it comes straight from Notion. The Client note property is a second safeguard, because it replaces blunt internal shorthand with wording you'd be happy for the client to read.",
+        "Before you connect real client data, read your AI provider's terms on how it uses data, and check any confidentiality clauses in your client agreements. If a contract restricts sharing data with third-party tools, send that client down the fixed-wording path with no AI step. This is general information, not legal advice."
+      ],
+      "bullets": [
+        "Send: Done this week, Next up, Blockers and Decisions needed.",
+        "Don't send the contact email or first name. The Gmail step uses them directly.",
+        "Don't send rates, invoice amounts, budgets or contract terms.",
+        "Don't send internal notes, page URLs or IDs, or anything about other clients."
+      ]
+    },
+    {
+      "heading": "What This Automation Costs in Zapier Tasks",
+      "paragraphs": [
+        "Zapier generally counts one task each time an action step runs successfully. This Zap therefore uses roughly the number of counted steps × your number of clients × the number of Fridays in the month.",
+        "Example: with three counted steps (Notion search, AI and Gmail) and four clients, a month with four Fridays uses about 3 × 4 × 4 = 48 tasks. A month with five Fridays uses about 60. Quiet weeks stopped by the Filter use fewer, because only the Notion search runs.",
+        "Treat this as an estimate, not a price. Zapier has changed which steps count before, and features such as multi-step Zaps, Paths and AI tools have historically varied by plan. Confirm the current rules on Zapier's pricing and help pages. If you expect dozens of clients, compare costs with Make."
+      ],
+      "bullets": [
+        "Schedule by Zapier trigger: triggers don't count as tasks.",
+        "Notion search: this is an action, so expect it to count.",
+        "Filter by Zapier: historically not counted, but check.",
+        "AI step: expect it to count. If you use your own OpenAI or Anthropic key, that provider also bills you separately for usage.",
+        "Gmail Create Draft: counts as a task.",
+        "Looping by Zapier: the steps inside the loop run once per client, so usage multiplies."
+      ]
+    },
+    {
+      "heading": "Advanced Option: Query the Tasks Database Directly",
+      "paragraphs": [
+        "If you'd rather do the filtering inside the Zap than with Notion formulas, you can query the Tasks database directly, filtering on the Client relation, Status and the Completed date.",
+        "Zapier's standard Notion search actions are built to return one matching record. That's ideal for a client page but not for a task list. Check whether the Notion app in your Zap editor offers an API Request action, which uses your existing Notion connection. If it does, send a database query with a filter like the one below.",
+        "Replace CLIENT_PAGE_ID with the 32-character ID at the end of the client page's URL. Replace WEEK_START_DATE with a date in YYYY-MM-DD format. A Formatter by Zapier Date/Time step can produce this date by subtracting days from the run date.",
+        "Notion's API has changed over time, and newer versions query a database's 'data source' rather than the database itself. Copy the current endpoint and version header from Notion's developer documentation, not from an old tutorial. The response is long JSON, so add a Formatter or Code by Zapier step that keeps only the task titles or Client notes before the AI step."
+      ],
+      "bullets": [
+        "Wrap the three conditions below in: {\"filter\": {\"and\": [ … ]}}",
+        "{\"property\": \"Client\", \"relation\": {\"contains\": \"CLIENT_PAGE_ID\"}}",
+        "{\"property\": \"Status\", \"status\": {\"equals\": \"Done\"}}",
+        "{\"property\": \"Completed\", \"date\": {\"on_or_after\": \"WEEK_START_DATE\"}}"
+      ]
+    },
+    {
+      "heading": "Troubleshooting and a Friday Review Routine",
+      "paragraphs": [
+        "Most problems with this Zap come from Notion access, empty formula fields or the seven-day window. A short Friday routine keeps the drafts accurate.",
+        "The routine: before the Zap runs, spend two minutes updating Next up, Blockers and Decisions needed on each client page. When the drafts arrive, check each line against your Notion view, add one personal sentence, then send or hold."
+      ],
+      "bullets": [
+        "Database missing in Zapier: open the database in Notion, choose the ••• menu → Connections, add your Zapier connection, then refresh the fields in the Zap.",
+        "Formula fields empty in the test output: first check that the formula shows values in Notion. Notion's API has documented limits on large relations. If a client with a long task history returns odd values, switch to the direct-query option.",
+        "A task is missing: its Completed date is empty, its Status isn't exactly Done, or it has no Client.",
+        "Work finished late on Friday never appears: tasks finished after the run miss both this week's and next week's window. Schedule the Zap later in the day, or change < 7 to < 8 in both formulas and accept the occasional repeat.",
+        "Zap runs at the wrong time: Schedule by Zapier follows your account's time zone setting.",
+        "The AI added something that isn't in Notion: check you haven't mapped extra fields, then tighten the Rules line in the prompt."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Solopreneurs who already track client work in Notion and want the same databases to handle both task management and weekly reports.",
+      "not_for": "People whose tasks live in Asana, Trello or ClickUp. Build the same kind of Zap from that tool instead of moving everything just for reporting."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "No-code users with a handful of clients who want a scheduled trigger, a built-in AI step and a Gmail draft in one editor.",
+      "not_for": "Anyone looping through dozens of clients every week, where task usage climbs quickly. Compare costs on Make's pricing page first."
+    },
+    {
+      "product": "Make",
+      "best_for": "Builders with many clients who are comfortable with a visual editor and want Notion searches that return several items for an iterator to process.",
+      "not_for": "Anyone who wants the quickest setup with the fewest moving parts, or who already pays for a Zapier plan that covers this volume."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Zapier send the weekly status report to clients automatically?",
+      "answer": "Yes. Swap Create Draft for Gmail's Send Email action. This guide stops at a draft on purpose, because AI can overstate progress or misread a short task name, and a quick review costs far less than fixing a wrong email to a client. If you do switch to automatic sending, wait until you've had several weeks of drafts that needed no edits."
+    },
+    {
+      "question": "Do I need a paid Zapier plan to automate client status reports?",
+      "answer": "Possibly. This Zap has a trigger plus several action steps, and Zapier has historically kept multi-step Zaps, Paths and some built-in tools for paid plans. Plan features and task allowances change, so check Zapier's pricing page before you build."
+    },
+    {
+      "question": "Which AI step should I use in Zapier for the status update?",
+      "answer": "AI by Zapier is built into the editor and usually needs no separate account, so it's the simplest choice. The OpenAI and Anthropic apps let you pick a specific model, but they need your own API key, and that provider bills usage separately from your Zapier tasks. Whichever you choose, the prompt template and the four-field rule stay the same."
+    },
+    {
+      "question": "Can I use Outlook instead of Gmail?",
+      "answer": "Yes. The structure is the same, and only the final step changes. Check whether the Microsoft Outlook app in Zapier offers a create-draft action for your account type. If it doesn't, have the Zap email the update to you, then paste it into a message to the client."
+    },
+    {
+      "question": "How do I stop the AI from inventing progress in the update?",
+      "answer": "Map only the four fields and tell the AI plainly not to add tasks, dates, numbers or promises. Filter out weeks with no completed tasks before the AI step runs. Then check all five lines against Notion when you review the draft. It takes about a minute and catches anything the rules missed."
+    },
+    {
+      "question": "Can I build this in Make instead of Zapier?",
+      "answer": "Yes. The same structure works in Make: a weekly schedule, a Notion search, an AI module and a Gmail draft. Make's Notion search can return several items, which an iterator then handles one at a time. Make measures usage differently from Zapier, so compare both pricing pages for your number of clients."
+    }
+  ],
+  "conclusion": "A weekly client status report is a small habit that keeps clients informed and decisions moving. It's also the kind of repetitive writing worth automating, as long as you keep the final say. Start with one client: add the Notion properties, build the Zap and let it run for a Friday or two while you still write that client's email by hand. Then compare the two. Once the drafts reliably match what you would have written, duplicate the Zap for your other clients and confirm your task usage on Zapier's pricing page. Friday's writing chore then becomes a short review.",
+  "keyword": "automate weekly client status report",
+  "niche": "AI agents and automation for solopreneurs",
+  "version": 2,
+  "slug": "automate-weekly-client-status-reports-with-notion-and-zapier",
+  "published": "2026-10-08T22:30:57+00:00"
+}

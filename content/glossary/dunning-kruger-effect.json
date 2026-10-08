@@ -1,0 +1,22 @@
+{
+  "term": "Dunning-Kruger Effect",
+  "section": "Self-Development",
+  "short_definition": "The Dunning-Kruger effect is a cognitive bias in which people with limited skill or knowledge in an area tend to overestimate their ability, partly because they lack the expertise to spot their own mistakes.",
+  "explanation": [
+    "The Dunning-Kruger effect describes a gap between how competent people think they are and how competent they actually are, and the gap is widest among beginners. It is named after psychologists David Dunning and Justin Kruger. Their 1999 study found that participants who scored lowest on tests of logical reasoning, grammar and humor tended to rate their own performance well above their actual results. The explanation is that the skills needed to do something well are often the same skills needed to judge whether you did it well.",
+    "The effect matters wherever people make confident decisions in areas that are new to them. Examples include trading after a few lucky wins, launching a product without testing demand, or trusting an AI answer on an unfamiliar topic. Getting outside feedback and measuring real results helps bring confidence in line with ability.",
+    "The effect is often exaggerated in popular culture. The well-known 'Mount Stupid' confidence curve does not come from the original study, and some researchers argue that part of the measured pattern reflects statistical artifacts. Treat it as a general tendency, not a label for other people. Everyone is a beginner in some area."
+  ],
+  "example": "Illustrative example: After reading a few articles, a new investor rates their stock-picking skill 8 out of 10 and concentrates a large share of their savings in a few stocks. Six months later, a comparison with a simple index benchmark shows they underperformed. Starting small and tracking results against a benchmark from day one would have shown the skill gap sooner, at lower cost.",
+  "common_mistake": "Using the term to dismiss other people while assuming you are immune. The bias applies to everyone in areas where they are new.",
+  "related_terms": [
+    "Confirmation Bias",
+    "Imposter Syndrome",
+    "Growth Mindset",
+    "Mental Models",
+    "Feynman Technique"
+  ],
+  "title": "Dunning-Kruger Effect",
+  "slug": "dunning-kruger-effect",
+  "published": "2026-10-08T22:44:53+00:00"
+}

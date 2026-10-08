@@ -1,0 +1,22 @@
+{
+  "term": "Tax-Advantaged Account",
+  "section": "Investing",
+  "short_definition": "A tax-advantaged account is a savings or investment account that gets special tax treatment, such as tax-deductible contributions or tax-free growth, usually in exchange for rules on contributions and withdrawals.",
+  "explanation": [
+    "A tax-advantaged account is a government-approved 'wrapper' that changes how the money inside it is taxed. Most designs fall into one of two types. With 'tax later', contributions can lower your taxable income today, and withdrawals are taxed later. With 'tax now', you contribute money that has already been taxed, and qualifying withdrawals are tax-free. Examples of the category include 401(k)s and IRAs in the US, ISAs and SIPPs in the UK, TFSAs and RRSPs in Canada, and superannuation in Australia.",
+    "These accounts matter because tax on interest, dividends and capital gains can drag on long-term growth. Shielding that growth over many years can leave more money compounding. Some workplace plans also add employer contributions, which can be a significant benefit.",
+    "The trade-off is less flexibility. Common restrictions include annual contribution limits, taxes or penalties on early withdrawals, and a limited menu of investments. The account is only a wrapper, so investments inside it can still lose value. Eligibility, limits and tax treatment differ by country and change often, so check your national tax authority or a licensed adviser before making decisions."
+  ],
+  "example": "Illustrative example (made-up numbers and rate): Two people each invest $5,000 in the same fund, and it grows to $8,000. In a regular taxable brokerage account, the $3,000 gain might be taxed when sold. At an assumed example rate of 15%, that is $450 in tax. In a tax-free-growth account where the withdrawal rules are met, the same $3,000 gain could be withdrawn without tax. Real outcomes depend on your country's rules and your situation.",
+  "common_mistake": "Thinking the account is itself an investment. Depositing money into a tax-advantaged account does not invest it automatically. The cash can sit uninvested inside the wrapper until you choose investments.",
+  "related_terms": [
+    "Capital Gains",
+    "Brokerage Account",
+    "Compound Interest",
+    "Index Fund",
+    "Pay Yourself First"
+  ],
+  "title": "Tax-Advantaged Account",
+  "slug": "tax-advantaged-account",
+  "published": "2026-10-08T22:44:53+00:00"
+}
