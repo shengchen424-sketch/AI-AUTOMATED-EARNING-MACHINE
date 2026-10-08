@@ -16,6 +16,8 @@
 <article class="prose">
   {% if a.quick_answer %}<div class="box answer"><span class="label">Quick answer</span><p>{{ a.quick_answer }}</p></div>{% endif %}
   {% if a.key_takeaways %}<div class="box takeaways"><span class="label">Key takeaways</span><ul>{% for k in a.key_takeaways %}<li>{{ k }}</li>{% endfor %}</ul></div>{% endif %}
+  {% if a.care == "finance" %}<div class="box"><span class="label">Educational content, not financial advice</span>This guide explains general concepts. It isn't personal financial, investment or tax advice, and rules differ by country. For decisions about your own money, check with your local regulator or a licensed adviser.</div>
+  {% elif a.care == "health" %}<div class="box"><span class="label">Not medical advice</span>This guide shares general information based on mainstream guidance. Every child is different — check with your paediatrician or health visitor, and call emergency services if you're worried about your child's safety.</div>{% endif %}
   {% if a.who_this_is_for %}<p class="muted"><b>Who this is for:</b> {{ a.who_this_is_for }}</p>{% endif %}
   {% if recs %}<p class="disclosure">Some links in this guide are affiliate links: if you buy through them we may earn a commission at no extra cost to you. It never changes what we recommend.</p>{% endif %}
   <p>{{ a.intro }}</p>
@@ -45,7 +47,7 @@
 
   <h2 id="bottom-line">The bottom line</h2>
   <p>{{ a.conclusion }}</p>
-  <div class="box author"><i></i><div><b>{{ cfg.author }}</b><br><span class="small muted">We research and test AI workflows for small businesses. Drafted with AI assistance and reviewed against our editorial rules: no invented numbers, honest trade-offs. <a href="{{ cfg.base_url }}/about/">How we work</a>.</span></div></div>
+  <div class="box author"><i></i><div><b>{{ cfg.author }}</b><br><span class="small muted">We research practical answers on money, family, learning and AI. Drafted with AI assistance and reviewed against our editorial rules: no invented numbers, honest trade-offs. <a href="{{ cfg.base_url }}/about/">How we work</a>.</span></div></div>
 </article>
 <aside class="aside">
   <nav class="toc" aria-label="Table of contents"><b>On this page</b><ol>

@@ -5,6 +5,7 @@
   {% if crumb %}<div class="crumbs"><a href="{{ cfg.base_url }}/">Home</a> › <a href="{{ cfg.base_url }}/topics/">Topics</a></div>{% endif %}
   <h1>{{ heading }}</h1>
   <p class="lede">{{ intro }}</p>
+  {% if sections %}{% for s in sections %}<div style="margin-top:18px"><b class="small">{{ s.name }}</b><div class="chips" style="margin-top:8px">{% for t in s.topics %}<a class="chip" href="{{ cfg.base_url }}/topics/{{ t.slug }}/">{{ t.label }} · {{ t.count }}</a>{% endfor %}</div></div>{% endfor %}{% endif %}
   {% if topics %}<div class="chips" style="margin-top:18px">{% for t in topics %}<a class="chip" href="{{ cfg.base_url }}/topics/{{ t.slug }}/">{{ t.label }} · {{ t.count }}</a>{% endfor %}</div>{% endif %}
 </div></section>
 <section class="section"><div class="wrap">

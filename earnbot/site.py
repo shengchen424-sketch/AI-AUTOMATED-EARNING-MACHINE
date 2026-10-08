@@ -80,6 +80,8 @@ def _decorate(cfg: Config, articles: list[dict[str, Any]]) -> None:
         niche = a.get("niche", "")
         a["niche_slug"] = slugify(niche) if niche else ""
         a["niche_label"] = niche[:1].upper() + niche[1:] if niche else ""
+        info = cfg.niche(niche)
+        a["care"], a["section"] = info.care, info.section
 
 
 def article_markdown(cfg: Config, a: dict[str, Any]) -> str:
@@ -159,9 +161,15 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     topics_map: dict[str, dict[str, Any]] = {}
     for a in articles:
         if a["niche_slug"]:
-            t = topics_map.setdefault(a["niche_slug"], {"slug": a["niche_slug"], "label": a["niche_label"], "items": []})
+            t = topics_map.setdefault(a["niche_slug"], {"slug": a["niche_slug"], "label": a["niche_label"],
+                                                        "section": a["section"], "items": []})
             t["items"].append(a)
     topics = sorted(({**t, "count": len(t["items"])} for t in topics_map.values()), key=lambda t: -t["count"])
+    section_order = list(dict.fromkeys(n.section for n in cfg.niches))
+    sections = [{"name": s, "topics": [t for t in topics if t["section"] == s]} for s in section_order]
+    sections = [s for s in sections if s["topics"]] + (
+        [{"name": "More", "topics": [t for t in topics if t["section"] not in section_order]}]
+        if any(t["section"] not in section_order for t in topics) else [])
 
     # assets: stylesheet + social cards
     (out / "assets").mkdir()
@@ -178,14 +186,14 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     home["jsonld"].append(_ld({"@type": "Organization", "name": cfg.business_name, "url": f"{cfg.base_url}/",
                                "logo": f"{cfg.base_url}/assets/og/site.png", "description": cfg.tagline,
                                **({"email": cfg.contact_email} if cfg.contact_email else {})}))
-    render("", "index.html", home, articles=articles, topics=topics)
+    render("", "index.html", home, articles=articles, topics=topics, sections=sections)
 
     render("guides", "listing.html",
-           _page(cfg, f"All guides — {cfg.site_name}", f"Every {cfg.site_name} guide: practical, step-by-step AI workflows for small businesses.", "guides/"),
-           heading="All guides", intro="Step-by-step AI workflows for small businesses — newest first.", items=articles, topics=topics)
+           _page(cfg, f"All guides — {cfg.site_name}", f"Every {cfg.site_name} guide: practical, step-by-step answers on money, family, learning and AI.", "guides/"),
+           heading="All guides", intro="Practical, step-by-step guides on money, family, learning and AI — newest first.", items=articles, topics=topics)
     render("topics", "listing.html",
            _page(cfg, f"Topics — {cfg.site_name}", "Browse guides by topic.", "topics/"),
-           heading="Browse by topic", intro="Pick a topic to see every guide we've written on it.", items=articles, topics=topics)
+           heading="Browse by topic", intro="Pick a topic to see every guide we've written on it.", items=articles, sections=sections)
     for t in topics:
         page = _page(cfg, f"{t['label']}: guides — {cfg.site_name}", f"Practical guides on {t['label'].lower()}.", f"topics/{t['slug']}/")
         page["jsonld"].append(_breadcrumb(cfg, [("Home", ""), ("Topics", "topics/"), (t["label"], f"topics/{t['slug']}/")]))
@@ -246,7 +254,7 @@ def _robots(cfg: Config) -> str:
 def _llms(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]], topics: list[dict[str, Any]]) -> str:
     """llms.txt (llmstxt.org): a curated, Markdown map of the site for AI assistants."""
     out = [f"# {cfg.site_name}", "", f"> {cfg.tagline}", "",
-           "Practical, step-by-step guides for small businesses using AI tools. Every guide starts with a "
+           "Practical, step-by-step guides on personal finance, parenting, kids' education and AI tools. Every guide starts with a "
            "direct quick answer, then numbered steps, comparisons and FAQs. We do not publish invented "
            "statistics or prices. Each guide is also available as Markdown at <guide-url>index.md, and the "
            f"full text of all guides is at {cfg.base_url}/llms-full.txt.", ""]

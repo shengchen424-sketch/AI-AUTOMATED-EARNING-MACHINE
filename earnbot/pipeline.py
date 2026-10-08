@@ -24,6 +24,7 @@ def _product_preview(product: dict[str, Any]) -> dict[str, Any]:
         "sales_copy": product["sales_copy"],
         "chapters": [{"heading": c["heading"], "summary": c["summary"]} for c in product["chapters"]],
         "template_count": len(product["templates"]),
+        "section": product.get("section", ""),
     }
 
 

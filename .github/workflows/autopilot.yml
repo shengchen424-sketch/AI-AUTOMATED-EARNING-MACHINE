@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -39,6 +40,7 @@ jobs:
           # Subscription token from `claude setup-token` — no API key, no per-token billing.
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         # Only scheduled/manual runs use your plan's quota; pushes just rebuild the site.
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then unset CLAUDE_CODE_OAUTH_TOKEN; fi
@@ -54,6 +56,15 @@ jobs:
           # Another run may have pushed meanwhile: replay our commit on top, then push.
           git pull --rebase -X theirs origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
+
+      - name: Report to owner (GitHub issue = email notification + job summary)
+        if: always() && github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f report.md ] || exit 0
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+          gh issue create --title "📊 自动运行报告 $(date -u +%F)" --body-file report.md || true
 
       - name: Keep paid deliverables private (download from the run's artifacts)
         uses: actions/upload-artifact@v4

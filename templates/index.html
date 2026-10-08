@@ -2,9 +2,9 @@
 {% from "_macros.html" import card, product_promo, subscribe %}
 {% block body %}
 <section class="hero"><div class="wrap">
-  <span class="eyebrow">AI for small business · updated {{ today }}</span>
-  <h1>Put AI to work in your business <span class="grad-text">this week</span>, not someday.</h1>
-  <p class="lede">{{ cfg.tagline }} Every guide gives you a direct answer, exact steps and honest tool picks — no hype.</p>
+  <span class="eyebrow">Money · Family · Learning · AI · updated {{ today }}</span>
+  <h1>Clear answers for <span class="grad-text">money, family and learning</span> — with AI that actually helps.</h1>
+  <p class="lede">{{ cfg.tagline }} Every guide gives you a direct answer, exact steps and honest picks — no hype, no invented numbers.</p>
   <div class="hero-actions">
     <a class="btn big" href="{{ cfg.base_url }}/guides/">Browse the guides</a>
     {% if products %}<a class="btn big ghost" href="{{ cfg.base_url }}/products/{{ products[0].slug }}/">Get the playbook</a>{% endif %}
@@ -16,8 +16,10 @@
   </div>
 </div></section>
 
-{% if topics %}<section class="section" style="padding-bottom:0"><div class="wrap">
-  <div class="chips">{% for t in topics %}<a class="chip" href="{{ cfg.base_url }}/topics/{{ t.slug }}/">{{ t.label }} · {{ t.count }}</a>{% endfor %}</div>
+{% if sections %}<section class="section" style="padding-bottom:0"><div class="wrap">
+  <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{% for s in sections %}
+    <div class="box" style="margin:0"><span class="label">{{ s.name }}</span><div class="chips">{% for t in s.topics %}<a class="chip" href="{{ cfg.base_url }}/topics/{{ t.slug }}/">{{ t.label }} · {{ t.count }}</a>{% endfor %}</div></div>{% endfor %}
+  </div>
 </div></section>{% endif %}
 
 <section class="section"><div class="wrap">

@@ -15,7 +15,7 @@ Editorial standards (non-negotiable):
 - Never invent statistics, prices, quotes, studies or features. If unsure, say what to check.
 - Recommend a product only when it truly fits the reader's problem; say who it is NOT for.
 - No income guarantees, no medical/legal/financial advice beyond general information.
-- Write in plain, friendly, expert language for busy small-business owners.
+- Write in plain, friendly, expert language for busy, practical readers.
 
 Write so search engines AND AI assistants (ChatGPT, Claude, Perplexity, Google AI Overviews)
 can quote you accurately:
@@ -38,6 +38,27 @@ _SECTIONS = {
         "additionalProperties": False,
     },
 }
+
+
+CARE_RULES = {
+    "finance": """Money topic (YMYL) — extra rules:
+- Educate, don't advise: explain concepts, trade-offs and how to decide; never tell the reader to buy,
+  sell or hold a specific security, coin or fund, and never promise returns.
+- Mention risk, fees and that rules/tax treatment differ by country; tell readers to check their
+  local regulator or a licensed adviser for personal decisions.
+- No specific interest rates, returns or tax thresholds unless clearly labelled as examples.""",
+    "health": """Baby/child health topic (YMYL) — extra rules:
+- Follow mainstream guidance from bodies like the WHO and national paediatric associations; if
+  guidance varies or is uncertain, say so.
+- Never give medication doses, diagnoses or treatment plans. Clearly list warning signs that need
+  a doctor, and say when to call emergency services.
+- Safety first: safe-sleep, car-seat and feeding safety must match mainstream guidance.
+- Tell parents to check with their paediatrician or health visitor for their own child.""",
+}
+
+
+def care_rules(cfg: Config, niche: str) -> str:
+    return CARE_RULES.get(cfg.niche(niche).care, "")
 
 
 def _lang_line(cfg: Config) -> str:
@@ -71,31 +92,45 @@ TOPICS_SCHEMA: dict[str, Any] = {
 }
 
 
+def pick_niches(cfg: Config, existing: list[dict[str, Any]], count: int) -> list[str]:
+    """Least-covered niches first, so the site grows evenly across every category."""
+    counts = {n.name: 0 for n in cfg.niches}
+    for a in existing:
+        if a.get("niche") in counts:
+            counts[a["niche"]] += 1
+    order = sorted(cfg.niches, key=lambda n: (counts[n.name], cfg.niches.index(n)))
+    return [n.name for n in order[:count]]
+
+
 def plan_topics(cfg: Config, llm: JSONModel, existing: list[dict[str, Any]], count: int) -> list[dict[str, Any]]:
     covered = "\n".join(f"- {a['title']} [{a.get('keyword', '')}]" for a in existing[:300]) or "(none yet)"
+    targets = pick_niches(cfg, existing, count)
+    schema = json.loads(json.dumps(TOPICS_SCHEMA))
+    schema["properties"]["topics"]["items"]["properties"]["niche"] = {"type": "string", "enum": targets}
     prompt = f"""You are the editor-in-chief and SEO strategist of "{cfg.site_name}" — {cfg.tagline}
 
-Niches we cover:
-{chr(10).join('- ' + n for n in cfg.niches)}
+This run, write ONE topic for EACH of these niches (use the niche text exactly), plus up to 3 spares:
+{chr(10).join('- ' + n for n in targets)}
 
 Already published (do NOT repeat or closely overlap):
 {covered}
 
-Propose {count + 3} new article topics. Favour long-tail keywords a new site can rank for,
-with clear buyer or problem intent where at least one of our partner tools is a natural fit:
-{', '.join(a.name for a in cfg.affiliates)}.
-Spread topics across different niches. {_lang_line(cfg)}"""
-    data = llm.generate_json(EDITORIAL_RULES, prompt, TOPICS_SCHEMA)
+Favour specific long-tail questions real people search for, that a new site can rank for and that
+AI assistants get asked. Where one of our partner tools genuinely fits, prefer that angle:
+{', '.join(a.name for a in cfg.affiliates)}. {_lang_line(cfg)}"""
+    data = llm.generate_json(EDITORIAL_RULES, prompt, schema)
     seen = {slugify(a["title"]) for a in existing} | {slugify(a.get("keyword", "")) for a in existing}
     picked: list[dict[str, Any]] = []
-    for t in data["topics"]:
-        key, kw = slugify(t["title"]), slugify(t["keyword"])
-        if key in seen or kw in seen:
-            continue
-        seen |= {key, kw}
-        picked.append(t)
-        if len(picked) == count:
-            break
+    used: set[str] = set()
+    # First pass: one topic per target niche; second pass: fill from spares.
+    for strict in (True, False):
+        for t in data["topics"]:
+            key, kw = slugify(t["title"]), slugify(t["keyword"])
+            if len(picked) == count or key in seen or kw in seen or (strict and t["niche"] in used):
+                continue
+            seen |= {key, kw}
+            used.add(t["niche"])
+            picked.append(t)
     return picked
 
 
@@ -203,6 +238,7 @@ Editing checklist:
 {catalog}
 
 {_ARTICLE_FIELDS_GUIDE}
+{care_rules(cfg, topic.get('niche', ''))}
 {_lang_line(cfg)}
 
 DRAFT (JSON):
@@ -220,8 +256,10 @@ Angle: {topic['angle']}
 Search intent: {topic['search_intent']}
 
 {_ARTICLE_FIELDS_GUIDE}
-- recommendations: 0–3 tools, ONLY from this partner catalog and only where they genuinely fit:
+- recommendations: 0–3 tools, ONLY from this partner catalog and only where they genuinely fit
+  (an empty list is fine and expected for topics where none of them fit):
 {catalog}
+{care_rules(cfg, topic['niche'])}
 {_lang_line(cfg)}"""
     art = _finish(cfg, llm.generate_json(EDITORIAL_RULES, prompt, article_schema(cfg)), topic)
     if cfg.editor_pass:
@@ -269,25 +307,42 @@ PRODUCT_SCHEMA: dict[str, Any] = {
 }
 
 
-def create_product(cfg: Config, llm: JSONModel, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> dict[str, Any]:
-    popular = "\n".join(f"- {a['title']}" for a in articles[:40]) or "(no articles yet)"
-    have = "\n".join(f"- {p['title']}" for p in products) or "(none yet)"
-    prompt = f"""Create a premium digital product (a practical playbook) for "{cfg.site_name}" readers,
-to sell for about {cfg.default_price}.
+def pick_section(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> str:
+    """Section with the fewest playbooks (ties: the one with the most articles, i.e. most traffic)."""
+    sections = list(dict.fromkeys(n.section for n in cfg.niches)) or ["Guides"]
+    n_prod = {s: sum(p.get("section") == s for p in products) for s in sections}
+    n_art = {s: sum(cfg.niche(a.get("niche", "")).section == s for a in articles) for s in sections}
+    return min(sections, key=lambda s: (n_prod[s], -n_art[s], sections.index(s)))
 
-Our audience reads articles like:
+
+def create_product(cfg: Config, llm: JSONModel, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> dict[str, Any]:
+    section = pick_section(cfg, articles, products)
+    niches = [n for n in cfg.niches if n.section == section]
+    related = [a for a in articles if cfg.niche(a.get("niche", "")).section == section]
+    popular = "\n".join(f"- {a['title']}" for a in (related or articles)[:40]) or "(no articles yet)"
+    have = "\n".join(f"- {p['title']}" for p in products) or "(none yet)"
+    cares = {n.care for n in niches if n.care}
+    prompt = f"""Create a premium digital product (a practical playbook) for "{cfg.site_name}" readers
+in our "{section}" section, to sell for about {cfg.default_price}.
+
+Topics in this section: {', '.join(n.name for n in niches)}
+
+Our readers in this section read articles like:
 {popular}
 
 Existing products (make something clearly different):
 {have}
 
 Requirements:
-- A specific, high-value outcome (e.g. a ready-to-use system, prompt pack, SOP or template kit).
+- A specific, high-value outcome (e.g. a ready-to-use system, planner, checklist kit, prompt pack or SOP).
 - 6–10 chapters with detailed, actionable paragraphs and a checklist each.
-- 5–15 copy-paste templates/prompts in `templates`.
-- sales_copy: honest, benefit-led, 120–200 words, no hype or income claims.
+- 5–15 copy-paste templates/prompts/worksheets in `templates`.
+- sales_copy: honest, benefit-led, 120–200 words, no hype, no income or results guarantees.
+{chr(10).join(CARE_RULES[c] for c in sorted(cares))}
 {_lang_line(cfg)}"""
-    return llm.generate_json(EDITORIAL_RULES, prompt, PRODUCT_SCHEMA)
+    product = llm.generate_json(EDITORIAL_RULES, prompt, PRODUCT_SCHEMA)
+    product["section"] = section
+    return product
 
 
 def product_markdown(product: dict[str, Any]) -> str:

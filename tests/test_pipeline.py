@@ -159,3 +159,27 @@ def test_indexnow_payload(cfg):
     body = indexnow.payload(cfg, indexnow.changed_urls(cfg, store))
     assert body["keyLocation"].endswith(".txt") and len(body["urlList"]) >= 3
     assert (cfg.public_dir / f"{site_mod.indexnow_key(cfg)}.txt").read_text() == body["key"]
+
+
+def test_niche_rotation_and_care_rules(cfg):
+    from earnbot.config import Niche
+    import dataclasses
+    c = dataclasses.replace(cfg, niches=[Niche("a", "S1"), Niche("b money", "Money", "finance"), Niche("c baby", "Baby", "health")])
+    existing = [{"niche": "a"}, {"niche": "a"}, {"niche": "b money"}]
+    assert generate.pick_niches(c, existing, 2) == ["c baby", "b money"]
+    assert "not financial" not in generate.care_rules(c, "a")
+    assert "never promise returns" in generate.care_rules(c, "b money")
+    assert "paediatric" in generate.care_rules(c, "c baby").lower()
+    assert generate.pick_section(c, [], [{"section": "S1"}]) == "Money"
+
+
+def test_health_article_shows_disclaimer_and_report(cfg):
+    from earnbot import report
+    from earnbot.config import Niche
+    import dataclasses
+    c = dataclasses.replace(cfg, niches=[Niche("n", "Baby & Parenting", "health")])
+    result = pipeline.run(c, FakeLLM(), None)
+    page = (c.public_dir / result["articles"][0] / "index.html").read_text()
+    assert "Not medical advice" in page
+    text = report.render(c, Store(c.content_dir, c.data_dir), result, "RUNURL")
+    assert "婴儿与育儿" in text and "QUICK ANSWER TEXT" in text and "RUNURL" in text

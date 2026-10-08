@@ -5,10 +5,11 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 from pathlib import Path
 
-from . import config, indexnow, pipeline, site
+from . import config, indexnow, pipeline, report, site
 from .llm import ClaudeCodeJSON, has_credentials
 from .store import Store
 
@@ -25,10 +26,15 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "run":
         llm = ClaudeCodeJSON(cfg.model, cfg.effort) if has_credentials() else None
-        report = pipeline.run(cfg, llm, args.deliverables)
-        print(json.dumps(report, indent=2, ensure_ascii=False))
+        result = pipeline.run(cfg, llm, args.deliverables)
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        text = report.render(cfg, Store(cfg.content_dir, cfg.data_dir), result, os.environ.get("RUN_URL", ""))
+        Path("report.md").write_text(text, encoding="utf-8")
+        reports = cfg.data_dir / "reports"
+        reports.mkdir(parents=True, exist_ok=True)
+        (reports / f"{result['started'][:16].replace(':', '')}.md").write_text(text, encoding="utf-8")
         # Fail the job only when generation was attempted and produced nothing.
-        return 1 if llm and report["errors"] and not report["articles"] and not report["products"] else 0
+        return 1 if llm and result["errors"] and not result["articles"] and not result["products"] else 0
 
     store = Store(cfg.content_dir, cfg.data_dir)
     if args.command == "build":

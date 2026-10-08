@@ -18,6 +18,13 @@ class Affiliate:
 
 
 @dataclass(frozen=True)
+class Niche:
+    name: str
+    section: str = "Guides"
+    care: str = ""          # "", "finance" or "health": stricter rules + on-page disclaimer
+
+
+@dataclass(frozen=True)
 class Config:
     site_name: str
     tagline: str
@@ -29,7 +36,7 @@ class Config:
     max_products: int
     model: str
     effort: str
-    niches: list[str]
+    niches: list[Niche]
     affiliates: list[Affiliate]
     default_price: str
     checkout_links: dict[str, str] = field(default_factory=dict)
@@ -55,6 +62,12 @@ class Config:
     def public_dir(self) -> Path:
         return self.root / "public"
 
+    def niche(self, name: str) -> Niche:
+        for n in self.niches:
+            if n.name.lower() == name.lower():
+                return n
+        return Niche(name=name)
+
     def affiliate(self, name: str) -> Affiliate | None:
         for a in self.affiliates:
             if a.name.lower() == name.lower():
@@ -79,7 +92,8 @@ def load(path: Path | None = None, root: Path | None = None) -> Config:
         max_products=int(auto.get("max_products", 12)),
         model=auto.get("model", "claude-opus-5-5"),
         effort=auto.get("effort", "high"),
-        niches=list(auto["niches"]),
+        niches=[Niche(name=n) if isinstance(n, str) else Niche(**n)
+                for n in raw.get("niches", auto.get("niches", []))],
         affiliates=[Affiliate(**a) for a in raw.get("affiliates", [])],
         default_price=default_price,
         checkout_links={k: v for k, v in checkout.items() if v},
