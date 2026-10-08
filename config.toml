@@ -18,7 +18,9 @@ contact_email = "shengchen424@gmail.com"   # public support email shown on Conta
 articles_per_run = 4       # x4 runs/day; every article still gets the senior-editor pass
 products_per_run = 1       # new digital product only when the catalog is below max_products
 max_products = 40
-product_interval_hours = 20  # at most ~1 new paid playbook per day (each needs a Stripe link)
+product_interval_hours = 20
+# Burst mode: until this UTC time, every run immediately starts the next one (non-stop generation).
+burst_until = "2026-10-09T03:00:00Z"   # = 9 Oct 11:00 Malaysia time  # at most ~1 new paid playbook per day (each needs a Stripe link)
 model = "claude-opus-5-5"
 effort = "high"
 editor_pass = true         # second "senior editor" pass on every article (better quality, 2x usage)

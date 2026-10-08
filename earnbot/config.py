@@ -47,6 +47,7 @@ class Config:
     upgrades_per_run: int = 2
     glossary_per_run: int = 10
     product_interval_hours: int = 20
+    burst_until: str = ""
     business_name: str = ""
     contact_email: str = ""
     refund_days: int = 30
@@ -107,6 +108,7 @@ def load(path: Path | None = None, root: Path | None = None) -> Config:
         upgrades_per_run=int(auto.get("upgrades_per_run", 2)),
         glossary_per_run=int(auto.get("glossary_per_run", 10)),
         product_interval_hours=int(auto.get("product_interval_hours", 20)),
+        burst_until=str(auto.get("burst_until", "")),
         business_name=site.get("business_name", site["name"]),
         contact_email=site.get("contact_email", ""),
         refund_days=int(raw.get("checkout_policy", {}).get("refund_days", 30)),

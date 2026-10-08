@@ -16,7 +16,7 @@ from .store import Store
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="earnbot", description="AI Earning Machine autopilot")
-    ap.add_argument("command", choices=["run", "build", "status", "indexnow"])
+    ap.add_argument("command", choices=["run", "build", "status", "indexnow", "burst"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--deliverables", type=Path, default=Path("deliverables"),
                     help="where full paid product files are written (kept out of the public site)")
@@ -40,6 +40,15 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "build":
         print(json.dumps(site.build(cfg, store)))
         return 0
+    if args.command == "burst":
+        # Exit 0 = keep chaining runs (still inside the burst window), 1 = stop.
+        from datetime import datetime, timezone
+        if not cfg.burst_until:
+            return 1
+        until = datetime.fromisoformat(cfg.burst_until.replace("Z", "+00:00"))
+        active = datetime.now(timezone.utc) < until
+        print(f"burst {'active' if active else 'over'} (until {cfg.burst_until})")
+        return 0 if active else 1
     if args.command == "indexnow":
         print(json.dumps(indexnow.submit(cfg, store) if cfg.indexnow else {"skipped": "disabled in config"}))
         return 0
