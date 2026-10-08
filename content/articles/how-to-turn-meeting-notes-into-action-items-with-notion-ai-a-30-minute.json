@@ -1,126 +1,209 @@
 {
-  "title": "How to Turn Meeting Notes into Action Items with Notion AI: A 30-Minute Setup for Small Teams",
-  "meta_description": "Set up Notion AI meeting notes to action items in 30 minutes: a template, a linked tasks database, copy-paste prompts and a weekly review routine.",
-  "intro": "Most small teams don't have a note-taking problem. They have a follow-through problem. Someone writes good notes, everyone agrees on next steps, and a week later nobody remembers who said they'd send the quote. This guide shows you how to build a Notion AI workflow that turns meeting notes into action items in about 30 minutes. You'll set up one meeting-notes template, one tasks database linked to it, and a few Notion AI prompts that summarise each meeting and pull out owners and due dates. You'll also get copy-paste prompts, a 15-minute weekly review routine, and an honest look at where the AI gets things wrong, plus how to catch it before a missed task costs you a client.",
+  "title": "Notion AI Meeting Notes to Action Items: 30-Minute Setup",
+  "meta_description": "Turn Notion AI meeting notes to action items in 30 minutes: a template, a linked tasks database, copy-paste prompts and a weekly review routine.",
+  "quick_answer": "To turn meeting notes into action items with Notion AI, link a Meetings database to a Tasks database. Give the Tasks database Owner, Due and Status properties. Add a meeting template with a filtered view of each meeting's tasks. Then ask Notion AI to list every task with an owner, a due date and a source quote, and to write UNASSIGNED or NO DATE instead of guessing. One person checks the draft before any task goes into the database.",
+  "key_takeaways": [
+    "Set up the structure before the AI: two linked databases (Meetings and Tasks) plus one meeting template do most of the work.",
+    "Use strict prompts that make Notion AI write UNASSIGNED or NO DATE instead of inventing owners and deadlines, and quote the line each task came from.",
+    "The AI drafts and a human confirms. The person who ran the meeting spends two minutes approving tasks before they go live.",
+    "A 'Needs owner or date' filtered view and a 15-minute weekly review catch most tasks that would otherwise slip.",
+    "Check Notion's own pricing and help pages for current AI features, plan inclusions and limits. They have changed before and may change again."
+  ],
+  "who_this_is_for": "This is for owners and managers of small teams (roughly 2–15 people) who hold recurring meetings in or alongside Notion and keep losing track of who agreed to do what.",
+  "intro": "Most small teams don't have a note-taking problem. They have a follow-through problem. Someone writes good notes and everyone agrees on next steps. A week later, nobody remembers who said they'd send the quote.\n\nThis guide shows you how to build a Notion AI workflow that turns meeting notes into action items in about 30 minutes. You'll set up one meeting template, one tasks database linked to it, and a few strict Notion AI prompts. The prompts summarise each meeting and pull out owners, due dates and the exact line each task came from.\n\nYou'll also get a worked example with messy real-world notes and a 15-minute weekly review routine. Finally, there's an honest look at where the AI gets things wrong and how to catch it before a missed task costs you a client.",
+  "steps": [
+    {
+      "name": "Create the Tasks database",
+      "text": "Create a page called 'Meetings & Tasks'. Inside it, add a full-page database called 'Tasks' with these properties: Task (title), Owner (Person), Due (Date), Status (Status: Not started / In progress / Done) and Source (Text). If you work with clients or freelancers who aren't in your workspace, also add a Text property called 'External owner'."
+    },
+    {
+      "name": "Create the Meetings database and link it",
+      "text": "Add a second full-page database called 'Meetings' with Date (Date), Type (Select: Team sync, Client, Planning) and Attendees (Person). Add a Relation property pointing to Tasks and switch on the option to show it on Tasks as well. This creates a 'Meeting' column in Tasks automatically."
+    },
+    {
+      "name": "Build the meeting template",
+      "text": "In the Meetings database, click the dropdown arrow next to the New button and create a new template called 'Meeting notes'. Add these headings in order: Agenda, Notes, Decisions, AI summary, Action items (draft), Action items (confirmed)."
+    },
+    {
+      "name": "Add a self-filtering task view to the template",
+      "text": "Under 'Action items (confirmed)' in the template, add a linked view of the Tasks database. Filter it so Meeting contains the template page itself. Inside database templates, Notion lets you choose the template page as the filter value. Each new meeting then shows only its own tasks, and tasks added in that view link back to the meeting automatically. If you can't see this option, check Notion's help docs for the current name of the setting."
+    },
+    {
+      "name": "Make it the default template",
+      "text": "Set 'Meeting notes' as the default template for the Meetings database. Every new meeting page will then have the same structure, so nobody has to remember the format."
+    },
+    {
+      "name": "Create three safety-net views in Tasks",
+      "text": "Create these views in the Tasks database. 'My open tasks': Owner is Me, Status is not Done. 'Overdue': Due is before today, Status is not Done. 'Needs owner or date': Owner is empty OR Due is empty. The last view catches anything the AI or a person left incomplete."
+    },
+    {
+      "name": "Run the prompts after each meeting",
+      "text": "Fill in the meeting's Date property first. Then paste or type the notes and run the summary, action-item and checker prompts from this guide. Put each result under its matching heading."
+    },
+    {
+      "name": "Confirm tasks and test with one real meeting",
+      "text": "The meeting owner reviews the draft table, fixes owners and dates, and adds each confirmed task as a row in the 'Action items (confirmed)' view. Try the whole process on one recent meeting before you roll it out, and adjust anything that feels clunky."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to get from meeting notes to tracked action items in Notion",
+    "headers": [
+      "Approach",
+      "Setup effort",
+      "Main risk",
+      "Best for"
+    ],
+    "rows": [
+      [
+        "Manual notes + Notion AI prompts (this guide)",
+        "Low: about 30 minutes",
+        "AI guesses owners or dates if prompts aren't strict",
+        "Most small teams starting out"
+      ],
+      [
+        "Notion's built-in AI meeting notes (transcription), where your plan includes it",
+        "Low, but check plan and consent requirements",
+        "Transcripts can mishear names; summaries still need review",
+        "Teams on plans with the feature that are comfortable recording calls"
+      ],
+      [
+        "Calendar-triggered automation via Zapier or Make",
+        "Medium: an extra tool to configure and maintain",
+        "Automating before the manual process is stable",
+        "Teams with many recurring meetings and a settled template"
+      ],
+      [
+        "Notion AI for summaries, tasks kept in an existing PM tool",
+        "Low",
+        "Copying tasks across by hand can be forgotten",
+        "Teams already happy with Asana, ClickUp, Trello or Jira"
+      ]
+    ]
+  },
   "sections": [
     {
       "heading": "Who this setup is for (and who should skip it)",
       "paragraphs": [
-        "This works best for teams of roughly 2–15 people who have recurring meetings: weekly team syncs, client check-ins, project stand-ups or monthly planning sessions. If you leave those meetings with a list of 'someone should…' items that quietly disappear, this is for you.",
-        "It's also a good fit if your team already uses Notion, or if you don't have a proper task system yet and want something lightweight. Notes and tasks live in the same workspace, so the meeting where a task was agreed is always one click away from the task itself."
+        "This setup suits small teams with at least one recurring meeting a week and no reliable way to track what was agreed. Typical examples are weekly team syncs, client check-ins, project stand-ups and monthly planning sessions. If you leave those meetings with a list of 'someone should…' items that quietly disappear, this is for you.",
+        "It's also a good fit if your team already uses Notion, or if you have no proper task system yet and want something lightweight. Notes and tasks live in the same workspace, so the meeting where a task was agreed is always one click away from the task itself."
       ],
       "bullets": [
-        "Good fit: small teams with at least one recurring meeting a week and no reliable way to track what was agreed.",
         "Good fit: agencies, consultancies and service businesses that run frequent client calls and need a record of who promised what.",
-        "Not for: solo owners with no recurring meetings. A simple to-do list or calendar reminders will do the job with less setup.",
-        "Not for: teams already happy with their project management tool (Asana, ClickUp, Trello, Jira and so on). Moving tasks into Notion would create a second source of truth. If that's you, keep your tool and just borrow the prompts below for summarising notes.",
-        "Not for: anyone who needs a guaranteed-accurate legal or compliance record of meetings. AI summaries are a convenience, not an official minute."
+        "Good fit: small internal teams whose weekly sync produces tasks that never get followed up.",
+        "Skip it: solo owners with no recurring meetings. A simple to-do list or calendar reminders will do the job with less setup.",
+        "Skip the tasks database: teams already happy with a dedicated project management tool. A second task list creates a second source of truth. Borrow the prompts and keep your tool.",
+        "Skip it: anyone who needs a legally reliable or compliance-grade record of meetings. AI summaries are a convenience, not official minutes."
       ]
     },
     {
-      "heading": "What you'll build: three connected pieces",
+      "heading": "What you'll build: two linked databases and three prompts",
       "paragraphs": [
-        "The whole system is two databases and a set of prompts. The design matters more than the AI: if tasks don't have a clear home with an owner and a date, no prompt will rescue them.",
-        "Here's the structure. Set it up exactly like this first, then tweak it once you've used it for a few weeks."
+        "The whole system is a Meetings database, a Tasks database related to it, and three Notion AI prompts you run on each meeting page. The structure matters more than the AI. If a task has no clear home with an owner and a date, no prompt will rescue it.",
+        "The relation between the two databases is the key piece. Every task knows which meeting it came from, and every meeting page shows a live list of its own tasks. When someone asks 'why are we doing this?', the answer is one click away.",
+        "Build it exactly as described in the steps first, then adjust it after a few weeks of real use. Teams that customise heavily on day one often end up with properties nobody fills in."
       ],
       "bullets": [
-        "Meetings database: one page per meeting. Properties are Name, Date, Type (select: Team sync, Client, Planning), Attendees (Person) and Tasks (relation to the Tasks database).",
-        "Tasks database: one row per action item. Properties are Task (title), Owner (Person), Due (Date), Status (Not started / In progress / Done), Meeting (the other side of the relation) and Source (text, for the line in the notes the task came from).",
-        "Notion AI prompts: one to summarise, one to extract action items, and one to check the extraction. You run them from inside each meeting page.",
-        "Tip: if you work with clients or freelancers who aren't members of your workspace, the Person property can't hold their names. Add a second text property called 'External owner' for them."
+        "Meetings database: one page per meeting, with Name, Date, Type, Attendees and a Tasks relation.",
+        "Tasks database: one row per action item, with Task, Owner, Due, Status, Meeting (the other side of the relation) and Source (the original phrase from the notes).",
+        "Prompts: one to summarise, one to extract action items, and one to check the extraction against the notes.",
+        "Views: 'My open tasks', 'Overdue' and 'Needs owner or date'. The third view is your safety net."
       ]
     },
     {
-      "heading": "Step by step: Notion AI meeting notes to action items in 30 minutes",
+      "heading": "Copy-paste prompts for Notion AI meeting notes to action items",
       "paragraphs": [
-        "Block out half an hour and follow these steps in order. Menu names in Notion change from time to time, so if a label looks slightly different, look for the closest match.",
-        "Once this is built, every new meeting page arrives with the right sections and a live list of its own tasks. Nobody has to remember the format."
+        "These prompts work best when you run them from inside the meeting page after the notes are written. Place your cursor on an empty line under the Notes section, press the space bar or choose Ask AI, then paste the prompt. Insert the result under the matching heading. Notion's menu labels change from time to time, so look for the closest match if yours look different.",
+        "The wording is strict on purpose. Missed tasks aren't the biggest risk with AI extraction. Invented owners and dates that sound plausible are. These prompts tell the AI to flag gaps instead of filling them, and to quote the original line so a human can check quickly.",
+        "Depending on your plan, Notion may also offer AI meeting notes that transcribe and summarise calls, and AI that can create database rows for you. If you have these features, use them for drafting, but still run the checker prompt and the human review. Check Notion's site to see what your plan includes."
       ],
       "bullets": [
-        "Step 1 (5 min): Create a new page called 'Meetings & Tasks'. Inside it, create a full-page database called 'Tasks' and add the properties listed above: Owner (Person), Due (Date), Status (Status), Source (Text).",
-        "Step 2 (5 min): Create a second full-page database called 'Meetings'. Add Date, Type (Select) and Attendees (Person). Then add a Relation property pointing to Tasks and switch on the option to show it on the Tasks database too. This creates the 'Meeting' column in Tasks automatically.",
-        "Step 3 (10 min): In the Meetings database, open the New button's dropdown and create a new template called 'Meeting notes'. Give it these headings: Agenda, Notes, Decisions, AI summary, Action items (draft), Action items (confirmed).",
-        "Step 4: Under 'Action items (confirmed)' in the template, add a linked view of the Tasks database. Filter it so Meeting contains the template page itself (Notion lets you pick the current template page as a filter value). Every meeting created from the template will then show only its own tasks, and any task you add in that view links back to the meeting automatically.",
-        "Step 5 (3 min): Set 'Meeting notes' as the default template for the Meetings database so every new page uses it.",
-        "Step 6 (5 min): In the Tasks database, create three views: 'My open tasks' (Owner is Me, Status is not Done), 'Overdue' (Due is before today, Status is not Done) and 'Needs owner or date' (Owner is empty OR Due is empty). That last view is your safety net, and we'll come back to it.",
-        "Step 7 (2 min): Run a test. Create a meeting page, paste in notes from a recent meeting, and run the prompts in the next section. Fix anything that feels clunky before you roll it out to the team."
+        "Prompt 1 (summary): \"Summarise the meeting notes on this page in no more than 6 bullet points. Cover decisions made, open questions, and risks or blockers. Use only information in the notes and do not add anything. If a point is ambiguous, start the bullet with 'UNCLEAR:' and say what's missing.\"",
+        "Prompt 2 (action items): \"From the notes on this page, list every action item as a table with columns Task, Owner, Due date and Source quote. Start each task with a verb. Only use names that appear in the notes or the Attendees property. If no single person is clearly named as owner, write 'UNASSIGNED'. If no date is clearly stated, write 'NO DATE'. Do not guess. Convert relative dates like 'next Friday' into a calendar date only if the meeting date is on this page; otherwise keep the original wording. Put the exact phrase from the notes in Source quote.\"",
+        "Prompt 3 (checker): \"Compare the action items table on this page with the notes. List (1) any task where the owner or date was inferred rather than stated, (2) any duplicate or overlapping tasks, (3) any ideas or suggestions that were listed as tasks, and (4) any commitment in the notes that is missing from the table, such as 'I'll…', 'we need to…' or 'can you…'.\"",
+        "Prompt 4 (optional client follow-up): \"Using the Decisions section and the confirmed action items on this page, draft a short, friendly follow-up email to the client. List what we agreed, who is doing what, and by when. Leave out anything marked UNASSIGNED or NO DATE.\"",
+        "After review, add each confirmed task as a row in the 'Action items (confirmed)' view so it links to the meeting and appears in everyone's task views."
       ]
     },
     {
-      "heading": "Copy-paste Notion AI prompts for summaries and action items",
+      "heading": "Worked example: from messy notes to confirmed tasks",
       "paragraphs": [
-        "Run these from inside a meeting page once the notes are in. Highlight the Notes section or place your cursor below it and open Notion AI (the Ask AI option, or the space bar on an empty line). Paste the prompt and insert the result under the matching heading.",
-        "The wording is strict on purpose. The biggest risk with AI extraction isn't missing tasks. It's inventing owners and dates that sound right. These prompts tell the AI to flag gaps instead of filling them.",
-        "Depending on your plan, Notion may also offer an AI meeting notes feature that transcribes calls and drafts a summary, and AI features that can create database entries for you. If you have them, use them for the drafting step, but still run the checking prompt and the human review below. Check Notion's site for which features your plan includes."
+        "A realistic example shows how the prompts handle vague notes. Imagine a client call with a bakery on Tuesday 6 October. The notes read: \"Sam: we'll send revised quote. Priya said she can get mockups over by Friday. Maybe try Instagram ads at some point? Need to confirm delivery slots ASAP. Jo to check stock levels before launch.\"",
+        "Run Prompt 2 and a well-behaved draft should produce four rows. 'Send revised quote' is UNASSIGNED, because Sam said 'we', not 'I'. 'Send mockups to client' goes to Priya, due Friday 9 October, since the meeting date is on the page. 'Confirm delivery slots' is UNASSIGNED with NO DATE, because 'ASAP' is not a date. 'Check stock levels' goes to Jo with NO DATE, because 'before launch' needs a real date.",
+        "Prompt 3 should then flag 'Instagram ads' as an idea, not a commitment. If the draft listed it as a task, delete it. If the team actually wants it, add it to a backlog with an owner. The reviewer spends two minutes confirming Sam owns the quote, setting real dates, and moving the four tasks into the confirmed view."
       ],
       "bullets": [
-        "Prompt 1 (summary): \"Summarise the meeting notes on this page in no more than 6 bullet points. Cover: decisions made, open questions, and risks or blockers. Use only information in the notes; do not add anything. If a point is ambiguous, start the bullet with 'UNCLEAR:' and say what's missing.\"",
-        "Prompt 2 (action items): \"From the notes on this page, list every action item as a table with columns: Task, Owner, Due date, Source quote. Rules: start each task with a verb. Only use names that appear in the notes or the Attendees property. If no owner is clearly stated, write 'UNASSIGNED'. If no date is clearly stated, write 'NO DATE'. Do not guess. Only convert relative dates like 'next Friday' into a calendar date if the meeting date is on this page; otherwise keep the original wording. Put the exact phrase from the notes in Source quote.\"",
-        "Prompt 3 (checker): \"Compare the action items table on this page with the notes. List: (1) any task where the owner or date was inferred rather than stated, (2) any duplicate or overlapping tasks, (3) any commitment in the notes, such as 'I'll…', 'we need to…' or 'can you…', that is missing from the table.\"",
-        "Prompt 4 (client follow-up email, optional): \"Using the Decisions and confirmed action items on this page, draft a short, friendly follow-up email to the client. List what we agreed, who is doing what, and by when. Leave out anything marked UNASSIGNED or NO DATE.\"",
-        "Once you've reviewed the draft table, add each confirmed task as a row in the 'Action items (confirmed)' linked view so it's tied to the meeting and shows up in everyone's task views."
+        "Watch for 'we', 'someone' and team names: these usually mean no single owner was agreed.",
+        "Treat 'ASAP', 'soon' and 'before launch' as NO DATE until a human sets a calendar date.",
+        "Use the Source quote column to tell commitments ('I can', 'Priya will') from ideas ('maybe', 'might be worth')."
       ]
     },
     {
       "heading": "Where the AI gets it wrong and how to catch it",
       "paragraphs": [
-        "Notion AI is good at reading messy notes and producing a tidy list. It isn't good at knowing what people actually meant. These are the failure patterns to expect, and the cheapest fix for each.",
-        "The basic rule is that the AI drafts and a human confirms. Pick one person per meeting, usually whoever ran it, to spend two minutes approving the draft before tasks go into the database. That one habit catches most problems."
+        "Notion AI is good at turning messy notes into a tidy list, but it can't know what people actually meant. Expect the failure patterns below, and use the cheapest fix for each.",
+        "The core rule is that the AI drafts and a human confirms. Give one person per meeting, usually whoever ran it, the job of approving the draft before tasks enter the database. That single habit catches most problems."
       ],
       "bullets": [
-        "Unclear owners: notes like 'we'll look into pricing' or 'marketing to follow up' don't name a person. The AI may pick the most likely person, or the person who spoke last. Fix: the prompt forces 'UNASSIGNED', and the 'Needs owner or date' view catches anything that slips through. Better still, end every meeting with 30 seconds of 'who owns each item?'",
-        "Vague deadlines: 'ASAP', 'soon', 'before the launch' and 'end of month' can be turned into a specific date that nobody agreed to. Fix: keep NO DATE in the draft and agree a real date in the meeting or in the review.",
-        "Wrong relative dates: 'next Friday' depends on the meeting date. If the date property is empty or wrong, the conversion will be wrong too. Fix: always fill in the Date property before running prompts.",
-        "Ideas mistaken for tasks: 'it might be worth trying a newsletter' can turn into 'Launch newsletter'. Fix: the Source quote column shows you the original phrase, so you can tell at a glance whether it was a commitment or a passing thought.",
-        "Missed tasks: commitments buried mid-paragraph or said casually ('I can send that over') sometimes get skipped. Fix: run the checker prompt. It's specifically looking for 'I'll' and 'can you' phrasing.",
-        "Bad input: if the notes are three cryptic words, the AI can't recover what was said. Fix: take notes in the template's headings and write decisions in full sentences."
+        "Unclear owners: 'we'll look into pricing' or 'marketing to follow up' names no one. Fix: the prompt forces UNASSIGNED, and the 'Needs owner or date' view catches leftovers. Better still, end every meeting with 30 seconds of 'who owns each item?'",
+        "Vague deadlines turned into fake ones: 'end of month' can become a specific date nobody agreed. Fix: keep NO DATE in the draft and set the real date during review.",
+        "Wrong relative dates: 'next Friday' depends on the meeting date. Fix: always fill in the Date property before running prompts.",
+        "Ideas mistaken for tasks: 'it might be worth trying a newsletter' can become 'Launch newsletter'. Fix: check the Source quote column.",
+        "Missed commitments: casual lines like 'I can send that over' sometimes get skipped. Fix: run the checker prompt, which looks for 'I'll' and 'can you' phrasing.",
+        "Bad input: three cryptic words can't be recovered by any AI. Fix: write notes under the template headings and record decisions as full sentences.",
+        "External people: the Person property only holds workspace members. Fix: put client or freelancer names in the 'External owner' text property."
       ]
     },
     {
       "heading": "The 15-minute weekly review routine",
       "paragraphs": [
-        "The system only works if someone looks at it. Put a recurring 15-minute slot in the calendar, for example Friday mornings or right before your Monday team sync, and work through this checklist. One person can do it, or you can do it together at the start of a weekly meeting.",
-        "Use filtered views for the actual task status rather than asking the AI. Filters on Owner, Due and Status are exact. AI summaries of a database can be helpful, but they can miss or misstate rows."
+        "A weekly 15-minute review is what keeps the system trustworthy. Put a recurring slot in the calendar, such as Friday morning or just before your Monday sync. Work through the checklist below alone or as a team.",
+        "Use filtered views, not AI summaries, to check task status. Filters on Owner, Due and Status are exact. AI summaries of a database are handy for overviews, but they can miss or misstate rows."
       ],
       "bullets": [
-        "Open 'Needs owner or date'. Assign an owner and a real due date to every row, or delete the task if nobody actually committed to it.",
-        "Open 'Overdue'. For each task, either mark it Done, set a new date (with a short note on why), or escalate it in the next meeting.",
-        "Skim this week's meeting pages and read the AI summary section only. Look for any 'UNCLEAR:' bullets that were never resolved.",
-        "Check for duplicates: the same task often comes up in two meetings. Merge them and keep the link to both meetings in the relation.",
-        "Optionally, on a weekly review page, ask Notion AI: \"Summarise the decisions from this week's meeting pages in 5 bullets for the team.\" Check it against the pages before you share it.",
-        "Archive or mark Done anything finished, so your views stay short enough that people actually read them."
+        "Open 'Needs owner or date' and give every row an owner and a real due date. Delete the task if nobody actually committed to it.",
+        "Open 'Overdue'. For each task, mark it Done, set a new date with a one-line reason, or raise it in the next meeting.",
+        "Skim the AI summary on this week's meeting pages and look for unresolved 'UNCLEAR:' bullets.",
+        "Merge duplicate tasks that came up in two meetings, and keep both meetings in the relation.",
+        "Optionally, ask Notion AI on a review page: \"Summarise the decisions from this week's meeting pages in 5 bullets for the team.\" Check it against the pages before you share it.",
+        "Mark finished work as Done so views stay short enough that people actually read them."
       ]
     },
     {
-      "heading": "Optional extras: automation and checking your Notion AI plan",
+      "heading": "Optional extras: automation, plan limits and recording consent",
       "paragraphs": [
-        "Once the core setup has been running for a few weeks, you might want to remove a few manual steps. A common one is creating meeting pages automatically from your calendar. Tools like Zapier or Make can watch Google Calendar or Outlook for new events and create a page in your Meetings database with the title, date and attendees already filled in. Another is posting a weekly digest of overdue tasks to Slack or email. Both are worth doing only after the manual process works. Automating a messy process just produces mess faster.",
-        "On cost and limits: Notion has changed how AI is packaged and priced more than once, and which AI features (including meeting transcription and AI that can create database entries) are included can differ by plan. Before you commit, check Notion's current pricing page and help docs for what your plan includes, any usage limits, and whether every team member needs a paid seat to use AI. Rather than trust a figure in a blog post, including this one, read Notion's own page on the day you decide.",
-        "Also check your own obligations before recording or transcribing calls. Let attendees know, follow your clients' preferences, and look up the recording-consent rules where you and they are based."
+        "Add automation only after the manual workflow has run smoothly for a few weeks. If you automate a messy process, you just get mess faster.",
+        "Creating meeting pages from your calendar is a popular next step. Zapier or Make can watch Google Calendar or Outlook for new events and create a page in your Meetings database with the title, date and attendees filled in. Another useful automation posts a weekly digest of overdue tasks to Slack or email. Zapier is generally the simpler place to start. Make's visual builder can suit more complex or higher-volume scenarios. Compare both on their current pricing pages before choosing.",
+        "Notion has changed how AI is packaged and priced more than once. Which AI features are included, such as meeting transcription or AI that creates database entries, can differ by plan. Before you commit, check Notion's current pricing page and help docs for plan inclusions, usage limits and whether every member needs a paid seat.",
+        "Check consent before recording or transcribing calls. Tell attendees, respect clients who would rather not be recorded, and look up the recording-consent rules where you and they are based. This is general information, not legal advice."
       ],
       "bullets": [
-        "Automate meeting-page creation from your calendar only once the template is stable.",
-        "Check Notion's site for current AI pricing, plan inclusions and usage limits.",
-        "Tell attendees when meetings are recorded or transcribed, and respect clients who'd rather not be."
+        "Automate meeting-page creation only after the template has stopped changing.",
+        "Confirm AI features, limits and seat requirements on Notion's own site on the day you decide.",
+        "Announce recording or transcription at the start of every call where you use it."
       ]
     }
   ],
   "recommendations": [
     {
       "product": "Notion",
-      "best_for": "Small teams with recurring meetings who want meeting notes, AI summaries and a linked task list in one workspace, with no separate project management tool to maintain.",
-      "not_for": "Solo owners with no recurring meetings, and teams already happy with a dedicated project management tool, where adding Notion tasks would create a second source of truth."
+      "best_for": "Small teams with recurring meetings who want meeting notes, AI summaries and a linked task list in one workspace, without maintaining a separate project management tool.",
+      "not_for": "Solo owners with no recurring meetings, and teams already happy with a dedicated project management tool, where Notion tasks would become a second source of truth."
     },
     {
       "product": "Zapier",
-      "best_for": "Teams that want to automatically create a Notion meeting page from each calendar event, or send overdue-task reminders to Slack or email, without writing code.",
-      "not_for": "Teams that haven't yet got the manual Notion workflow running smoothly, or very high-volume automations where per-task costs add up. Compare it with Make for that case."
+      "best_for": "Teams that want to create a Notion meeting page from each calendar event, or send overdue-task reminders to Slack or email, with a beginner-friendly no-code setup.",
+      "not_for": "Teams whose manual Notion workflow isn't running smoothly yet, or very high-volume automations where usage-based costs can add up. Compare it with Make first."
+    },
+    {
+      "product": "Make",
+      "best_for": "Teams with many recurring meetings, or more complex multi-step automations, who are comfortable with a visual scenario builder and want to keep high-volume automation costs down.",
+      "not_for": "Beginners who want the simplest possible setup, or teams that only need one or two basic automations."
     }
   ],
   "faq": [
     {
       "question": "Can Notion AI automatically create action items from meeting notes?",
-      "answer": "Notion AI can read the notes on a page and draft a list of action items with owners and due dates. Depending on your plan, it may also be able to create database entries for you directly. Either way, treat the output as a draft. Have one person check owners and dates before tasks are confirmed, because the AI can guess when notes are vague."
+      "answer": "Yes, as a draft. Notion AI can read the notes on a page and list action items with owners and due dates. Depending on your plan, it may also be able to create database entries directly. Either way, have one person check owners and dates before tasks are confirmed, because the AI can guess when notes are vague."
     },
     {
       "question": "Does Notion AI record and transcribe meetings?",
@@ -128,20 +211,26 @@
     },
     {
       "question": "How much does Notion AI cost for a small team?",
-      "answer": "Notion has changed how it packages and prices AI several times, so we don't quote numbers here. Check Notion's official pricing page for current plan prices, which AI features each plan includes, any usage limits, and whether every team member needs a paid seat."
+      "answer": "Notion has changed how it packages and prices AI several times, so we don't quote figures here. Check Notion's official pricing page for current prices, which AI features each plan includes, any usage limits, and whether every team member needs a paid seat."
     },
     {
       "question": "How do I stop Notion AI from making up owners or deadlines?",
-      "answer": "Tell it not to guess. In the prompt, ask it to write 'UNASSIGNED' or 'NO DATE' when the notes don't say, and to include the exact source quote for each task. Then keep a filtered 'Needs owner or date' view in your tasks database and clear it during a weekly review."
+      "answer": "Tell it not to guess. Ask it to write UNASSIGNED or NO DATE when the notes don't say, and to quote the source line for each task. Then keep a 'Needs owner or date' filtered view in your tasks database and clear it during a weekly review."
     },
     {
-      "question": "Should I use Notion for tasks if my team already uses Asana or Trello?",
-      "answer": "Usually not. Two task systems means people check neither properly. Keep your existing tool for tasks and just use the Notion AI summary and extraction prompts on your meeting notes, then move the confirmed actions into the tool you already use."
+      "question": "Should I track tasks in Notion if my team already uses Asana or Trello?",
+      "answer": "Usually not. With two task systems, people tend to check neither properly. Keep your existing tool for tasks, use the Notion AI summary and extraction prompts on your meeting notes, and move the confirmed actions into the tool you already use."
+    },
+    {
+      "question": "What is the best Notion template for meeting notes with action items?",
+      "answer": "A simple one works best. Use the headings Agenda, Notes, Decisions, AI summary, Action items (draft) and Action items (confirmed). Add a linked Tasks view filtered to the current meeting, and set it as the default template so every meeting is recorded the same way."
     }
   ],
-  "conclusion": "Getting from Notion AI meeting notes to action items reliably comes down to structure plus a quick human check. Build the two linked databases, use a template so every meeting is recorded the same way, and run strict prompts that flag missing owners and dates instead of guessing them. Then protect the system with a 15-minute weekly review of the 'Needs owner or date' and 'Overdue' views. Start with one recurring meeting this week, run it through the template, and adjust the prompts to fit how your team talks. Once it's working, roll it out to your other meetings, and check Notion's current plan details before you upgrade anyone's seat.",
+  "conclusion": "Reliably turning Notion AI meeting notes into action items comes down to structure plus a quick human check. Build two linked databases and use one template so every meeting is recorded the same way. Run strict prompts that flag missing owners and dates instead of guessing them. Then protect the system with a 15-minute weekly review of the 'Needs owner or date' and 'Overdue' views.\n\nStart this week with one recurring meeting. Run it through the template and adjust the prompts to fit how your team talks. Once it's working, roll it out to your other meetings and consider automation. Check Notion's current plan details before you upgrade anyone's seat.",
   "keyword": "notion ai meeting notes to action items",
   "niche": "AI tools for small business productivity",
+  "version": 2,
   "slug": "how-to-turn-meeting-notes-into-action-items-with-notion-ai-a-30-minute",
-  "published": "2026-10-08T06:50:15+00:00"
+  "published": "2026-10-08T06:50:15+00:00",
+  "updated": "2026-10-08T07:43:59+00:00"
 }

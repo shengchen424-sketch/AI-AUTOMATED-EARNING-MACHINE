@@ -1,0 +1,254 @@
+{
+  "title": "Use QuickBooks Online Bank Rules to Auto Categorize Transactions",
+  "meta_description": "Set up QuickBooks Online bank rules to auto categorize transactions, decide when to auto-add, and catch errors with a quick monthly review checklist.",
+  "quick_answer": "To auto categorize transactions in QuickBooks Online, open Transactions > Rules (or the Rules tab under Bank transactions) and click New rule. Choose money in or money out and the accounts, add a condition such as \"Description contains ADOBE,\" then set the payee and category. Leave automatic confirmation (auto-add) off until the rule proves accurate, and review rule-applied transactions monthly.",
+  "key_takeaways": [
+    "Categorize 30–60 days by hand first. The vendors that repeat become your rule plan.",
+    "Build five rule types first: software subscriptions, card processor deposits, fuel, owner draws and fixed recurring vendors.",
+    "Put specific rules (\"AMAZON WEB SERVICES\") above broad ones (\"AMAZON\"), because the first rule that matches wins.",
+    "Keep auto-add off for new rules. Turn it on only for fixed, 100% business charges that have been right for several months.",
+    "Never auto-add processor deposits or vendors you also enter bills for. Match those instead, or you'll get duplicates and understated fees.",
+    "Run a short monthly review (holding accounts, rule-applied transactions, P&L swings, reconciliation), and ask your accountant before automating owner draws or vehicle costs."
+  ],
+  "who_this_is_for": "This guide is for small-business owners who keep their own books in QuickBooks Online and want bank feed transactions categorized automatically without letting errors pile up until tax season.",
+  "intro": "If you do your own bookkeeping, most of your time probably goes into the bank feed. Every month brings dozens or hundreds of transactions, and most come from the same vendors. QuickBooks Online bank rules let you tell the software once that \"ADOBE\" is a software subscription or \"SHELL\" is fuel, and from then on it fills in that category automatically. Set up well, rules can shrink a weekly chore into a short monthly session. Set up carelessly, they can file things in the wrong account for months without anyone noticing. This guide covers how to build rules step by step, the five rule types most small businesses need, when to let QuickBooks auto-add transactions and when to keep reviewing them, what rules can't do, and a monthly checklist that catches mistakes before your accountant (or the tax deadline) finds them. One caveat: Intuit changes QuickBooks Online menus, feature names and plan features regularly. Check what your plan includes on Intuit's website, and talk to your accountant before you automate anything with tax consequences.",
+  "steps": [
+    {
+      "name": "Categorize a month or two by hand first",
+      "text": "Before you create any rules, categorize the last 30–60 days of transactions manually in the For review tab. Write down every vendor that repeats, the exact wording your bank uses for it (for example \"ADOBE *CREATIVE CLD 800-833-6687\"), and the category you picked. That list is your rule plan."
+    },
+    {
+      "name": "Open the Rules page",
+      "text": "Go to Transactions > Rules. Some layouts use Banking > Rules instead, or put a Rules tab on the Bank transactions page. Menu names change between versions, so if you can't find it, type \"Rules\" into the QuickBooks search bar."
+    },
+    {
+      "name": "Create a new rule and give it a clear name",
+      "text": "Click New rule. Pick a name you'll still understand in six months, using the pattern \"Type – Vendor,\" such as \"Software – Adobe\" or \"Owner draw – personal acct 1234.\" Clear names make the rules list much easier to review, reorder and share with your accountant."
+    },
+    {
+      "name": "Choose money in or money out, and the accounts",
+      "text": "Choose whether the rule applies to money in or money out. On credit cards, charges count as money out and refunds as money in. Then select only the bank and card accounts where the transaction actually shows up, so the rule can't catch a similar charge on a different card."
+    },
+    {
+      "name": "Set the conditions",
+      "text": "Choose whether a transaction has to match All of your conditions or Any of them. Then add conditions on the description (or bank text, if your version offers it) and the amount. A good template: \"Description contains ADOBE\" AND \"Amount equals 59.99.\" Use a short, distinctive word, because banks often add store numbers or dates that change. Add an amount condition when one vendor can mean two different categories."
+    },
+    {
+      "name": "Set what the rule assigns",
+      "text": "Pick the transaction type (Expense, Check or Transfer for money out; Deposit or Transfer for money in), then the payee and the category. Depending on your plan, you can also set a class, location or tags, add a memo, or apply a fixed split by percentage or dollar amount."
+    },
+    {
+      "name": "Leave automatic confirmation off for now",
+      "text": "The automatic confirmation option, often called auto-add, posts matching transactions straight to your books without you reviewing them. Keep it off for every new rule. With it off, the rule only fills in the transaction in For review, and you still click Confirm or Add."
+    },
+    {
+      "name": "Save, check For review, and set the order",
+      "text": "Save the rule. Then open the For review tab: matching transactions should now show as filled in by a rule. Rules run from the top of the list down, and the first match wins, so drag specific rules (Amazon Web Services) above broad ones (Amazon)."
+    },
+    {
+      "name": "Export a backup of your rules",
+      "text": "Once your rules work, open the dropdown next to New rule and choose the export option to download a copy. That gives you a backup if a rule gets deleted, plus a record you can send to your accountant. The same menu usually has an import option for restoring rules or copying them to another company file."
+    }
+  ],
+  "comparison": {
+    "caption": "The five rule types most small businesses need, and whether to auto-add them",
+    "headers": [
+      "Rule type",
+      "Example condition",
+      "Typical category",
+      "Auto-add?",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Software subscriptions",
+        "Money out; description contains vendor name (e.g. ADOBE); optional amount equals",
+        "Software/subscriptions (or your accountant's preferred account)",
+        "Often fine after several correct months",
+        "Vendors that sell business and personal plans; annual charges that may need different treatment"
+      ],
+      [
+        "Card processor deposits",
+        "Money in; description contains STRIPE, SQUARE or PAYPAL",
+        "Usually matched to recorded sales or payments, not sent straight to income",
+        "No",
+        "Deposits usually arrive with fees already taken out, so posting them straight to income understates sales and leaves out the fees"
+      ],
+      [
+        "Fuel",
+        "Any of: description contains SHELL, CHEVRON, BP",
+        "Fuel/vehicle expense",
+        "Only if the vehicle and card are 100% business",
+        "Mixed-use vehicles; actual-cost vs. mileage method (ask your accountant)"
+      ],
+      [
+        "Owner draws",
+        "Money out; description contains transfer text plus last digits of your personal account",
+        "Owner's draw (equity), or as your accountant directs",
+        "Only after your accountant agrees",
+        "Some business structures need payroll instead of draws; never post draws to an expense account"
+      ],
+      [
+        "Fixed recurring vendors (rent, insurance, utilities)",
+        "Description contains vendor AND amount equals the fixed payment",
+        "Rent, insurance, utilities",
+        "Only if you never enter bills for them",
+        "Duplicates if you also enter bills; loan payments with a principal/interest split that changes"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How QuickBooks Online bank rules auto categorize transactions",
+      "paragraphs": [
+        "QuickBooks Online bank rules are saved instructions. When a new bank feed transaction comes in, QuickBooks checks it against your conditions and, if it matches, fills in the category, payee and other details. Rules only work on transactions from a connected bank or credit card feed, or from an uploaded bank file. They never change transactions you entered by hand.",
+        "Every rule has two halves. The \"if\" half covers money in or money out, which accounts the rule applies to, and conditions on the description and amount. The \"then\" half sets the transaction type, payee and category, plus optional extras such as class, location, tags, a memo or a fixed split, depending on your plan.",
+        "Rules run in the order they appear on the Rules list, and the first one that matches wins. Say a broad rule like \"Description contains AMAZON\" sits above \"Description contains AMAZON WEB SERVICES.\" Your cloud hosting bill will end up filed as office supplies. Keep the most specific rules at the top.",
+        "By default, a rule only fills in a transaction in the For review tab, and you still confirm it yourself. If you turn on automatic confirmation (labeled auto-add in many versions), QuickBooks posts matching transactions straight to your books. Auto-added transactions show up in the Categorized (or Reviewed) tab, and you can undo them from there."
+      ],
+      "bullets": [
+        "Description conditions: contains, doesn't contain, or is exactly. Amount conditions: equals, greater than, or less than.",
+        "\"All\" means every condition must match. \"Any\" means one is enough, which helps with vendors that show up under several names.",
+        "A new rule also applies to matching transactions already waiting in For review.",
+        "Menus and options vary by plan and version, so confirm on Intuit's site."
+      ]
+    },
+    {
+      "heading": "Auto-add or leave for review: how to decide",
+      "paragraphs": [
+        "Only use auto-add for transactions that are fixed, predictable and 100% business. Keep everything else in review. Auto-add saves you a click on each transaction, but it also skips the moment where you'd catch a mistake, so a rule should earn it.",
+        "A simple test: run each new rule in review mode for two or three months. If it got every match right and the vendor only ever bills you for one thing, it can move to auto-add. If you had to correct it even once, tighten the conditions or leave it in review.",
+        "Talk to your accountant before you turn on auto-add for anything that touches equity (owner draws), vehicles, meals, or purchases that might need to be capitalized instead of expensed. Their preference matters, because they're the one who'll fix the books if a rule goes wrong."
+      ],
+      "bullets": [
+        "Good auto-add candidates: a single-purpose software subscription, a fixed monthly bank fee, a recurring payment you never enter as a bill.",
+        "Keep in review: processor deposits, anything you invoice or enter bills for, mixed-use stores (Amazon, big-box stores, warehouse clubs), and anything with a split that changes.",
+        "Never auto-add a vendor where the charge could be personal.",
+        "Every auto-add rule goes on your monthly review list."
+      ]
+    },
+    {
+      "heading": "The five rules most small businesses need",
+      "paragraphs": [
+        "Five rule types cover a large share of repeat bank activity for most small businesses, so build these first. Add more rules as new repeat vendors appear.",
+        "Software subscriptions are the easiest win. Create one rule per vendor using a distinctive word from the bank description. If the vendor bills you for more than one product, add an \"Amount equals\" condition.",
+        "Card processor deposits from Stripe, Square, PayPal and similar services need care. Processors usually deposit your sales with their fees already taken out. A rule that drops the deposit into an income account understates your sales and leaves out the fees. If you record sales or invoice payments in QuickBooks, match the deposit to those records instead. A rule can still fill in the payee, but keep it in review mode. Ask your accountant how to record fees, and check whether your processor offers a QuickBooks integration.",
+        "Fuel rules work well with the \"Any\" setting: description contains SHELL, or CHEVRON, or BP, or whichever stations you use. Ask your accountant whether you deduct actual vehicle costs or use a mileage rate, because that decides whether fuel should be categorized as an expense at all.",
+        "Owner draws are transfers from the business account to your personal account. A rule that matches the transfer wording plus the last digits of your personal account can assign them to an owner's draw equity account. Depending on your business structure, your accountant may want owner pay to run through payroll instead, so check with them first.",
+        "Fixed recurring vendors such as rent, insurance and utilities work best with an \"Amount equals\" condition, so a one-off charge from the same vendor doesn't get swept in. Variable bills like utilities are usually safer in review mode."
+      ],
+      "bullets": [
+        "Naming template: \"Type – Vendor\" (e.g. \"Fuel – all stations\").",
+        "Keep description text short: \"ADOBE\" rather than the full string with phone numbers.",
+        "Specific rules go at the top of the list.",
+        "If you switch banks, check your rules again, because the new bank may word descriptions differently."
+      ]
+    },
+    {
+      "heading": "How QuickBooks' own suggestions work alongside your rules",
+      "paragraphs": [
+        "QuickBooks Online suggests categories even when you have no rules, based on how you've categorized similar transactions before. When one of your rules matches, the rule takes priority over these suggestions.",
+        "The For review tab usually shows three kinds of filled-in transactions: ones a rule filled in, ones QuickBooks linked to a record you already entered (an invoice payment, bill or expense), and ones with a category suggested from your history. Each is labeled a little differently, so learn how your version displays them.",
+        "Record matches need the most care. Choosing Match links the bank transaction to the existing record. Choosing Add creates a second record and counts the income or expense twice. That's the main reason never to auto-add vendors you also enter bills for.",
+        "Some QuickBooks versions also include AI-assisted categorization. Treat it the way you'd treat a new rule: useful, but check its work until it has proven reliable. See Intuit's site for what your plan currently includes."
+      ],
+      "bullets": [
+        "Rule match: your rule filled in the details. Check it, then confirm.",
+        "Record match: choose Match, not Add.",
+        "Suggestion: QuickBooks guessed from your history. Confirm it or change it.",
+        "If you keep correcting the same suggestion, build a rule for it."
+      ]
+    },
+    {
+      "heading": "What bank rules can't fix",
+      "paragraphs": [
+        "Bank rules handle repetitive, predictable transactions. They can't handle anything that needs a judgment call each time. Knowing these limits keeps you from building rules that create more cleanup than they save.",
+        "A rule can apply a fixed split, such as 70/30 between two categories. It can't split a purchase whose mix changes every time, like a warehouse club receipt that's mostly inventory one week and all cleaning supplies the next. Those need a person looking at the receipt.",
+        "Rules also can't separate personal from business spending on a shared card. If you mix them, every transaction needs a decision about whether it belongs in the books. The real fix is a dedicated business account and card. Until you have one, keep those transactions in review.",
+        "Rules can't fix bad data from the feed, either. If the feed duplicates a transaction, drops one, or changes how descriptions are worded, rules will miss it or misfile it. Monthly reconciliation is what catches those problems."
+      ],
+      "bullets": [
+        "Splits that change each time: categorize by hand from the receipt.",
+        "Shared personal/business accounts: no rule can sort these reliably.",
+        "Loan payments: the principal and interest split changes every month.",
+        "Vendor refunds: a money-out rule won't catch money-in refunds, so handle them separately.",
+        "Equipment and vehicle purchases: ask your accountant before letting a rule expense them."
+      ]
+    },
+    {
+      "heading": "A quick monthly review checklist (about 15 minutes)",
+      "paragraphs": [
+        "A short review each month catches most miscategorized transactions while you still remember what they were. Do it in the first week of the month for the month that just ended. With rules covering the routine items, many owners can finish in around 15 minutes, though it depends on how many transactions you have.",
+        "Work through the steps in order, because each one builds on the last. If a transaction takes more than a couple of minutes to figure out, add it to a list of questions for your accountant and move on instead of guessing."
+      ],
+      "bullets": [
+        "1. Clear the For review tab for last month. Match, don't add, anything QuickBooks links to an existing record.",
+        "2. Check the balances in Uncategorized Expense, Uncategorized Income and Ask My Accountant. Each should be zero, or have a note explaining why not.",
+        "3. In the Categorized/Reviewed tab, filter to last month and scan everything a rule applied or auto-added. Undo any mistakes and fix the rule that caused them.",
+        "4. Run a Profit and Loss report comparing last month with the previous one or two. Look into any big jumps or drops.",
+        "5. Go through the lines in sensitive accounts: owner's draw, vehicle, meals, equipment.",
+        "6. Reconcile every bank and card account to its statement ending balance.",
+        "7. Tidy the Rules list: delete rules for cancelled vendors, add rules for new repeat vendors, and check the order.",
+        "8. Send open questions to your accountant with the dates and amounts."
+      ]
+    },
+    {
+      "heading": "Keeping your rules accurate as your business changes",
+      "paragraphs": [
+        "Rules need small, regular upkeep because your vendors, accounts and bank descriptions change. A rule that worked perfectly last year can start misfiling transactions after you switch banks, add a card, or buy something new from a vendor you already use.",
+        "Export your rules every few months and after any big change. Once a year, go through the export with your accountant. They can often spot a rule that's too broad or a category that should be split in a few minutes.",
+        "Whenever you change your chart of accounts, review your rules right away. Rules point to specific accounts, so renaming, merging or deactivating an account can affect the rules that use it."
+      ],
+      "bullets": [
+        "New bank or card: check every rule's description wording and account selection.",
+        "Chart of accounts change: review the rules tied to the affected accounts.",
+        "Every few months: export your rules as a backup.",
+        "Once a year: go through the rules with your accountant."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Owners who do their own books and have lots of repeat bank and card transactions that rules and categorization suggestions can handle, and who want invoicing, matching and reconciliation in one place.",
+      "not_for": "Businesses that run mostly through a shared personal/business account, or whose purchases are mostly splits that change each time. Fix the account setup first and expect hand categorization. Check on Intuit's site which plan includes the rule options you need (such as class or location)."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Optional: keeping your rule plan (vendor, bank wording, category, auto-add status), the monthly review checklist and your running list of accountant questions in one shared page.",
+      "not_for": "Anyone looking for accounting or categorization features. Notion doesn't connect to your bank feed or replace QuickBooks, and a simple spreadsheet works just as well for this."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where are bank rules in QuickBooks Online?",
+      "answer": "Bank rules are usually under Transactions > Rules. Some layouts put them under Banking > Rules or in a Rules tab on the Bank transactions page. Intuit changes the menus from time to time, so if you can't find them, type \"Rules\" into the QuickBooks search bar."
+    },
+    {
+      "question": "Should I turn on auto-add for QuickBooks bank rules?",
+      "answer": "Only for fixed, predictable, 100% business transactions that a rule has gotten right for several months, such as a single-purpose software subscription. Keep processor deposits, mixed-use stores and anything you also enter as a bill in review mode. Check with your accountant first, especially for owner draws and vehicle costs."
+    },
+    {
+      "question": "Why isn't my QuickBooks bank rule working?",
+      "answer": "Usually the description condition doesn't match the bank's exact wording, the rule is set to the wrong account or direction (money in vs. money out), or a broader rule higher on the list is matching first. Compare the rule's conditions with the actual bank description, check its account settings, and drag specific rules above general ones."
+    },
+    {
+      "question": "Do bank rules apply to transactions already in QuickBooks?",
+      "answer": "Rules apply to transactions waiting in the For review tab and to new ones as they download. They don't change transactions you've already categorized or entered by hand. To recategorize those, edit them one by one, or undo them so they go back to For review."
+    },
+    {
+      "question": "Can a QuickBooks bank rule split a transaction?",
+      "answer": "Yes. A rule can apply a fixed split by percentage or dollar amount, such as 80% to one category and 20% to another. It can't handle splits that change each time, like store receipts with a different mix of items. Categorize those by hand from the receipt."
+    },
+    {
+      "question": "How do I stop QuickBooks from creating duplicate transactions?",
+      "answer": "When QuickBooks shows a match to an existing invoice payment, bill or expense in For review, choose Match rather than Add. Don't auto-add vendors you also enter bills or expenses for. Reconciling each account every month catches any duplicates that slip through."
+    }
+  ],
+  "conclusion": "QuickBooks Online bank rules are one of the easiest ways to spend less time on your books, as long as you use them to help with review and not to replace it. Categorize a month or two by hand, then build the five core rules: software subscriptions, processor deposits, fuel, owner draws and fixed recurring vendors. Keep specific rules at the top of the list and leave auto-add off until each rule has proven itself. Choose Match instead of Add for anything QuickBooks links to an existing record, and categorize splits and mixed-use purchases by hand. Then put the monthly review on your calendar for the first week of every month. That habit does more to keep your books clean than any single rule. Plan features change, so check what your QuickBooks plan includes on Intuit's site, and run your auto-add choices past your accountant before you turn them on.",
+  "keyword": "quickbooks online bank rules to auto categorize transactions",
+  "niche": "automating bookkeeping and invoicing with AI",
+  "version": 2,
+  "slug": "use-quickbooks-online-bank-rules-to-auto-categorize-transactions",
+  "published": "2026-10-08T07:37:17+00:00"
+}

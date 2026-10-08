@@ -1,0 +1,57 @@
+{
+  "title": "Lead to Ledger: The Small-Business Automation Playbook",
+  "subtitle": "Connect your tools into one workflow, from first inquiry to a reconciled payment. Includes 12 copy-paste prompts, SOPs and templates, with a human approval step wherever a mistake would be costly.",
+  "audience": "Owners and solo operators of service businesses and small online shops (about 1–10 people). You probably already use a website form or chatbot, an email inbox, a no-code automation tool like Zapier or Make, an AI assistant like ChatGPT or Claude, and accounting software like QuickBooks Online. You want these tools working as one system instead of as separate apps. This playbook is NOT for developers who want API-level or custom-code builds. It is also not for businesses whose data rules (healthcare, legal, financial advice) require a formal compliance review before using AI tools. And it is not for anyone who has no tools in place yet. Start with the basics first.",
+  "outcomes": [
+    "A one-page map of your lead-to-ledger flow with clear status labels (New, Replied, Booked, Won, Invoiced, Paid, Reconciled) that your automations can use as triggers",
+    "A working intake automation that sends every inquiry to one hub, has AI tag it with a category and priority, and sends an honest acknowledgment",
+    "An AI drafting setup that writes replies and quote outlines into your drafts folder, using your brand voice and your own price list, so a human approves before anything is sent",
+    "A repeatable meeting-to-action-items routine that produces a summary, owner-assigned tasks and a client recap on the same day",
+    "An invoice-draft trigger and a polite three-step payment reminder sequence that stops when an invoice is paid",
+    "A starter set of bank rules and a monthly close checklist so payments are matched to invoices instead of double-counted",
+    "A testing, error-alert and documentation routine so automations don't fail without anyone noticing",
+    "A 30-day rollout plan that adds one stage per week, starting each automation in shadow mode"
+  ],
+  "sales_copy": "Your tools are fine. The gaps between them are the problem. An inquiry sits unanswered in a form inbox, call notes never become tasks, an invoice goes out a week late, and the payment lands in QuickBooks as a mystery deposit.\n\nLead to Ledger is a practical playbook for small-business owners who want one connected workflow from first inquiry to reconciled payment. You build it with tools you likely already use: a form, an email inbox, Zapier or Make, an AI assistant, and your accounting software.\n\nInside you get 9 step-by-step chapters, each with a checklist, plus 12 copy-paste prompts and templates: an inquiry triage prompt, reply and quote drafters, a meeting-to-action-items prompt, a payment reminder sequence, a bank rule planning sheet, and an automation documentation card.\n\nEvery AI step keeps a human approval wherever a mistake would cost you: prices, invoices, and anything sent to clients.\n\nIt's not for developers who want API-level builds, or for anyone hoping automation will replace judgment. It won't promise you hours saved. Instead, it shows you how to measure your own.",
+  "chapters": [
+    {
+      "heading": "Chapter 1: Map Your Lead-to-Ledger Flow Before You Automate Anything",
+      "summary": "Write down, on one page, every step from first contact to a reconciled payment. Then give each stage a clear status label so automations have something reliable to trigger on."
+    },
+    {
+      "heading": "Chapter 2: Choose Your Stack: Native Integrations, Zapier, or Make",
+      "summary": "Use the simplest connection that works: a native integration first, Zapier for straightforward step-by-step workflows, and Make when you need branching or data manipulation. Keep one hub as your single source of truth."
+    },
+    {
+      "heading": "Chapter 3: Stage 1 — Capture and Triage Every Inquiry Automatically",
+      "summary": "Send every inquiry into one hub record, let AI assign a category and priority from a fixed list, and send an honest acknowledgment that promises nothing you can't deliver."
+    },
+    {
+      "heading": "Chapter 4: Stage 2 — Draft Replies and Quotes With AI, Send Them as a Human",
+      "summary": "Have AI write first drafts of replies and quote outlines into your drafts folder, using your brand voice card and your own price list. A person reviews and sends every client-facing message."
+    },
+    {
+      "heading": "Chapter 5: Stage 3 — Turn Calls Into Action Items and Same-Day Recaps",
+      "summary": "Every sales or client call should produce three things on the same day: a short summary, a list of tasks with owners and due dates, and a recap email to the client."
+    },
+    {
+      "heading": "Chapter 6: Stage 4 — Trigger Invoices and Polite Payment Reminders",
+      "summary": "When a hub record changes to Won or Delivered, create a draft invoice for you to approve and start a reminder sequence that checks payment status before every message."
+    },
+    {
+      "heading": "Chapter 7: Stage 5 — Keep the Books Clean With Bank Rules and a Monthly Close",
+      "summary": "Use QuickBooks Online bank rules (or your software's equivalent) for predictable transactions, match customer payments to open invoices, and run a short monthly close."
+    },
+    {
+      "heading": "Chapter 8: Test, Monitor, and Document So Nothing Breaks Silently",
+      "summary": "Test every automation with fake data before going live, turn on error alerts, add a weekly check, and write a one-page documentation card for each workflow."
+    },
+    {
+      "heading": "Chapter 9: Your 30-Day Rollout Plan",
+      "summary": "Roll out one stage per week in pipeline order, running each new automation in shadow mode alongside your manual process before you rely on it."
+    }
+  ],
+  "template_count": 12,
+  "slug": "lead-to-ledger-the-small-business-automation-playbook",
+  "published": "2026-10-08T07:47:43+00:00"
+}
