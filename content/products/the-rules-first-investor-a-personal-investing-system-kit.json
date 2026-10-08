@@ -1,0 +1,54 @@
+{
+  "title": "The Rules-First Investor: A Personal Investing System Kit",
+  "subtitle": "Write your own one-page investment policy, compare ETFs on cost and tracking, place orders deliberately, track dividends, and set crypto guardrails. Includes 14 copy-paste worksheets and templates.",
+  "audience": "Beginner and early do-it-yourself investors who read about index funds, ETFs, dividends and crypto and now want a simple written system for making decisions. It suits people who already have, or are about to open, a brokerage or retirement account and want to stop deciding things on impulse. It is not for active day traders, people looking for stock or coin picks, or anyone who needs personal financial, tax or legal advice. For that, use a licensed adviser in your country.",
+  "outcomes": [
+    "A finished one-page Investment Policy Statement (IPS) that records your goals, time horizon, target allocation, concentration limits and review schedule.",
+    "A readiness check covering your emergency cash, high-interest debt, time horizon and account types, done before you invest money you can't afford to see fall.",
+    "A repeatable ETF and index fund comparison method using expense ratio, tracking difference, index methodology, trading spread and fund structure.",
+    "A pre-trade checklist and trade journal for market, limit and stop orders, which reduces wrong-ticker mistakes, bad fills and impulsive trades.",
+    "A dividend income tracker you can build in Google Sheets, Excel or Notion, with fields for gross and net income, withholding tax and reinvestment.",
+    "Written crypto guardrails covering maximum allocation, custody choice, scam red flags and a due-diligence sheet for crypto ETFs and ETPs.",
+    "A quarterly and annual review routine with rebalancing rules and a pre-written plan for market drops.",
+    "A list of questions to bring to a licensed adviser or your local regulator's resources when a decision is beyond general information."
+  ],
+  "sales_copy": "Most beginner investing content tells you what to buy. This playbook does something different. It helps you write down how you will decide, before the market gets noisy.\n\nThe Rules-First Investor is a practical system kit for people learning about stocks, ETFs, dividends and crypto. Over eight short chapters you build a one-page Investment Policy Statement. You also learn to compare index funds on expense ratio and tracking difference, place market and limit orders with a pre-trade checklist, and track dividend income in a spreadsheet or Notion. The last pieces are personal guardrails for crypto and crypto ETFs, covering custody, scams and the real chance of losing everything.\n\nYou get 14 copy-paste templates: scorecards, trackers, checklists, a quarterly review agenda, and AI research prompts that make you check sources instead of trusting a chatbot.\n\nWhat it is not: personal financial advice, a list of picks, or a promise of returns. Investing involves risk, including losing money, and rules and taxes differ by country. The kit helps you ask better questions of fund documents, of your broker, and of a licensed adviser when you need one.\n\nBest for beginners and early DIY investors. Not for active traders.",
+  "chapters": [
+    {
+      "heading": "Chapter 1: What Is a Rules-First Investing System?",
+      "summary": "A rules-first investing system is a short set of written decisions about goals, allocation, what you will and won't buy, how you place orders and when you review. You make these decisions calmly, before you need them."
+    },
+    {
+      "heading": "Chapter 2: Are You Ready to Invest? The Foundation Check",
+      "summary": "You are generally in a position to invest money for the long term once you have a cash buffer for emergencies, a plan for high-interest debt, a clear time horizon, and an understanding of your account options and protections."
+    },
+    {
+      "heading": "Chapter 3: How to Set a Target Allocation You Can Stick With",
+      "summary": "A target allocation is the percentage split across asset types that you intend to hold. You choose it based on your time horizon, risk capacity and risk tolerance, not on recent performance."
+    },
+    {
+      "heading": "Chapter 4: How to Compare ETFs and Index Funds Like an Analyst",
+      "summary": "Compare funds by first confirming they track the same or a similar index, then weighing total cost (expense ratio, tracking difference and trading spread), structure and fit for your account and country. Don't judge on past returns alone."
+    },
+    {
+      "heading": "Chapter 5: Market, Limit and Stop Orders: Placing Trades Deliberately",
+      "summary": "A market order gets your trade done quickly at the best available price. A limit order sets the worst price you'll accept but may not fill. Stop orders trigger only after a price is reached. A pre-trade checklist prevents the most common beginner mistakes."
+    },
+    {
+      "heading": "Chapter 6: How to Track Dividend Income and Judge Dividend Quality",
+      "summary": "Track every dividend by date, payer, gross amount, tax withheld, net amount and whether it was reinvested. Judge dividend payers and funds by sustainability and total return, not yield alone."
+    },
+    {
+      "heading": "Chapter 7: Crypto and Crypto ETFs: Setting Guardrails Before You Touch Them",
+      "summary": "Treat crypto as a high-risk, speculative asset that can lose most or all of its value. Before buying anything, write down your maximum allocation, your custody method, your scam defences and your understanding of how crypto ETFs differ from holding coins directly."
+    },
+    {
+      "heading": "Chapter 8: Your Quarterly Review and Rebalancing Routine",
+      "summary": "A scheduled review keeps your portfolio aligned with your IPS without reacting to daily news. A common rhythm is a light check each quarter and a deeper review once a year, with clear rebalancing rules and a pre-written plan for market drops."
+    }
+  ],
+  "template_count": 15,
+  "section": "Investing",
+  "slug": "the-rules-first-investor-a-personal-investing-system-kit",
+  "published": "2026-10-08T08:17:48+00:00"
+}

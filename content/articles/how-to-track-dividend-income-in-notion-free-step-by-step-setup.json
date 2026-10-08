@@ -1,0 +1,261 @@
+{
+  "title": "How to Track Dividend Income in Notion: Free Step-by-Step Setup",
+  "meta_description": "Learn how to track dividend income in Notion with linked databases, copy-paste formulas, monthly totals, yield on cost and a dividend calendar.",
+  "quick_answer": "To track dividend income in Notion, build two linked databases: Holdings, with one page per stock or fund, and Dividend Payments, with one page per payment. Connect them with a relation. Then add formulas for lifetime, this-year and trailing 12-month income, plus yield on cost. Add a table grouped by month and calendar views for key dates. Notion has no live prices, so you log payments by hand or through an automation.",
+  "key_takeaways": [
+    "Use two linked databases: Holdings for what you own and Dividend Payments for each payment. The relation between them is what makes every total work.",
+    "Use formulas that count only payments marked Received. A plain Sum rollup also adds your Expected forecasts and makes your income look bigger than it is.",
+    "Get monthly totals by grouping a payments table by Pay Date (Month), turning on Sum for Net Amount and filtering to Received.",
+    "Notion has no live prices or broker sync. It suits buy-and-hold investors who log payments once a month, not active traders.",
+    "Your broker's year-end tax documents are the official record. Check your tracker against them once a year."
+  ],
+  "who_this_is_for": "This guide is for buy-and-hold dividend investors who use Notion, or would like to, and want one customisable place to see how much income their portfolio pays each month and year.",
+  "intro": "Your broker shows dividends as a long list of transactions, and if you have more than one account, that list is split up too. That makes simple questions hard to answer. How much did I earn this year? Which month pays the most? What am I earning on what I originally paid? A Notion dividend tracker answers all of these in one place, and you can build it on Notion's free plan in one sitting.\n\nThis guide covers the full build. You'll create a Holdings database and a Dividend Payments database and link them. Then you'll add formulas you can copy for income and yield on cost, plus a monthly view and a calendar of ex-dividend and pay dates. An optional step shows how Zapier or Make can create entries from your broker's email alerts. The guide is also clear about where Notion falls short, so you can decide whether it suits how you invest. This article is general information, not financial or tax advice.",
+  "steps": [
+    {
+      "name": "Create the Holdings database",
+      "text": "On a new Notion page, type /database and choose the full-page database option. Name it Holdings. Rename the title property to Ticker. Then add these properties: Name (text), Shares (number), Cost Basis (number: the total you paid, including fees), Account (select, for example Taxable or Retirement), Sector (select) and Frequency (select: Monthly, Quarterly, Semi-annual, Annual)."
+    },
+    {
+      "name": "Create the Dividend Payments database",
+      "text": "Create a second full-page database called Dividend Payments. Rename its title property to Payment and name entries in a consistent pattern, such as \"ABC – Q3 2026\". Add Ex-Dividend Date (date), Pay Date (date), Gross Amount (number), Withholding Tax (number), Status (select: Expected, Received, Needs review), Reinvested (checkbox), Currency (select) and Notes (text)."
+    },
+    {
+      "name": "Link the two databases with a relation",
+      "text": "In Dividend Payments, add a Relation property called Holding and point it at the Holdings database. Turn on the option to show the relation on Holdings too, and name that side Payments. Each payment now links to one holding, and each holding lists all of its payments."
+    },
+    {
+      "name": "Add a Net Amount formula to payments",
+      "text": "In Dividend Payments, add a Formula property called Net Amount: prop(\"Gross Amount\") - if(empty(prop(\"Withholding Tax\")), 0, prop(\"Withholding Tax\")). The if(empty()) part stops a blank tax field from breaking the result. Net Amount is the cash that actually reached your account, and every income total in this guide uses it."
+    },
+    {
+      "name": "Add income formulas to Holdings",
+      "text": "In Holdings, add three Formula properties: Total Received, Income This Year and Trailing 12M Income. Each one filters the related payments down to those marked Received and then sums Net Amount. You'll find the exact formulas in the formulas section below."
+    },
+    {
+      "name": "Add a yield on cost formula",
+      "text": "In Holdings, add a Formula property called Yield on Cost: if(prop(\"Cost Basis\") > 0, prop(\"Trailing 12M Income\") / prop(\"Cost Basis\"), 0). In the property's number format setting, choose Percent if your version of Notion offers it. If it doesn't, multiply the result by 100 and read it as a percentage."
+    },
+    {
+      "name": "Build monthly and calendar views",
+      "text": "In Dividend Payments, add a Table view called Monthly Income. Group it by Pay Date with the date grouping set to Month, filter it to Status is Received, and set the calculation at the bottom of the Net Amount column to Sum. Then add two Calendar views, one shown by Ex-Dividend Date and one by Pay Date."
+    },
+    {
+      "name": "Create a template and a monthly logging routine",
+      "text": "In Dividend Payments, open the New button's dropdown and create a database template that pre-fills Status as Expected and your usual Currency. Once a month, open your broker's transaction history. Add any missing payments, switch Expected entries to Received, and correct any amounts that differ from your forecast. If you like, you can automate the capture step with Zapier or Make."
+    }
+  ],
+  "comparison": {
+    "caption": "How a Notion dividend tracker compares with other common ways to track dividend income (features vary, so check each tool's current capabilities)",
+    "headers": [
+      "Option",
+      "Live prices / auto-sync",
+      "Customisation",
+      "Effort to maintain",
+      "Best suited to"
+    ],
+    "rows": [
+      [
+        "Notion (this guide)",
+        "No live prices and no native broker sync",
+        "High: your own fields, views, notes and links to research pages",
+        "Manual monthly logging, or partly automated from email alerts",
+        "Buy-and-hold investors who want one personal dashboard"
+      ],
+      [
+        "Spreadsheet (Excel, Google Sheets)",
+        "Some spreadsheet apps can pull delayed quotes; check your app's current functions",
+        "High, but you build every formula and chart yourself",
+        "Manual entry or CSV imports",
+        "Investors comfortable with spreadsheet formulas and charts"
+      ],
+      [
+        "Broker dashboard",
+        "Yes, for that broker's accounts only",
+        "Low: you see only what the broker chooses to show",
+        "Very low",
+        "Active traders and anyone with a single broker"
+      ],
+      [
+        "Dedicated dividend tracking app",
+        "Often yes, through broker connections or imports",
+        "Medium: built-in reports, few custom fields",
+        "Low once connected",
+        "Investors with many accounts who want automatic syncing"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What you're building and why it uses two databases",
+      "paragraphs": [
+        "A Notion dividend tracker uses two linked databases. One records what you own, and the other records each dividend payment you receive. Keeping them separate is what lets Notion add up income per holding, per month and per year without you typing anything twice.",
+        "The Holdings database has one page per stock, ETF or fund. It stores facts that rarely change: the ticker, share count, total cost basis, account type and payment frequency. Each holding page can also hold your research notes, which most broker dashboards don't let you do.",
+        "The Dividend Payments database has one page per payment. It stores the ex-dividend date, pay date, gross amount, any tax withheld and whether the payment was reinvested. Every payment links back to a holding, so your totals update as soon as you log a new entry.",
+        "Database designers call this a one-to-many relationship: one holding has many payments. If you later want to track dividend increases or cuts, you can add a third database of announcements and link it to Holdings in the same way."
+      ],
+      "bullets": [
+        "Holdings = what you own (one page per position)",
+        "Dividend Payments = what you were paid (one page per payment)",
+        "Relation = the link that makes the formulas work",
+        "Views = monthly totals, calendars and filtered lists built on top of the data"
+      ]
+    },
+    {
+      "heading": "How to track dividend income in Notion: the properties you need",
+      "paragraphs": [
+        "To track dividend income in Notion accurately, you only need about a dozen properties, and each one has a specific job. Use the exact names below if you want to paste the formulas in the next section without editing them.",
+        "In Holdings, enter Cost Basis as the total you paid for the position, including fees, rather than the price per share. Using the total keeps the yield on cost formula simple. It also stays correct when you buy more shares at different prices, as long as you update the total after each purchase.",
+        "In Dividend Payments, record Gross Amount and Withholding Tax separately instead of entering only the cash you received. Many countries tax foreign dividends at source, and the rules vary by country and account type. Keeping both figures makes it much easier to match your broker's statements later.",
+        "If you hold investments in more than one currency, plan for it now. Notion will happily add euros to dollars and give you a total that means nothing. The simplest fix is to add a Net Amount (Home Currency) number field, enter the converted amount your broker reports, and point every formula at that field instead."
+      ],
+      "bullets": [
+        "Holdings: Ticker (title), Name, Shares, Cost Basis, Account, Sector, Frequency, Payments (relation)",
+        "Dividend Payments: Payment (title), Holding (relation), Ex-Dividend Date, Pay Date, Gross Amount, Withholding Tax, Net Amount (formula), Status, Reinvested, Currency, Notes",
+        "Optional: Net Amount (Home Currency) if you hold assets in several currencies",
+        "Optional: Type (select: Regular, Special, Return of capital) to separate unusual payments"
+      ]
+    },
+    {
+      "heading": "Formulas for lifetime, yearly and trailing 12-month income and yield on cost",
+      "paragraphs": [
+        "Notion formulas that filter related payments give you accurate lifetime, this-year and trailing 12-month totals. A standard Sum rollup is easier to set up, but it adds every related payment, including Expected forecasts, and it can't filter by date. That's why this guide uses formulas instead.",
+        "Total Received (lifetime income): prop(\"Payments\").filter(current.prop(\"Status\") == \"Received\").map(current.prop(\"Net Amount\")).sum()",
+        "Income This Year: prop(\"Payments\").filter(current.prop(\"Status\") == \"Received\" and current.prop(\"Pay Date\").year() == now().year()).map(current.prop(\"Net Amount\")).sum()",
+        "Trailing 12M Income: prop(\"Payments\").filter(current.prop(\"Status\") == \"Received\" and current.prop(\"Pay Date\") >= dateSubtract(now(), 12, \"months\")).map(current.prop(\"Net Amount\")).sum(). A rolling 12-month figure smooths out holdings that pay quarterly or annually better than a calendar-year figure does.",
+        "Yield on cost is your last 12 months of dividends divided by what you paid for the position: if(prop(\"Cost Basis\") > 0, prop(\"Trailing 12M Income\") / prop(\"Cost Basis\"), 0). Here's a made-up example. If a position cost 2,000 in total and paid 80 in net dividends over the past 12 months, its yield on cost is 0.04, or 4%. Some investors use gross dividends instead of net. Either is fine as long as you always use the same one. Yield on cost only describes your own past. It doesn't tell you whether a holding is a good investment today or whether its dividend will continue.",
+        "For a portfolio-wide figure, open the Holdings table and set the calculation at the bottom of the Income This Year column to Sum. Do the same for Trailing 12M Income. Notion changes its formula syntax from time to time. If a formula shows an error, check that the property names match exactly, then look up the current syntax in Notion's formula help pages."
+      ],
+      "bullets": [
+        "Every income formula filters to Status = Received, so forecasts never inflate your totals",
+        "Copy property names exactly: formulas are case- and space-sensitive",
+        "Yield on Cost: set the number format to Percent",
+        "Portfolio totals: use Sum at the bottom of the Holdings formula columns"
+      ]
+    },
+    {
+      "heading": "Calendar views for ex-dividend and payment dates",
+      "paragraphs": [
+        "A calendar view shows when you need to own a share to receive the next dividend and when the cash should arrive. Each Notion calendar is laid out by a single date property, so you need two calendar views: one for ex-dividend dates and one for pay dates.",
+        "In Dividend Payments, click + next to your existing views, choose Calendar, and set Show calendar by to Ex-Dividend Date. Add a second calendar shown by Pay Date. In each view's property settings, show Holding and Gross Amount so every card displays the ticker and amount at a glance.",
+        "To see upcoming income, create an Expected entry as soon as a company or fund declares a dividend. When the cash arrives, switch it to Received. With the Pay Date calendar filtered to Expected and Received, you can see what's coming and what has already been paid in one place.",
+        "The ex-dividend date matters because you generally need to own the shares before that date to receive the payment. The exact rules and settlement times depend on the market, so check your broker's or exchange's guidance. Record dividends once they're declared rather than guessing future dates, because payouts can change or be cancelled."
+      ],
+      "bullets": [
+        "Calendar 1: shown by Ex-Dividend Date",
+        "Calendar 2: shown by Pay Date, filtered to Expected and Received",
+        "Show Holding and Gross Amount on calendar cards",
+        "Log declared dividends as Expected and switch them to Received when paid"
+      ]
+    },
+    {
+      "heading": "Optional: create payment entries from broker emails with Zapier or Make",
+      "paragraphs": [
+        "If your broker emails you when a dividend is paid, an automation tool such as Zapier or Make can read that email and create a Notion payment entry for you. This step is optional, and it only works reliably if your broker's emails always follow the same format.",
+        "The workflow has four parts. First, a trigger watches for new Gmail or Outlook messages that match a search such as your broker's sender address plus the word \"dividend\". Second, a parsing step pulls out the ticker, amount and pay date. Third, a Notion search step finds the matching Holdings page. Fourth, a Notion step creates the item in Dividend Payments with the Holding relation filled in.",
+        "For parsing, you can use the tool's built-in text functions to extract patterns, such as the number after \"Amount:\". Some plans also offer AI steps that pull fields out of unstructured text. Whichever you choose, test it on several real emails first, including unusual ones like special dividends or payments with foreign tax withheld.",
+        "Email formats vary between brokers and can change without warning. Some brokers don't send an email for each payment, and some bundle several dividends into one message. Have the automation set Status to Needs review rather than Received, and check each entry during your monthly review.",
+        "Think about privacy before you connect anything. Broker emails can contain account numbers and balances. Give the automation the narrowest inbox access it needs, avoid copying full email bodies into Notion, and read each tool's security documentation. Plans and task or operation limits change, so check Zapier's and Make's current pricing pages to see whether a multi-step workflow fits the plan you're on."
+      ],
+      "bullets": [
+        "Trigger: new email from your broker containing \"dividend\"",
+        "Parse: ticker, amount and pay date (test on several real emails)",
+        "Find: the matching Holdings page in Notion",
+        "Create: a Dividend Payments item with Status = Needs review",
+        "Check: confirm automated entries against your broker every month"
+      ]
+    },
+    {
+      "heading": "Common mistakes that make dividend totals wrong",
+      "paragraphs": [
+        "Most errors in a Notion dividend tracker come from a few predictable data-entry habits, not from the formulas. Watching for these keeps your totals close to what your broker reports.",
+        "Reinvested dividends are the most common problem. If you reinvest dividends automatically, the payment is still income, so log it and tick Reinvested. Then update Shares and Cost Basis in Holdings, because the reinvestment bought new shares, often fractional ones.",
+        "Special dividends and returns of capital are a second trap. Logging them as regular income can distort your trailing 12-month figure and your yield on cost. Use a Type property and the Notes field to label them, and add a Type filter to your formulas if you want to leave them out."
+      ],
+      "bullets": [
+        "Counting Expected forecasts as income (filter to Received)",
+        "Forgetting to update Shares and Cost Basis after reinvesting",
+        "Adding amounts in different currencies together",
+        "Leaving a payment's Holding relation empty, so it never reaches any total",
+        "Deleting wrong entries instead of correcting them and leaving a note"
+      ]
+    },
+    {
+      "heading": "Honest trade-offs: who a Notion dividend tracker is not for",
+      "paragraphs": [
+        "A Notion dividend tracker works best for buy-and-hold investors who are happy to spend a few minutes a month logging payments. It's a poor fit if you want live prices, automatic syncing or detailed performance analysis.",
+        "Notion has no built-in market data. It can't show current prices, market value, current yield or total return unless you type those figures in yourself. It also doesn't connect directly to brokerage accounts, so every trade and payment has to be entered by hand, imported from a CSV or captured by an automation. If you trade often, the tracker will quickly fall out of step with your real portfolio.",
+        "If that sounds like you, use your broker's dashboard or a dedicated dividend app that connects to your accounts. Compare their data access, privacy policies and fees before you link anything. And whichever tool you use, remember that dividends are never guaranteed: companies and funds can cut or suspend them at any time. A tracker records what has happened and what has been declared. It can't predict what you'll earn in future."
+      ],
+      "bullets": [
+        "Good fit: buy-and-hold investors who log payments monthly and already plan in Notion",
+        "Poor fit: active traders, or anyone who needs live prices or total-return analysis",
+        "Poor fit: anyone who wants syncing with no maintenance at all",
+        "Alternatives: a broker dashboard, or a dedicated tracker that connects to your accounts"
+      ]
+    },
+    {
+      "heading": "Taxes, records and keeping your tracker accurate",
+      "paragraphs": [
+        "For tax purposes, your broker's official tax documents are the record that counts, not your Notion tracker. Depending on your country, that could be a form such as a 1099-DIV in the US or an annual consolidated tax statement elsewhere. Use the tracker to organise and check figures, not to replace those documents.",
+        "Once a year, compare your Notion totals with your broker's year-end summary. Common mismatches include payments declared in one year but paid in the next, distributions reclassified after the fact, foreign withholding adjustments and reinvested dividends that never got logged. Correct your entries so next year starts from accurate figures.",
+        "How dividends are taxed depends on your country, your account type and sometimes the kind of distribution, and the rules change over time. For decisions about your own situation, check your local tax authority's guidance or speak to a licensed tax adviser or accountant. Now and then, use Notion's export option to save a backup copy of both databases."
+      ],
+      "bullets": [
+        "Treat your broker's tax forms as the official record",
+        "Check your Notion totals against the broker's year-end summary once a year",
+        "Record withholding tax and reinvested dividends separately",
+        "Export a backup of both databases from time to time"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Buy-and-hold investors who want a free, customisable dividend dashboard, with linked databases, formulas, calendar views and research notes in one workspace. Check Notion's site for current plan details.",
+      "not_for": "Active traders, or anyone who needs live prices, automatic broker syncing or total-return analysis. A broker dashboard or a dedicated tracker will serve them better."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Investors whose broker sends dividend emails in a consistent format and who want a quick, no-code way to turn those emails into Notion entries to review.",
+      "not_for": "Investors whose broker doesn't send an email for each payment, or who aren't comfortable giving a third-party tool access to financial emails. Check current plan limits for multi-step workflows."
+    },
+    {
+      "product": "Make",
+      "best_for": "Investors who like a visual workflow builder and want finer control over how broker emails are parsed and sent to Notion. It's often a cheaper option for high-volume workflows.",
+      "not_for": "Anyone who wants to set it up once and forget about it. Make has a steeper learning curve, and a change to the broker's email format can still break the workflow."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Notion track dividend income automatically?",
+      "answer": "Not on its own. Notion has no built-in connection to brokers or market data, so you add payments by hand, import a CSV, or use an automation tool such as Zapier or Make to create entries from broker emails. Even then, review each automated entry, because email formats vary between brokers."
+    },
+    {
+      "question": "Is a Notion dividend tracker free?",
+      "answer": "The databases, relations, formulas and calendar views in this guide work on Notion's free plan for individuals at the time of writing. Optional automation tools may need a paid plan for multi-step workflows. Plans and limits change, so check each vendor's current pricing page."
+    },
+    {
+      "question": "How do I calculate yield on cost in Notion?",
+      "answer": "Divide a holding's trailing 12-month dividend income by its total cost basis, using a formula such as if(prop(\"Cost Basis\") > 0, prop(\"Trailing 12M Income\") / prop(\"Cost Basis\"), 0), and set the number format to Percent. Yield on cost reflects what you originally paid. It doesn't predict future income or returns."
+    },
+    {
+      "question": "How do I see monthly dividend totals in Notion?",
+      "answer": "Create a table view of your Dividend Payments database, group it by Pay Date with the grouping set to Month, and set the calculation under Net Amount to Sum. Filter the view to Status is Received so only confirmed income appears in each month's subtotal."
+    },
+    {
+      "question": "Can I use my Notion dividend tracker for my tax return?",
+      "answer": "Use it as a cross-check, not as your official record. Your broker's year-end tax documents are what count, and dividend tax rules vary by country and account type. Check your tracker against those documents, and ask your local tax authority or a licensed adviser about your own situation."
+    },
+    {
+      "question": "Should I use Notion or a spreadsheet to track dividends?",
+      "answer": "A spreadsheet suits you if you want heavy number-crunching and charts and are comfortable building formulas, and some spreadsheet apps can pull delayed price data. Notion suits you if you want linked records, calendars and research notes in one place. Both need manual updates unless you add imports or automation."
+    }
+  ],
+  "conclusion": "To track dividend income in Notion, you need two linked databases, a few formulas that count only Received payments, and a monthly habit of logging what you were paid. In return, you get one personal dashboard. It shows lifetime, yearly, trailing 12-month and monthly income, yield on cost for each holding, and a calendar of ex-dividend and pay dates next to your research notes. Zapier or Make can create entries from broker email alerts, as long as you review them.\n\nThe limits are real. Notion won't show live prices or sync with your accounts, so active traders and anyone who wants automatic updates will be better served by a broker dashboard or a dedicated tracker. Whatever tool you use, your broker's tax documents are the official record, tax rules vary by country, and dividends can be cut at any time. For decisions about your own finances, check your local tax authority or a licensed adviser.",
+  "keyword": "how to track dividend income in notion",
+  "niche": "dividend and long-term investing strategies",
+  "version": 2,
+  "slug": "how-to-track-dividend-income-in-notion-free-step-by-step-setup",
+  "published": "2026-10-08T08:13:42+00:00"
+}

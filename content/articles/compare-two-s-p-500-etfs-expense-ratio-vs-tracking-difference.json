@@ -1,0 +1,254 @@
+{
+  "title": "Compare Two S&P 500 ETFs: Expense Ratio vs Tracking Difference",
+  "meta_description": "How to compare two S&P 500 ETFs on expense ratio and tracking difference, plus spreads, lending and taxes. A 7-step checklist with a worked example.",
+  "quick_answer": "To compare two S&P 500 ETFs, first confirm they track the same index. Then compare the expense ratio (the stated annual fee) with the tracking difference (the fund's NAV total return minus the index's total return) over 3, 5 and 10 years. After that, check bid-ask spreads, securities lending, fund structure and dividend policy. Large funds usually differ only slightly, so consistency and taxes often matter more.",
+  "key_takeaways": [
+    "Start with the expense ratio, but decide on tracking difference. Tracking difference shows what investors actually kept compared with the index after every cost and offset.",
+    "Work out tracking difference from NAV returns, not market-price returns, over several periods. Use fact sheets dated at the same quarter-end.",
+    "Tracking difference is the size of the gap. Tracking error is how much that gap moves around. For long-term holders, a small and steady tracking difference matters more.",
+    "The bid-ask spread barely matters if you trade rarely. If you trade often or in large amounts, check the median spread and use limit orders.",
+    "In a taxable account, switching funds can trigger capital gains tax. Sending only new money to the new fund avoids realising the gain.",
+    "Fees and policies change. Confirm every figure on the provider's website before you decide."
+  ],
+  "who_this_is_for": "This guide is for investors choosing between two nearly identical S&P 500 index ETFs who want to know which numbers matter, how to calculate them, and when switching is worth the cost.",
+  "intro": "If you've opened two S&P 500 ETF fact sheets side by side and wondered why the numbers don't quite match, you're not alone. Both funds track the same index and hold roughly the same 500 companies, so their results land very close together. The small gaps come from fees, cash drag, trading costs, securities lending, fund structure and how dividends are handled. This guide explains each metric in plain language and shows where to find it on a fact sheet. It also walks through a worked tracking-difference calculation and gives you a 7-step checklist and a worksheet template. One thing most comparison articles leave out: for most long-term holders, the difference between two large, low-cost S&P 500 ETFs is small, and picking one and sticking with it usually beats comparing them forever. We don't quote live fees because they change, so confirm current figures with each provider. This article is general education, not personal financial or tax advice.",
+  "steps": [
+    {
+      "name": "Confirm both funds track the same index",
+      "text": "Find the 'Benchmark' or 'Underlying index' line on each fact sheet. Check that both track the standard S&P 500, not an equal-weight, ESG-screened, leveraged or currency-hedged version. Note which index version each fund is measured against (gross or net total return). For funds listed outside the US, also record the replication method (physical or swap-based) and the fund's domicile."
+    },
+    {
+      "name": "Gather matching documents and set up a worksheet",
+      "text": "Download both fact sheets dated at the same quarter-end, plus each fund's premium/discount and pricing pages. Create a simple two-column worksheet with one column per fund (see the template in the worked-example section). Comparing documents from different dates is one of the most common mistakes."
+    },
+    {
+      "name": "Record the expense ratio",
+      "text": "Write down each fund's fee. Depending on the provider and country, it may be called 'net expense ratio', 'total expense ratio' (TER) or 'ongoing charges figure' (OCF). Use the net figure if any fee waiver applies, and check whether the waiver has an end date."
+    },
+    {
+      "name": "Calculate tracking difference over several periods",
+      "text": "In the performance table, take each fund's annualised NAV total return for the 1-, 3-, 5- and 10-year periods and subtract the benchmark's return for the same period. A result that is slightly negative, roughly in line with the fee, and steady across periods suggests the fund is tracking well. A gap that is much bigger than the fee deserves a closer look."
+    },
+    {
+      "name": "Check trading costs",
+      "text": "On each fund's website, note the 30-day median bid-ask spread, the premium/discount history, total net assets and average daily volume. Then check whether your broker charges a commission on either fund. If you invest small amounts monthly and rarely sell, give this step little weight."
+    },
+    {
+      "name": "Review securities lending, structure and dividend policy",
+      "text": "Look in the annual report or on the 'Securities lending' page to see how much of the lending revenue goes back to the fund. Check the legal structure in the prospectus (for example, unit investment trust or open-end fund). Then note how often dividends are paid and whether the share class distributes cash or accumulates (reinvests) it."
+    },
+    {
+      "name": "Decide, check the tax impact, then stop comparing",
+      "text": "If the funds are close on every point, the cheapest and most convenient one on your platform is usually a reasonable choice. Write down why you chose it, then automate your contributions. If you would have to sell an existing holding in a taxable account, estimate the capital gains tax first. Sending only new money to the new fund may make more sense. For your own situation, check local rules or speak to a licensed adviser."
+    }
+  ],
+  "comparison": {
+    "caption": "S&P 500 ETF comparison metrics: what each tells you, where to find it, and how much it matters",
+    "headers": [
+      "Metric",
+      "What it tells you",
+      "Where to find it",
+      "Weight for a buy-and-hold investor"
+    ],
+    "rows": [
+      [
+        "Expense ratio",
+        "The annual fee taken from fund assets, shown as a percentage",
+        "Fact sheet 'Fees' or 'Key facts'; the fee table in the prospectus",
+        "Moderate. It's a certain, recurring cost, but gaps between large S&P 500 ETFs are usually small"
+      ],
+      [
+        "Tracking difference",
+        "How far the fund's total return fell short of (or beat) the index over a period",
+        "Calculate it from NAV returns and benchmark returns in the performance table. Some providers publish it",
+        "High. It's the closest measure of what investors actually kept"
+      ],
+      [
+        "Tracking error",
+        "How much the return gap varies over time",
+        "Risk section of some fact sheets; third-party fund research sites",
+        "Low to moderate. Consistency is good, but the size of the gap usually matters more"
+      ],
+      [
+        "Bid-ask spread and premium/discount",
+        "What each trade costs, and how closely the market price follows NAV",
+        "Fund 'Pricing' or 'Premium/discount' page; your broker's quote screen",
+        "Low if you trade rarely; higher if you trade often or in large amounts"
+      ],
+      [
+        "Assets and trading volume",
+        "How big the fund is, how likely it is to stay open, and how actively its shares trade",
+        "Fact sheet 'Net assets' and 'Average daily volume'",
+        "Low for large funds. A very small fund carries a higher risk of being closed"
+      ],
+      [
+        "Securities lending",
+        "Extra income from lending the fund's holdings, and who keeps it",
+        "Annual report, statement of additional information, or a securities lending page",
+        "Low to moderate. It can offset part of the fee, but it adds counterparty risk"
+      ],
+      [
+        "Dividend policy and domicile",
+        "How often dividends are paid, whether they're paid out or reinvested, and the withholding tax impact",
+        "Fact sheet 'Distribution frequency', 'Use of income' and 'Domicile'",
+        "Moderate. Affects cash drag, convenience and, in some countries, tax"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why near-identical S&P 500 ETFs still return slightly different amounts",
+      "paragraphs": [
+        "Two S&P 500 ETFs hold almost the same stocks, so their returns are almost the same. The small differences come from how each fund is run. Both follow the same market-cap-weighted list of large US companies and adjust when the index changes, so over any given year their results usually land very close together.",
+        "Knowing where the differences come from stops you from overreacting to them. A fund that trailed a rival by a sliver in one calendar year may simply have received its dividends at a different time. A fund that trails its index by more than its fee year after year is more likely telling you something about its costs."
+      ],
+      "bullets": [
+        "Fees: the expense ratio is taken out of fund assets a little each day.",
+        "Cash drag: dividends and new money waiting to be invested earn less than the stocks themselves.",
+        "Structure: some older ETFs are legally unable to reinvest dividends or lend shares.",
+        "Securities lending: lending income can partly offset fees.",
+        "Trading costs: the fund pays these internally when index members change.",
+        "Dividend withholding tax: it can vary with the fund's domicile, especially for investors outside the US."
+      ]
+    },
+    {
+      "heading": "How to compare two S&P 500 ETFs: expense ratio vs tracking difference",
+      "paragraphs": [
+        "The expense ratio tells you what a fund charges. Tracking difference tells you what investors actually lost or gained against the index once every cost and offset is counted. The expense ratio is easy to compare and is a cost you will definitely pay, so it makes a good first filter. It isn't the whole story.",
+        "Tracking difference is the fund's NAV total return minus the index's total return over the same period. For a well-run index ETF it is usually slightly negative and close to the expense ratio. It can be smaller than the fee if securities lending income or efficient trading offsets part of the cost, and larger if cash drag or trading costs add to it.",
+        "Tracking error is a separate measure that people often mix up with tracking difference. It is the variability of the return gap, usually expressed as a standard deviation. A fund can have very low tracking error and still trail the index by a steady amount every year. For a long-term holder, a small, consistent tracking difference usually matters more.",
+        "Always use NAV returns rather than market-price returns. Market-price returns include short-lived premiums and discounts that have nothing to do with how well the fund tracks its index. Look at several periods too, because a single year can be skewed by when dividends were paid."
+      ],
+      "bullets": [
+        "Expense ratio = the stated annual fee (also called net expense ratio, TER or ongoing charges).",
+        "Tracking difference = fund NAV total return minus index total return for the same period.",
+        "Tracking error = how much that difference varies over time.",
+        "Compare 3-, 5- and 10-year annualised figures where they're available, not just one year.",
+        "Check that both funds are measured against the same index version, gross or net total return."
+      ]
+    },
+    {
+      "heading": "Worked example and a comparison worksheet you can copy",
+      "paragraphs": [
+        "To compare tracking difference fairly, take the same periods from both fact sheets, subtract the index return from each fund's return, and put the results side by side. The figures below are hypothetical. They show the method, not real funds.",
+        "Suppose Fund A has an expense ratio of 0.03% and Fund B has 0.09%. Over five years the index returned 12.44% a year (annualised). Fund A's NAV returned 12.40%, so its tracking difference is −0.04 percentage points a year. Fund B's NAV returned 12.37%, so its tracking difference is −0.07. Each fund trailed the index by about its fee, which suggests neither has unexplained costs. If Fund B had trailed by −0.25 points with a 0.09% fee, that extra drag would be worth investigating.",
+        "Check that the numbers are actually comparable before you trust the result. If one fund reports in a different currency, or is measured against a net-of-withholding version of the index while the other uses gross, the raw figures can't be compared directly."
+      ],
+      "bullets": [
+        "Worksheet row 1: fund name, ticker, provider and fact sheet date.",
+        "Row 2: benchmark name and version (gross or net total return).",
+        "Row 3: expense ratio, plus any fee waiver and its end date.",
+        "Rows 4–6: 1-, 3- and 5-year annualised NAV return, index return, and the difference.",
+        "Row 7: 30-day median bid-ask spread and typical premium/discount.",
+        "Row 8: legal structure, replication method, domicile, distribution policy and securities lending revenue split.",
+        "Row 9: your broker's commission or fee for each fund."
+      ]
+    },
+    {
+      "heading": "Trading costs: bid-ask spread, premiums and liquidity",
+      "paragraphs": [
+        "The bid-ask spread is the cost built into every ETF trade. If you rarely trade, it barely matters. It is the gap between the highest price a buyer will pay and the lowest price a seller will accept. Popular S&P 500 ETFs usually have narrow spreads, but spreads can widen near the market open and close and during volatile periods.",
+        "US-listed ETFs generally publish a median bid-ask spread and a premium/discount history on their websites, usually under 'Pricing' or 'Premium/discount'. The premium or discount shows how far the market price has moved away from net asset value (NAV). For large S&P 500 ETFs the gap is usually small, because the underlying stocks trade very easily.",
+        "An ETF's real liquidity depends mainly on its underlying stocks, so an S&P 500 ETF with lower trading volume can still be cheap to trade. Size matters for another reason: a very small fund is more likely to be closed, which would force a sale and could create a taxable gain."
+      ],
+      "bullets": [
+        "Use limit orders instead of market orders.",
+        "Avoid the first and last few minutes of the trading session.",
+        "A broker commission on one fund but not the other can outweigh a small fee difference.",
+        "If you buy every month, add up your trading costs over a full year."
+      ]
+    },
+    {
+      "heading": "Securities lending and fund structure: the quiet return drivers",
+      "paragraphs": [
+        "Securities lending means a fund lends some of its shares to other market participants for a fee. Depending on how much of that fee goes back to the fund, the income can offset part of the expense ratio. Borrowers post collateral. Providers differ in how much of the revenue they return to the fund and how much they or their lending agent keep. You'll find the details in the annual report, the statement of additional information or a dedicated lending page.",
+        "Securities lending carries its own risks. If a borrower defaults and the collateral falls short, or reinvested collateral loses value, the fund could lose money. Providers describe safeguards such as over-collateralisation and borrower indemnification, but read each fund's own disclosure rather than assuming they are all the same.",
+        "Fund structure also explains some return gaps. Some older US ETFs are unit investment trusts, which generally can't lend securities or reinvest dividends between payout dates, so a little more cash sits idle. Most newer ETFs are open-end funds with more flexibility. Outside the US, some S&P 500 ETFs hold the stocks directly (physical replication), while others use swaps with a bank (synthetic replication). Synthetic funds add counterparty risk, and in some cases they can be more tax-efficient on dividends."
+      ],
+      "bullets": [
+        "Check the share of lending revenue that goes back to the fund.",
+        "Check the average percentage of the fund on loan and the collateral policy.",
+        "Check the legal structure in the prospectus.",
+        "For listings outside the US, check the replication method and the domicile."
+      ]
+    },
+    {
+      "heading": "How dividends are paid, and why domicile matters",
+      "paragraphs": [
+        "S&P 500 ETFs pass on the dividends of the companies they hold. Funds differ in how often they pay and whether they pay the cash to you or reinvest it inside the fund. Many US-listed S&P 500 ETFs pay quarterly. In some markets, especially Europe, you can choose between distributing share classes, which pay cash out, and accumulating share classes, which reinvest it automatically.",
+        "Tax treatment of the two types varies by country. Some countries tax dividends when they're paid, and others have special reporting rules for accumulating funds. For investors outside the US, the fund's domicile can also change how much US dividend withholding tax is lost before the dividend reaches the fund or you, depending on tax treaties and where you live. Check with your local tax authority or a licensed adviser."
+      ],
+      "bullets": [
+        "Fact sheet labels to look for: 'Distribution frequency', 'Distribution policy', 'Use of income' and 'Domicile'.",
+        "In a taxable account, buying just before an ex-dividend date can mean receiving a taxable payout almost straight away.",
+        "If your fund distributes cash, find out whether your broker offers automatic dividend reinvestment."
+      ]
+    },
+    {
+      "heading": "Should you switch S&P 500 ETFs? The capital gains tax question",
+      "paragraphs": [
+        "Switching between S&P 500 ETFs inside a tax-advantaged account usually has no immediate tax cost. In a taxable account, the same switch can trigger capital gains tax. Selling a fund that has risen in value usually realises a gain, and a tax bill paid today can easily outweigh years of savings from a slightly lower fee.",
+        "A simple alternative is to stop adding to the old fund and send all new contributions to the new one. You keep the unrealised gain, avoid an immediate tax bill, and still get the lower cost on new money. Whether partial switches, or switching only holdings that are at a loss, make sense depends on the rules where you live.",
+        "In the US, the wash sale rule can disallow a loss if you buy a 'substantially identical' security within 30 days before or after the sale. Official guidance doesn't clearly say whether two S&P 500 ETFs from different providers count as substantially identical, so ask a tax professional. Other countries have their own anti-avoidance rules."
+      ],
+      "bullets": [
+        "Taxable account: estimate the realised gain and the likely tax before you sell.",
+        "Tax-advantaged account: switching is usually tax-neutral, but still check trading costs.",
+        "Selling at a loss: check the wash sale rule or your country's equivalent.",
+        "For personal decisions, consult a licensed tax adviser or your local tax authority."
+      ]
+    },
+    {
+      "heading": "Why picking one and sticking with it usually wins",
+      "paragraphs": [
+        "For most long-term investors, the gap between two large, low-cost S&P 500 ETFs is small enough that staying consistent matters more than which one you pick. Here's a hypothetical example: a 0.05 percentage point difference in annual cost on a 10,000 holding comes to about 5 a year. That's small compared with how much you save, how long you stay invested, and whether you avoid selling during a downturn.",
+        "Comparing endlessly has its own costs. It can delay investing and trigger taxes or trading fees that cancel out the advantage you were after. Both funds also carry the same core risk: the S&P 500 can fall sharply and stay down for years, and no choice of provider protects you from that. Past tracking results don't guarantee future results.",
+        "The differences deserve a closer look if you have a very large balance, trade often, are comparing a fund priced well above its peers or a very small fund that could close, or use a platform that charges commission on only one of the funds."
+      ],
+      "bullets": [
+        "Review your choice every year or two, not every week.",
+        "Revisit it if fees change meaningfully, the fund shrinks sharply, or your account type or country of residence changes.",
+        "Keep a dated note explaining why you chose the fund, so you don't redo the analysis on impulse."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who already use Notion and want a reusable ETF comparison worksheet and a dated record of their decisions, so they can see later why they chose a fund and avoid re-running the analysis on impulse.",
+      "not_for": "Anyone who only needs a one-off comparison, where a free spreadsheet or notes app does the job. Notion doesn't pull live fund data, so every figure has to be copied from provider fact sheets and rechecked. It is not an investment research or advice tool."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the S&P 500 ETF with the lowest expense ratio always the best choice?",
+      "answer": "Not always, though it's a sensible starting point. Tracking difference shows what investors actually kept after fees, cash drag, trading costs and lending income, so a fund with a slightly higher fee can sometimes track just as closely. Your broker's commissions and your tax situation also matter, so confirm current fees on each provider's site."
+    },
+    {
+      "question": "What is the difference between tracking difference and tracking error?",
+      "answer": "Tracking difference is the gap between a fund's total return and its index's total return over a period, for example a hypothetical −0.05 percentage points in a year. Tracking error is how much that gap varies over time, usually shown as a standard deviation. Long-term holders usually care more about a small, consistent tracking difference."
+    },
+    {
+      "question": "Are SPY, IVV and VOO basically the same?",
+      "answer": "SPY, IVV and VOO are widely held US-listed S&P 500 ETFs from State Street, iShares (BlackRock) and Vanguard, so their holdings, returns and market risk are very similar. SPY is a unit investment trust, while IVV and VOO are open-end funds, which affects securities lending and dividend reinvestment. Fees and details change, so compare current figures on each provider's site. This is not a recommendation to buy any of them."
+    },
+    {
+      "question": "Where can I find an ETF's tracking difference?",
+      "answer": "Some providers, especially in Europe, publish it directly. Usually you have to calculate it: subtract the benchmark's total return from the fund's NAV total return for the same period in the fact sheet's performance table. Repeat this for several periods to see whether the gap is steady."
+    },
+    {
+      "question": "Will switching from one S&P 500 ETF to another trigger taxes?",
+      "answer": "In a taxable account, selling a fund that has risen in value usually realises a capital gain, which may be taxed depending on your country and circumstances. Inside tax-advantaged accounts, switching is usually tax-neutral. Sending new money to the new fund instead of selling the old one avoids realising the gain. Check local rules or ask a licensed tax adviser."
+    },
+    {
+      "question": "Does the bid-ask spread matter if I invest monthly?",
+      "answer": "For regular investors buying popular S&P 500 ETFs, the spread is usually a minor cost, though it adds a little to every purchase. Using limit orders and avoiding the market open and close helps keep it low. A per-trade commission or platform fee often matters more than the spread itself."
+    }
+  ],
+  "conclusion": "Comparing two S&P 500 ETFs comes down to a short checklist. Confirm both funds track the same index, compare the expense ratio, then calculate tracking difference from NAV returns over several periods. After that, check trading costs, securities lending, fund structure, dividend policy and domicile. You'll find every figure on the provider's fact sheet, prospectus or website, so recheck them against current data, because fees and policies change. Two large, low-cost S&P 500 ETFs are usually separated by small margins, and both carry the same stock market risk. Before switching in a taxable account, weigh the capital gains tax, and consider sending only new money to the new fund. Tax rules differ by country, so for personal decisions talk to a licensed adviser or check your local regulator's guidance. Then make your choice, write down why, automate your contributions, and focus on what matters more over the long run: how much you save and staying invested.",
+  "keyword": "how to compare two s&p 500 etfs expense ratio tracking difference",
+  "niche": "ETFs and index fund investing",
+  "version": 2,
+  "slug": "compare-two-s-p-500-etfs-expense-ratio-vs-tracking-difference",
+  "published": "2026-10-08T08:10:36+00:00"
+}
