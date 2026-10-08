@@ -139,6 +139,18 @@ def _article_ld(cfg: Config, a: dict[str, Any]) -> list[str]:
     return blocks
 
 
+def _best_product(cfg: Config, a: dict[str, Any], products: list[dict[str, Any]], i: int) -> dict[str, Any] | None:
+    """Pick the playbook most likely to sell on this article: buyable first, then same section."""
+    if not products:
+        return None
+    buyable = [p for p in products if p["slug"] in cfg.checkout_links]
+    same = lambda ps: [p for p in ps if p.get("section") == a.get("section")]
+    for pool in (same(buyable), buyable, same(products), products):
+        if pool:
+            return pool[i % len(pool)]
+    return None
+
+
 def _related(a: dict[str, Any], articles: list[dict[str, Any]], n: int = 3) -> list[dict[str, Any]]:
     others = [x for x in articles if x["slug"] != a["slug"]]
     same = [x for x in others if x.get("niche") == a.get("niche")]
@@ -213,12 +225,13 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
 
     for i, a in enumerate(articles):
         recs = [dict(r, aff=aff) for r in a.get("recommendations", []) if (aff := cfg.affiliate(r["product"]))]
-        product = products[i % len(products)] if products else None
+        product = _best_product(cfg, a, products, i)
         page = _page(cfg, f"{a['title']} — {cfg.site_name}", a["meta_description"], f"{a['slug']}/",
                      og_type="article", og_image=f"assets/og/{a['slug']}.png", published=a["published"],
                      modified=a.get("updated") or a["published"], markdown=f"{a['slug']}/index.md")
         page["jsonld"] += _article_ld(cfg, a)
         render(a["slug"], "article.html", page, a=a, recs=recs, product=product, related=_related(a, articles),
+               checkout=cfg.checkout_links.get(product["slug"]) if product else None,
                key_terms=terms_in(a["slug"]))
         _write(out / a["slug"] / "index.md", article_markdown(cfg, a))
 

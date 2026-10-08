@@ -84,7 +84,7 @@ a.card:hover{transform:translateY(-3px);border-color:var(--accent)}
 .cover{border-radius:var(--radius);box-shadow:var(--shadow);margin:8px 0 24px;display:block;width:100%}
 .layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:48px;align-items:start}
 .layout.wide-aside{grid-template-columns:minmax(0,1fr) 340px}
-@media (max-width:1000px){.layout,.layout.wide-aside{grid-template-columns:1fr}.aside{display:none}.pricebox{position:static}.wide-aside>aside:not(.aside){order:-1}}
+@media (max-width:1000px){.layout,.layout.wide-aside{grid-template-columns:minmax(0,1fr)}.aside{display:none}.pricebox{position:static}.wide-aside>aside:not(.aside){order:-1}}
 .aside{position:sticky;top:88px;display:flex;flex-direction:column;gap:16px}
 .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-size:14px}
 .toc b{display:block;margin-bottom:8px}
@@ -142,3 +142,12 @@ footer a{color:var(--muted);text-decoration:none;display:block;margin:6px 0}foot
 .field input:focus{outline:2px solid var(--accent);border-color:transparent}
 .field small{font-weight:400}
 #out table{background:transparent}#out td{border-bottom:1px solid var(--line);padding:10px 4px}
+
+/* sticky purchase bar on articles */
+.sticky-cta{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:30;display:flex;align-items:center;gap:14px;
+  width:min(720px,calc(100% - 32px));background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px 12px 10px 18px;box-shadow:0 10px 40px rgba(20,24,36,.18)}
+.sticky-cta>span{flex:1;min-width:0;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sticky-cta button{background:none;border:0;font-size:22px;line-height:1;color:var(--muted);cursor:pointer;padding:4px 6px}
+.sticky-cta[hidden]{display:none}
+@media (max-width:560px){.sticky-cta .muted{display:none}}
+.prose{overflow-wrap:anywhere}

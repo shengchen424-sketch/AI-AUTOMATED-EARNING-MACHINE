@@ -49,6 +49,11 @@
 
   <h2 id="bottom-line">The bottom line</h2>
   <p>{{ a.conclusion }}</p>
+  {% if product %}<div class="promo" style="margin:28px 0"><div class="promo-grid">
+    <div><span class="eyebrow" style="color:#fff">Next step</span><h3>{{ product.title }}</h3><p>{{ product.subtitle }}</p></div>
+    <div>{% if checkout %}<div class="price">{{ price }}</div><p class="small">One-time · instant download · {{ cfg.refund_days }}-day money-back guarantee</p>{% endif %}
+      <a class="btn big" href="{{ cfg.base_url }}/products/{{ product.slug }}/">{% if checkout %}Get the playbook →{% else %}See what's inside →{% endif %}</a></div>
+  </div></div>{% endif %}
   <div class="box author"><i></i><div><b>{{ cfg.author }}</b><br><span class="small muted">We research practical answers on money, family, learning and AI. Drafted with AI assistance and reviewed against our editorial rules: no invented numbers, honest trade-offs. <a href="{{ cfg.base_url }}/about/">How we work</a>.</span></div></div>
 </article>
 <aside class="aside">
@@ -65,4 +70,15 @@
   <div class="grid">{% for r in related %}{{ card(r, cfg) }}{% endfor %}</div></section>{% endif %}
 <div class="read">{{ subscribe(cfg) }}</div>
 </div>
+{% if product and checkout %}
+<div class="sticky-cta" id="sticky-cta" hidden>
+  <span><b>{{ product.title }}</b> <span class="muted small">· {{ price }} · {{ cfg.refund_days }}-day guarantee</span></span>
+  <a class="btn" href="{{ cfg.base_url }}/products/{{ product.slug }}/">Get it →</a>
+  <button type="button" aria-label="Dismiss" onclick="this.parentNode.remove();try{sessionStorage.setItem('ctaClosed','1')}catch(e){}">×</button>
+</div>
+<script>
+(function(){var b=document.getElementById("sticky-cta");try{if(sessionStorage.getItem("ctaClosed"))return}catch(e){}
+addEventListener("scroll",function(){if(scrollY>900)b.hidden=false},{passive:true});})();
+</script>
+{% endif %}
 {% endblock %}

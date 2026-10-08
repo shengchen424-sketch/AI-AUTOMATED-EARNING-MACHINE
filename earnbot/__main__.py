@@ -9,14 +9,14 @@ import os
 import sys
 from pathlib import Path
 
-from . import config, indexnow, pipeline, report, site
+from . import config, indexnow, marketing, pipeline, report, site
 from .llm import ClaudeCodeJSON, has_credentials
 from .store import Store
 
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="earnbot", description="AI Earning Machine autopilot")
-    ap.add_argument("command", choices=["run", "build", "status", "indexnow", "burst"])
+    ap.add_argument("command", choices=["run", "build", "status", "indexnow", "burst", "promote"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--deliverables", type=Path, default=Path("deliverables"),
                     help="where full paid product files are written (kept out of the public site)")
@@ -49,6 +49,10 @@ def main(argv: list[str] | None = None) -> int:
         active = datetime.now(timezone.utc) < until
         print(f"burst {'active' if active else 'over'} (until {cfg.burst_until})")
         return 0 if active else 1
+    if args.command == "promote":
+        result = marketing.promote(cfg, store)
+        print(json.dumps(result, indent=1, ensure_ascii=False))
+        return 0
     if args.command == "indexnow":
         print(json.dumps(indexnow.submit(cfg, store) if cfg.indexnow else {"skipped": "disabled in config"}))
         return 0
