@@ -27,7 +27,7 @@ h3{font-size:1.15rem;margin:1.6em 0 .4em}
 .top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(1.6) blur(12px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--fg);text-decoration:none;letter-spacing:-.02em}
-.brand i{width:30px;height:30px;border-radius:9px;background:var(--grad);display:inline-block;box-shadow:var(--shadow)}
+.brand i{width:30px;height:30px;border-radius:9px;background:var(--grad);display:inline-grid;place-items:center;color:#fff;font-style:normal;font-size:17px;box-shadow:var(--shadow)}
 .nav{display:flex;gap:6px;flex-wrap:wrap}
 .nav a{color:var(--fg);text-decoration:none;font-size:15px;font-weight:500;padding:8px 12px;border-radius:10px}
 .nav a:hover{background:var(--surface-2)}

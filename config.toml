@@ -5,13 +5,13 @@
 # ============================================================
 
 [site]
-name = "AI Toolkit Daily"
+name = "Northlight Guide"
 tagline = "Practical, honest guides to money, family, learning and the AI tools that make life easier."
 # Final public URL. With GitHub Pages this is https://<user>.github.io/<repo>
 base_url = "https://shengchen424-sketch.github.io/AI-AUTOMATED-EARNING-MACHINE"
 language = "en"            # "en" = bigger affiliate market; "zh" also works
-author = "AI Toolkit Daily Editorial"
-business_name = "AI Toolkit Daily"   # must match the business name on your Stripe account
+author = "Northlight Guide Editorial"
+business_name = "Northlight Guide"   # must match the business name on your Stripe account
 contact_email = "shengchen424@gmail.com"   # public support email shown on Contact / Refund pages
 
 [autopilot]
