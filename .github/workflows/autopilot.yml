@@ -49,7 +49,11 @@ jobs:
           git config user.name "earnbot"
           git config user.email "earnbot@users.noreply.github.com"
           git add content data
-          git diff --cached --quiet || (git commit -m "autopilot: new content $(date -u +%F)" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "autopilot: new content $(date -u +%F)"
+          # Another run may have pushed meanwhile: replay our commit on top, then push.
+          git pull --rebase -X theirs origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
 
       - name: Keep paid deliverables private (download from the run's artifacts)
         uses: actions/upload-artifact@v4
