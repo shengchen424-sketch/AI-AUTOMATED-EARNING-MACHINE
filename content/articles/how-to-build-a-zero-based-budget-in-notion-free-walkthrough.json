@@ -1,0 +1,267 @@
+{
+  "title": "How to Build a Zero-Based Budget in Notion (Free Walkthrough)",
+  "meta_description": "Learn how to build a zero-based budget in Notion: set up Income, Categories and Transactions databases, a left-to-assign formula, and a monthly reset.",
+  "quick_answer": "To build a zero-based budget in Notion, create Income, Categories and Transactions databases, plus a small Months database that holds the totals. Use relations to link income and category rows to a month. Roll up total income and total assigned, then add a \"Left to assign\" formula that subtracts one from the other. Adjust your category amounts until it shows $0.",
+  "key_takeaways": [
+    "In zero-based budgeting, income minus everything you assign equals $0. Savings and debt payments count as assignments, so $0 does not mean an empty bank account.",
+    "Use three core databases (Income, Categories and Transactions) plus a small Months hub. The \"Left to assign\" formula lives in the Months hub.",
+    "Each month, create fresh category rows by duplicating a clean Master list. Copies of last month's rows can arrive still linked to old transactions.",
+    "Log transfers and credit card payments carefully. If they're counted as spending, the same money gets counted twice.",
+    "Turn irregular costs such as annual bills, car repairs and gifts into monthly sinking-fund categories so they don't catch you off guard.",
+    "Notion doesn't connect to your bank, so this setup suits hands-on budgeters who are happy to enter transactions by hand."
+  ],
+  "who_this_is_for": "This guide is for people who already use Notion, or want to, and are happy to log transactions by hand in exchange for a fully custom zero-based budget they control.",
+  "intro": "A zero-based budget gives every dollar of income a job before you spend it, and Notion's relations, rollups and formulas are enough to run one without a dedicated budgeting app. This walkthrough starts from a blank page. You'll build four linked databases and a \"Left to assign\" formula that should reach $0 each month. You'll also get a worked example with numbers, a monthly reset routine, and fixes for the double-counting mistakes that break most homemade budgets. The result is your own template, which you can change as your finances change. One caveat first: Notion won't import transactions from your bank, so this works best if you don't mind logging spending yourself. Notion's interface, formula editor and plan limits change over time, so check current details on Notion's website as you build. This article is general information, not personal financial advice.",
+  "steps": [
+    {
+      "name": "Create a Budget page and a Months database",
+      "text": "Create a new page called Budget. Inside it, add a full-page database called Months. Give each month one row, with a title that sorts correctly, such as 2026-10. Add a number property called Carryover. It holds money from last month that you still need to assign. Months is the hub that will hold the monthly totals and the Left to assign formula."
+    },
+    {
+      "name": "Build the Income database",
+      "text": "Add a database called Income with these properties: Name (title), Amount (number, formatted as your currency), Date (date), Source (select, e.g. Salary, Freelance, Other) and Month (relation to Months). When you create the relation, turn on the option to show it on Months. This makes the relation two-way, so Months automatically gets a matching property. Rename that property to Income if Notion gives it a different name."
+    },
+    {
+      "name": "Build the Categories database",
+      "text": "Add a database called Categories with these properties: Name (title, e.g. Groceries 2026-10), Group (select: Fixed, Variable, Sinking fund, Savings, Debt), Assigned (number), Carried in (number), Month (two-way relation to Months; rename the matching property on Months to Categories) and a checkbox called Master. Create one row for each spending category and tick Master on it. Leave Month empty on Master rows. They are your clean template list."
+    },
+    {
+      "name": "Build the Transactions database",
+      "text": "Add a database called Transactions with these properties: Name (title), Amount (number, always entered as positive), Date (date), Type (select: Expense, Refund, Transfer), Account (select, e.g. Checking, Credit card) and Category (two-way relation to Categories; rename the matching property on Categories to Transactions). Then add a formula property called Signed amount, which makes refunds negative and sets transfers to zero. The formula is in the formulas section below."
+    },
+    {
+      "name": "Add Spent and Remaining to Categories",
+      "text": "In Categories, add a rollup called Spent: choose the Transactions relation, the Signed amount property and the Sum calculation. Then add a formula property called Remaining: prop(\"Carried in\") + prop(\"Assigned\") - prop(\"Spent\"). Remaining shows how much money is left in that category for the month."
+    },
+    {
+      "name": "Add totals and Left to assign to Months",
+      "text": "In Months, add two rollups. Total income uses the Income relation, the Amount property and Sum. Total assigned uses the Categories relation, the Assigned property and Sum. Then add a formula called Left to assign: round((prop(\"Carryover\") + prop(\"Total income\") - prop(\"Total assigned\")) * 100) / 100. The goal is for it to show 0."
+    },
+    {
+      "name": "Create this month's categories and assign every dollar",
+      "text": "Filter Categories to show rows where Master is checked, select all of them and duplicate them (Ctrl/Cmd+D). With the copies still selected, untick Master and set Month to the current month for all of them at once. Add the month to each name. Log the income you've received, then raise or lower the Assigned amounts until Left to assign on the Month row shows 0."
+    },
+    {
+      "name": "Build a simple dashboard and start logging",
+      "text": "On the Budget page, add three linked views: Categories filtered to the current month, showing Assigned, Spent and Remaining; Transactions sorted by Date, newest first; and the current Month row, so you can see Left to assign. Log each purchase within a day or two, while you still remember it, and link it to this month's category."
+    }
+  ],
+  "comparison": {
+    "caption": "Notion vs other ways to run a zero-based budget (features, availability and pricing change, so check each vendor's site)",
+    "headers": [
+      "Option",
+      "Bank connection",
+      "Flexibility",
+      "Best for",
+      "Main trade-off"
+    ],
+    "rows": [
+      [
+        "Notion (DIY build)",
+        "None built in; manual entry, or add an automation tool for faster entry",
+        "Very high: you design every database, view and formula",
+        "Hands-on budgeters who already live in Notion",
+        "Manual entry takes discipline, and you maintain the system yourself"
+      ],
+      [
+        "Spreadsheet (e.g. Google Sheets or Excel)",
+        "Usually manual; some add-ons or bank CSV exports can help",
+        "High, with strong calculation tools",
+        "People who prefer grids and complex formulas",
+        "Harder to attach notes or receipts to a category, and formulas are easy to break"
+      ],
+      [
+        "Dedicated zero-based budgeting app (e.g. YNAB, as one example of the category)",
+        "Often included; availability varies by country and bank",
+        "Moderate: the method is built in",
+        "People who want imports and a guided method",
+        "Usually a paid subscription, and you work within the app's structure"
+      ],
+      [
+        "Your bank's built-in budgeting tools",
+        "Automatic, but only for that bank's accounts",
+        "Low",
+        "Basic spending awareness at one bank",
+        "Rarely truly zero-based, and doesn't cover accounts at other banks"
+      ],
+      [
+        "QuickBooks Online",
+        "Bank feeds with automated categorisation",
+        "High, but designed for accounting",
+        "Small businesses and sole traders keeping business books",
+        "More than a household budget needs; built for business accounting"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is a zero-based budget, and why build one in Notion?",
+      "paragraphs": [
+        "A zero-based budget assigns every dollar of income to spending, saving or debt repayment until income minus assignments equals exactly zero.",
+        "The zero is unassigned money, not your bank balance. Say you earn $4,000 (an example figure) and assign $500 to an emergency fund. That $500 has a job, so the budget can reach zero while your savings grow. The point is that every dollar has a decision behind it, so none of it drifts away unnoticed.",
+        "Notion suits this method because its databases can link to each other. A relation connects a transaction to a category, a rollup adds up the linked amounts, and a formula does the subtraction. Together, these three features reproduce the core sums of a budgeting app. You can also open any category as a page and keep notes, receipts or reminders there, which a plain spreadsheet does less neatly.",
+        "The trade-off is that you build and maintain the system yourself. That suits people who enjoy shaping their own tools. If you want something that works out of the box, a dedicated budgeting app may suit you better. The comparison table above sets out the options."
+      ],
+      "bullets": [
+        "Rule 1: Only budget money you have received or are certain to receive this month.",
+        "Rule 2: Keep assigning until Left to assign equals $0, with nothing left over and nothing over-assigned.",
+        "Rule 3: When a category runs short, move money from another category instead of letting the total go negative."
+      ]
+    },
+    {
+      "heading": "How the four databases fit together",
+      "paragraphs": [
+        "The system has three core databases (Income, Categories and Transactions) plus a small Months hub that calculates each month's totals.",
+        "A Notion formula can only read pages linked to it by a relation, so the monthly totals need a hub. Each month gets one row in Months. Income entries and category rows link to that row. Transactions link to a category, which ties every transaction to a month through its category.",
+        "Categories are created fresh each month instead of being reused. Groceries 2026-10 and Groceries 2026-11 are separate rows. This keeps October's assignments and spending on record after the month ends, and the rollups only ever add up the right month without complicated filters.",
+        "Putting the month in each category name also helps when you log a transaction. The Category picker can show rows from every month, so a name like Groceries 2026-10 makes the right row easy to pick."
+      ],
+      "bullets": [
+        "Months: Title (e.g. 2026-10), Carryover (number), Income (relation), Categories (relation), Total income (rollup), Total assigned (rollup), Left to assign (formula), Status (formula).",
+        "Income: Name, Amount, Date, Source (select), Month (relation).",
+        "Categories: Name, Group (select), Assigned, Carried in, Month (relation), Transactions (relation), Spent (rollup), Remaining (formula), Master (checkbox).",
+        "Transactions: Name, Amount (positive), Date, Type (Expense/Refund/Transfer), Account (select), Category (relation), Signed amount (formula)."
+      ]
+    },
+    {
+      "heading": "How to build a zero based budget in Notion: the formulas that make it work",
+      "paragraphs": [
+        "Four short formulas run the whole budget. Paste each one into a formula property, and make sure your property names match the names in the formula exactly.",
+        "If a formula shows an error, the usual cause is a property name that doesn't match exactly, including capital letters and spaces. The next most likely cause is a rollup set to something other than Sum. Select options also have to match exactly, so \"Refund\" in the formula must be spelled the same way as the option in your Type property.",
+        "Wrap money formulas in round(... * 100) / 100. Adding decimal amounts can leave tiny leftovers such as 0.0000001, which stop Left to assign from showing exactly zero.",
+        "The Status formula is optional, but it tells you at a glance whether to assign more or pull money back."
+      ],
+      "bullets": [
+        "Transactions → Signed amount: if(prop(\"Type\") == \"Refund\", -prop(\"Amount\"), if(prop(\"Type\") == \"Transfer\", 0, prop(\"Amount\")))",
+        "Categories → Remaining: prop(\"Carried in\") + prop(\"Assigned\") - prop(\"Spent\")",
+        "Months → Left to assign: round((prop(\"Carryover\") + prop(\"Total income\") - prop(\"Total assigned\")) * 100) / 100",
+        "Months → Status: if(prop(\"Left to assign\") == 0, \"✅ Every dollar assigned\", if(prop(\"Left to assign\") > 0, \"Assign \" + format(prop(\"Left to assign\")) + \" more\", \"Over-assigned by \" + format(abs(prop(\"Left to assign\")))))"
+      ]
+    },
+    {
+      "heading": "A worked example: one month from start to $0",
+      "paragraphs": [
+        "Here is a sample month showing how the numbers move. All figures are made-up examples, not recommended amounts.",
+        "Say October's row has Carryover of $0, and you log one salary payment of $4,000. Total income reads 4,000. You duplicate your Master categories and fill in Assigned: Rent 1,400, Groceries 500, Utilities 200, Transport 250, Phone 60, Dining out 150, Fun 200, Gifts sinking fund 40, Car repairs sinking fund 50, Insurance sinking fund 60, Debt payment 300 and Emergency fund 400. Total assigned is 3,610, so Status reads \"Assign 390 more\".",
+        "You decide where the last $390 goes. Here it raises Emergency fund to 790. Total assigned becomes 4,000, Left to assign shows 0 and Status shows every dollar assigned. Whether extra money goes to savings, debt or something else depends on your situation, so treat this purely as an illustration.",
+        "Mid-month, Groceries Remaining shows -40. Instead of leaving it negative, you lower Dining out from 150 to 110 and raise Groceries from 500 to 540. Total assigned doesn't change, so Left to assign stays at 0. Later, a $25 refund is logged with Type set to Refund. Signed amount turns it into -25, which cuts that category's Spent by 25."
+      ],
+      "bullets": [
+        "Start of month: assign until Status shows every dollar assigned.",
+        "During the month: cover overspending by moving Assigned between categories, not by adding money you don't have.",
+        "Refunds lower Spent automatically through Signed amount.",
+        "End of month: any money left in a category moves on through the reset routine below."
+      ]
+    },
+    {
+      "heading": "The monthly reset workflow",
+      "paragraphs": [
+        "The monthly reset closes last month, carries balances forward and assigns the new income until Left to assign is $0 again. Once the system is built, it's usually a short session.",
+        "The most important habit is to copy from your Master rows, never from last month's categories. When Notion duplicates a page, it copies that page's property values, including its relations. A copy of last month's Groceries row can therefore arrive already linked to last month's transactions, which counts that spending twice. Master rows never have transactions or a month linked to them, so their copies start clean. After duplicating, check that Spent shows 0 on every new row.",
+        "What happens to leftover money in an ordinary category is up to you. You can roll it into the same category through Carried in, or add it to the new month's Carryover and assign it again. Sinking funds should always carry forward, because you build them up over many months on purpose.",
+        "If you want to speed up the routine, Notion's Buttons feature can add pages with preset properties. Check Notion's help pages to see whether it fits your setup."
+      ],
+      "bullets": [
+        "1. Reconcile: compare each real account balance with your Notion records and log any missing transactions.",
+        "2. Review: sort last month's categories by Remaining and note any that went negative.",
+        "3. Create the new Months row (e.g. 2026-11).",
+        "4. Duplicate the Master rows, untick Master, add the month to each name and link the copies to the new Months row.",
+        "5. Carry forward: enter last month's Remaining as Carried in for sinking funds and any categories you choose to roll over.",
+        "6. Log income as it arrives and adjust Assigned amounts until Status shows every dollar assigned.",
+        "7. Point your dashboard filters at the new month."
+      ]
+    },
+    {
+      "heading": "How to handle irregular expenses with sinking funds",
+      "paragraphs": [
+        "A sinking fund is a category you add a small amount to every month, so the money for an irregular expense is ready when the bill arrives.",
+        "Leaving out irregular costs is one of the most common ways a zero-based budget falls apart. Annual insurance, car maintenance, gifts, yearly subscriptions and medical or dental bills don't arrive monthly, so they're easy to forget until they're due. To set the monthly amount, divide each expected yearly cost by 12. For example, a $600 annual bill (an example figure) needs $50 a month.",
+        "In Notion, put these categories in the Sinking fund group and always move their Remaining into next month's Carried in. Remaining then works as a running balance that grows each month. When the bill arrives, log it against that category and the balance covers it.",
+        "To find these costs, go through your last 12 months of bank and card statements. Anything that appears even once a year should get a sinking fund, or at least a note."
+      ],
+      "bullets": [
+        "Common sinking funds: car repairs, annual insurance, holidays and gifts, annual subscriptions, home maintenance, travel, medical or dental costs.",
+        "Add a board view grouped by Group so you can see all sinking fund balances at once.",
+        "If a sinking fund falls short, move money from a flexible category rather than letting Left to assign go negative."
+      ]
+    },
+    {
+      "heading": "Common pitfalls (and how to avoid them)",
+      "paragraphs": [
+        "Most broken Notion budgets come from a handful of mistakes, and most of them count the same money twice.",
+        "Transfers are the biggest culprit. Moving $300 (example) from checking to savings is not spending. If you've assigned that $300 to a Savings category, either log the move once as an Expense linked to Savings, or log it as a Transfer and don't count it as spending at all. Don't do both. And don't log the money arriving in savings as new income, because it was already counted when you were paid.",
+        "Credit cards cause the same problem. If you log each card purchase as an expense, log the monthly card payment as a Transfer. Logging purchases rather than the payment gives you more useful category data.",
+        "The rest are habits. Assigning income you expect but haven't received yet can leave real bills uncovered, which is why some people with irregular pay budget last month's income instead. Logging once a week instead of daily also makes forgotten purchases far more likely."
+      ],
+      "bullets": [
+        "Double-counting transfers between your own accounts.",
+        "Counting both card purchases and the card payment as spending.",
+        "Duplicating last month's category rows, which brings old transactions with them.",
+        "Accidentally linking Master rows to a month, which inflates Total assigned.",
+        "Leaving out irregular and annual expenses.",
+        "Ignoring negative Remaining values instead of moving money from another category.",
+        "Decimal leftovers stopping Left to assign from reaching 0. Fix this with round()."
+      ]
+    },
+    {
+      "heading": "Honest trade-offs: bank sync, privacy and automation",
+      "paragraphs": [
+        "Notion has no built-in bank sync, so you enter every transaction by hand unless you add an automation tool. This is the biggest factor in deciding whether this setup is right for you.",
+        "Manual entry has a real upside: you see every purchase, so it's hard to ignore your spending. It also takes time and discipline. If you expect to stop logging after a couple of weeks, a budgeting app that imports transactions will probably suit you better.",
+        "Automation tools such as Zapier or Make can create Notion pages from other sources. Examples include a quick-entry form on your phone, a new spreadsheet row, or a parsed email alert if your bank sends them. These setups can break, for example when an email's format changes, so check them now and then. Never give your bank login to a tool that your bank doesn't officially support.",
+        "Think about privacy before you put financial data in any cloud workspace. Keep account numbers, passwords and full card details out of Notion, and review Notion's current security and sharing settings, especially if you share the workspace with a partner.",
+        "If you also invest, track that separately from this cash-flow budget. Our Notion dividend tracker guide covers the investing side. Rules, taxes and suitable savings options vary by country and personal situation, so for personal decisions, talk to a licensed adviser or check with your local regulator."
+      ],
+      "bullets": []
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Hands-on budgeters who want a fully custom zero-based budget with linked databases, formulas and notes on each category. Check the current plan limits on Notion's site, because a personal budget may fit on the free plan.",
+      "not_for": "People who want bank transactions imported automatically, or who won't log their spending by hand regularly."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Notion budgeters who want faster entry without writing code, for example sending a phone form submission or a spreadsheet row straight into the Transactions database.",
+      "not_for": "Anyone expecting official bank sync, or anyone who won't check now and then that their automations still work."
+    },
+    {
+      "product": "Make",
+      "best_for": "Budgeters comfortable with a visual builder who want multi-step or high-volume transaction workflows into Notion. Make is often cheaper at higher volumes, but compare current pricing on both vendors' sites.",
+      "not_for": "Beginners who only need one or two simple automations and would find a visual scenario builder more than they need."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Notion connect to my bank account automatically?",
+      "answer": "No. Notion has no built-in bank connection, so by default you enter transactions by hand. Automation tools like Zapier or Make can add rows from forms, spreadsheets or email alerts, but that isn't official bank sync. If automatic imports matter most to you, look at a dedicated budgeting app and check that it supports your country and bank."
+    },
+    {
+      "question": "Is a Notion budget free?",
+      "answer": "You can build the budget in this guide at no cost, and a personal budget may fit on Notion's free plan. Plan limits and pricing change, so check the current details on Notion's website. Automation tools have their own free and paid plans."
+    },
+    {
+      "question": "What should I do if Left to assign goes negative?",
+      "answer": "A negative number means you've assigned more money than you have. Lower the Assigned amount in one or more flexible categories until Left to assign is back to $0. Don't leave it negative, or your budget will no longer match your real money."
+    },
+    {
+      "question": "How is zero-based budgeting different from the 50/30/20 rule?",
+      "answer": "The 50/30/20 rule splits income into three broad percentage buckets: needs, wants and savings. Zero-based budgeting gives a specific dollar amount to every category until nothing is left unassigned. It takes more effort but gives you finer control, and you can still use 50/30/20 as a rough check on your group totals."
+    },
+    {
+      "question": "Should I budget this month's income or last month's?",
+      "answer": "Either works, as long as you only assign money you've actually received. Budgeting last month's income means this month's bills are covered from day one, which many people with irregular or freelance pay find steadier. With this approach, enter last month's income as Carryover on the new Month row."
+    },
+    {
+      "question": "Can couples share a Notion zero-based budget?",
+      "answer": "Yes. Share the Budget page with your partner so both of you can log transactions. Add a Person or select property to Transactions to see who spent what. Agree on a regular time to do the monthly reset together."
+    }
+  ],
+  "conclusion": "A zero-based budget in Notion comes down to one number, Left to assign, which should read $0 every month. Set up the Months hub and the Income, Categories and Transactions databases, add the four formulas, and copy categories from a clean Master list each month. Watch for double-counted transfers and card payments, and give irregular costs their own sinking funds. Manual logging is the main trade-off, and in return you know where every dollar goes. Build the template this week, run the reset routine for your first month, and adjust your categories as you learn. Notion features and plans change, so check current details on Notion's site, and for personal money decisions, talk to a licensed adviser.",
+  "keyword": "how to build a zero based budget in notion",
+  "niche": "budgeting and personal finance fundamentals",
+  "version": 2,
+  "slug": "how-to-build-a-zero-based-budget-in-notion-free-walkthrough",
+  "published": "2026-10-08T08:35:23+00:00"
+}

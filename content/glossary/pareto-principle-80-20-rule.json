@@ -1,0 +1,21 @@
+{
+  "term": "Pareto Principle (80/20 Rule)",
+  "section": "Self-Development",
+  "short_definition": "The Pareto Principle, or 80/20 rule, is the observation that a small share of causes often produces a large share of results, so effort is best focused on high-impact inputs.",
+  "explanation": [
+    "The Pareto Principle is named after economist Vilfredo Pareto, who observed that land ownership in Italy was very unevenly distributed. In everyday use it means that results are rarely spread evenly: a few clients may bring in most of the revenue, a few tasks may produce most of the progress, and a few bugs may cause most of the crashes. The 80/20 split is a rule of thumb, not a law. Real ratios might be 70/30 or 95/5.",
+    "It matters because it helps you prioritise. List your inputs (tasks, clients, products, expenses), measure what each one contributes, and then put more time into the few that matter most while reducing, delegating or dropping low-value work.",
+    "The risk is over-concentration and over-simplification. Relying heavily on your top few clients or income sources makes you vulnerable if one leaves. Some 'low-impact' tasks, like bookkeeping, taxes, maintenance and health, are essential even if they don't show quick results."
+  ],
+  "example": "Illustrative example: A freelancer earns $50,000 a year from 10 clients. Reviewing invoices shows the top 2 clients bring in $38,000 (76%), while the other 8 bring in $12,000 combined but take up half of their admin time. They might focus on serving the top clients well, while also looking for new clients so they aren't dependent on just two. These numbers are for illustration only.",
+  "common_mistake": "Treating 80/20 as an exact formula, or cutting necessary low-glamour tasks just because they don't seem to be in the 'vital 20%'.",
+  "related_terms": [
+    "Time Blocking",
+    "SMART Goals",
+    "Pomodoro Technique",
+    "Diversification"
+  ],
+  "title": "Pareto Principle (80/20 Rule)",
+  "slug": "pareto-principle-80-20-rule",
+  "published": "2026-10-08T08:40:33+00:00"
+}

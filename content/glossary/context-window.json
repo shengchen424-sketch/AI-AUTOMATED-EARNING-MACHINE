@@ -1,0 +1,22 @@
+{
+  "term": "Context Window",
+  "section": "AI & Tech",
+  "short_definition": "A context window is the maximum amount of text, measured in tokens, that an AI language model can consider at once, including your prompt, attached documents and its own reply.",
+  "explanation": [
+    "The context window is the model's working memory for a single conversation or request. Everything counts towards it: system instructions, your messages, pasted or uploaded files, earlier replies and the answer being written. When the limit is reached, the app may cut off or summarise older parts of the conversation, or refuse the input. Either way, earlier details can be lost.",
+    "It matters because it decides how much material you can work with at once, such as a long contract, a codebase or a book chapter. Context window sizes differ by model and by plan and change often, so check the provider's current documentation rather than relying on old figures. As a rough guide, one English word is often a bit more than one token, but this varies by model and language.",
+    "The trade-off is that a bigger window isn't automatically better. Longer inputs usually cost more when billed per token, can be slower, and some models pay less attention to details buried in the middle of very long inputs. For precise work, it often helps to send only the relevant sections, put key instructions at the start or end, and check the answer against the source."
+  ],
+  "example": "Illustrative example: Suppose a model has a 100,000-token context window. You upload a 40,000-word report, which comes to roughly 53,000 tokens, plus 5,000 tokens of earlier chat. That leaves about 42,000 tokens for further questions and replies. If you then paste in two more long documents, the earliest parts of the conversation may be dropped. These figures are for illustration only.",
+  "common_mistake": "Assuming the AI 'remembers' everything from a very long chat. Instructions given early on may have fallen out of the window, so repeat key requirements or start a new conversation with a short summary.",
+  "related_terms": [
+    "Token (AI)",
+    "Large Language Model (LLM)",
+    "Prompt Engineering",
+    "AI Hallucination",
+    "AI Agent"
+  ],
+  "title": "Context Window",
+  "slug": "context-window",
+  "published": "2026-10-08T08:40:33+00:00"
+}

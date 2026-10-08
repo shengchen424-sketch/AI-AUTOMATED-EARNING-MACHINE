@@ -1,0 +1,250 @@
+{
+  "title": "How to Calculate Interest on a High-Yield Savings Account Monthly",
+  "meta_description": "How to calculate interest on a high yield savings account monthly: one formula, a spreadsheet template and a quick way to check your statement.",
+  "quick_answer": "To calculate one month's interest on a high-yield savings account, use: interest = balance × [(1 + APY)^(days in period ÷ 365) − 1]. For example, $10,000 at 4.00% APY (both hypothetical) earns about $32.29 over 30 days. The common shortcut, balance × APY ÷ 12, gives $33.33. That is slightly too high because the APY already includes compounding.",
+  "key_takeaways": [
+    "Use the formula balance × [(1 + APY)^(days ÷ 365) − 1] with the exact number of days in the statement period, not 'one-twelfth of a year'.",
+    "APY includes compounding. The plain interest rate (often loosely called APR) does not, so it is always a little lower. Use APY to estimate earnings and the interest rate to work out a daily rate.",
+    "Most high-yield accounts compound interest daily and credit it monthly, so a 31-day period pays slightly more than a 30-day one or February.",
+    "A small first payment is usually normal. The usual causes are a partial first period, the time a deposit takes to clear, or a statement cycle that doesn't follow the calendar month.",
+    "If the rate changed during the period, split the period at the change date, work out each part at its own rate and add them together.",
+    "A difference of a few cents is usually rounding. If the gap is bigger, check the dates your deposits cleared, the dates the rate changed and the day-count basis in the disclosure, then ask the bank."
+  ],
+  "who_this_is_for": "This guide is for savers who have money in a high-yield savings account, or are about to open one, and want to check that the monthly interest they receive matches the rate the bank advertised.",
+  "intro": "High-yield savings accounts advertise a yearly rate but pay interest monthly, and the two figures often don't seem to match. The first payment can look too small, February can look low, and after a rate cut the numbers get hard to follow. This guide walks through the maths in plain English. It covers APY versus APR, daily compounding versus monthly crediting, one exact formula and a spreadsheet version you can paste in. It also shows how to handle a mid-month rate change and how to check your statement against the bank's own disclosure. Every balance and rate in the examples is hypothetical and was chosen to keep the arithmetic simple. None of them is a current market rate, so use your own bank's disclosure for real figures.",
+  "steps": [
+    {
+      "name": "Find your APY and interest rate",
+      "text": "Open your account's rate page or the interest-rate disclosure in your account agreement. Write down the APY (annual percentage yield) and, if it's listed, the plain interest rate. Convert both to decimals: 4.00% becomes 0.04."
+    },
+    {
+      "name": "Check how interest is compounded and credited",
+      "text": "Look for two terms in the disclosure. 'Compounded' tells you how often interest is added to the balance that earns interest, which is usually daily. 'Credited' tells you how often it is paid into your visible balance, which is usually monthly. Also note whether the bank counts a 365-day or a 360-day year."
+    },
+    {
+      "name": "Count the days in the statement period",
+      "text": "Use the exact number of days between the statement's start and end dates. That may be 28, 29, 30 or 31, and periods don't always follow calendar months. If you opened the account partway through, count only the days your money was earning interest."
+    },
+    {
+      "name": "Identify the balance that earned interest",
+      "text": "If your balance didn't change during the period, use that balance. If you deposited or withdrew money, use the average daily balance, which many statements show. You can also work it out yourself: add up each day's closing balance and divide by the number of days."
+    },
+    {
+      "name": "Apply the formula",
+      "text": "Calculate balance × [(1 + APY)^(days ÷ 365) − 1]. For a hypothetical $10,000 at 4.00% APY over 30 days, that's 10,000 × (1.04^(30/365) − 1), or about $32.29. In a spreadsheet, use =Balance*((1+APY)^(Days/365)-1)."
+    },
+    {
+      "name": "Adjust for any rate change",
+      "text": "If the rate changed during the period, split the period on the date the new rate took effect. Calculate each part at the APY that applied then and add the results."
+    },
+    {
+      "name": "Compare with your statement",
+      "text": "Compare your figure with the 'interest paid' or 'interest earned' line on your statement. A few cents' difference is usually rounding. If the gap is bigger, check the dates your deposits cleared, the dates any rate changed, any balance tiers and the day-count basis, then contact the bank and show them how you worked it out."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to calculate one month's savings interest. Example: hypothetical $10,000 balance, 4.00% APY (about 3.92% interest rate), 30-day period, no deposits or withdrawals",
+    "headers": [
+      "Method",
+      "Formula",
+      "Example result",
+      "Best for"
+    ],
+    "rows": [
+      [
+        "APY ÷ 12 shortcut",
+        "Balance × APY ÷ 12",
+        "≈ $33.33 (slightly too high)",
+        "Quick mental estimate only"
+      ],
+      [
+        "Interest rate ÷ 12 shortcut",
+        "Balance × interest rate ÷ 12",
+        "≈ $32.69 (for an average-length month)",
+        "Rough monthly budgeting"
+      ],
+      [
+        "Simple daily interest (no compounding within the period)",
+        "Balance × interest rate × days ÷ 365",
+        "≈ $32.24",
+        "Accounts that don't compound daily; sanity checks"
+      ],
+      [
+        "Exact APY formula",
+        "Balance × [(1 + APY)^(days ÷ 365) − 1]",
+        "≈ $32.29",
+        "Checking a statement when the balance didn't change"
+      ],
+      [
+        "Day-by-day spreadsheet",
+        "Each day: previous balance × daily rate, then add up the period",
+        "≈ $32.29 (matches the exact formula if nothing moves)",
+        "Months with deposits, withdrawals or rate changes"
+      ],
+      [
+        "Reverse check (APY earned)",
+        "(1 + interest ÷ average balance)^(365 ÷ days) − 1",
+        "$32.29 paid works out to ≈ 4.00%",
+        "Checking the bank's 'APY earned' figure"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "APY vs APR: which rate should you use?",
+      "paragraphs": [
+        "Use the APY to estimate what you'll earn, and the plain interest rate (sometimes called APR) to work out a daily rate. The APY (annual percentage yield) is the yearly return including compounding, which means you also earn interest on interest you've already been paid. The interest rate is the same yearly figure before compounding, so it is always slightly lower than the APY.",
+        "Strictly speaking, APR is a borrowing term used for loans and credit cards. Savers often use it to mean a savings account's nominal rate anyway, and many US banks show an 'interest rate' next to the APY. In the UK, AER (annual equivalent rate) does the same job as APY, and the rate before compounding is often called the gross rate. Labels differ in other countries, so check which figure your bank is showing.",
+        "A hypothetical example: with daily compounding, an interest rate of about 3.92% works out to an APY of about 4.00%. If you use one in a formula meant for the other, your answer will be slightly off. On a typical savings balance that difference is small, but it is a common reason a home calculation doesn't quite match the statement."
+      ],
+      "bullets": [
+        "APY from the interest rate (daily compounding): (1 + rate ÷ 365)^365 − 1",
+        "Interest rate from the APY: 365 × [(1 + APY)^(1/365) − 1]",
+        "In the UK, AER plays roughly the same role as APY"
+      ]
+    },
+    {
+      "heading": "Daily compounding vs monthly crediting",
+      "paragraphs": [
+        "Most high-yield savings accounts compound interest daily but credit it monthly. These are two separate events, and confusing them causes most of the mismatches savers notice.",
+        "Compounding means each day's interest is added to the amount that earns interest the next day, even before you can see it. Crediting means the interest built up over the period is paid into your visible balance, usually at the end of each statement cycle. Until it is credited it is called accrued interest: you've earned it, but it hasn't been paid in yet.",
+        "As a result, the size of each monthly payment depends on how many days the period had. With a hypothetical $10,000 at 4.00% APY, a 30-day period earns about $32.29 and a 31-day period about $33.37, even though the rate and balance haven't changed. February pays the least.",
+        "The interest disclosure in your account agreement should also say how the bank counts days and balances. Some banks use a 365-day year and some a 360-day year, and leap years have 366 days. Banks also differ on whether they apply the rate to each day's balance (the daily balance method) or to the average balance for the period (the average daily balance method)."
+      ],
+      "bullets": [
+        "Compounded: how often interest starts earning interest (often daily)",
+        "Credited: how often interest is paid into your balance (often monthly)",
+        "Accrued interest: earned but not yet credited"
+      ]
+    },
+    {
+      "heading": "How to calculate interest on a high-yield savings account monthly",
+      "paragraphs": [
+        "To calculate one month's interest, multiply your balance by [(1 + APY)^(days ÷ 365) − 1]. The formula spreads the annual yield across the exact number of days in the period, with the compounding that is already built into the APY.",
+        "Worked example (hypothetical): $10,000 at 4.00% APY over a 30-day statement period. 30 ÷ 365 = 0.0822. 1.04^0.0822 ≈ 1.0032288. Subtract 1 to get 0.0032288, then multiply by $10,000. The interest is about $32.29.",
+        "The shortcut most people try, balance × APY ÷ 12, gives $33.33 here. It overstates the interest slightly because the APY includes a full year of compounding, and dividing it evenly by 12 counts some of that compounding twice. Balance × interest rate ÷ 12 comes closer: with a hypothetical rate of 3.92%, it gives about $32.69 for an average-length month.",
+        "Both shortcuts are fine for budgeting. To check a statement, use the exact formula with the actual number of days, because banks calculate interest by the day, not in twelfths of a year.",
+        "If your disclosure says the bank uses a 360-day year, work from the interest rate rather than the APY: balance × [(1 + rate ÷ 360)^days − 1]. On the same nominal rate, a 360-day basis pays slightly more per day than a 365-day basis."
+      ],
+      "bullets": [
+        "Exact formula: interest = balance × [(1 + APY)^(days ÷ 365) − 1]",
+        "Rough shortcut: balance × APY ÷ 12 (slightly too high)",
+        "Closer shortcut: balance × interest rate ÷ 12",
+        "360-day basis: balance × [(1 + rate ÷ 360)^days − 1]",
+        "Always enter percentages as decimals: 4.00% becomes 0.04"
+      ]
+    },
+    {
+      "heading": "A spreadsheet-ready template",
+      "paragraphs": [
+        "A three-cell spreadsheet handles most monthly checks, and a short day-by-day table covers months when you added or withdrew money. The formulas below work in Excel, Google Sheets and Apple Numbers.",
+        "Simple version: put the balance in B1, the APY as a decimal in B2 and the number of days in the period in B3. In B4, enter =B1*((1+B2)^(B3/365)-1). For a hypothetical 10000, 0.04 and 30, B4 shows about 32.29.",
+        "Day-by-day version: put the daily rate in F1 with =(1+APY)^(1/365)-1. Use one row per day. Column A holds the date, column B any deposit (positive) or withdrawal (negative), column C the end-of-day balance and column D that day's interest. Put the opening balance in C1. In D2 enter =C1*$F$1, and in C2 enter =C1+D2+B2, then fill both formulas down to the last day of the period. Add up column D and compare the total with your statement. The total may differ by a few cents depending on whether your bank counts same-day deposits from that day or the next.",
+        "Reverse check: enter =(1+Interest/AvgBalance)^(365/Days)-1 to find the APY you actually earned. US statements often show an 'annual percentage yield earned' figure calculated in a similar way, so this gives you a direct comparison with the bank's own number."
+      ],
+      "bullets": [
+        "One period: =B1*((1+B2)^(B3/365)-1)",
+        "Daily rate from the APY: =(1+APY)^(1/365)-1",
+        "Interest rate from the APY: =365*((1+APY)^(1/365)-1)",
+        "APY earned from a statement: =(1+Interest/AvgBalance)^(365/Days)-1"
+      ]
+    },
+    {
+      "heading": "Why the first month's interest looks smaller than expected",
+      "paragraphs": [
+        "A small first payment usually means your money earned interest for only part of the first statement period. It rarely means the rate is wrong, and several causes can add up.",
+        "Partial period: if you deposit a hypothetical $10,000 halfway through a 30-day cycle, it earns interest for about 15 days. At a hypothetical 4.00% APY that's about $16.13, roughly half a normal month.",
+        "Clearing time: a transfer from another bank can take a few business days to arrive. Interest generally starts when the bank receives the funds, which may be later than the day you sent them. Your disclosure should say when deposits start earning interest.",
+        "Statement cycles: statement periods don't always follow calendar months, and interest earned near the end of one cycle may be credited in the next. That can make the first statement look light and the second slightly heavy.",
+        "Tiers and promotional rates: some accounts pay different rates above or below certain balances, or offer an introductory rate with conditions. If part of your balance sits in a lower tier, or you didn't meet a condition, the rate you actually receive will be below the headline APY."
+      ],
+      "bullets": [
+        "Count only the days your money was actually in the account",
+        "Use the date the deposit cleared, not the date you sent it",
+        "Compare whole statement periods, not calendar months",
+        "Check the terms for balance tiers or conditions attached to a promotional rate"
+      ]
+    },
+    {
+      "heading": "How rate changes on variable accounts affect the maths",
+      "paragraphs": [
+        "When a variable rate changes partway through a statement period, work out each stretch of days at its own rate and add the results together. Most high-yield savings accounts have variable rates, so the bank can raise or lower the rate under the account terms.",
+        "Worked example (hypothetical): $10,000 earns 4.00% APY for the first 10 days of a 30-day period, then 3.75% APY for the remaining 20 days. Days 1 to 10: 10,000 × (1.04^(10/365) − 1) ≈ $10.75. Days 11 to 30: about $10,010.75 × (1.0375^(20/365) − 1) ≈ $20.21. The total is about $30.96, compared with $32.29 if the rate had stayed at 4.00% for the whole period.",
+        "For a quick check, you can calculate both parts on the starting balance. That ignores the small amount of interest added during the first part, but the difference is usually a few cents at most on a typical balance.",
+        "Note the date of every rate change. Banks announce changes in different ways, such as email, an in-app message or an updated rate page. The date the new rate takes effect is the one you need, and your account terms should explain how you'll be told."
+      ],
+      "bullets": [
+        "Split the period at each date the rate changed",
+        "Use the APY that applied to each part",
+        "Add the parts together to get the total for the period",
+        "Keep a dated record of every rate change"
+      ]
+    },
+    {
+      "heading": "How to check your statement against the bank's disclosure",
+      "paragraphs": [
+        "To check a statement, compare four of its figures with the interest disclosure in your account agreement: interest paid, the number of days in the period, the average daily balance and, if shown, the APY earned. The disclosure explains how the bank calculates interest, and the statement shows what it actually paid.",
+        "In the disclosure, look for six details: how often interest compounds, how often it is credited, the balance method (daily or average daily), the day-count basis (365 or 360), when deposits start earning interest, and any balance tiers. Between them, these explain most mismatches.",
+        "Differences of a few cents are normal. Some banks round each day's interest and others round only at the end of the period, and either method can move the total slightly. A difference of several dollars on a modest balance is worth looking into.",
+        "If you still can't make the figures match, contact the bank and show them your working: the dates, the balances and the rates you used. Asking 'Which day-count and balance method applied to this statement period?' usually gets a clearer answer than 'My interest looks wrong.'"
+      ],
+      "bullets": [
+        "Statement: interest paid, days in period, average daily balance, APY earned",
+        "Disclosure: compounding, crediting, balance method, day count, when interest starts, tiers"
+      ]
+    },
+    {
+      "heading": "A 5-minute monthly check, plus what the maths doesn't cover",
+      "paragraphs": [
+        "You can check each month's interest in about five minutes with three steps: gather the figures, calculate what you expect, then compare.",
+        "1. Gather: from the statement, note the interest paid, the number of days and the average daily balance (or the starting balance if nothing moved). Add the APY that applied and the dates of any rate changes. 2. Calculate: put the figures into =Balance*((1+APY)^(Days/365)-1), splitting the period if the rate changed. 3. Compare: if you're within a few cents of the bank's figure, you're done. If not, check the clearing dates, rate-change dates and day-count basis, then contact the bank with your working.",
+        "The calculation shows interest before tax and doesn't account for inflation. Savings interest is often taxable, but rules, allowances and reporting differ by country, so check with your local tax authority or a qualified tax professional. Inflation reduces what your interest can buy, and variable rates can fall as well as rise.",
+        "Deposit protection also varies by country and provider. Examples include FDIC or NCUA insurance in the US and FSCS protection in the UK, each with its own limits and eligibility rules. Some savings apps are not banks themselves and rely on partner banks. Confirm how your money is protected with your national regulator or deposit-guarantee scheme, and consider a licensed financial adviser for decisions about your own finances."
+      ],
+      "bullets": [
+        "Gather: interest paid, days, average balance, APY, rate-change dates",
+        "Calculate: =Balance*((1+APY)^(Days/365)-1), split at any rate change",
+        "Compare: a few cents is normal; ask the bank about bigger gaps"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Savers who want one place to log their monthly interest check. A small database can hold the statement date, number of days, average balance, APY, rate-change dates, expected and actual interest, and notes from any conversations with the bank. Notion's formula properties can handle the single-period calculation.",
+      "not_for": "People already comfortable in Excel or Google Sheets, which handle day-by-day balance tables more easily. It also doesn't suit anyone who wants balances pulled in automatically, because Notion doesn't connect to bank accounts. Plans and features change, so check Notion's website for what's currently offered."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much interest will $10,000 earn per month in a high-yield savings account?",
+      "answer": "It depends on the APY and how many days are in the statement period. At a hypothetical 4.00% APY, $10,000 earns about $32.29 over 30 days and about $33.37 over 31 days. For your own figure, use balance × [(1 + APY)^(days ÷ 365) − 1] with your bank's current APY."
+    },
+    {
+      "question": "Is interest on a high-yield savings account calculated daily or monthly?",
+      "answer": "Most high-yield accounts compound interest daily and credit it monthly, though this varies by bank. Daily compounding means each day's interest starts earning interest the next day. Monthly crediting is when the interest built up over the period appears in your balance. The account's interest disclosure says which method your bank uses."
+    },
+    {
+      "question": "Why is my first high-yield savings interest payment so low?",
+      "answer": "Usually your money was in the account for only part of the first statement period, or the deposit took a few days to clear before it started earning interest. Statement cycles that don't follow calendar months, balance tiers and conditions on promotional rates can also reduce the first payment. Count the days your money actually earned interest and use that number in the formula."
+    },
+    {
+      "question": "Is APY the same as the interest rate or APR?",
+      "answer": "No. APY includes compounding and the plain interest rate (often loosely called APR) doesn't, so the APY is slightly higher whenever interest compounds more than once a year. Use APY to compare accounts and estimate earnings, and the interest rate to work out a daily rate."
+    },
+    {
+      "question": "Can I just divide the APY by 12 to get monthly interest?",
+      "answer": "It gives a rough estimate, but the result is slightly too high, because the APY already includes a full year of compounding. For a closer figure, use balance × [(1 + APY)^(days ÷ 365) − 1] with the actual number of days in the statement period."
+    },
+    {
+      "question": "Do I have to pay tax on savings account interest?",
+      "answer": "In many countries savings interest counts as taxable income, but rates, allowances and reporting rules vary widely. Your bank may send a year-end interest statement or tax form. For your own situation, check with your local tax authority or a qualified tax professional."
+    }
+  ],
+  "conclusion": "You need one formula to calculate monthly interest on a high-yield savings account: balance × [(1 + APY)^(days ÷ 365) − 1]. Most surprises come from the details around it: the difference between APY and the interest rate, daily compounding versus monthly crediting, a partial first period, deposit clearing times and mid-period rate changes. Set up the spreadsheet once, then spend about five minutes each month gathering the figures, calculating and comparing. If your result is within a few cents of the statement, the bank is paying what its disclosure says. If it isn't, you'll have the dates and figures you need to ask a clear question. All rates and balances in this guide are hypothetical, so use your bank's current disclosure for your own figures and talk to a licensed professional before making personal financial decisions.",
+  "keyword": "how to calculate interest on a high yield savings account monthly",
+  "niche": "banking, savings accounts and interest explained",
+  "version": 2,
+  "slug": "how-to-calculate-interest-on-a-high-yield-savings-account-monthly",
+  "published": "2026-10-08T08:28:23+00:00"
+}

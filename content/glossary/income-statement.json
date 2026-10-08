@@ -1,0 +1,22 @@
+{
+  "term": "Income Statement",
+  "section": "Accounting & Business",
+  "short_definition": "An income statement is a financial report showing a business's revenue, expenses and resulting profit or loss over a set period, such as a month, quarter or year.",
+  "explanation": [
+    "An income statement, also called a profit and loss statement or P&L, starts with revenue and subtracts costs in stages. Revenue minus cost of goods sold gives gross profit. Subtracting operating expenses such as rent, wages and marketing gives operating profit. Subtracting interest and taxes gives net income, the 'bottom line'.",
+    "It matters because it shows whether a business makes money from its core activity and where the money goes. Owners, lenders and investors use it to work out profit margins, spot rising costs and compare one period with another. It's one of the three core financial statements, alongside the balance sheet and the cash flow statement.",
+    "Its key limitation is that profit is not the same as cash. Under accrual accounting, a sale is recorded when it's earned, even if the customer hasn't paid yet, and non-cash costs such as depreciation lower profit without any money leaving the bank. A business can show a profit and still run out of cash. Accounting standards and tax reporting vary by country, so use an accountant for official filings."
+  ],
+  "example": "Illustrative example of a café's quarter: Revenue is $60,000. Cost of goods sold (coffee, food, cups) is $21,000, leaving a gross profit of $39,000. Operating expenses (rent, wages, utilities) are $30,000, leaving an operating profit of $9,000. After $1,000 in loan interest and $2,000 in taxes, net income is $6,000, a net profit margin of 10%. These numbers are for illustration only.",
+  "common_mistake": "Assuming net income equals the cash in the bank, then being caught short when unpaid invoices or loan repayments drain the account.",
+  "related_terms": [
+    "Balance Sheet",
+    "Cash Flow",
+    "Profit Margin",
+    "Break-Even Point",
+    "Depreciation"
+  ],
+  "title": "Income Statement",
+  "slug": "income-statement",
+  "published": "2026-10-08T08:40:33+00:00"
+}

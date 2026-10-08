@@ -1,0 +1,21 @@
+{
+  "term": "Pomodoro Technique",
+  "section": "Self-Development",
+  "short_definition": "The Pomodoro Technique is a time-management method where you work in focused, timed intervals, traditionally 25 minutes, separated by short breaks, with a longer break after several rounds.",
+  "explanation": [
+    "The Pomodoro Technique, created by Francesco Cirillo and named after a tomato-shaped kitchen timer, follows a simple loop: (1) choose one task; (2) set a timer for 25 minutes; (3) work only on that task until the timer rings; (4) jot down any distractions instead of acting on them; (5) take a 5-minute break; (6) after four rounds, take a longer break of about 15–30 minutes.",
+    "It helps because a short, fixed interval makes it easier to start a dreaded task and to resist checking your phone or email. Counting completed pomodoros also shows how long tasks really take, which improves future planning. It pairs well with time blocking: block the time on your calendar, then work through it in pomodoros.",
+    "The trade-off is that rigid timers can interrupt deep work just as you get into a flow. Some kinds of work, like writing, coding or design, may suit longer intervals such as 50 minutes of work and 10 minutes of break. Treat 25/5 as a starting point and adjust it to fit you."
+  ],
+  "example": "Illustrative example: You set aside 2 hours to write a report. You do 4 pomodoros (4 × 25 = 100 minutes of focused work) with three 5-minute breaks (15 minutes), about 115 minutes in total, then take a longer break. If you log 3 distractions during the first round, you deal with them in a break instead of mid-task.",
+  "common_mistake": "Spending breaks on email or social media, which keeps your mind busy and defeats the purpose. Breaks work best away from the screen: stand up, stretch or get some water.",
+  "related_terms": [
+    "Time Blocking",
+    "Habit Stacking",
+    "SMART Goals",
+    "Pareto Principle (80/20 Rule)"
+  ],
+  "title": "Pomodoro Technique",
+  "slug": "pomodoro-technique",
+  "published": "2026-10-08T08:40:33+00:00"
+}

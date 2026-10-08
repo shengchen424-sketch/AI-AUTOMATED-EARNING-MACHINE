@@ -1,0 +1,22 @@
+{
+  "term": "Asset Allocation",
+  "section": "Investing",
+  "short_definition": "Asset allocation is how you divide your investment money among broad categories such as stocks, bonds and cash, chosen to balance potential growth against the risk of losses.",
+  "explanation": [
+    "Asset allocation means setting target percentages for each type of asset, such as 70% stocks and 30% bonds. Each type behaves differently. Stocks have historically offered more growth potential but with bigger and more frequent drops. Bonds and cash usually swing less but may grow more slowly. None of them is risk-free, and past performance doesn't guarantee future results.",
+    "Your allocation usually affects your portfolio's ups and downs more than which individual investment you pick. People tend to base it on their time horizon (when they will need the money), their risk tolerance (how much of a fall they can live with without selling in a panic) and their goals. Money you may need soon is often kept in lower-volatility assets.",
+    "The main trade-off is growth versus stability. More growth assets can mean deeper temporary losses, while very conservative mixes may struggle to keep up with inflation. Over time, market moves pull your mix away from its targets, so many investors rebalance from time to time, which can involve fees or taxes. Tax rules differ by country. For a personal plan, talk to a licensed financial adviser."
+  ],
+  "example": "Illustrative example: You invest $20,000 with a 60/40 target: $12,000 in stock funds and $8,000 in bond funds. A year later, the stocks have risen to $15,000 and the bonds are still $8,000. Your mix is now about 65/35, which is riskier than you planned. To get back to 60/40 ($13,800 / $9,200), you could move about $1,200 from stocks to bonds, or put new contributions into bonds. These numbers are for illustration only.",
+  "common_mistake": "Assuming that owning several funds means you have a deliberate allocation, then never checking or rebalancing. Your portfolio slowly takes on more risk than you intended.",
+  "related_terms": [
+    "Diversification",
+    "Index Fund",
+    "Exchange-Traded Fund (ETF)",
+    "Dollar-Cost Averaging",
+    "Expense Ratio"
+  ],
+  "title": "Asset Allocation",
+  "slug": "asset-allocation",
+  "published": "2026-10-08T08:40:33+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Net Worth",
+  "section": "Banking & Money",
+  "short_definition": "Net worth is the total value of everything you own minus everything you owe, giving a single snapshot number of your overall financial position at a specific moment.",
+  "explanation": [
+    "To calculate net worth, add up your assets (cash, savings, investments, retirement accounts and the realistic resale value of property or vehicles), then subtract your liabilities (mortgages, loans, credit card balances and other debts). The result can be positive or negative. It's the personal version of a business's balance sheet.",
+    "Net worth matters because it shows long-term progress better than income alone. Someone with a high salary and heavy debt can have a lower net worth than someone with a modest income who saves steadily. Recalculating every quarter or year shows whether debt payoff and saving are working.",
+    "The main limitation is that net worth is a snapshot, and some figures are estimates. Home and car values are guesses until you sell, and investment balances move with the markets. It also says nothing about liquidity, meaning how much you could reach quickly in an emergency. A high net worth tied up in property doesn't pay this month's bills, so track it alongside cash flow."
+  ],
+  "example": "Illustrative example: Assets are $5,000 in savings, $15,000 in a retirement account and a car with an estimated resale value of $8,000, totalling $28,000. Liabilities are a $12,000 student loan, a $2,000 credit card balance and a $6,000 car loan, totalling $20,000. Net worth = $28,000 − $20,000 = $8,000. These numbers are for illustration only.",
+  "common_mistake": "Valuing assets at what you paid instead of what they would sell for today, especially cars and electronics, which inflates net worth.",
+  "related_terms": [
+    "Balance Sheet",
+    "Cash Flow",
+    "Emergency Fund",
+    "Credit Score"
+  ],
+  "title": "Net Worth",
+  "slug": "net-worth",
+  "published": "2026-10-08T08:40:33+00:00"
+}

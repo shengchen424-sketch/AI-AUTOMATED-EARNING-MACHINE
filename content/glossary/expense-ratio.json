@@ -1,0 +1,22 @@
+{
+  "term": "Expense Ratio",
+  "section": "Investing",
+  "short_definition": "An expense ratio is the annual fee a fund charges, shown as a percentage of your invested balance, deducted automatically from the fund's assets rather than billed to you separately.",
+  "explanation": [
+    "An expense ratio covers a fund's ongoing running costs, such as management, administration and record-keeping. It is quoted as a yearly percentage. The fund takes it out of its assets bit by bit, so you never get a bill. Instead, it quietly lowers the return you see. You can find the figure in the fund's official documents, such as the prospectus or key information document, and on the provider's website.",
+    "Expense ratios matter because they come out every year whether the fund goes up or down, and the drag compounds over time. Funds that track an index usually charge less than actively managed funds, but fees vary a lot between providers and countries. Always confirm the current figure with the provider.",
+    "The trade-off is that the cheapest fund isn't automatically the best fit. A low fee is only worth having if the fund holds what you actually want. And the expense ratio isn't your only cost: trading commissions, bid-ask spreads, platform or account fees and adviser fees can come on top. Fees and how they are disclosed differ by country, so check your local regulator's guidance on comparing fund costs."
+  ],
+  "example": "Illustrative example: You have $10,000 in Fund A with a 0.05% expense ratio, which costs about $5 a year. The same $10,000 in Fund B with a 1.00% expense ratio costs about $100 a year. Over many years the gap grows, because the money lost to fees also stops compounding. These numbers are for illustration only and are not a prediction of real fund costs or returns.",
+  "common_mistake": "Comparing funds on expense ratio alone and ignoring platform fees, trading costs and adviser charges, or ignoring whether the fund's holdings and risk level suit your goals.",
+  "related_terms": [
+    "Index Fund",
+    "Exchange-Traded Fund (ETF)",
+    "Compound Interest",
+    "Asset Allocation",
+    "Diversification"
+  ],
+  "title": "Expense Ratio",
+  "slug": "expense-ratio",
+  "published": "2026-10-08T08:40:33+00:00"
+}

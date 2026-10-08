@@ -1,0 +1,22 @@
+{
+  "term": "AI Agent",
+  "section": "AI & Tech",
+  "short_definition": "An AI agent is software that uses an AI model to pursue a goal across multiple steps, deciding which actions to take and using tools such as web search, apps or code.",
+  "explanation": [
+    "An AI agent works in a loop: it takes a goal, plans a next step, uses a tool (for example searching the web, reading a file, running code or filling in a form), looks at the result and decides what to do next, repeating until it finishes or is stopped. A standard chatbot replies to one prompt at a time. An agent can carry out a whole sequence of actions on its own.",
+    "Agents matter because they can automate multi-step work such as research summaries, data entry, inbox triage or software tasks, saving time on repetitive processes. What they can do depends on the tools and permissions you give them. Features change quickly, so check the vendor's documentation for what a given product actually supports.",
+    "The main risks come from that autonomy. Mistakes and hallucinations can compound across steps. Agents that read web pages or emails can be manipulated by hidden instructions (prompt injection). Broad access to email, files or payment accounts raises the stakes of any error. Many model calls can also add up in cost. Safer practice is to grant the minimum access needed, require human approval before irreversible actions such as sending, deleting or paying, and review logs."
+  ],
+  "example": "Illustrative example: You ask an agent to 'find three restaurants near the office that can seat 12 people for under $30 per person next Friday.' It runs 15 steps: searching, opening menus, checking booking pages and drafting a comparison table. When you check, you find one price is out of date, so you verify it before booking yourself. These details are for illustration only.",
+  "common_mistake": "Giving an agent full access to email, banking or payment accounts and letting it run unsupervised, rather than limiting permissions and approving important actions yourself.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "AI Hallucination",
+    "Prompt Engineering",
+    "Context Window",
+    "Token (AI)"
+  ],
+  "title": "AI Agent",
+  "slug": "ai-agent",
+  "published": "2026-10-08T08:40:33+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Inflation",
+  "section": "Banking & Money",
+  "short_definition": "Inflation is the general rise in prices over time, which means each unit of money buys a little less than before and the real value of cash savings shrinks.",
+  "explanation": [
+    "Inflation measures how fast the overall cost of goods and services is rising. Most countries track it with a consumer price index, published by a national statistics office. Many central banks aim to keep inflation low and stable and use tools such as interest rates to influence it. Your personal inflation rate can differ from the official figure, depending on what you spend your money on.",
+    "Inflation matters because it lowers your purchasing power. The useful number is your real return, which is roughly your interest rate or investment return minus inflation. If your savings earn less than inflation, your balance goes up but buys less.",
+    "The trade-off is safety versus purchasing power. Cash in a regulated bank account is protected from market crashes, often up to deposit-insurance limits that vary by country, but it can lose value to inflation. Investments that might beat inflation carry their own risk of loss. Many people keep an emergency fund in cash and accept the inflation cost in exchange for stability and quick access."
+  ],
+  "example": "Illustrative example: You keep $1,000 in a savings account paying 2% a year, and prices rise 4% that year. You end the year with $1,020, but the things that cost $1,000 last year now cost $1,040. Your real return is about −2%, so you can buy slightly less than before. These rates are for illustration only, not current figures.",
+  "common_mistake": "Looking only at the nominal interest rate and assuming savings are 'growing' without checking whether the rate is above or below inflation.",
+  "related_terms": [
+    "Compound Interest",
+    "APR vs APY",
+    "Emergency Fund",
+    "Net Worth"
+  ],
+  "title": "Inflation",
+  "slug": "inflation",
+  "published": "2026-10-08T08:40:33+00:00"
+}

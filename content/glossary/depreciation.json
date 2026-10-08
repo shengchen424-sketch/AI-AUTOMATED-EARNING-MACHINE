@@ -1,0 +1,21 @@
+{
+  "term": "Depreciation",
+  "section": "Accounting & Business",
+  "short_definition": "Depreciation is the accounting method of spreading the cost of a long-lasting asset, such as equipment or a vehicle, over the years it is expected to be useful.",
+  "explanation": [
+    "Depreciation works by expensing a large purchase gradually rather than all at once. The most common approach is straight-line depreciation: (cost − estimated salvage value) ÷ useful life in years. Each year's amount shows up as an expense on the income statement and lowers the asset's book value on the balance sheet.",
+    "It matters because it matches the cost of an asset to the years it helps the business earn revenue, which gives a fairer picture of profit. Depreciation is a non-cash expense: the cash left when you bought the asset, so the yearly charge lowers profit without lowering your bank balance. This is a big reason profit and cash flow differ.",
+    "The trade-off is that depreciation depends on estimates of useful life and salvage value, and book value can be far from what the asset would actually sell for. Tax depreciation rules are often different from accounting rules and vary a lot by country and asset type. Check with a qualified accountant or your tax authority before relying on a particular method."
+  ],
+  "example": "Illustrative example: A business buys a delivery van for $12,000. It expects to use the van for 5 years and then sell it for $2,000. Straight-line depreciation is ($12,000 − $2,000) ÷ 5 = $2,000 a year. After 2 years, the van's book value is $12,000 − $4,000 = $8,000. These numbers are for illustration only and do not reflect any specific tax rule.",
+  "common_mistake": "Thinking depreciation sets cash aside to replace the asset. It's only an accounting entry, so unless you save separately, there may be no money when the van needs replacing.",
+  "related_terms": [
+    "Income Statement",
+    "Balance Sheet",
+    "Cash Flow",
+    "Profit Margin"
+  ],
+  "title": "Depreciation",
+  "slug": "depreciation",
+  "published": "2026-10-08T08:40:33+00:00"
+}

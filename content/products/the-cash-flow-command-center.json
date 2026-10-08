@@ -1,0 +1,58 @@
+{
+  "title": "The Cash Flow Command Center",
+  "subtitle": "A 30-day playbook for setting up your bank accounts, building a budget that holds up, working out interest yourself, and paying down debt with a plan",
+  "audience": "Busy adults who want their everyday money to run as one organized system instead of scattered apps, accounts and good intentions. Typical readers have a checking account, at least one savings account, one or more credit cards, and maybe some consumer debt. They want to understand how interest, statement dates and credit scores actually work, and they want templates they can use straight away. It's written mainly for US readers, with notes for other countries. It is NOT for people looking for investment picks, trading strategies, business bookkeeping or tax planning. It is also not a replacement for a licensed financial adviser, a nonprofit credit counselor or an attorney, especially for anyone facing collections lawsuits, wage garnishment or possible bankruptcy.",
+  "outcomes": [
+    "A one-page Money Map listing every account, balance, rate, fee and due date you have",
+    "An account setup where each account has one job (bills, spending, emergency fund, sinking funds) and money moves on a schedule",
+    "A working zero-based budget that includes sinking funds for irregular expenses and a method for months when your income varies",
+    "The ability to work out savings interest (APY) and credit card interest (APR, daily periodic rate) by hand or with ready-made spreadsheet formulas",
+    "A credit card calendar with statement dates, due dates, autopay and alerts set up so you don't miss payments",
+    "A step-by-step method for reading your credit report and disputing errors in writing",
+    "A written debt payoff plan (avalanche, snowball or hybrid) with a monthly amount, automation and a decision worksheet for balance transfers and consolidation loans",
+    "A weekly 10-minute check-in and a monthly money meeting agenda that keep the system running"
+  ],
+  "sales_copy": "Most money advice tells you what to do. This playbook helps you build the system that does it. The Cash Flow Command Center walks you through setting up your bank accounts, budget, credit cards and debt payoff plan as one connected system. Once it's running, it needs a short weekly check and a monthly review.\n\nYou get 9 practical chapters and 14 copy-paste templates. They include a one-page money map, an account blueprint, a zero-based budget, sinking fund and interest worksheets with spreadsheet formulas, a credit card date calendar, a credit report dispute letter, payoff planners, creditor call scripts and a monthly meeting agenda.\n\nYou'll learn the math behind APY, APR and credit card interest, what paying before your statement date actually changes, and how to weigh balance transfers and consolidation loans honestly.\n\nThis is education, not personal financial advice. It's written mainly for US readers, with notes for other countries. It doesn't recommend investments or promise any credit score, savings result or payoff date. It's for people who want a clear system they control.",
+  "chapters": [
+    {
+      "heading": "Chapter 1: Build Your One-Page Money Map (Days 1–2)",
+      "summary": "A Money Map is one page listing every account, balance, interest rate, fee and due date you have. Every other decision in this playbook starts from it."
+    },
+    {
+      "heading": "Chapter 2: Design Your Account Setup So Each Account Has One Job",
+      "summary": "Your account setup is the plan for which account does what: one for bills, one for spending, one for the emergency fund and one or more for sinking funds. Money then moves on a schedule, and overspending is easy to spot."
+    },
+    {
+      "heading": "Chapter 3: Build a Zero-Based Budget That Holds Up in Real Life",
+      "summary": "A zero-based budget gives every dollar of expected income a job (spending, saving or debt) before the month starts, so income minus everything assigned equals zero."
+    },
+    {
+      "heading": "Chapter 4: Interest, Explained With the Actual Math",
+      "summary": "Interest is the price of money over time. APY shows what savings earn in a year including compounding, APR shows the yearly cost of borrowing before compounding, and you can work out both yourself."
+    },
+    {
+      "heading": "Chapter 5: Credit Cards Without the Trap: Dates, Autopay and Utilization",
+      "summary": "Two dates matter on a credit card: the statement closing date, when your balance is usually reported to the credit bureaus, and the payment due date, when you must pay to avoid late fees and interest."
+    },
+    {
+      "heading": "Chapter 6: Credit Scores and Credit Reports: What Actually Matters",
+      "summary": "A credit score is a number calculated from the data in your credit report. In widely used models, the biggest factors are paying on time and how much of your available credit you're using."
+    },
+    {
+      "heading": "Chapter 7: Your Debt Payoff Plan: Choose a Method and Automate It",
+      "summary": "A debt payoff plan is a written order for paying off debts, usually avalanche (highest APR first) or snowball (smallest balance first), plus a fixed monthly amount and automation so it runs without daily willpower."
+    },
+    {
+      "heading": "Chapter 8: Protect the System: Emergency Fund, Fraud Defenses and Bank Disputes",
+      "summary": "Protecting your system means three layers: an emergency fund so surprises don't become debt, fraud defenses so no one else drains your accounts, and knowing your dispute rights so errors get fixed."
+    },
+    {
+      "heading": "Chapter 9: Run It: The 30-Day Launch Plan and the Monthly Money Meeting",
+      "summary": "The system runs on a 10-minute weekly check-in and a 30 to 45-minute monthly money meeting, with quarterly and annual reviews for bigger changes."
+    }
+  ],
+  "template_count": 14,
+  "section": "Banking & Money",
+  "slug": "the-cash-flow-command-center",
+  "published": "2026-10-08T08:48:21+00:00"
+}
