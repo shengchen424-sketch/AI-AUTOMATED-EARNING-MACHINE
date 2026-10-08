@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
@@ -29,6 +30,83 @@ def _product_preview(product: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def _save_product(cfg: Config, store: Store, full: dict[str, Any], deliverables_dir: Path | None) -> str:
+    saved = store.save_product(_product_preview(full))
+    if deliverables_dir:
+        deliverables_dir.mkdir(parents=True, exist_ok=True)
+        (deliverables_dir / f"{saved['slug']}.md").write_text(generate.product_markdown(full), encoding="utf-8")
+        html = pdf.product_html(full, cfg.business_name)
+        (deliverables_dir / f"{saved['slug']}.html").write_text(html, encoding="utf-8")
+        pdf.html_to_pdf(html, (deliverables_dir / f"{saved['slug']}.pdf").resolve())
+    return saved["slug"]
+
+
+def _generate(cfg: Config, llm: JSONModel, store: Store, report: dict[str, Any], deliverables_dir: Path | None) -> None:
+    """All model calls run in parallel worker threads; every file write happens on this thread."""
+    existing = store.articles()
+    products = store.products()
+    newest = max((datetime.fromisoformat(x["published"]) for x in products), default=None)
+    want_product = (newest is None or utcnow() - newest >= timedelta(hours=cfg.product_interval_hours)) \
+        and len(products) < cfg.max_products and cfg.products_per_run > 0
+
+    with ThreadPoolExecutor(max_workers=max(1, cfg.parallel)) as pool:
+        side: dict[Future, tuple[str, Any]] = {}
+        if cfg.glossary_per_run:
+            side[pool.submit(generate.write_glossary_terms, cfg, llm, [x["term"] for x in store.glossary()],
+                             cfg.glossary_per_run)] = ("glossary", None)
+        if want_product:
+            side[pool.submit(generate.create_product, cfg, llm, existing, products)] = ("product", None)
+        stale = [a for a in existing if a.get("version", 1) < generate.ARTICLE_VERSION][: cfg.upgrades_per_run]
+        for old in stale:
+            topic = {"keyword": old.get("keyword", old["title"]), "niche": old.get("niche", "")}
+            side[pool.submit(generate.edit_article, cfg, llm, old, topic)] = ("upgrade", old)
+
+        try:
+            topics = generate.plan_topics(cfg, llm, existing, cfg.articles_per_run)
+        except LLMError as e:
+            topics = []
+            report["errors"].append(f"plan: {e}")
+        writes = {pool.submit(generate.write_article, cfg, llm, t): t for t in topics}
+        for f in as_completed(writes):
+            try:
+                art = store.save_article(f.result())
+                report["articles"].append(art["slug"])
+                log.info("published article %s", art["slug"])
+            except LLMError as e:
+                report["errors"].append(f"article '{writes[f]['title']}': {e}")
+
+        # Promotion kits for this run's articles, plus a couple of older ones that lack a kit.
+        by_slug = {a["slug"]: a for a in store.articles()}
+        backlog = [s for s, a in by_slug.items() if not store.social(s) and s not in report["articles"]]
+        kits = {pool.submit(generate.social_kit, cfg, llm, by_slug[s]): s
+                for s in report["articles"] + backlog[:2] if s in by_slug}
+        for f in as_completed(kits):
+            try:
+                store.save_social(kits[f], f.result())
+                report.setdefault("social", []).append(kits[f])
+            except LLMError as e:
+                report["errors"].append(f"social '{kits[f]}': {e}")
+
+        for f in as_completed(side):
+            kind, old = side[f]
+            try:
+                result = f.result()
+            except LLMError as e:
+                report["errors"].append(f"{kind}{' ' + repr(old['slug']) if old else ''}: {e}")
+                continue
+            if kind == "glossary":
+                report["glossary"] = [store.save_term(x)["slug"] for x in result]
+            elif kind == "product":
+                slug = _save_product(cfg, store, result, deliverables_dir)
+                report["products"].append(slug)
+                log.info("created product %s", slug)
+            else:
+                result.update(slug=old["slug"], published=old["published"])
+                store.update_article(result)
+                report.setdefault("upgraded", []).append(old["slug"])
+                log.info("upgraded article %s", old["slug"])
+
+
 def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None) -> dict[str, Any]:
     store = Store(cfg.content_dir, cfg.data_dir)
     report: dict[str, Any] = {"started": utcnow().isoformat(timespec="seconds"),
@@ -38,75 +116,7 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
         log.warning("Claude CLI not available or not logged in: skipping generation, rebuilding site only.")
         report["errors"].append("no_credentials")
     else:
-        existing = store.articles()
-        try:
-            topics = generate.plan_topics(cfg, llm, existing, cfg.articles_per_run)
-        except LLMError as e:
-            topics = []
-            report["errors"].append(f"plan: {e}")
-        for topic in topics:
-            try:
-                art = store.save_article(generate.write_article(cfg, llm, topic))
-                report["articles"].append(art["slug"])
-                log.info("published article %s", art["slug"])
-            except LLMError as e:
-                report["errors"].append(f"article '{topic['title']}': {e}")
-
-        # Re-edit older articles into the newest, richer format (same URL, fresher content).
-        stale = [a for a in store.articles() if a.get("version", 1) < generate.ARTICLE_VERSION]
-        for old in stale[: cfg.upgrades_per_run]:
-            topic = {"keyword": old.get("keyword", old["title"]), "niche": old.get("niche", "")}
-            try:
-                new = generate.edit_article(cfg, llm, old, topic)
-            except LLMError as e:
-                report["errors"].append(f"upgrade '{old['slug']}': {e}")
-                continue
-            new.update(slug=old["slug"], published=old["published"])
-            store.update_article(new)
-            report.setdefault("upgraded", []).append(old["slug"])
-            log.info("upgraded article %s", old["slug"])
-
-        # Promotion kits for this run's articles, plus a couple of older ones that lack a kit.
-        backlog = [a["slug"] for a in store.articles() if not store.social(a["slug"]) and a["slug"] not in report["articles"]]
-        for slug in report["articles"] + backlog[:2]:
-            article = next((a for a in store.articles() if a["slug"] == slug), None)
-            if not article:
-                continue
-            try:
-                store.save_social(slug, generate.social_kit(cfg, llm, article))
-                report.setdefault("social", []).append(slug)
-            except LLMError as e:
-                report["errors"].append(f"social '{slug}': {e}")
-
-        if cfg.glossary_per_run:
-            try:
-                terms = generate.write_glossary_terms(cfg, llm, [x["term"] for x in store.glossary()], cfg.glossary_per_run)
-                report["glossary"] = [store.save_term(x)["slug"] for x in terms]
-            except LLMError as e:
-                report["errors"].append(f"glossary: {e}")
-
-        products = store.products()
-        newest = max((datetime.fromisoformat(x["published"]) for x in products), default=None)
-        too_soon = newest is not None and utcnow() - newest < timedelta(hours=cfg.product_interval_hours)
-        for _ in range(0 if too_soon else cfg.products_per_run):
-            if len(products) >= cfg.max_products:
-                break
-            try:
-                full = generate.create_product(cfg, llm, store.articles(), products)
-            except LLMError as e:
-                report["errors"].append(f"product: {e}")
-                break
-            saved = store.save_product(_product_preview(full))
-            if deliverables_dir:
-                deliverables_dir.mkdir(parents=True, exist_ok=True)
-                (deliverables_dir / f"{saved['slug']}.md").write_text(
-                    generate.product_markdown(full), encoding="utf-8")
-                html = pdf.product_html(full, cfg.business_name)
-                (deliverables_dir / f"{saved['slug']}.html").write_text(html, encoding="utf-8")
-                pdf.html_to_pdf(html, (deliverables_dir / f"{saved['slug']}.pdf").resolve())
-            report["products"].append(saved["slug"])
-            products = store.products()
-            log.info("created product %s", saved["slug"])
+        _generate(cfg, llm, store, report, deliverables_dir)
 
     try:
         rev = revenue.stripe_report()

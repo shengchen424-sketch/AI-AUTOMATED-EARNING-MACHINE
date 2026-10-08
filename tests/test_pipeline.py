@@ -58,7 +58,9 @@ def cfg(tmp_path):
     text = (tmp_path / "config.toml").read_text().replace(
         "[checkout]\n", '[checkout]\n"automation-playbook" = "https://buy.stripe.com/test"\n')
     (tmp_path / "config.toml").write_text(text)
-    return config.load(tmp_path / "config.toml")
+    import dataclasses
+    # Production writes 12 per run; the fake model only offers 6 topics, so keep tests small.
+    return dataclasses.replace(config.load(tmp_path / "config.toml"), articles_per_run=2)
 
 
 def test_full_run_builds_monetised_site(cfg, tmp_path):
