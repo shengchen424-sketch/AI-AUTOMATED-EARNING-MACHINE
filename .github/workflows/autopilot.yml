@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["config.toml", "templates/**", "earnbot/**"]
+    paths: ["config.toml", "templates/**", "earnbot/**", "static/**"]
 
 permissions:
   contents: write

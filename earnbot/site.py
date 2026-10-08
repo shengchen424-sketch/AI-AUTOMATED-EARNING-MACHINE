@@ -311,6 +311,10 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     _write(out / "llms-full.txt", "\n\n---\n\n".join([article_markdown(cfg, a) for a in articles] + [_glossary_markdown(cfg, glossary)]))
     _write(out / f"{indexnow_key(cfg)}.txt", indexnow_key(cfg))
     _write(out / ".nojekyll", "")
+    # Verification files and other static assets that must sit at the site root.
+    static = cfg.root / "static"
+    if static.is_dir():
+        shutil.copytree(static, out, dirs_exist_ok=True)
     return {"articles": len(articles), "products": len(products), "topics": len(topics), "pages": len(urls)}
 
 
