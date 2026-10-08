@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -85,7 +86,9 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
                 report["errors"].append(f"glossary: {e}")
 
         products = store.products()
-        for _ in range(cfg.products_per_run):
+        newest = max((datetime.fromisoformat(x["published"]) for x in products), default=None)
+        too_soon = newest is not None and utcnow() - newest < timedelta(hours=cfg.product_interval_hours)
+        for _ in range(0 if too_soon else cfg.products_per_run):
             if len(products) >= cfg.max_products:
                 break
             try:

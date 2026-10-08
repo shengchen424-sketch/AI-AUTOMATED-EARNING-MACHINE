@@ -15,9 +15,10 @@ business_name = "The Wealth Ascent"   # must match the business name on your Str
 contact_email = "shengchen424@gmail.com"   # public support email shown on Contact / Refund pages
 
 [autopilot]
-articles_per_run = 4       # keep modest: quality > volume (search engines penalise spam)
+articles_per_run = 4       # x4 runs/day; every article still gets the senior-editor pass
 products_per_run = 1       # new digital product only when the catalog is below max_products
-max_products = 12
+max_products = 40
+product_interval_hours = 20  # at most ~1 new paid playbook per day (each needs a Stripe link)
 model = "claude-opus-5-5"
 effort = "high"
 editor_pass = true         # second "senior editor" pass on every article (better quality, 2x usage)

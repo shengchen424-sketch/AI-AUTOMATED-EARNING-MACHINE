@@ -212,3 +212,12 @@ def test_glossary_pages_and_ai_files(cfg):
     for tool in ("compound-interest-calculator", "fire-calculator"):
         page = (pub / "tools" / tool / "index.html").read_text()
         assert '"WebApplication"' in page and "function compute" in page
+
+
+def test_one_product_per_interval_and_outline_in_report(cfg):
+    from earnbot import report
+    first = pipeline.run(cfg, FakeLLM(), None)
+    second = pipeline.run(cfg, FakeLLM(), None)
+    assert first["products"] and second["products"] == []          # throttled to ~1 per day
+    text = report.render(cfg, Store(cfg.content_dir, cfg.data_dir), second, "")
+    assert "内容大纲" in text and "1. Step-by-step" in text and "H0" in text

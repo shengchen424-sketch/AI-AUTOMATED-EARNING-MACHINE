@@ -48,7 +48,17 @@ def render(cfg: Config, store: Store, run: dict[str, Any], run_url: str = "") ->
         return rows
 
     if new:
-        out += ["## 🆕 新文章", "", *article_rows(new), ""]
+        out += ["## 🆕 新文章", "", *article_rows(new), "", "### 📝 内容大纲", ""]
+        for s in new:
+            a = by_slug.get(s)
+            if not a:
+                continue
+            outline = [x["heading"] for x in a.get("sections", [])]
+            if a.get("steps"):
+                outline.insert(0, f"Step-by-step（{len(a['steps'])} 步）")
+            out += [f"**{a['title']}**（{_zh(cfg.niche(a.get('niche', '')).section)}）", "",
+                    *[f"{i}. {h}" for i, h in enumerate(outline, 1)],
+                    f"{len(outline) + 1}. FAQ（{len(a.get('faq', []))} 题）" if a.get("faq") else "", ""]
     if upgraded:
         out += ["## ♻️ 升级到新格式的旧文章", "", *article_rows(upgraded), ""]
     if made:
@@ -56,7 +66,8 @@ def render(cfg: Config, store: Store, run: dict[str, Any], run_url: str = "") ->
         for s in made:
             p = products.get(s, {})
             out += [f"- **{p.get('title', s)}**（{_zh(p.get('section', ''))}）— {p.get('subtitle', '')}",
-                    f"  - 销售页：{cfg.base_url}/products/{s}/"]
+                    f"  - 销售页：{cfg.base_url}/products/{s}/",
+                    *[f"  - 第 {i} 章：{c['heading']}" for i, c in enumerate(p.get("chapters", []), 1)]]
         out += ["", "**需要你操作（每本新手册一次）：**",
                 f"1. 下载 PDF：{run_url or '本次运行页面'} → 最下方 Artifacts → `deliverables-…`",
                 "2. 上传到 Google Drive，设为「知道链接的任何人可查看」",
