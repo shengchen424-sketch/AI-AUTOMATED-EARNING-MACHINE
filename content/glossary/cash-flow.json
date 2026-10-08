@@ -1,0 +1,21 @@
+{
+  "term": "Cash Flow",
+  "section": "Accounting & Business",
+  "short_definition": "Cash flow is the movement of money into and out of a business or household over a period, showing whether more cash is coming in than going out.",
+  "explanation": [
+    "Cash flow tracks real money moving in and out of your accounts. Money in includes customer payments, salary or loans received. Money out includes bills, wages, stock, rent and loan repayments. Businesses report this in a cash flow statement, split into operating, investing and financing activities.",
+    "Cash flow matters because profit and cash aren't the same thing. A business can show a profit on paper and still be unable to pay its bills if customers pay late or money is tied up in stock. Many small businesses fail from running out of cash, not from being unprofitable.",
+    "The trade-off to watch is timing. Growing fast often means spending on stock and staff before customers pay, which can strain cash. Accounting and tax rules differ by country, so a qualified accountant can help you read your own statements."
+  ],
+  "example": "Example (illustrative numbers only): A freelance designer invoices 6,000 in March, but clients pay only 2,000 that month. March expenses are 3,000. On paper the month earned 3,000 in profit (6,000 invoiced − 3,000 costs). Actual cash flow was −1,000 (2,000 received − 3,000 paid out).",
+  "common_mistake": "Treating profit as spendable cash, without noticing that unpaid invoices or upcoming bills mean the money isn't actually available yet.",
+  "related_terms": [
+    "Cash Flow Statement",
+    "Profit Margin",
+    "Working Capital",
+    "Accounts Receivable"
+  ],
+  "title": "Cash Flow",
+  "slug": "cash-flow",
+  "published": "2026-10-08T08:17:05+00:00"
+}

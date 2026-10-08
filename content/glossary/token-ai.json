@@ -1,0 +1,21 @@
+{
+  "term": "Token (AI)",
+  "section": "AI & Tech",
+  "short_definition": "In AI, a token is a small chunk of text — a word, part of a word or punctuation mark — that a language model reads and generates, and that providers often use to measure usage and pricing.",
+  "explanation": [
+    "Before a language model processes text, it splits it into tokens. Common short words may be one token, while long or unusual words are split into several pieces. As a rough rule of thumb in English, one token is often around three-quarters of a word, but this varies by model and language.",
+    "Tokens matter for two practical reasons. First, every model has a context window — a maximum number of tokens it can consider at once, including your prompt and its reply. Second, many AI APIs charge per token of input and output, so long prompts and long answers cost more.",
+    "The trade-off is between detail and cost or limits: giving the model more context can improve answers, but it uses more tokens and can hit the context window. Pricing and limits change frequently, so check the current figures on the provider's pricing page."
+  ],
+  "example": "Illustrative example: Suppose a hypothetical API charges 1 unit of currency per 1,000,000 input tokens. A 750-word prompt might be roughly 1,000 tokens, so sending it 10,000 times uses about 10,000,000 tokens — around 10 units, before any output-token charges.",
+  "common_mistake": "Assuming one token equals one word, which leads to underestimating costs and running into context-window limits with long documents.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Prompt Engineering",
+    "Context Window",
+    "AI Hallucination"
+  ],
+  "title": "Token (AI)",
+  "slug": "token-ai",
+  "published": "2026-10-08T08:18:06+00:00"
+}

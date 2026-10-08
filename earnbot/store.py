@@ -24,8 +24,9 @@ class Store:
     def __init__(self, content_dir: Path, data_dir: Path):
         self.articles_dir = content_dir / "articles"
         self.products_dir = content_dir / "products"
+        self.glossary_dir = content_dir / "glossary"
         self.data_dir = data_dir
-        for d in (self.articles_dir, self.products_dir, self.data_dir):
+        for d in (self.articles_dir, self.products_dir, self.glossary_dir, self.data_dir):
             d.mkdir(parents=True, exist_ok=True)
 
     # ---- generic -------------------------------------------------------
@@ -66,6 +67,21 @@ class Store:
             json.dumps(article, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
         return article
+
+    def social(self, slug: str) -> dict[str, Any] | None:
+        p = self.data_dir / "social" / f"{slug}.json"
+        return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+    def save_social(self, slug: str, kit: dict[str, Any]) -> None:
+        d = self.data_dir / "social"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"{slug}.json").write_text(json.dumps(kit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    def glossary(self) -> list[dict[str, Any]]:
+        return sorted(self._load_dir(self.glossary_dir), key=lambda x: x["term"].lower())
+
+    def save_term(self, term: dict[str, Any]) -> dict[str, Any]:
+        return self._save(self.glossary_dir, {**term, "title": term["term"]})
 
     def save_product(self, product: dict[str, Any]) -> dict[str, Any]:
         return self._save(self.products_dir, product)

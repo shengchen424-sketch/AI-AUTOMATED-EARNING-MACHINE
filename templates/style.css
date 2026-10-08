@@ -56,7 +56,7 @@ h3{font-size:1.15rem;margin:1.6em 0 .4em}
 .stats b{display:block;color:var(--fg);font-size:22px}
 
 /* cards */
-.section{padding:56px 0}
+.section{padding-top:56px;padding-bottom:56px}
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
 .section-head h2{margin:0}
 .grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
@@ -83,7 +83,8 @@ a.card:hover{transform:translateY(-3px);border-color:var(--accent)}
 .byline{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--muted);margin:8px 0 24px}
 .cover{border-radius:var(--radius);box-shadow:var(--shadow);margin:8px 0 24px;display:block;width:100%}
 .layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:48px;align-items:start}
-@media (max-width:1000px){.layout{grid-template-columns:1fr}.aside{display:none}}
+.layout.wide-aside{grid-template-columns:minmax(0,1fr) 340px}
+@media (max-width:1000px){.layout,.layout.wide-aside{grid-template-columns:1fr}.aside{display:none}.pricebox{position:static}.wide-aside>aside:not(.aside){order:-1}}
 .aside{position:sticky;top:88px;display:flex;flex-direction:column;gap:16px}
 .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-size:14px}
 .toc b{display:block;margin-bottom:8px}
@@ -134,3 +135,10 @@ footer .cols{display:grid;gap:24px;grid-template-columns:2fr 1fr 1fr}
 @media (max-width:640px){footer .cols{grid-template-columns:1fr}}
 footer a{color:var(--muted);text-decoration:none;display:block;margin:6px 0}footer a:hover{color:var(--accent)}
 .prose p,.prose li{max-width:72ch}
+/* calculators */
+.calc{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.field{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:15px}
+.field input{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);font-size:17px;font-weight:600}
+.field input:focus{outline:2px solid var(--accent);border-color:transparent}
+.field small{font-weight:400}
+#out table{background:transparent}#out td{border-bottom:1px solid var(--line);padding:10px 4px}

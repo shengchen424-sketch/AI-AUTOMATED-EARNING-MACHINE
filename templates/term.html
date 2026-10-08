@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% from "_macros.html" import subscribe %}
+{% block body %}
+<section class="hero" style="padding:48px 0 32px"><div class="wrap"><div class="read" style="margin:0">
+  <div class="crumbs"><a href="{{ cfg.base_url }}/">Home</a> › <a href="{{ cfg.base_url }}/glossary/">Glossary</a></div>
+  <span class="eyebrow">{{ x.section }} · definition</span>
+  <h1>What is {{ x.term }}?</h1>
+</div></div></section>
+<div class="wrap section"><div class="read prose">
+  <div class="box answer"><span class="label">Definition</span><p>{{ x.short_definition }}</p></div>
+  {% for p in x.explanation %}<p>{{ p }}</p>{% endfor %}
+  <div class="box"><span class="label">Example</span>{{ x.example }}</div>
+  <div class="box"><span class="label">Common mistake</span>{{ x.common_mistake }}</div>
+  {% if x.care == "finance" %}<p class="disclosure">Educational content, not financial advice.</p>{% endif %}
+  {% if related_terms %}<h2>Related terms</h2><div class="chips">{% for r in related_terms %}<a class="chip" href="{{ cfg.base_url }}/glossary/{{ r.slug }}/">{{ r.term }}</a>{% endfor %}</div>{% endif %}
+  {% if articles %}<h2>Guides that use this term</h2><ul>{% for a in articles %}<li><a href="{{ cfg.base_url }}/{{ a.slug }}/">{{ a.title }}</a></li>{% endfor %}</ul>{% endif %}
+  <p><a href="{{ cfg.base_url }}/glossary/">← Back to the full glossary</a></p>
+  {{ subscribe(cfg) }}
+</div></div>
+{% endblock %}

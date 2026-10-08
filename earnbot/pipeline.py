@@ -65,6 +65,25 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
             report.setdefault("upgraded", []).append(old["slug"])
             log.info("upgraded article %s", old["slug"])
 
+        # Promotion kits for this run's articles, plus a couple of older ones that lack a kit.
+        backlog = [a["slug"] for a in store.articles() if not store.social(a["slug"]) and a["slug"] not in report["articles"]]
+        for slug in report["articles"] + backlog[:2]:
+            article = next((a for a in store.articles() if a["slug"] == slug), None)
+            if not article:
+                continue
+            try:
+                store.save_social(slug, generate.social_kit(cfg, llm, article))
+                report.setdefault("social", []).append(slug)
+            except LLMError as e:
+                report["errors"].append(f"social '{slug}': {e}")
+
+        if cfg.glossary_per_run:
+            try:
+                terms = generate.write_glossary_terms(cfg, llm, [x["term"] for x in store.glossary()], cfg.glossary_per_run)
+                report["glossary"] = [store.save_term(x)["slug"] for x in terms]
+            except LLMError as e:
+                report["errors"].append(f"glossary: {e}")
+
         products = store.products()
         for _ in range(cfg.products_per_run):
             if len(products) >= cfg.max_products:

@@ -1,0 +1,21 @@
+{
+  "term": "AI Hallucination",
+  "section": "AI & Tech",
+  "short_definition": "An AI hallucination is when an AI model, such as a chatbot, produces information that sounds confident and plausible but is false, made up or unsupported by its sources.",
+  "explanation": [
+    "Large language models generate text by predicting likely next words based on patterns in their training data. They are not looking facts up in a verified database by default, so they can produce fake statistics, non-existent citations, wrong dates or invented product features in fluent, convincing language.",
+    "It matters because people increasingly use AI assistants for research, money questions and business tasks. A hallucinated tax rule, interest figure or legal requirement can lead to costly decisions if it isn't checked against an authoritative source.",
+    "Tools that let the AI search the web or cite documents can reduce hallucinations but don't eliminate them. The practical trade-off is speed versus reliability: use AI to draft and explore, then verify important facts with official sources, the original documents or a qualified professional."
+  ],
+  "example": "Illustrative example: You ask a chatbot for three studies on side-hustle income, and it lists three titles with authors and years. When you search for them, only one exists — the other two were hallucinated. Checking each citation took five minutes and avoided quoting fake research.",
+  "common_mistake": "Trusting an answer because it is detailed and confidently worded, rather than verifying key facts, numbers and citations independently.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Prompt Engineering",
+    "Retrieval-Augmented Generation (RAG)",
+    "Token"
+  ],
+  "title": "AI Hallucination",
+  "slug": "ai-hallucination",
+  "published": "2026-10-08T08:18:06+00:00"
+}

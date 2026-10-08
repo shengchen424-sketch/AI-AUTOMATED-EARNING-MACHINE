@@ -1,0 +1,20 @@
+{
+  "term": "Credit Score",
+  "section": "Banking & Money",
+  "short_definition": "A credit score is a number calculated from your credit history that lenders use to estimate how likely you are to repay borrowed money on time.",
+  "explanation": [
+    "Credit bureaus collect data such as your payment history, how much of your available credit you use, how long your accounts have been open, recent applications and the mix of credit types. Scoring models turn this data into a number; the scale and the exact formula differ by country and by scoring company.",
+    "A credit score matters because it can affect whether you are approved for loans, credit cards, rentals or some phone contracts, and what interest rate you are offered. A stronger score can mean meaningfully lower borrowing costs over the life of a mortgage or car loan.",
+    "The trade-off is that building a score usually requires using credit, which carries the risk of debt if spending isn't controlled. Paying on time and keeping balances low relative to limits are widely recommended, but check your local credit bureaus or regulator for how scoring works where you live, and get your reports from official free sources."
+  ],
+  "example": "Illustrative example: Sam has a card with a 1,000 limit. Carrying a 900 balance means 90% utilisation, which typically hurts a score. Paying it down to 200 (20% utilisation) and paying every bill on time for a year would usually be viewed more favourably by lenders.",
+  "common_mistake": "Closing old credit cards to 'clean up' your finances, which can reduce available credit and average account age and sometimes lowers the score.",
+  "related_terms": [
+    "APR vs APY",
+    "Debt-to-Income Ratio",
+    "Emergency Fund"
+  ],
+  "title": "Credit Score",
+  "slug": "credit-score",
+  "published": "2026-10-08T08:18:06+00:00"
+}

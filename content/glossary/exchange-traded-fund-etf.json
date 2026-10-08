@@ -1,0 +1,21 @@
+{
+  "term": "Exchange-Traded Fund (ETF)",
+  "section": "Investing",
+  "short_definition": "An exchange-traded fund (ETF) is a pooled investment fund that holds a basket of assets, such as stocks or bonds, and trades on a stock exchange like a single share.",
+  "explanation": [
+    "An ETF collects money from many investors and uses it to buy a set of assets, often to track an index, sector, commodity or strategy. You buy and sell ETF shares through a brokerage account during market hours, and the price moves throughout the day as the underlying assets change in value.",
+    "ETFs matter to beginners because one purchase can give exposure to dozens or thousands of holdings, which makes diversification easier than buying each asset one by one. Many broad-market ETFs have relatively low ongoing costs, but fees vary widely, so always check the expense ratio and any trading commissions on the provider's and broker's sites.",
+    "The main trade-off is that an ETF is only as diversified and as safe as what it holds: a broad bond ETF and a leveraged single-sector ETF carry very different risks. ETFs can lose value, some trade with wide bid-ask spreads, and tax treatment differs by country, so check your local rules or a licensed adviser before deciding."
+  ],
+  "example": "Illustrative example: Priya invests 500 in a hypothetical ETF that tracks 400 large companies. Instead of buying 400 separate stocks, she owns a small slice of all of them. If the index falls 10%, her holding would fall to roughly 450 before fees; if it rises 10%, roughly 550.",
+  "common_mistake": "Assuming every ETF is a low-risk, diversified index fund — many ETFs are narrow, leveraged or inverse products designed for short-term trading and can lose value very quickly.",
+  "related_terms": [
+    "Index Fund",
+    "Diversification",
+    "Expense Ratio",
+    "Dollar-Cost Averaging"
+  ],
+  "title": "Exchange-Traded Fund (ETF)",
+  "slug": "exchange-traded-fund-etf",
+  "published": "2026-10-08T08:18:06+00:00"
+}

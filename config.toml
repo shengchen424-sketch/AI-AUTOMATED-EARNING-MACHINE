@@ -22,6 +22,7 @@ model = "claude-opus-5-5"
 effort = "high"
 editor_pass = true         # second "senior editor" pass on every article (better quality, 2x usage)
 upgrades_per_run = 2       # re-edit older articles into the newest format each run
+glossary_per_run = 10      # new glossary definitions per run (AI assistants love quoting definitions)
 
 # ------------------------------------------------------------
 #  Topics (niches). Each run picks the LEAST-covered active topics first.
@@ -180,6 +181,13 @@ default_price = "$19"
 
 [checkout_policy]
 refund_days = 30
+
+[verification]
+# Paste ONLY the content="..." value of each site-verification meta tag.
+google = ""      # Google Search Console  -> <meta name="google-site-verification" content="...">
+bing = ""        # Bing Webmaster Tools   -> <meta name="msvalidate.01" content="...">
+yandex = ""      # Yandex Webmaster       -> <meta name="yandex-verification" content="...">
+pinterest = ""   # Pinterest claim site   -> <meta name="p:domain_verify" content="...">
 
 [indexnow]
 enabled = true             # ping Bing/Yandex/Seznam etc. with new URLs after each deploy

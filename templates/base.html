@@ -8,6 +8,9 @@
 <link rel="canonical" href="{{ cfg.base_url }}/{{ page.path }}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="theme-color" content="#4f46e5">
+{% set vnames = {"google": "google-site-verification", "bing": "msvalidate.01", "yandex": "yandex-verification", "pinterest": "p:domain_verify"} %}
+{% for k, v in cfg.verification.items() if k in vnames %}<meta name="{{ vnames[k] }}" content="{{ v }}">
+{% endfor %}
 <meta property="og:site_name" content="{{ cfg.site_name }}">
 <meta property="og:type" content="{{ page.og_type or 'website' }}">
 <meta property="og:title" content="{{ page.title }}">
@@ -20,6 +23,7 @@
 {% if page.modified %}<meta property="article:modified_time" content="{{ page.modified }}">{% endif %}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234f46e5'/%3E%3Cstop offset='1' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M5 24 L13 12 L17 18 L21 9 L27 24 Z' fill='white'/%3E%3C/svg%3E">
 <link rel="alternate" type="application/rss+xml" title="{{ cfg.site_name }}" href="{{ cfg.base_url }}/feed.xml">
+<link rel="alternate" type="application/feed+json" title="{{ cfg.site_name }}" href="{{ cfg.base_url }}/feed.json">
 {% if page.markdown %}<link rel="alternate" type="text/markdown" href="{{ cfg.base_url }}/{{ page.markdown }}">{% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,7 +38,8 @@
   <nav class="nav">
     <a href="{{ cfg.base_url }}/guides/">Guides</a>
     <a href="{{ cfg.base_url }}/topics/">Topics</a>
-    <a href="{{ cfg.base_url }}/about/">About</a>
+    <a href="{{ cfg.base_url }}/tools/">Free tools</a>
+    <a href="{{ cfg.base_url }}/glossary/">Glossary</a>
     <a class="cta-sm" href="{{ cfg.base_url }}/products/">Playbooks</a>
   </nav>
 </div></header>
@@ -50,6 +55,8 @@
   <div><b>Explore</b>
     <a href="{{ cfg.base_url }}/guides/">All guides</a>
     <a href="{{ cfg.base_url }}/topics/">Topics</a>
+    <a href="{{ cfg.base_url }}/tools/">Free calculators</a>
+    <a href="{{ cfg.base_url }}/glossary/">Glossary</a>
     <a href="{{ cfg.base_url }}/products/">Playbooks</a>
     <a href="{{ cfg.base_url }}/feed.xml">RSS</a>
   </div>

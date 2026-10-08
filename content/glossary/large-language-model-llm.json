@@ -1,0 +1,22 @@
+{
+  "term": "Large Language Model (LLM)",
+  "section": "AI & Tech",
+  "short_definition": "A large language model (LLM) is an AI system trained on huge amounts of text to predict and generate language, letting it answer questions, summarise, write and translate.",
+  "explanation": [
+    "An LLM learns statistical patterns in language from very large text datasets. When you type a prompt, it generates a response one small chunk of text (a 'token') at a time, predicting what is likely to come next based on its training and your instructions. Assistants such as ChatGPT, Claude and Gemini are built on LLMs.",
+    "LLMs matter because they make drafting, summarising, explaining and coding faster for everyday users and businesses. A beginner can ask an LLM to explain a financial term, outline a budget or draft an email in seconds.",
+    "The key risk is that LLMs can produce confident but wrong answers, often called 'hallucinations'. They may also have outdated information or miss your personal situation. Verify important facts against primary sources, avoid sharing sensitive personal or financial data, and don't treat an LLM's output as professional financial, legal or medical advice."
+  ],
+  "example": "Example: You paste a 3-page bank fee schedule into an LLM and ask, 'List every fee over 5 and when it applies.' It returns a short list in seconds. You then check each item against the original document before relying on it.",
+  "common_mistake": "Trusting an LLM's numbers, quotes or citations without checking them, especially for money, tax or legal questions where errors are costly.",
+  "related_terms": [
+    "Prompt Engineering",
+    "Generative AI",
+    "Hallucination (AI)",
+    "Token",
+    "Machine Learning"
+  ],
+  "title": "Large Language Model (LLM)",
+  "slug": "large-language-model-llm",
+  "published": "2026-10-08T08:17:05+00:00"
+}

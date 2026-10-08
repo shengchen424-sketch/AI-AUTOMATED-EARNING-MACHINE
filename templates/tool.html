@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% from "_macros.html" import subscribe %}
+{% block body %}
+<section class="hero" style="padding:48px 0 32px"><div class="wrap">
+  <div class="crumbs"><a href="{{ cfg.base_url }}/">Home</a> › <a href="{{ cfg.base_url }}/tools/">Free tools</a></div>
+  <span class="eyebrow">Free calculator · no sign-up</span>
+  <h1>{{ t.title }}</h1>
+  <p class="lede">{{ t.summary }}</p>
+</div></section>
+<div class="wrap section"><div class="layout wide-aside">
+<div class="prose">
+  <form class="box calc" id="calc" onsubmit="return false">
+    {% for id, label, default, step, hint in t.inputs %}
+    <label class="field"><span>{{ label }}</span>
+      <input type="number" inputmode="decimal" id="{{ id }}" value="{{ default }}" step="{{ step }}" min="0">
+      {% if hint %}<small class="muted">{{ hint }}</small>{% endif %}</label>
+    {% endfor %}
+  </form>
+  <div class="box answer" id="out" aria-live="polite"></div>
+  <p class="disclosure">Estimates for education only, not financial advice. Real returns, rates and fees vary.</p>
+  {% for q, a in t.explain %}<h2>{{ q }}</h2><p>{{ a }}</p>{% endfor %}
+  <h2>Frequently asked questions</h2>
+  {% for q, a in t.faq %}<details class="faq"{% if loop.first %} open{% endif %}><summary>{{ q }}</summary><p>{{ a }}</p></details>{% endfor %}
+  {% if related %}<h2>Learn more</h2><ul>{% for a in related %}<li><a href="{{ cfg.base_url }}/{{ a.slug }}/">{{ a.title }}</a></li>{% endfor %}</ul>{% endif %}
+</div>
+<aside class="aside">
+  <nav class="toc"><b>More free tools</b><ol>{% for o in tools if o.slug != t.slug %}<li><a href="{{ cfg.base_url }}/tools/{{ o.slug }}/">{{ o.title }}</a></li>{% endfor %}</ol></nav>
+  {% if products %}<div class="toc"><b>{{ products[0].title }}</b><p class="muted" style="margin:.3em 0 .8em">{{ products[0].subtitle }}</p><a class="btn" href="{{ cfg.base_url }}/products/{{ products[0].slug }}/">See the playbook</a></div>{% endif %}
+</aside>
+</div>
+<div class="read">{{ subscribe(cfg) }}</div>
+</div>
+<script>
+(function () {
+  const fmt = n => (Math.round(n)).toLocaleString(undefined, {maximumFractionDigits: 0});
+  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+  const dur = m => { const y = Math.floor(m / 12), r = m % 12; return [y && plural(y, "year"), r && plural(r, "month")].filter(Boolean).join(" ") || "0 months"; };
+  const ids = {{ ids | safe }};
+  function compute(v) { {{ t.js | safe }} }
+  function run() {
+    const v = {};
+    for (const id of ids) { const x = parseFloat(document.getElementById(id).value); v[id] = isFinite(x) ? x : 0; }
+    const out = document.getElementById("out"); out.textContent = "";
+    let r; try { r = compute(v); } catch (e) { r = {error: "Please check the numbers."}; }
+    const label = document.createElement("span"); label.className = "label"; label.textContent = "Your result"; out.appendChild(label);
+    if (r.error) { const p = document.createElement("p"); p.textContent = r.error; out.appendChild(p); return; }
+    const tbl = document.createElement("table");
+    for (const [k, val] of r.rows) { const tr = tbl.insertRow(); tr.insertCell().textContent = k; const c = tr.insertCell(); c.textContent = val; c.style.fontWeight = "700"; }
+    out.appendChild(tbl);
+    if (r.note) { const p = document.createElement("p"); p.className = "small muted"; p.style.marginTop = "10px"; p.textContent = r.note; out.appendChild(p); }
+  }
+  document.getElementById("calc").addEventListener("input", run); run();
+})();
+</script>
+{% endblock %}

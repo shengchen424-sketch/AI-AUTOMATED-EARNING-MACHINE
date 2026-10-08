@@ -1,0 +1,21 @@
+{
+  "term": "Balance Sheet",
+  "section": "Accounting & Business",
+  "short_definition": "A balance sheet is a financial statement that shows what a business owns (assets), what it owes (liabilities) and the owners' stake (equity) at a single point in time.",
+  "explanation": [
+    "A balance sheet follows the accounting equation: Assets = Liabilities + Equity. Assets include cash, inventory, equipment and money customers owe you; liabilities include loans, unpaid bills and taxes due; equity is what would be left for the owners if all debts were paid.",
+    "It matters because it shows financial health and resilience — whether a business can cover its short-term obligations and how heavily it relies on debt. Lenders and investors read it alongside the income statement and cash flow statement, because profit alone doesn't show whether a company is solvent.",
+    "The limitation is that a balance sheet is a snapshot of one date and often records assets at historical cost rather than current market value. Accounting standards differ by country, so for formal reporting or tax purposes use an accountant familiar with your local rules."
+  ],
+  "example": "Illustrative example: A small bakery has 5,000 in cash, 3,000 of equipment and 2,000 of inventory (total assets 10,000). It owes 4,000 on a loan and 1,000 to suppliers (liabilities 5,000). Equity is therefore 10,000 − 5,000 = 5,000.",
+  "common_mistake": "Confusing the balance sheet with the income statement — a business can show a profit on its income statement while its balance sheet reveals too little cash to pay upcoming bills.",
+  "related_terms": [
+    "Cash Flow",
+    "Profit Margin",
+    "Income Statement",
+    "Net Worth"
+  ],
+  "title": "Balance Sheet",
+  "slug": "balance-sheet",
+  "published": "2026-10-08T08:18:06+00:00"
+}

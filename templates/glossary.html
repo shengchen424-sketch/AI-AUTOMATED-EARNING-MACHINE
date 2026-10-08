@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "_macros.html" import subscribe %}
+{% block body %}
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <span class="eyebrow">Glossary · {{ terms|length }} terms</span>
+  <h1>Money, investing &amp; AI glossary</h1>
+  <p class="lede">Plain-English definitions of the terms you'll meet in investing, banking, accounting and AI — each with an example and the most common beginner mistake.</p>
+  <div class="chips" style="margin-top:18px">{% for letter, _ in groups %}<a class="chip" href="#letter-{{ letter }}">{{ letter }}</a>{% endfor %}</div>
+</div></section>
+<div class="wrap section"><div class="read prose">
+{% for letter, items in groups %}
+  <h2 id="letter-{{ letter }}">{{ letter }}</h2>
+  <dl>{% for x in items %}<dt><a href="{{ cfg.base_url }}/glossary/{{ x.slug }}/"><b>{{ x.term }}</b></a> <span class="chip">{{ x.section }}</span></dt>
+  <dd class="muted" style="margin:4px 0 16px">{{ x.short_definition }}</dd>{% endfor %}</dl>
+{% else %}<p class="muted">The first terms are being written.</p>{% endfor %}
+{{ subscribe(cfg) }}
+</div></div>
+{% endblock %}

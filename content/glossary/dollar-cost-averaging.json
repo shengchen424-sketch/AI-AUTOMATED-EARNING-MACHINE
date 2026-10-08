@@ -1,0 +1,21 @@
+{
+  "term": "Dollar-Cost Averaging",
+  "section": "Investing",
+  "short_definition": "Dollar-cost averaging is an investing method where you put a fixed amount of money into an investment at regular intervals, regardless of its price at each purchase.",
+  "explanation": [
+    "With dollar-cost averaging, you choose an amount and a schedule — for example, the same sum every month — and invest it automatically. When prices are low your fixed amount buys more units, and when prices are high it buys fewer, so your average cost per unit smooths out over time.",
+    "It matters because it removes the pressure of trying to 'time the market' and turns investing into a habit that fits a monthly budget. It also reduces the regret of putting everything in just before a drop, which helps many beginners stay consistent.",
+    "The trade-off is that it does not guarantee a profit or protect against losses in a falling market. When markets rise steadily, investing a lump sum all at once has historically often ended up ahead, and frequent small purchases can add up in fees if your broker charges per trade, so check your costs first."
+  ],
+  "example": "Illustrative example: You invest 100 each month for three months. Month 1 price is 10 (you get 10 units), month 2 price is 5 (20 units), month 3 price is 10 (10 units). You spent 300 for 40 units, an average cost of 7.50 per unit — below the simple average price of 8.33.",
+  "common_mistake": "Stopping the automatic contributions when prices fall, which skips the very purchases that lower the average cost and defeats the purpose of the method.",
+  "related_terms": [
+    "Index Fund",
+    "Exchange-Traded Fund (ETF)",
+    "Compound Interest",
+    "Volatility"
+  ],
+  "title": "Dollar-Cost Averaging",
+  "slug": "dollar-cost-averaging",
+  "published": "2026-10-08T08:18:06+00:00"
+}

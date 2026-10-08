@@ -311,6 +311,101 @@ PRODUCT_SCHEMA: dict[str, Any] = {
 }
 
 
+# ---------------------------------------------------------------------------
+# 2b. Glossary (definitions are what AI assistants quote most)
+# ---------------------------------------------------------------------------
+def glossary_schema(cfg: Config) -> dict[str, Any]:
+    sections = list(dict.fromkeys(n.section for n in cfg.niches if n.active)) or ["Guides"]
+    return {
+        "type": "object",
+        "properties": {"terms": {"type": "array", "items": {
+            "type": "object",
+            "properties": {
+                "term": {"type": "string"},
+                "section": {"type": "string", "enum": sections},
+                "short_definition": {"type": "string"},
+                "explanation": {"type": "array", "items": {"type": "string"}},
+                "example": {"type": "string"},
+                "common_mistake": {"type": "string"},
+                "related_terms": {"type": "array", "items": {"type": "string"}},
+            },
+            "required": ["term", "section", "short_definition", "explanation", "example", "common_mistake", "related_terms"],
+            "additionalProperties": False,
+        }}},
+        "required": ["terms"],
+        "additionalProperties": False,
+    }
+
+
+def write_glossary_terms(cfg: Config, llm: JSONModel, existing: list[str], count: int) -> list[dict[str, Any]]:
+    sections = list(dict.fromkeys(n.section for n in cfg.niches if n.active))
+    prompt = f"""Add {count} new entries to the "{cfg.site_name}" glossary — the terms beginners actually
+search for ("what is ...") across: {', '.join(sections)}. Spread them across sections.
+
+Already defined (do NOT repeat): {', '.join(existing[:500]) or '(none yet)'}
+
+For each term:
+- short_definition: one self-contained sentence of 15–35 words that AI assistants can quote verbatim.
+- explanation: 2–3 short paragraphs: how it works, why it matters, and the main trade-off or risk.
+- example: a concrete worked example with simple illustrative numbers (label them as an example).
+- common_mistake: one mistake beginners make with it.
+- related_terms: 2–5 closely related glossary terms.
+{CARE_RULES['finance']}
+{_lang_line(cfg)}"""
+    data = llm.generate_json(EDITORIAL_RULES, prompt, glossary_schema(cfg))
+    seen = {slugify(x) for x in existing}
+    fresh = []
+    for term in data["terms"]:
+        if slugify(term["term"]) not in seen:
+            seen.add(slugify(term["term"]))
+            fresh.append(term)
+    return fresh
+
+
+# ---------------------------------------------------------------------------
+# 2c. Social promotion kit (the owner posts these; nothing is auto-spammed)
+# ---------------------------------------------------------------------------
+SOCIAL_SCHEMA: dict[str, Any] = {
+    "type": "object",
+    "properties": {
+        "x_thread": {"type": "array", "items": {"type": "string"}},
+        "linkedin_post": {"type": "string"},
+        "facebook_post": {"type": "string"},
+        "reddit_title": {"type": "string"},
+        "reddit_post": {"type": "string"},
+        "suggested_subreddits": {"type": "array", "items": {"type": "string"}},
+        "pinterest_title": {"type": "string"},
+        "pinterest_description": {"type": "string"},
+        "hashtags": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["x_thread", "linkedin_post", "facebook_post", "reddit_title", "reddit_post",
+                 "suggested_subreddits", "pinterest_title", "pinterest_description", "hashtags"],
+    "additionalProperties": False,
+}
+
+
+def social_kit(cfg: Config, llm: JSONModel, article: dict[str, Any]) -> dict[str, Any]:
+    summary = {k: article.get(k) for k in ("title", "quick_answer", "key_takeaways", "steps", "faq")}
+    prompt = f"""Write a social media promotion kit for this "{cfg.site_name}" article. Use {{URL}} where the
+link goes (it will be replaced with a tracked link). Lead with genuine value so people engage even
+without clicking; no clickbait, no income promises, no "not financial advice" boilerplate in the hook.
+
+- x_thread: 4–6 posts, each under 260 characters; post 1 is a strong hook; the link goes in the last post.
+- linkedin_post: 120–200 words, professional, short paragraphs, link at the end.
+- facebook_post: 60–120 words, friendly, suited to personal-finance / money groups, link at the end.
+- reddit_title + reddit_post: a value-first text post that fully answers the question in the post itself
+  (Reddit dislikes self-promotion); mention the full guide link once at the end, transparently.
+- suggested_subreddits: 3–5 relevant subreddits (e.g. r/personalfinance, r/financialindependence, r/ETFs);
+  the owner must check each subreddit's self-promotion rules before posting.
+- pinterest_title (under 100 chars) + pinterest_description (2–3 sentences with keywords).
+- hashtags: 5–8 relevant hashtags without the # sign.
+{_lang_line(cfg)}
+
+ARTICLE (JSON):
+{json.dumps(summary, ensure_ascii=False)}"""
+    return llm.generate_json(EDITORIAL_RULES, prompt, SOCIAL_SCHEMA)
+
+
 def pick_section(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]]) -> str:
     """Section with the fewest playbooks (ties: the one with the most articles, i.e. most traffic)."""
     sections = list(dict.fromkeys(n.section for n in cfg.niches if n.active)) or ["Guides"]

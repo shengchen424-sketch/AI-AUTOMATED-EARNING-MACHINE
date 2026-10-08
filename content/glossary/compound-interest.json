@@ -1,0 +1,21 @@
+{
+  "term": "Compound Interest",
+  "section": "Banking & Money",
+  "short_definition": "Compound interest is interest calculated on both your original money and the interest it has already earned, so your balance grows faster over time than with simple interest.",
+  "explanation": [
+    "With compound interest, each interest payment is added to your balance, and the next payment is calculated on that larger amount. How often interest is added (daily, monthly or yearly) affects the result. That's why banks quote an annual percentage yield (APY) or annual equivalent rate (AER), which already includes the effect of compounding.",
+    "Compounding matters because time does much of the work. Money left to compound for decades can grow far more than money added late. The same maths works against you on debt: unpaid credit card interest compounds too, which is why balances can grow quickly.",
+    "The main caveat is that compounding depends on the rate staying positive and you leaving the money alone. Savings rates change, inflation can wipe out real gains, and investment returns are never guaranteed. Interest may also be taxable in your country."
+  ],
+  "example": "Example (illustrative 5% annual rate, compounded yearly): 1,000 becomes 1,050 after year 1. In year 2, interest is earned on 1,050, giving 1,102.50. After 10 years the balance is about 1,629. With simple interest at the same rate, it would be 1,500.",
+  "common_mistake": "Comparing accounts by the headline interest rate alone instead of the APY/AER, which shows the true yearly growth after compounding.",
+  "related_terms": [
+    "Annual Percentage Yield (APY)",
+    "Simple Interest",
+    "Inflation",
+    "High-Yield Savings Account"
+  ],
+  "title": "Compound Interest",
+  "slug": "compound-interest",
+  "published": "2026-10-08T08:17:05+00:00"
+}

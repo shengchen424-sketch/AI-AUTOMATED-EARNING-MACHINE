@@ -1,0 +1,22 @@
+{
+  "term": "Profit Margin",
+  "section": "Accounting & Business",
+  "short_definition": "Profit margin is the percentage of revenue a business keeps as profit after costs, calculated by dividing profit by revenue and multiplying by 100.",
+  "explanation": [
+    "There are several types of profit margin. Gross margin subtracts only the direct cost of making or buying what you sell. Operating margin also subtracts running costs such as rent, wages and marketing. Net margin subtracts everything, including interest and taxes. Each one shows a different layer of the business's costs.",
+    "Margins matter because they show how efficiently a business turns sales into profit. Because margins are percentages, you can compare businesses of different sizes or track one business over time. A shrinking margin can warn you that costs are rising faster than prices.",
+    "The main caution is that 'normal' margins vary hugely by industry. A grocery store and a software company can't be fairly compared. High revenue with thin margins can also hide a fragile business, so read margins alongside cash flow."
+  ],
+  "example": "Example (illustrative numbers only): A small online shop has 50,000 in revenue. Product costs are 30,000, so gross profit is 20,000 and gross margin is 40%. After 12,000 of other expenses and taxes, net profit is 8,000, a net margin of 16%.",
+  "common_mistake": "Mixing up margin and markup. Buying an item for 60 and selling it for 100 is a 66.7% markup but a 40% margin.",
+  "related_terms": [
+    "Revenue",
+    "Gross Profit",
+    "Net Income",
+    "Cash Flow",
+    "Markup"
+  ],
+  "title": "Profit Margin",
+  "slug": "profit-margin",
+  "published": "2026-10-08T08:17:05+00:00"
+}

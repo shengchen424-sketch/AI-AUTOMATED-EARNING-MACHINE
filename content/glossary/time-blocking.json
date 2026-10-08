@@ -1,0 +1,20 @@
+{
+  "term": "Time Blocking",
+  "section": "Self-Development",
+  "short_definition": "Time blocking is a planning method where you divide your day into scheduled blocks and assign each block to one specific task or type of work.",
+  "explanation": [
+    "Instead of working from an open to-do list, you put tasks directly into your calendar — for example, 9:00–10:30 for deep work, 10:30–11:00 for email, 14:00–15:00 for a side-project task. Each block has one purpose, and you protect it like an appointment.",
+    "It matters because it forces realistic decisions about what fits in a day and reduces constant task-switching, which tends to fragment attention. It's especially useful for people building a side business or studying around a full-time job, where limited hours must be used deliberately.",
+    "The trade-off is rigidity: interruptions, meetings and underestimated tasks can wreck a tightly packed schedule. Leaving buffer blocks and replanning briefly at the end of each day keeps the method helpful rather than stressful."
+  ],
+  "example": "Illustrative example: Marco has 10 free hours a week for his freelance design work. He blocks Monday and Wednesday 19:00–21:00 for client work, Saturday 9:00–12:00 for portfolio building, and Sunday 18:00–19:00 for admin and invoicing — leaving two hours as buffer.",
+  "common_mistake": "Filling every minute of the calendar with no buffer time, so one overrun task causes the whole day's plan to collapse.",
+  "related_terms": [
+    "Habit Stacking",
+    "SMART Goals",
+    "Growth Mindset"
+  ],
+  "title": "Time Blocking",
+  "slug": "time-blocking",
+  "published": "2026-10-08T08:18:06+00:00"
+}

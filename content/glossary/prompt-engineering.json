@@ -1,0 +1,21 @@
+{
+  "term": "Prompt Engineering",
+  "section": "AI & Tech",
+  "short_definition": "Prompt engineering is the practice of writing clear, structured instructions for an AI model, including context, goal, format and constraints, to get more accurate and useful responses.",
+  "explanation": [
+    "Prompt engineering means giving an AI model what a capable human assistant would need. That includes the task, relevant background, the audience, the format you want (such as a table, bullet list or word count), and any limits. Useful techniques include giving an example of good output, asking the model to work step by step, and splitting large tasks into smaller prompts.",
+    "It matters because the same model can give a vague answer or a precise, usable one depending on how you ask. Better prompts save time, cut down on back-and-forth, and make results more consistent, especially when you reuse a prompt for regular tasks.",
+    "The trade-off is that even a well-written prompt can't guarantee correct output. Good prompting makes errors less likely but doesn't remove them. Prompts that work well with one model or version may also behave differently after updates, so test and review the results."
+  ],
+  "example": "Example: Weak prompt: 'Explain budgeting.' Stronger prompt: 'Explain the 50/30/20 budgeting method to a first-time earner in under 150 words, then show it applied to an example monthly take-home pay of 2,000 in a 3-row table.'",
+  "common_mistake": "Leaving out context and the desired format, then blaming the AI for a generic answer. Say who it's for, what you need and how it should look.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Generative AI",
+    "Hallucination (AI)",
+    "AI Automation"
+  ],
+  "title": "Prompt Engineering",
+  "slug": "prompt-engineering",
+  "published": "2026-10-08T08:17:05+00:00"
+}

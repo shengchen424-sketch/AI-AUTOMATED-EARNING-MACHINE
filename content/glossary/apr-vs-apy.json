@@ -1,0 +1,20 @@
+{
+  "term": "APR vs APY",
+  "section": "Banking & Money",
+  "short_definition": "APR (annual percentage rate) is the yearly interest rate without compounding, while APY (annual percentage yield) includes the effect of compounding, showing what you actually earn or pay over one year.",
+  "explanation": [
+    "APR states the simple yearly rate; on loans and credit cards it may also include certain fees, depending on local rules. APY takes the same rate and adds the effect of compounding — interest earning interest — so with monthly or daily compounding the APY is higher than the APR.",
+    "This matters because banks and lenders often advertise whichever number looks better: savings accounts tend to show APY (the bigger number), while loans tend to show APR (the smaller number). Comparing APY to APY for savings, and like-for-like total borrowing costs for loans, gives a fair comparison.",
+    "The catch is that neither figure tells the whole story. Promotional rates can expire, variable rates can change, and fees, minimum balances or penalties can reduce what you actually get. Definitions and disclosure rules differ by country, so read the product's key facts document and check with your local regulator if unsure."
+  ],
+  "example": "Illustrative example: A savings account offers a 5% APR compounded monthly. On 1,000, the monthly interest adds up so that after one year you have about 1,051.16 — an APY of about 5.12%. A card charging 20% APR compounded monthly works out to roughly 21.9% APY on a balance you leave unpaid.",
+  "common_mistake": "Comparing one account's APR with another account's APY, which makes the offers look closer or further apart than they really are.",
+  "related_terms": [
+    "Compound Interest",
+    "Credit Score",
+    "Emergency Fund"
+  ],
+  "title": "APR vs APY",
+  "slug": "apr-vs-apy",
+  "published": "2026-10-08T08:18:06+00:00"
+}

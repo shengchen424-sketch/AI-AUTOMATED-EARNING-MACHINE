@@ -45,6 +45,8 @@
   {% if a.faq %}<h2 id="faq">Frequently asked questions</h2>
   {% for f in a.faq %}<details class="faq"{% if loop.first %} open{% endif %}><summary>{{ f.question }}</summary><p>{{ f.answer }}</p></details>{% endfor %}{% endif %}
 
+  {% if key_terms %}<div class="box"><span class="label">Key terms in this guide</span><div class="chips">{% for k in key_terms %}<a class="chip" href="{{ cfg.base_url }}/glossary/{{ k.slug }}/" title="{{ k.short_definition }}">{{ k.term }}</a>{% endfor %}</div></div>{% endif %}
+
   <h2 id="bottom-line">The bottom line</h2>
   <p>{{ a.conclusion }}</p>
   <div class="box author"><i></i><div><b>{{ cfg.author }}</b><br><span class="small muted">We research practical answers on money, family, learning and AI. Drafted with AI assistance and reviewed against our editorial rules: no invented numbers, honest trade-offs. <a href="{{ cfg.base_url }}/about/">How we work</a>.</span></div></div>

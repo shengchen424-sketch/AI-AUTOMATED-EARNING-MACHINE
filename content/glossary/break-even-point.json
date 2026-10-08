@@ -1,0 +1,20 @@
+{
+  "term": "Break-Even Point",
+  "section": "Accounting & Business",
+  "short_definition": "The break-even point is the level of sales at which a business's total revenue exactly covers its total costs, so it makes neither a profit nor a loss.",
+  "explanation": [
+    "To find it, separate fixed costs (rent, software, salaries that don't change with sales) from variable costs (materials or fees per unit sold). Each sale contributes its price minus its variable cost — the contribution margin — towards fixed costs. Break-even units = fixed costs ÷ contribution margin per unit.",
+    "It matters because it tells you the minimum sales needed before a product, side business or new hire starts paying for itself. It's a quick reality check on pricing: if the break-even number is unrealistic for your market, the price, costs or plan need to change.",
+    "The trade-off is that the calculation relies on simplified assumptions — constant prices, predictable costs and that everything you produce sells. Real costs creep, discounts happen and cash timing matters, so treat the result as an estimate and revisit it as numbers change."
+  ],
+  "example": "Illustrative example: An online course business has fixed costs of 2,000 per month. Each course sells for 50 and costs 10 in payment and platform fees, so each sale contributes 40. Break-even = 2,000 ÷ 40 = 50 sales per month; sale number 51 is the first to produce profit.",
+  "common_mistake": "Forgetting to include your own time or small recurring costs like subscriptions and payment fees, which makes the break-even point look far lower than it really is.",
+  "related_terms": [
+    "Profit Margin",
+    "Cash Flow",
+    "Fixed vs Variable Costs"
+  ],
+  "title": "Break-Even Point",
+  "slug": "break-even-point",
+  "published": "2026-10-08T08:18:06+00:00"
+}

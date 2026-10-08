@@ -14,6 +14,7 @@ from xml.sax.saxutils import escape
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import ogimage
+from .tools import TOOLS
 from .config import Config
 from .store import Store, slugify, utcnow
 
@@ -153,8 +154,16 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
         shutil.rmtree(out)
     out.mkdir(parents=True)
     env = _env(cfg)
-    articles, products = store.articles(), store.products()
+    articles, products, glossary = store.articles(), store.products(), store.glossary()
     _decorate(cfg, articles)
+    for x in glossary:
+        x["care"] = "finance" if x.get("section") in {n.section for n in cfg.niches if n.care == "finance"} else ""
+    term_by_slug = {x["slug"]: x for x in glossary}
+    article_text = {a["slug"]: article_markdown(cfg, a).lower() for a in articles}
+
+    def terms_in(slug: str) -> list[dict[str, Any]]:
+        text = article_text[slug]
+        return [x for x in glossary if len(x["term"]) > 2 and x["term"].lower() in text][:10]
     price = cfg.default_price
     common = {"products": products, "checkout_links": cfg.checkout_links, "price": price}
 
@@ -177,6 +186,7 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     ogimage.render(out / "assets" / "og" / "site.png", cfg.site_name, cfg.tagline, cfg.site_name)
     for a in articles:
         ogimage.render(out / "assets" / "og" / f"{a['slug']}.png", a["title"], a.get("niche_label", ""), cfg.site_name)
+        ogimage.render_pin(out / "assets" / "pins" / f"{a['slug']}.png", a["title"], a.get("section", ""), cfg.site_name)
 
     def render(path: str, template: str, page: dict[str, Any], **ctx: Any) -> None:
         _write(out / path / "index.html" if path else out / "index.html",
@@ -186,7 +196,8 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     home["jsonld"].append(_ld({"@type": "Organization", "name": cfg.business_name, "url": f"{cfg.base_url}/",
                                "logo": f"{cfg.base_url}/assets/og/site.png", "description": cfg.tagline,
                                **({"email": cfg.contact_email} if cfg.contact_email else {})}))
-    render("", "index.html", home, articles=articles, topics=topics, sections=sections)
+    render("", "index.html", home, articles=articles, topics=topics, sections=sections, tools=TOOLS,
+           glossary=sorted(glossary, key=lambda x: x.get("published", ""), reverse=True))
 
     render("guides", "listing.html",
            _page(cfg, f"All guides — {cfg.site_name}", f"Every {cfg.site_name} guide: practical, step-by-step answers on money, family, learning and AI.", "guides/"),
@@ -207,8 +218,55 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
                      og_type="article", og_image=f"assets/og/{a['slug']}.png", published=a["published"],
                      modified=a.get("updated") or a["published"], markdown=f"{a['slug']}/index.md")
         page["jsonld"] += _article_ld(cfg, a)
-        render(a["slug"], "article.html", page, a=a, recs=recs, product=product, related=_related(a, articles))
+        render(a["slug"], "article.html", page, a=a, recs=recs, product=product, related=_related(a, articles),
+               key_terms=terms_in(a["slug"]))
         _write(out / a["slug"] / "index.md", article_markdown(cfg, a))
+
+    # Free calculators: link magnets for people, quotable explainers for AI assistants.
+    render("tools", "tools.html", _page(cfg, f"Free money calculators — {cfg.site_name}",
+           "Free compound interest, ETF/DCA, debt payoff, emergency fund and FIRE calculators.", "tools/"), tools=TOOLS)
+    for tool in TOOLS:
+        path = f"tools/{tool['slug']}/"
+        page = _page(cfg, f"{tool['title']} (Free) — {cfg.site_name}", tool["summary"], path)
+        page["jsonld"] += [
+            _ld({"@type": "WebApplication", "name": tool["title"], "description": tool["summary"],
+                 "url": f"{cfg.base_url}/{path}", "applicationCategory": "FinanceApplication",
+                 "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}),
+            _ld({"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                for q, a in tool["explain"] + tool["faq"]]}),
+            _breadcrumb(cfg, [("Home", ""), ("Free tools", "tools/"), (tool["title"], path)]),
+        ]
+        words = tool["match"]
+        related = [a for a in articles if any(w in (a["title"] + " " + a.get("keyword", "")).lower() for w in words)][:5]
+        render(path.rstrip("/"), "tool.html", page, t=tool, tools=TOOLS, related=related,
+               ids=json.dumps([i[0] for i in tool["inputs"]]))
+
+    # Glossary: A–Z index + one page per term (DefinedTerm), cross-linked with articles.
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for x in glossary:
+        first = x["term"][:1].upper()
+        groups.setdefault(first if first.isalpha() else "#", []).append(x)
+    gpage = _page(cfg, f"Money, investing & AI glossary — {cfg.site_name}",
+                  "Plain-English definitions of investing, banking, accounting and AI terms, with examples.", "glossary/")
+    gpage["jsonld"].append(_ld({"@type": "DefinedTermSet", "name": f"{cfg.site_name} Glossary", "url": f"{cfg.base_url}/glossary/",
+                                "hasDefinedTerm": [{"@type": "DefinedTerm", "name": x["term"], "description": x["short_definition"],
+                                                    "url": f"{cfg.base_url}/glossary/{x['slug']}/"} for x in glossary]}))
+    render("glossary", "glossary.html", gpage, terms=glossary, groups=sorted(groups.items()))
+    for x in glossary:
+        path = f"glossary/{x['slug']}/"
+        page = _page(cfg, f"What is {x['term']}? Definition & example — {cfg.site_name}", x["short_definition"], path)
+        page["jsonld"] += [
+            _ld({"@type": "DefinedTerm", "name": x["term"], "description": x["short_definition"], "url": f"{cfg.base_url}/{path}",
+                 "inDefinedTermSet": f"{cfg.base_url}/glossary/"}),
+            _ld({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f"What is {x['term']}?",
+                 "acceptedAnswer": {"@type": "Answer", "text": " ".join([x["short_definition"], *x["explanation"]])}}]}),
+            _breadcrumb(cfg, [("Home", ""), ("Glossary", "glossary/"), (x["term"], path)]),
+        ]
+        related_terms = [term_by_slug[s] for s in dict.fromkeys(slugify(r) for r in x["related_terms"])
+                         if s in term_by_slug and s != x["slug"]]
+        using = [a for a in articles if x["term"].lower() in article_text[a["slug"]]][:6]
+        render(path.rstrip("/"), "term.html", page, x=x, related_terms=related_terms, articles=using)
 
     render("products", "products.html", _page(cfg, f"Playbooks — {cfg.site_name}", "Done-for-you AI playbooks with copy-paste templates.", "products/"))
     for p in products:
@@ -233,14 +291,24 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
 
     urls = [("", None), ("guides/", None), ("topics/", None), ("products/", None)]
     urls += [(f"topics/{t['slug']}/", None) for t in topics]
+    urls += [("tools/", None)] + [(f"tools/{tool['slug']}/", None) for tool in TOOLS]
+    urls += [("glossary/", None)] + [(f"glossary/{x['slug']}/", x["published"]) for x in glossary]
     urls += [(f"{a['slug']}/", a.get("updated") or a["published"]) for a in articles]
     urls += [(f"products/{p['slug']}/", p["published"]) for p in products]
     urls += [(f"{path}/", None) for path, _, _ in static_pages]
     _write(out / "sitemap.xml", _sitemap(cfg, urls))
     _write(out / "robots.txt", _robots(cfg))
     _write(out / "feed.xml", _rss(cfg, articles[:30]))
-    _write(out / "llms.txt", _llms(cfg, articles, products, topics))
-    _write(out / "llms-full.txt", "\n\n---\n\n".join(article_markdown(cfg, a) for a in articles))
+    _write(out / "feed.json", json.dumps({
+        "version": "https://jsonfeed.org/version/1.1", "title": cfg.site_name, "home_page_url": f"{cfg.base_url}/",
+        "feed_url": f"{cfg.base_url}/feed.json", "description": cfg.tagline,
+        "items": [{"id": f"{cfg.base_url}/{a['slug']}/", "url": f"{cfg.base_url}/{a['slug']}/", "title": a["title"],
+                   "summary": a.get("quick_answer") or a["meta_description"], "content_text": article_markdown(cfg, a),
+                   "image": f"{cfg.base_url}/assets/og/{a['slug']}.png", "date_published": a["published"],
+                   "date_modified": a.get("updated") or a["published"], "tags": [a.get("section", "")]}
+                  for a in articles[:30]]}, ensure_ascii=False, indent=1))
+    _write(out / "llms.txt", _llms(cfg, articles, products, topics, glossary))
+    _write(out / "llms-full.txt", "\n\n---\n\n".join([article_markdown(cfg, a) for a in articles] + [_glossary_markdown(cfg, glossary)]))
     _write(out / f"{indexnow_key(cfg)}.txt", indexnow_key(cfg))
     _write(out / ".nojekyll", "")
     return {"articles": len(articles), "products": len(products), "topics": len(topics), "pages": len(urls)}
@@ -251,7 +319,15 @@ def _robots(cfg: Config) -> str:
     return f"{groups}User-agent: *\nAllow: /\n\nSitemap: {cfg.base_url}/sitemap.xml\n"
 
 
-def _llms(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]], topics: list[dict[str, Any]]) -> str:
+def _glossary_markdown(cfg: Config, glossary: list[dict[str, Any]]) -> str:
+    out = [f"# {cfg.site_name} Glossary", "", f"Source: {cfg.base_url}/glossary/", ""]
+    for x in glossary:
+        out += [f"## {x['term']}", "", x["short_definition"], "", *x["explanation"], "", f"Example: {x['example']}", ""]
+    return "\n".join(out)
+
+
+def _llms(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]], topics: list[dict[str, Any]],
+          glossary: list[dict[str, Any]] | None = None) -> str:
     """llms.txt (llmstxt.org): a curated, Markdown map of the site for AI assistants."""
     out = [f"# {cfg.site_name}", "", f"> {cfg.tagline}", "",
            "Practical, step-by-step guides on personal finance, parenting, kids' education and AI tools. Every guide starts with a "
@@ -266,6 +342,9 @@ def _llms(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, 
     untopiced = [a for a in articles if not a.get("niche_slug")]
     if untopiced:
         out += ["## Guides", "", *[f"- [{a['title']}]({cfg.base_url}/{a['slug']}/index.md): {a['meta_description']}" for a in untopiced], ""]
+    if glossary:
+        out += ["## Glossary", "", *[f"- [{x['term']}]({cfg.base_url}/glossary/{x['slug']}/): {x['short_definition']}" for x in glossary], ""]
+    out += ["## Free calculators", "", *[f"- [{tool['title']}]({cfg.base_url}/tools/{tool['slug']}/): {tool['summary']}" for tool in TOOLS], ""]
     if products:
         out += ["## Playbooks", "", *[f"- [{p['title']}]({cfg.base_url}/products/{p['slug']}/): {p['subtitle']}" for p in products], ""]
     out += ["## Optional", "", f"- [About and editorial policy]({cfg.base_url}/about/)", f"- [RSS feed]({cfg.base_url}/feed.xml)", ""]

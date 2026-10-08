@@ -22,8 +22,8 @@ def _font(bold: bool, size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default(size=size)
 
 
-@lru_cache(maxsize=1)
-def _background() -> Image.Image:
+@lru_cache(maxsize=4)
+def _background(w: int = W, h: int = H) -> Image.Image:
     # Diagonal indigo -> violet -> cyan gradient matching the site's --grad.
     stops = [(0.0, (79, 70, 229)), (0.45, (124, 58, 237)), (1.0, (6, 182, 212))]
     small = Image.new("RGB", (120, 63))
@@ -36,7 +36,7 @@ def _background() -> Image.Image:
                     k = (t - t0) / (t1 - t0)
                     px[x, y] = tuple(int(a + (b - a) * k) for a, b in zip(c0, c1))
                     break
-    return small.resize((W, H), Image.BICUBIC)
+    return small.resize((w, h), Image.BICUBIC)
 
 
 def _wrap(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont, width: int) -> list[str]:
@@ -73,5 +73,32 @@ def render(path: Path, title: str, kicker: str, brand: str) -> None:
     x, y = pad, H - 112
     draw.polygon([(x, y + 38), (x + 14, y + 14), (x + 20, y + 24), (x + 28, y + 4), (x + 40, y + 38)], fill="white")
     draw.text((pad + 52, H - 108), brand, font=_font(True, 30), fill="white")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(path, "PNG", optimize=True)
+
+
+def render_pin(path: Path, title: str, kicker: str, brand: str, cta: str = "Read the free guide →") -> None:
+    """1000x1500 vertical Pinterest pin."""
+    pw, ph, pad = 1000, 1500, 80
+    img = _background(pw, ph).copy()
+    draw = ImageDraw.Draw(img)
+    for size in (92, 84, 76, 68, 60, 54):
+        font = _font(True, size)
+        lines = _wrap(draw, title, font, pw - 2 * pad)
+        if len(lines) <= 7:
+            break
+    lines = lines[:7]
+    if kicker:
+        draw.text((pad, 130), kicker.upper()[:40], font=_font(True, 30), fill="white")
+    y = 260
+    for ln in lines:
+        draw.text((pad, y), ln, font=font, fill="white")
+        y += int(size * 1.2)
+    box_y = ph - 330
+    draw.rounded_rectangle((pad, box_y, pw - pad, box_y + 110), radius=26, fill="white")
+    draw.text((pad + 40, box_y + 32), cta, font=_font(True, 40), fill=(79, 70, 229))
+    x, by = pad, ph - 150
+    draw.polygon([(x, by + 38), (x + 14, by + 14), (x + 20, by + 24), (x + 28, by + 4), (x + 40, by + 38)], fill="white")
+    draw.text((x + 56, by + 2), brand, font=_font(True, 34), fill="white")
     path.parent.mkdir(parents=True, exist_ok=True)
     img.save(path, "PNG", optimize=True)

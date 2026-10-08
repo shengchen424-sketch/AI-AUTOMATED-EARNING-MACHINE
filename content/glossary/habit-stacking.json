@@ -1,0 +1,21 @@
+{
+  "term": "Habit Stacking",
+  "section": "Self-Development",
+  "short_definition": "Habit stacking is a method for building a new habit by attaching it to an existing daily routine, using the formula: 'After I [current habit], I will [new habit].'",
+  "explanation": [
+    "Habit stacking uses routines you already do reliably, like making coffee, brushing your teeth or closing your laptop, as triggers for a new behaviour. Because the existing habit happens automatically, it reminds you to do the new one without relying on willpower or memory. The idea was popularised by habit-formation writers such as James Clear in 'Atomic Habits'.",
+    "It matters because consistency counts for more than intensity when building habits. Small actions linked to a fixed cue are easier to repeat every day, and repetition is what makes a behaviour automatic. It works well for money habits like checking your balance or logging spending.",
+    "The limitation is that stacks only work when the anchor habit is truly consistent and the new habit is small. Stacking too many new behaviours onto one cue, or choosing an anchor that happens at different times, usually breaks the chain."
+  ],
+  "example": "Example: 'After I pour my morning coffee, I will open my banking app and check yesterday's spending (2 minutes).' Over a month that's about 30 quick check-ins, which makes it easier to spot unwanted subscriptions or overspending early.",
+  "common_mistake": "Starting with a habit that's too big, such as 'After breakfast, I will do a full budget review.' Begin with a 1–2 minute version and grow it later.",
+  "related_terms": [
+    "SMART Goals",
+    "Atomic Habits",
+    "Routine",
+    "Accountability"
+  ],
+  "title": "Habit Stacking",
+  "slug": "habit-stacking",
+  "published": "2026-10-08T08:17:05+00:00"
+}

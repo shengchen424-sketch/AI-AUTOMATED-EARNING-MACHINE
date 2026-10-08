@@ -1,0 +1,21 @@
+{
+  "term": "Diversification",
+  "section": "Investing",
+  "short_definition": "Diversification is spreading money across different investments, asset types, sectors and regions so that a loss in any single holding has a smaller effect on your overall portfolio.",
+  "explanation": [
+    "Diversification works because different investments don't all rise or fall together. Some of your money can go into shares of many companies across different industries and countries. Some can go into bonds, and some can stay in cash. When one area struggles, another may hold steady or grow, which smooths the ups and downs of the whole portfolio.",
+    "It matters because one company, sector or country can do badly for years, or fail completely. A diversified investor is far less likely to see one bad event wipe out a large share of their savings. Many beginners diversify cheaply through broad funds instead of buying dozens of individual shares.",
+    "The trade-off is that diversification lowers your chance of huge gains as well as huge losses. Your best performer will always be a small slice of the total. It also can't remove market-wide risk: in a broad crash, most assets may fall together. Diversification reduces risk but never eliminates it."
+  ],
+  "example": "Example (illustrative numbers only): Investor A puts 10,000 into one company. Investor B splits 10,000 across 20 companies, 500 each. If one company collapses to zero, Investor A loses 10,000 (100%). Investor B loses 500 (5%) from that holding, before counting how the other 19 perform.",
+  "common_mistake": "Believing you're diversified because you own several funds, when those funds actually hold many of the same large companies. That overlap concentrates your risk.",
+  "related_terms": [
+    "Asset Allocation",
+    "Index Fund",
+    "Risk Tolerance",
+    "Rebalancing"
+  ],
+  "title": "Diversification",
+  "slug": "diversification",
+  "published": "2026-10-08T08:17:05+00:00"
+}

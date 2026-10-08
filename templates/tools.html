@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "_macros.html" import subscribe %}
+{% block body %}
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <span class="eyebrow">Free tools · no sign-up</span>
+  <h1>Free money calculators</h1>
+  <p class="lede">Run your own numbers in seconds: compounding, ETF investing and fees, debt payoff, emergency funds and financial independence.</p>
+</div></section>
+<section class="section"><div class="wrap"><div class="grid">
+{% for t in tools %}<a class="card" href="{{ cfg.base_url }}/tools/{{ t.slug }}/"><div class="body">
+  <span class="chip" style="align-self:flex-start">Calculator</span><h3>{{ t.title }}</h3><p>{{ t.summary }}</p>
+  <div class="meta"><span>Free · instant</span></div></div></a>{% endfor %}
+</div></div></section>
+<section class="section" style="padding-top:0"><div class="wrap read">{{ subscribe(cfg) }}</div></section>
+{% endblock %}

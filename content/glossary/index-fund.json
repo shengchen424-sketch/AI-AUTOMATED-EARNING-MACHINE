@@ -1,0 +1,22 @@
+{
+  "term": "Index Fund",
+  "section": "Investing",
+  "short_definition": "An index fund is a mutual fund or exchange-traded fund (ETF) that tries to match the performance of a market index, such as the S&P 500, by holding the same securities.",
+  "explanation": [
+    "An index fund follows a set list of investments, usually every company in a published index or a representative sample of them. It doesn't pay managers to pick winners. It simply mirrors the index, so its holdings change only when the index changes. That passive approach usually means lower running costs than actively managed funds, but fees still vary, so compare the expense ratio on each fund's factsheet.",
+    "Index funds matter to beginners because one purchase can give broad diversification, and costs stay low and predictable. Over long periods, fees come straight out of your return, so a lower-cost fund keeps more of whatever the market delivers. Well-known examples of the category include funds that track the S&P 500 or a total world stock index. These are examples of the category, not recommendations.",
+    "The main trade-off is that an index fund gets the market's return minus fees, and that includes every market fall. If the index drops 30%, the fund drops about as much. An index fund also can't beat its benchmark. Tax treatment, which funds you can buy, and investor protections differ by country, so check with your local regulator or a licensed adviser before making personal decisions."
+  ],
+  "example": "Example (illustrative numbers only): Maya invests 1,000 in a fund tracking a 500-company index. If the index rises 8% in a year and the fund charges 0.10% a year, her holding grows to roughly 1,079. If the index falls 15%, her holding drops to roughly 849. The fund follows the index both ways.",
+  "common_mistake": "Assuming 'index fund' means low-risk or always cheap. Some index funds track narrow, volatile sectors or charge high fees, so check what the index holds and what the fund costs.",
+  "related_terms": [
+    "Exchange-Traded Fund (ETF)",
+    "Expense Ratio",
+    "Diversification",
+    "Passive Investing",
+    "Asset Allocation"
+  ],
+  "title": "Index Fund",
+  "slug": "index-fund",
+  "published": "2026-10-08T08:17:05+00:00"
+}

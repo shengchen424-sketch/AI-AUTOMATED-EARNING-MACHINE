@@ -12,7 +12,8 @@
   <div class="stats">
     <div><b>{{ articles|length }}</b>step-by-step guides</div>
     <div><b>{{ topics|length }}</b>topics covered</div>
-    <div><b>0</b>invented statistics</div>
+    <div><b>{{ tools|length }}</b>free calculators</div>
+    <div><b>{{ glossary|length }}</b>terms explained</div>
   </div>
 </div></section>
 
@@ -26,6 +27,18 @@
   <div class="section-head"><h2>Latest guides</h2><a href="{{ cfg.base_url }}/guides/">View all →</a></div>
   <div class="grid">{% for a in articles[:9] %}{{ card(a, cfg) }}{% else %}<p class="muted">The first guides are being written.</p>{% endfor %}</div>
 </div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><h2>Free money calculators</h2><a href="{{ cfg.base_url }}/tools/">All tools →</a></div>
+  <div class="grid">{% for t in tools[:3] %}<a class="card" href="{{ cfg.base_url }}/tools/{{ t.slug }}/"><div class="body">
+    <span class="chip" style="align-self:flex-start">Free calculator</span><h3>{{ t.title }}</h3><p>{{ t.summary }}</p></div></a>{% endfor %}</div>
+</div></section>
+
+{% if glossary %}<section class="section" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><h2>Jargon, explained</h2><a href="{{ cfg.base_url }}/glossary/">Full glossary →</a></div>
+  <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">{% for x in glossary[:6] %}
+    <a class="card" href="{{ cfg.base_url }}/glossary/{{ x.slug }}/"><div class="body"><h3>{{ x.term }}</h3><p>{{ x.short_definition }}</p></div></a>{% endfor %}</div>
+</div></section>{% endif %}
 
 {% if products %}<section class="section" style="padding-top:0"><div class="wrap">
   {{ product_promo(products[0], cfg, checkout_links.get(products[0].slug), price) }}

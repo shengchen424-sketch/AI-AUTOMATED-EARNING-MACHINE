@@ -26,6 +26,15 @@ class FakeLLM:
             return {"topics": [
                 {"niche": "n", "keyword": f"kw {i}", "title": f"Topic {i} <b>", "angle": "a",
                  "search_intent": "commercial"} for i in range(6)]}
+        if "x_thread" in props:
+            return {"x_thread": ["hook", "read {URL}"], "linkedin_post": "li {URL}", "facebook_post": "fb {URL}",
+                    "reddit_title": "rt", "reddit_post": "rp {URL}", "suggested_subreddits": ["r/ETFs"],
+                    "pinterest_title": "pt", "pinterest_description": "pd", "hashtags": ["#money", "investing"]}
+        if "terms" in props:
+            sec = props["terms"]["items"]["properties"]["section"]["enum"][0]
+            return {"terms": [{"term": f"Term {i} <i>", "section": sec, "short_definition": "DEF TEXT",
+                               "explanation": ["exp"], "example": "ex", "common_mistake": "oops",
+                               "related_terms": ["Term 1 <i>", "Missing"]} for i in range(3)]}
         if "recommendations" in props:
             if self.fail_articles:
                 raise LLMError("boom")
@@ -184,3 +193,22 @@ def test_finance_article_shows_disclaimer_and_report(cfg):
     assert "not financial advice" in page
     text = report.render(c, Store(c.content_dir, c.data_dir), result, "RUNURL")
     assert "投资" in text and "QUICK ANSWER TEXT" in text and "RUNURL" in text
+    assert "utm_source=reddit" in text and "{URL}" not in text and "#money #investing" in text
+    assert (c.public_dir / "assets" / "pins" / f"{result['articles'][0]}.png").exists()
+
+
+def test_glossary_pages_and_ai_files(cfg):
+    report = pipeline.run(cfg, FakeLLM(), None)
+    assert len(report["glossary"]) == 3
+    pub = cfg.public_dir
+    index = (pub / "glossary" / "index.html").read_text()
+    assert '"DefinedTermSet"' in index and "DEF TEXT" in index and "<i>" not in index.replace('<i>▲</i>', '')
+    term = (pub / "glossary" / "term-0-i" / "index.html").read_text()
+    assert '"DefinedTerm"' in term and "What is Term 0" in term
+    assert 'glossary/term-1-i/' in term                      # related term resolved to a link
+    assert "Missing" not in term                              # unknown related term dropped
+    assert "DEF TEXT" in (pub / "llms.txt").read_text()
+    assert "glossary/term-0-i/" in (pub / "sitemap.xml").read_text()
+    for tool in ("compound-interest-calculator", "fire-calculator"):
+        page = (pub / "tools" / tool / "index.html").read_text()
+        assert '"WebApplication"' in page and "function compute" in page
