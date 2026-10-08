@@ -1,0 +1,248 @@
+{
+  "title": "How to Set Up Recurring Invoices in QuickBooks Online: 7 Steps",
+  "meta_description": "Learn how to set up recurring invoices in QuickBooks Online: pick the right template type, auto-send emails, handle sales tax and avoid duplicates.",
+  "quick_answer": "To set up recurring invoices in QuickBooks Online, select the gear icon, then Recurring transactions, then New. Choose Invoice and name the template. Pick a type: Scheduled (created and emailed automatically), Reminder (you review it first) or Unscheduled (used on demand). Set the interval, start date and end date. Add the customer, line items and tax, turn on automatic emailing, then save. Menu labels vary by version.",
+  "key_takeaways": [
+    "Use a Scheduled template with auto-send for fixed retainers and subscriptions. Use a Reminder template when the amount needs a quick check before it goes out.",
+    "Give every template an end date or a number of occurrences that matches the contract, so billing stops when the agreement does.",
+    "Changing a price in Products and services doesn't update rates already saved in recurring templates. Edit each affected template yourself.",
+    "Pause or delete the old template before you create a replacement, so the client isn't billed twice.",
+    "Turn on automatic invoice reminders so overdue invoices get chased without you writing follow-up emails.",
+    "Bill variable hourly work from billable time entries, not from recurring templates."
+  ],
+  "who_this_is_for": "This guide is for freelancers, consultants and small-business owners who bill retainer or subscription clients a fixed or nearly fixed amount on a regular schedule and want QuickBooks Online to create, send and chase those invoices automatically.",
+  "intro": "If you bill the same clients the same amount every month, making each invoice by hand wastes time and leads to mistakes. QuickBooks Online's recurring invoices let you build the invoice once. The software then creates it on schedule and, if you choose, emails it too. This guide covers the setup in seven steps and explains when to use each template type: Scheduled, Reminder and Unscheduled. It also covers the settings that matter most: interval, start and end dates, auto-send, line descriptions, sales tax and payment options. You'll see how to pair recurring invoices with automatic overdue reminders and how to avoid the three most common problems: old prices, duplicate invoices and templates that never stop. One caveat: Intuit updates the QuickBooks Online interface often, so menu names and locations may differ slightly from what's described here. If a label doesn't match, type it into the QuickBooks search bar or look it up in QuickBooks Help.",
+  "steps": [
+    {
+      "name": "Check your plan, permissions and sales defaults",
+      "text": "Recurring transactions aren't included on every QuickBooks Online plan or in every region, and some user roles can't access them. Check first in Intuit's plan comparison or your subscription settings. Then go to the gear icon > Account and settings > Sales. Set your preferred invoice terms (for example, Net 14), check your online payment options and confirm sales tax is set up if you charge it. New templates start from these defaults, so getting them right now saves fixes later."
+    },
+    {
+      "name": "Open Recurring transactions and create a new invoice template",
+      "text": "Select the gear icon, then Recurring transactions (usually under Lists). If you can't see it, type 'recurring' into the QuickBooks search bar. Select New, choose Invoice as the transaction type and select OK. There's also a shortcut: open a correct existing invoice for the client and select Make recurring at the bottom of the form. This copies the customer and line items into a new template."
+    },
+    {
+      "name": "Name the template and choose its type",
+      "text": "Use a name you can spot quickly in a list, such as 'Acme Ltd – Monthly retainer'. Choose Scheduled to create invoices automatically, Reminder to be prompted to review and create them yourself, or Unscheduled to save a pre-filled invoice with no dates. For Scheduled templates, you can set how many days in advance each invoice is created. For Reminder templates, you set how many days before the date you're reminded. If you're unsure, use Reminder for the first one or two cycles."
+    },
+    {
+      "name": "Set the interval, start date and end date",
+      "text": "Choose Daily, Weekly, Monthly or Yearly, then fill in the pattern. For example, choose 'day 1 of every 1 month', or every 3 months for quarterly billing. The start date is the date of the first invoice the template will create. Under End, choose None, a specific date, or a number of occurrences. Match the end to the contract: a 12-month retainer should end after 12 occurrences."
+    },
+    {
+      "name": "Add the customer, email address and auto-send option",
+      "text": "Select the customer and check the billing email address. Most versions let you enter several addresses separated by commas. On Scheduled templates, tick the option to send emails automatically. Without it, QuickBooks creates the invoices but doesn't send them. Confirm the payment terms so due dates fill in automatically, and untick Print later if you only send invoices by email."
+    },
+    {
+      "name": "Add line items, sales tax and payment options",
+      "text": "Add each product or service with its quantity, rate and a description that stays accurate every cycle, such as 'Monthly retainer – services for the billing period'. Don't type a specific month or date, because it will repeat on every invoice. Check the tax setting on each line. If you use QuickBooks Payments, choose which online payment methods appear on the invoice and check current processing fees on Intuit's site."
+    },
+    {
+      "name": "Save, check the first invoice and turn on reminders",
+      "text": "Save the template and confirm it shows the right Next date in the Recurring transactions list. When the first invoice is created, open it and check the amount, tax, invoice date, due date and whether it was sent. Then go to the gear icon > Account and settings > Sales > Reminders and turn on automatic invoice reminders, so overdue invoices get chased for you."
+    }
+  ],
+  "comparison": {
+    "caption": "QuickBooks Online recurring template types compared with the main alternatives",
+    "headers": [
+      "Option",
+      "What QuickBooks does",
+      "Best for",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Scheduled (with auto-send)",
+        "Creates each invoice automatically on the set dates and can email it to the customer",
+        "Fixed retainers and subscriptions where the amount, tax and recipient stay the same",
+        "Any mistake repeats every cycle, and the template keeps running until its end date"
+      ],
+      [
+        "Reminder",
+        "Adds the invoice to your reminder list a set number of days early. You review it and create it yourself",
+        "A stable base fee with occasional add-ons, or new clients in their first billing cycles",
+        "Nothing is created or sent if you ignore the reminder"
+      ],
+      [
+        "Unscheduled",
+        "Saves a pre-filled invoice with no dates. You open it and use it whenever you need it",
+        "Standard packages you bill repeatedly but at irregular times",
+        "No automation, and it's easy to forget the template exists"
+      ],
+      [
+        "Billable time on a regular invoice (not a template)",
+        "Adds billable time entries to an invoice for each billing period",
+        "Variable hourly work, or hours above a fixed retainer",
+        "Only works if you track time consistently. Review entries before you send"
+      ],
+      [
+        "Manual invoice each cycle (no template)",
+        "Nothing is automated. You build every invoice from scratch",
+        "A few irregular, one-off jobs",
+        "Slow, easy to miss a cycle, and wording and terms drift over time"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What recurring invoices are and when to skip them",
+      "paragraphs": [
+        "A recurring invoice in QuickBooks Online is a saved invoice template that QuickBooks uses to create the same invoice on a schedule you set, such as the 1st of every month. You build the template once with the customer, line items, tax, terms and email settings, and QuickBooks makes each new invoice from it.",
+        "Recurring invoices suit billing where the amount is fixed or very predictable. Common examples are monthly retainers, subscription or membership fees, website maintenance plans, bookkeeping packages, and payment plans with set instalments agreed in a contract.",
+        "Recurring invoices are the wrong tool for variable hourly work. If a client's hours change every month, the template either bills the wrong amount or forces you to edit every invoice by hand, which defeats the purpose. For hourly clients, record time as billable in QuickBooks or a connected time-tracking app, then add those entries to a normal invoice each billing period.",
+        "Many service businesses use a hybrid setup: a recurring template for the fixed retainer, plus a separate invoice built from billable time for any hours above what the retainer covers."
+      ],
+      "bullets": [
+        "Good fit: fixed monthly retainers, subscriptions, maintenance plans and payment plans with set instalments.",
+        "Possible fit with a Reminder template: retainers with occasional add-ons or small adjustments.",
+        "Poor fit: variable hourly work, project milestones with shifting dates, and usage-based billing that changes every cycle."
+      ]
+    },
+    {
+      "heading": "Scheduled, Reminder or Unscheduled: which template type to choose",
+      "paragraphs": [
+        "Choose Scheduled when the invoice can go out unchanged, Reminder when you want to review it first, and Unscheduled when you bill the same package at irregular times. The type decides whether QuickBooks creates the invoice for you, prompts you to create it, or just stores it for later.",
+        "Scheduled templates create invoices automatically on the dates you set. If you tick the auto-send option, they also email each invoice to the customer with no action from you. This is the most hands-off type. It's also the riskiest if the template has an error, because the mistake repeats every cycle.",
+        "Reminder templates don't create anything on their own. A set number of days before the date, QuickBooks adds the transaction to your reminder list, which you usually open from the Recurring transactions page. You open the invoice, change anything that's different this time and create it yourself. This type suits a stable base fee with occasional add-ons.",
+        "Unscheduled templates have no dates and no reminders. They are pre-filled invoices you open with Use from the template's Action menu whenever you need them. They suit fixed-price work you sell repeatedly but not on a calendar, such as a workshop or an annual review.",
+        "For new clients, a sensible approach is to use a Reminder template for the first one or two billing cycles. Once the invoice is correct and the client pays on time, edit the template, switch it to Scheduled, and check that the next date is still correct."
+      ],
+      "bullets": [
+        "Same amount every cycle and you trust the template: Scheduled with auto-send.",
+        "Same base amount with frequent small changes: Reminder.",
+        "Same package, no fixed calendar: Unscheduled.",
+        "A different amount every cycle based on hours: none of these. Invoice from billable time instead."
+      ]
+    },
+    {
+      "heading": "How to set up recurring invoices in QuickBooks Online: schedule and email settings",
+      "paragraphs": [
+        "The schedule and email settings decide when each invoice is created, how long the template runs and whether the client gets it automatically. Get these right and billing largely runs on its own.",
+        "Interval: Templates can repeat daily, weekly, monthly or yearly, using patterns such as 'day 1 of every 1 month' or 'first Monday of every month'. For quarterly billing, choose Monthly and set it to every 3 months. For month-end billing, use a 'Last' day option if your version has one, rather than choosing the 31st.",
+        "Start date: The start date is the date of the first invoice the template creates. If a client signs on the 15th and you bill on the 1st, invoice the partial first month manually. Then start the template on the next 1st, so the two never overlap.",
+        "End: Choose None, an end date or a number of occurrences, and match it to the contract. For example, a 12-month retainer should stop after 12 invoices. Add a calendar reminder a few weeks before the end so you have time to discuss renewal.",
+        "Days in advance: Scheduled templates can create invoices a set number of days before the scheduled date, which gives clients more time to arrange payment. Test this with one client first. Check the invoice date, the due date and when the email actually went out before you use it everywhere.",
+        "Email: Tick the auto-send option, confirm the customer's email address and review the message. Your default email wording is under Account and settings > Sales > Messages. Keep it short and timeless: what the invoice covers, when it's due and how to pay. Don't mention a specific month, because the same text goes out every cycle. If your version has a Cc or Bcc setting, copy yourself so you see exactly what clients receive."
+      ],
+      "bullets": [
+        "Example, 12-month retainer: Scheduled, Monthly, day 1 of every 1 month, end after 12 occurrences, auto-send on, Net 14 terms.",
+        "Example, quarterly maintenance plan: Scheduled, Monthly, every 3 months, starting on the first billing date.",
+        "Example, annual subscription with a yearly price review: Reminder, Yearly on the renewal date, so you can confirm the price before it goes out.",
+        "Sample email message: 'Hi, please find attached your invoice for this period's retainer. It's due by the date shown, and you can pay online using the link in this email. Thank you for your business.'"
+      ]
+    },
+    {
+      "heading": "Line items, sales tax and payment options on recurring invoices",
+      "paragraphs": [
+        "Line items, tax and payment settings repeat on every invoice a template creates, so check them carefully before the first invoice goes out.",
+        "Line items: Pick products and services from your list so income goes to the right account. Write descriptions that stay accurate every cycle, such as 'Website maintenance – current billing period'. If the exact service dates must appear on the invoice, use a Reminder template so you can type them in each time.",
+        "Sales tax: QuickBooks applies tax based on your sales tax settings, the customer's address and how each product or service is set up for tax. In some regions it works out the rate automatically when the invoice is created. In others, you choose a tax code for each line and the template saves it. Either way, you are still responsible for whether a service is taxable and at what rate.",
+        "Tax rules differ by country, state and type of service, and rates change. If you're not sure whether a retainer or subscription is taxable, check with your local tax authority or a qualified accountant. Reopen your templates whenever tax rates or your registration status change.",
+        "Payment options: With QuickBooks Payments, customers can pay invoices online, typically by card or bank transfer, and you choose which methods appear. Processing fees usually apply and vary by payment method, plan and country, so check Intuit's current pricing. Some businesses offer only bank transfer on large retainers to keep fees down, but that's less convenient for clients. In some regions, customers can also set up autopay for recurring invoices. Check QuickBooks Help to see whether it's available in yours."
+      ],
+      "bullets": [
+        "Make sure each customer's billing address is complete so tax calculates correctly.",
+        "Check the tax code or taxable setting on every line of the template.",
+        "Choose which payment methods appear on the invoice and confirm the current fees.",
+        "Set payment terms so due dates fill in automatically."
+      ]
+    },
+    {
+      "heading": "Pair recurring invoices with automatic overdue reminders",
+      "paragraphs": [
+        "Recurring invoices handle the sending and automatic reminders handle the chasing, so you need both for billing that runs with little hands-on work. Without reminders, you still have to spot late payments and write follow-up emails yourself.",
+        "QuickBooks Online's automatic invoice reminders are usually under Account and settings > Sales > Reminders. Switch them on, choose when each reminder goes out relative to the due date, and edit the message. The number of reminders and the timing options vary by version, so check what yours offers.",
+        "Here's an example of a low-touch workflow. A Scheduled template emails the invoice on the 1st with Net 14 terms. A friendly reminder goes out a few days before the due date, and a firmer one about a week after it. You only step in for invoices still unpaid after the last reminder.",
+        "Reminders go to any invoice that is still open, so record payments promptly. If clients pay by bank transfer outside QuickBooks Payments, match those deposits in your bank feed to the open invoices quickly. That way, clients who have already paid don't get overdue notices."
+      ],
+      "bullets": [
+        "Turn on automatic reminders once you've checked your first recurring invoice.",
+        "Keep early reminders friendly and make sure the payment link is included.",
+        "Review open and overdue invoices weekly, for example with the accounts receivable ageing report."
+      ]
+    },
+    {
+      "heading": "Common pitfalls: price changes, duplicate invoices and templates that never end",
+      "paragraphs": [
+        "Most recurring invoice problems come from three things: outdated prices, duplicate invoices after edits, and templates with no end date. A few habits prevent each one.",
+        "Outdated prices: Changing a rate in Products and services doesn't update the rate already saved in a recurring template, and editing a template only affects invoices created after you save it. When prices go up, run the Recurring Template List report (search for it under Reports) to find every affected template. Update each rate and description, then check the next invoice.",
+        "Duplicate invoices: Duplicates usually come from one of three things. You create a new template without pausing or deleting the old one. You invoice a period by hand that the template will also bill. Or you move the next date onto a period that's already been billed. Pause or delete the old template first. If you bill a period by hand, use Skip next date in the template's Action menu, if your version has it. After any edit, check the customer's list of transactions.",
+        "If a duplicate does go out, tell the client, then void or delete the extra invoice. Voiding keeps a zero-value record, which helps your audit trail. Ask your accountant which option suits your books.",
+        "Templates that never end: An end setting of None means QuickBooks keeps creating invoices until you stop it, even after a client cancels. Set an end that matches the contract. When a client gives notice, pause or delete the template the same day. Deleting a template doesn't delete invoices it has already created."
+      ],
+      "bullets": [
+        "Price change: update every affected template, not just the product list.",
+        "New template: pause or delete the old one first.",
+        "Manual invoice for a period the template covers: skip the template's next date.",
+        "Client cancels: stop the template the same day.",
+        "Auto-send can't deliver without a valid customer email, so check email addresses when you set up each template.",
+        "Billing annually in advance: ask your accountant whether that income should be spread across the year in your books (deferred revenue)."
+      ]
+    },
+    {
+      "heading": "Using AI and automation tools around recurring invoices, plus a monthly check",
+      "paragraphs": [
+        "AI and automation tools can save time around recurring invoices, but a person still needs to own and check each template. Use them to help with drafting and connecting apps, not as a substitute for checking amounts.",
+        "Intuit has been adding AI features to QuickBooks, branded as Intuit Assist in some markets. Depending on your plan and region, they may help draft invoices, customer messages or reminder text. These features change often, so confirm what your plan includes on Intuit's site. Check any AI-drafted text for correct amounts, dates and tone before saving it into a template, because any error will repeat every cycle.",
+        "Automation platforms such as Zapier or Make can connect QuickBooks Online to other apps. For example, they can create a QuickBooks customer when someone fills in your sign-up form, or post a message in your team chat when an invoice is paid. Check which QuickBooks triggers and actions each platform supports. You'll usually still need to create the recurring template itself in QuickBooks.",
+        "A short monthly review keeps everything accurate:"
+      ],
+      "bullets": [
+        "In Recurring transactions, check each template's next date and amount.",
+        "Pause or delete templates for clients who have left.",
+        "Look for templates ending in the next 60 days and plan renewals.",
+        "Make sure reminders are going out on overdue invoices.",
+        "Spot-check one auto-sent invoice for correct tax, terms and payment options."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers and small businesses with fixed retainer or subscription clients who want invoices created, emailed and chased automatically in the same place they keep their books. Check that your plan and region include recurring transactions before you rely on them.",
+      "not_for": "Businesses that bill mostly variable hourly work and don't track time, or anyone who only needs a basic invoice generator without accounting. A lighter invoicing tool may be simpler and cheaper for them."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "No-code links between QuickBooks Online and sign-up forms, CRMs or team chat, so new client details and payment notifications move between apps without copy-pasting. Check which QuickBooks triggers and actions are supported first.",
+      "not_for": "Replacing QuickBooks' own recurring templates or reminders, which are simpler to set up in QuickBooks itself. If you run high-volume workflows on a tight budget, compare current pricing with Make."
+    },
+    {
+      "product": "Make",
+      "best_for": "Higher-volume or multi-step workflows around QuickBooks Online, such as onboarding a new client across your form, CRM and QuickBooks. Its visual builder and pricing can work out cheaper than Zapier at volume, so compare current plans on both sites.",
+      "not_for": "Anyone who only needs recurring invoices and reminders, which QuickBooks handles on its own. It's also not ideal if you want the quickest possible setup, because Make's visual workflows take more time to learn."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can QuickBooks Online send recurring invoices automatically?",
+      "answer": "Yes. Create a Scheduled recurring template and tick the option to send emails automatically, and QuickBooks will create and email each invoice on the dates you set. Reminder and Unscheduled templates don't send anything on their own, so you create and send those invoices yourself."
+    },
+    {
+      "question": "Does editing a recurring invoice template change invoices already sent?",
+      "answer": "No. Changes to a template only apply to invoices created after you save it. To fix an invoice that already exists, open that invoice and edit it directly. When prices change, update every template that still uses the old rate."
+    },
+    {
+      "question": "Why can't I find Recurring transactions in QuickBooks Online?",
+      "answer": "Your plan may not include recurring transactions, your user role may not have access, or the menu may have moved in an interface update. Look under the gear icon first, then type 'recurring' into the QuickBooks search bar. If it's still missing, check your plan's feature list on Intuit's site or ask your account's primary admin."
+    },
+    {
+      "question": "Can customers pay recurring invoices automatically?",
+      "answer": "In some regions, QuickBooks Payments lets customers set up autopay for recurring invoices, so they don't have to pay by hand each cycle. Availability, setup steps and processing fees vary by country and plan. Check QuickBooks Help and Intuit's current pricing before offering it to clients."
+    },
+    {
+      "question": "How do I stop or pause a recurring invoice in QuickBooks Online?",
+      "answer": "Go to Recurring transactions, find the template and use the Action menu to pause or delete it. Pausing stops new invoices but keeps the template so you can restart it later. Deleting removes the template. Neither option deletes invoices the template has already created."
+    },
+    {
+      "question": "Should I use recurring invoices for hourly clients?",
+      "answer": "Usually not, because the amount changes every billing period and you'd end up editing each invoice by hand. Track time as billable and add those entries to an invoice each period instead. If a client pays a fixed retainer plus extra hours, use a recurring template for the retainer and a separate time-based invoice for the extra hours."
+    }
+  ],
+  "conclusion": "Recurring invoices in QuickBooks Online take one careful setup, then save you work every billing cycle. Pick the template type that suits each client and set an interval and end date that match the contract. Turn on auto-send, write line descriptions that stay accurate every cycle, check tax and payment options, and switch on automatic reminders so late invoices get chased for you. After that, a short monthly review is enough to catch old prices, duplicates and clients who have left. Menu names and features change, so check each step against your current version and plan. For questions about tax or how to record specific transactions, talk to a qualified accountant in your country.",
+  "keyword": "how to set up recurring invoices in quickbooks online",
+  "niche": "automating bookkeeping and invoicing with AI",
+  "version": 2,
+  "slug": "how-to-set-up-recurring-invoices-in-quickbooks-online-7-steps",
+  "published": "2026-10-08T22:03:02+00:00"
+}

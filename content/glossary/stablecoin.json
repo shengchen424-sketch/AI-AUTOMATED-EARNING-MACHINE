@@ -1,0 +1,22 @@
+{
+  "term": "Stablecoin",
+  "section": "Banking & Money",
+  "short_definition": "A stablecoin is a cryptocurrency designed, but not guaranteed, to hold a steady value, usually pegged to a currency such as the US dollar through reserves or algorithms.",
+  "explanation": [
+    "Stablecoins try to stay at a fixed value in one of three main ways. Most large ones are fiat-backed: the issuer says it holds reserves, such as cash and short-term government debt, worth at least as much as the tokens in circulation, and lets eligible customers redeem tokens for currency. Others are backed by crypto assets held as collateral. Algorithmic stablecoins rely on code and market incentives instead of full reserves. Well-known dollar-pegged examples include USDT (Tether) and USDC (Circle). They are named here only as examples of the category, not as recommendations.",
+    "Stablecoins act as the cash of crypto markets. People use them to move between crypto assets, send money across borders or hold a dollar-linked balance on a blockchain. That often makes them a beginner's first step into crypto.",
+    "The risks are significant. A stablecoin can lose its peg (de-peg) if its reserves are too small, hard to sell or frozen, or if confidence collapses. For example, the algorithmic stablecoin TerraUSD (UST) collapsed in 2022 and holders lost nearly everything. Stablecoins are generally not covered by bank deposit insurance. The exchange or wallet holding them can fail or be hacked. Transfers sent to the wrong address are usually irreversible, and scams often use fake tokens. Any yield offered on stablecoins comes from lending or other risky activities and can be lost. Regulation is still developing and differs by country, so check your local regulator first."
+  ],
+  "example": "Example (illustrative numbers): you convert 1,000 dollars into 1,000 units of a dollar-pegged stablecoin and keep them on an exchange. If the peg holds and you redeem, you get back roughly 1,000 minus fees. If the coin de-pegs to 0.90, your holding is worth about 900. If the exchange freezes withdrawals or fails, you may not be able to get your money at all, and unlike an insured bank deposit, there may be no guaranteed compensation.",
+  "common_mistake": "Treating a stablecoin like an insured savings account. Beginners assume one coin will always equal one dollar and that high advertised yields on stablecoin balances are risk-free.",
+  "related_terms": [
+    "Cryptocurrency",
+    "Deposit Insurance",
+    "Liquidity",
+    "High-Yield Savings Account",
+    "Phishing"
+  ],
+  "title": "Stablecoin",
+  "slug": "stablecoin",
+  "published": "2026-10-08T22:16:58+00:00"
+}

@@ -1,0 +1,260 @@
+{
+  "title": "How to Revoke Token Approvals Before a Drainer Uses Them",
+  "meta_description": "Learn how to revoke token approvals step by step with Revoke.cash or a block explorer, avoid fake revoke sites and know what revoking can't fix.",
+  "quick_answer": "To revoke token approvals, open a trusted checker such as Revoke.cash or Etherscan's Token Approval Checker by typing the URL yourself. Enter your wallet address, choose the network and review which contracts can spend your tokens. Connect your wallet, click Revoke on unlimited or unused approvals, check the wallet prompt and pay the network fee. Revoking stops future spending but can't recover stolen funds.",
+  "key_takeaways": [
+    "A token approval lets a smart contract spend a token from your wallet. It stays active until you revoke it, even after you disconnect the site.",
+    "Revoke unlimited allowances, unknown spenders, apps you no longer use and NFT 'approval for all' permissions first.",
+    "Open Revoke.cash or a block explorer's approval checker by typing the URL or using a bookmark. Never open one from an ad, a reply or a DM.",
+    "Each revoke is an on-chain transaction with a network fee. Approvals are stored separately on each network, so check every chain you've used.",
+    "Revoking can't recover stolen funds or protect a leaked seed phrase. If your seed phrase is exposed, move your assets to a new wallet."
+  ],
+  "who_this_is_for": "This guide is for anyone using a self-custody wallet such as MetaMask, Rabby or a hardware wallet who has connected to DeFi apps, NFT marketplaces or airdrop sites on Ethereum or similar networks and wants to remove old spending permissions safely.",
+  "intro": "If you've swapped tokens, deposited into a lending app or listed an NFT, you have almost certainly granted a token approval. A token approval is a standing permission that lets a smart contract move assets out of your wallet. Most people click through these prompts once and forget about them, and wallet-drainer scams rely on that.\n\nThis guide explains what token approvals are and why unlimited approvals are what drainers target. It walks through how to revoke token approvals step by step with well-known tools such as Revoke.cash or a block explorer's approval checker. It also covers what revoking costs, how to spot fake \"revoke\" sites, what revoking can't fix, and a monthly checklist for keeping your wallet tidy.\n\nThis is general education about wallet security, not financial advice. Crypto assets are volatile and you can lose everything you put in. They usually don't have the protections of a regulated bank deposit, and rules and tax treatment differ by country.",
+  "steps": [
+    {
+      "name": "Open an official approval checker",
+      "text": "Type the address yourself (for example revoke.cash or etherscan.io) or use a bookmark you saved earlier. On Etherscan, find the Token Approval Checker through the site's own menus. Don't click search ads, social media replies or links sent to you in DMs."
+    },
+    {
+      "name": "Look up your address in read-only mode",
+      "text": "Paste your public wallet address (on EVM networks it starts with 0x) into the search box. This shows your approvals without connecting your wallet. Your public address is safe to share, but never share your seed phrase or private key."
+    },
+    {
+      "name": "Choose the right network",
+      "text": "Each blockchain stores approvals separately. Start with Ethereum, then repeat the check on every network you've used, such as Arbitrum, Base, BNB Chain, Optimism or Polygon."
+    },
+    {
+      "name": "Flag the approvals to remove",
+      "text": "Mark these approvals: unlimited allowances, spenders you don't recognise, apps you no longer use, and any NFT 'approval for all'. Start with tokens and collections you hold in meaningful amounts."
+    },
+    {
+      "name": "Connect the wallet that owns the approvals",
+      "text": "Click Connect and choose your wallet. Make sure the site address in your wallet's connection prompt matches the official domain. Only the wallet that granted an approval can revoke it, so switch accounts if you need to."
+    },
+    {
+      "name": "Click Revoke and inspect the wallet prompt",
+      "text": "A genuine revoke sends a transaction to the token or NFT contract. It either calls approve with an amount of 0 or sets setApprovalForAll to false. Your wallet may label this 'revoke' or 'remove permission'. Reject any prompt that asks for a Permit signature, a spending cap above zero, a token transfer, or approval for all set to true."
+    },
+    {
+      "name": "Confirm and pay the network fee",
+      "text": "Check the gas fee shown and make sure you hold enough of the network's native token to pay it (for example ETH on Ethereum), then confirm. You still pay the fee if the transaction fails, so read the error message before you try again."
+    },
+    {
+      "name": "Verify and record the result",
+      "text": "Wait for the transaction to confirm, then refresh the checker and make sure the allowance is gone or shows zero. You can open the transaction on the block explorer as proof. Write down the date, the network and what you revoked for next month's review."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to review and revoke token approvals, compared",
+    "headers": [
+      "Option",
+      "Best for",
+      "Cost",
+      "Main caution"
+    ],
+    "rows": [
+      [
+        "Block explorer approval checker (e.g., Etherscan's Token Approval Checker)",
+        "Checking one network at a time on an explorer you already trust",
+        "Free to view; network fee for each revoke",
+        "Covers only that explorer's chain. Open it from the explorer's homepage, not from a search ad"
+      ],
+      [
+        "Revoke.cash",
+        "Reviewing many EVM networks in one place, including NFT approvals",
+        "Free to view; network fee for each revoke (check the site for any extra charges)",
+        "Scammers often copy it. Type revoke.cash yourself and watch for lookalike domains"
+      ],
+      [
+        "Approval manager built into your wallet (where available)",
+        "Quick checks without connecting to another website",
+        "Network fee for each revoke",
+        "Coverage varies by wallet and network. Check the wallet's official docs"
+      ],
+      [
+        "Disconnecting the site in your wallet settings",
+        "Stopping a site from seeing your address and requesting signatures",
+        "Free",
+        "Does NOT remove approvals. Any existing allowance still works"
+      ],
+      [
+        "Moving to a new wallet with a new seed phrase",
+        "When your seed phrase or private key may be exposed",
+        "Network fees to move each asset",
+        "Revoking alone won't help here. Set up the new wallet on a device you trust"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is a token approval (allowance)?",
+      "paragraphs": [
+        "A token approval, also called an allowance, is an on-chain permission that lets a specific smart contract move a specific token out of your wallet without asking you each time. Decentralised exchanges, lending protocols and NFT marketplaces need this permission to take tokens from your wallet when you trade, deposit or sell.",
+        "EVM networks are blockchains that run Ethereum-style smart contracts, such as Ethereum, Arbitrum, Base, BNB Chain, Optimism and Polygon. On these networks, most tokens follow the ERC-20 standard. To grant an approval, you send an approve transaction that names a spender (the app's contract) and an amount. The allowance stays on the blockchain until it's used up, changed or revoked.",
+        "Disconnecting a website does not remove an approval. Your wallet's list of connected sites only controls whether a site can see your address and ask for signatures. The allowance itself is stored in the token's own contract and keeps working either way.",
+        "NFTs usually use a broader permission called setApprovalForAll. It lets an operator move every NFT you hold in a collection, including ones you receive later. Some apps also use signature-based approvals such as Permit (EIP-2612) or Uniswap's Permit2, where you sign an off-chain message instead of sending a transaction. Signing a message costs nothing, which is exactly why scammers like it."
+      ],
+      "bullets": [
+        "Spender: the contract or address allowed to move your tokens.",
+        "Allowance: the most the spender can move. 'Unlimited' means the largest number the contract can store.",
+        "Approval for all: an NFT permission that covers a whole collection in your wallet.",
+        "Permit signature: a signed message that can grant an allowance without a separate approve transaction."
+      ]
+    },
+    {
+      "heading": "Why unlimited approvals are what wallet drainers exploit",
+      "paragraphs": [
+        "Unlimited approvals are risky because they turn a one-time action into a standing permission to take every unit of that token you hold, now or in the future.",
+        "Many apps ask for the maximum allowance by default so you don't have to approve, and pay a fee, before every trade. That's convenient, but the permission stays in place after you stop using the app. An approval from a swap you've long forgotten can still be active today.",
+        "Wallet drainers are phishing kits that scammers rent or buy to empty wallets. They don't need your seed phrase. Instead, they trick you into signing an approval, an approval for all, or a permit signature that names a contract they control. Then they move the approved assets, often within moments. Common bait includes fake airdrop claims, fake mints, copies of real app websites, and links posted from hacked social media or Discord accounts.",
+        "There's also a quieter risk: legitimate contracts can be hacked. If a protocol you once approved is later broken into, or an abandoned contract turns out to have a bug, an attacker may be able to use old allowances against people who stopped using it long ago. This has happened in past DeFi incidents, and it's the main reason to remove approvals you no longer need.",
+        "Treat any of the following as a warning sign before you sign anything:"
+      ],
+      "bullets": [
+        "A 'claim', 'verify wallet' or 'check eligibility' page that asks for an approval or a signature.",
+        "An approval request for a token that has nothing to do with what you're trying to do.",
+        "A 'set approval for all' request on any site other than a marketplace you chose yourself.",
+        "A signature request whose details mention Permit, a spender, an amount or a deadline.",
+        "Countdown timers, 'last chance' wording, or pressure from someone in your DMs."
+      ]
+    },
+    {
+      "heading": "How to revoke token approvals: choosing the right tool",
+      "paragraphs": [
+        "You can review and revoke token approvals with three kinds of tools: a block explorer's approval checker, a dedicated web app such as Revoke.cash, or an approval manager built into your wallet.",
+        "Block explorers are websites that show every transaction on a network. Etherscan (etherscan.io) is a widely used Ethereum explorer with a Token Approval Checker, and explorers for many other networks have a similar page. Each explorer covers only its own chain, so repeat the check on every network you use.",
+        "Revoke.cash is a well-known web app built for this job, and it supports many EVM networks. You can paste any address to see its approvals without connecting a wallet, then connect only when you're ready to revoke. Check the site for the networks, NFT approvals and signature-based approvals it currently covers, and for any fees.",
+        "Some wallets, such as Rabby, have their own approvals view. A built-in tool means one less website to connect to, but what it shows varies, so check your wallet's official help pages.",
+        "All of these tools do the same thing behind the scenes: they ask your wallet to send a transaction that sets the allowance to zero. None of them hold your funds or need your seed phrase. Use whichever one you can reach through a URL you've checked yourself. Most checkers show similar information:"
+      ],
+      "bullets": [
+        "Asset: the token or NFT collection the approval covers.",
+        "Spender: the contract allowed to move it, ideally with a name you recognise.",
+        "Allowance: a specific number, or 'Unlimited'.",
+        "Last updated: when the approval was given or changed.",
+        "Value at risk: some tools estimate how much of your balance the approval exposes."
+      ]
+    },
+    {
+      "heading": "What revoking costs and what to revoke first",
+      "paragraphs": [
+        "Each revoke is an on-chain transaction, so you pay a network (gas) fee every time. Viewing your approvals is free.",
+        "The fee depends on the network and how busy it is. Ethereum mainnet is usually the most expensive place to revoke, and layer-2 networks and sidechains are usually much cheaper. You need a small amount of the network's native token to pay the fee, such as ETH on Ethereum and on many layer-2s. A wallet that holds only stablecoins can't revoke anything until you add some.",
+        "Usually one transaction revokes one approval: one token, one spender, on one network. Some tools let you revoke several at once with certain wallets, so check their current documentation. You still pay the fee if a transaction fails.",
+        "Revoking has side effects. If you revoke a marketplace's approval for all, your existing NFT listings there can no longer sell. If you revoke an app you use every week, you'll pay again to re-approve it. A middle path is to set a custom spending cap when you approve. Many wallets let you edit the spending cap in the approval prompt, so you can allow only what the current transaction needs.",
+        "If fees are high, revoke the most important approvals first rather than skipping the job. Approvals for tokens you don't currently hold are less urgent, but each one becomes a risk again as soon as that token arrives in your wallet. Work through them in this order:"
+      ],
+      "bullets": [
+        "Unlimited allowances on tokens you hold in meaningful amounts.",
+        "Any spender you don't recognise or can't link to an app you chose to use.",
+        "NFT 'approval for all' permissions on collections you value.",
+        "Approvals for apps you've stopped using, or that have been reported as hacked or abandoned."
+      ]
+    },
+    {
+      "heading": "Fake revoke sites and wallet-prompt red flags",
+      "paragraphs": [
+        "The most dangerous mistake when cleaning up approvals is using a fake 'revoke' site. It copies a real tool's design but asks you to sign a new approval or permit that hands your tokens to a scammer.",
+        "Fake tools reach people at the worst moment. If you post publicly that your wallet was drained, expect replies and DMs from 'support agents' or 'recovery experts' linking to a revoke or 'wallet validation' page. Scammers also buy search ads that appear above the real result, and they register lookalike domains that change one letter, add a hyphen or use a different ending.",
+        "Type the URL yourself or use a bookmark you saved earlier, and open explorer tools from the explorer's own homepage. Treat any help you didn't ask for as a scam. No real revoke tool, wallet company or exchange will ever ask for your seed phrase.",
+        "Trust the wallet prompt, not the website. A real revoke is a transaction to the token or NFT contract that either calls approve with an amount of zero or sets setApprovalForAll to false. Apart from the gas fee, nothing leaves your wallet. On a hardware wallet, read the details on the device screen. If it shows only an unreadable hash (called blind signing), you can't check the request. Reject the prompt if you see any of these:"
+      ],
+      "bullets": [
+        "A request to sign a message that mentions Permit, a spender, an amount and a deadline.",
+        "A spending cap or allowance above zero.",
+        "Set approval for all with the value true.",
+        "A transfer of tokens, NFTs or native coins to any address.",
+        "A site domain in the wallet prompt that doesn't match the official one."
+      ]
+    },
+    {
+      "heading": "What revoking can't do (and what to do instead)",
+      "paragraphs": [
+        "Revoking an approval only blocks future spending through that one permission. It can't reverse past transactions, recover stolen funds or protect a wallet whose seed phrase is exposed.",
+        "Blockchain transfers are final, and there's generally no bank you can call to reverse them. If a drainer has already moved your tokens, revoking stops further use of that approval but brings nothing back. Report the theft to local police, your national fraud agency or financial regulator, and any exchange the funds were sent to. Be very wary of 'recovery services' that ask for upfront fees, because they're a common follow-up scam.",
+        "A leaked seed phrase is a separate problem. Anyone with your seed phrase or private key can sign transactions as you, so they don't need approvals, and revoking won't stop them. The fix is to create a new wallet with a new seed phrase on a device you trust, move your remaining assets to it, and stop using the old wallet.",
+        "Watch for sweeper bots. Attackers often run scripts that instantly take any native token sent to a compromised wallet, so ETH you send to pay for revokes may disappear before you can use it. If this happens, only ask for help through your wallet provider's official support channels.",
+        "Two more limits are worth knowing. A permit signature that hasn't been used yet may not show up as a normal allowance, and tools display these differently. A hardware wallet keeps your keys offline, but it can't stop an approval you confirm on it. Here's what to do in each situation:"
+      ],
+      "bullets": [
+        "A drainer used an approval but your seed phrase is safe: revoke that approval right away, then review all your other approvals on every network.",
+        "Your seed phrase or private key is exposed: create a new wallet and move your assets. Don't rely on revoking.",
+        "You signed a suspicious message: check your approvals, including Permit2 if your tool shows it, and consider moving your assets to a new wallet.",
+        "Your funds are already gone: report the theft, keep records of transaction hashes, and ignore paid 'recovery' offers."
+      ]
+    },
+    {
+      "heading": "Crypto risks no revoke button fixes",
+      "paragraphs": [
+        "Cleaning up approvals reduces one specific threat, but holding crypto carries other risks that good wallet habits can't remove.",
+        "Many people reduce their exposure by keeping only small amounts in the wallet they use to connect to apps. For personal decisions about holding or managing crypto, check your local regulator's guidance or speak with a licensed adviser."
+      ],
+      "bullets": [
+        "Volatility and total loss: crypto prices can swing sharply, and tokens can fall to zero.",
+        "Scams and rug pulls: a project can be abandoned or set up to take deposits. A tidy wallet doesn't make a bad token safe.",
+        "Custody risk: with self-custody, nobody can restore your access if you lose your seed phrase.",
+        "Exchange risk: crypto held on an exchange depends on that company's security, finances and policies, and the exchange can pause withdrawals.",
+        "Weaker protections: crypto generally isn't covered by the deposit protection schemes for regulated bank accounts.",
+        "Rules and tax: how crypto is regulated and taxed differs by country."
+      ]
+    },
+    {
+      "heading": "Monthly wallet-hygiene checklist",
+      "paragraphs": [
+        "A short monthly review keeps your approvals tidy and helps you spot problems before a drainer does.",
+        "Pick a fixed date, such as the first weekend of each month, and keep a simple log of what you checked and revoked. Never put your seed phrase or private keys in any digital document, notes app or screenshot."
+      ],
+      "bullets": [
+        "Open your approval checker from a saved bookmark, not a search result.",
+        "Look up each wallet address in read-only mode on every network you've used.",
+        "Revoke unlimited allowances, unknown spenders and approvals for apps you've stopped using.",
+        "Remove NFT approval-for-all permissions you no longer need.",
+        "Disconnect old sites in your wallet's connected-sites settings. This is separate from revoking.",
+        "Update your wallet app, browser extension and hardware wallet firmware, using official sources only.",
+        "Check that your seed phrase backup is still where it should be, without typing it into anything.",
+        "Hide unknown tokens and NFTs that appeared in your wallet. Don't visit websites named in them or try to sell them.",
+        "Keep your everyday wallet balance small, and keep longer-term holdings in a separate wallet that rarely connects to apps."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping a reusable monthly wallet-hygiene checklist and a log of which wallets, networks and approvals you reviewed, what you revoked and when.",
+      "not_for": "Storing seed phrases, private keys, passwords or screenshots of recovery words. Never put those in Notion or any other cloud workspace. If you only need a reminder, a recurring calendar event is enough."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does it cost money to revoke token approvals?",
+      "answer": "Yes. Revoking is an on-chain transaction, so you pay a network (gas) fee in the network's native token for each approval you remove. Viewing approvals is free on the main tools. Fees are usually lower on layer-2 networks than on Ethereum mainnet."
+    },
+    {
+      "question": "Is Revoke.cash safe to use?",
+      "answer": "Revoke.cash is a widely used tool. It only asks your wallet to set allowances to zero and never needs your seed phrase. The biggest risk is landing on a fake copy, so type revoke.cash yourself and check every wallet prompt before you confirm. Check the official site for its current features and any fees."
+    },
+    {
+      "question": "Does disconnecting my wallet from a site revoke its approvals?",
+      "answer": "No. Disconnecting only stops the site from seeing your address and asking for signatures. The approval is stored in the token's contract on the blockchain and stays active until you revoke it with an on-chain transaction."
+    },
+    {
+      "question": "Will revoking an approval get my stolen crypto back?",
+      "answer": "No. Revoking only stops future spending through that permission, and confirmed blockchain transactions can't be reversed. Report the theft to the relevant authorities, and be very wary of anyone offering to 'recover' stolen crypto for an upfront fee, because this is a common follow-up scam."
+    },
+    {
+      "question": "Should I revoke all my token approvals?",
+      "answer": "Not necessarily. Start with unlimited approvals, unknown spenders, apps you no longer use and NFT approvals for all. If you revoke an app you use every week, you'll pay to re-approve it, so a smaller spending cap may be a better balance. Most people find a monthly review is enough, plus an extra check after trying a new app."
+    },
+    {
+      "question": "Can I revoke approvals on Solana or Bitcoin?",
+      "answer": "This guide covers Ethereum and other EVM networks. Solana tokens use a different 'delegate' permission that some wallets and tools can show and revoke, and many Solana scams trick you into signing a harmful transaction directly. Bitcoin doesn't use token approvals in this way, but you should still read every transaction or signature request carefully."
+    }
+  ],
+  "conclusion": "Revoking token approvals is one of the simplest security habits for anyone with a self-custody wallet. Look up your address in read-only mode, then revoke unlimited and unused permissions on every network you've used. Read every wallet prompt, and only use tools you reached through a URL you checked yourself. Know the limits: revoking prevents future spending, but it can't undo a theft or protect an exposed seed phrase. In that case, create a new wallet and move your assets to it. Put the monthly checklist in your calendar so the habit sticks. For personal decisions about holding or managing crypto, check your local regulator's guidance or speak with a licensed adviser.",
+  "keyword": "how to revoke token approvals",
+  "niche": "crypto basics, risks and crypto ETFs",
+  "version": 2,
+  "slug": "how-to-revoke-token-approvals-before-a-drainer-uses-them",
+  "published": "2026-10-08T22:08:21+00:00"
+}

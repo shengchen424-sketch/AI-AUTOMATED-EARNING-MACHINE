@@ -1,0 +1,279 @@
+{
+  "title": "How to Write FAQs for an AI Chatbot in Ecommerce (+ Template)",
+  "meta_description": "How to write FAQs for an AI chatbot in ecommerce: a fill-in template, before-and-after examples, hand-off rules and a 20-question test.",
+  "quick_answer": "To write ecommerce FAQs an AI chatbot can answer correctly, give each entry one customer question. Answer it in the first sentence, and include exact numbers, time windows, conditions and named exceptions. End with a next step and an 'escalate to a human when…' line. Remove conflicting pages, import entries as separate Q&A pairs, and test with 20 real inbox questions before going live.",
+  "key_takeaways": [
+    "Write one customer question per FAQ entry, and answer it in the first sentence.",
+    "Replace 'usually', 'quickly' and 'some exclusions apply' with exact numbers, business or calendar days, regions and named exceptions.",
+    "End every answer with a next step and a specific 'escalate to a human when…' trigger for damaged items, policy exceptions and payment problems.",
+    "Before you import anything, fix or delete pages that contradict your FAQs. A bot can quote any source you give it.",
+    "Test with 20 real inbox questions, copied word for word, before launch and again after every policy change.",
+    "Give every entry a named owner and a review date so policy changes reach the bot on the same day they reach your website."
+  ],
+  "who_this_is_for": "This guide is for ecommerce store owners and support leads who get the same customer questions every week and want an AI chatbot to answer shipping, returns, sizing, order-status and payment questions correctly.",
+  "intro": "When a store's AI chatbot gives a customer the wrong return window, the AI usually isn't the problem. The help content is. A bot that answers from a knowledge base repeats whatever you give it, including vague promises, buried exceptions and last year's holiday cut-off. This guide gives you a fill-in FAQ template and before-and-after rewrites of typical store FAQs for shipping, returns, order status, sizing and payment. It also shows you how to write a hand-off line, import entries into a knowledge base such as Tidio's Lyro, test with 20 real questions from your inbox and keep everything current. One caveat: if your store gets only a handful of support questions a week, you probably don't need a bot yet. A clear policy page and your own replies will do.",
+  "steps": [
+    {
+      "name": "Collect your real questions",
+      "text": "Go through the last one to three months of support emails and chats. List the questions customers ask again and again, then group them into shipping, returns, order status, sizing and payment."
+    },
+    {
+      "name": "Confirm the actual policy facts",
+      "text": "Check every number against the place where it's actually set: the shipping settings in your store admin, your carrier's service levels, your returns portal rules and your payment settings. Write down where each fact comes from."
+    },
+    {
+      "name": "Write one question per entry using the template",
+      "text": "Phrase each entry as a single customer question and answer it in the first sentence. Include exact numbers, say whether days are business or calendar days, and state cut-off times with a time zone. Spell out the conditions and the regions covered."
+    },
+    {
+      "name": "Add exceptions and an escalation line",
+      "text": "Name every exception, whether it's a product, region, date or order type. End each answer with the next step and a specific line saying when a person will take over."
+    },
+    {
+      "name": "Remove contradictions across your site",
+      "text": "Search your website for old or conflicting values on product pages, banners, PDFs and policy pages. Fix or delete them so the bot can't find two different answers to the same question."
+    },
+    {
+      "name": "Import the entries into your knowledge base",
+      "text": "Where your tool allows it, add each entry as a separate question-and-answer pair. Remove older imported sources that conflict, and set up what happens when the bot hands a conversation to a person."
+    },
+    {
+      "name": "Test with 20 real inbox questions",
+      "text": "Ask the bot 20 questions copied word for word from real customer messages. Score each reply as correct, partly correct, wrong, correctly handed off, or should have handed off."
+    },
+    {
+      "name": "Fix, retest and assign an owner",
+      "text": "When an answer is wrong, fix the source entry, then re-run all 20 questions. Give every entry a named owner and a review date so policy changes reach the bot right away."
+    }
+  ],
+  "comparison": {
+    "caption": "How common FAQ formats perform when an AI chatbot answers from them",
+    "headers": [
+      "FAQ format",
+      "Example",
+      "What the bot tends to do",
+      "Fix"
+    ],
+    "rows": [
+      [
+        "Vague marketing line",
+        "'Fast, free shipping on most orders!'",
+        "Repeats the vague claim, or gives an answer that sounds specific but isn't based on your policy",
+        "State the free-shipping threshold, the delivery window in business days and the regions covered"
+      ],
+      [
+        "Several questions in one entry",
+        "One 'Shipping & Returns' block",
+        "Mixes facts from different policies into one answer",
+        "Split it into separate entries with one question each"
+      ],
+      [
+        "Long legal policy page",
+        "A returns policy with the exception in paragraph six",
+        "May miss the exception or quote only part of the rule",
+        "Turn the key rules into structured Q&A entries and keep the page as a reference"
+      ],
+      [
+        "Size chart as an image",
+        "A JPG table on the product page",
+        "Text inside images is often not picked up when content is imported",
+        "Type the chart out as text inside the sizing entry"
+      ],
+      [
+        "Conflicting sources",
+        "The FAQ says 30 days, an old product page says 14",
+        "May quote either value",
+        "Choose one source of truth and fix or delete the other"
+      ],
+      [
+        "Expired seasonal notice",
+        "Last year's holiday shipping cut-off",
+        "Quotes dates that no longer apply",
+        "Put an end date on temporary entries and remove them on schedule"
+      ],
+      [
+        "Order status with no data access",
+        "'Your order is on its way!'",
+        "May suggest it knows where a parcel is when it can't see order data",
+        "Point to the tracking page and hand off when tracking stops updating"
+      ],
+      [
+        "Structured single-question entry",
+        "The fill-in template in this guide",
+        "Matches the question, gives the exact answer and hands off when it should",
+        "Review it on a schedule and update it with every policy change"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why AI chatbots give wrong answers about store policies",
+      "paragraphs": [
+        "AI chatbots usually get store policies wrong because the help content they answer from is vague, scattered across pages or contradictory. The AI itself is rarely the main problem.",
+        "An AI support agent that answers from a knowledge base can only be as precise as the material you give it. If your FAQ says orders 'usually arrive quickly', the bot will either repeat that unhelpful line or give an answer that sounds specific but isn't based on your policy. If your returns page says 30 days and an old product description says 14, the bot may quote either one.",
+        "The good news is that the fix is mostly writing, not technical setup. Answering one question at a time, putting numbers first and naming exceptions makes a policy clear to a busy shopper on a phone. The same habits make it reliable for a bot.",
+        "Most wrong chatbot answers come from one of these writing problems:"
+      ],
+      "bullets": [
+        "Vague words: 'usually', 'quickly', 'most orders', 'some exclusions apply'.",
+        "Bundled entries that cover shipping, returns and exchanges in one block, so facts from different policies get mixed up.",
+        "Stale content, such as last season's holiday notice, an old size chart or a PDF uploaded years ago.",
+        "Exceptions buried in long legal paragraphs, where customers and bots often miss them.",
+        "No hand-off rule, so the bot keeps answering when a person should step in."
+      ]
+    },
+    {
+      "heading": "How to write FAQs for an AI chatbot in ecommerce: the fill-in template",
+      "paragraphs": [
+        "To write FAQs an AI chatbot can use, give every entry exactly one customer question, a direct answer in the first sentence, exact numbers and time windows, the exceptions spelled out, and a line saying when a human takes over.",
+        "Four writing rules make the template work. First, never refer to other entries ('as mentioned above', 'see our policy'). Bots often pull up one entry at a time, so the reference means nothing on its own. Second, spell out units every time: write '5 business days', not '5 days'. Third, use one term for one thing, so a 'return window' never turns into a 'return period' in another entry, and drop internal jargon such as 'RMA'. Fourth, if an answer starts to cover a second question, split it into a new entry.",
+        "Copy the fields below into a spreadsheet or database, with one row per question. The customer-facing fields go into the bot. The internal fields stay in your master document and help you keep the bot accurate over time."
+      ],
+      "bullets": [
+        "Question: one question, worded the way customers write it. For example, 'When will my order arrive?' rather than 'Delivery information'.",
+        "Other ways people ask: two to four alternative wordings from real messages, if your tool supports them.",
+        "Direct answer: the first sentence answers the question with a yes or no, a number, or a time window.",
+        "Numbers and windows: business or calendar days, cut-off times with a time zone, order thresholds with a currency, and the regions covered.",
+        "Conditions: what has to be true, such as 'unworn with tags attached' or 'ordered by 2 p.m. Eastern Time'.",
+        "Exceptions: the named products, regions, dates or order types the answer doesn't cover.",
+        "Next step: the exact link or action the customer should take.",
+        "Hand-off line: 'We'll connect you with our team if…' followed by specific triggers.",
+        "Internal only: the entry's owner, its source of truth (for example, the shipping settings in your store admin), the date it was last reviewed, and the change that should trigger a review."
+      ]
+    },
+    {
+      "heading": "Before-and-after rewrites of typical store FAQs",
+      "paragraphs": [
+        "The rewrites below turn vague store FAQs into entries a bot can quote accurately. Every number, time, region and payment method is a placeholder, so swap in your real policy before you use any of them.",
+        "Shipping. Before: 'We ship fast! Most orders arrive within a few days.' After: 'How long does standard shipping take within the US? Standard shipping takes 3–5 business days after your order ships. Orders placed by 2 p.m. Eastern Time, Monday to Friday, ship the same business day; later orders ship the next business day. Exceptions: orders to Alaska, Hawaii and PO boxes take 5–8 business days, and pre-order items ship on the date shown on the product page. If your tracking hasn't updated for 5 business days, we'll connect you with our team.'",
+        "Returns. Before: 'Not happy? Returns are hassle-free within 30 days (some exclusions apply).' After: 'Can I return an item I bought? Yes, within 30 calendar days of the delivery date shown in your tracking. Items must be unworn and unwashed, with the original tags attached. Start your return at [returns page link]. Exceptions: final-sale items, earrings and swimwear can't be returned. If your item arrived damaged or incorrect, or you're past 30 days, we'll connect you with our team.' Refund timing and exchanges each get their own entry.",
+        "Order status. Before: 'Track your order anytime!' After: 'Where is my order? We email you a tracking link when your order ships, within 1–2 business days of ordering. You can also check its status at [order tracking page] with your order number and email address. If tracking hasn't changed for 5 business days, or it shows as delivered but you can't find the parcel, we'll connect you with our team.' Unless your bot is connected to your order data, it can't see where a parcel is, so this entry points customers to tracking instead.",
+        "Sizing. Before: 'Our jeans fit true to size. See the size chart.' After: 'What size should I get in the [product line] jeans? Choose the size that matches your waist measurement: size 28 fits a 28–29 inch waist, size 30 fits a 30–31 inch waist, and size 32 fits a 32–33 inch waist. These jeans have little stretch, so if you're between sizes, size up. If your measurements fall outside this chart, we'll connect you with our team.' The chart is typed out as text because text inside an image is often not picked up when content is imported.",
+        "Payment. Before: 'We accept all major payment methods.' After: 'Which payment methods do you accept? We accept Visa, Mastercard, American Express, PayPal and Apple Pay at checkout. We don't accept cash on delivery, cheques or bank transfers. [Buy-now-pay-later provider] is available on orders over [amount] in [countries]. If you were charged twice or your payment keeps being declined, we'll connect you with our team.'",
+        "Every rewrite makes the same five changes:"
+      ],
+      "bullets": [
+        "The heading becomes a real customer question.",
+        "Vague words are replaced with numbers, units, time zones and regions.",
+        "'Some exclusions apply' becomes a list of named exclusions.",
+        "The answer ends with a next step and a specific hand-off trigger.",
+        "Bundled topics, such as returns, refunds and exchanges, are split into separate entries."
+      ]
+    },
+    {
+      "heading": "How to write the 'escalate to a human when…' line",
+      "paragraphs": [
+        "The escalation line tells both the bot and the customer exactly which situations go to a person. That stops the bot from improvising in cases where a wrong answer costs money or trust.",
+        "Write the line in two versions. The customer-facing version goes at the end of the answer and is worded as a promise: 'We'll connect you with our team if [specific situation], or if you'd like to talk to a person.' The internal version goes in your master document and in your bot's hand-off settings, if your tool has them. That way the rule still applies when a customer words things in an unexpected way.",
+        "Before you go live, check what actually happens at hand-off: who gets notified, what the customer sees outside business hours and how quickly someone replies. A promise to 'connect you with our team' needs a real team on the other end.",
+        "Good triggers describe specific situations, not catch-all phrases like 'if you have any issues'. Common triggers for online stores include:"
+      ],
+      "bullets": [
+        "Damaged, defective, missing or wrong items.",
+        "Requests for exceptions, such as late returns, refunds on final-sale items or price adjustments.",
+        "Payment problems: double charges, failed refunds, chargebacks or disputed amounts.",
+        "Anything that needs order details the bot can't see, unless your tool is connected to your order data.",
+        "Safety, allergy, legal or privacy concerns.",
+        "A customer who asks for a person or is clearly frustrated."
+      ]
+    },
+    {
+      "heading": "Importing your FAQs into Tidio's Lyro or another knowledge base",
+      "paragraphs": [
+        "Where your tool allows it, import your finished entries as separate question-and-answer pairs. A bot can match and quote short, self-contained entries more reliably than one long policy page.",
+        "At the time of writing, Tidio's Lyro AI agent lets you add knowledge as individual Q&A pairs, by importing content from your website, or by uploading a file. Menu names, file formats and limits change, so check Tidio's help center for the current options before you prepare your file. The same principles apply to any knowledge-base chatbot: one question per entry, no conflicting sources and a clear hand-off.",
+        "If you use website imports, find out how and when your tool refreshes that content. A page you edited this morning may not reach the bot until it's re-synced, and that's exactly how bots end up quoting old policies.",
+        "A typical import process looks like this:"
+      ],
+      "bullets": [
+        "Export your master sheet with one column for the question and one for the full customer-facing answer. The answer column combines the direct answer, conditions, exceptions, next step and hand-off line.",
+        "Leave internal fields such as the owner and last-reviewed date out of the import.",
+        "Look for older sources already in the knowledge base, such as an earlier website import, and remove or update anything that conflicts with your new entries.",
+        "Set up the hand-off: what the bot does when it can't answer, when a customer asks for a person, and outside business hours.",
+        "Use the tool's preview or test area to try a few questions before publishing."
+      ]
+    },
+    {
+      "heading": "How to test your chatbot with 20 real customer questions",
+      "paragraphs": [
+        "Testing with 20 real questions copied word for word from your inbox shows how the bot copes with typos, missing context and two-part questions that tidy FAQ headings never anticipate.",
+        "Ask each question in the bot's preview or test area and score the reply as correct, partly correct, wrong, correctly handed off, or should have handed off. Add a couple of follow-up questions in the same chat, such as 'what about sale items?' after a returns answer, to check that the bot keeps track of the conversation. A sensible bar before you publish is no confidently wrong answers about money, deadlines or eligibility.",
+        "When an answer is wrong, fix the source entry instead of adding a new entry on top. Sharpen the question wording, add the missing exception or delete the conflicting source. Then re-run all 20 questions, because a fix in one entry can change answers elsewhere. Save the set and reuse it as your standard test after every policy change.",
+        "Pick questions from the last few months of email and chat, keep the customers' original wording, and aim for a mix like this:"
+      ],
+      "bullets": [
+        "5 shipping and order-status questions, including one international order and one late parcel.",
+        "5 returns and exchange questions, including one from outside the return window.",
+        "4 questions about sizing or product fit.",
+        "3 payment questions, including one about a failed or double charge.",
+        "3 awkward messages: two questions in one, an angry message, and a question your FAQs don't cover."
+      ]
+    },
+    {
+      "heading": "Maintenance checklist: keep the bot from quoting an old policy",
+      "paragraphs": [
+        "Every policy change should trigger the same short checklist, in the same order. That way the bot is updated on the same day as your website rather than weeks later.",
+        "Even without policy changes, schedule a regular review: monthly for busy stores and quarterly for quieter ones. Add an extra check before peak seasons, when shipping cut-offs and return windows change most often. Give every entry a named owner, so 'someone should update the bot' becomes a specific person's job.",
+        "Run these steps whenever a policy changes:"
+      ],
+      "bullets": [
+        "Update the master entry first, with the new numbers, a new last-reviewed date and a note of what changed.",
+        "Replace the bot's entry. Don't add a second version next to the old one.",
+        "Search your knowledge base and website for the old value (for example, '30 days' or your previous free-shipping threshold) and fix every match, including product pages, banners and PDFs.",
+        "Re-sync any website imports so the bot isn't reading an outdated copy.",
+        "Give temporary entries, such as holiday cut-offs or extended return windows, an end date and a reminder to remove them.",
+        "Re-run your 20-question test, and add a question about the change itself.",
+        "Review recent bot conversations that were handed off or marked unhelpful, and turn repeated gaps into new entries."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Tidio",
+      "best_for": "Online stores with a steady flow of repeat questions that want live chat plus an AI agent (Lyro) that answers from a knowledge base they control and hands conversations to a person. Check the current plans and how AI conversations are priced on Tidio's site before you scale up.",
+      "not_for": "Stores with only a few support questions a week, where a clear FAQ page and personal replies are simpler. Also not a fit for teams that need the bot to handle complex account or order actions, unless they've first confirmed the integrations they need exist."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping a master FAQ database with fields for the owner, source of truth, last-reviewed date and review trigger. You can export it to CSV when you're ready to import entries into a chatbot.",
+      "not_for": "Teams that already manage their policies in a help desk or wiki with version history. Adding another copy just creates one more place to keep in sync."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "A final clarity pass over dozens of FAQ entries before you import them, to flag long sentences, unclear wording and tone that varies from entry to entry.",
+      "not_for": "Checking whether your facts are correct, which it can't do. Review its rewrite suggestions carefully, because a smoother sentence can drop the exact number, condition or exception the bot needs. It's probably unnecessary if you only have a handful of entries."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many FAQ entries does an ecommerce chatbot need?",
+      "answer": "There's no fixed number. Start with the questions that come up again and again in your inbox, usually shipping times and costs, order status, returns, exchanges, sizing and payment methods. Write one entry per distinct question, and add more only when testing or chat transcripts show the bot missing something."
+    },
+    {
+      "question": "Can I just let the AI chatbot read my existing website?",
+      "answer": "Many tools, including Tidio's Lyro at the time of writing, can import content from your website, and that's a quick way to start. The risk is that the import also picks up vague marketing copy, outdated pages and contradictions. Use the import, then replace the key policy answers with structured Q&A entries and remove any sources that conflict."
+    },
+    {
+      "question": "How long should a chatbot FAQ answer be?",
+      "answer": "Long enough to include the number, the conditions, the exceptions and the next step. That often takes three to six sentences. Put the direct answer first so it gets through even if the rest is cut short, and split the answer into its own entry if it starts to cover a second question."
+    },
+    {
+      "question": "Which customer questions should an AI chatbot hand to a human?",
+      "answer": "Hand off anything involving money disputes, damaged or wrong items, requests for exceptions to policy, legal or safety concerns, and questions that need order details the bot can't see. The bot should also hand off when a customer asks for a person or is clearly frustrated. Write these triggers into each FAQ entry and set them up in your bot's hand-off settings."
+    },
+    {
+      "question": "Should my chatbot FAQs be the same as my website FAQ page?",
+      "answer": "They should share the same facts and never disagree, but the format can differ. A website FAQ page can group related questions and link out to other pages, while chatbot entries work best as standalone question-and-answer pairs that make sense on their own. Keeping one master document and updating both from it means each policy change only has to be made once."
+    },
+    {
+      "question": "How often should I update my chatbot FAQs?",
+      "answer": "Update them right away whenever a policy, price threshold, carrier or cut-off date changes, and review them on a schedule. Monthly or quarterly works for most stores. Before peak seasons, check holiday shipping cut-offs and remove last year's notices, then re-run your 20-question test after each update."
+    }
+  ],
+  "conclusion": "An AI chatbot is only as accurate as the FAQs behind it. Write one question per entry, put exact numbers and named exceptions where they're easy to see, tell the bot when to hand off to a person, and test with the questions your customers actually send. After that, treat every policy change as a reason to update the bot at the same time as your website. Start this week with your inbox: pull 20 real questions, rewrite the five most common ones using the template, and compare the bot's answers before and after.",
+  "keyword": "how to write faqs for ai chatbot ecommerce",
+  "niche": "AI customer support chatbots for online stores",
+  "version": 2,
+  "slug": "how-to-write-faqs-for-an-ai-chatbot-in-ecommerce-template",
+  "published": "2026-10-08T22:02:07+00:00"
+}

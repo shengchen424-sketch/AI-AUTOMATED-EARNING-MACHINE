@@ -1,0 +1,21 @@
+{
+  "term": "First Principles Thinking",
+  "section": "Self-Development",
+  "short_definition": "First principles thinking is a problem-solving method that breaks a problem down into its most basic, verifiable facts and rebuilds a solution from there, instead of copying assumptions or convention.",
+  "explanation": [
+    "First principles thinking works in three steps. (1) State the problem and list your current assumptions about it. (2) Question each assumption: is it actually true, or just how things are usually done? Keep going until you reach facts you can verify. (3) Build a new solution using only those facts. This is the opposite of reasoning by analogy, where you copy what others do with small changes.",
+    "Many rules in careers, money and business are habits rather than facts. Going back to the basics can reveal cheaper, simpler or more original options. For example, you might ask why a product costs what it does by adding up the cost of its parts, or ask whether a career path really requires a particular credential.",
+    "The trade-off is effort. Reasoning from scratch is slow and mentally tiring, and conventions often exist for good reasons you may not see at first. Use it for important, high-stakes or stuck problems, and use proven approaches and mental models for routine decisions."
+  ],
+  "example": "Example (illustrative numbers): you believe, 'I can't afford to learn web development because bootcamps cost about 10,000.' Break it down. The real goal is a skill employers will pay for, and the basic ingredients are structured lessons, practice projects, feedback and proof of your work. A plan rebuilt from those ingredients might combine free documentation, a low-cost course, a mentor for feedback and three portfolio projects. That could cost a fraction of 10,000, though you would get less built-in structure.",
+  "common_mistake": "Using 'first principles' as an excuse to dismiss all expertise and convention. The point is to test assumptions honestly and keep the ones that turn out to be true.",
+  "related_terms": [
+    "Mental Models",
+    "Second-Order Thinking",
+    "Feynman Technique",
+    "Confirmation Bias"
+  ],
+  "title": "First Principles Thinking",
+  "slug": "first-principles-thinking",
+  "published": "2026-10-08T22:16:58+00:00"
+}

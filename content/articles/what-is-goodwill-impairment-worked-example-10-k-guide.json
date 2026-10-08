@@ -1,0 +1,263 @@
+{
+  "title": "What Is Goodwill Impairment? Worked Example + 10-K Guide",
+  "meta_description": "What is goodwill impairment? A worked example, why the non-cash charge matters, where to find it in a 10-K and 5 questions to ask after a write-down.",
+  "quick_answer": "Goodwill impairment is a write-down of goodwill when the business unit holding it is worth less than its carrying amount on the books. Goodwill is the premium a buyer paid above the fair value of an acquired company's identifiable net assets. The charge is non-cash, because the money left at closing, but it cuts reported profit and assets and usually signals the deal is underperforming.",
+  "key_takeaways": [
+    "Goodwill = purchase price − fair value of the identifiable net assets acquired. It isn't cash, and it can't be sold on its own.",
+    "A goodwill impairment is a non-cash charge. It still tells you that part of an acquisition premium is no longer supported by expected future cash flows.",
+    "Size the risk before you read the details. Compare goodwill with total assets and equity, and look for reporting units with a thin valuation cushion.",
+    "In a 10-K, check five places: the balance sheet, the goodwill rollforward by segment, the acquisitions note, the critical accounting estimates in MD&A and the auditor's critical audit matters.",
+    "'Adjusted' earnings usually leave impairments out, which can make failed deals look free. Always read the reconciliation to GAAP.",
+    "Under both US GAAP and IFRS, a goodwill impairment can't be reversed later, even if the business recovers."
+  ],
+  "who_this_is_for": "This guide is for individual investors and finance students who have seen a large 'goodwill impairment' charge in an earnings report, 10-K or annual report and want to know what it means and what to check next.",
+  "intro": "A large goodwill impairment can wipe out a year of reported profit, yet management will usually say it doesn't affect cash. Both statements can be true, and careful readers learn the most from the gap between them. This guide explains goodwill with one round-number acquisition example and shows how impairment testing works under US GAAP and IFRS. It then traces how the charge moves through the three financial statements. You'll also get four quick checks for sizing goodwill risk, a map of where the details sit in a 10-K, an explanation of why 'adjusted' earnings usually leave impairments out, and five questions to ask after any write-down. All numbers are illustrative and don't come from any real company. This is general education, not investment advice.",
+  "steps": [
+    {
+      "name": "Get the filings",
+      "text": "Download the latest 10-K from SEC EDGAR or the company's investor relations site. Also get the previous two or three 10-Ks and any 10-Qs filed since the last annual report, so you can compare goodwill balances and catch impairments recorded mid-year. Companies outside the US that report under IFRS publish annual reports with similar notes."
+    },
+    {
+      "name": "Size goodwill on the balance sheet",
+      "text": "Find the 'Goodwill' line and divide it by total assets and by shareholders' equity. Then subtract goodwill and other intangible assets from equity to get tangible book value. Write down all three numbers so you can compare them year to year and with peers that use the same accounting rules."
+    },
+    {
+      "name": "Locate the charge",
+      "text": "Find the impairment on the income statement. US GAAP companies usually show it on its own line within operating expenses. IFRS reporters may combine it with other expenses and break it out in the notes. Then find the matching add-back in the operating activities section of the cash flow statement."
+    },
+    {
+      "name": "Read the goodwill rollforward",
+      "text": "Open the note on goodwill and intangible assets and find the table that shows goodwill by segment. It shows the opening balance, acquisitions, impairments, currency effects and closing balance. It also usually shows accumulated impairment losses, which is the total written off to date."
+    },
+    {
+      "name": "Trace the original deal",
+      "text": "Find the business combinations (acquisitions) note in the 10-K for the year the deal closed. Record the purchase price, how it was split between identifiable assets, liabilities and goodwill, and what management said the goodwill represented, such as synergies or workforce."
+    },
+    {
+      "name": "Check assumptions and audit focus",
+      "text": "Read the critical accounting estimates in MD&A (Item 7) for discount rates, growth assumptions and any reporting units whose fair value only narrowly exceeds carrying amount. Then read the independent auditor's report to see whether goodwill impairment testing is listed as a critical audit matter."
+    },
+    {
+      "name": "Compare GAAP and adjusted results",
+      "text": "Find the non-GAAP reconciliation in the earnings release, which is usually furnished as an exhibit to a Form 8-K. Note how much the impairment and other acquisition-related items lift adjusted earnings above GAAP earnings, and track that gap over several years."
+    },
+    {
+      "name": "Answer the five questions and log them",
+      "text": "Work through the five questions later in this guide and add your answers to a simple log for each company. Updating it once a year makes patterns in the company's dealmaking visible."
+    }
+  ],
+  "comparison": {
+    "caption": "Where to find goodwill and impairment details in a 10-K",
+    "headers": [
+      "10-K location",
+      "What you'll find",
+      "What to look for"
+    ],
+    "rows": [
+      [
+        "Balance sheet (Item 8)",
+        "A 'Goodwill' line, usually next to 'Intangible assets, net'",
+        "Goodwill as a share of total assets and equity, and the change from last year"
+      ],
+      [
+        "Income statement (Item 8)",
+        "The impairment charge. US GAAP companies usually show it on its own line within operating expenses",
+        "The size of the charge compared with operating income and net income"
+      ],
+      [
+        "Cash flow statement (Item 8)",
+        "The impairment added back in operating activities, plus cash paid for acquisitions in investing activities",
+        "Confirmation that the charge is non-cash, and how much cash went into past deals"
+      ],
+      [
+        "Goodwill and intangible assets note",
+        "A rollforward by segment: opening balance, acquisitions, impairments, currency effects, closing balance, accumulated impairments",
+        "Which segment took the charge, how much remains and the total impaired to date"
+      ],
+      [
+        "Business combinations note (year of the deal)",
+        "The purchase price and how it was split between assets, liabilities and goodwill",
+        "How much of the price became goodwill, and what management said it represents"
+      ],
+      [
+        "Segment note",
+        "Revenue and profit by segment",
+        "Whether the segment holding the goodwill is getting weaker"
+      ],
+      [
+        "MD&A critical accounting estimates (Item 7)",
+        "How the impairment test works and its key assumptions",
+        "Discount rates, growth rates, and units where fair value barely exceeds carrying amount"
+      ],
+      [
+        "Independent auditor's report",
+        "Critical audit matters (certain filers, such as emerging growth companies, are exempt)",
+        "Whether goodwill testing is flagged, and why the auditor found it hard to judge"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What goodwill is: a simple acquisition example",
+      "paragraphs": [
+        "Goodwill is the part of an acquisition price left over after the buyer gives a fair value to every asset and liability it can identify separately. In formula terms, goodwill equals the purchase price minus the fair value of the identifiable net assets acquired. It covers things the buyer pays for but can't record as separate assets, such as expected synergies, a trained workforce, market position and growth prospects.",
+        "Here is the math with round, illustrative numbers. Company A buys Company B for $100 million. On the acquisition date, A values B's identifiable assets at $90 million. That includes $20 million of intangible assets, such as customer relationships and a brand name, that may never have appeared on B's own balance sheet. A also takes on $30 million of B's liabilities. B's identifiable net assets are therefore $60 million, so A records $40 million of goodwill.",
+        "The buyer uses fair values on the acquisition date, not the seller's old book values. Under US GAAP (ASC 805) and IFRS (IFRS 3), identifiable intangible assets are recorded separately from goodwill. Those with a limited life, such as customer relationships, are amortized, meaning they are expensed gradually. Public companies don't amortize goodwill under either framework. They test it for impairment instead. In the rare case where the price is below the fair value of the net assets, the buyer records a bargain purchase gain instead of goodwill."
+      ],
+      "bullets": [
+        "Formula: Goodwill = purchase price − (fair value of identifiable assets − liabilities assumed).",
+        "Example: $100M − ($90M − $30M) = $40M of goodwill.",
+        "Goodwill is not cash. It can't be sold on its own and doesn't generate cash by itself.",
+        "Most balance sheets show 'Goodwill' on a separate line from 'Intangible assets, net'. They are different things."
+      ]
+    },
+    {
+      "heading": "What is goodwill impairment, and how is it tested?",
+      "paragraphs": [
+        "Goodwill impairment is a write-down that reduces goodwill on the balance sheet when the business unit holding it is worth less than its carrying amount, meaning its value on the books. Accounting rules use it to make a company admit that an acquisition will no longer deliver the value its price assumed.",
+        "Public companies must test goodwill at least once a year. They must also test between annual dates whenever a 'triggering event' suggests value may have fallen. Under US GAAP (ASC 350), the test is done for each reporting unit, which is an operating segment or one level below it. Under IFRS (IAS 36), it is done for a cash-generating unit or a group of them. US GAAP also allows an optional qualitative check first. If fair value is not more likely than not to be below carrying amount, the company can skip the detailed calculation.",
+        "Back to the illustrative example: two years after the deal, Company B loses its biggest customer and Company A cuts B's forecasts. Assume B is its own reporting unit and, for simplicity, its carrying amount is still $100 million ($60 million of net assets plus $40 million of goodwill). Using a discounted cash flow model and comparisons with similar companies, A estimates the unit's fair value at $75 million. Under the current US GAAP approach, the impairment equals the $25 million shortfall, capped at the $40 million of goodwill in the unit. Goodwill falls from $40 million to $15 million.",
+        "Common triggers include a sustained fall in the share price, market value dropping below book value, lost customers or contracts, weaker forecasts, regulatory changes and restructurings. Higher interest rates can also be a trigger, because they raise the discount rates used in valuations. A trigger doesn't automatically mean an impairment. It means the company must run a test.",
+        "Fair value depends on management's forecasts, discount rates and long-term growth assumptions, so goodwill testing takes a lot of judgment. Small changes in those inputs can flip the result, which is why auditors often treat goodwill testing as a high-risk area."
+      ],
+      "bullets": [
+        "No reversals: under both US GAAP and IFRS, a goodwill impairment can't be reversed later, even if the business recovers.",
+        "How IFRS differs: carrying amount is compared with 'recoverable amount', which is the higher of fair value less costs of disposal and value in use. Any loss reduces goodwill first, then the unit's other assets.",
+        "Other frameworks: US private companies can choose to amortize goodwill, and some national standards require amortization (the UK's FRS 102, for example). Check the accounting policies note before comparing companies."
+      ]
+    },
+    {
+      "heading": "How the charge hits the financial statements, and why non-cash still matters",
+      "paragraphs": [
+        "A goodwill impairment is non-cash because the cash left the company when the deal closed. The write-down simply admits, often years later, that expected future cash flows no longer support part of the price. In the illustrative example, the $25 million charge shows up in all three financial statements:",
+        "Non-cash does not mean costless. The acquisition was paid for with real money, or with new shares that diluted existing owners. An impairment is a delayed verdict on that decision about how to use capital. Shareholders bore the cost when the deal closed, and the accounting is only now catching up.",
+        "Impairments usually lag behind the bad news. By the time a write-down is recorded, the weakness has often already shown up in revenue, margins or the share price. That is one reason the market may barely react. What's new is management's formal admission and the size of the gap.",
+        "Watch for a side effect. After a large write-down, return on assets and return on invested capital can improve on paper, because the asset base shrinks while profit stays the same. A better ratio right after an impairment may reflect a smaller denominator, not a better business.",
+        "Tax treatment depends on the country and on how the deal was structured. Often an impairment brings little or no immediate tax benefit. The income tax note in the 10-K usually explains the tax effect of significant charges."
+      ],
+      "bullets": [
+        "Income statement: a $25 million expense, usually included in operating income, that lowers net income and earnings per share.",
+        "Balance sheet: goodwill and total assets fall by $25 million. Shareholders' equity falls by the charge minus any tax benefit, which is often small or zero.",
+        "Cash flow statement: the $25 million is added back in operating activities, so operating cash flow for the period doesn't change."
+      ]
+    },
+    {
+      "heading": "How to size goodwill risk with four quick checks",
+      "paragraphs": [
+        "Four quick checks using the balance sheet and notes show how exposed a company is to future goodwill write-downs. None of them has a universal 'safe' level, so compare each one with the company's own history and with peers that use the same accounting rules.",
+        "Illustrative example: a company reports $1,000 million of total assets, $400 million of shareholders' equity, $240 million of goodwill and $60 million of other intangibles. Goodwill is 24% of total assets and 60% of equity. Tangible book value is $100 million ($400 million − $240 million − $60 million). A large impairment would barely touch the company's cash, but it could wipe out a big share of reported equity."
+      ],
+      "bullets": [
+        "Goodwill ÷ total assets: how much of the asset base is acquisition premium.",
+        "Goodwill ÷ shareholders' equity: how much of reported equity a full write-off could erase.",
+        "Tangible book value = equity − goodwill − other intangibles. It can be negative. An impairment doesn't change it, because goodwill is already excluded.",
+        "Cushion: some companies disclose in MD&A how far each reporting unit's fair value exceeds its carrying amount. With a thin cushion, a small cut to forecasts or a higher discount rate could trigger a charge.",
+        "Debt terms: some loan agreements include net worth or similar tests. Check the debt note and any credit agreements filed as exhibits to see whether a write-down could matter there."
+      ]
+    },
+    {
+      "heading": "Where to find goodwill and impairment details in a 10-K",
+      "paragraphs": [
+        "Goodwill details in a 10-K are spread across the financial statements (Item 8), the notes, management's discussion and analysis (MD&A, Item 7), the risk factors (Item 1A) and the auditor's report. You need to read several of them to get the full picture. The comparison table in this guide shows what each location contains and what to look for.",
+        "Searching saves time. Inside the filing, use your browser's find function (Ctrl+F or Cmd+F) for the terms below. To search across years or companies, use SEC EDGAR full-text search. Read the surrounding paragraphs, not just the sentence that matches.",
+        "If you use an AI assistant to find these sections, see our guide to reading a 10-K with AI. Whatever tool you use, check every figure against the filing, because AI summaries can get numbers wrong or mix up segments."
+      ],
+      "bullets": [
+        "'goodwill' and 'reporting unit': the goodwill note, how goodwill is split among segments and how it is tested.",
+        "'triggering event' and 'interim': when and why a test was run between annual dates.",
+        "'exceeded its carrying' or 'in excess of': cushion disclosures for at-risk units.",
+        "'critical audit matter': the auditor's view of goodwill testing.",
+        "Form 10-Q: impairments recorded between annual reports appear in quarterly filings.",
+        "Form 8-K, Item 2.06 ('Material Impairments'): US public companies generally must file one when they conclude a material impairment is required. The exception is when the conclusion comes while preparing the next periodic report and is disclosed in that report on time.",
+        "IFRS reporters outside the US: look for the impairment testing note in the annual report and 'key audit matters' in the auditor's report."
+      ]
+    },
+    {
+      "heading": "Why 'adjusted' earnings often exclude goodwill impairment",
+      "paragraphs": [
+        "Companies usually leave goodwill impairment out of adjusted (non-GAAP) earnings. They argue that it is non-cash and doesn't reflect how the business is performing now.",
+        "In the illustrative example, suppose Company A reports GAAP operating income of $10 million after the $25 million impairment. Its earnings release might show 'adjusted operating income' of $35 million by adding the charge back. Both numbers are accurate, but they answer different questions. One shows what the business earned this period. The other shows what management thinks its ongoing operations earned.",
+        "Excluding impairments has some logic. The charge doesn't affect this period's cash, and one large write-down can distort year-on-year comparisons. The problem is what gets hidden. Public companies don't amortize goodwill, so the acquisition premium never runs through normal earnings. If impairments are excluded too, the cost of a failed deal never appears in headline numbers, and acquisitions can look free. Many companies also exclude amortization of acquired intangibles, which widens the gap.",
+        "US public companies that report non-GAAP measures must reconcile them to the most directly comparable GAAP measure. In SEC filings and in earnings releases furnished to the SEC, the GAAP figure must be shown with at least equal prominence. The proxy statement shows whether executive pay depends on adjusted figures that exclude these charges."
+      ],
+      "bullets": [
+        "Put GAAP and adjusted earnings side by side for five years and measure the gap.",
+        "Count how often 'one-time' charges come back. Impairments or restructuring costs every year are not one-time.",
+        "Notice whether the company keeps buying businesses while leaving the cost of past deals out of its headline numbers."
+      ]
+    },
+    {
+      "heading": "Five questions to ask when a company writes down goodwill",
+      "paragraphs": [
+        "These five questions turn a headline impairment number into an informed view of the deal and of the people who approved it. You can answer them from the current and earlier 10-Ks, the earnings release and the earnings call transcript.",
+        "Keep a simple log for each company with these columns: fiscal year, segment, year-end goodwill, impairment, total impairments to date, the related deal and price paid, the stated trigger, any cushion disclosed and your answers to the five questions. If you update it once a year, patterns in the company's dealmaking become visible."
+      ],
+      "bullets": [
+        "1. Which acquisition and which segment caused it? Use the goodwill rollforward by segment and the acquisitions notes in earlier 10-Ks to link the charge to a specific deal. Note how long ago the deal closed and how much was paid.",
+        "2. What triggered it, and is the cause specific to the company or market-wide? Lost customers, a failed integration or weaker pricing point to the deal itself. Higher discount rates or a sector sell-off may hit many companies at once.",
+        "3. How much goodwill is left, and how thin is the cushion elsewhere? Compare remaining goodwill with equity, and look for other units whose fair value only narrowly exceeds carrying amount.",
+        "4. Is this the first write-down or part of a pattern? Check accumulated impairment losses in the goodwill note and in earlier 10-Ks. Repeated charges, each called non-recurring, say more about acquisition discipline than any single charge.",
+        "5. What does it change about capital allocation? Look at how the deal was paid for (cash, debt or shares), whether debt terms refer to net worth, and whether management still plans more acquisitions, and on what terms."
+      ]
+    },
+    {
+      "heading": "Common misreadings, red flags and limits",
+      "paragraphs": [
+        "A goodwill impairment shows that an acquisition has disappointed. It doesn't prove the company is failing or that anyone acted improperly.",
+        "This article is general education about accounting, not investment, tax or legal advice. Accounting and tax rules differ by country and change over time, and standard-setters revisit goodwill rules from time to time. For decisions about your own money, talk to a licensed financial adviser or check guidance from your local regulator."
+      ],
+      "bullets": [
+        "No impairment doesn't mean the deal worked. Goodwill is tested at the reporting-unit level, so stronger businesses in the same unit can hide a weak acquisition.",
+        "Timing involves judgment. Management picks the assumptions, and write-downs can come late, sometimes after a leadership change, when new managers have less reason to defend old deals.",
+        "Size relative to the company matters more than the headline number. A $25 million charge means far more to a company with $50 million of equity than to one with $5 billion.",
+        "Sector-wide write-downs often reflect higher interest rates or a downturn rather than one management team's mistake.",
+        "Rules differ. US GAAP, IFRS and private-company frameworks treat goodwill differently, so compare companies that follow the same rules.",
+        "A pattern worth investigating: goodwill growing much faster than revenue or operating cash flow over several years, while the gap between adjusted and GAAP earnings widens."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors and students who follow several companies and want one searchable place for 10-K research notes. For example, you could build a database with goodwill by segment, impairments by year, cushion disclosures and answers to the five questions. The built-in AI can summarize or search notes you've already written. Features and pricing vary by plan, so confirm them on Notion's site.",
+      "not_for": "Pulling or checking financial data. It doesn't replace reading the filing, its AI summaries can be wrong, and it is a note-taking tool, not an investment research or advice service. If you only track one or two companies, a spreadsheet works fine."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Investors who want automatic alerts when a company they follow files something new. For example, a workflow could watch a feed of the company's filings and send new 8-Ks or 10-Qs to your email or a Notion database, so an Item 2.06 impairment filing doesn't slip past you. EDGAR offers feeds of company filings; check the current options on SEC.gov. Confirm app availability and plan limits on Zapier's site.",
+      "not_for": "People who follow only a handful of companies, because free email alerts from investor relations sites may be enough. Zapier moves information between apps but doesn't read or interpret filings. Costs can rise with high-volume workflows, and Make is a visual alternative that is often cheaper at high volume."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is goodwill impairment a bad sign?",
+      "answer": "Usually it means an acquisition has done worse than the buyer expected when it set the price, so it reflects badly on that deal and on how management spent the capital. On its own, it doesn't mean the company is in financial trouble, because no cash leaves the business when the charge is recorded. How worrying it is depends on its size relative to equity, what caused it and whether it is part of a pattern."
+    },
+    {
+      "question": "What causes goodwill impairment?",
+      "answer": "A goodwill impairment is recorded when a unit's estimated fair value (or recoverable amount under IFRS) falls below its carrying amount. Common causes include lost customers, weaker forecasts, failed integrations, industry downturns, a sustained fall in the share price and higher interest rates, which raise the discount rates used in valuations. Often the root cause is that the price assumed more growth or synergies than the business delivered."
+    },
+    {
+      "question": "Does goodwill impairment affect cash flow?",
+      "answer": "Not directly. The cash was spent when the acquisition closed, so the impairment is added back in operating activities on the cash flow statement. Indirectly, the business problems behind the charge, such as lost customers or weaker margins, may already be reducing cash flow."
+    },
+    {
+      "question": "Can a goodwill impairment be reversed?",
+      "answer": "No. Under both US GAAP and IFRS, a goodwill impairment can't be reversed in later periods, even if the business recovers. IFRS lets impairments of some other assets be reversed in limited cases, but goodwill is specifically excluded."
+    },
+    {
+      "question": "Is goodwill amortized?",
+      "answer": "Public companies don't amortize goodwill under US GAAP or IFRS. They test it for impairment at least once a year instead. US private companies can choose an option that amortizes goodwill, and some national standards require amortization, so check the accounting policies note to see which rules a company follows."
+    },
+    {
+      "question": "Is goodwill impairment tax-deductible?",
+      "answer": "It depends on the country and on how the acquisition was structured. Often the impairment brings little or no immediate tax benefit. The income tax note in the 10-K usually explains the tax effect of significant charges, and a qualified tax professional can help with specific situations."
+    }
+  ],
+  "conclusion": "Goodwill is the premium paid in an acquisition above the fair value of the identifiable net assets acquired. A goodwill impairment is the point where the books admit that part of that premium is gone. The charge is non-cash because the money was spent when the deal closed, but it is still a clear verdict on how well management used shareholders' capital. To read one well, start by sizing goodwill against assets and equity. Then check the goodwill rollforward by segment, the original acquisitions note, the critical accounting estimates and the auditor's report. Compare GAAP earnings with the adjusted figures, and work through the five questions. Our guide to reading a 10-K with AI can help you find these sections faster. Always check what you find against the filing itself. Accounting and tax rules differ by country, so talk to a licensed adviser or check your local regulator's guidance before making personal investment decisions.",
+  "keyword": "what is goodwill impairment",
+  "niche": "reading financial statements and understanding company numbers",
+  "version": 2,
+  "slug": "what-is-goodwill-impairment-worked-example-10-k-guide",
+  "published": "2026-10-08T22:11:14+00:00"
+}

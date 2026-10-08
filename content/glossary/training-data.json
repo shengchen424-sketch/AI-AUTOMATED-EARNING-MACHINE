@@ -1,0 +1,22 @@
+{
+  "term": "Training Data",
+  "section": "AI & Tech",
+  "short_definition": "Training data is the collection of examples—text, images, audio, code or numbers—that a machine learning model learns patterns from before it is used to make predictions or generate content.",
+  "explanation": [
+    "During training, a model repeatedly adjusts its internal settings, called parameters, to fit patterns in its training data. For a spam filter, the data might be emails labelled 'spam' or 'not spam.' A large language model learns from a very large body of text and code, then gets further training on selected examples and human feedback that shape how it responds. Data is usually split into training, validation and test sets, so the model can be checked on examples it hasn't seen.",
+    "A model can only be as good as the data it learned from. Gaps, errors, outdated information and biases in the data show up in the output. For example, a hiring model trained on past decisions can repeat past discrimination. Training data also creates a knowledge cutoff: a model doesn't know about events after its data was collected unless it is connected to newer sources, such as through retrieval-augmented generation (RAG).",
+    "Training data raises questions of quality, privacy and rights. More data isn't always better if it's messy. Collecting it raises issues of consent, copyright and personal information, and the rules differ by country. If you use AI tools at work, check each vendor's settings and terms to see whether your inputs may be used to train future models. Where that's unclear, don't enter confidential data."
+  ],
+  "example": "Example (illustrative numbers): a small online shop trains a model to flag fraudulent orders using 50,000 past orders, of which 500 (1%) were confirmed fraud. Because fraud is so rare in the data, a lazy model could label every order 'not fraud' and still be 99% accurate while catching no fraud at all. The fix starts with the data: gather more fraud examples, rebalance the dataset, and measure how many real fraud cases the model catches.",
+  "common_mistake": "Assuming an AI model is neutral, complete or up to date by default. Ask what data it was trained on, how old that data is and whose perspectives may be missing.",
+  "related_terms": [
+    "Machine Learning",
+    "Overfitting",
+    "Large Language Model (LLM)",
+    "Fine-Tuning",
+    "AI Hallucination"
+  ],
+  "title": "Training Data",
+  "slug": "training-data",
+  "published": "2026-10-08T22:16:58+00:00"
+}

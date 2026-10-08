@@ -1,0 +1,22 @@
+{
+  "term": "Cash Runway",
+  "section": "Accounting & Business",
+  "short_definition": "Cash runway is the number of months a business can keep operating before it runs out of cash, calculated by dividing cash on hand by monthly net burn.",
+  "explanation": [
+    "The formula is: Runway = Cash available ÷ Monthly net burn. Net burn is cash going out minus cash coming in each month. If more cash comes in than goes out, the business isn't burning cash and runway isn't the limit. The same idea works for individuals: savings ÷ monthly shortfall shows how long you could cover a gap, such as time between jobs.",
+    "Runway matters because it sets your deadline. It tells founders when they need to raise money, cut costs or become profitable. Fundraising and winning customers usually take longer than expected, so many founders start acting well before the cash is nearly gone.",
+    "Runway is only as reliable as its assumptions. Burn often rises as a company hires, revenue may grow more slowly than forecast, and one-off costs such as taxes, annual software renewals or equipment can arrive all at once. Recalculate runway every month, and plan for a pessimistic case as well as the expected one."
+  ],
+  "example": "Example (illustrative numbers): a small company has 240,000 in the bank, spends 50,000 a month and brings in 20,000 a month in revenue. Net burn = 50,000 − 20,000 = 30,000. Runway = 240,000 ÷ 30,000 = 8 months. If it hires one more person at a total cost of 10,000 a month and revenue stays the same, net burn becomes 40,000 and runway shrinks to 6 months.",
+  "common_mistake": "Calculating runway from gross burn or an optimistic revenue forecast instead of actual net burn. The cash then runs out months earlier than planned.",
+  "related_terms": [
+    "Burn Rate",
+    "Cash Flow",
+    "Working Capital",
+    "Break-Even Point",
+    "Emergency Fund"
+  ],
+  "title": "Cash Runway",
+  "slug": "cash-runway",
+  "published": "2026-10-08T22:16:58+00:00"
+}

@@ -1,0 +1,269 @@
+{
+  "title": "Make.com Error Handling for Beginners: Pick the Right Handler",
+  "meta_description": "Make.com error handling for beginners: when to use Break, Resume, Ignore, Commit and Rollback, plus a step-by-step AI retry setup and how to test it.",
+  "quick_answer": "Make.com error handling means right-clicking a module, choosing Add error handler, and ending that route with one of five handlers. Start with Break: it saves the failed bundle as an incomplete execution and can retry automatically, which suits AI timeouts and rate limits. Use Resume for a fallback value, Ignore only for expendable steps, and Commit or Rollback for database transactions. Enable incomplete executions in Scenario settings first.",
+  "key_takeaways": [
+    "Start with Break. It saves failed bundles as incomplete executions and can retry them automatically, which suits AI timeouts and rate limits.",
+    "Switch on 'Allow storing of incomplete executions' in Scenario settings before you rely on Break.",
+    "Retry only temporary errors like connection problems, rate limits and timeouts. Send permanent errors, such as bad credentials or bad data, to an alert instead.",
+    "Use Resume when a fallback value is better than stopping. Use Ignore only for steps you can truly afford to lose.",
+    "Commit and Rollback only affect modules that support transactions. They can't unsend an email or delete a CRM record.",
+    "Test every error route on purpose, using a cloned scenario and a fake lead, before a real failure happens."
+  ],
+  "who_this_is_for": "This guide is for beginners and small-business owners who have built their first Make.com scenarios, especially ones that call AI modules, and who want failed runs to retry and alert them so leads aren't silently lost.",
+  "intro": "An AI step that times out at 2 a.m. shouldn't cost you a lead. Make's error handlers exist for exactly this. Each one is a small instruction attached to a module that decides what happens when that module fails. The catch is that the names (Ignore, Resume, Commit, Rollback, Break) sound alike, and the documentation assumes you already know what a bundle or an incomplete execution is.\n\nThis guide explains each handler in plain English, with a simple \"use it when…\" rule for each one, and shows which errors are worth retrying. Then it walks through a real build: a lead-processing scenario whose AI module sometimes times out or hits a rate limit, set up to email you and retry with Break. You'll check the scenario settings that matter, break the setup on purpose to prove it works, and see when Zapier's simpler autoreplay is enough.\n\nMake changes its menus and setting names from time to time. Check each label against your current Make interface and the Make Help Center as you follow along.",
+  "steps": [
+    {
+      "name": "Enable incomplete executions",
+      "text": "Open the scenario, click the settings (gear) icon in the editor's bottom toolbar and switch on 'Allow storing of incomplete executions'. Break needs this setting to save failed bundles. Check the exact label in your current Make interface."
+    },
+    {
+      "name": "Check the related settings",
+      "text": "In the same panel, leave 'Enable data loss' off. Decide whether you really need 'Sequential processing', because stored failures can hold back later runs when it's on. Note the 'Number of consecutive errors' limit, then save the scenario."
+    },
+    {
+      "name": "Add an error handler to the AI module",
+      "text": "Right-click the AI module (for example, an OpenAI or Anthropic module) and choose 'Add error handler'. Make creates a separate route that only runs when that module fails."
+    },
+    {
+      "name": "Put an email alert on the error route",
+      "text": "Make the first module on the route an Email or Gmail 'Send an email' module addressed to you. Map in the error type and message from the failed module, the lead's name and email from the trigger, and the scenario name. That way you can act without opening Make."
+    },
+    {
+      "name": "End the route with Break and set retries",
+      "text": "Add the Break handler after the email module. Turn on automatic completion, set about 3 attempts and choose an interval of 15–30 minutes, so a rate limit has time to reset before the next try."
+    },
+    {
+      "name": "Optionally split by error type",
+      "text": "Add a router after the email. Filter one path to temporary errors (such as ConnectionError, RateLimitError and ModuleTimeoutError) and end it in Break with retries on. End the other path in Break with retries off, so permanent errors wait for you to fix them. Check the current error type names in Make's docs."
+    },
+    {
+      "name": "Force a failure on a cloned scenario",
+      "text": "Clone the scenario, give the clone its own new webhook and leave it switched off. Make its AI module fail on purpose, for example by mapping a field you leave blank into the required prompt field. Click 'Run once', then send a fake lead to the clone's webhook."
+    },
+    {
+      "name": "Verify, clean up and activate",
+      "text": "Confirm three things: the alert email arrived, History shows a warning, and the bundle is listed in Incomplete executions. Fix the cause and retry the bundle once to prove the retry works. Then delete the test data, save the original scenario and switch it on."
+    }
+  ],
+  "comparison": {
+    "caption": "Make's five error handlers at a glance (check current behavior in Make's Help Center)",
+    "headers": [
+      "Handler",
+      "What happens to the failed bundle",
+      "Rest of the run",
+      "Run status",
+      "Use it when"
+    ],
+    "rows": [
+      [
+        "Ignore",
+        "Dropped. Nothing after this module runs for it",
+        "Continues with the next bundle",
+        "Success",
+        "The step is optional and losing that item is fine"
+      ],
+      [
+        "Resume",
+        "Replaced by substitute output you define",
+        "Continues normally, using your fallback values",
+        "Success",
+        "A placeholder value is better than stopping"
+      ],
+      [
+        "Commit",
+        "Processing stops. Changes already made by transactional modules are kept",
+        "Stops. Remaining bundles aren't processed",
+        "Success",
+        "Partial writes to a transactional database are still valid"
+      ],
+      [
+        "Rollback",
+        "Processing stops. Transactional changes are undone where supported",
+        "Stops. Remaining bundles aren't processed",
+        "Error",
+        "Half-finished database writes would leave your data inconsistent"
+      ],
+      [
+        "Break",
+        "Saved as an incomplete execution, with optional automatic retries",
+        "Make's docs say remaining bundles carry on",
+        "Warning",
+        "The failure is probably temporary and the data must not be lost"
+      ],
+      [
+        "No handler (default)",
+        "Run stops at the failing module. It may be stored if incomplete executions are on",
+        "Stops",
+        "Error",
+        "Avoid relying on this for important steps"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What error handling in Make actually means",
+      "paragraphs": [
+        "Error handling in Make is a set of instructions you attach to one module. It tells Make what to do when that module fails, so the whole run doesn't just stop with an error.",
+        "To add it, right-click a module and choose Add error handler. Make creates an error handler route, which is a separate branch that only runs when that module throws an error. The route ends with one of five handlers, which Make's docs also call directives. You can put ordinary modules on the route before the handler, such as an email or Slack alert.",
+        "With no handler, Make stops at the failing module and marks the run as an error. If incomplete executions are turned on, Make can store that failed run, and its docs describe automatic retries for some temporary error types. Repeated errors can also lead Make to deactivate the scenario. Adding a handler yourself means you decide the outcome instead of relying on these defaults."
+      ],
+      "bullets": [
+        "Error handler route: the branch that only runs when its module fails. Each module can have one.",
+        "Handler (directive): the last instruction on that route. It's one of Ignore, Resume, Commit, Rollback or Break.",
+        "Bundle: one item of data moving through your scenario, such as one lead from a form.",
+        "Incomplete execution: a saved, unfinished run that you can retry or resolve later, so the data isn't lost."
+      ]
+    },
+    {
+      "heading": "Make.com error handling for beginners: the five handlers in plain English",
+      "paragraphs": [
+        "Make has five error handlers. Each gives a different answer to the same two questions: what should happen to the failed bundle, and should the rest of the run continue?",
+        "Commit and Rollback confuse most beginners because they only really do anything with modules that support transactions. These are mostly database-style modules, and Make's docs mark which ones qualify. Neither handler can unsend an email or delete a record that an app has already created. In typical app-to-app scenarios, you'll mostly use Break, Resume and Ignore.",
+        "One more detail: Make's docs say an error route with no handler at the end behaves like Ignore. So if you add an alert module to a route, always finish the route with the handler you actually want. Otherwise the failed bundle is quietly dropped after the alert.",
+        "The list below explains what each handler does and gives a one-line rule for when to use it. \"Run status\" means how the run is labelled in the scenario's History tab: success, warning or error. The label matters because runs marked as errors count towards Make deactivating a scenario."
+      ],
+      "bullets": [
+        "Ignore: drops the failed bundle, marks the run as a success and moves on to the next bundle. Use it only when the step is optional and losing that one item really doesn't matter, such as a nice-to-have Slack ping.",
+        "Resume: replaces the failed module's output with substitute values you define, so later modules run as if nothing went wrong. Use it when there's a sensible fallback, such as writing 'Needs manual review' instead of an AI-generated score.",
+        "Commit: stops the run, keeps changes already made by modules that support transactions, and marks the run as a success. Use it when you're writing to a transactional database and partial work is still valid.",
+        "Rollback: stops the run, undoes changes in modules that support transactions where possible, and marks the run as an error. Use it when half-finished database writes would leave your data inconsistent.",
+        "Break: stops processing the failed bundle, saves it as an incomplete execution, marks the run with a warning and can retry automatically. Use it when the failure is probably temporary (a timeout, a rate limit, a service that's briefly down) and the data must not be lost."
+      ]
+    },
+    {
+      "heading": "Temporary vs permanent errors: which ones to retry",
+      "paragraphs": [
+        "Retry temporary errors automatically and send permanent errors to a person. Retrying a permanent error uses up operations and never succeeds.",
+        "Make labels every failure with an error type. You can see it in the run details in History, and you can map it into modules on the error route. The names below come from Make's help page on error types. Confirm the current list before you build filters around them.",
+        "Read the error message as well as the error type. Some AI providers return a 429 status when your account has run out of credit or hit a usage cap, not only when you send requests too fast. Retrying won't fix that until you top up your account or raise the limit."
+      ],
+      "bullets": [
+        "Usually temporary, so retry with Break: ConnectionError (the app couldn't be reached), RateLimitError (too many requests, often HTTP 429) and ModuleTimeoutError (the app took too long to respond).",
+        "Usually permanent, so send an alert and wait for a fix: DataError (bad or missing input), InvalidAccessTokenError and AccountValidationError (connection or credential problems), and InvalidConfigurationError (the module is set up wrong).",
+        "Unfamiliar error types: treat them as permanent until you've seen them clear up on their own once or twice."
+      ]
+    },
+    {
+      "heading": "Worked example: retrying a timed-out or rate-limited AI module",
+      "paragraphs": [
+        "When an AI step sometimes times out or hits a rate limit, the most reliable setup for beginners is an error route that emails you and then ends in Break with automatic retries. That way the lead is saved and processed later rather than lost.",
+        "Picture a common lead-processing scenario. A webhook receives a new form submission. An AI module (OpenAI, Anthropic or similar) summarizes and scores the lead. A CRM or Google Sheets module saves the result, and a final module pings your sales channel. When the AI provider is slow or busy, its module can fail with a timeout or rate-limit error. Trying again a few minutes later usually works.",
+        "Why Break and not one of the others? Ignore would silently drop a customer's enquiry. Rollback would stop the run without undoing anything useful, because CRM and AI calls aren't transactional. Resume is a reasonable alternative if every lead must reach your CRM straight away. Give the AI module substitute output, such as a score of 'unscored' and a summary of 'AI step failed – review manually', then work through those leads by hand.",
+        "When Make retries an incomplete execution, it starts from the module that failed. The webhook isn't triggered again and earlier modules don't run twice. There are two caveats. First, each failed attempt can run the error route again, so you may get one email per attempt. Second, every retry uses operations or credits. If the emails get noisy, send them only from the permanent-error path.",
+        "Build this error route on the AI module, in this order:"
+      ],
+      "bullets": [
+        "Email alert first: an Email or Gmail 'Send an email' module addressed to you. A simple template: subject 'Make alert: AI step failed for [lead email]', with body lines for the scenario name, error type, error message, and the lead's name and email, plus 'Make will retry automatically. Check Incomplete executions if this repeats.' Take the scenario name from Make's system variables and the error fields from the failed module, and check their exact names in the mapping panel.",
+        "Break handler last: turn on automatic completion, set about 3 attempts and choose a 15–30 minute interval, so the next try doesn't hit the same rate limit straight away.",
+        "Optional split by error type: add a router after the email. Filter one path to temporary errors and end it in Break with retries on. End the other path in Break with retries off, so permanent problems wait for you."
+      ]
+    },
+    {
+      "heading": "Scenario settings to check before relying on a handler",
+      "paragraphs": [
+        "Before any handler can protect your data, check the scenario's settings. In the scenario editor, click the settings (gear) icon in the bottom toolbar, and check the exact names in your current interface.",
+        "Also check the notification preferences in your Make profile so you get emails about errors and warnings. Stored incomplete executions are subject to your plan's limits, so clear out resolved ones from the scenario's Incomplete executions tab now and then.",
+        "If a webhook-triggered scenario does get switched off, check its webhook queue before you assume leads are lost. Make generally holds incoming webhook data while a scenario is inactive, within plan limits. Check Make's webhook docs for the details."
+      ],
+      "bullets": [
+        "Allow storing of incomplete executions: switch this on. Break depends on it, and without it a failed lead can simply disappear.",
+        "Enable data loss: leave this off for lead flows. When it's on, Make may discard data it can't store, for example when storage is full.",
+        "Sequential processing: when it's on, Make processes runs in order, and an unresolved incomplete execution can hold back later runs. That helps when order matters but can stall a busy lead flow.",
+        "Number of consecutive errors: how many failed runs in a row Make tolerates before it deactivates the scenario. Break ends runs with a warning rather than an error, which is one reason explicit handlers help keep a scenario running. Instant (webhook) triggers can behave differently, so check Make's docs for your trigger type.",
+        "Auto commit and Commit trigger last: these only matter for transactional modules. Beginners can usually leave the defaults."
+      ]
+    },
+    {
+      "heading": "How to test a failure on purpose",
+      "paragraphs": [
+        "The safest way to test error handling is to clone the scenario, make the AI module fail, click Run once and check three things: the alert email arrives, the run shows a warning in History, and the bundle appears in Incomplete executions.",
+        "When you clone a webhook-triggered scenario, give the clone its own new webhook so it can't pick up live leads. Use an obviously fake test lead, such as 'Test Lead – Delete Me'. If you added an error-type filter, loosen it for the test so the forced error can reach the route, then put it back afterwards.",
+        "After the test, fix the cause and either let the scheduled retry run or retry the incomplete execution by hand. This confirms that the retry actually finishes the job. Then delete the test records and incomplete executions, and leave the clone switched off so it never writes to live systems.",
+        "Here are three ways to make the AI module fail:"
+      ],
+      "bullets": [
+        "Bad input: map a field you leave blank in the test lead into a required field, such as the prompt, or enter an invalid model name. This is usually the quickest and most reliable option.",
+        "Bad credentials: switch the module to a test connection with an invalid API key. Some apps check keys when you create a connection, so it may not save. It also causes an authorization error, not a timeout, so it won't test a filter for temporary errors.",
+        "Simulated rate limit: temporarily swap in an HTTP 'Make a request' module pointed at a test endpoint that returns status 429. Note which error type Make reports. It may not be labelled as a rate-limit error, and that's worth knowing before you rely on a filter."
+      ]
+    },
+    {
+      "heading": "Common beginner mistakes (and how to prevent AI errors upstream)",
+      "paragraphs": [
+        "Most error-handling problems in Make come from a few avoidable mistakes, and you can prevent many AI failures before a handler is ever needed.",
+        "To prevent errors at the source, limit how many items your trigger processes per run, and add a Sleep module (in Tools) between heavy AI calls. Also cap the AI module's maximum output length so responses finish sooner, and keep prompts focused. Fewer timeouts and rate limits mean fewer retries to pay for.",
+        "Mistakes to avoid:"
+      ],
+      "bullets": [
+        "Putting Ignore on a critical module, which turns a visible failure into silent data loss.",
+        "Adding Break before turning on 'Allow storing of incomplete executions'.",
+        "Automatically retrying permanent errors, such as a bad API key or invalid data. These retries use up operations and never succeed.",
+        "Setting a 1-minute retry interval for rate-limit errors, which often hits the same limit again.",
+        "Ending an alert route without a handler, so the bundle is dropped after the email.",
+        "Expecting Rollback to undo emails, CRM records or spreadsheet rows.",
+        "Never testing the error route until a real failure happens."
+      ]
+    },
+    {
+      "heading": "When Zapier's simpler autoreplay is enough",
+      "paragraphs": [
+        "Zapier's autoreplay is enough if your automation is a short, linear Zap and all you need is \"try the failed step again later, and tell me if it still fails.\"",
+        "Autoreplay is a Zapier setting that automatically replays failed steps several times over a period of hours, with nothing for you to build. It's only available on certain paid plans, and Zapier sets the retry schedule, not you, so check both details on Zapier's site. Zapier also sends error notification emails and lets you replay runs by hand from Zap history. It has also added custom error-handling paths for individual steps, so confirm which plans include them.",
+        "If your lead flow is a form, one AI call and a spreadsheet row, and an hour's delay is fine, Zapier's autoreplay plus an alert is a perfectly reasonable choice. If missed or duplicated leads cost you real money, Make's handlers are worth the extra setup.",
+        "Make is the better choice when you need more control:"
+      ],
+      "bullets": [
+        "Different responses to different error types on the same module.",
+        "Fallback values with Resume, so the workflow keeps going.",
+        "Your own retry count and interval for each module.",
+        "Transactional database steps that should Commit or Rollback.",
+        "High-volume scenarios where the cost per run matters. Compare current pricing on both vendors' sites."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Make",
+      "best_for": "Builders who want control over failures module by module: Break with retries, fallback values with Resume, alert emails on an error route and different handling for each error type. It's especially worth it for higher-volume lead or AI scenarios where per-run cost matters.",
+      "not_for": "People who want retries to just work with no setup, or who don't want to learn about scenario settings, routers and incomplete executions."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Short, linear automations where automatically replaying failed steps plus an email alert covers everything you need, and an hour or two of delay is harmless.",
+      "not_for": "Workflows that need different responses to different error types, your own retry timing or transactional database behavior. It's also a weaker fit for very high-volume runs where task costs add up, so compare current pricing."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What happens in Make if I don't add an error handler?",
+      "answer": "The run stops at the failing module and is marked as an error, so nothing after that module runs for that bundle. If 'Allow storing of incomplete executions' is on, Make can save the failed run, and its docs describe automatic retries for some temporary error types. Repeated errors can make Make deactivate the scenario, so add your own handlers to important modules."
+    },
+    {
+      "question": "Does the Break error handler retry automatically?",
+      "answer": "It can. In the Break handler's settings, turn on automatic completion and choose how many attempts to make and how long to wait between them. If you leave it off, the failed bundle stays in Incomplete executions until you retry or resolve it yourself. Break only works when incomplete executions are enabled in Scenario settings."
+    },
+    {
+      "question": "What is the difference between Ignore and Resume in Make?",
+      "answer": "Ignore drops the failed bundle and moves on, so nothing after that module happens for that item. Resume treats the module as if it succeeded, using substitute output you define, so the modules after it still run with your fallback values. Use Resume when a placeholder is better than nothing, and Ignore only when losing the item really is fine."
+    },
+    {
+      "question": "How do I manually retry an incomplete execution in Make?",
+      "answer": "Open the scenario and go to its Incomplete executions tab, where each stored failure is listed. Fix the underlying problem first, then retry the item, or select several items and retry them together. Make continues from the module that failed. Button names can change, so check the Make Help Center if the labels look different."
+    },
+    {
+      "question": "Do error handler routes and retries use operations?",
+      "answer": "Yes. Modules on an error route use operations (or credits, depending on your plan) like any other module, and each automatic retry runs the scenario again from the failed module. Keep an eye on usage in your Make dashboard, and don't set automatic retries for errors that will never succeed."
+    },
+    {
+      "question": "Is Zapier's autoreplay the same as Make's Break handler?",
+      "answer": "They overlap, since both retry failed work later. Autoreplay is a setting you switch on, and Zapier controls the retry schedule. Break lets you choose the number of attempts and the interval for each module, and you can combine it with alert modules and error-type filters. Check which Zapier plans include autoreplay on Zapier's site."
+    }
+  ],
+  "conclusion": "For each module, Make's error handlers come down to one question: what should happen when this fails? In most beginner scenarios, anything that touches a customer, like the AI step in a lead flow, should get an email alert followed by Break with a few spaced-out retries, with incomplete executions switched on. Retry only temporary errors, and send permanent ones to an alert. Use Resume when a fallback value is good enough, Ignore only for steps you can truly lose, and Commit or Rollback for database work. Build the route, break it on purpose once on a clone, and check every handler and setting name against Make's current interface and Help Center. If your automation is simple and an hour's delay is harmless, Zapier's autoreplay may do the job with less setup.",
+  "keyword": "make.com error handling for beginners",
+  "niche": "no-code AI automation workflows (Zapier, Make, n8n)",
+  "version": 2,
+  "slug": "make-com-error-handling-for-beginners-pick-the-right-handler",
+  "published": "2026-10-08T22:04:42+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "term": "CapEx vs OpEx",
+  "section": "Accounting & Business",
+  "short_definition": "Capital expenditure (CapEx) is spending on long-lasting assets like equipment or buildings, while operating expenditure (OpEx) is day-to-day running costs like rent, salaries and software subscriptions.",
+  "explanation": [
+    "The difference between CapEx and OpEx is how long the benefit lasts. OpEx is used up within the current period, so it is recorded as an expense on the income statement right away. CapEx buys something that benefits the business for several years. It is recorded as an asset on the balance sheet, and its cost is spread over its useful life through depreciation (or amortisation for intangible assets).",
+    "The split changes how profitable a business looks in any one year. A large equipment purchase paid in cash hits cash flow immediately but reduces profit only gradually. Investors compare CapEx with operating cash flow to see how much cash a business really generates after maintaining and growing its assets. Tax treatment can also differ between the two.",
+    "Choosing between them is a trade-off between ownership and flexibility. Buying (CapEx) can be cheaper over the long run, but it ties up cash and leaves you with assets that may go out of date. Renting, leasing or subscribing (OpEx) keeps cash and flexibility but can cost more over time. What must be capitalised, and how it is deducted for tax, varies by country and accounting standard, so check with an accountant."
+  ],
+  "example": "Example (illustrative numbers): a bakery buys an oven for 12,000 that should last 6 years, and it pays 1,500 a month in rent. Rent is OpEx, so 18,000 of expense appears this year. The oven is CapEx: cash drops by 12,000 today, but with straight-line depreciation only 2,000 a year (12,000 ÷ 6) appears as an expense on the income statement.",
+  "common_mistake": "Judging a business by profit alone and missing large CapEx outflows that only show up on the cash flow statement. For small business owners, a related mistake is expensing a major asset purchase all at once when the rules require it to be capitalised.",
+  "related_terms": [
+    "Depreciation",
+    "Cash Flow Statement",
+    "Income Statement",
+    "Balance Sheet",
+    "EBITDA"
+  ],
+  "title": "CapEx vs OpEx",
+  "slug": "capex-vs-opex",
+  "published": "2026-10-08T22:16:58+00:00"
+}

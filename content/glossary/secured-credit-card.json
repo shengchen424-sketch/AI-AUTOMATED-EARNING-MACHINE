@@ -1,0 +1,21 @@
+{
+  "term": "Secured Credit Card",
+  "section": "Banking & Money",
+  "short_definition": "A secured credit card is a credit card backed by a cash deposit you pay upfront, which usually sets your credit limit and helps people build or rebuild credit history.",
+  "explanation": [
+    "A secured credit card works like a normal credit card, except you first give the issuer a refundable security deposit. The deposit often equals your credit limit. You get a monthly statement, must pay at least the minimum payment, and are charged interest on any balance you carry. The deposit protects the issuer if you stop paying. It is not used to pay your monthly bill.",
+    "Secured cards are one of the more accessible ways for people with no credit history or damaged credit to build a record of on-time payments. If the issuer reports to the credit bureaus, on-time payments and low balances can strengthen your credit report over time. Some issuers review accounts periodically and may upgrade you to an unsecured card and return your deposit, often called graduating.",
+    "Secured cards have drawbacks. Your deposit is tied up, and the low limit makes it easy to run a high credit utilization ratio. Some cards charge annual, setup or monthly fees, and interest rates can be high. Before applying, check the issuer's website to confirm that it reports to the major bureaus in your country, what fees apply and whether there is a path to graduation."
+  ],
+  "example": "Example (illustrative numbers): Lena deposits 300 and receives a card with a 300 limit. She puts one regular bill of about 30 on it each month and pays the full statement balance by the due date. Her utilization stays around 10% (30 ÷ 300) and she pays no interest. After a year she has twelve on-time payments on her credit report.",
+  "common_mistake": "Assuming the deposit covers your monthly bill. It doesn't, so missed payments still bring late fees, interest and negative marks on your credit report, which defeats the purpose of the card.",
+  "related_terms": [
+    "Credit Score",
+    "Credit Utilization Ratio",
+    "Credit Report",
+    "APR vs APY"
+  ],
+  "title": "Secured Credit Card",
+  "slug": "secured-credit-card",
+  "published": "2026-10-08T22:16:58+00:00"
+}

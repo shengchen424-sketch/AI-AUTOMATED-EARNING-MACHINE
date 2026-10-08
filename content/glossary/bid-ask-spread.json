@@ -1,0 +1,22 @@
+{
+  "term": "Bid-Ask Spread",
+  "section": "Investing",
+  "short_definition": "The bid-ask spread is the gap between the highest price a buyer is currently willing to pay (bid) and the lowest price a seller will accept (ask) for an asset.",
+  "explanation": [
+    "The bid-ask spread is a built-in cost of trading on an exchange. Buyers post bids and sellers post asks. When you place a market order to buy, you usually pay the ask. When you sell, you usually receive the bid. The difference goes to whoever provides liquidity, often a market maker. You pay this cost even when a broker advertises zero commission.",
+    "Spreads matter because you pay one every time you trade, even though they never appear as a fee. Heavily traded large-company stocks and popular ETFs tend to have narrow spreads. Wide spreads are more common on thinly traded small stocks, some bonds, niche ETFs, crypto pairs on smaller exchanges and anything traded outside normal market hours. Spreads also tend to widen when markets are stressed.",
+    "Your choice of order type is a trade-off. A limit order lets you control the price you pay, but it may never fill. A market order fills quickly but accepts whatever spread exists at that moment. Frequent trading multiplies spread costs, so spreads matter more to active traders than to people who buy and hold."
+  ],
+  "example": "Example (illustrative numbers): a stock shows a bid of 49.90 and an ask of 50.10, so the spread is 0.20. You buy 100 shares with a market order for 5,010 and immediately sell them with a market order for 4,990. The price didn't move, but you are down 20 (about 0.4%) before any fees. On a heavily traded stock quoted at 50.00 bid / 50.01 ask, the same buy-and-sell would cost 1.",
+  "common_mistake": "Assuming commission-free trading means trading is free. Placing market orders on thinly traded assets, or right at the market open when spreads are often widest, can quietly cost more than a commission would.",
+  "related_terms": [
+    "Market Order vs Limit Order",
+    "Liquidity",
+    "Exchange-Traded Fund (ETF)",
+    "Brokerage Account",
+    "Volatility"
+  ],
+  "title": "Bid-Ask Spread",
+  "slug": "bid-ask-spread",
+  "published": "2026-10-08T22:16:58+00:00"
+}

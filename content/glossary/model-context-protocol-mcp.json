@@ -1,0 +1,22 @@
+{
+  "term": "Model Context Protocol (MCP)",
+  "section": "AI & Tech",
+  "short_definition": "Model Context Protocol (MCP) is an open standard that lets AI applications connect to external tools and data sources—like files, databases or apps—through a common, reusable interface.",
+  "explanation": [
+    "Model Context Protocol connects AI apps to outside tools and data in a standard way. Anthropic introduced it in late 2024, and many AI tools and developers have since adopted it. It uses a client–server design. An AI application, such as a chat app or coding assistant, acts as the host and runs MCP clients. Those clients connect to MCP servers. Each server offers capabilities in a standard format: tools the model can use, resources such as documents it can read, and prompt templates.",
+    "Before standards like MCP, every AI app needed a custom integration for every service. With MCP, one server for, say, a calendar or a company database can work with any app that supports MCP. That makes it easier to build AI agents that can look things up and take actions, instead of only answering from their training data.",
+    "The main risk is security. Connecting a model to tools and data means it can read sensitive information and take real actions. Malicious or poorly built servers, or prompt injection hidden in documents and web pages, can trick the model into leaking data or doing things you didn't intend. Only install servers from sources you trust, give them the minimum permissions they need and require confirmation for sensitive actions. Support and features change, so check each application's documentation for current details."
+  ],
+  "example": "Example (illustrative): a freelancer connects their AI assistant to two MCP servers. One reads a local folder of invoices. The other connects to their accounting app with read-only access. They ask, 'Which invoices over 500 are more than 30 days overdue?' The assistant reads the invoice files, checks payment status in the accounting app and returns a list of 3 invoices. The freelancer didn't have to copy and paste any data, and the assistant has no permission to change records.",
+  "common_mistake": "Installing MCP servers from unknown sources or granting broad write access by default. The AI can then read and act on everything that server exposes.",
+  "related_terms": [
+    "AI Agent",
+    "API (Application Programming Interface)",
+    "Prompt Injection",
+    "Retrieval-Augmented Generation (RAG)",
+    "Large Language Model (LLM)"
+  ],
+  "title": "Model Context Protocol (MCP)",
+  "slug": "model-context-protocol-mcp",
+  "published": "2026-10-08T22:16:58+00:00"
+}

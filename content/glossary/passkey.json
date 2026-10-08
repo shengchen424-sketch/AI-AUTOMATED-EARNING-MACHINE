@@ -1,0 +1,19 @@
+{
+  "term": "Passkey",
+  "section": "AI & Tech",
+  "short_definition": "A passkey is a passwordless sign-in method that uses a cryptographic key pair stored on your device, unlocked with your fingerprint, face or device PIN, to log into websites and apps.",
+  "explanation": [
+    "A passkey replaces your password with a pair of linked keys that your device creates when you set it up. The website stores the public key. The private key stays on your device or in your password manager and is never sent to the website. When you sign in, the site sends a challenge. Your device asks you to unlock it with your fingerprint, face or PIN, then uses the private key to answer the challenge and prove it's you. Passkeys are based on open standards from the FIDO Alliance and W3C and are supported by major operating systems, browsers and password managers.",
+    "Passkeys fix the biggest weaknesses of passwords. There's nothing to reuse or forget. Each passkey only works on the real website's domain, so it won't work on a look-alike phishing site, which makes passkeys highly resistant to phishing. Your fingerprint or face data never goes to the website; it only unlocks the key on your device.",
+    "The drawbacks are account recovery and lock-in. If you lose your only device and your passkeys weren't synced or backed up, getting back into your accounts can be difficult. Syncing through one company's ecosystem can make switching platforms harder, although moving passkeys between providers is getting easier. Not every site supports passkeys yet. Keep a recovery method for each account, and use two-factor authentication on accounts that still rely on passwords. Check each service's security settings for its current options."
+  ],
+  "example": "Example (illustrative): Alex adds a passkey to an email account in its security settings. The next week, Alex gets a convincing fake 'account locked' email that links to a look-alike login page. With a password, Alex might have typed it in. With a passkey, the device doesn't offer a passkey for the fake domain, so there is nothing to steal. On the real site, signing in takes one fingerprint touch.",
+  "common_mistake": "Setting up a passkey on a single device with no sync, backup or recovery option, then getting locked out after losing or replacing that phone.",
+  "related_terms": [
+    "Two-Factor Authentication (2FA)",
+    "Phishing"
+  ],
+  "title": "Passkey",
+  "slug": "passkey",
+  "published": "2026-10-08T22:16:58+00:00"
+}

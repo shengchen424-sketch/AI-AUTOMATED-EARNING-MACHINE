@@ -1,0 +1,265 @@
+{
+  "title": "No-Code AI Agent to Research Prospects Before Sales Calls",
+  "meta_description": "Build a no-code AI agent to research prospects before sales calls. Get a sourced one-page brief and 3 tailored questions an hour before each call.",
+  "quick_answer": "To build an AI agent to research prospects before sales calls, create a Zapier workflow triggered by a Calendly or Google Calendar booking. It reads booking-form answers and the prospect's homepage. An AI step writes a one-page brief: what they do, likely pain points, three tailored questions and sources, with gaps marked 'unknown'. Zapier saves it to Notion and emails it to you an hour before the call.",
+  "key_takeaways": [
+    "Trigger on the booking itself (Calendly 'Invitee Created' or Google Calendar 'New Event') so every sales call gets a brief without you remembering to ask.",
+    "Give the AI only two sources: the booking-form answers and one or two public pages of the prospect's own website.",
+    "Tell the AI to write 'unknown' instead of guessing, to label pain points as inferences and to list every source it used.",
+    "Save the brief to Notion when the call is booked. Then use Formatter and Delay Until to email it 1 hour before the call, and check for cancellations before it sends.",
+    "Don't scrape sites whose terms forbid it, LinkedIn included, and keep sensitive personal data out of the AI step and Notion.",
+    "Before you switch it on, check how many tasks one run uses in Zap History. If you take only a few calls a month, a manual Notion template is faster."
+  ],
+  "who_this_is_for": "This guide is for consultants, coaches and solo service providers who book several discovery or sales calls a week through Calendly or Google Calendar and want a reliable prep brief without doing the research by hand.",
+  "intro": "Most consultants and coaches prep for discovery calls by skimming the prospect's website while the meeting link loads. That leads to generic questions, and the first ten minutes go on things the prospect already wrote on the booking form. This guide shows you how to build a no-code AI prospect research agent in Zapier that does the prep for you. When someone books a call, the agent reads their booking-form answers and their company homepage. It writes a one-page brief covering what they do, likely pain points, three tailored questions and its sources. Then it saves the brief to Notion and emails it to you an hour before the call. You'll also add guardrails so the brief never guesses, always shows its sources and stays away from data it shouldn't touch. Set aside a few hours for the first build and test. Plan features and prices change often, so check them on each vendor's website before you start.",
+  "steps": [
+    {
+      "name": "Create a Prospect Briefs database in Notion",
+      "text": "In Notion, create a full-page database called Prospect Briefs. Give it these properties: Name (title), Company (text), Email (email), Website (URL), Call time (date), Status (select: New, Cancelled, Called) and Sources (text). The Email property lets your cancellation Zap find the right page later. Give the Zapier connection access to this page, either when you first connect Notion to Zapier or later from the page's ... menu under Connections. The brief itself goes in the page body."
+    },
+    {
+      "name": "Set the booking trigger and make a test booking",
+      "text": "Create a new Zap and choose Calendly with the Invitee Created trigger. If your booking tool only syncs to your calendar, choose Google Calendar with the New Event trigger instead. Book a test call as a fake prospect, answer every booking question and enter a website you're comfortable fetching, such as your own. The later steps need this realistic sample data so you can map fields."
+    },
+    {
+      "name": "Filter to sales calls and get a clean website address",
+      "text": "Add Filter by Zapier straight after the trigger. Set it so the Zap only continues when the event type name matches your discovery or sales call, not sessions with existing clients. The most reliable input is a required 'Company website' booking question. As an optional fallback, use Formatter > Text > Split Text on '@' to take the domain from the prospect's email address. Don't use that domain if it belongs to a free email provider such as gmail.com or outlook.com."
+    },
+    {
+      "name": "Fetch one public page of their website",
+      "text": "Add a step that gets the prospect's homepage. For example, use Webhooks by Zapier with a GET request to the website URL, or a web-page parsing app if your plan includes one. Fetch one page, or two at most (homepage and About). Never crawl the whole site, and skip any site whose terms or robots.txt forbid automated access. Then use Formatter's Text options, Remove HTML Tags and then Truncate, to cut the text down to a few thousand characters so the AI step stays fast and cheap."
+    },
+    {
+      "name": "Add the AI step with a guardrail prompt",
+      "text": "Add an AI step. You can use AI by Zapier, or the ChatGPT (OpenAI) or Anthropic (Claude) app if you'd rather use your own API key. Paste in the prompt from the prompt section below, then map the booking-form answers, the website URL and the cleaned website text into the slots marked for them. Run a test and check two things. First, anything the sources don't support should say 'unknown'. Second, the Sources list should match exactly what you supplied."
+    },
+    {
+      "name": "Save the brief to Notion",
+      "text": "Add Notion's create database item action and choose Prospect Briefs. The exact action name can vary. Map the invitee's name, email, company, website, call start time and sources, and set Status to New. Put the AI output in the page content field. Note the Notion page URL in this step's output, because you'll add it to the email."
+    },
+    {
+      "name": "Delay the email until 1 hour before the call",
+      "text": "Add Formatter by Zapier, choose Date / Time and then Add/Subtract Time. Map the call's start time and enter -1 hour. Next, add Delay by Zapier with the Delay Until option and map the new time. Check that the time zone in both steps matches your Zapier account settings. If they don't match, the email can arrive an hour early or late."
+    },
+    {
+      "name": "Check for cancellations, then email yourself the brief",
+      "text": "After the delay, add Notion's find database item step to look up the same page again. Follow it with a Filter that only continues if Status is not Cancelled. A separate small Zap on Calendly's Invitee Canceled trigger sets that status; the timing section below explains how. Finish with a Gmail or Microsoft Outlook Send Email step to your own address. Use a subject like 'Brief: Priya Shah, Shah & Co, 2pm call', put the brief in the body and add the Notion link at the end."
+    },
+    {
+      "name": "Test end to end and check task usage",
+      "text": "Book one more test call that starts about 90 minutes from now, so you see the full run, including the delayed email. You may need to lower the event's minimum notice setting for a moment. Then cancel a second test booking to make sure the cancellation check stops its email. Finally, open Zap History, note how many tasks the full run used, multiply by the calls you expect each month and compare the total with your Zapier plan before you turn the Zap on."
+    }
+  ],
+  "comparison": {
+    "caption": "Trigger and timing options for a pre-call prospect research agent",
+    "headers": [
+      "Approach",
+      "Gets booking-form answers?",
+      "Handles reschedules",
+      "Best for"
+    ],
+    "rows": [
+      [
+        "Calendly 'Invitee Created' + Delay Until (this guide)",
+        "Yes, as separate fields you can map",
+        "Only with an added cancellation check (second Zap + Filter)",
+        "Most consultants and coaches who book through Calendly"
+      ],
+      [
+        "Google Calendar 'New Event' + Delay Until",
+        "Only if your booking tool writes them into the event description",
+        "Only with an added check for cancelled or moved events",
+        "People using Google appointment schedules or another tool that syncs to Google Calendar"
+      ],
+      [
+        "Two Zaps: brief at booking, email via Google Calendar 'Event Start'",
+        "Yes, captured by the first Zap",
+        "Better: the email follows the calendar's current time, though polling can make it a few minutes late",
+        "Calls that are often rescheduled or booked weeks ahead"
+      ],
+      [
+        "Same workflow built in Make",
+        "Yes, if your booking tool's Make app exposes them (check)",
+        "Needs its own timing setup, such as a scheduled scenario that looks for calls starting soon",
+        "Higher-volume users focused on cost per run"
+      ],
+      [
+        "Manual research with a Notion template",
+        "Yes, you read them yourself",
+        "Not an issue",
+        "Anyone taking fewer than a few sales calls a month"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What an AI prospect research agent does (and doesn't do)",
+      "paragraphs": [
+        "An AI prospect research agent is an automation that turns each new booking into a short, sourced brief you can read in two minutes before the call. In this build, the 'agent' is a fixed Zapier workflow with one AI step. It is not an autonomous bot browsing the web. That's on purpose: a fixed sequence behaves the same way every time, costs little to run and is easy to check when something looks wrong.",
+        "The brief answers three practical questions: what does this company do, what problems might they have, and what should I ask to find out? It uses exactly two sources: the prospect's booking-form answers and one or two public pages of their company website. That means you can trace every claim back to where it came from.",
+        "The agent helps you prepare. It doesn't qualify the prospect, sell for you, browse LinkedIn or guess revenue and team size. Treat every pain point in the brief as a guess to test with a question, not a fact to pitch against. The bullets below show a finished brief for a fictional prospect, written for a consultant who helps service firms streamline operations."
+      ],
+      "bullets": [
+        "Snapshot: Priya Shah, founder of Shah & Co Bookkeeping (shahco.example). Discovery call Thursday, 2pm.",
+        "What they do: Monthly bookkeeping and payroll for local trades businesses (source: homepage).",
+        "Likely pain points: (Inference) Setting up new clients takes too long. Booking form: 'we're drowning in new-client setup.' (Inference) Growth depends on referrals. Homepage: 'most of our clients come from word of mouth.'",
+        "Three questions: 'Walk me through the first week after a new client signs.' 'Where does setup get stuck most often?' 'If referrals slowed down, how would you find new clients?'",
+        "Unknowns to confirm: Team size, current software, budget, who makes the decision.",
+        "Sources: shahco.example homepage; Booking form."
+      ]
+    },
+    {
+      "heading": "What you need before you build",
+      "paragraphs": [
+        "You need five things: a Zapier account, a scheduling tool (Calendly or Google Calendar), a Notion workspace, an email account Zapier can send from, and an AI step. Plan limits matter here, so check each item on the vendor's own pricing page before you start rather than relying on any guide, this one included.",
+        "Much of the useful prep happens on your booking form, not in Zapier. Add a required 'Company website' question and an open question such as 'What would make this call worth your time?' Those two answers give the AI much better material than anything it could work out on its own, and you won't need to guess the website from email domains.",
+        "Also remove questions you don't need. Coaching intake forms often ask about health, relationships or money. If you don't need that before a first call, don't ask for it, because anything you collect can end up passing through the automation."
+      ],
+      "bullets": [
+        "Zapier: a plan that supports multi-step Zaps, Delay by Zapier and any premium apps you use (check Webhooks by Zapier in particular), with enough monthly tasks.",
+        "Calendly: check that your plan includes the Zapier integration, because free plans may limit integrations.",
+        "Google Calendar: works if you book through Google's appointment schedules or another tool that adds events to your calendar.",
+        "AI step: AI by Zapier, or the OpenAI or Anthropic app with your own API key. If you use your own key, the AI provider bills you separately.",
+        "Notion and email: permission to create a database in Notion, plus Gmail or Microsoft Outlook connected to Zapier."
+      ]
+    },
+    {
+      "heading": "Writing the prompt for your AI agent to research prospects before sales calls",
+      "paragraphs": [
+        "The prompt is your main guardrail. It keeps the AI to the sources you give it, makes it write 'unknown' instead of guessing and makes it list its sources. Paste the lines below into the AI step in order, fill in the parts in square brackets and map the Zapier fields where shown.",
+        "Each rule has a purpose. 'Unknown' makes the gaps visible, so you ask about them on the call instead of believing something the model made up. Quoting the phrase behind each pain point lets you check the reasoning in seconds. The Sources heading should list the exact URL fetched plus 'Booking form', so you can see at a glance what the brief is based on.",
+        "Describing your own offer in the role line is what makes the questions useful. Without it, the AI writes questions any salesperson could ask. With it, the questions point toward the problems you actually solve. Before you go live, test the prompt on three different sample bookings, including one where the website has very little text."
+      ],
+      "bullets": [
+        "Role: 'You prepare a one-page brief for [your name], a [type of consultant or coach] who helps [ideal client] achieve [outcome], before a discovery call.'",
+        "Sources: 'Use ONLY the booking-form answers and the website text below. Do not use outside knowledge about this person or company.'",
+        "No guessing: 'If something is not stated in the sources, write unknown. Never guess revenue, team size, tools, job titles or names.'",
+        "Inference labels: 'List 2 to 4 likely pain points. Mark each one as Inference and quote the phrase from the sources that suggests it.'",
+        "Questions: 'Write three open questions tailored to this prospect that test those pain points and relate to [your offer].'",
+        "Privacy: 'Do not repeat phone numbers, home addresses, or health, financial or other sensitive personal details, even if they appear in the sources.'",
+        "Format: 'Use these headings: Snapshot, What they do, Likely pain points, Three questions, Unknowns to confirm, Sources. Keep it under 350 words.'",
+        "Inputs: 'Booking answers: [map each field]. Website URL: [map URL]. Website text: [map cleaned text].'"
+      ]
+    },
+    {
+      "heading": "Guardrails: no guessing, no scraping against terms, no sensitive data",
+      "paragraphs": [
+        "A trustworthy research agent follows three rules. It writes 'unknown' instead of guessing, it only reads pages it's allowed to read, and it never stores sensitive personal data. The prompt takes care of the first rule. The other two depend on how you build the Zap.",
+        "Only fetch the prospect's own public company website, and only one or two pages. Before you rely on a site, check its terms of use and its robots.txt file. If either forbids automated access, skip the fetch and let the brief say 'unknown'. Don't point the Zap or any scraping tool at LinkedIn, because its User Agreement prohibits scraping and automated access. If a profile matters, open it yourself.",
+        "Keep sensitive personal data out of the workflow completely. Map only the booking fields the AI needs into the AI step and Notion. Leave out phone numbers and any answers about health, money, relationships or other personal circumstances."
+      ],
+      "bullets": [
+        "Map fields one by one. Never pass all the answers as a single block if some questions are sensitive.",
+        "Check your AI provider's data settings, including how long it keeps inputs and whether it can use them for training.",
+        "Decide how long you keep briefs. For example, archive or delete briefs for prospects who haven't become clients after 90 days.",
+        "Use Notion's sharing settings to limit who can see the Prospect Briefs database.",
+        "Update your privacy notice to say you use automation and AI tools to prepare for calls.",
+        "This is general information, not legal advice. If GDPR, UK GDPR or similar rules apply to you, have a qualified adviser check your setup."
+      ]
+    },
+    {
+      "heading": "Getting the brief to you 1 hour before the call",
+      "paragraphs": [
+        "The simplest way to time the email is a Formatter step that subtracts one hour from the call's start time, followed by a Delay Until step that waits until then. The brief is written and saved to Notion as soon as the call is booked, so you can read it early. The email is just a reminder that arrives when you need it.",
+        "Reschedules and cancellations are the weak spot. A delayed run keeps waiting for the original time even if the call moves. In Calendly, a reschedule usually shows up as a cancellation plus a new booking. The new booking creates a new brief, but you still need to stop the old delayed email from going out."
+      ],
+      "bullets": [
+        "Cancellation Zap: Calendly Invitee Canceled, then Notion's find database item (search by the invitee's email, and match the call time if they've booked before), then Notion's update database item to set Status to Cancelled.",
+        "Main Zap: after the delay, look up the Notion page again and add a Filter that only sends the email if Status isn't Cancelled.",
+        "Frequent reschedules: use the two-Zap approach. One Zap writes the brief at booking. A second Zap uses Google Calendar's Event Start trigger, set to fire a chosen time before the event, then finds the brief in Notion and emails it.",
+        "Long lead times: look up the maximum wait for Delay by Zapier in Zapier's help center. If people book further ahead than that, the Event Start approach avoids the limit."
+      ]
+    },
+    {
+      "heading": "How to check task usage against your Zapier plan",
+      "paragraphs": [
+        "Each run of this Zap uses several tasks. Check the real number in Zap History and multiply it by your monthly calls before you turn the Zap on. Zapier generally counts a task each time an action step completes successfully, and the trigger doesn't count. Zapier has said some built-in tools, such as Filter and Formatter, don't count either. The rules change, so check the current ones in Zapier's help center.",
+        "In this build, the steps to count are fetching the website, the AI step, creating the Notion page, the Notion lookup and sending the email. The cancellation Zap uses a few more tasks each time a call is cancelled. When your Filter stops a run, for example for a session with an existing client, the run ends early and uses few or no tasks. That's another reason to put the Filter directly after the trigger."
+      ],
+      "bullets": [
+        "Run one complete test booking, then open Zap History and note how many tasks that run used.",
+        "Multiply by the number of sales calls you expect in a busy month, not an average one.",
+        "Add the tasks from your cancellation Zap, multiplied by how many cancellations you usually get.",
+        "Compare the total with your plan's monthly task limit, and leave room for your other Zaps.",
+        "If you use your own OpenAI or Anthropic key, budget for that provider's charges separately."
+      ]
+    },
+    {
+      "heading": "Who this is not for (and the faster manual alternative)",
+      "paragraphs": [
+        "If you take fewer than a few sales calls a month, skip the automation and do the research by hand. It'll be faster than building, testing and maintaining a Zap.",
+        "For the manual version, create a reusable Notion template with the same headings as the AI brief: Snapshot, What they do, Likely pain points, Three questions, Unknowns to confirm and Sources. Before each call, read the booking answers, skim the homepage and About page, and fill in the template. You keep the same habits (sources, unknowns, tailored questions) with no setup.",
+        "The automation is worth it when you have enough calls that prep tends to get skipped. If you often go into calls unprepared or book discovery calls back to back, the agent pays back the time it takes to build. If not, it's just one more thing to maintain."
+      ],
+      "bullets": [
+        "Automate if: you have several discovery calls a week, you control your booking form, and prep often gets squeezed out.",
+        "Stay manual if: you take only a few calls a month, most calls are referrals you already know, or you can't keep sensitive intake answers out of the workflow.",
+        "Consider Make if: you handle a lot of calls and cost per run matters most. Check Make's current pricing, and plan the delayed email differently, as shown in the comparison table."
+      ]
+    },
+    {
+      "heading": "Improving the brief after your first 10 calls",
+      "paragraphs": [
+        "After your first 10 calls, compare each brief with what you learned on the call. Then adjust the prompt and the inputs rather than rebuilding the whole workflow. To track this, add a 'Brief accuracy' select property in Notion (Accurate, Partly, Off) and a 'What I learned' text field, and fill them in right after each call.",
+        "Don't add more data sources until the basics work reliably. Each new source adds tasks, more ways for the Zap to fail and more terms of use to check. A short brief built on two reliable sources is better than a long one full of guesses."
+      ],
+      "bullets": [
+        "Website text is almost empty: some sites load their content with JavaScript, so a simple fetch gets very little text. Accept 'unknown', or fetch the About page as well.",
+        "Wrong company: the prospect booked with a personal email or their agency's address. Make the website question required.",
+        "Generic questions: add more detail about your offer and ideal client to the role line of the prompt.",
+        "Brief too long: lower the word limit and ask for bullet points under each heading.",
+        "Email arrives at the wrong time: check the time zones in the Formatter step, the Delay step and your Zapier account settings.",
+        "Pain points look made up: require every pain point to quote a phrase from the sources, and tell the AI to write 'unknown' if it can't find one."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Zapier",
+      "best_for": "Consultants and coaches who already use Calendly or Google Calendar and want a no-code workflow that goes from booking to brief to timed email, with AI steps, filters and delays built in.",
+      "not_for": "People who take fewer than a few calls a month, where manual research is faster, or anyone running very high volumes who mainly cares about cost per run."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping every prospect brief in a searchable database where you can add call notes, track brief accuracy and keep a manual template for slower weeks.",
+      "not_for": "People who only want the emailed brief and don't need a record. Skip the Notion steps and save the tasks."
+    },
+    {
+      "product": "Make",
+      "best_for": "Higher-volume users who want the same workflow in a visual builder, with more control over branching and possibly a lower cost per run.",
+      "not_for": "Beginners who want the simplest possible setup and step-by-step instructions that match this Zapier guide, including the one-hour delayed email."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an AI agent research prospects on LinkedIn before a sales call?",
+      "answer": "You shouldn't automate it. LinkedIn's User Agreement prohibits scraping and automated access, so don't point Zapier or any scraping tool at LinkedIn profiles. If a profile matters, open it yourself before the call and add a note to the Notion brief."
+    },
+    {
+      "question": "How many Zapier tasks does a prospect research Zap use per call?",
+      "answer": "It depends on how many action steps you include. Zapier generally counts each successful action step as a task, and the trigger doesn't count. Run one full test booking, check the task count in Zap History and multiply by the number of calls you expect in a busy month."
+    },
+    {
+      "question": "Do I need a paid Zapier plan to build this?",
+      "answer": "Possibly. Multi-step Zaps, premium apps like Webhooks by Zapier and higher task volumes may need a paid Zapier plan, and the Calendly integration may need a paid Calendly plan. Check both vendors' current pricing pages, because plan features change."
+    },
+    {
+      "question": "What if the prospect has no website or books with a Gmail address?",
+      "answer": "The agent should still write the brief from the booking-form answers and put 'unknown' under What they do. The best fix is a required 'Company website' question on your booking form, so the agent rarely has to guess which site to read."
+    },
+    {
+      "question": "Can I build the same prospect research agent in Make instead of Zapier?",
+      "answer": "Yes. The same steps (booking trigger, website fetch, AI step, Notion, email) work in Make's visual scenario builder, and Make can be cheaper if you run a lot of calls. The main difference is timing: instead of one long delay, you may need something like a scheduled scenario that finds calls starting within the next hour. Compare current pricing and features on both vendors' sites before you choose."
+    },
+    {
+      "question": "Is it safe to send prospect information to an AI tool?",
+      "answer": "You can do it responsibly if you send as little as possible: map only the fields the AI needs and leave out sensitive personal details. Check your AI provider's settings for how long it keeps data and whether it uses inputs for training, and mention AI tools in your privacy notice. This is general information, not legal advice."
+    }
+  ],
+  "conclusion": "A good pre-call brief doesn't need to be clever. It needs to be accurate, short and on time. This Zapier build gives you that: it takes the prospect's booking answers and their own website and turns them into a one-page brief with likely pain points and three tailored questions, saved in Notion and emailed to you an hour before the call. Turn the guardrails on from day one: 'unknown' instead of guesses, sources listed, no scraping against a site's terms and no sensitive data. Then check task usage against your plan, test a cancellation, and review your first 10 briefs before you change the prompt. If you take only a few calls a month, use the manual Notion template for now and come back to this build when you're booking more calls.",
+  "keyword": "ai agent to research prospects before sales calls",
+  "niche": "AI agents and automation for solopreneurs",
+  "version": 2,
+  "slug": "no-code-ai-agent-to-research-prospects-before-sales-calls",
+  "published": "2026-10-08T22:05:13+00:00"
+}

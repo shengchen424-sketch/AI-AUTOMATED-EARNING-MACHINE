@@ -1,0 +1,21 @@
+{
+  "term": "Churn Rate",
+  "section": "Accounting & Business",
+  "short_definition": "Churn rate is the percentage of customers or subscribers who stop doing business with a company during a given period, such as a month or a year.",
+  "explanation": [
+    "The basic formula is: Churn rate = Customers lost during the period ÷ Customers at the start of the period × 100. Subscription businesses also track revenue churn, which is the share of recurring revenue lost to cancellations and downgrades. Losing one large customer can hurt more than losing several small ones.",
+    "Churn quietly caps growth. A business has to win new customers just to stay the same size. Every lost customer also lowers customer lifetime value (LTV), which makes customer acquisition cost (CAC) harder to earn back. Small differences in monthly churn add up to large differences over a year.",
+    "How you measure and respond to churn matters. Definitions vary, for example on exactly when a customer counts as lost, so only compare churn figures calculated the same way. Making it hard to cancel may lower churn briefly, but it damages trust and may break consumer-protection rules in some places. Better onboarding, more product value and good support tend to reduce churn more lastingly."
+  ],
+  "example": "Example (illustrative numbers): a software app starts March with 1,000 paying subscribers, and 40 cancel during the month. Monthly churn = 40 ÷ 1,000 = 4%. If that rate held steady, about 0.96^12 ≈ 61% of those subscribers would still be paying after a year. The app would need to replace about 39% of them just to stay the same size.",
+  "common_mistake": "Counting new sign-ups in the starting customer number, or mixing customer churn with revenue churn. Both make churn look lower than it is and can hide a retention problem.",
+  "related_terms": [
+    "Customer Lifetime Value (LTV)",
+    "Customer Acquisition Cost (CAC)",
+    "Burn Rate",
+    "Revenue vs Profit"
+  ],
+  "title": "Churn Rate",
+  "slug": "churn-rate",
+  "published": "2026-10-08T22:16:58+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "term": "Credit Report",
+  "section": "Banking & Money",
+  "short_definition": "A credit report is a record held by a credit bureau of your borrowing activity—accounts, balances, on-time or late payments and inquiries—which lenders use when deciding whether to lend to you.",
+  "explanation": [
+    "A credit report is built from information that lenders and some other companies send to credit bureaus, also called credit reference agencies. These include card issuers, banks and sometimes landlords, utilities or phone providers. Your report typically lists open and closed accounts, credit limits and balances, on-time and late payments, defaults or collections, and who has checked your credit. In the US, for example, the three main nationwide bureaus are Equifax, Experian and TransUnion. Other countries have their own agencies and rules.",
+    "Your credit score is calculated from the data in your report, so a mistake in the report can mean higher interest rates or a rejected application. Checking your report also helps you spot identity theft, such as accounts you never opened. Many countries give consumers the right to see their report and dispute errors. In the US, the official free source is AnnualCreditReport.com. Elsewhere, check your local regulator for how access works.",
+    "The main risk is never looking at your report. Errors and fraud can go unnoticed until you apply for a mortgage or loan. Be wary of third-party sites that offer a 'free report' but sign you up for a paid subscription. Each bureau may also hold slightly different information, so check all of them where you can."
+  ],
+  "example": "Example (illustrative): before applying for a car loan, Maya checks her credit report. It shows a credit card payment as 60 days late, but she paid it on time. She files a dispute with the bureau and attaches the bank statement showing the payment. Once the bureau corrects it, the late mark is removed before lenders see her application, instead of her finding the error after a rejection.",
+  "common_mistake": "Confusing a credit report with a credit score and only checking the score. Errors, unfamiliar accounts and signs of identity theft show up in the report itself, so they go unnoticed.",
+  "related_terms": [
+    "Credit Score",
+    "Hard vs Soft Credit Inquiry",
+    "Credit Utilization Ratio",
+    "Debt-to-Income Ratio (DTI)"
+  ],
+  "title": "Credit Report",
+  "slug": "credit-report",
+  "published": "2026-10-08T22:16:58+00:00"
+}

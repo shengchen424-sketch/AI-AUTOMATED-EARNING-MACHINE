@@ -1,0 +1,269 @@
+{
+  "title": "How to Put AI Skills on Your Resume (With 12 Examples)",
+  "meta_description": "How to put AI skills on your resume so recruiters and ATS pick them up: where they go, a bullet formula and 12 before-and-after examples.",
+  "quick_answer": "To put AI skills on your resume, add a short labeled AI line to your skills section using the job post's exact terms. Then prove it with 2–4 experience bullets showing the task, the AI tool or method, how you checked the output and a measurable result. Put AI work done outside a job in a projects section, and list only skills you can explain in an interview.",
+  "key_takeaways": [
+    "A list of AI tool names helps keyword searches find you, but it doesn't prove anything. Tie each tool to a task and a measurable result.",
+    "Put AI skills in three places: a labeled skills line, 2–4 achievement bullets and, for work done outside a job, a projects section.",
+    "Write each AI bullet as: task + AI tool or method + how you checked the output + result with a number.",
+    "Copy the job post's exact AI terms, such as “generative AI” or “Microsoft 365 Copilot,” but only where they're true for you.",
+    "Replace every placeholder in the examples with your own real figures or honest estimates. Never invent a number.",
+    "Only list AI skills you can explain in a 60-second interview story, including how you checked the output."
+  ],
+  "who_this_is_for": "This guide is for job seekers, career changers and freelancers in marketing, operations, finance, admin or client work who use AI tools and want their resume to show it in a way recruiters and applicant tracking systems take seriously.",
+  "intro": "Many job posts now mention AI tools, and lots of candidates respond by adding a line like “ChatGPT, Claude, Gemini” to their resume. Recruiters see lines like that often, and on their own they say very little. What gets attention is evidence: a specific task you improved with AI, how you did it, how you checked the output and what changed. This guide covers where AI skills belong on a resume, a four-part formula for AI bullets and how to match job-post wording for applicant tracking systems. It also includes 12 before-and-after examples from marketing, operations, finance, admin and freelance work. The numbers in the examples are placeholders. Replace them with your own results, and leave out anything you couldn't explain in an interview.",
+  "steps": [
+    {
+      "name": "Inventory your real AI use",
+      "text": "Make a simple table with five columns: task, tool, what you did, how you checked the output and result. Fill in every task where you've used an AI tool in the last year or two. Mark each one as paid work, freelance, a course or a personal project."
+    },
+    {
+      "name": "Gather numbers and evidence",
+      "text": "For each row, note before-and-after figures such as hours per week, turnaround time, volume, error rate or conversion. If you didn't track them, write down an honest estimate you can explain and mark it as approximate. Save links or screenshots for any projects you're allowed to share."
+    },
+    {
+      "name": "Highlight the AI terms in the job post",
+      "text": "Read the job post and mark every AI-related phrase, such as “generative AI,” “Microsoft 365 Copilot,” “workflow automation” or “data privacy.” Write down the employer's exact wording, because you'll use those terms in your resume wherever they're true for you."
+    },
+    {
+      "name": "Add a labeled AI line to your skills section",
+      "text": "Add a line called something like “AI & Automation” with roughly four to eight tools and methods. Use the job post's terms where they match your experience, and leave out anything you can't demonstrate."
+    },
+    {
+      "name": "Rewrite two to four achievement bullets",
+      "text": "Turn your strongest uses of AI into bullets using this pattern: task + tool or method + how you checked the output + measurable result. Pick a verb that matches how involved you really were (used, built, introduced or evaluated), and put each bullet under the job where the work happened."
+    },
+    {
+      "name": "Add a projects or certifications entry if needed",
+      "text": "If your best AI work was freelance, personal or part of a course, add it to a Projects section. Say what you built, which tools you used and the result, and add a link if you can. List any relevant courses under Certifications with the exact name, provider and year."
+    },
+    {
+      "name": "Check accuracy, confidentiality and formatting",
+      "text": "Make sure every number is real and every tool name is spelled the way the employer spells it. Remove client names or data you're not allowed to share. Keep skills as plain text rather than graphics or skill bars, and save the file in the format the employer asks for."
+    },
+    {
+      "name": "Prepare an interview story for each claim",
+      "text": "Practice a 60-second explanation for every AI skill and bullet on your resume. Cover the task, how you used the tool, how you checked the output, what went wrong and how you measured the result."
+    }
+  ],
+  "comparison": {
+    "caption": "Where AI skills go on a resume and what each place is for",
+    "headers": [
+      "Resume location",
+      "What to include",
+      "Works best when",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Skills section",
+        "A short, grouped line of AI tools and methods using the job post's wording",
+        "The job post names specific tools or skills you have actually used",
+        "A plain list proves nothing on its own; include only what you can demonstrate"
+      ],
+      [
+        "Achievement bullets (experience)",
+        "Task + AI tool or method + how you checked it + measurable result",
+        "You used AI at work and can put a number or honest estimate on the result",
+        "Giving AI credit for team results, or leaving out your own judgment"
+      ],
+      [
+        "Projects section",
+        "Personal, freelance or course work: what you built, the tools used and the result or a link",
+        "You're changing careers, freelancing, or your employer restricts AI at work",
+        "Unfinished or vague projects you can't walk through in detail"
+      ],
+      [
+        "Certifications or training",
+        "Exact course name, provider and year",
+        "You're newer to AI and the course included hands-on work",
+        "Courses show learning, not results; pair them with a project or bullet"
+      ],
+      [
+        "Professional summary",
+        "One line on how AI fits into the way you work",
+        "AI is central to the role you're applying for",
+        "Buzzwords like “AI-savvy” with no bullet to back them up"
+      ],
+      [
+        "Cover letter or LinkedIn",
+        "A longer story about one AI workflow and its result",
+        "You need more space to explain the context",
+        "Details or numbers that don't match your resume"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why a List of AI Tool Names Isn't Enough",
+      "paragraphs": [
+        "A plain list of AI tool names isn't enough because it shows you have access to software, not that you do better work with it. ChatGPT, Claude, Gemini and Microsoft Copilot are widely available, and many offer free tiers, so naming them rarely sets you apart.",
+        "Hiring managers want to know whether you can use AI on real work. That means choosing a sensible task, getting usable output, catching the mistakes and delivering a result the business cares about. A tool name answers none of those questions. A bullet that links the tool to a task and a result answers all of them in one line.",
+        "Tool names still matter for search. Recruiters often search applicant tracking systems by keyword, so naming the tools you really use helps your resume get found. Treat your tool list as keywords and let your experience bullets do the convincing."
+      ],
+      "bullets": [
+        "A tool list says “I've opened this app.” A strong bullet says “I used it on this task.”",
+        "A tool list says nothing about quality. A strong bullet shows you checked and fixed the output.",
+        "A tool list shows no results. A strong bullet shows a change in time, cost, quality or revenue.",
+        "A tool list is easy to claim. A strong bullet is specific enough to discuss in an interview."
+      ]
+    },
+    {
+      "heading": "How to Put AI Skills on Your Resume: The Three Places They Belong",
+      "paragraphs": [
+        "AI skills belong in three places on a resume: a short, grouped line in your skills section, two to four achievement bullets in your work experience, and a projects section if your best AI work happened outside a job. Your summary can mention AI too, but only when AI is central to the role.",
+        "In the skills section, add a labeled line such as “AI & Automation” with roughly four to eight items. Mix tool names with methods like prompt design, AI-assisted research or workflow automation. Methods show you understand the work, not just the product names. If the role is AI-heavy, move this line near the top of your skills section.",
+        "Achievement bullets do most of the convincing. Mention AI where it actually changed a result, not in every line, and put each bullet under the job where the work happened.",
+        "A projects section suits AI work you did on your own time, for a freelance client or in a course that produced a real end product. It's especially useful if you're changing careers or your employer restricts AI tools. Courses and certificates can go in a Certifications or Education section. They show learning rather than results, so pair them with a project if you can."
+      ],
+      "bullets": [
+        "Skills line template: AI & Automation: [named tool], [named tool], [method], [method], [automation tool].",
+        "Skills line example: AI & Automation: Microsoft 365 Copilot (Excel, Outlook), ChatGPT, prompt design, AI-assisted research, Zapier workflow automation.",
+        "Project example: Invoice intake automation (personal project). Built a Make workflow that pulls invoice details from email attachments using an AI step and logs them to a spreadsheet; reached [X%] field accuracy across [N] test invoices after manual checks.",
+        "Certification format: [Exact course name], [Provider], [Year], with a link to the finished project if the course required one.",
+        "Summary example (AI-heavy roles only): Operations coordinator who uses AI and no-code automation to cut manual admin, with a focus on accuracy and clearly documented processes."
+      ]
+    },
+    {
+      "heading": "The AI Bullet Formula: Task + Tool + Check + Result",
+      "paragraphs": [
+        "A strong AI resume bullet names the task, the AI tool or method, how you checked the output and the measurable result. A practical pattern is: action verb + task + “using [tool or method]” + how you checked it + result with a number.",
+        "For example: “Drafted weekly sales summaries using Microsoft 365 Copilot, checking every figure against the CRM, cutting report prep from [X] hours to [Y].” The task shows relevance, the tool name matches keyword searches, the check shows judgment and the number shows impact.",
+        "The check isn't filler. AI tools can make confident mistakes, so showing that you verified the output demonstrates the judgment a cautious hiring manager is looking for.",
+        "For the result, measure what changed: time saved per week, turnaround time, output from the same team, error or rework rate, conversion or revenue, or cost. If you didn't track exact data, use an honest estimate you can explain, such as “about 3 hours a week,” or describe the scale instead (volume, frequency or team size). Never invent a figure. A number you can't back up is worse than no number.",
+        "Your verb should also match how involved you really were. The bullets below show which verbs fit which kind of AI work."
+      ],
+      "bullets": [
+        "Used, drafted, summarized: you applied a ready-made AI tool to your own tasks.",
+        "Built, configured, automated: you set up something reusable, such as a prompt library, an automation or a custom assistant.",
+        "Introduced, rolled out, trained: you brought AI into a team's process, wrote usage guidelines or taught colleagues.",
+        "Evaluated, tested, governed: you compared tools, assessed risks or set rules for data privacy and review."
+      ]
+    },
+    {
+      "heading": "How to Match Job Post Wording for Applicant Tracking Systems",
+      "paragraphs": [
+        "Use the exact AI terms from the job post, where they truly describe your experience, so applicant tracking systems (ATS) and recruiters can match your resume to the role. ATS products differ in how they read and rank resumes, but recruiters commonly search them by keyword, so exact wording helps.",
+        "Use the employer's version of each term. If the post says “generative AI,” don't write only “GenAI.” If it says “Microsoft 365 Copilot,” write that rather than just “Copilot.” For acronyms, write the full term once with the short form in brackets, such as “large language models (LLMs),” so a search for either one finds you.",
+        "Keep the formatting plain. Use standard headings like Skills, Experience and Projects. Keep skills as text rather than images, charts, icons, skill bars or text boxes, which some systems can't read reliably.",
+        "Matching isn't copying. Choose the phrases that describe what you've actually done and use them in context. A human reader will usually notice if you paste in the job's whole list of requirements, and you'd have to defend every claim. Common AI terms to look for in job posts include:"
+      ],
+      "bullets": [
+        "Generative AI, large language models (LLMs)",
+        "Prompt engineering or prompt design",
+        "Named tools: Microsoft 365 Copilot, Gemini in Google Workspace, ChatGPT, Claude",
+        "Workflow automation, no-code automation, Zapier, Make, Power Automate",
+        "AI-assisted analysis, data analysis, reporting",
+        "Responsible AI use, data privacy, AI governance"
+      ]
+    },
+    {
+      "heading": "AI Resume Bullet Examples 1–6: Marketing and Operations",
+      "paragraphs": [
+        "These before-and-after examples turn a vague mention of AI into a bullet tied to a task and a result. Every bracketed figure is a placeholder for your own real number. Swap each tool name for the one you actually used."
+      ],
+      "bullets": [
+        "1. Marketing (content). Before: “Used ChatGPT to write blog posts.” After: “Built an AI-assisted content workflow (brief, ChatGPT outline, human edit and fact-check), raising output from [X] to [Y] posts per month while every piece still passed editorial review.”",
+        "2. Marketing (email). Before: “Familiar with AI copywriting tools.” After: “Wrote and A/B tested [N] AI-drafted subject lines per campaign, lifting average open rate from [X%] to [Y%] across [N] sends.”",
+        "3. Marketing (research). Before: “Used AI for market research.” After: “Analyzed [N] customer reviews and survey responses with Claude to find recurring themes, verified them against the raw comments, and used the findings to shape messaging for [campaign], contributing to a [X%] lift in [conversion metric].”",
+        "4. Operations (automation). Before: “Knowledge of Zapier and AI.” After: “Automated intake of about [N] supplier emails per week with a Zapier workflow and an AI extraction step, routing order details to [system] and saving roughly [X] hours of manual data entry weekly.”",
+        "5. Operations (documentation). Before: “Used AI to write SOPs.” After: “Turned [N] recorded process walkthroughs into standard operating procedures using AI transcription and summarization, had each one reviewed by its process owner, and cut new-hire ramp-up from [X] to [Y] weeks.”",
+        "6. Operations (analysis). Before: “Experience with AI data analysis.” After: “Used Copilot in Excel to clean and reconcile [N] rows of monthly inventory data, flagging [N] recurring mismatches and reducing stock write-offs by [X%].”"
+      ]
+    },
+    {
+      "heading": "AI Resume Bullet Examples 7–12: Finance, Admin and Freelance",
+      "paragraphs": [
+        "The same task-tool-check-result pattern works for finance, admin and freelance roles, where accuracy, turnaround time and client results usually matter most. In finance especially, make the human check obvious.",
+        "If a bullet can't fit all four parts, keep the task and the result and drop the tool name. Don't do it the other way round."
+      ],
+      "bullets": [
+        "7. Finance (reporting). Before: “Used AI in financial reporting.” After: “Drafted monthly variance commentary with Microsoft 365 Copilot from final figures, checked every line against the ledger, and cut month-end reporting time by [X] days.”",
+        "8. Finance (bookkeeping). Before: “AI tools for accounting.” After: “Set up and audited automatic transaction categorization rules in [accounting software, e.g. QuickBooks Online], reducing uncategorized items from [X] to [Y] per month and cutting reconciliation time by [X%].”",
+        "9. Admin (meetings). Before: “Use AI to take meeting notes.” After: “Introduced AI transcription for [N] weekly leadership meetings, sending reviewed action-item summaries within [X] hours and raising on-time follow-up from [X%] to [Y%].”",
+        "10. Admin (correspondence). Before: “Proficient in ChatGPT.” After: “Built a shared library of [N] tested prompts and templates for routine emails, cutting average response time from [X] to [Y] hours for a [N]-person team.”",
+        "11. Freelance (writing or design). Before: “AI-powered freelancer.” After: “Delivered [N] client projects using an AI-assisted research and drafting process, with full human editing and AI use disclosed to clients, growing monthly capacity from [X] to [Y] projects with a [X%] repeat-client rate.”",
+        "12. Freelance (support setup). Before: “Can build AI chatbots.” After: “Set up an AI support chat agent for an e-commerce client, configured with their FAQs and returns policy, which resolved [X%] of chats without a human and cut email tickets by [X%] over [period].”"
+      ]
+    },
+    {
+      "heading": "The Honesty Rule: Only List AI Skills You Can Demonstrate",
+      "paragraphs": [
+        "Only put an AI skill on your resume if you can walk an interviewer through how you used it, how you checked the output and what result it produced. Interviewers often ask about specific bullets, and some employers set practical tasks. An AI claim you can't explain does more harm than leaving it off.",
+        "Be precise about who did what. “Used AI to draft” and “AI wrote” are different claims. If a result came from a team effort, describe your part.",
+        "Respect confidentiality and company policy. Don't name clients or share figures you're not allowed to share; describe the scale in general terms instead. If your employer restricted AI tools, don't suggest you put company data into apps it hadn't approved. A careful hiring manager will see that as a risk, not a skill. Attitudes to AI also vary by employer, so check how the job post and the company's public materials talk about it.",
+        "Prepare a 60-second answer for each AI claim that covers these questions:"
+      ],
+      "bullets": [
+        "What was the task, and why did AI make sense for it?",
+        "Which tool did you use, and how did you set it up or prompt it?",
+        "How did you check accuracy, and what mistakes did you catch?",
+        "What went wrong, or what would you do differently?",
+        "How did you measure the result?"
+      ]
+    },
+    {
+      "heading": "Common Mistakes When Adding AI Skills to a Resume",
+      "paragraphs": [
+        "The most common mistake when adding AI skills to a resume is treating AI as a buzzword instead of a skill with evidence behind it. Each fix below takes only a few minutes, so check for them before every application."
+      ],
+      "bullets": [
+        "Listing every AI app you've ever opened. Keep only the tools that are relevant to the role and that you can demonstrate.",
+        "Using vague labels like “AI-savvy” or “AI enthusiast” with no bullet to back them up.",
+        "Calling yourself a “prompt engineer” when you've only written prompts for personal use. “Prompt design” or “AI-assisted drafting” is more accurate.",
+        "Sending a resume that AI wrote without editing it. Generic wording is easy to spot. Use AI for structure and proofreading, then rewrite in your own words and check every claim.",
+        "Giving AI all the credit, which hides your own judgment and contribution.",
+        "Letting AI crowd out your core qualifications. AI should support your story, not replace it."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Keeping a running log of your AI work, with the task, tool, how you checked the output, before-and-after numbers and links. This gives you real figures for the resume placeholders and ready-made interview stories. Check current AI features and pricing on Notion's website.",
+      "not_for": "Anyone happy with a simple document or spreadsheet. You don't need a new workspace just to track achievements, and you shouldn't store your employer's confidential data in a personal account."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Building a small, real automation project for your Projects section if you're targeting operations, admin or marketing roles whose job posts mention workflow automation or Zapier. Check what the current free plan includes on Zapier's website.",
+      "not_for": "People whose target roles don't involve automation. Learning a tool just to list it adds little. If the job post names Make or Power Automate instead, practice in that tool."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "Proofreading your finished resume and cover letter for grammar, clarity and tone, especially after several rounds of rewriting your bullets. Check current plans and features on Grammarly's website.",
+      "not_for": "Writing your achievements for you. It can't know your real results, and heavily AI-rewritten resumes can sound generic. You may not need it if you already have a careful human proofreader."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I list ChatGPT as a skill on my resume?",
+      "answer": "Yes, if you've used it for real work and the role values it, but don't rely on the name alone. List it in your skills section so keyword searches find it. Then back it up with at least one bullet showing the task you used it for, how you checked the output and the result."
+    },
+    {
+      "question": "Is prompt engineering a real skill to put on a resume?",
+      "answer": "Writing clear, structured prompts and refining them until the output is reliable is a real skill. As a job title, though, “prompt engineer” suggests specialist work. If the job post says “prompt engineering” and you have concrete examples, you can use that phrase; otherwise “prompt design” or “AI-assisted drafting” is more accurate."
+    },
+    {
+      "question": "What if I've only used AI tools for personal projects?",
+      "answer": "Put them in a Projects section rather than your work experience. Describe what you built, which tools you used and what it achieved, and add a link if possible. A finished personal project you can explain is credible evidence, especially for career changers. Just don't suggest it was done for an employer."
+    },
+    {
+      "question": "Should I put AI certifications or courses on my resume?",
+      "answer": "Yes, if they're relevant to the role and you completed them. List the exact course name, provider and year in a Certifications or Education section. A course on its own shows you learned something, not that you applied it, so pair it with a project or bullet that shows the skill in use."
+    },
+    {
+      "question": "Can I use AI to write my resume?",
+      "answer": "You can use AI to suggest a structure, find stronger verbs or proofread. Rewrite what it gives you in your own words and check every claim. Resumes written entirely by AI tend to sound generic and can include achievements you can't back up. Some employers have rules about AI use in applications, so read their instructions."
+    },
+    {
+      "question": "How many AI skills should I list on a resume?",
+      "answer": "Most people need four to eight AI-related items in the skills section and two to four AI bullets in their experience. More than that can bury your core qualifications unless the role is focused on AI. Prioritize the terms the job post uses that you can also demonstrate."
+    }
+  ],
+  "conclusion": "AI skills work on a resume when you treat them like any other skill: show where you used them, what you did, how you checked the output and what changed. Keep a short labeled line in your skills section that matches the job post's keywords. Back it up with two to four bullets that each show a task and a result, and use a Projects section for anything you built outside a job. Fill every placeholder with real numbers or honest estimates, use the job post's wording only where it's true for you, and practice a 60-second story for each claim. If you can explain an AI skill confidently in an interview, it belongs on your resume. If you can't, leave it off.",
+  "keyword": "how to put ai skills on resume",
+  "niche": "career growth, skills and side income",
+  "version": 2,
+  "slug": "how-to-put-ai-skills-on-your-resume-with-12-examples",
+  "published": "2026-10-08T22:10:58+00:00"
+}

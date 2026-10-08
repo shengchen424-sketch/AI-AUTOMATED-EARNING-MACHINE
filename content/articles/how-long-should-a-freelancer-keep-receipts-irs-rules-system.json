@@ -1,0 +1,272 @@
+{
+  "title": "How Long Should a Freelancer Keep Receipts? IRS Rules + System",
+  "meta_description": "How long should a freelancer keep receipts? Learn the IRS 3-, 6- and 7-year rules, which records to keep longer, and a simple filing system.",
+  "quick_answer": "US freelancers should generally keep receipts three years from filing (or from the due date, if filed early). That rises to six years if unreported income exceeds 25% of the gross income shown, seven years for bad-debt or worthless-securities losses, and indefinitely if no return was filed. Keep asset and carryover records until the period ends for the year you sell the asset or use up the carryover.",
+  "key_takeaways": [
+    "Baseline: keep receipts and supporting records for at least 3 years from the date you filed. Count from the due date if you filed early, or from the actual filing date if you filed on extension.",
+    "Longer IRS periods apply in some cases: 6 years if you left out income above 25% of the gross income shown on the return, 7 years for a bad-debt or worthless-securities loss, at least 4 years for employment tax records, and indefinitely if you never filed.",
+    "Keep records for equipment, a home office and carryovers in a separate Permanent folder until the limitation period ends for the year you sell the asset or last use the carryover.",
+    "Scanned or photographed receipts are generally acceptable if they are complete, legible and retrievable. Capture thermal-paper receipts within a day or two, before they fade.",
+    "Use one folder per tax year plus a Permanent folder, name files date_vendor_amount_category, and back everything up in two places.",
+    "State and international rules can be longer. Confirm the details in IRS Publication 583 or with your own tax authority, and ask a qualified tax professional about your own situation."
+  ],
+  "who_this_is_for": "This guide is for US freelancers, independent contractors and sole proprietors who want a clear answer on how long to keep receipts, plus an easy system for storing them and safely destroying them later.",
+  "intro": "Receipts pile up fast when you freelance: software subscriptions, a new laptop, travel, client meals, the work share of your internet bill. Sooner or later you'll ask how long you have to keep all of it and when you can throw some away. This guide answers that using the record-retention periods the IRS publishes. It covers the three-year baseline and the cases where it runs longer. It explains which records need to last much longer (assets, a home office and carryovers) and what a receipt has to show. It also covers whether digital copies count, a folder and naming system you can set up in an afternoon, tools that can automate receipt capture, and how to destroy old records safely. Rules change and differ by state and country. This article is general information, not tax or legal advice, so check IRS Publication 583 or your local tax authority before you shred anything.",
+  "steps": [
+    {
+      "name": "Work out each year's retention date",
+      "text": "Start with the IRS three-year baseline. Count it from the date you filed, from the due date if you filed early, or from the actual filing date if you filed on extension. Flag any year where a longer rule applies: six years if you left out income above 25% of the gross income shown, seven years for a bad-debt or worthless-securities loss, or indefinitely if you didn't file. Keeping every year for seven years is a common personal buffer, not an IRS requirement."
+    },
+    {
+      "name": "Create year folders and a Permanent folder",
+      "text": "Make one folder per tax year with numbered subfolders: 01 Income, 02 Expenses, 03 Statements, 04 Vehicle, 05 Home office and 06 Return. Add a separate Permanent folder for records that need to outlast the yearly clean-out."
+    },
+    {
+      "name": "Capture receipts within a day or two",
+      "text": "Photograph or scan each paper receipt soon after you get it, especially receipts printed on thermal paper, which can fade. Forward emailed receipts to the same place, using your accounting software's receipt capture, a phone scanner app or an automation."
+    },
+    {
+      "name": "Name every file the same way and note the business purpose",
+      "text": "Use the pattern date_vendor_amount_category, for example 2026-03-14_OfficeDepot_84.20_Supplies.pdf. For meals, travel and gifts, add a short note on the business purpose and who was involved, either in the file name, on the image or in your bookkeeping software."
+    },
+    {
+      "name": "Move long-life records to the Permanent folder",
+      "text": "File receipts for equipment and vehicles, home purchase and improvement records (if you claim a home office), carryover workpapers and nondeductible retirement contribution records in the Permanent folder. Log each asset in a simple register with these columns: item, purchase date, cost, deduction method, date disposed and sale price."
+    },
+    {
+      "name": "Back up in two places",
+      "text": "Keep one copy in a cloud service with two-factor authentication turned on, and a second copy on an external drive or in a separate account. If you use accounting software, export key reports and important receipts at year end so you aren't relying on one vendor."
+    },
+    {
+      "name": "Mark each year's keep-until date",
+      "text": "Put a small text file in each year folder named with its earliest destroy date, such as KEEP-UNTIL-2029-04.txt for a 2025 return filed in April 2026. Change the date if you filed on extension or a longer rule applies."
+    },
+    {
+      "name": "Review and destroy securely once a year",
+      "text": "After you file each year, open any folders whose keep-until date has passed. Check that nothing in them supports an asset you still own or a carryover you still use, and keep a copy of the filed return. Then cross-cut shred the paper, delete the files and empty the cloud trash."
+    }
+  ],
+  "comparison": {
+    "caption": "General IRS record-retention periods for US freelancers. Confirm the current rules in IRS Publication 583 and on the IRS page 'How long should I keep records?'. The carryover row applies the IRS's general principle of keeping records until the limitation period ends for the return they support. State and non-US rules may be longer.",
+    "headers": [
+      "Record type",
+      "General IRS retention period",
+      "When the clock starts",
+      "Freelancer examples"
+    ],
+    "rows": [
+      [
+        "Routine income and expense records",
+        "3 years",
+        "From the date you filed, or the due date if you filed early",
+        "Receipts, invoices, 1099s, bank and card statements, mileage logs"
+      ],
+      [
+        "Claim for credit or refund filed after the original return",
+        "3 years from filing or 2 years from paying the tax, whichever is later",
+        "The original filing date and the date the tax was paid",
+        "An amended return claiming a deduction you missed"
+      ],
+      [
+        "Unreported income above 25% of the gross income shown on the return",
+        "6 years",
+        "From the filing date of that return",
+        "Client or platform income left off the return"
+      ],
+      [
+        "Loss from worthless securities or a bad debt deduction",
+        "7 years",
+        "From the filing date of that return",
+        "A business loan that became uncollectible. Cash-basis freelancers generally can't deduct unpaid invoices, so check the rules first."
+      ],
+      [
+        "Employment tax records",
+        "At least 4 years",
+        "After the tax is due or paid, whichever is later",
+        "Payroll records, if you hire employees"
+      ],
+      [
+        "Asset and property records",
+        "Until the limitation period ends for the year you dispose of the asset",
+        "The return for the year you sell, trade in or scrap the asset",
+        "Laptop, camera or vehicle, plus home purchase and improvement records if you claim a home office"
+      ],
+      [
+        "Carryover records",
+        "Until the limitation period ends for the last return that uses the carryover",
+        "The last year the carryover is used",
+        "Net operating loss, capital loss, Section 179 or disallowed home office carryovers"
+      ],
+      [
+        "No return filed, or a fraudulent return",
+        "Indefinitely",
+        "No limitation period starts",
+        "Any year you did not file"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How long should a freelancer keep receipts? The IRS baseline",
+      "paragraphs": [
+        "Most US freelancers should keep receipts and supporting records for at least three years from the date they file their return, or from the original due date if they file early. That three-year window is the general 'period of limitations'. During it, the IRS can assess additional tax and you can amend a return to claim a credit or refund.",
+        "Here is how the clock works in practice. If you file your 2025 return on the April 2026 due date, the window generally runs to April 2029. If you file early, say in February 2026, the IRS treats the return as filed on the due date, so the end date is the same. If you file on extension in October 2026, the clock starts in October, so keep that year's records until at least October 2029.",
+        "The IRS lists several situations where the period is longer or never ends, summarised below. Confirm the current wording in IRS Publication 583 (Starting a Business and Keeping Records) and on the IRS page titled 'How long should I keep records?'.",
+        "Many freelancers simply keep every year for seven years so they never have to work out which rule applies. That is a personal buffer, not an IRS requirement, and digital storage makes it cheap. Lenders, landlords, insurers and clients may also ask for older records for their own reasons."
+      ],
+      "bullets": [
+        "3 years: the standard period when none of the situations below apply.",
+        "3 years from filing or 2 years from paying the tax, whichever is later: if you file a claim for credit or refund after your original return.",
+        "6 years: if you leave out income you should have reported and it is more than 25% of the gross income shown on the return.",
+        "7 years: if you claim a loss from worthless securities or a bad debt deduction.",
+        "At least 4 years after the tax is due or paid, whichever is later: employment tax records, if you have employees.",
+        "Indefinitely: if you don't file a return, or if you file a fraudulent one."
+      ]
+    },
+    {
+      "heading": "Records to keep longer than three years: assets, home office and carryovers",
+      "paragraphs": [
+        "Records for business assets, a home office and prior-year carryovers often need to outlast the three-year window, because they affect returns filed years after the purchase or event. The general IRS principle is to keep the records behind an item until the limitation period ends for the last return that item affects.",
+        "Assets: equipment such as a laptop, camera, vehicle or office furniture is usually depreciated or expensed under special rules. Its cost (its 'basis') matters again when you sell, trade in or scrap it. The IRS says to keep property records until the limitation period ends for the year you dispose of the property. For example, if you buy a camera in 2024 and sell it in 2028, keep the purchase records until the window for your 2028 return closes.",
+        "Home office: under the regular method, you deduct a share of actual costs such as rent or mortgage interest, utilities, insurance and repairs, and homeowners may also claim depreciation. Purchase and improvement records affect your home's basis and your tax when you sell. Keep them for as long as you own the home, and then until the limitation period for the year of sale ends. If you use the simplified method, keep proof of the office's size and of its regular, exclusive business use, such as a floor plan and dated photos.",
+        "Carryovers: some amounts roll forward into later years. Examples include a net operating loss, a capital loss, a Section 179 deduction limited by business income, and home office expenses disallowed by the income limit. Keep the records that created the carryover until the limitation period ends for the last return that uses it."
+      ],
+      "bullets": [
+        "Receipts and contracts for equipment, vehicles and other business assets you still own",
+        "Home purchase documents and improvement receipts, if you claim a home office",
+        "Workpapers and source records for any loss or deduction you are carrying forward",
+        "Records of nondeductible retirement contributions (for example, Form 8606 for a traditional IRA) until all the money has been withdrawn",
+        "Contractor paperwork and employment tax records, if you hire help"
+      ]
+    },
+    {
+      "heading": "What a receipt must show, and whether digital copies count",
+      "paragraphs": [
+        "A useful receipt proves who you paid, when, how much and what for. A scanned or photographed copy is generally acceptable if it is accurate, complete and readable, and can be reproduced if the IRS asks for it. Publication 583 explains that the same rules apply to electronic records as to paper. IRS Revenue Procedure 97-22 sets out standards for electronic storage systems. Check both for the current details.",
+        "Capture the whole document, not just a cropped total. The vendor name, date, amount and description of the goods or service should all be readable. For meals, travel and gifts, the IRS expects extra detail, such as the business purpose and the business relationship of the people involved. Publication 463 explains when a receipt is required and when a log entry is enough. Add the note to the file name, the image or your accounting software.",
+        "A bank or card statement supports a receipt but rarely replaces it, because it shows that you paid, not what you bought or why. For vehicle use, the core record is a mileage log kept at or near the time of each trip, with the date, destination, business purpose and miles driven.",
+        "Scan receipts within a day or two. Many shop receipts are printed on thermal paper that can fade, especially in heat or sunlight, and a blank slip proves nothing. Once you have a reliable electronic copy, IRS guidance generally allows you to throw away the paper, but check the conditions first. Many freelancers keep the originals for large purchases anyway, because warranty and insurance claims often need them."
+      ],
+      "bullets": [
+        "The whole receipt is visible, including the vendor name and date",
+        "The amount and the items or service are clearly readable",
+        "The business purpose is noted for meals, travel and gifts",
+        "The file is saved in a standard format such as PDF or JPG",
+        "Copies are stored in at least two places, one of them off-site, with two-factor authentication on cloud accounts"
+      ]
+    },
+    {
+      "heading": "A simple folder and naming system for freelance records",
+      "paragraphs": [
+        "The simplest system that works is one folder per tax year, plus one Permanent folder for records that outlive the yearly clean-out. Keeping long-life records separate lets you delete or shred an expired year without losing anything you still need.",
+        "This structure works in Google Drive, Dropbox, OneDrive or a filing cabinet. Number the subfolders so they always appear in the same order.",
+        "Name every file the same way: date, vendor, amount, category. For example: 2026-03-14_OfficeDepot_84.20_Supplies.pdf. With the date first in year-month-day order, files sort chronologically on their own. The vendor and amount make it easy to match a receipt to a line on a bank statement.",
+        "Inside the Permanent folder, keep a simple asset register as a spreadsheet with these columns: item, purchase date, cost, deduction method, date disposed and sale price. When you sell or scrap something, the register tells you which return its records now support.",
+        "Finally, put a small text file in each year folder named with that year's earliest destroy date, such as KEEP-UNTIL-2029-04.txt for a 2025 return filed in April 2026. Change the date if you filed on extension or a longer rule applies. When the date passes, the file reminds you to check the Permanent folder before you delete anything."
+      ],
+      "bullets": [
+        "Business Records / 2025 / 01 Income: invoices, 1099s and payment platform reports",
+        "Business Records / 2025 / 02 Expenses: receipts, sorted by month or category",
+        "Business Records / 2025 / 03 Statements: bank and credit card statements",
+        "Business Records / 2025 / 04 Vehicle: mileage log and any vehicle expense receipts",
+        "Business Records / 2025 / 05 Home office: that year's rent or mortgage interest, utilities and insurance",
+        "Business Records / 2025 / 06 Return: the filed return and your workpapers",
+        "Business Records / Permanent: Assets (with the asset register), Home, Carryovers and Retirement basis"
+      ]
+    },
+    {
+      "heading": "Automating receipt capture with QuickBooks Online, Zapier or Make",
+      "paragraphs": [
+        "Software works best for capturing receipts and matching them to transactions as they happen, while your own folder system stays the long-term archive. That way your books stay tidy and no single vendor becomes the only home for records you may need for years.",
+        "QuickBooks Online: in general, you can photograph a receipt in the QuickBooks mobile app, upload a file, or forward emailed receipts to a dedicated address. The software reads details such as the vendor, date and amount. It then suggests a match with a transaction from your bank feed or helps you record a new expense. The benefit is that the proof sits on the transaction it supports. Features, menu names and plans vary by country and change over time, so check Intuit's help pages and current pricing.",
+        "Zapier or Make: if most of your receipts arrive by email, an automation can copy them into your folders. A typical setup uses a trigger, such as a new email with a 'Receipts' label or a new attachment that matches a search. The action then uploads the attachment to that year's 02 Expenses folder in Google Drive or Dropbox. Zapier is the simpler point-and-click option. Make's visual builder can cost less for high-volume workflows, depending on the plan. Both charge subscription fees on paid plans, so compare current pricing.",
+        "The trade-off with any subscription tool is that you depend on it. Check what access you keep to your data and attachments if you cancel or downgrade. At year end, export key reports, such as profit and loss and a transaction list, and save important receipts to your own storage."
+      ],
+      "bullets": [
+        "Weekly: capture new receipts and match them to bank-feed transactions",
+        "Monthly: look for unmatched transactions that are missing receipts",
+        "Year end: export reports and important receipts to that year's folder",
+        "Always: keep asset, home and carryover records in the Permanent folder, whatever software you use"
+      ]
+    },
+    {
+      "heading": "How to safely destroy old records, and mistakes to avoid",
+      "paragraphs": [
+        "Once a year's retention period has passed and nothing in it supports an asset, home office or carryover, shred the paper and securely delete the files instead of throwing them out whole. Old receipts, statements and tax documents can include names, addresses, partial card numbers, account details and taxpayer ID numbers, all of which are useful to identity thieves.",
+        "Before you destroy a year, check three things. First, make sure the retention date has passed under the rule that applies to you. Second, make sure nothing relates to an asset you still own or a carryover you still use. Third, keep a copy of the filed return itself. Many people keep filed returns indefinitely because they help with future returns, amended filings and loan applications.",
+        "For paper, use a cross-cut or micro-cut shredder for small amounts. For boxes, use a professional shredding service (ask whether they provide a certificate of destruction) or a community shred event. Digital records need the same care: empty the cloud trash or 'recently deleted' folder after deleting, and wipe old computers, phones and drives with the manufacturer's reset or secure-erase tool before you sell or recycle them."
+      ],
+      "bullets": [
+        "Mistake: deleting a year without first checking the Permanent folder and the asset register",
+        "Mistake: counting three years from the end of the tax year instead of the filing date, or forgetting that an extension moves the date",
+        "Mistake: saving only a cropped photo of the total instead of the full receipt",
+        "Mistake: relying on your email inbox or a single app as the archive",
+        "Mistake: using a strip-cut shredder or household recycling for sensitive documents"
+      ]
+    },
+    {
+      "heading": "State rules, other countries and when to get professional help",
+      "paragraphs": [
+        "The IRS periods are only the federal US baseline, and your state or another country's tax authority may expect you to keep records for longer. Many US states set their own assessment periods for state income tax, so check your state revenue department's guidance.",
+        "Outside the US, tax authorities such as HM Revenue & Customs in the UK, the Canada Revenue Agency and the Australian Taxation Office publish their own record-keeping rules for self-employed people, and several of them are longer than three years. Tax treatment also differs by country. If you live or earn income in more than one place, a cautious approach is to follow the longest rule that applies to you.",
+        "Reasons outside of tax can also justify keeping records longer, such as client contract disputes, insurance and warranty claims, and mortgage or loan applications. This article is general information, not tax or legal advice. A qualified professional, such as a CPA or enrolled agent in the US or a licensed tax adviser elsewhere, can apply these rules to your situation."
+      ],
+      "bullets": [
+        "You have received an audit letter or notice from a tax authority",
+        "There are years when you didn't file a return",
+        "You are selling a major asset, or a home where you claimed a home office",
+        "You have employees or pay many contractors",
+        "You earn income in more than one state or country"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers who want to photograph or forward receipts, have them matched to bank-feed transactions, and keep the proof attached to each expense in their books.",
+      "not_for": "People who only need somewhere to store files, or freelancers with few transactions who are happy with a spreadsheet and folders. It also doesn't replace an independent backup of long-term records. Plans, features and pricing vary by country and change, so check Intuit's website."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Freelancers who get many receipts by email and want them saved automatically to a cloud folder, for example by copying labelled email attachments into that year's expenses folder with simple point-and-click setup.",
+      "not_for": "Freelancers whose receipts are mostly paper, or who don't want to set up and maintain automations. Check that your email and storage apps are supported and review current pricing on Zapier's website."
+    },
+    {
+      "product": "Make",
+      "best_for": "Freelancers who handle a high volume of emailed receipts, are comfortable with a visual workflow builder, and want an option that may cost less than Zapier at higher volumes.",
+      "not_for": "Anyone who wants the simplest possible setup or has only a handful of receipts a month, where manual forwarding is enough. Compare current plans and usage limits on Make's website before you commit."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need to keep the original paper receipt if I've scanned it?",
+      "answer": "Generally, no. IRS guidance accepts electronic copies that are accurate, complete, readable and easy to retrieve, but check the conditions in Publication 583 and Revenue Procedure 97-22 before you shred. Many freelancers still keep the originals for large purchases, because warranty and insurance claims often need the paper."
+    },
+    {
+      "question": "How long should I keep my filed tax returns?",
+      "answer": "Keep supporting records for at least the applicable IRS period, which is usually three years from filing. Many people keep copies of the filed returns themselves indefinitely. Returns take up little space and help with future returns, amended filings, loan applications, and tracking assets and carryovers."
+    },
+    {
+      "question": "How long should a freelancer keep bank statements?",
+      "answer": "Bank and card statements are supporting records, so the same rules apply: generally three years from filing, or longer if a longer IRS rule applies or the statements support an asset or carryover. Store them in each tax year's folder so they reach their destroy date at the same time as that year's receipts."
+    },
+    {
+      "question": "Is a bank or credit card statement enough without a receipt?",
+      "answer": "Usually not on its own. A statement shows that you paid and how much, but not what you bought or why it was for business. The strongest proof is a receipt or invoice together with the statement, plus a note on the business purpose for meals, travel and gifts. Publication 463 covers the specific rules for travel, gift and car expenses."
+    },
+    {
+      "question": "What should I do if I've lost some receipts?",
+      "answer": "Rebuild what you can from bank and card statements, order histories in vendor accounts, email confirmations and your calendar. Write a short note explaining each expense and save it with that year's records. If you have already received an audit letter or notice, talk to a qualified tax professional before you respond."
+    },
+    {
+      "question": "Can I keep my records only in accounting software like QuickBooks Online?",
+      "answer": "Accounting software can be your main tool for capturing receipts, but it is safer not to make it your only copy. Check what access you keep to your data and attachments if you cancel or downgrade. Export key reports and important receipts to your own backed-up storage each year."
+    }
+  ],
+  "conclusion": "The answer to how long a freelancer should keep receipts starts with the IRS three-year baseline, counted from the date you filed or from the due date if you filed early. It extends to six years if you left out more than 25% of the gross income shown on the return, seven years for bad-debt or worthless-securities losses, and indefinitely if you never filed. Records for equipment, your home and carryovers last longer still: keep them until the limitation period ends for the year you sell the asset or last use the carryover. To manage it, scan receipts within a day or two and keep one folder per tax year plus a Permanent folder. Back everything up in two places, and once a year review and shred whatever has expired. State and international rules can be longer and they change, so confirm the details in IRS Publication 583 or with your local tax authority, and ask a qualified tax professional about your own situation. This article is general information, not tax or legal advice.",
+  "keyword": "how long should a freelancer keep receipts",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "how-long-should-a-freelancer-keep-receipts-irs-rules-system",
+  "published": "2026-10-08T22:09:29+00:00"
+}

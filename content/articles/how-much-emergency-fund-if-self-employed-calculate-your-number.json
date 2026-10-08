@@ -1,0 +1,268 @@
+{
+  "title": "How Much Emergency Fund If Self-Employed? Calculate Your Number",
+  "meta_description": "How much emergency fund if self-employed? Calculate your number from core costs, income volatility and client-replacement time. Worked example included.",
+  "quick_answer": "Many self-employed people need more than the standard 3–6 months. Work out your monthly core costs (essential personal expenses plus fixed business costs, minus reliable outside income). Then multiply by volatility months (about 3 for steady income, 6+ for highly variable) plus the months it takes to land and get paid by a new client. Keep tax money in a separate account. It doesn't count toward the fund.",
+  "key_takeaways": [
+    "Don't use the flat 3–6 month rule. Calculate your own target from your core costs, how much your income swings and how long it takes to replace a client.",
+    "Target = (essential personal expenses + fixed business costs − reliable outside income) × (volatility months + client-replacement months).",
+    "Use about 3 volatility months for steady income and 6 or more for highly variable income or a new business. Then add the months it takes to land a new client and get paid.",
+    "You already owe your tax money. Keep it in its own account and never count it toward your emergency fund.",
+    "Keep 1–2 months of core costs in instant-access savings and the rest in a separate buffer account. Build both by saving a fixed share of every client payment."
+  ],
+  "who_this_is_for": "This guide is for freelancers, contractors, sole traders and small-business owners with irregular income who want a specific emergency fund target rather than a generic rule of thumb.",
+  "intro": "If you're self-employed, \"save three to six months of expenses\" is only a starting point. Your income goes up and down, your business has its own bills, and losing one client can mean months without pay while you find the next one, invoice them and wait to be paid. This guide replaces the rule of thumb with a calculation. You add up your essential personal costs and fixed business costs, then adjust for how much your income swings and how long it takes you to replace lost work. You'll get a fill-in worksheet, a clearly hypothetical worked example, a way to keep tax money separate, a two-tier savings setup and a saving plan built for irregular income. This is general education, not personal financial advice.",
+  "steps": [
+    {
+      "name": "List your essential personal expenses",
+      "text": "Add up the monthly costs your household must pay to keep running: housing, utilities, groceries, insurance, transport, minimum debt payments and essential healthcare. Use bank statements from the last 3–6 months. For bills you pay once a year, divide the annual amount by 12. Leave out discretionary spending such as dining out and holidays."
+    },
+    {
+      "name": "Add your fixed business costs",
+      "text": "Add the business bills you would still pay in a month with zero revenue, such as software subscriptions, business insurance, bookkeeping fees, workspace rent and business loan repayments. Leave out variable costs like materials, contractor fees and advertising you can switch off."
+    },
+    {
+      "name": "Subtract reliable outside income",
+      "text": "If a partner's salary or other dependable income always covers part of your household bills, subtract that amount. What's left is your monthly core cost, the figure your emergency fund has to cover."
+    },
+    {
+      "name": "Rate your income volatility",
+      "text": "For each of the last 12–24 months, take what clients paid you minus business expenses and your tax set-aside, and compare it with your essential personal expenses. Count the lean months that fell short, and find your longest run of them in a row. Then choose your volatility months: around 3 for steady income, 4–6 for moderate swings, and 6 or more for highly variable income or a brand-new business."
+    },
+    {
+      "name": "Add client-replacement months",
+      "text": "Add up three things: your typical sales cycle (from first contact to signed work), any time you work before you can invoice, and your payment terms. Round the total up to whole months. If one client provides a large share of your income, use the full figure or more."
+    },
+    {
+      "name": "Calculate your target",
+      "text": "Multiply your monthly core costs by (volatility months + client-replacement months). The result is your emergency fund target. Write it down along with the date you calculated it."
+    },
+    {
+      "name": "Separate your tax money",
+      "text": "Open a dedicated tax savings account and move a set percentage of every payment into it, at a rate an accountant or tax adviser has helped you choose. Never count this money toward your emergency fund."
+    },
+    {
+      "name": "Set up two tiers and start building",
+      "text": "Keep 1–2 months of core costs in instant-access savings (Tier 1) and the rest in a separate buffer account (Tier 2). Fund them by saving a fixed percentage of each payment and moving part of any surplus from good months. Fill Tier 1 first."
+    },
+    {
+      "name": "Write your rules and review yearly",
+      "text": "Write down what counts as an emergency and how you'll refill the fund after using it. Recalculate your target at least once a year and after any major change to your household or business."
+    }
+  ],
+  "comparison": {
+    "caption": "Where each pot of money belongs (a general framework). Check account terms, fees and deposit protection with each provider.",
+    "headers": [
+      "Account",
+      "Purpose",
+      "Typical size (framework)",
+      "Access speed",
+      "Part of emergency fund?"
+    ],
+    "rows": [
+      [
+        "Business operating account",
+        "Day-to-day income and business bills",
+        "Enough for upcoming bills and your regular pay to yourself",
+        "Instant",
+        "No"
+      ],
+      [
+        "Tax reserve account",
+        "Tax you already owe on income you've received",
+        "A set percentage of every payment, agreed with your accountant or tax adviser",
+        "Instant or same day",
+        "No. This money is already owed."
+      ],
+      [
+        "Tier 1: instant-access savings",
+        "Sudden shortfalls, late-paying clients, urgent repairs",
+        "1–2 months of core costs",
+        "Same day or next business day",
+        "Yes"
+      ],
+      [
+        "Tier 2: buffer savings",
+        "Longer gaps, such as losing a major client",
+        "The rest of your target",
+        "Same day to a few weeks, depending on account terms",
+        "Yes"
+      ],
+      [
+        "Investments (shares, funds, crypto)",
+        "Long-term goals such as retirement",
+        "Kept apart from emergency planning",
+        "Days, and the value can fall",
+        "No. The value can drop just when you need it."
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why the 3–6 month rule falls short for self-employed people",
+      "paragraphs": [
+        "The standard 3–6 month rule was designed around salaried workers, so it often underestimates what a self-employed person needs. An employee who loses a job usually faces one clear event. Depending on where they live, they may get severance pay or unemployment benefits, and they have no business bills to keep paying. Freelancers, contractors and sole traders face a different mix of risks.",
+        "The rule also ignores the two numbers that matter most when you work for yourself: how unpredictable your income is and how long it takes you to replace lost work. A consultant on three steady retainers and a seasonal wedding photographer might have identical living costs yet need very different cushions. A calculation you can redo whenever your business changes works better than a single flat rule."
+      ],
+      "bullets": [
+        "Income volatility: lean months happen even in healthy, growing businesses.",
+        "Fixed business costs: software, insurance and workspace bills keep running when revenue stops.",
+        "Client concentration: losing one large client can wipe out a big share of your income overnight.",
+        "Payment delays: a newly signed client may not pay until weeks after the work begins.",
+        "Thinner safety nets: unemployment support for self-employed people varies widely by country and may not exist at all."
+      ]
+    },
+    {
+      "heading": "How much emergency fund if self-employed? The formula",
+      "paragraphs": [
+        "A self-employed emergency fund target is your monthly core costs multiplied by the sum of your volatility months and your client-replacement months. Written out:",
+        "Emergency fund target = (essential personal expenses + fixed business costs − reliable outside income) × (volatility months + client-replacement months).",
+        "Essential personal expenses are the costs your household must pay to keep running: housing, utilities, groceries, insurance, transport, minimum debt payments and essential healthcare. Fixed business costs are the bills you would still owe in a month with zero revenue, such as software subscriptions, business insurance, bookkeeping fees, workspace rent and business loan repayments. Reliable outside income, such as a partner's salary that always covers part of the household bills, reduces what the fund has to carry.",
+        "Leave out costs that stop when work stops. Contractor fees, materials, advertising you can switch off and most travel rise and fall with revenue, so including them inflates your target. Leave out discretionary spending too, such as dining out, subscriptions you'd cancel and holidays, because those are the first things you'd cut in a real emergency. Do include bills you pay once a year, such as an annual insurance premium, by dividing the yearly amount by 12.",
+        "Copy this worksheet into a spreadsheet or notes app and fill in each line:"
+      ],
+      "bullets": [
+        "A. Essential personal expenses per month: ____",
+        "B. Fixed business costs per month: ____",
+        "C. Reliable outside income per month: ____",
+        "D. Monthly core costs (A + B − C): ____",
+        "E. Volatility months: ____",
+        "F. Client-replacement months: ____",
+        "Target: D × (E + F) = ____ (date calculated: ____)"
+      ]
+    },
+    {
+      "heading": "How to measure income volatility and client-replacement time",
+      "paragraphs": [
+        "To measure income volatility, count the lean months in your last 12–24 months of records. To measure client-replacement time, track how long new work takes to go from first contact to cleared payment.",
+        "In this guide, a lean month is a month when your take-home pay didn't cover your essential personal expenses (minus any reliable outside income). Take-home means what clients paid you, minus business expenses and your tax set-aside. Pull your monthly figures from bank statements or accounting software and note three things: your lowest month, how many lean months you had and your longest run of lean months in a row. These numbers tell you more than an average does, because averages hide the dry spells that drain savings.",
+        "The volatility tiers below are a practical starting point, not an official standard, so adjust them using your own history. If your longest dry spell lasted four months, a three-month cushion is probably too thin. If you're newly self-employed, assume high volatility until you have at least a year of records.",
+        "To work out client-replacement time, add up three things and round up to whole months: your typical sales cycle (from first outreach to signed work), any time you work before you can invoice, and your payment terms. Say a project usually takes six weeks to land, you invoice a deposit on day one and clients pay within 30 days. Your replacement time is about two and a half months, so use three. If you only invoice when a project is finished, add the project's length. If your income is spread across many small clients, you can shave this number slightly. If one client provides a large share of your income, use the full figure or more."
+      ],
+      "bullets": [
+        "Low volatility (around 3 volatility months): mostly retainers or recurring contracts, and lean months are rare.",
+        "Moderate volatility (around 4–6 months): a mix of recurring and project work, with a few lean months each year.",
+        "High volatility (6 months or more): project-based, commission or seasonal income, regular lean stretches, or a brand-new business with no track record."
+      ]
+    },
+    {
+      "heading": "Worked example: a hypothetical freelance designer",
+      "paragraphs": [
+        "This worked example is entirely hypothetical and uses round numbers to show the method. Your own figures, currency and costs will differ. Maya is an imaginary freelance graphic designer who works alone and lives alone. Her monthly core costs are $3,500: $3,000 of essential personal expenses plus $500 of fixed business costs, with no outside income. The full breakdown is in the list below.",
+        "To rate her volatility, Maya reviews her last 12 months. Most of her income came from one-off projects. She had three lean months when her take-home pay fell short of her $3,000 of personal essentials, and her longest lean stretch lasted two months in a row. That puts her between moderate and high volatility, so she chooses 6 volatility months.",
+        "To estimate her client-replacement time, Maya looks at how she wins and bills work. New projects take about six weeks to land, she invoices a deposit when a project starts, and clients pay within 30 days. That adds up to roughly two and a half months. Her largest client provides about 40% of her income, so she rounds up to 3 client-replacement months instead of down.",
+        "Maya's target is $3,500 × (6 + 3) = $31,500. A flat 3–6 month rule applied to the same costs would suggest $10,500 to $21,000, which wouldn't cover a long dry spell combined with losing her biggest client. Her tax money isn't part of this figure. It sits in a separate account."
+      ],
+      "bullets": [
+        "Essential personal expenses: rent $1,400, utilities and phone $200, groceries $450, health insurance $350, car payment and insurance $300, minimum debt payments $150 and other essentials $150, for a total of $3,000 a month.",
+        "Fixed business costs: software subscriptions $120, professional liability insurance $60, bookkeeping $80, website and hosting $30 and a coworking desk $210, for a total of $500 a month.",
+        "Reliable outside income: none, because Maya is the only earner in her household.",
+        "Monthly core costs: $3,000 + $500 = $3,500."
+      ]
+    },
+    {
+      "heading": "Why tax money belongs in a separate account",
+      "paragraphs": [
+        "Money set aside for tax should sit in its own account because you already owe it, so counting it as emergency savings makes your safety net look bigger than it is. Employees usually have tax taken out of each paycheck, but many self-employed people have to set it aside themselves and pay it in lump sums or instalments.",
+        "Keeping tax money and emergency savings in one pot sets a trap. If you draw from a combined pot during a lean month, you may solve one emergency and create another when the tax bill arrives, possibly with penalties or interest for paying late. Tax deadlines don't move because business was slow. Separate accounts also show you at a glance whether each pot is on track."
+      ],
+      "bullets": [
+        "Open a dedicated, clearly named savings account for tax, separate from both your business operating account and your emergency fund.",
+        "Move a set percentage of every payment into it as soon as the money lands, before you spend anything.",
+        "Ask an accountant or tax adviser what percentage fits your situation. Tax rates, deductions and payment schedules differ by country and personal circumstances.",
+        "Check whether your tax system requires self-employed people to pay in advance. Examples include quarterly estimated tax payments in the US and payments on account in the UK."
+      ]
+    },
+    {
+      "heading": "The tiered setup: instant-access savings plus a buffer",
+      "paragraphs": [
+        "A tiered emergency fund keeps 1–2 months of core costs in instant-access savings and the rest in a separate buffer account that may pay more interest but can take longer to reach. It balances fast access to your money against the low interest everyday accounts often pay.",
+        "Tier 1 is your first line of defence against a sudden shortfall, a late-paying client or an urgent repair. It belongs in an instant-access savings account that can move money to your current or checking account the same day or the next business day.",
+        "Tier 2 holds the rest of your target for longer emergencies, such as losing a major client. It can sit in a higher-interest savings account. Some people use notice accounts or short-term fixed deposits, but these may require advance notice or charge penalties for early withdrawal, so read the terms first. In the hypothetical example, Maya keeps $7,000 (two months of core costs) in Tier 1 and the remaining $24,500 in Tier 2."
+      ],
+      "bullets": [
+        "Check that each account is covered by your country's deposit protection scheme, such as FDIC insurance in the US or the FSCS in the UK, and stay within the coverage limits.",
+        "Compare interest rates, fees, minimum balances and withdrawal limits on each provider's own website, because they change often.",
+        "Keep emergency money out of shares and funds, whose value can fall sharply just when you need the cash. Crypto is riskier still. It is highly volatile, can lose all its value, carries exchange, custody and scam risks, and usually isn't covered by deposit protection.",
+        "Hold the fund in a separate, clearly named account (or even at a different bank) so you don't spend it on everyday bills by accident."
+      ]
+    },
+    {
+      "heading": "How to build an emergency fund on irregular income",
+      "paragraphs": [
+        "To build an emergency fund on irregular income, follow the same order every time a client pays you. Set aside tax first, then savings for the emergency fund, then pay yourself, and add part of any surplus from good months to the fund.",
+        "Break a large target into milestones: first one month of core costs in Tier 1, then a full Tier 1, then Tier 2 in stages. Each milestone gives you real breathing room long before you reach the final number. At the start, saving consistently matters more than saving a lot.",
+        "Because client payments arrive on unpredictable dates, a habit or reminder triggered by each payment often works better than a fixed monthly transfer. Many banks let you schedule transfers or set savings rules, so check what yours offers. Our irregular income budgeting guide covers baseline budgets and paying yourself a salary in more depth."
+      ],
+      "bullets": [
+        "Tax first: move your tax percentage to the tax account.",
+        "Emergency fund second: move a fixed percentage of the payment, even a small one.",
+        "Pay yourself a steady amount: take a regular salary from your business account instead of spending whatever arrives.",
+        "Move the surplus: in above-average months, put a set share of the extra into the fund. For example, add half of anything above your normal monthly pay to yourself."
+      ]
+    },
+    {
+      "heading": "When to use, refill and recalculate your fund (and mistakes to avoid)",
+      "paragraphs": [
+        "Use your emergency fund only when your take-home pay falls short of your core costs or an essential, unplanned expense hits. Don't use it for planned purchases, tax bills or growing the business. Writing these rules down in advance makes it easier to resist dipping in for things that feel urgent but aren't.",
+        "After using the fund, refill Tier 1 first and then Tier 2. Raise your savings percentage for a while, or send a bigger share of good months to the fund. Recalculate your target at least once a year and after any major change, such as a new lease, a new child, a big new retainer, losing your biggest client or a jump in fixed business costs.",
+        "An emergency fund isn't designed to replace your income through long-term illness or disability. Ask a licensed adviser whether income protection or disability insurance makes sense where you live."
+      ],
+      "bullets": [
+        "Good uses: a lean month, losing a major client, illness or injury that stops you working briefly, or essential equipment that breaks down.",
+        "Poor uses: tax bills (use the tax account), predictable yearly costs such as software renewals, equipment to expand the business, or investment opportunities.",
+        "Mistake: counting money set aside for tax as part of the fund.",
+        "Mistake: sizing the fund from your average income instead of your lean months and longest dry spell.",
+        "Mistake: forgetting annual bills, or never recalculating after your costs or client mix change."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Self-employed people and small-business owners who want expenses sorted into categories automatically so they can split fixed from variable business costs. It also gives you monthly income reports and unpaid-invoice tracking, which help you measure how much your income swings and how late clients pay.",
+      "not_for": "Anyone with very simple finances who's happy with a spreadsheet, or anyone expecting software to decide their tax set-aside. Check current plans, pricing and availability in your country on Intuit's website."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping your emergency fund worksheet, savings milestones, usage rules and a simple client pipeline (to track how long new work takes to land) in one workspace you can edit.",
+      "not_for": "Anyone who wants bank feeds or automatic transaction imports. Notion isn't accounting software, so you'll enter figures by hand or set up integrations yourself."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Freelancers who forget to move money when a client pays. You can set up a no-code automation that sends you a reminder with your tax and emergency fund amounts each time your invoicing or accounting app records a payment.",
+      "not_for": "People whose bank already offers savings rules that do the job, or anyone who would rather not connect financial apps to a third-party service. Check that your apps offer the trigger you need and confirm pricing on Zapier's website. For very high-volume automations, Make may cost less."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is 6 months enough of an emergency fund if I'm self-employed?",
+      "answer": "Six months can be enough if your income is fairly steady and you can replace clients quickly, but many self-employed people need more. Using the formula in this guide, someone on steady retainers might need about 5 months (3 volatility months plus 2 client-replacement months), while a project-based freelancer could need 9 or more. Work out your own number rather than relying on a round figure."
+    },
+    {
+      "question": "Should a self-employed emergency fund cover business expenses?",
+      "answer": "Yes. It should cover fixed business costs that keep running when revenue stops, such as software subscriptions, insurance and workspace rent. Leave out variable costs like materials or contractor fees, because they stop when the work does."
+    },
+    {
+      "question": "Can my business bank account double as my emergency fund?",
+      "answer": "It's better to keep them separate. Your business operating account handles day-to-day cash flow, and mixing the two makes it hard to see how much of a safety net you really have. A separate, clearly named savings account keeps the fund intact and easy to track."
+    },
+    {
+      "question": "How much should a new freelancer save with no income history?",
+      "answer": "Without a track record, assume high volatility: use 6 or more volatility months plus a cautious estimate of how long it takes to replace a client. Start with a first milestone of one month of core costs. Refine your target once you have 12 months of income records."
+    },
+    {
+      "question": "Where should I keep a self-employed emergency fund?",
+      "answer": "Most people keep it in cash savings accounts covered by their country's deposit protection scheme, with 1–2 months in instant-access savings and the rest in a higher-interest buffer account. Shares, funds and crypto aren't suitable because their value can fall just when you need the money. Compare current rates, fees and access terms directly with providers."
+    },
+    {
+      "question": "Should I build an emergency fund before investing or paying off debt?",
+      "answer": "Many people build a small starter fund first, then split further saving between paying off high-interest debt and long-term goals such as retirement. The right order depends on your interest rates, tax rules and personal situation, which differ by country. For a personal decision, consider speaking with a licensed financial adviser."
+    }
+  ],
+  "conclusion": "Your emergency fund number should come from your own business, not a rule of thumb. Add up your essential personal expenses and fixed business costs and subtract any reliable outside income. Then multiply by months that reflect how much your income swings and how long it takes you to replace a client. Keep tax money in its own account. Hold 1–2 months in instant-access savings and the rest in a separate buffer, and build both by saving a fixed share of every payment. Rules on tax, deposit protection and account types differ by country, so check with your local regulator or a licensed adviser before making personal decisions.",
+  "keyword": "how much emergency fund if self employed",
+  "niche": "budgeting and personal finance fundamentals",
+  "version": 2,
+  "slug": "how-much-emergency-fund-if-self-employed-calculate-your-number",
+  "published": "2026-10-08T22:09:16+00:00"
+}

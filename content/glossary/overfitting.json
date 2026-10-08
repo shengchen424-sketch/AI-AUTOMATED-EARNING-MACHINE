@@ -1,0 +1,21 @@
+{
+  "term": "Overfitting",
+  "section": "AI & Tech",
+  "short_definition": "Overfitting happens when a machine learning model learns its training data too closely, including noise and quirks, so it performs well on that data but poorly on new, unseen data.",
+  "explanation": [
+    "A model's goal is to generalise, meaning to learn real patterns that still hold beyond the examples it studied. An overfit model has effectively memorised the answers instead. This often happens when the model is too complex for the amount of data, is trained for too long, or learns from data that is small or unrepresentative. The warning sign is a large gap between strong results on the training data and much weaker results on a separate test set.",
+    "Overfit models look impressive during development and then fail in real use. The same idea applies outside AI. A trading strategy that is tested and tweaked until it fits past prices perfectly may only be fitting random noise, which is one reason past performance doesn't guarantee future results.",
+    "Common defences include keeping back test data the model never sees during training, cross-validation, gathering more varied data, simplifying the model, regularisation and stopping training early. The opposite problem, underfitting, happens when a model is too simple to capture the real pattern. Good model building means finding the balance between the two."
+  ],
+  "example": "Example (illustrative numbers): a house-price model predicts within 10% of the actual sale price for 99% of the 1,000 homes it was trained on, but for only 60% of 200 new listings. Investigation shows it learned details like specific street addresses instead of size, location and condition. After the team simplifies the model and adds more varied data, it scores 85% on training homes and 82% on new listings. That is less impressive on paper but far more useful.",
+  "common_mistake": "Judging a model, or an investment strategy, by how well it performs on the data it was built on instead of testing it on fresh data it has never seen.",
+  "related_terms": [
+    "Machine Learning",
+    "Training Data",
+    "Neural Network",
+    "Fine-Tuning"
+  ],
+  "title": "Overfitting",
+  "slug": "overfitting",
+  "published": "2026-10-08T22:16:58+00:00"
+}

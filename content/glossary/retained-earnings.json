@@ -1,0 +1,22 @@
+{
+  "term": "Retained Earnings",
+  "section": "Accounting & Business",
+  "short_definition": "Retained earnings are the cumulative profits a company has kept since it started, after paying out dividends to owners, reported in the equity section of the balance sheet.",
+  "explanation": [
+    "Retained earnings are updated each period with a simple formula: Ending retained earnings = Beginning retained earnings + Net income (or − net loss) − Dividends paid. If a company has lost more than it has earned over its life, the balance is negative and is often called an accumulated deficit.",
+    "Retained earnings show how much of a company's growth has been funded by its own profits rather than by new investors or debt. For small business owners, the figure tracks how much has been reinvested in the business versus taken out. Investors compare retained earnings with dividend payouts to see how management splits profits between reinvesting and returning cash to shareholders.",
+    "The main caveat is that retained earnings are an accounting figure, not a pile of cash. The money may already have gone into equipment, inventory or paying down debt. Reinvesting profit only creates value if it earns a decent return, so a large balance doesn't prove the money was used well."
+  ],
+  "example": "Example (illustrative numbers): a company starts the year with retained earnings of 80,000. It earns net income of 30,000 and pays 10,000 in dividends. Ending retained earnings = 80,000 + 30,000 − 10,000 = 100,000. Its bank balance might be only 15,000, because most of those profits were spent on new equipment and inventory.",
+  "common_mistake": "Assuming retained earnings equals cash the company can spend or pay out. It is a running total of kept profits, much of which may already be tied up in other assets.",
+  "related_terms": [
+    "Balance Sheet",
+    "Income Statement",
+    "Dividend",
+    "Revenue vs Profit",
+    "Working Capital"
+  ],
+  "title": "Retained Earnings",
+  "slug": "retained-earnings",
+  "published": "2026-10-08T22:16:58+00:00"
+}

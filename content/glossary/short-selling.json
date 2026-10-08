@@ -1,0 +1,22 @@
+{
+  "term": "Short Selling",
+  "section": "Investing",
+  "short_definition": "Short selling is a strategy where an investor borrows shares, sells them now, and hopes to buy them back later at a lower price, profiting from a decline.",
+  "explanation": [
+    "Short selling is a bet that a price will fall. Your broker lends you shares, usually from other clients' holdings, and you sell them at today's price. Later you must buy back the same number of shares to return them, which is called covering. If the price fell, you keep the difference. If it rose, you pay the difference. Shorting usually requires a margin account. You also pay borrowing fees, plus any dividends paid while your position is open.",
+    "Short selling lets markets reflect negative views, can help prices find their real level, and is used by professionals to hedge other positions. Beginners mostly hear about it in news about short squeezes. A short squeeze happens when a heavily shorted stock jumps and short sellers rush to buy shares back, pushing the price even higher.",
+    "The key risk is that losses have no limit. A stock can only fall to zero, but it can rise indefinitely. Brokers can issue margin calls or close your position at a bad moment, and borrowing fees can jump suddenly. Some countries restrict or ban shorting during market stress. Shorting is a high-risk, advanced strategy, and rules and eligibility differ by country and broker. Check with your local regulator or a licensed adviser before considering it."
+  ],
+  "example": "Example (illustrative numbers): you short 100 shares at 50 and receive 5,000. If the price falls to 40 and you cover, you pay 4,000 and gain 1,000 before fees and borrowing costs. If the price instead rises to 80, covering costs 8,000. That is a 3,000 loss, 60% of the 5,000 you received, and there is no ceiling on how high the price could go.",
+  "common_mistake": "Treating shorting as the mirror image of buying. Unlike a normal purchase, a short has uncapped losses, ongoing borrowing and dividend costs, and a broker can force you to close it at the worst time.",
+  "related_terms": [
+    "Stock (Equity)",
+    "Volatility",
+    "Bull Market vs Bear Market",
+    "Risk Tolerance",
+    "Market Order vs Limit Order"
+  ],
+  "title": "Short Selling",
+  "slug": "short-selling",
+  "published": "2026-10-08T22:16:58+00:00"
+}

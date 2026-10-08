@@ -1,0 +1,254 @@
+{
+  "title": "How to Rebalance a Three-Fund Portfolio (Without Big Tax Bills)",
+  "meta_description": "Learn how to rebalance a three fund portfolio step by step: calendar vs bands, new money first, tax-smart trades, a worked example and tracker.",
+  "quick_answer": "To rebalance a three-fund portfolio, compare each fund's current share with your target mix (for example, 50% US stocks, 30% international, 20% bonds). When your review date arrives or a fund drifts outside its band, send new money to the underweight fund first. If drift remains, sell the overweight fund and buy the others inside a tax-advantaged account, where US rules generally don't tax the trade itself.",
+  "key_takeaways": [
+    "Write down one rule before markets move: a yearly calendar date, a drift band such as ±5 percentage points (an example, not a recommendation), or a hybrid of both.",
+    "Measure drift across all your accounts combined. Your three-fund mix is one portfolio, not three separate ones.",
+    "Close the gap with new contributions, dividends or withdrawals first. Cash flows often fix drift without selling anything.",
+    "If you have to sell, do it inside tax-advantaged accounts such as a 401(k) or IRA where possible. Sales in taxable accounts can create capital gains.",
+    "Rebalancing more often isn't automatically better. It adds taxes, trading costs and plan restrictions without a reliable payoff.",
+    "Tax rules differ by country and by person, so check your situation with a tax professional before selling in a taxable account."
+  ],
+  "who_this_is_for": "This guide is for DIY investors who hold a US stock fund, an international stock fund and a bond fund, whether in one account or spread across a 401(k), IRA and taxable brokerage account, and who want a repeatable, tax-aware way to keep that mix on target.",
+  "intro": "A three-fund portfolio holds a US stock fund, an international stock fund and a bond fund, and it's one of the simplest ways to build a diversified long-term portfolio. Setting it up is the easy part. Keeping it on target is harder: markets keep moving, and you want to avoid big tax bills, trading costs and second-guessing every move. This guide gives you a routine you can repeat. You'll learn how to choose between calendar and threshold rebalancing, why new contributions should do most of the work, and how to keep any sales inside tax-advantaged accounts. A made-up worked example shows the exact math, and there's a tracker layout you can copy into a spreadsheet or Notion. This is general education, not personal advice. Tax rules differ by country and by person, so check your own situation before you trade.",
+  "steps": [
+    {
+      "name": "Write down your target mix and your rule",
+      "text": "Record your target percentages for US stocks, international stocks and bonds. This guide uses 50/30/20 purely as an illustration. Then choose your trigger: a calendar date (such as once a year), a drift band (such as ±5 percentage points) or a hybrid of the two. Also decide whether a fund sitting exactly on the band edge counts as a breach."
+    },
+    {
+      "name": "Gather balances from every account on the same day",
+      "text": "Log in to every account that holds one of your three funds, such as a 401(k), IRA, HSA or taxable brokerage account, and write down each fund's balance. Use the same day for all of them so your percentages are accurate. Leave out cash that isn't part of the plan, such as an emergency fund."
+    },
+    {
+      "name": "Calculate current percentages and drift",
+      "text": "Add up each fund's balance across all accounts, then divide each fund's total by the overall portfolio total to get its current percentage. Subtract the target percentage to get the drift. A positive number means the fund is overweight and a negative number means it's underweight."
+    },
+    {
+      "name": "Decide whether to act",
+      "text": "Act only if your calendar date has arrived or a fund has moved outside its band. If neither is true, log the check and stop. Doing nothing is a valid result."
+    },
+    {
+      "name": "Direct new money to the underweight fund first",
+      "text": "Send new contributions to whichever fund is below target. You can also redirect dividends and fund distributions, for example by turning off automatic reinvestment in a taxable account. If you're withdrawing money, take it from the overweight fund."
+    },
+    {
+      "name": "Exchange inside tax-advantaged accounts if drift remains",
+      "text": "If contributions don't close the gap, sell some of the overweight fund inside an IRA, 401(k) or similar account and buy the underweight funds in the same account. Under US rules, this generally doesn't create a taxable gain at the time of the trade. Place the sell and the buys close together so the money doesn't sit in cash, and check your plan's limits on frequent exchanges."
+    },
+    {
+      "name": "Use taxable accounts last, and carefully",
+      "text": "If you have to sell in a taxable account, check each lot's cost basis and holding period first. Choose specific tax lots if your broker allows it, and watch the wash-sale rule if you're selling at a loss. Consider talking to a tax professional before large sales."
+    },
+    {
+      "name": "Log the trades and set your next review date",
+      "text": "Record what you traded, in which account, and the resulting percentages in your tracker. Then put your next review date on the calendar."
+    }
+  ],
+  "comparison": {
+    "caption": "Four ways to rebalance a three-fund portfolio (example settings only, not recommendations)",
+    "headers": [
+      "Method",
+      "How it works",
+      "Main advantage",
+      "Main drawback",
+      "Often suits"
+    ],
+    "rows": [
+      [
+        "Calendar (e.g., once a year)",
+        "Reset to target on a fixed date, whatever markets did",
+        "Simple and easy to remember",
+        "Can trade when drift is tiny, and can miss big swings between check-ins",
+        "Hands-off investors who want one yearly money task"
+      ],
+      [
+        "Threshold bands (e.g., ±5 percentage points)",
+        "Trade only when a fund moves outside its pre-set range",
+        "Acts only when drift is large enough to matter",
+        "Needs periodic monitoring, and the band width is a judgment call",
+        "Investors comfortable checking balances now and then"
+      ],
+      [
+        "Hybrid (scheduled check, trade only on a breach)",
+        "Review on a schedule, such as twice a year, and act only if a band is breached",
+        "Keeps a regular habit with fewer unnecessary trades",
+        "Slightly more rules to track",
+        "Investors who want a routine without busywork"
+      ],
+      [
+        "Cash flows only",
+        "Send new money to the underweight fund, or take withdrawals from the overweight fund, without selling",
+        "Lowest tax and trading cost",
+        "May not close large drift, especially in bigger portfolios",
+        "Investors still adding money regularly"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What Rebalancing a Three-Fund Portfolio Does",
+      "paragraphs": [
+        "Rebalancing a three-fund portfolio means moving money so your US stock, international stock and bond funds go back to the percentages you chose in advance.",
+        "A three-fund portfolio, popularized by the Bogleheads investing community, usually holds a broad US stock index fund, a broad international stock index fund and a broad bond index fund. Its appeal is simplicity: three diversified, usually low-cost building blocks instead of a pile of overlapping funds. The three funds rarely move together, so the mix you set on day one drifts as one of them grows faster than the others.",
+        "Drift matters because it quietly changes your risk. Take a portfolio that started at 80% stocks and 20% bonds. After a long run of strong stock returns, it can end up much more stock-heavy than you planned, which can mean deeper losses in the next downturn. Rebalancing is mainly a way to control risk. It doesn't guarantee higher returns, and in some periods a rebalanced portfolio can trail one that was left alone.",
+        "Each of the three funds carries its own risks, which is why the mix matters:"
+      ],
+      "bullets": [
+        "US stock index funds can fall sharply in bear markets and tie your returns to one country's economy.",
+        "International stock index funds add currency risk and exposure to different political and regulatory systems. They can trail US stocks for long periods, and the reverse can also happen.",
+        "Bond funds can lose value when interest rates rise, carry credit risk depending on what they hold, and can lose purchasing power to inflation.",
+        "All funds charge ongoing fees, such as expense ratios. Fees change, so check current costs on the fund provider's website."
+      ]
+    },
+    {
+      "heading": "Calendar Rebalancing vs Threshold Bands",
+      "paragraphs": [
+        "Calendar rebalancing checks your mix on a fixed schedule, while threshold (band) rebalancing acts only when a fund drifts outside a set range. Both work, so pick the one you'll actually stick to.",
+        "Calendar rebalancing is the easiest rule to remember. You pick a date, such as your birthday or the first week of January, and bring the portfolio back to target that day no matter what markets did. The downside is that it may trade when drift is tiny, which wastes effort and can create taxes. It also ignores big swings that happen between check-ins.",
+        "Threshold bands tie action to drift instead of the calendar. You set a tolerance around each target and trade only when a fund crosses it. For example, with a 50% US / 30% international / 20% bonds target and a ±5-percentage-point band, you'd leave the US fund alone anywhere from 45% to 55%. International would stay put from 25% to 35%, and bonds from 15% to 25%.",
+        "For smaller holdings, some investors use relative bands. A commonly cited rule of thumb, often called the 5/25 rule, triggers a rebalance when a holding drifts 5 percentage points from its target or 25% of its own target, whichever comes first. Under that rule, a 10% holding would trigger at 7.5% or 12.5%. These numbers are illustrations, not recommendations.",
+        "A practical middle ground is a hybrid: check on a schedule, such as twice a year, but trade only if a band has been breached."
+      ],
+      "bullets": [
+        "Narrower bands, such as ±3 points, trigger more trades. Wider bands, such as ±10 points, let your risk drift further.",
+        "Decide in advance whether a fund sitting exactly on the band edge counts as a breach, and apply that choice consistently.",
+        "Whichever rule you pick, write it down before markets move so you aren't deciding on emotion."
+      ]
+    },
+    {
+      "heading": "Rebalance With New Contributions First",
+      "paragraphs": [
+        "The cheapest way to rebalance is to send new money to whichever fund is underweight. Buying instead of selling usually avoids realizing gains and adds no extra trades.",
+        "If you contribute regularly, you can steer that money toward the lagging fund until the mix is back in range. That money might come from 401(k) payroll deductions, monthly IRA deposits or automatic transfers into a brokerage account. For many people still building their savings, this alone keeps the portfolio inside its bands most of the time.",
+        "The limit is scale. As a portfolio grows, a year of contributions becomes small compared with market swings. Contributions may then narrow the drift without fully closing it."
+      ],
+      "bullets": [
+        "Temporarily change your workplace plan's contribution election to favor the underweight fund, then switch it back once you're near target. Changing future contributions doesn't move money you already hold.",
+        "In a taxable account, consider turning off automatic reinvestment of dividends and capital gains distributions so you can send that cash to the underweight fund. Distributions are generally still taxable even if you don't reinvest them.",
+        "If your broker charges per-trade fees or has fund minimums, batch small contributions together.",
+        "If you're already withdrawing money, reverse the logic and take withdrawals from the overweight fund first."
+      ]
+    },
+    {
+      "heading": "Place Rebalancing Trades Inside Tax-Advantaged Accounts",
+      "paragraphs": [
+        "When you do need to sell, doing it inside a tax-advantaged account generally avoids a taxable capital gain in the year of the trade. In the US, that means accounts such as a 401(k), a traditional or Roth IRA, or an invested HSA.",
+        "The key is to treat all your accounts as one portfolio. Your three-fund mix is measured across everything you own, not inside each account separately. So you can sell the overweight fund in your IRA and buy the underweight funds in that same IRA. Your overall portfolio is then rebalanced, even though your taxable account never changed.",
+        "This works best when a tax-advantaged account holds at least two of your three funds, so there's something to swap between. If your 401(k) menu doesn't offer an exact match, the closest broad index option in each category can often stand in. Compare its fees and holdings first.",
+        "Outside the US, account types and rules differ, for example ISAs and SIPPs in the UK or TFSAs and RRSPs in Canada. Some countries also tax fund gains in very different ways. Confirm how your accounts are treated with your local tax authority or a licensed adviser.",
+        "If you have to sell in a US taxable account, a few general points apply. Check current IRS guidance or ask a tax professional about your own case:"
+      ],
+      "bullets": [
+        "Selling at a gain generally realizes a capital gain. Shares held one year or less are usually taxed at short-term rates, which are often higher.",
+        "If your broker lets you choose specific tax lots, selling your highest-cost shares can reduce the gain you realize. Check whether those lots are short-term or long-term first.",
+        "Under the wash-sale rule, a loss can be disallowed if you buy a substantially identical security within 30 days before or after the sale. That includes purchases in your IRA.",
+        "Mutual funds held in taxable accounts can pay out capital gains distributions even if you never sell, so check a fund's distribution history."
+      ]
+    },
+    {
+      "heading": "How to Rebalance a Three-Fund Portfolio: A Worked Example",
+      "paragraphs": [
+        "This example uses round, made-up numbers to show the exact buy and sell math. It isn't a recommended allocation or a prediction of returns.",
+        "Setup: the target is 50% US stocks, 30% international stocks and 20% bonds, with a ±5-point band. After a strong stretch for US stocks, the portfolio is worth $100,000: US fund $60,000 (60%), international fund $25,000 (25%) and bond fund $15,000 (15%). The US fund is 10 points over target, well outside its 45%–55% band, while international and bonds sit right at the lower edges of their bands. The IRA holds $20,000 of the US fund, $10,000 of the international fund and all $15,000 of the bonds. The taxable account holds the other $40,000 of the US fund and $15,000 of the international fund.",
+        "Step A, new money first: the investor has $10,000 of new cash, so the portfolio will total $110,000. At that size the targets are US $55,000, international $33,000 and bonds $22,000. That makes the gaps US −$5,000, international +$8,000 and bonds +$7,000. Putting $5,000 into each underweight fund gives US 54.5%, international 27.3% and bonds 18.2%. Every fund is now inside its band without selling anything, so an investor following a band rule could stop here. The cash can go into any account, because only the combined total matters.",
+        "Step B, an optional full reset inside the IRA: to land exactly on 50/30/20, the remaining gaps are US −$5,000, international +$3,000 and bonds +$2,000, which add up to zero. Inside the IRA, sell $5,000 of the US fund and buy $3,000 of the international fund and $2,000 of the bond fund. The taxable account is never touched.",
+        "What this avoided: suppose the same $5,000 had been sold in the taxable account and, hypothetically, $2,000 of it was gain over the purchase price. That $2,000 would generally count as a realized capital gain for the year."
+      ],
+      "bullets": [
+        "Start: US $60,000 (60%), international $25,000 (25%), bonds $15,000 (15%). Total $100,000.",
+        "After new cash: US $60,000 (54.5%), international $30,000 (27.3%), bonds $20,000 (18.2%). Total $110,000.",
+        "After the IRA exchange: US $55,000 (50%), international $33,000 (30%), bonds $22,000 (20%). Total $110,000.",
+        "Formula: target $ = target % × (current total + new cash). Gap = target $ − current $. A positive gap means buy and a negative gap means sell."
+      ]
+    },
+    {
+      "heading": "Build a Simple Rebalancing Tracker in a Spreadsheet or Notion",
+      "paragraphs": [
+        "A simple tracker only needs your three funds, their target percentages, current balances and a formula that flags when a fund leaves its band.",
+        "In Notion, a database with one row per review works well. Add a number property for each fund's balance and a formula property for each fund's percentage (its balance divided by the total of all three). Then add a formula that shows 'Rebalance' when any fund's drift goes past your band. Include a date property and a notes field to record what you traded and in which account. Formula syntax depends on Notion's current editor, so test your formulas with known numbers.",
+        "Whichever tool you use, enter all balances from the same day and keep a history. Past reviews show how often you actually needed to trade, which helps you judge whether your bands are too tight or too loose.",
+        "For a spreadsheet, put the three funds in rows 2–4 and any new cash to invest in cell C6. Use the columns below, copying each formula down all three rows. To test the sheet, enter the worked example's numbers. You should see buys of $8,000 and $7,000, a sale of $5,000, and a Rebalance flag on the US fund only, because the other two sit exactly on their band edges. ROUND in the flag formula stops tiny calculation errors from flipping the result at the edge."
+      ],
+      "bullets": [
+        "Column A, Fund: US stocks, International stocks, Bonds.",
+        "Column B, Target %: for example 50%, 30%, 20%.",
+        "Column C, Balance: each fund's total across all accounts.",
+        "Column D, Current %: =C2/SUM($C$2:$C$4)",
+        "Column E, Drift: =D2-B2",
+        "Column F, Target $: =B2*(SUM($C$2:$C$4)+$C$6)",
+        "Column G, Buy (+) / Sell (−): =F2-C2",
+        "Column H, Flag: =IF(ROUND(ABS(E2),4)>0.05,\"Rebalance\",\"OK\") (change > to >= if touching the edge counts as a breach)."
+      ]
+    },
+    {
+      "heading": "The Trade-Offs of Rebalancing Too Often",
+      "paragraphs": [
+        "Rebalancing too often adds costs, taxes and effort without a reliable benefit. Rebalancing too rarely lets your risk drift away from your plan.",
+        "There's no single best schedule. The goal is a rule loose enough to avoid busywork and tight enough to keep your risk close to what you chose. If your tracker shows trades at nearly every review, your bands may be tighter than you need. If you never trade, check that your risk hasn't quietly crept up.",
+        "Some investors who don't want to rebalance at all use a single all-in-one fund, such as a target-date or balanced index fund, which rebalances internally. The trade-offs are less control over the mix, an allocation path set by the fund company, and fees that can be higher than three separate index funds. Compare costs on the provider's site."
+      ],
+      "bullets": [
+        "Taxes: every sale in a taxable account can realize gains, and frequent selling can turn long-term gains into short-term ones.",
+        "Trading costs: commissions where they still apply, bid-ask spreads on ETFs and any fund transaction fees all add up.",
+        "Plan restrictions: many 401(k) plans and fund companies have frequent-trading policies that can block repeat exchanges for a period of time.",
+        "Momentum: constantly trimming winners can cut a trend short, and markets sometimes keep moving in one direction for a while.",
+        "Behavior: checking balances daily invites emotional tinkering that isn't part of your plan."
+      ]
+    },
+    {
+      "heading": "When to Change Your Target Instead of Rebalancing",
+      "paragraphs": [
+        "Rebalancing restores the mix you already chose. Changing the target itself is a separate decision that should follow a change in your life, not a change in the markets.",
+        "People often revisit their target as retirement gets closer, when their income becomes more or less stable, or after a downturn shows them the risk felt bigger than expected. Changing the target just because one fund did well or badly recently tends to turn a plan into market timing.",
+        "A fee-only adviser or tax professional can estimate the tax cost of different approaches for your situation. Consider getting professional help if any of these apply:"
+      ],
+      "bullets": [
+        "You have large unrealized gains in a taxable account.",
+        "You face required withdrawals from retirement accounts.",
+        "You hold investments or pay taxes in more than one country.",
+        "You hold employer stock alongside your three funds."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Investors who already use Notion and want a rebalancing log, with one row per review, formula properties for percentages and drift, a review-date field, and notes on which account each trade happened in.",
+      "not_for": "Anyone who wants live prices or balances synced automatically from their brokerage, since you'll usually enter balances by hand (check Notion's current integrations). It's also not worth it if a plain spreadsheet would be faster for you to set up."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How often should you rebalance a three-fund portfolio?",
+      "answer": "There's no single correct frequency. Many DIY investors check once or twice a year and trade only when a fund drifts past a set band, such as the ±5 percentage points used as an example in this article. The best schedule is the one you'll follow consistently without trading on emotion."
+    },
+    {
+      "question": "What is the 5/25 rebalancing rule?",
+      "answer": "The 5/25 rule is a commonly cited rule of thumb: rebalance when a holding drifts 5 percentage points from its target or 25% of its own target, whichever happens first. For a 10% holding, the 25% limit triggers sooner, at 7.5% or 12.5%. It's a guideline, not a guarantee of better results."
+    },
+    {
+      "question": "Does rebalancing inside an IRA or 401(k) trigger taxes?",
+      "answer": "In the US, buying and selling inside a 401(k), traditional IRA or Roth IRA generally doesn't create a taxable event at the time of the trade. Any tax depends on the account type when you withdraw. Some plans limit frequent exchanges, and tax-advantaged accounts in other countries work differently, so check your plan's rules and your local tax rules."
+    },
+    {
+      "question": "Is it better to rebalance with new money or by selling?",
+      "answer": "Using new contributions is usually cheaper, because buying the underweight fund doesn't realize gains or add extra sales. Selling becomes necessary when drift is too large for contributions to close, which happens more often as a portfolio grows. When you do sell, tax-advantaged accounts are generally the lower-tax place to do it."
+    },
+    {
+      "question": "Do I need to rebalance each account separately?",
+      "answer": "No. Most investors measure their three-fund mix across all accounts combined, so one account can be heavy in bonds while another is heavy in stocks. Only the overall total needs to match your target, which lets you trade in whichever account is most tax-efficient."
+    },
+    {
+      "question": "What happens if I never rebalance a three-fund portfolio?",
+      "answer": "Your portfolio will tend to drift toward whichever fund has grown fastest, which can push your risk above what you originally chose. That might work out in strong markets, but it can mean bigger losses than you're prepared for in a downturn. A light-touch rule, even a single yearly check, keeps your risk closer to your plan."
+    }
+  ],
+  "conclusion": "Rebalancing a three-fund portfolio doesn't have to be complicated or expensive. Write down your target and your rule, measure drift across all your accounts together, and fix drift with new money first. Make any remaining trades inside tax-advantaged accounts where you can. Keep a simple tracker so each review takes minutes, and don't trade more often than your rule calls for. This article is general education, not personal financial, tax or legal advice. Tax treatment varies by country and by individual, so check your situation with a qualified tax professional or licensed adviser before selling in a taxable account.",
+  "keyword": "how to rebalance a three fund portfolio",
+  "niche": "ETFs and index fund investing",
+  "version": 2,
+  "slug": "how-to-rebalance-a-three-fund-portfolio-without-big-tax-bills",
+  "published": "2026-10-08T22:04:46+00:00"
+}

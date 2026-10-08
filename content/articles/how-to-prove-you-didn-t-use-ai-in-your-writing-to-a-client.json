@@ -1,0 +1,285 @@
+{
+  "title": "How to Prove You Didn't Use AI in Your Writing to a Client",
+  "meta_description": "Flagged by an AI detector? Learn how to prove you didn't use AI in your writing with version history, notes, Grammarly Authorship and a calm reply.",
+  "quick_answer": "To prove you didn't use AI in your writing, show how the piece was made. Detector scores are estimates, not proof. Share the original document's Google Docs or Word version history, along with your outline, research notes and sources. Add a Grammarly Authorship report if it was on while you wrote. Reply calmly, offer a short walkthrough call and disclose any AI-assisted editing.",
+  "key_takeaways": [
+    "An AI detector score is a statistical estimate about the finished text. It isn't proof, and clear, conventional human writing often gets flagged.",
+    "Evidence of your process works better than arguing. Version history, outlines, research notes, sources and client emails show how the work was built.",
+    "Share the original document's version history through a screen-share or a short recording. Copies and downloads don't keep the history.",
+    "Grammarly Authorship only records while it's switched on, so turn it on before you start writing. Check current availability on Grammarly's site.",
+    "If AI shaped your wording beyond spelling and grammar fixes, say exactly how. Denying it does far more damage than disclosing it.",
+    "Set up an evidence routine and agree an AI clause with each client before any dispute happens."
+  ],
+  "who_this_is_for": "This guide is for freelance writers whose client ran their work through an AI detector, got an “AI-generated” flag and now wants an explanation, and for writers who want to be ready before that happens.",
+  "intro": "You wrote every word yourself. Then your client pasted the article into an AI detector, got a high “AI-generated” score and sent you an uneasy email. Now you're being asked to prove a negative, and the working relationship may depend on how you reply.\n\nYou don't need to win an argument about the detector. You need to show how the piece was made. This guide covers why detectors flag human writing and which evidence actually persuades clients. It also shows how to share version history without losing it, gives you a calm reply email to adapt, explains when to disclose AI-assisted editing, and sets out a five-step routine that makes the next dispute easy to handle.",
+  "steps": [
+    {
+      "name": "Ask for the specifics",
+      "text": "Reply briefly and ask which detector your client used, what score it gave and which passages it flagged. A screenshot of the report is ideal. Asking shows you're taking the concern seriously and tells you exactly what you need to answer."
+    },
+    {
+      "name": "Leave the delivered text as it is",
+      "text": "Don't edit the flagged passages just to lower the score. Edits made after an accusation can look like a cover-up, and detector scores change unpredictably anyway."
+    },
+    {
+      "name": "Pull your version history",
+      "text": "In Google Docs, open File > Version history > See version history. In Word, use File > Info > Version History for files saved to OneDrive or SharePoint. Note the dates and sessions that show the draft growing, and plan to share the original document's history, not a copy."
+    },
+    {
+      "name": "Collect your process evidence",
+      "text": "Gather your outline, research notes, source links, interview notes and the email thread where you discussed the brief. Dated material is the most persuasive, so record dates wherever you can."
+    },
+    {
+      "name": "Add a Grammarly Authorship report if you have one",
+      "text": "If Grammarly Authorship was on while you wrote, generate the report for the document you delivered. If it wasn't on, skip this step and rely on your version history and notes."
+    },
+    {
+      "name": "List any AI assistance precisely",
+      "text": "Write down every tool you used and what it did, from spell-check to generative rewrites. If AI shaped your wording beyond basic fixes, say so plainly in your reply."
+    },
+    {
+      "name": "Send a calm, evidence-led reply",
+      "text": "Use the email template below. Acknowledge the concern, state how you wrote the piece, link your evidence and offer a 15-minute walkthrough call."
+    },
+    {
+      "name": "Agree a process for future work",
+      "text": "Suggest drafting in a shared doc with version history, using Grammarly Authorship and adding a short AI clause to your agreement. That way, future questions get settled by records instead of detector scores."
+    }
+  ],
+  "comparison": {
+    "caption": "Evidence you can show a client when your writing is flagged as AI",
+    "headers": [
+      "Evidence",
+      "What it shows",
+      "Needs setting up in advance?",
+      "Main limitation"
+    ],
+    "rows": [
+      [
+        "Google Docs version history",
+        "The draft growing over time, with timestamps, rewrites and moved sections",
+        "Mostly automatic. Naming versions at milestones helps",
+        "Only people with edit access can see it, and copies and downloads lose it"
+      ],
+      [
+        "Word version history (OneDrive/SharePoint)",
+        "Saved snapshots of the document over time",
+        "Yes. The file must be saved to OneDrive or SharePoint",
+        "Less detailed than Google Docs, and files saved only to your computer usually have no history"
+      ],
+      [
+        "Grammarly Authorship report",
+        "Which text was typed, pasted, or generated or edited with AI",
+        "Yes. It must be on while you write",
+        "It can't cover writing done before it was turned on. Check current availability on Grammarly's site"
+      ],
+      [
+        "Outline, research notes and sources",
+        "Your thinking and research before and during drafting",
+        "It helps. Dated notes are more convincing",
+        "Undated notes are easy for a client to dismiss"
+      ],
+      [
+        "Client emails and brief discussions",
+        "Your input on the angle and structure, and your questions about the brief",
+        "No. They're already in your inbox",
+        "They show you were engaged, not who typed the words"
+      ],
+      [
+        "Work published before late 2022",
+        "Your voice and style before generative AI went mainstream",
+        "No",
+        "Only useful if your style is recognizable and close to the new piece"
+      ],
+      [
+        "Live walkthrough call",
+        "That you can explain every choice in the piece",
+        "No",
+        "It takes time and depends on the client agreeing to it"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Why AI detectors flag human writing",
+      "paragraphs": [
+        "AI detectors flag human writing because they can't see how a text was written. They only estimate how statistically predictable the finished text looks, and a lot of good human writing is predictable on purpose.",
+        "Most detectors are classifiers trained on examples of human-written and machine-written text. They typically look at signals such as how expected each word choice is and how much sentence length and structure vary. Text from AI language models tends to be smooth, evenly paced and built from common phrasing. A skilled freelancer writing clean, conventional prose to a tight brief often produces text with the same qualities.",
+        "A detector score is a guess about the text, not a record of how it was made. Depending on the tool, a figure like “80% AI” may describe the tool's confidence or the share of sentences it found suspicious. It doesn't mean 80% of the piece came from a chatbot. Different detectors often disagree about the same text, and small edits can change a score a lot.",
+        "AI companies and researchers have pointed out these limits too. In 2023, OpenAI discontinued its own AI text classifier, citing its low rate of accuracy. The same year, Stanford researchers published a study reporting that several popular detectors were more likely to label essays by non-native English writers as AI-generated. Many detector vendors also advise against making decisions on a score alone, so check the documentation for the tool your client used.",
+        "These types of writing are often wrongly flagged as AI:"
+      ],
+      "bullets": [
+        "SEO articles written to a brief with set headings and keywords",
+        "How-to guides, listicles and FAQs that follow standard structures",
+        "Technical, legal, financial or medical explainers that use fixed terminology",
+        "Product descriptions and short marketing copy",
+        "Writing by non-native English speakers who prefer common, safe phrasing",
+        "Text heavily polished by grammar and rewriting tools"
+      ]
+    },
+    {
+      "heading": "How to prove you didn't use AI in your writing: build an evidence trail",
+      "paragraphs": [
+        "You prove you didn't use AI by showing the process behind the piece: the drafts, notes, research and decisions that a chatbot doesn't leave behind.",
+        "A detector judges only the finished text. Your evidence shows how that text came to exist: when you started, how it changed, what you read and what you cut. No single item proves it on its own, but three or four pieces of evidence that tell the same story persuade far better than any score.",
+        "A screenshot from another detector saying your work is “human” doesn't help. If detectors can be wrong about your work, they can be wrong in your favor too, and a savvy client will know it.",
+        "These are the main types of evidence you can gather:"
+      ],
+      "bullets": [
+        "Version history: timestamps in Google Docs or Word showing the draft growing over several sessions, with rewrites and moved sections.",
+        "Outline and brief notes: your plan before drafting, ideally dated or visible in the document's earliest versions.",
+        "Research trail: source links, highlighted PDFs, quotes you pulled and your browser history from the days you did your research.",
+        "Interview material: call notes, transcripts or recordings. Share these only with your interviewee's permission.",
+        "Client communication: emails or chats where you asked about the angle, proposed headlines or pointed out gaps in the brief.",
+        "Your back catalog: pieces published before ChatGPT launched in late 2022, showing you wrote in the same voice before generative AI went mainstream.",
+        "A live walkthrough: a short call where you explain why you structured the piece that way and which sources you dropped."
+      ]
+    },
+    {
+      "heading": "How to share version history without losing it",
+      "paragraphs": [
+        "Version history is usually your strongest single piece of evidence, but it only helps if you share it in a way that keeps the history intact.",
+        "In Google Docs, open File > Version history > See version history. The shortcut is Ctrl+Alt+Shift+H on Windows or Cmd+Option+Shift+H on Mac. The right-hand panel lists versions by date and time. Click the arrow next to a grouped entry to see smaller edits, and leave “Show changes” ticked to highlight what changed. To mark milestones, use File > Version history > Name current version.",
+        "Two common mistakes wipe out this evidence. File > Make a copy creates a new document with no history, and downloading the file as a .docx or PDF drops the history completely. Version history is also visible only to people with edit access. That means the best ways to share it are a live screen-share, a short screen recording, or temporary edit access to the original document.",
+        "To make a screen recording without extra software, use the Snipping Tool's record option on Windows 11, or press Cmd+Shift+5 on a Mac. Keep the recording under three minutes. Open the earliest version, step through four or five milestones and finish on the draft you delivered.",
+        "In Microsoft Word, version history is available for documents saved to OneDrive or SharePoint, usually with AutoSave turned on. Open it from File > Info > Version History, or by clicking the file name at the top of the window. Word saves snapshots from time to time rather than every edit, and files saved only to your computer usually have no history. Menus differ between Word versions, so check Microsoft's support pages if yours looks different.",
+        "If you drafted in Scrivener, a notes app or a paper notebook and then pasted the text into the client's doc, the history will show one large paste. That's normal for many writers. In that case, show your drafting app's own history or file dates, or photos of your handwritten drafts.",
+        "A genuine human drafting history usually shows:"
+      ],
+      "bullets": [
+        "Several sessions spread over hours or days",
+        "Text arriving a sentence or paragraph at a time, not as whole finished sections",
+        "Deletions, rewrites and headings that moved around",
+        "Comments and suggestions resolved along the way"
+      ]
+    },
+    {
+      "heading": "Using Grammarly Authorship as a record of how you wrote",
+      "paragraphs": [
+        "Grammarly Authorship is a Grammarly feature that tracks how text gets into your document and turns that into a report you can share. It records whether text was typed, pasted from elsewhere, or generated or edited with AI.",
+        "According to Grammarly, Authorship works in common writing apps such as Google Docs and Microsoft Word through Grammarly's browser extension or add-in. Reports can include a replay showing how the document was written. Supported apps, features and the plans that include Authorship can change, so check the current details on Grammarly's website before you rely on it.",
+        "The main limitation is timing. Authorship records only while it's switched on, so it generally can't cover writing you did before you turned it on. If it wasn't running for the flagged piece, rely on version history and notes this time, and switch it on for every project from now on.",
+        "Authorship also shows AI use where it happened. If you accepted Grammarly's generative rewrites or other AI suggestions, the report is designed to show that. This helps you, because it lets you make a specific, believable disclosure instead of a vague one.",
+        "Before you share a report, check these points:"
+      ],
+      "bullets": [
+        "Authorship was on for this document from the start.",
+        "You were signed in to the Grammarly account that recorded the work.",
+        "The report covers the final version you delivered.",
+        "You're comfortable with everything it reveals, such as pasted source text or confidential client material."
+      ]
+    },
+    {
+      "heading": "A calm reply email template you can adapt",
+      "paragraphs": [
+        "The best reply to an AI-detection flag is short, calm and built around evidence. Acknowledge the concern, say plainly how you wrote the piece, share your proof and offer a call.",
+        "Subject: Re: [Article title] – my drafting process and version history",
+        "Hi [Client name],",
+        "Thanks for flagging this. I understand why a detector result raises questions, especially if your team has an AI policy. I wrote this piece myself, and I'm glad to show you exactly how it came together.",
+        "Here's what I've shared: [a screen recording of / edit access to] the original document's version history, which shows the draft built over [number] sessions between [dates]. I've also included my outline and research notes with sources, [my Grammarly Authorship report], and our email thread from [date] where we agreed on the angle.",
+        "To be fully transparent about tools: [I used Grammarly for spelling and grammar suggestions only / I didn't use any AI tools on this piece / I used (tool) to (specific task) in (section)].",
+        "If it would help, I'm happy to do a 15-minute call to walk you through the history and explain my choices on structure and sources. I'd also suggest a simple process for future pieces, such as drafting directly in a shared doc, so this is easy to check next time.",
+        "Best, [Your name]",
+        "Before you send it, make sure the tools line is completely accurate. If the detector's vendor publishes a warning against relying on scores alone, you can add one sentence quoting it, with a link. Only quote what the vendor actually says.",
+        "Leave these out of your first reply:"
+      ],
+      "bullets": [
+        "Sarcasm, blame or “your tool is broken”",
+        "Screenshots of other detectors saying your work is “human”",
+        "Long technical explanations of how detectors work",
+        "Threats about payment or pressure about deadlines"
+      ]
+    },
+    {
+      "heading": "When you should disclose AI-assisted editing",
+      "paragraphs": [
+        "Disclose AI assistance whenever an AI tool shaped your wording or content beyond basic spelling and grammar fixes, and whenever your contract or client asks about AI use.",
+        "Clients don't usually count basic spell-check and grammar corrections as “AI use.” But if a client's policy bans all AI-powered tools, mention them anyway. A one-line disclosure costs you nothing.",
+        "Disclosing is the safer choice because your own records will show what happened. If you deny AI use and your Authorship report or version history later shows otherwise, you'll lose far more trust than an honest “I used AI to tighten two paragraphs” would ever cost you.",
+        "Keep your disclosure specific. For example: “I researched, outlined and drafted this piece myself. I used [tool] to [task] in [section]. The final wording and fact-checking are mine.” If your contract has an AI clause and you're unsure whether you've broken it, read the exact wording and consider getting professional advice. This article is general information, not legal advice.",
+        "Disclose if AI did any of the following:"
+      ],
+      "bullets": [
+        "Suggested outline points, headings or headlines that ended up in the piece",
+        "Generated, rewrote, shortened or changed the tone of any sentences, including through Grammarly's generative features",
+        "Summarized sources, transcripts or research for you",
+        "Translated material that you then edited"
+      ]
+    },
+    {
+      "heading": "The 5-step setup to do before any dispute happens",
+      "paragraphs": [
+        "If you set up a simple evidence routine at the start of each project, a future AI accusation becomes a five-minute reply instead of a stressful week.",
+        "A short AI clause in your contract or onboarding email is enough to set the rules. For example: “The writer will not use generative AI to draft content unless agreed in writing. Spelling and grammar tools are permitted. If AI use is questioned, both parties will review drafting records such as version history rather than rely on an AI detector score alone.” Adapt the wording to your situation, and have a professional review any contract that involves significant money.",
+        "The routine adds only a few minutes to each project. It also protects you with clients who never mention AI, because the evidence already exists if a question ever comes up."
+      ],
+      "bullets": [
+        "1. Draft where history is kept. Write from outline to final draft in Google Docs, or in Word with the file saved to OneDrive or SharePoint and AutoSave on.",
+        "2. Turn on Grammarly Authorship before you write the first word, if your plan includes it, and check that it's tracking the document.",
+        "3. Keep a dated project folder for each client with the brief, outline, research notes, source links and interview notes.",
+        "4. Name versions at milestones, such as “outline,” “first draft,” “revised” and “final,” so you can jump straight to them during a walkthrough.",
+        "5. Agree AI rules in writing with every client, covering what's allowed, what isn't and how disputes will be handled."
+      ]
+    },
+    {
+      "heading": "Mistakes that make a false AI flag worse",
+      "paragraphs": [
+        "The quickest ways to turn a false flag into a lost client are getting defensive, chasing a lower score and “fixing” your writing with AI.",
+        "If a client still won't accept clear evidence, you can't force them to. Decide whether the relationship is worth keeping, and check what your contract says about payment for work you've delivered. If a significant amount of money is at stake, get professional advice."
+      ],
+      "bullets": [
+        "Running your text through an “AI humanizer” or paraphraser puts AI into work that was human, and your version history or Authorship report will show it.",
+        "Rewriting flagged passages to lower the score means chasing a number that moves unpredictably, and edits made after an accusation can look like a cover-up. Revise only if the client raises quality concerns.",
+        "Sending screenshots of other detectors saying “human” is cherry-picking, and it undercuts your point that scores aren't reliable.",
+        "Sharing a copy or export instead of the original means the client can't see the version history.",
+        "Replying in anger or opening with threats about payment makes both sides dig in.",
+        "Denying AI use that actually happened is the worst mistake, because your own records can contradict you."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Grammarly",
+      "best_for": "Freelance writers who want a shareable record, through Grammarly Authorship, of what they typed, pasted or edited with AI, along with grammar and tone checks. Check Authorship's current availability, supported apps and plans on Grammarly's site.",
+      "not_for": "Writers working under a strict no-AI-tools policy who haven't checked which Grammarly features their client allows. It also can't document work written before Authorship was turned on."
+    },
+    {
+      "product": "Notion",
+      "best_for": "A dated project hub for each client that keeps the brief, outline, research notes, source links and interview notes in one place, so your process evidence is easy to find.",
+      "not_for": "Serving as your only proof. How long Notion keeps page history depends on your plan (check Notion's pricing page), so draft in Google Docs or Word with version history as well. Don't use its built-in AI for drafting if your client prohibits AI."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an AI detector prove I used AI?",
+      "answer": "No. An AI detector gives an estimate based on patterns in the text, not a record of how the text was written. Detectors often disagree with each other and can flag clear, conventional human writing. A score is a reason to ask questions, not proof."
+    },
+    {
+      "question": "Does Google Docs version history prove I wrote something myself?",
+      "answer": "It's strong evidence, though not absolute proof. A history showing the draft built over several sessions, with rewrites and reordering, looks very different from one large paste, and most clients find it convincing. Combine it with your notes and sources for the strongest case."
+    },
+    {
+      "question": "Does using Grammarly count as using AI?",
+      "answer": "It depends on which features you used and how your client defines AI use. Clients usually treat basic spelling and grammar suggestions differently from generative features that rewrite or create text, but policies vary. Check your client's policy and disclose any generative rewrites."
+    },
+    {
+      "question": "Can I turn on Grammarly Authorship after I've finished writing?",
+      "answer": "You can turn it on at any time, but it records activity only while it's active, so it generally won't cover writing you did before that. Turn it on at the start of every new project, and check current features and plan availability on Grammarly's website."
+    },
+    {
+      "question": "Should I rewrite my article until it passes the AI detector?",
+      "answer": "Usually not. Scores change unpredictably, rewriting to beat a detector can make the writing worse, and edits made after an accusation can look suspicious. Share your process evidence first, and revise only if the client wants changes on quality grounds."
+    },
+    {
+      "question": "Can students use these steps if a teacher says their essay is AI-generated?",
+      "answer": "Yes. The same evidence applies to students: version history, outlines, notes, sources and being able to talk through your work. Follow your school's academic integrity process, ask what evidence it accepts and request a meeting to walk through your drafts. Also check your school's policy on which tools, including Grammarly, are allowed."
+    }
+  ],
+  "conclusion": "A false AI flag feels personal, but you can resolve it. Detectors judge only the finished text, and you can show the process that produced it. Share your original version history, notes and sources, add a Grammarly Authorship report if you have one, be precise about any AI-assisted editing and offer a short call. Then set up the five-step routine, so the next time a client asks, the answer is already in your files.",
+  "keyword": "how to prove you didn't use ai in your writing",
+  "niche": "AI writing and content tools for freelancers",
+  "version": 2,
+  "slug": "how-to-prove-you-didn-t-use-ai-in-your-writing-to-a-client",
+  "published": "2026-10-08T22:03:09+00:00"
+}

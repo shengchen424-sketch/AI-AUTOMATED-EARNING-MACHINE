@@ -1,0 +1,237 @@
+{
+  "title": "5 ChatGPT Mock Interview Prompts That Feel Like the Real Thing",
+  "meta_description": "Copy-paste ChatGPT mock interview prompts for STAR, job-specific, salary and tough follow-up rounds, plus scoring, voice practice and a weak-answer log.",
+  "quick_answer": "A good ChatGPT mock interview prompt tells the AI who to play (for example, a hiring manager for a named role), which round to run (behavioral, job-description, salary or tough follow-ups) and how to behave: ask exactly one question, wait for your answer and give no feedback until you ask. Then ask it to score you strictly against a rubric. The same prompts work in Claude and Gemini.",
+  "key_takeaways": [
+    "Before the first question, give the AI a role, a specific job and ground rules: one question at a time, and no feedback until you ask for it.",
+    "Rotate through five rounds: behavioral (STAR), job description, salary expectations, tough follow-ups and a strict scoring rubric.",
+    "Practise out loud in voice mode and record yourself on your phone. AI feedback on pace and tone is unreliable.",
+    "Log every answer that scores 3 or below, and start each new session with your three weakest questions.",
+    "Never paste confidential employer information. Check any 'insider' details about the interview process with your recruiter."
+  ],
+  "who_this_is_for": "Job seekers with an interview coming up who want realistic, low-pressure practice in ChatGPT, Claude or Gemini and don't have a coach or practice partner.",
+  "intro": "Reading lists of interview questions feels productive. It doesn't prepare you for the moment an interviewer asks a follow-up you didn't expect. AI assistants can close that gap, but only once you stop them acting like a study guide. This guide gives you a ground-rules block and five copy-paste prompts that turn ChatGPT, Claude or Gemini into a realistic interviewer: a behavioral round, a round built from the job description, the salary question, a tough follow-up interviewer and a strict scoring rubric. It also shows you how to practise out loud in voice mode, keep the AI to one question at a time and log weak answers so you can rehearse them. Finally, it covers the two biggest pitfalls: invented 'insider' details and pasting information you shouldn't share.",
+  "steps": [
+    {
+      "name": "Gather your materials",
+      "text": "Collect the public job description, your CV with contact details removed, and four to six short work stories you can tell in STAR format (Situation, Task, Action, Result)."
+    },
+    {
+      "name": "Remove anything confidential",
+      "text": "Take out client names, internal figures, unreleased projects and anything covered by a non-disclosure agreement. Anonymize your stories, for example 'a large healthcare client' instead of the client's name."
+    },
+    {
+      "name": "Open a fresh chat and paste the ground rules",
+      "text": "Start a new chat (or a saved Project or Gem) just for this role. Paste the ground-rules block so the AI asks one question at a time and saves feedback until you ask for it."
+    },
+    {
+      "name": "Run an interviewer-only round",
+      "text": "Paste Prompt 1 or Prompt 2 and answer each question in full, as you would in the room. Type END ROUND when you're finished."
+    },
+    {
+      "name": "Repeat the round out loud in voice mode",
+      "text": "Switch to voice mode and tell the AI to wait until you say 'that's my answer'. Record yourself on your phone so you can check your pace and filler words afterwards."
+    },
+    {
+      "name": "Get scored feedback and retry",
+      "text": "Use Prompt 5 to score each answer from 1 to 5 against the rubric. Then retry every weak answer once, using the suggested fix."
+    },
+    {
+      "name": "Pressure-test your stories and the salary question",
+      "text": "Run Prompt 4 on your two most important stories. Run Prompt 3 with a salary range you researched yourself, not one the AI suggested."
+    },
+    {
+      "name": "Log weak answers and rehearse them",
+      "text": "Add every answer that scored 3 or below to your weak-answer log. Start your next session with your three weakest questions."
+    },
+    {
+      "name": "Confirm the real interview process",
+      "text": "Ask your recruiter about the format, the number of rounds and who you'll meet. Don't rely on anything the AI claims about the company."
+    }
+  ],
+  "comparison": {
+    "caption": "Which mock interview prompt to use, and when",
+    "headers": [
+      "Prompt",
+      "What it practises",
+      "Best time to use it",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "1. Behavioral (STAR) round",
+        "Telling complete, well-structured stories about past work",
+        "Early in your prep, once you've drafted 4–6 stories",
+        "Stories that end without a measurable result"
+      ],
+      [
+        "2. Job-description round",
+        "Matching your experience to the role's top requirements",
+        "Once for each job you're interviewing for",
+        "Pasting anything other than the public job posting"
+      ],
+      [
+        "3. Salary expectations",
+        "Giving a researched range calmly and clearly",
+        "Before recruiter screening calls",
+        "Trusting any pay figures the AI suggests"
+      ],
+      [
+        "4. Tough follow-up interviewer",
+        "Depth, ownership and staying composed under pressure",
+        "Once your stories already feel polished",
+        "Vague 'we' answers that hide what you personally did"
+      ],
+      [
+        "5. Scoring rubric",
+        "Targeted feedback and immediate retries",
+        "After any interviewer-only round",
+        "Scores that are too generous (ask it to be strict)"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to set up an AI chatbot as a realistic interviewer",
+      "paragraphs": [
+        "To make ChatGPT, Claude or Gemini behave like a real interviewer, give it a role, a specific job and strict rules about pacing and feedback before it asks a single question.",
+        "Without those rules, assistants slip into study-guide mode and list ten likely questions with model answers. That's useful reading, but it isn't practice. A real interview goes one question, your answer, then a follow-up based on what you actually said. That rhythm is what you need to rehearse.",
+        "Paste this ground-rules block at the start of every session, then add one of the five prompts below: “Ground rules for this conversation: You are the interviewer. Ask exactly one question, then stop and wait for my answer. Never list upcoming questions or suggest answers. Keep questions short, as a real interviewer would. Stay in character and give no feedback until I type FEEDBACK or END ROUND. If you don't know something about the company's real hiring process, say so instead of guessing.”",
+        "Prepare three things before you start: the public job description, your CV with contact details removed, and four to six short work stories. Good stories to have ready: an achievement, a conflict, a mistake, a time you led without formal authority and a time you delivered under pressure."
+      ],
+      "bullets": [
+        "Replace every [bracketed placeholder] before you send a prompt. Vague inputs produce generic questions.",
+        "Use a separate chat for each job so details from one role don't bleed into another.",
+        "Time your answers. Many candidates aim for about two minutes per behavioral answer, but ask your recruiter whether the real interview has time limits."
+      ]
+    },
+    {
+      "heading": "5 ChatGPT mock interview prompts to copy and paste",
+      "paragraphs": [
+        "These five prompts cover the rounds most interviews include: behavioral questions, role-specific questions, the salary question, deep follow-ups and scored feedback. Paste the ground rules first, then use one prompt per session.",
+        "Prompt 1, behavioral (STAR) round: “Act as an experienced hiring manager interviewing me for a [job title] role at a [type and size of company]. Run a behavioral round of six questions covering teamwork, conflict, failure, prioritization, influencing without authority and a proud achievement. After each answer, ask one natural follow-up if I've left out the Situation, Task, Action or Result, or if the result has no measurable outcome. When I type END ROUND, tell me which STAR elements I most often skipped.” The follow-ups train you to spot and fill those gaps yourself.",
+        "Prompt 2, role-specific round from the job description: “Read the job description below and identify the five skills or responsibilities that matter most. Don't show me the list yet. Interview me for this role one question at a time, mixing 'tell me about a time' questions with practical scenarios such as 'how would you approach…'. When I type END ROUND, show me the list and tell me which items my answers covered weakly. Job description: [paste the public job posting]” Keeping the list hidden until the end stops you from shaping your answers around a checklist.",
+        "Prompt 3, the salary expectations question: “Play a recruiter on a first screening call for a [job title] role in [city or remote, country]. At a natural point, ask about my salary expectations. Run three short versions of this exchange, one at a time, reacting differently each time: push for a single number, say my figure is above budget, then ask what I earn now. Afterwards, comment only on my delivery: clarity, confidence, whether I gave a range or a number and whether I linked it to the role. Do not suggest what figure to ask for.” That last line matters because chatbots can quote outdated or invented pay figures. Research your range separately, for example from job postings that list pay, salary surveys and recruiters in your field. Rules about asking for your current pay vary by location, so check what applies where you live.",
+        "Prompt 4, the tough follow-up interviewer: “Play a tough but fair senior interviewer. Ask one opening question about [a project or story from my CV]. After each answer, ask a sharper follow-up that probes the weakest part: vague 'we' statements, missing numbers, decisions I didn't explain, what went wrong or what I'd do differently. Go at least three follow-ups deep before changing topic. Stay polite, never hostile, and don't soften the questions.” This round exposes stories you've only rehearsed at surface level.",
+        "Prompt 5, scoring rubric with feedback after each answer: “Switch to coach mode. After each of my answers, score it from 1 to 5 on: (1) answers the actual question, (2) clear structure, (3) specific evidence and numbers, (4) relevance to the job description, (5) conciseness. Give one sentence per score, then the single most important fix. Be strict: a 5 should be rare. Don't rewrite my answer; ask me to try again with the fix, then move on to the next question. Keep feedback under 120 words.” Asking for strictness helps because AI assistants tend to be encouraging by default."
+      ],
+      "bullets": [
+        "Run Prompts 1, 2 and 4 as interviewer-only rounds first, then go back over your weak answers with Prompt 5.",
+        "Add 'The interviewer is [a peer engineer / a department head / an HR generalist]' to change the tone and depth of the questions. For a panel, ask for two or three named interviewers with different priorities and have it say who is speaking.",
+        "For technical or case rounds, adapt Prompt 2: 'Give me practical problems at the level of a [junior/senior] [role] and ask me to talk through my reasoning before I answer.' Check any technical facts the AI states yourself."
+      ]
+    },
+    {
+      "heading": "How to make the AI ask one question at a time",
+      "paragraphs": [
+        "An AI interviewer will ask one question at a time if you explicitly ban lists, tell it to stop after each question and correct it as soon as it slips.",
+        "Chatbots are built to be thorough, so their instinct is to give you everything at once. Instructions also fade in long conversations. A model that behaves perfectly for six questions may start bundling questions together or adding tips you didn't ask for. That's normal and easy to fix.",
+        "Write the rule as a hard stop, not a preference. “Ask one question and then stop” works better than “try to ask questions one by one”. Adding “never list upcoming questions” closes the most common loophole."
+      ],
+      "bullets": [
+        "If it dumps a list, reply: “One question at a time, please. Ask only the first question and wait.”",
+        "If it starts coaching mid-interview, reply: “Stay in interviewer mode. No feedback until I type FEEDBACK.”",
+        "If it drifts after many turns, paste the ground-rules block again rather than starting over.",
+        "To slow the pace further, add: “Before each question, wait for me to type READY.”"
+      ]
+    },
+    {
+      "heading": "How to practise out loud with voice mode",
+      "paragraphs": [
+        "Voice mode lets you hear the questions and answer out loud, which is much closer to a real interview than typing. ChatGPT, Claude and Gemini each offer some form of voice conversation in their apps, though availability depends on your plan, device and region.",
+        "Set up the session in text first. Paste the ground rules and your chosen prompt, check that the AI has understood them, then switch to voice. Many apps let you start voice inside an existing chat so your instructions carry over. If yours opens a fresh session, read a short version of the rules aloud.",
+        "Expect one practical snag: voice assistants often treat a pause as the end of your answer and jump in. Tell the AI “Don't respond until I say 'that's my answer'”, and use a hold-to-talk or mute option if your app has one. Results vary, so test this before a full session.",
+        "Don't rely on the assistant to judge how you sound, because its feedback on pace, tone and filler words can be inconsistent. Record yourself on your phone and listen back instead. For feedback on content, go back to text after the round and run the Prompt 5 rubric on the transcript. Check the transcript for errors first, because they can skew the feedback."
+      ],
+      "bullets": [
+        "Practise in the setup you'll interview in: same chair, same headphones, and camera on if it's a video interview.",
+        "Ask for short spoken questions: “Keep each question to one or two sentences.”",
+        "Answer your hardest questions out loud at least twice, because typed and spoken answers rarely come out the same."
+      ]
+    },
+    {
+      "heading": "How to keep a log of weak answers and rehearse them",
+      "paragraphs": [
+        "A weak-answer log is a simple list of the questions you answered badly, why each answer was weak and what you'll do differently. Rehearsing from it turns scattered practice into targeted improvement.",
+        "Without a log, every session starts from zero and you keep practising questions you already handle well. Keep the log in any tool you'll actually open, such as a notes app, a spreadsheet or a workspace like Notion. Add one entry per weak answer, using the fields listed below.",
+        "Example entry: “Tell me about a time you disagreed with your manager” | Score: 2 | Why: no result, and it sounded like blame | Fix: open with the shared goal, say what I proposed, give the outcome and what I learned | Story: the reporting-process change | Next rehearsal: Thursday | Status: weak.",
+        "To rehearse, paste your three weakest questions into a new session with this prompt: “Ask me these questions first, in random order, one at a time, and score each one with the rubric. Then continue with new questions.” Only mark an item as solid once it scores 4 or higher in two separate sessions.",
+        "Write fixes as bullet points, not memorized paragraphs. Scripted answers tend to sound recited, and one unexpected follow-up can knock you off a script. Bullet points let you rebuild the answer naturally each time."
+      ],
+      "bullets": [
+        "The date and the exact question you were asked",
+        "Your rubric score and a one-line reason it was weak, such as 'no result' or 'too long'",
+        "The fix, written as three or four bullet points rather than a full script",
+        "The STAR story you'll use next time",
+        "Your next rehearsal date and a status: weak, better or solid"
+      ]
+    },
+    {
+      "heading": "ChatGPT vs. Claude vs. Gemini: what differs for interview practice",
+      "paragraphs": [
+        "All five prompts work in ChatGPT, Claude and Gemini. The practical differences are in voice practice, saving your setup and data settings. These features change often and vary by plan, so confirm the details on each vendor's site.",
+        "The biggest factor is usually you: the right assistant is the one you'll actually open every day. It's also worth running the same prompt in two assistants, because each words its questions differently and you get more variety."
+      ],
+      "bullets": [
+        "ChatGPT: voice mode is available in its apps. Depending on your plan, Projects or a custom GPT can store your ground rules and job description so you don't have to paste them each time. If memory is switched on, details from your CV may carry into later chats. You can review this or turn it off in settings.",
+        "Claude: depending on your plan, Projects let you save instructions and documents, such as the job description and your anonymized CV, for every chat in that project. Voice conversation is offered in its apps, but check availability for your account and region.",
+        "Gemini: Gemini Live handles spoken back-and-forth in the Gemini app, and Gems let you save a reusable custom interviewer with your instructions. If your log is in Google Docs, check whether your settings let Gemini reference your files.",
+        "All three: free tiers exist with usage limits. Each assistant has data controls for chat history and for whether your conversations may be used to improve its models. Review these before you paste your CV."
+      ]
+    },
+    {
+      "heading": "Honest limits: invented 'insider' details and confidential information",
+      "paragraphs": [
+        "An AI mock interviewer is excellent practice for structure and fluency. But it doesn't know any company's real interview process, and it should never see confidential employer information.",
+        "Ask an assistant what a particular company asks in interviews and it may confidently describe the rounds, question styles or 'well-known' favourite questions. Some of that may come from public sources, some may be outdated and some may be invented. Treat any 'insider' detail as a plausible guess, not a fact.",
+        "Get the real format from real people. Ask your recruiter how many rounds there are, who you'll meet and what each round covers. Then check the company's careers pages, recent candidate reviews and anyone in your network who has interviewed there.",
+        "Never paste confidential information from a current or former employer. That includes internal documents, client names, unreleased products, financial figures, source code and anything covered by a non-disclosure agreement. Anonymize your stories instead, for example 'a mid-sized retail client', and round off any figures you aren't sure you're allowed to share. Take the same care with any take-home assignment the hiring company has marked as confidential.",
+        "Treat AI feedback as a mirror, not a judge. It can't read a room, doesn't know what a particular hiring manager values, and leans toward encouragement even when you tell it to be strict. If you can, finish your prep with one mock interview run by a person, such as a mentor, a former colleague or a career service."
+      ],
+      "bullets": [
+        "Keep the 'say so instead of guessing' line in your ground rules every session. It reduces invented details, but it doesn't eliminate them.",
+        "Remove your phone number, email address and home address from your CV before pasting it.",
+        "If you're not sure whether something is confidential, leave it out."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Job seekers juggling several interviews who want their weak-answer log, STAR story bank and application tracker in one searchable workspace to open before each practice session. A basic table is enough, so you don't need its AI features for this.",
+      "not_for": "Anyone preparing for a single interview who just needs a quick list. A notes app or spreadsheet does the job with no setup time. It also doesn't run the mock interview itself; you still need ChatGPT, Claude or Gemini for that."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can ChatGPT do a mock interview?",
+      "answer": "Yes. ChatGPT, Claude and Gemini can all play an interviewer if you give them a role, a job description and rules such as 'ask one question at a time and wait for my answer.' They're good for practising structure and fluency, but they don't know any company's actual interview process."
+    },
+    {
+      "question": "What is the best prompt for a mock interview with ChatGPT?",
+      "answer": "A strong prompt names the role the AI plays, the job you're applying for, the type of round and how the AI should behave. Include 'ask exactly one question, then stop and wait' and 'no feedback until I type END ROUND.' Then switch to a scoring-rubric prompt and ask it to be strict, so the feedback is specific."
+    },
+    {
+      "question": "Is it safe to paste my CV and a job description into an AI chatbot?",
+      "answer": "A public job posting is generally fine to paste. Remove your contact details from your CV, never paste confidential employer information, and check the assistant's data controls for chat history and model training before you start. This is general guidance, so check your employer's policies if you're unsure."
+    },
+    {
+      "question": "Can ChatGPT tell me what salary to ask for?",
+      "answer": "Don't rely on it for figures, because AI assistants can give outdated or invented pay ranges. Research your range from job postings that list pay, salary surveys and recruiters in your field. Then use the AI only to practise delivering your answer calmly and clearly."
+    },
+    {
+      "question": "Can I practise a mock interview out loud with AI?",
+      "answer": "Yes. ChatGPT, Claude and Gemini (through Gemini Live) all offer some form of voice conversation, though availability depends on your app, plan and region. Set up the prompt in text first, tell the AI to wait until you say 'that's my answer,' and record yourself to check your pace and filler words."
+    },
+    {
+      "question": "Does ChatGPT know the real interview questions a company asks?",
+      "answer": "Not reliably. It may describe a company's process confidently, but the details can be outdated or made up. Ask your recruiter about the format and number of rounds, and check the company's careers pages and recent candidate reviews."
+    }
+  ],
+  "conclusion": "The best ChatGPT mock interview prompt makes practice uncomfortable in the same way a real interview is: one question, your answer, then a follow-up that tests it. Start with the ground rules, run the behavioral and job-description rounds, pressure-test your best stories and score yourself strictly. Keep the log, rehearse your weak spots out loud and confirm anything company-specific with a real person. Do that for a few sessions before your interview and you'll walk in having already answered the hard questions, not just read about them.",
+  "keyword": "chatgpt mock interview prompt",
+  "niche": "ChatGPT, Claude and Gemini guides and prompts for work and money",
+  "version": 2,
+  "slug": "5-chatgpt-mock-interview-prompts-that-feel-like-the-real-thing",
+  "published": "2026-10-08T22:02:40+00:00"
+}

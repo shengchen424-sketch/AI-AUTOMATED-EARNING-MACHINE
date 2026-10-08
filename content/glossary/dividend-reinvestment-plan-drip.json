@@ -1,0 +1,22 @@
+{
+  "term": "Dividend Reinvestment Plan (DRIP)",
+  "section": "Investing",
+  "short_definition": "A Dividend Reinvestment Plan (DRIP) automatically uses the cash dividends paid by a stock or fund to buy more shares of that same investment, often including fractional shares.",
+  "explanation": [
+    "A DRIP turns each dividend into more shares instead of cash in your account, usually without a separate trading commission. Some companies run DRIPs directly. Today it's more often a setting in your brokerage account. Many funds also offer 'accumulating' share classes that reinvest dividends inside the fund.",
+    "DRIPs put compounding on autopilot: more shares earn more dividends, which buy more shares. They also work like dollar-cost averaging, because each reinvestment happens at whatever the price is on the payment date. That removes the temptation to spend the cash or try to time the market.",
+    "DRIPs have trade-offs. In many countries reinvested dividends are still taxed in the year they are paid, even though you never received cash. That can leave you with a tax bill and no cash set aside to pay it. Automatic reinvestment can also push one holding above your target asset allocation. Many small purchases at different prices make cost-basis records more complicated. Tax rules differ by country and account type, so check local rules or ask a licensed tax professional."
+  ],
+  "example": "Example (illustrative numbers): you own 200 shares priced at 40 that pay a dividend of 0.50 per share. The payout is 200 × 0.50 = 100. With a DRIP turned on, that 100 buys 100 ÷ 40 = 2.5 shares, so you now own 202.5 shares. The next dividend is paid on 202.5 shares instead of 200. In many tax systems you still report 100 of dividend income for that payment unless the shares are held in a tax-advantaged account.",
+  "common_mistake": "Forgetting that reinvested dividends can be taxable and not recording the purchase price of each reinvestment. That can lead to tax surprises now or overpaying capital gains tax when you sell later.",
+  "related_terms": [
+    "Dividend",
+    "Compound Interest",
+    "Dollar-Cost Averaging",
+    "Capital Gains",
+    "Rebalancing"
+  ],
+  "title": "Dividend Reinvestment Plan (DRIP)",
+  "slug": "dividend-reinvestment-plan-drip",
+  "published": "2026-10-08T22:16:58+00:00"
+}

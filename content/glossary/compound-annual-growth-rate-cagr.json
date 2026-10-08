@@ -1,0 +1,21 @@
+{
+  "term": "Compound Annual Growth Rate (CAGR)",
+  "section": "Investing",
+  "short_definition": "Compound Annual Growth Rate (CAGR) is the steady yearly growth rate that would turn a starting value into an ending value over a set period, assuming gains were reinvested each year.",
+  "explanation": [
+    "CAGR tells you what single yearly growth rate would take you from a starting value to an ending value. The formula is (Ending value ÷ Starting value)^(1 ÷ number of years) − 1. CAGR includes compounding, meaning growth that builds on earlier growth. A simple average of yearly returns ignores this.",
+    "CAGR is useful because it puts results measured over different time spans on the same yearly basis. You can use it to compare an investment, a company's revenue or your own net worth. Fund factsheets and company reports often quote annualised figures for this reason.",
+    "The weakness of CAGR is that it smooths out the ride. Two investments with the same CAGR can have very different volatility, and CAGR doesn't show the drops along the way. Past growth rates don't predict future results. CAGR also usually ignores money added or withdrawn during the period, and it leaves out fees and taxes unless they are already built into the numbers."
+  ],
+  "example": "Example (illustrative numbers only): 10,000 grows to 14,641 over 4 years. CAGR = (14,641 ÷ 10,000)^(1/4) − 1 = 10% per year. Now compare a different path. 10,000 rises 50% to 15,000 in year 1, then falls 50% to 7,500 in year 2. The simple average return is (50% − 50%) ÷ 2 = 0%, which wrongly suggests you broke even. CAGR = (7,500 ÷ 10,000)^(1/2) − 1 ≈ −13.4% per year, which correctly shows that you lost money.",
+  "common_mistake": "Treating a past CAGR as a promised future return. Another mistake is confusing CAGR with the simple average of yearly returns, which can make a volatile investment look better than it really performed.",
+  "related_terms": [
+    "Compound Interest",
+    "Return on Investment (ROI)",
+    "Volatility",
+    "Inflation"
+  ],
+  "title": "Compound Annual Growth Rate (CAGR)",
+  "slug": "compound-annual-growth-rate-cagr",
+  "published": "2026-10-08T22:16:58+00:00"
+}
