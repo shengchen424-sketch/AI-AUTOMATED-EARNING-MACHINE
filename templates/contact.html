@@ -1,0 +1,11 @@
+{% extends "page.html" %}
+{% block heading %}Contact us{% endblock %}
+{% block content %}
+<p>{{ cfg.business_name }} is happy to help with questions about our guides, purchases, refunds or partnerships.</p>
+{% if cfg.contact_email %}
+<div class="box"><span class="label">Email</span><a href="mailto:{{ cfg.contact_email }}">{{ cfg.contact_email }}</a><br><span class="small muted">We reply within 2 business days.</span></div>
+{% else %}
+<div class="box"><span class="label">Purchases</span>Reply to your Stripe purchase receipt email and it will reach us directly.</div>
+{% endif %}
+<p>For refunds, see our <a href="{{ cfg.base_url }}/refund-policy/">refund policy</a>.</p>
+{% endblock %}

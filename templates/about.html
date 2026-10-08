@@ -1,10 +1,17 @@
-{% extends "base.html" %}
-{% block title %}About — {{ cfg.site_name }}{% endblock %}
-{% block path %}about/{% endblock %}
-{% block body %}
-<h1>About {{ cfg.site_name }}</h1>
+{% extends "page.html" %}
+{% block heading %}About {{ cfg.site_name }}{% endblock %}
+{% block content %}
 <p>{{ cfg.tagline }}</p>
-<p>Our guides are researched and drafted with the help of AI and follow strict editorial rules: no invented statistics, honest trade-offs, and recommendations only where a tool genuinely fits.</p>
+<h2>How we work</h2>
+<p>Every guide is researched and drafted with the help of AI, then put through a second editorial review pass against strict rules:</p>
+<ul>
+<li><b>Direct answers first.</b> Each guide opens with a short answer you can act on.</li>
+<li><b>No invented numbers.</b> We don't publish made-up statistics, prices, quotes or studies. Product details change, so we tell you what to confirm on the vendor's site.</li>
+<li><b>Honest picks.</b> We only recommend a tool where it genuinely fits, and we say who it is <em>not</em> for.</li>
+<li><b>Kept fresh.</b> Older guides are re-edited regularly; the "Updated" date on each guide shows when.</li>
+</ul>
 <h2 id="disclosure">Affiliate disclosure</h2>
-<p>Some links on this site are affiliate links. If you make a purchase through them, we may earn a commission at no additional cost to you. This supports the site and never changes what we recommend.</p>
+<p>Some links on this site are affiliate links. If you buy through them we may earn a commission at no additional cost to you. This funds the site and never changes what we recommend.</p>
+<h2>Contact</h2>
+<p>See our <a href="{{ cfg.base_url }}/contact/">contact page</a>.</p>
 {% endblock %}

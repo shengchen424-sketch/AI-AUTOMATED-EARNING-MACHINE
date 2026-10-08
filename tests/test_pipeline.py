@@ -30,6 +30,9 @@ class FakeLLM:
             if self.fail_articles:
                 raise LLMError("boom")
             return {"title": "How to </script><script>alert(1)</script> automate", "meta_description": "desc",
+                    "quick_answer": "QUICK ANSWER TEXT", "key_takeaways": ["take 1"], "who_this_is_for": "owners",
+                    "steps": [{"name": "Step one", "text": "do it"}],
+                    "comparison": {"caption": "Cmp", "headers": ["A", "B"], "rows": [["1", "2"]]},
                     "intro": "intro", "sections": [{"heading": f"H{i}", "paragraphs": ["p"], "bullets": ["b"]} for i in range(3)],
                     "recommendations": [{"product": "Zapier", "best_for": "x", "not_for": "y"},
                                         {"product": "Ghost", "best_for": "x", "not_for": "y"}],
@@ -114,3 +117,45 @@ def test_stripe_summary():
 def test_real_config_loads():
     c = config.load()
     assert c.model == "claude-opus-5-5" and c.affiliates and c.niches
+
+
+def test_editor_pass_and_ai_ready_output(cfg):
+    llm = FakeLLM()
+    report = pipeline.run(cfg, llm, None)
+    article_calls = [c for c in llm.calls if "recommendations" in c]
+    assert len(article_calls) == 2 * cfg.articles_per_run          # draft + editor pass
+    slug = report["articles"][0]
+    pub = cfg.public_dir
+    page = (pub / slug / "index.html").read_text()
+    assert "QUICK ANSWER TEXT" in page and '"HowTo"' in page and '"FAQPage"' in page and '"BreadcrumbList"' in page
+    assert 'og:image' in page and f"assets/og/{slug}.png" in page
+    assert (pub / "assets" / "og" / f"{slug}.png").stat().st_size > 1000
+    md = (pub / slug / "index.md").read_text()
+    assert "## Quick answer" in md and "| A | B |" in md
+    robots = (pub / "robots.txt").read_text()
+    assert "User-agent: GPTBot" in robots and "User-agent: ClaudeBot" in robots and "Sitemap:" in robots
+    assert slug in (pub / "llms.txt").read_text() and "QUICK ANSWER TEXT" in (pub / "llms-full.txt").read_text()
+    for legal in ("terms", "privacy", "refund-policy", "contact"):
+        assert (pub / legal / "index.html").exists()
+    prod = (pub / "products" / "automation-playbook" / "index.html").read_text()
+    assert '"Product"' in prod and '"price": "19"' in prod
+
+
+def test_old_articles_are_upgraded_in_place(cfg):
+    store = Store(cfg.content_dir, cfg.data_dir)
+    old = store.save_article({"title": "Old guide", "meta_description": "d", "intro": "i", "sections": [],
+                              "recommendations": [], "faq": [], "conclusion": "c", "keyword": "old kw", "niche": "n"})
+    report = pipeline.run(cfg, FakeLLM(), None)
+    assert old["slug"] in report["upgraded"]
+    new = json.loads((cfg.content_dir / "articles" / f"{old['slug']}.json").read_text())
+    assert new["version"] == generate.ARTICLE_VERSION and new["published"] == old["published"] and new["updated"]
+    assert new["quick_answer"] == "QUICK ANSWER TEXT"
+
+
+def test_indexnow_payload(cfg):
+    from earnbot import indexnow, site as site_mod
+    pipeline.run(cfg, FakeLLM(), None)
+    store = Store(cfg.content_dir, cfg.data_dir)
+    body = indexnow.payload(cfg, indexnow.changed_urls(cfg, store))
+    assert body["keyLocation"].endswith(".txt") and len(body["urlList"]) >= 3
+    assert (cfg.public_dir / f"{site_mod.indexnow_key(cfg)}.txt").read_text() == body["key"]

@@ -1,0 +1,14 @@
+{% extends "page.html" %}
+{% block heading %}Refund policy{% endblock %}
+{% block content %}
+<p>We want you to be happy with every playbook you buy from {{ cfg.business_name }}.</p>
+<h2>{{ cfg.refund_days }}-day money-back guarantee</h2>
+<p>If a digital product isn't right for you, request a refund within <b>{{ cfg.refund_days }} days</b> of purchase and we will refund the full amount to your original payment method. No questions asked.</p>
+<h2>How to request a refund</h2>
+<ol>
+<li>{% if cfg.contact_email %}Email <a href="mailto:{{ cfg.contact_email }}">{{ cfg.contact_email }}</a>{% else %}Reply to your Stripe purchase receipt{% endif %} with the email address you used at checkout.</li>
+<li>We process refunds within 5 business days. Your bank may take a further 5–10 business days to show the credit.</li>
+</ol>
+<h2>Exceptions</h2>
+<p>Repeated purchase-and-refund of the same product may be declined. Refunds are not available for purchases older than {{ cfg.refund_days }} days.</p>
+{% endblock %}

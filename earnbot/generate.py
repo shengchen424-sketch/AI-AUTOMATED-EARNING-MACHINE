@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any
 
 from .config import Config
@@ -15,6 +16,13 @@ Editorial standards (non-negotiable):
 - Recommend a product only when it truly fits the reader's problem; say who it is NOT for.
 - No income guarantees, no medical/legal/financial advice beyond general information.
 - Write in plain, friendly, expert language for busy small-business owners.
+
+Write so search engines AND AI assistants (ChatGPT, Claude, Perplexity, Google AI Overviews)
+can quote you accurately:
+- Open every section with one sentence that directly answers its heading, then expand.
+- Prefer concrete nouns, numbered steps, named settings/menus, and clear definitions.
+- Each paragraph should make sense on its own if quoted out of context.
+- Product features and prices change: describe them generally and tell readers to confirm on the vendor's site.
 """
 
 _SECTIONS = {
@@ -94,14 +102,40 @@ Spread topics across different niches. {_lang_line(cfg)}"""
 # ---------------------------------------------------------------------------
 # 2. Article writing
 # ---------------------------------------------------------------------------
+ARTICLE_VERSION = 2
+
+
 def article_schema(cfg: Config) -> dict[str, Any]:
     names = [a.name for a in cfg.affiliates] or ["none"]
+    strings = {"type": "array", "items": {"type": "string"}}
     return {
         "type": "object",
         "properties": {
             "title": {"type": "string"},
             "meta_description": {"type": "string"},
+            "quick_answer": {"type": "string"},
+            "key_takeaways": strings,
+            "who_this_is_for": {"type": "string"},
             "intro": {"type": "string"},
+            "steps": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {"name": {"type": "string"}, "text": {"type": "string"}},
+                    "required": ["name", "text"],
+                    "additionalProperties": False,
+                },
+            },
+            "comparison": {
+                "type": "object",
+                "properties": {
+                    "caption": {"type": "string"},
+                    "headers": strings,
+                    "rows": {"type": "array", "items": strings},
+                },
+                "required": ["caption", "headers", "rows"],
+                "additionalProperties": False,
+            },
             "sections": _SECTIONS,
             "recommendations": {
                 "type": "array",
@@ -127,9 +161,53 @@ def article_schema(cfg: Config) -> dict[str, Any]:
             },
             "conclusion": {"type": "string"},
         },
-        "required": ["title", "meta_description", "intro", "sections", "recommendations", "faq", "conclusion"],
+        "required": ["title", "meta_description", "quick_answer", "key_takeaways", "who_this_is_for",
+                     "intro", "steps", "comparison", "sections", "recommendations", "faq", "conclusion"],
         "additionalProperties": False,
     }
+
+
+_ARTICLE_FIELDS_GUIDE = """Field guide:
+- title: specific and benefit-led, contains the keyword, under 65 characters if possible.
+- meta_description: max 155 characters, compelling, contains the keyword.
+- quick_answer: 40–70 words that directly answer the searcher's question. This is the passage
+  AI assistants and featured snippets will quote, so make it complete and self-contained.
+- key_takeaways: 3–6 crisp bullets a skimmer can act on.
+- who_this_is_for: one sentence naming the reader and their situation.
+- steps: the core how-to as 4–10 numbered steps (empty array only if the topic is not procedural).
+- comparison: a useful table (e.g. options vs criteria) with 2–5 columns and 3–8 rows; use an empty
+  caption, headers and rows if a table would not genuinely help.
+- sections: 5–8 sections, 1,500–2,200 words in total, keyword used naturally in one heading.
+- faq: 3–6 questions people actually search for, each answered in 2–4 sentences.
+"""
+
+
+def _finish(cfg: Config, art: dict[str, Any], topic: dict[str, Any]) -> dict[str, Any]:
+    art["recommendations"] = [r for r in art["recommendations"] if cfg.affiliate(r["product"])]
+    art.update(keyword=topic["keyword"], niche=topic["niche"], version=ARTICLE_VERSION)
+    return art
+
+
+def edit_article(cfg: Config, llm: JSONModel, draft: dict[str, Any], topic: dict[str, Any]) -> dict[str, Any]:
+    """Senior-editor pass: fact-safety, depth, scannability. Also upgrades old-format articles."""
+    catalog = "\n".join(f"- {a.name} ({a.category}): {a.blurb}" for a in cfg.affiliates)
+    prompt = f"""You are the senior editor of "{cfg.site_name}". Rewrite the draft below into the best
+article on the web for the keyword "{topic['keyword']}".
+
+Editing checklist:
+1. Remove or soften anything unverifiable (specific prices, statistics, release dates, quotes).
+2. Add missing practical depth: exact steps, settings, templates, pitfalls, examples.
+3. Make it scannable: strong section openers, short paragraphs, bullets where they help.
+4. Fill every field in the field guide (the draft may be missing some).
+5. Keep recommendations honest and only from this catalog:
+{catalog}
+
+{_ARTICLE_FIELDS_GUIDE}
+{_lang_line(cfg)}
+
+DRAFT (JSON):
+{json.dumps(draft, ensure_ascii=False)}"""
+    return _finish(cfg, llm.generate_json(EDITORIAL_RULES, prompt, article_schema(cfg)), topic)
 
 
 def write_article(cfg: Config, llm: JSONModel, topic: dict[str, Any]) -> dict[str, Any]:
@@ -141,17 +219,13 @@ Working title: {topic['title']}
 Angle: {topic['angle']}
 Search intent: {topic['search_intent']}
 
-Requirements:
-- 1,500–2,200 words across 5–8 sections; use the keyword naturally in the title, intro and one heading.
-- meta_description: max 155 characters, compelling, contains the keyword.
-- Include at least one step-by-step section the reader can follow today.
+{_ARTICLE_FIELDS_GUIDE}
 - recommendations: 0–3 tools, ONLY from this partner catalog and only where they genuinely fit:
 {catalog}
-- faq: 3–5 real questions people search for.
 {_lang_line(cfg)}"""
-    art = llm.generate_json(EDITORIAL_RULES, prompt, article_schema(cfg))
-    art["recommendations"] = [r for r in art["recommendations"] if cfg.affiliate(r["product"])]
-    art.update(keyword=topic["keyword"], niche=topic["niche"])
+    art = _finish(cfg, llm.generate_json(EDITORIAL_RULES, prompt, article_schema(cfg)), topic)
+    if cfg.editor_pass:
+        art = edit_article(cfg, llm, art, topic)
     return art
 
 

@@ -10,8 +10,27 @@ GitHub Actions（每天 06:17 UTC）
        3. create_product  生成付费手册：公开销售页 + 私密完整版（deliverables/，不进公开仓库）
        4. site.build      静态站：首页 / 文章 / 产品页 / sitemap / RSS / robots / JSON-LD
        5. revenue         读取 Stripe 近 30 天收入 → data/revenue.json
-  └─ 提交新内容 → 部署 GitHub Pages
+       6. 每篇文章两轮：初稿 → 资深编辑复审（去掉无法核实的数据、补细节）
+       7. 老文章自动升级到最新格式（同一网址，标注更新日期）
+  └─ 提交新内容 → 部署 GitHub Pages → IndexNow 通知 Bing/Yandex 等收录
 ```
+
+## 为 AI 搜索 / 答案引擎优化（GEO）
+
+ChatGPT、Claude、Perplexity、Google AI Overviews 引用网页时偏好"能直接摘录的答案"，本系统针对性做了：
+
+- 每篇文章开头一段 40–70 词 **Quick answer**（最容易被 AI 原文引用）+ Key takeaways + 编号步骤 + 对比表 + FAQ
+- 结构化数据：Article、FAQPage、HowTo、BreadcrumbList、Product、Organization、WebSite
+- `robots.txt` 明确欢迎 GPTBot、ClaudeBot、PerplexityBot、Google-Extended 等 20+ 爬虫
+- `llms.txt`（AI 专用站点地图）、`llms-full.txt`（全文）、每篇文章的纯 Markdown 版 `<文章网址>/index.md`
+- 每篇文章自动生成 1200×630 社交分享图（og:image），分享到 X / Facebook / LinkedIn 有大图卡片
+- 每次部署后自动 IndexNow 提交（Bing 的索引同时供 ChatGPT 搜索和 Copilot 使用）
+
+## 买家付款后如何收到手册
+
+每份新手册会自动生成 `.md` / `.html` / `.pdf` 三种格式，在每次运行的 Actions → Artifacts 里下载。
+把 PDF 上传到 Google Drive（"知道链接的人可查看"），然后在 Stripe：Payment Links → 编辑链接 →
+**After payment → Show confirmation page → 自定义消息**里贴上下载链接。下载链接只存在 Stripe 里，不会出现在公开仓库或网站上。
 
 ## 四条收入渠道
 

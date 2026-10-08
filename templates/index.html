@@ -1,12 +1,33 @@
 {% extends "base.html" %}
+{% from "_macros.html" import card, product_promo, subscribe %}
 {% block body %}
-<h1>{{ cfg.site_name }}</h1>
-<p>{{ cfg.tagline }}</p>
-{% if products %}<div class="card"><strong>Featured playbook:</strong>
-<a href="{{ cfg.base_url }}/products/{{ products[0].slug }}/">{{ products[0].title }}</a><br><span class="muted">{{ products[0].subtitle }}</span></div>{% endif %}
-<h2>Latest guides</h2>
-<ul class="list">
-{% for a in articles %}<li><a href="{{ cfg.base_url }}/{{ a.slug }}/">{{ a.title }}</a><br><span class="muted">{{ a.meta_description }}</span></li>
-{% else %}<li class="muted">First guides are being written.</li>{% endfor %}
-</ul>
+<section class="hero"><div class="wrap">
+  <span class="eyebrow">AI for small business · updated {{ today }}</span>
+  <h1>Put AI to work in your business <span class="grad-text">this week</span>, not someday.</h1>
+  <p class="lede">{{ cfg.tagline }} Every guide gives you a direct answer, exact steps and honest tool picks — no hype.</p>
+  <div class="hero-actions">
+    <a class="btn big" href="{{ cfg.base_url }}/guides/">Browse the guides</a>
+    {% if products %}<a class="btn big ghost" href="{{ cfg.base_url }}/products/{{ products[0].slug }}/">Get the playbook</a>{% endif %}
+  </div>
+  <div class="stats">
+    <div><b>{{ articles|length }}</b>step-by-step guides</div>
+    <div><b>{{ topics|length }}</b>topics covered</div>
+    <div><b>0</b>invented statistics</div>
+  </div>
+</div></section>
+
+{% if topics %}<section class="section" style="padding-bottom:0"><div class="wrap">
+  <div class="chips">{% for t in topics %}<a class="chip" href="{{ cfg.base_url }}/topics/{{ t.slug }}/">{{ t.label }} · {{ t.count }}</a>{% endfor %}</div>
+</div></section>{% endif %}
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><h2>Latest guides</h2><a href="{{ cfg.base_url }}/guides/">View all →</a></div>
+  <div class="grid">{% for a in articles[:9] %}{{ card(a, cfg) }}{% else %}<p class="muted">The first guides are being written.</p>{% endfor %}</div>
+</div></section>
+
+{% if products %}<section class="section" style="padding-top:0"><div class="wrap">
+  {{ product_promo(products[0], cfg, checkout_links.get(products[0].slug), price) }}
+</div></section>{% endif %}
+
+<section class="section" style="padding-top:0"><div class="wrap read">{{ subscribe(cfg) }}</div></section>
 {% endblock %}

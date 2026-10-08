@@ -1,0 +1,16 @@
+{% extends "page.html" %}
+{% block heading %}Privacy policy{% endblock %}
+{% block content %}
+<p>{{ cfg.business_name }} respects your privacy. This policy explains what we collect on {{ cfg.base_url }}.</p>
+<h2>What we collect</h2>
+<ul>
+<li><b>Purchases:</b> when you buy, Stripe processes your payment and shares your name, email and order details with us so we can deliver your product and provide support. Card details stay with Stripe.</li>
+<li><b>Newsletter:</b> if you subscribe, your email address is stored by our email provider and used only to send the newsletter. You can unsubscribe anytime.</li>
+<li><b>Hosting logs:</b> our host (GitHub Pages) may log technical data such as IP addresses for security.</li>
+</ul>
+<p>The Site does not use advertising cookies{% if cfg.adsense_client %}, except those set by Google AdSense, which you can manage in your Google ad settings{% endif %}.</p>
+<h2>How we use it</h2>
+<p>Only to deliver products, provide support, send emails you asked for, and meet legal obligations. We never sell your personal data.</p>
+<h2>Your rights</h2>
+<p>You may ask to access, correct or delete your personal data at any time via our <a href="{{ cfg.base_url }}/contact/">contact page</a>.</p>
+{% endblock %}

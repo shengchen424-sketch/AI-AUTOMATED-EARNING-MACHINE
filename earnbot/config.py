@@ -35,6 +35,12 @@ class Config:
     checkout_links: dict[str, str] = field(default_factory=dict)
     adsense_client: str = ""
     newsletter_action: str = ""
+    editor_pass: bool = True
+    upgrades_per_run: int = 2
+    business_name: str = ""
+    contact_email: str = ""
+    refund_days: int = 30
+    indexnow: bool = True
     root: Path = ROOT
 
     @property
@@ -79,5 +85,11 @@ def load(path: Path | None = None, root: Path | None = None) -> Config:
         checkout_links={k: v for k, v in checkout.items() if v},
         adsense_client=raw.get("ads", {}).get("adsense_client", ""),
         newsletter_action=raw.get("newsletter", {}).get("form_action", ""),
+        editor_pass=bool(auto.get("editor_pass", True)),
+        upgrades_per_run=int(auto.get("upgrades_per_run", 2)),
+        business_name=site.get("business_name", site["name"]),
+        contact_email=site.get("contact_email", ""),
+        refund_days=int(raw.get("checkout_policy", {}).get("refund_days", 30)),
+        indexnow=bool(raw.get("indexnow", {}).get("enabled", True)),
         root=root or path.resolve().parent,
     )

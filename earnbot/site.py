@@ -1,27 +1,41 @@
-"""Render the static, SEO-ready, monetised website into public/."""
+"""Render the static, SEO + AI-answer-engine ready, monetised website into public/."""
 
 from __future__ import annotations
 
+import hashlib
 import json
 import shutil
-from email.utils import format_datetime
 from datetime import datetime
+from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
 from xml.sax.saxutils import escape
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from . import ogimage
 from .config import Config
-from .store import Store, utcnow
+from .store import Store, slugify, utcnow
+
+# Crawlers we explicitly welcome: search engines plus the AI assistants / answer engines
+# that cite web pages (ChatGPT, Claude, Perplexity, Gemini, Copilot, Apple, Meta, etc.).
+AI_CRAWLERS = [
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot",
+    "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Googlebot", "Bingbot",
+    "Applebot", "Applebot-Extended", "Meta-ExternalAgent", "Amazonbot", "DuckAssistBot",
+    "CCBot", "cohere-ai", "MistralAI-User", "YouBot",
+]
+
+
+def indexnow_key(cfg: Config) -> str:
+    return hashlib.sha256(cfg.base_url.encode()).hexdigest()[:32]
 
 
 def _env(cfg: Config) -> Environment:
-    env = Environment(
-        loader=FileSystemLoader(cfg.root / "templates"),
-        autoescape=select_autoescape(["html"]),
-    )
-    env.globals.update(cfg=cfg, year=utcnow().year)
+    env = Environment(loader=FileSystemLoader(cfg.root / "templates"), autoescape=select_autoescape(["html"]))
+    css = (cfg.root / "templates" / "style.css").read_bytes()
+    env.globals.update(cfg=cfg, year=utcnow().year, today=utcnow().strftime("%B %Y"),
+                       css_version=hashlib.md5(css).hexdigest()[:8])
     return env
 
 
@@ -30,32 +44,107 @@ def _write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def _article_jsonld(cfg: Config, a: dict[str, Any]) -> str:
-    data = [
-        {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": a["title"],
-            "description": a["meta_description"],
-            "datePublished": a["published"],
-            "author": {"@type": "Organization", "name": cfg.author},
-            "mainEntityOfPage": f"{cfg.base_url}/{a['slug']}/",
-        }
-    ]
+def _ld(data: dict[str, Any]) -> str:
+    # Escape "<" so content can never close the surrounding <script> tag.
+    return json.dumps({"@context": "https://schema.org", **data}, ensure_ascii=False).replace("<", "\\u003c")
+
+
+def _page(cfg: Config, title: str, description: str, path: str, **extra: Any) -> dict[str, Any]:
+    page = {"title": title, "description": description, "path": path, "jsonld": [], **extra}
+    page["jsonld"].insert(0, _ld({
+        "@type": "WebSite", "name": cfg.site_name, "url": f"{cfg.base_url}/", "description": cfg.tagline,
+        "publisher": {"@type": "Organization", "name": cfg.business_name, "url": f"{cfg.base_url}/"},
+    }))
+    return page
+
+
+def _breadcrumb(cfg: Config, trail: list[tuple[str, str]]) -> str:
+    return _ld({"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": name, "item": f"{cfg.base_url}/{path}"}
+        for i, (name, path) in enumerate(trail, 1)]})
+
+
+# ---------------------------------------------------------------------------
+# Article helpers
+# ---------------------------------------------------------------------------
+def _words(a: dict[str, Any]) -> int:
+    parts = [a.get("intro", ""), a.get("quick_answer", ""), a.get("conclusion", "")]
+    parts += [p for s in a.get("sections", []) for p in s["paragraphs"] + s["bullets"]]
+    parts += [s["text"] for s in a.get("steps", [])] + [f["answer"] for f in a.get("faq", [])]
+    return sum(len(p.split()) for p in parts)
+
+
+def _decorate(cfg: Config, articles: list[dict[str, Any]]) -> None:
+    for a in articles:
+        a["reading_minutes"] = max(1, round(_words(a) / 220))
+        niche = a.get("niche", "")
+        a["niche_slug"] = slugify(niche) if niche else ""
+        a["niche_label"] = niche[:1].upper() + niche[1:] if niche else ""
+
+
+def article_markdown(cfg: Config, a: dict[str, Any]) -> str:
+    """Clean Markdown version of an article: what LLM crawlers and llms-full.txt consume."""
+    url = f"{cfg.base_url}/{a['slug']}/"
+    out = [f"# {a['title']}", "", f"Source: {url}", f"Published: {a['published'][:10]}"
+           + (f" · Updated: {a['updated'][:10]}" if a.get("updated") else ""), ""]
+    if a.get("quick_answer"):
+        out += ["## Quick answer", "", a["quick_answer"], ""]
+    if a.get("key_takeaways"):
+        out += ["## Key takeaways", "", *[f"- {k}" for k in a["key_takeaways"]], ""]
+    out += [a.get("intro", ""), ""]
+    if a.get("steps"):
+        out += ["## Step-by-step", "", *[f"{i}. **{s['name']}** — {s['text']}" for i, s in enumerate(a["steps"], 1)], ""]
+    comp = a.get("comparison") or {}
+    for i, s in enumerate(a.get("sections", []), 1):
+        out += [f"## {s['heading']}", "", *[p + "\n" for p in s["paragraphs"]], *[f"- {b}" for b in s["bullets"]], ""]
+        if i == 1 and comp.get("rows"):
+            out += [f"**{comp['caption']}**" if comp.get("caption") else "", "",
+                    "| " + " | ".join(comp["headers"]) + " |", "|" + "---|" * len(comp["headers"]),
+                    *["| " + " | ".join(r) + " |" for r in comp["rows"]], ""]
     if a.get("faq"):
-        data.append({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {"@type": "Question", "name": f["question"],
-                 "acceptedAnswer": {"@type": "Answer", "text": f["answer"]}}
-                for f in a["faq"]
-            ],
-        })
-    # Escape "<" so article text can never close the <script> tag.
-    return json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
+        out += ["## FAQ", ""]
+        for f in a["faq"]:
+            out += [f"### {f['question']}", "", f["answer"], ""]
+    out += ["## Bottom line", "", a.get("conclusion", ""), ""]
+    return "\n".join(out)
 
 
+def _article_ld(cfg: Config, a: dict[str, Any]) -> list[str]:
+    url = f"{cfg.base_url}/{a['slug']}/"
+    blocks = [_ld({
+        "@type": "Article", "headline": a["title"], "description": a["meta_description"],
+        "image": f"{cfg.base_url}/assets/og/{a['slug']}.png",
+        "datePublished": a["published"], "dateModified": a.get("updated") or a["published"],
+        "author": {"@type": "Organization", "name": cfg.author, "url": f"{cfg.base_url}/about/"},
+        "publisher": {"@type": "Organization", "name": cfg.business_name},
+        "mainEntityOfPage": url, "wordCount": _words(a), "keywords": a.get("keyword", ""),
+        "articleSection": a.get("niche_label", ""),
+        **({"abstract": a["quick_answer"]} if a.get("quick_answer") else {}),
+    })]
+    if a.get("faq"):
+        blocks.append(_ld({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": f["question"], "acceptedAnswer": {"@type": "Answer", "text": f["answer"]}}
+            for f in a["faq"]]}))
+    if a.get("steps"):
+        blocks.append(_ld({"@type": "HowTo", "name": a["title"], "description": a.get("quick_answer", a["meta_description"]),
+                           "step": [{"@type": "HowToStep", "position": i, "name": s["name"], "text": s["text"]}
+                                    for i, s in enumerate(a["steps"], 1)]}))
+    trail = [("Home", "")]
+    if a.get("niche_slug"):
+        trail.append((a["niche_label"], f"topics/{a['niche_slug']}/"))
+    blocks.append(_breadcrumb(cfg, trail + [(a["title"], f"{a['slug']}/")]))
+    return blocks
+
+
+def _related(a: dict[str, Any], articles: list[dict[str, Any]], n: int = 3) -> list[dict[str, Any]]:
+    others = [x for x in articles if x["slug"] != a["slug"]]
+    same = [x for x in others if x.get("niche") == a.get("niche")]
+    return (same + [x for x in others if x not in same])[:n]
+
+
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
 def build(cfg: Config, store: Store) -> dict[str, int]:
     out = cfg.public_dir
     if out.exists():
@@ -63,32 +152,116 @@ def build(cfg: Config, store: Store) -> dict[str, int]:
     out.mkdir(parents=True)
     env = _env(cfg)
     articles, products = store.articles(), store.products()
+    _decorate(cfg, articles)
+    price = cfg.default_price
+    common = {"products": products, "checkout_links": cfg.checkout_links, "price": price}
 
-    _write(out / "index.html", env.get_template("index.html").render(articles=articles, products=products))
-    _write(out / "about" / "index.html", env.get_template("about.html").render())
-    _write(out / "products" / "index.html", env.get_template("products.html").render(products=products))
+    topics_map: dict[str, dict[str, Any]] = {}
+    for a in articles:
+        if a["niche_slug"]:
+            t = topics_map.setdefault(a["niche_slug"], {"slug": a["niche_slug"], "label": a["niche_label"], "items": []})
+            t["items"].append(a)
+    topics = sorted(({**t, "count": len(t["items"])} for t in topics_map.values()), key=lambda t: -t["count"])
 
-    tpl = env.get_template("article.html")
+    # assets: stylesheet + social cards
+    (out / "assets").mkdir()
+    shutil.copy(cfg.root / "templates" / "style.css", out / "assets" / "style.css")
+    ogimage.render(out / "assets" / "og" / "site.png", cfg.site_name, cfg.tagline, cfg.site_name)
+    for a in articles:
+        ogimage.render(out / "assets" / "og" / f"{a['slug']}.png", a["title"], a.get("niche_label", ""), cfg.site_name)
+
+    def render(path: str, template: str, page: dict[str, Any], **ctx: Any) -> None:
+        _write(out / path / "index.html" if path else out / "index.html",
+               env.get_template(template).render(page=page, **common, **ctx))
+
+    home = _page(cfg, f"{cfg.site_name} — {cfg.tagline}", cfg.tagline, "")
+    home["jsonld"].append(_ld({"@type": "Organization", "name": cfg.business_name, "url": f"{cfg.base_url}/",
+                               "logo": f"{cfg.base_url}/assets/og/site.png", "description": cfg.tagline,
+                               **({"email": cfg.contact_email} if cfg.contact_email else {})}))
+    render("", "index.html", home, articles=articles, topics=topics)
+
+    render("guides", "listing.html",
+           _page(cfg, f"All guides — {cfg.site_name}", f"Every {cfg.site_name} guide: practical, step-by-step AI workflows for small businesses.", "guides/"),
+           heading="All guides", intro="Step-by-step AI workflows for small businesses — newest first.", items=articles, topics=topics)
+    render("topics", "listing.html",
+           _page(cfg, f"Topics — {cfg.site_name}", "Browse guides by topic.", "topics/"),
+           heading="Browse by topic", intro="Pick a topic to see every guide we've written on it.", items=articles, topics=topics)
+    for t in topics:
+        page = _page(cfg, f"{t['label']}: guides — {cfg.site_name}", f"Practical guides on {t['label'].lower()}.", f"topics/{t['slug']}/")
+        page["jsonld"].append(_breadcrumb(cfg, [("Home", ""), ("Topics", "topics/"), (t["label"], f"topics/{t['slug']}/")]))
+        render(f"topics/{t['slug']}", "listing.html", page, heading=t["label"],
+               intro=f"{t['count']} practical guide{'s' if t['count'] != 1 else ''} on {t['label'].lower()}.", items=t["items"], crumb=True)
+
     for i, a in enumerate(articles):
         recs = [dict(r, aff=aff) for r in a.get("recommendations", []) if (aff := cfg.affiliate(r["product"]))]
         product = products[i % len(products)] if products else None
-        _write(out / a["slug"] / "index.html",
-               tpl.render(a=a, recs=recs, product=product, jsonld=_article_jsonld(cfg, a)))
+        page = _page(cfg, f"{a['title']} — {cfg.site_name}", a["meta_description"], f"{a['slug']}/",
+                     og_type="article", og_image=f"assets/og/{a['slug']}.png", published=a["published"],
+                     modified=a.get("updated") or a["published"], markdown=f"{a['slug']}/index.md")
+        page["jsonld"] += _article_ld(cfg, a)
+        render(a["slug"], "article.html", page, a=a, recs=recs, product=product, related=_related(a, articles))
+        _write(out / a["slug"] / "index.md", article_markdown(cfg, a))
 
-    tpl = env.get_template("product.html")
+    render("products", "products.html", _page(cfg, f"Playbooks — {cfg.site_name}", "Done-for-you AI playbooks with copy-paste templates.", "products/"))
     for p in products:
-        _write(out / "products" / p["slug"] / "index.html",
-               tpl.render(p=p, checkout=cfg.checkout_links.get(p["slug"]), price=cfg.default_price))
+        checkout = cfg.checkout_links.get(p["slug"])
+        page = _page(cfg, f"{p['title']} — {cfg.site_name}", p["subtitle"], f"products/{p['slug']}/")
+        amount = "".join(ch for ch in price if ch.isdigit() or ch == ".")
+        product_ld: dict[str, Any] = {"@type": "Product", "name": p["title"], "description": p["subtitle"],
+                                      "brand": {"@type": "Brand", "name": cfg.site_name},
+                                      "image": f"{cfg.base_url}/assets/og/site.png"}
+        if checkout and amount:
+            product_ld["offers"] = {"@type": "Offer", "price": amount, "priceCurrency": "USD" if "$" in price else "MYR",
+                                    "availability": "https://schema.org/InStock", "url": f"{cfg.base_url}/products/{p['slug']}/"}
+        page["jsonld"] += [_ld(product_ld), _breadcrumb(cfg, [("Home", ""), ("Playbooks", "products/"), (p["title"], f"products/{p['slug']}/")])]
+        render(f"products/{p['slug']}", "product.html", page, p=p, checkout=checkout)
 
-    urls = [("", None), ("about/", None), ("products/", None)]
-    urls += [(f"{a['slug']}/", a["published"]) for a in articles]
+    static_pages = [("about", "about.html", f"About {cfg.site_name}"), ("contact", "contact.html", "Contact us"),
+                    ("refund-policy", "refund.html", "Refund policy"), ("terms", "terms.html", "Terms of service"),
+                    ("privacy", "privacy.html", "Privacy policy")]
+    for path, tpl, title in static_pages:
+        render(path, tpl, _page(cfg, f"{title} — {cfg.site_name}", f"{title} for {cfg.site_name}.", f"{path}/"))
+    _write(out / "404.html", env.get_template("notfound.html").render(page=_page(cfg, f"Not found — {cfg.site_name}", "Page not found.", "404.html"), **common))
+
+    urls = [("", None), ("guides/", None), ("topics/", None), ("products/", None)]
+    urls += [(f"topics/{t['slug']}/", None) for t in topics]
+    urls += [(f"{a['slug']}/", a.get("updated") or a["published"]) for a in articles]
     urls += [(f"products/{p['slug']}/", p["published"]) for p in products]
+    urls += [(f"{path}/", None) for path, _, _ in static_pages]
     _write(out / "sitemap.xml", _sitemap(cfg, urls))
-    _write(out / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {cfg.base_url}/sitemap.xml\n")
+    _write(out / "robots.txt", _robots(cfg))
     _write(out / "feed.xml", _rss(cfg, articles[:30]))
+    _write(out / "llms.txt", _llms(cfg, articles, products, topics))
+    _write(out / "llms-full.txt", "\n\n---\n\n".join(article_markdown(cfg, a) for a in articles))
+    _write(out / f"{indexnow_key(cfg)}.txt", indexnow_key(cfg))
     _write(out / ".nojekyll", "")
-    _write(out / "404.html", env.get_template("index.html").render(articles=articles[:10], products=products))
-    return {"articles": len(articles), "products": len(products), "pages": len(urls)}
+    return {"articles": len(articles), "products": len(products), "topics": len(topics), "pages": len(urls)}
+
+
+def _robots(cfg: Config) -> str:
+    groups = "".join(f"User-agent: {bot}\nAllow: /\n\n" for bot in AI_CRAWLERS)
+    return f"{groups}User-agent: *\nAllow: /\n\nSitemap: {cfg.base_url}/sitemap.xml\n"
+
+
+def _llms(cfg: Config, articles: list[dict[str, Any]], products: list[dict[str, Any]], topics: list[dict[str, Any]]) -> str:
+    """llms.txt (llmstxt.org): a curated, Markdown map of the site for AI assistants."""
+    out = [f"# {cfg.site_name}", "", f"> {cfg.tagline}", "",
+           "Practical, step-by-step guides for small businesses using AI tools. Every guide starts with a "
+           "direct quick answer, then numbered steps, comparisons and FAQs. We do not publish invented "
+           "statistics or prices. Each guide is also available as Markdown at <guide-url>index.md, and the "
+           f"full text of all guides is at {cfg.base_url}/llms-full.txt.", ""]
+    for t in topics:
+        out += [f"## {t['label']}", ""]
+        out += [f"- [{a['title']}]({cfg.base_url}/{a['slug']}/index.md): {a.get('quick_answer') or a['meta_description']}"
+                for a in t["items"]]
+        out.append("")
+    untopiced = [a for a in articles if not a.get("niche_slug")]
+    if untopiced:
+        out += ["## Guides", "", *[f"- [{a['title']}]({cfg.base_url}/{a['slug']}/index.md): {a['meta_description']}" for a in untopiced], ""]
+    if products:
+        out += ["## Playbooks", "", *[f"- [{p['title']}]({cfg.base_url}/products/{p['slug']}/): {p['subtitle']}" for p in products], ""]
+    out += ["## Optional", "", f"- [About and editorial policy]({cfg.base_url}/about/)", f"- [RSS feed]({cfg.base_url}/feed.xml)", ""]
+    return "\n".join(out)
 
 
 def _sitemap(cfg: Config, urls: list[tuple[str, str | None]]) -> str:
@@ -105,9 +278,10 @@ def _rss(cfg: Config, articles: list[dict[str, Any]]) -> str:
     for a in articles:
         link = f"{cfg.base_url}/{a['slug']}/"
         date = format_datetime(datetime.fromisoformat(a["published"]))
+        desc = a.get("quick_answer") or a["meta_description"]
         items.append(f"<item><title>{escape(a['title'])}</title><link>{escape(link)}</link>"
                      f"<guid>{escape(link)}</guid><pubDate>{date}</pubDate>"
-                     f"<description>{escape(a['meta_description'])}</description></item>")
+                     f"<description>{escape(desc)}</description></item>")
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
             f"<title>{escape(cfg.site_name)}</title><link>{escape(cfg.base_url)}/</link>"
             f"<description>{escape(cfg.tagline)}</description>" + "".join(items) + "</channel></rss>\n")

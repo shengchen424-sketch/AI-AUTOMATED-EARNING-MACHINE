@@ -1,25 +1,64 @@
 {% extends "base.html" %}
-{% block title %}{{ a.title }} — {{ cfg.site_name }}{% endblock %}
-{% block description %}{{ a.meta_description }}{% endblock %}
-{% block path %}{{ a.slug }}/{% endblock %}
-{% block head %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endblock %}
+{% from "_macros.html" import card, product_promo, subscribe %}
 {% block body %}
-<article>
-<h1>{{ a.title }}</h1>
-<p class="muted">{{ cfg.author }} · {{ a.published[:10] }}</p>
-{% if recs %}<p class="disclosure">Some links below are affiliate links: if you buy through them we may earn a commission at no extra cost to you. We only recommend tools we would use ourselves.</p>{% endif %}
-<p>{{ a.intro }}</p>
-{% for s in a.sections %}
-<h2>{{ s.heading }}</h2>
-{% for p in s.paragraphs %}<p>{{ p }}</p>{% endfor %}
-{% if s.bullets %}<ul>{% for b in s.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
-{% if loop.index == 2 and product %}<div class="card"><strong>Want the done-for-you version?</strong> <a href="{{ cfg.base_url }}/products/{{ product.slug }}/">{{ product.title }}</a> — {{ product.subtitle }}</div>{% endif %}
-{% endfor %}
-{% if recs %}<h2>Recommended tools</h2>
-{% for r in recs %}<div class="card"><strong>{{ r.aff.name }}</strong> — {{ r.aff.blurb }}<br>
-<span class="muted"><b>Best for:</b> {{ r.best_for }} · <b>Not for:</b> {{ r.not_for }}</span><br><br>
-<a class="cta" href="{{ r.aff.url }}" rel="sponsored nofollow noopener" target="_blank">Try {{ r.aff.name }}</a></div>{% endfor %}{% endif %}
-{% if a.faq %}<h2>FAQ</h2>{% for f in a.faq %}<h3>{{ f.question }}</h3><p>{{ f.answer }}</p>{% endfor %}{% endif %}
-<p>{{ a.conclusion }}</p>
+<div class="wrap">
+<header class="article-hero read" style="max-width:none">
+  <div class="crumbs"><a href="{{ cfg.base_url }}/">Home</a> › {% if a.niche %}<a href="{{ cfg.base_url }}/topics/{{ a.niche_slug }}/">{{ a.niche_label }}</a>{% else %}<a href="{{ cfg.base_url }}/guides/">Guides</a>{% endif %}</div>
+  <h1>{{ a.title }}</h1>
+  <div class="byline">
+    <span>By {{ cfg.author }}</span>
+    <span>Published {{ a.published[:10] }}</span>
+    {% if a.updated %}<span>Updated {{ a.updated[:10] }}</span>{% endif %}
+    <span>{{ a.reading_minutes }} min read</span>
+  </div>
+</header>
+<div class="layout">
+<article class="prose">
+  {% if a.quick_answer %}<div class="box answer"><span class="label">Quick answer</span><p>{{ a.quick_answer }}</p></div>{% endif %}
+  {% if a.key_takeaways %}<div class="box takeaways"><span class="label">Key takeaways</span><ul>{% for k in a.key_takeaways %}<li>{{ k }}</li>{% endfor %}</ul></div>{% endif %}
+  {% if a.who_this_is_for %}<p class="muted"><b>Who this is for:</b> {{ a.who_this_is_for }}</p>{% endif %}
+  {% if recs %}<p class="disclosure">Some links in this guide are affiliate links: if you buy through them we may earn a commission at no extra cost to you. It never changes what we recommend.</p>{% endif %}
+  <p>{{ a.intro }}</p>
+
+  {% if a.steps %}<h2 id="steps">Step-by-step</h2>
+  <ol class="steps">{% for s in a.steps %}<li><b>{{ s.name }}</b>{{ s.text }}</li>{% endfor %}</ol>{% endif %}
+
+  {% for s in a.sections %}
+  <h2 id="s{{ loop.index }}">{{ s.heading }}</h2>
+  {% for p in s.paragraphs %}<p>{{ p }}</p>{% endfor %}
+  {% if s.bullets %}<ul>{% for b in s.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+  {% if loop.index == 1 and a.comparison and a.comparison.rows %}
+  <div class="table-wrap"><table>{% if a.comparison.caption %}<caption>{{ a.comparison.caption }}</caption>{% endif %}
+    <thead><tr>{% for h in a.comparison.headers %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+    <tbody>{% for r in a.comparison.rows %}<tr>{% for c in r %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+  </table></div>{% endif %}
+  {% if loop.index == 2 and product %}<div class="box"><span class="label">Want the done-for-you version?</span><b>{{ product.title }}</b> — {{ product.subtitle }} <a href="{{ cfg.base_url }}/products/{{ product.slug }}/">See what's inside →</a></div>{% endif %}
+  {% endfor %}
+
+  {% if recs %}<h2 id="tools">Recommended tools</h2>
+  {% for r in recs %}<div class="box tool"><div><b>{{ r.aff.name }}</b> — {{ r.aff.blurb }}
+    <p class="fit"><b>Best for:</b> {{ r.best_for }}<br><b>Not for:</b> {{ r.not_for }}</p></div>
+    <a class="btn" href="{{ r.aff.url }}" rel="sponsored nofollow noopener" target="_blank">Try {{ r.aff.name }} →</a></div>{% endfor %}{% endif %}
+
+  {% if a.faq %}<h2 id="faq">Frequently asked questions</h2>
+  {% for f in a.faq %}<details class="faq"{% if loop.first %} open{% endif %}><summary>{{ f.question }}</summary><p>{{ f.answer }}</p></details>{% endfor %}{% endif %}
+
+  <h2 id="bottom-line">The bottom line</h2>
+  <p>{{ a.conclusion }}</p>
+  <div class="box author"><i></i><div><b>{{ cfg.author }}</b><br><span class="small muted">We research and test AI workflows for small businesses. Drafted with AI assistance and reviewed against our editorial rules: no invented numbers, honest trade-offs. <a href="{{ cfg.base_url }}/about/">How we work</a>.</span></div></div>
 </article>
+<aside class="aside">
+  <nav class="toc" aria-label="Table of contents"><b>On this page</b><ol>
+    {% if a.steps %}<li><a href="#steps">Step-by-step</a></li>{% endif %}
+    {% for s in a.sections %}<li><a href="#s{{ loop.index }}">{{ s.heading }}</a></li>{% endfor %}
+    {% if recs %}<li><a href="#tools">Recommended tools</a></li>{% endif %}
+    {% if a.faq %}<li><a href="#faq">FAQ</a></li>{% endif %}
+  </ol></nav>
+  {% if product %}<div class="toc"><b>{{ product.title }}</b><p class="muted" style="margin:.3em 0 .8em">{{ product.subtitle }}</p><a class="btn" href="{{ cfg.base_url }}/products/{{ product.slug }}/">See the playbook</a></div>{% endif %}
+</aside>
+</div>
+{% if related %}<section class="section"><div class="section-head"><h2>Keep reading</h2></div>
+  <div class="grid">{% for r in related %}{{ card(r, cfg) }}{% endfor %}</div></section>{% endif %}
+<div class="read">{{ subscribe(cfg) }}</div>
+</div>
 {% endblock %}

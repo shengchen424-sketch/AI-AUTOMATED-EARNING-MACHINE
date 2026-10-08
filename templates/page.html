@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="hero" style="padding:56px 0 32px"><div class="wrap"><div class="read">
+  <h1>{% block heading %}{% endblock %}</h1><p class="muted small">Last updated {{ today }}</p>
+</div></div></section>
+<div class="wrap section"><div class="read prose">{% block content %}{% endblock %}</div></div>
+{% endblock %}

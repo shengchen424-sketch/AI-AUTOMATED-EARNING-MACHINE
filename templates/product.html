@@ -1,17 +1,34 @@
 {% extends "base.html" %}
-{% block title %}{{ p.title }} — {{ cfg.site_name }}{% endblock %}
-{% block description %}{{ p.subtitle }}{% endblock %}
-{% block path %}products/{{ p.slug }}/{% endblock %}
 {% block body %}
-<h1>{{ p.title }}</h1>
-<p><em>{{ p.subtitle }}</em></p>
-<p>{{ p.sales_copy }}</p>
-<div class="card"><strong>Who it's for:</strong> {{ p.audience }}</div>
-<h2>What you'll achieve</h2><ul>{% for o in p.outcomes %}<li>{{ o }}</li>{% endfor %}</ul>
-<h2>What's inside</h2><ol>{% for c in p.chapters %}<li><strong>{{ c.heading }}</strong> — {{ c.summary }}</li>{% endfor %}</ol>
-<p class="muted">Plus {{ p.template_count }} copy-paste templates.</p>
-<div class="card" style="text-align:center">
-{% if checkout %}<a class="cta" href="{{ checkout }}" rel="noopener">Get it — {{ price }}</a><p class="muted">Instant download · 30-day money-back guarantee</p>
-{% else %}<strong>Launching soon.</strong> Subscribe below to get launch pricing.{% endif %}
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <div class="crumbs"><a href="{{ cfg.base_url }}/">Home</a> › <a href="{{ cfg.base_url }}/products/">Playbooks</a></div>
+  <span class="eyebrow">Playbook · {{ p.chapters|length }} chapters · {{ p.template_count }} templates</span>
+  <h1>{{ p.title }}</h1>
+  <p class="lede">{{ p.subtitle }}</p>
+</div></section>
+<div class="wrap section"><div class="layout" style="grid-template-columns:minmax(0,1fr) 340px">
+<div class="prose">
+  <p style="font-size:1.1rem">{{ p.sales_copy }}</p>
+  <div class="box"><span class="label">Who it's for</span>{{ p.audience }}</div>
+  <h2>What you'll be able to do</h2>
+  <ul class="checks">{% for o in p.outcomes %}<li>{{ o }}</li>{% endfor %}</ul>
+  <h2>What's inside</h2>
+  {% for c in p.chapters %}<div class="chapter"><b>{{ loop.index }}. {{ c.heading|replace("Chapter " ~ loop.index ~ ": ", "") }}</b><span class="muted">{{ c.summary }}</span></div>{% endfor %}
+  <p class="muted">Plus <b>{{ p.template_count }} copy-paste templates</b> and a checklist for every chapter.</p>
+  <h2>Questions</h2>
+  <details class="faq" open><summary>How do I get it?</summary><p>Right after checkout you get instant access to the download link, and a receipt by email.</p></details>
+  <details class="faq"><summary>What if it's not for me?</summary><p>Email us within {{ cfg.refund_days }} days for a full refund — no questions asked. See our <a href="{{ cfg.base_url }}/refund-policy/">refund policy</a>.</p></details>
+  <details class="faq"><summary>Is payment secure?</summary><p>Checkout is handled by Stripe. We never see or store your card details.</p></details>
 </div>
+<aside>
+  <div class="pricebox">
+    {% if checkout %}
+    <div class="price">{{ price }}</div>
+    <p class="muted small">One-time payment · instant digital access</p>
+    <a class="btn big" style="width:100%;justify-content:center" href="{{ checkout }}" rel="noopener">Buy now →</a>
+    <ul class="checks small"><li>{{ cfg.refund_days }}-day money-back guarantee</li><li>Secure checkout by Stripe</li></ul>
+    {% else %}<b>Launching soon.</b><p class="muted small">Subscribe on any guide page to get launch pricing.</p>{% endif %}
+  </div>
+</aside>
+</div></div>
 {% endblock %}

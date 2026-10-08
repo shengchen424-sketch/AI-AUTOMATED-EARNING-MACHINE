@@ -59,6 +59,14 @@ class Store:
     def save_article(self, article: dict[str, Any]) -> dict[str, Any]:
         return self._save(self.articles_dir, article)
 
+    def update_article(self, article: dict[str, Any]) -> dict[str, Any]:
+        """Overwrite an existing article in place (same slug and URL), stamping `updated`."""
+        article["updated"] = utcnow().isoformat(timespec="seconds")
+        (self.articles_dir / f"{article['slug']}.json").write_text(
+            json.dumps(article, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        return article
+
     def save_product(self, product: dict[str, Any]) -> dict[str, Any]:
         return self._save(self.products_dir, product)
 

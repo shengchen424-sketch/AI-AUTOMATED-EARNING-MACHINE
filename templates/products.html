@@ -1,9 +1,15 @@
 {% extends "base.html" %}
-{% block title %}Playbooks — {{ cfg.site_name }}{% endblock %}
-{% block path %}products/{% endblock %}
 {% block body %}
-<h1>Playbooks</h1>
-<p>Step-by-step systems and templates you can put to work today.</p>
-<ul class="list">{% for p in products %}<li><a href="{{ cfg.base_url }}/products/{{ p.slug }}/">{{ p.title }}</a><br><span class="muted">{{ p.subtitle }}</span></li>
-{% else %}<li class="muted">The first playbook is in production.</li>{% endfor %}</ul>
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <span class="eyebrow">Playbooks</span>
+  <h1>Done-for-you systems you can use today</h1>
+  <p class="lede">Step-by-step playbooks with copy-paste templates. One-time purchase, instant access, {{ cfg.refund_days }}-day money-back guarantee.</p>
+</div></section>
+<section class="section"><div class="wrap"><div class="grid">
+{% for p in products %}<a class="card" href="{{ cfg.base_url }}/products/{{ p.slug }}/"><div class="body">
+  <span class="chip" style="align-self:flex-start">{{ p.chapters|length }} chapters · {{ p.template_count }} templates</span>
+  <h3>{{ p.title }}</h3><p>{{ p.subtitle }}</p>
+  <div class="meta"><span>{% if checkout_links.get(p.slug) %}{{ price }}{% else %}Coming soon{% endif %}</span></div>
+</div></a>{% else %}<p class="muted">The first playbook is in production.</p>{% endfor %}
+</div></div></section>
 {% endblock %}

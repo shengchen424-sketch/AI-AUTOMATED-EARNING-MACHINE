@@ -1,0 +1,232 @@
+{
+  "title": "Tidio AI Chatbot Setup for Shopify: Step-by-Step + Pitfalls",
+  "meta_description": "Tidio AI chatbot setup for Shopify, step by step: install the app, train Lyro on your policies, set human handoff, and avoid the mistakes that cost sales.",
+  "quick_answer": "To set up Tidio's AI chatbot on Shopify, install Tidio from the Shopify App Store, turn on its app embed in your theme editor, and connect your Tidio account. Then train the Lyro AI agent on your FAQs, shipping and returns pages. Next, choose what happens when Lyro can't answer, test it in preview, and switch it on for live chat.",
+  "key_takeaways": [
+    "Install Tidio from the Shopify App Store, then confirm the Tidio app embed is switched on under Online Store > Themes > Customize > App embeds. If it's off, the widget won't show.",
+    "Lyro only knows what you give it. Clean up your shipping, returns and FAQ pages before you import them, because it will repeat outdated policies word for word.",
+    "Decide before launch what happens when Lyro can't answer: hand the chat to a person during business hours, and collect an email when nobody is online.",
+    "Test 20–30 real customer questions in preview mode before going live, including tricky ones about discounts, stock and refunds.",
+    "Read conversation transcripts weekly for the first month and add a Q&A for each question Lyro missed.",
+    "Plan limits and prices change, so check how many AI conversations your Tidio plan includes before you rely on it for peak season."
+  ],
+  "who_this_is_for": "This guide is for Shopify store owners and small e-commerce teams who want an AI chatbot to answer routine customer questions around the clock without giving shoppers wrong answers.",
+  "intro": "Most Shopify support tickets ask the same few things: Where's my order? Do you ship to my country? How do returns work? Tidio's AI agent, Lyro, can answer these on its own, but only if you set it up properly. A rushed setup can give shoppers confident wrong answers about your refund policy, overlap with other chat apps, or leave customers stuck with no one to talk to. This guide walks through a clean Tidio AI chatbot setup for Shopify, from installing the app to your first week of tuning. It also covers the pitfalls we see most often. Tidio's menus and plans change regularly, so check the exact labels and limits in your own dashboard and on Tidio's pricing page.",
+  "steps": [
+    {
+      "name": "Install Tidio from the Shopify App Store",
+      "text": "In your Shopify admin, go to Apps, search the Shopify App Store for 'Tidio', and click Add app. Approve the permissions it asks for, then create a Tidio account or log in to an existing one so the app is linked to your store."
+    },
+    {
+      "name": "Turn on the Tidio app embed in your theme",
+      "text": "Go to Online Store > Themes > Customize, open App embeds in the left sidebar, and switch on the Tidio toggle. Save, then open your storefront in a private browser window to check the chat widget appears."
+    },
+    {
+      "name": "Prepare your knowledge sources before training Lyro",
+      "text": "Check your shipping, returns, FAQ and contact pages for outdated details such as old delivery times, discontinued products or expired promotions. Fix them in Shopify first, because Lyro learns from whatever you import."
+    },
+    {
+      "name": "Add knowledge to Lyro",
+      "text": "In the Tidio panel, open the Lyro AI agent section and add data sources: import your store URL or specific policy pages, add Q&A pairs manually, or upload a file if your plan supports it. Begin with your 15–20 most common customer questions."
+    },
+    {
+      "name": "Set Lyro's behaviour and handoff rules",
+      "text": "Choose what Lyro should do when it can't answer. Usually that means passing the chat to a human operator during business hours and asking for the customer's email when nobody is online. Adjust tone and any custom guidance so it sounds like your brand."
+    },
+    {
+      "name": "Test in preview with real questions",
+      "text": "Use Tidio's testing or playground area to ask 20–30 questions copied from real customer emails, including edge cases about discounts, out-of-stock items and damaged goods. Each time Lyro gets something wrong or too vague, write a Q&A that fixes it."
+    },
+    {
+      "name": "Activate Lyro on your live chat",
+      "text": "Switch Lyro on for the live chat channel and set when it should respond, for example all the time or only outside business hours. Check that it works in the storefront widget on both desktop and mobile."
+    },
+    {
+      "name": "Review transcripts and refine weekly",
+      "text": "For the first month, read Lyro's conversations once a week in the Tidio inbox. Add Q&As for missed questions, update any changed policies, and keep an eye on how many AI conversations you've used against your plan limit."
+    }
+  ],
+  "comparison": {
+    "caption": "Shopify chat options compared: which approach fits your store",
+    "headers": [
+      "Option",
+      "Best for",
+      "Setup effort",
+      "Main limitation"
+    ],
+    "rows": [
+      [
+        "Tidio Lyro AI agent",
+        "Stores with lots of repeat questions about shipping, returns and products",
+        "Moderate: needs clean policy pages and testing",
+        "Only as accurate as your knowledge sources; AI conversations are capped by plan"
+      ],
+      [
+        "Tidio Flows (rule-based chatbots)",
+        "Predictable tasks like welcome messages, lead capture and cart-abandonment nudges",
+        "Moderate: you build each flow yourself",
+        "Can't handle questions you didn't plan for"
+      ],
+      [
+        "Lyro + Flows together",
+        "Growing stores that want proactive messages and AI answers",
+        "Higher: two systems to plan and test",
+        "Needs care so flows and Lyro don't trigger over each other"
+      ],
+      [
+        "Shopify Inbox",
+        "Small stores that mainly want free, native chat handled by people",
+        "Low",
+        "Check Shopify's current AI features; not built around an autonomous AI agent like Lyro"
+      ],
+      [
+        "Human-only live chat",
+        "Low-volume or high-ticket stores where every chat matters",
+        "Low",
+        "No cover when you're offline; doesn't scale"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What Tidio's AI chatbot actually does on a Shopify store",
+      "paragraphs": [
+        "Tidio's AI chatbot, Lyro, is an AI support agent that answers customer questions in your store's chat widget using knowledge you give it. That knowledge can include your website pages, help articles and Q&A pairs you write. When a shopper asks something like 'How long does shipping to Canada take?', Lyro writes a conversational answer from those sources instead of picking from a fixed menu of replies.",
+        "Lyro is separate from Tidio Flows, which are rule-based automations. Flows follow the logic you build: if a visitor is on the cart page for 60 seconds, show a message; if they click 'Track order', ask for their order number. Lyro handles open-ended questions, while Flows handle predictable, triggered actions. Many stores use both.",
+        "Tidio also connects to Shopify itself. Depending on your plan and current features, that connection can let your team see customer and order details next to the chat, and lets some flows use store data. Exactly which order and product actions are automated changes over time, so check Tidio's Shopify integration page for the current list before you promise customers anything like 'instant order tracking in chat'."
+      ],
+      "bullets": [
+        "Lyro: AI answers to open-ended questions, based on your content.",
+        "Flows: rule-based automations triggered by visitor behaviour.",
+        "Live chat inbox: where your team picks up handed-off conversations.",
+        "Shopify connection: brings store data into Tidio; confirm current capabilities on Tidio's site."
+      ]
+    },
+    {
+      "heading": "Before you start: prepare your store content",
+      "paragraphs": [
+        "The most important part of a Tidio AI chatbot setup for Shopify happens before you open Tidio: cleaning up the content Lyro will learn from. Lyro gives answers based on your pages, so an old returns policy or a forgotten 'free shipping over $50' banner will turn into confident, wrong answers.",
+        "Set aside an hour to review the pages customers ask about most. In most stores those are shipping, returns and refunds, FAQs, sizing guides, contact details and any warranty or care pages. Remove contradictions, such as a 30-day returns window on one page and 14 days on another. Write out rules that only live in your head, like 'we don't ship batteries internationally' or 'sale items are final'.",
+        "Next, gather real questions. Export or skim your last 50–100 support emails, Instagram DMs and chat messages, and list the 15–20 questions that come up most. These will become your first Q&A pairs and your test script. If your team already keeps an internal wiki, it's a good place to hold this list as your single source of truth."
+      ],
+      "bullets": [
+        "Fix contradictions between policy pages.",
+        "Write down unwritten rules (exclusions, final-sale items, restricted destinations).",
+        "List your top 15–20 real customer questions.",
+        "Note which questions should always go to a human: refunds over a certain value, complaints, wholesale enquiries."
+      ]
+    },
+    {
+      "heading": "Training Lyro so it answers like your best support person",
+      "paragraphs": [
+        "Lyro answers well when it has a small set of accurate, specific sources, not when you import every page on your site. A focused knowledge base makes answers more consistent and makes mistakes easier to trace.",
+        "Start by importing your key policy and FAQ pages, then add written Q&A pairs for your top questions. Q&A pairs are especially useful for answers that need exact wording, like 'Refunds are issued to the original payment method within X business days of us receiving the return.' Fill in your own real timeframes. Lyro should never guess these.",
+        "Keep each Q&A to one topic. 'Do you ship internationally?' and 'How much is international shipping?' work better as two entries than one long paragraph. Add the different ways customers phrase the same thing too. People rarely ask 'What is your returns policy?'. They ask 'can I send this back' or 'it doesn't fit, what now'.",
+        "Finally, use any tone or guidance settings Tidio offers to match your brand voice and set boundaries, for example telling Lyro not to make promises about restock dates. Check in your dashboard which guidance options are available on your plan."
+      ],
+      "bullets": [
+        "Import a handful of accurate pages rather than the whole site.",
+        "Use Q&A pairs for anything needing exact wording or numbers.",
+        "One topic per Q&A; cover the different ways people phrase the question.",
+        "Set tone and boundaries in Lyro's settings."
+      ]
+    },
+    {
+      "heading": "Setting up human handoff and after-hours behaviour",
+      "paragraphs": [
+        "Human handoff decides what Lyro does when it can't, or shouldn't, answer a question, and it's where most setups fail. If Lyro has no way out, frustrated shoppers get stuck in a loop and leave, often in the middle of a purchase.",
+        "Set two scenarios. During business hours, Lyro should pass the conversation to a live operator, and your team should get a notification on desktop or in the Tidio mobile app. Outside business hours, Lyro should say clearly that the team is offline, collect the customer's email and set a realistic reply time, like 'We'll reply by 10am tomorrow.'",
+        "Decide which topics always go to a human, whatever Lyro knows. Good candidates are damaged or missing orders, refund disputes, payment problems, bulk or wholesale orders, and anything legal or safety-related. You can steer these with Lyro's guidance settings, with Flows, or both. Check which approach your current Tidio plan supports."
+      ],
+      "bullets": [
+        "Business hours: hand off to an operator, with notifications on.",
+        "After hours: collect an email and give a specific reply time.",
+        "Always escalate: damaged orders, refund disputes, payment issues, wholesale, safety.",
+        "Assign one person to own the chat inbox each day so handoffs don't sit unanswered."
+      ]
+    },
+    {
+      "heading": "Common pitfalls (and how to avoid them)",
+      "paragraphs": [
+        "Most Tidio problems on Shopify come from a handful of avoidable setup mistakes, not from the AI itself. Check this list before and after launch.",
+        "The widget doesn't show up. This is usually because the Tidio app embed is switched off in the theme editor, or because it was turned on in a theme that isn't published. If you change or duplicate your theme, check App embeds again.",
+        "Two chat widgets fight for the same corner. If you previously used Shopify Inbox or another chat app, remove or turn off its widget so customers don't see two bubbles. Overlapping widgets look broken and split conversations between tools.",
+        "The widget covers buttons on mobile. On small screens, the chat bubble can sit on top of 'Add to cart' or checkout buttons. Preview your product and cart pages on a phone and change the widget position or offset in Tidio's appearance settings if needed.",
+        "Lyro answers questions it shouldn't. If shoppers ask about specific stock levels, delivery dates for one order or custom discounts, Lyro may reply too generally. Add explicit Q&As for these that send the customer to order tracking or to a human.",
+        "Flows and Lyro trigger at the same time. A welcome-message flow firing while Lyro is mid-answer makes for a messy chat. Review which flows run on which pages, and test them together.",
+        "AI conversation limits run out in peak season. Lyro usage is capped by plan, and the cap can arrive suddenly during a sale. Check your current allowance on Tidio's pricing page and watch usage in the weeks before big promotions.",
+        "Privacy and consent are overlooked. If you sell to customers in the EU, UK or other regulated regions, update your privacy policy to mention chat data and check whether your cookie-consent setup covers the chat widget. Ask a qualified adviser if you're unsure."
+      ],
+      "bullets": [
+        "Re-check App embeds after any theme change.",
+        "Remove old chat widgets before launch.",
+        "Test the widget position on mobile product and cart pages.",
+        "Write Q&As that route order-specific questions to tracking or a human.",
+        "Monitor AI conversation usage before sales events."
+      ]
+    },
+    {
+      "heading": "Measuring whether the chatbot is working",
+      "paragraphs": [
+        "You'll know Lyro is working when fewer routine questions reach your inbox and customers aren't getting stuck or misinformed. Tidio's dashboard has analytics on conversations and Lyro's performance. Check there for the metrics available on your plan, such as how many conversations Lyro resolved on its own and how many it handed off.",
+        "Numbers alone can mislead, so read transcripts too. A chat counted as resolved might just be a customer who gave up. Each week, read 10–20 Lyro conversations and sort them into three groups: correct and helpful, correct but clumsy, and wrong or unhelpful. Fix the last group first with new or corrected Q&As.",
+        "Also track a simple business signal outside Tidio, such as the number of 'where is my order' emails each week, or how long your team spends on support. If those drop while customer complaints stay flat or fall, the setup is paying off. If you want chat leads or escalations to land automatically in a spreadsheet, CRM or task list, an automation tool can connect Tidio to those apps. Check which triggers Tidio currently exposes."
+      ],
+      "bullets": [
+        "Check resolution and handoff numbers in Tidio's analytics.",
+        "Read 10–20 transcripts weekly and sort them into right, clumsy and wrong.",
+        "Fix wrong answers first, then smooth out clumsy ones.",
+        "Track one outside metric, such as weekly order-status emails."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Tidio",
+      "best_for": "Shopify stores that get lots of repeat questions about shipping, returns and products and want an AI agent plus live chat and handoff in one tool.",
+      "not_for": "Very low-volume stores that only get a few chats a week and can answer them personally, or businesses that need deep custom AI built on internal systems."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Sending Tidio chat leads, collected emails or escalations to other apps, such as Google Sheets, your CRM or a team task list, without writing code.",
+      "not_for": "Stores happy to work inside Tidio's own inbox, or anyone running very high-volume automations where a cheaper per-task tool may cost less."
+    },
+    {
+      "product": "Notion",
+      "best_for": "Keeping one up-to-date source of truth for policies, FAQs and Lyro's Q&A list, so your team and your chatbot always say the same thing.",
+      "not_for": "Solo owners who already keep policies tidy on their Shopify pages and don't need a separate internal wiki."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Tidio's AI chatbot free on Shopify?",
+      "answer": "Tidio has a free plan, and in the past it has included a small number of Lyro AI conversations so you can try it. Higher AI conversation volumes need a paid plan or add-on. Limits and prices change often, so check Tidio's pricing page before you commit."
+    },
+    {
+      "question": "How long does it take to set up Tidio's AI chatbot on Shopify?",
+      "answer": "Installing the app and showing the widget usually takes a few minutes. Preparing your policy pages, adding Q&As and testing Lyro properly takes longer, often an afternoon for a small store. Then plan for weekly tuning during the first month."
+    },
+    {
+      "question": "Can Tidio's chatbot track Shopify orders?",
+      "answer": "Tidio's Shopify integration can bring order and customer information into the platform, and some flows can use store data. Which order actions are automated depends on your plan and Tidio's current features. Check Tidio's Shopify integration page, and test order questions yourself before telling customers the bot can track orders."
+    },
+    {
+      "question": "Why isn't the Tidio chat widget showing on my Shopify store?",
+      "answer": "The most common cause is the Tidio app embed being switched off. Go to Online Store > Themes > Customize > App embeds, turn Tidio on, and save. Also check you're editing your published theme, and that no other chat app or ad blocker is hiding the widget."
+    },
+    {
+      "question": "Will Lyro make up answers?",
+      "answer": "Lyro is designed to answer from the knowledge you provide, but any AI can phrase things vaguely or apply a policy wrongly when sources are unclear or contradict each other. Keep your sources accurate, add exact Q&As for sensitive topics like refunds, and read transcripts regularly to catch mistakes early."
+    },
+    {
+      "question": "Should I use Tidio Flows, Lyro, or both?",
+      "answer": "Use Flows for predictable, triggered actions like welcome messages, email capture or cart nudges, and Lyro for open-ended customer questions. Most growing stores benefit from both. Test them together so they don't fire at the same time in one conversation."
+    }
+  ],
+  "conclusion": "A good Tidio AI chatbot setup for Shopify depends less on the install than on what comes before and after it. Clean up your policy pages, train Lyro on your top 15–20 real questions, set clear handoff rules for business hours and after hours, and test on mobile before launch. Then read transcripts weekly for a month and add Q&As for anything Lyro misses. Do that and the chatbot can take on a lot of the repeat questions without giving shoppers wrong answers. Before relying on it for a big sale, check your plan's current AI conversation limit and features on Tidio's site.",
+  "keyword": "tidio ai chatbot setup for shopify",
+  "niche": "AI customer support chatbots for online stores",
+  "version": 2,
+  "slug": "tidio-ai-chatbot-setup-for-shopify-step-by-step-pitfalls",
+  "published": "2026-10-08T07:31:13+00:00"
+}

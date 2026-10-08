@@ -8,14 +8,14 @@ import logging
 import sys
 from pathlib import Path
 
-from . import config, pipeline, site
+from . import config, indexnow, pipeline, site
 from .llm import ClaudeCodeJSON, has_credentials
 from .store import Store
 
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="earnbot", description="AI Earning Machine autopilot")
-    ap.add_argument("command", choices=["run", "build", "status"])
+    ap.add_argument("command", choices=["run", "build", "status", "indexnow"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--deliverables", type=Path, default=Path("deliverables"),
                     help="where full paid product files are written (kept out of the public site)")
@@ -33,6 +33,9 @@ def main(argv: list[str] | None = None) -> int:
     store = Store(cfg.content_dir, cfg.data_dir)
     if args.command == "build":
         print(json.dumps(site.build(cfg, store)))
+        return 0
+    if args.command == "indexnow":
+        print(json.dumps(indexnow.submit(cfg, store) if cfg.indexnow else {"skipped": "disabled in config"}))
         return 0
 
     runs = store.runs()

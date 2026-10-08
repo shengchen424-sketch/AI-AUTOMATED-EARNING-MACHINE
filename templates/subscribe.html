@@ -1,9 +1,0 @@
-<section class="card">
-<strong>Get one practical AI workflow every week.</strong>
-<p class="muted">Free. No spam. Unsubscribe anytime.</p>
-{% if cfg.newsletter_action %}
-<form class="sub" action="{{ cfg.newsletter_action }}" method="post" target="_blank">
-<input type="email" name="email" placeholder="you@business.com" required aria-label="Email">
-<button class="cta" type="submit">Subscribe</button></form>
-{% else %}<p class="muted">Newsletter opening soon.</p>{% endif %}
-</section>

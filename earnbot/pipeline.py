@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from . import generate, revenue, site
+from . import generate, pdf, revenue, site
 from .config import Config
 from .llm import JSONModel, LLMError
 from .store import Store, utcnow
@@ -50,6 +50,20 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
             except LLMError as e:
                 report["errors"].append(f"article '{topic['title']}': {e}")
 
+        # Re-edit older articles into the newest, richer format (same URL, fresher content).
+        stale = [a for a in store.articles() if a.get("version", 1) < generate.ARTICLE_VERSION]
+        for old in stale[: cfg.upgrades_per_run]:
+            topic = {"keyword": old.get("keyword", old["title"]), "niche": old.get("niche", "")}
+            try:
+                new = generate.edit_article(cfg, llm, old, topic)
+            except LLMError as e:
+                report["errors"].append(f"upgrade '{old['slug']}': {e}")
+                continue
+            new.update(slug=old["slug"], published=old["published"])
+            store.update_article(new)
+            report.setdefault("upgraded", []).append(old["slug"])
+            log.info("upgraded article %s", old["slug"])
+
         products = store.products()
         for _ in range(cfg.products_per_run):
             if len(products) >= cfg.max_products:
@@ -64,6 +78,9 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
                 deliverables_dir.mkdir(parents=True, exist_ok=True)
                 (deliverables_dir / f"{saved['slug']}.md").write_text(
                     generate.product_markdown(full), encoding="utf-8")
+                html = pdf.product_html(full, cfg.business_name)
+                (deliverables_dir / f"{saved['slug']}.html").write_text(html, encoding="utf-8")
+                pdf.html_to_pdf(html, (deliverables_dir / f"{saved['slug']}.pdf").resolve())
             report["products"].append(saved["slug"])
             products = store.products()
             log.info("created product %s", saved["slug"])
