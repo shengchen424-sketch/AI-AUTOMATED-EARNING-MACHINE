@@ -1,0 +1,22 @@
+{
+  "term": "Cash Flow Statement",
+  "section": "Accounting & Business",
+  "short_definition": "A cash flow statement is a financial report showing how cash moved in and out of a business during a period, split into operating, investing and financing activities.",
+  "explanation": [
+    "A cash flow statement sorts all cash movements into three groups. Operating activities cover cash from customers and payments to suppliers, staff and tax authorities. Investing activities cover buying or selling equipment, property or investments. Financing activities cover borrowing, repaying loans, issuing shares and paying dividends. Many companies use the indirect method: they start from net income, add back non-cash items like depreciation and adjust for changes in working capital.",
+    "Profit and cash are not the same thing. A business can show a profit on its income statement and still run short of cash if customers pay slowly or inventory builds up. The cash flow statement, income statement and balance sheet are the three core financial statements.",
+    "A single period can be misleading. A large loan or asset sale can make total cash flow look healthy while the core business is weak, and heavy investing outflows can be a sign of healthy growth. Look at operating cash flow and at trends over several periods."
+  ],
+  "example": "Example (illustrative numbers): A small bakery earns $40,000 net income in a year. Adding back $8,000 of depreciation and subtracting a $12,000 rise in accounts receivable gives $36,000 of operating cash flow. It spends $20,000 on a new oven (investing: −$20,000) and repays $10,000 of a loan (financing: −$10,000). Net change in cash: $36,000 − $20,000 − $10,000 = +$6,000.",
+  "common_mistake": "Assuming a profitable business must have plenty of cash. Rising receivables, extra inventory or loan repayments can leave a business with profit on paper but little cash in the bank.",
+  "related_terms": [
+    "Cash Flow",
+    "Income Statement",
+    "Balance Sheet",
+    "Working Capital",
+    "Depreciation"
+  ],
+  "title": "Cash Flow Statement",
+  "slug": "cash-flow-statement",
+  "published": "2026-10-08T17:36:24+00:00"
+}

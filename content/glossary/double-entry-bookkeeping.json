@@ -1,0 +1,22 @@
+{
+  "term": "Double-Entry Bookkeeping",
+  "section": "Accounting & Business",
+  "short_definition": "Double-entry bookkeeping is an accounting system in which every transaction is recorded in at least two accounts — a debit and an equal credit — so the books always balance.",
+  "explanation": [
+    "Double-entry bookkeeping rests on the accounting equation: assets = liabilities + equity. Every transaction is recorded as a debit in one account and an equal credit in another, so total debits always equal total credits. Debits increase asset and expense accounts. Credits increase liability, equity and revenue accounts.",
+    "The matching entries give you a built-in error check and produce the figures for the balance sheet and income statement. Most accounting software applies double-entry rules behind the scenes, even when you just categorize transactions.",
+    "The trade-off is complexity. Debits and credits feel backwards at first, and balanced books are not necessarily correct, because an entry posted to the wrong account still balances. Record-keeping requirements for small businesses differ by country, so check with your tax authority or an accountant."
+  ],
+  "example": "Example (illustrative numbers): A freelancer invoices a client $1,500. Entry 1: debit Accounts Receivable $1,500, credit Revenue $1,500. When the client pays, entry 2: debit Cash $1,500, credit Accounts Receivable $1,500. Each entry balances, and the receivable drops back to zero.",
+  "common_mistake": "Assuming a debit always means money going out and a credit means money coming in, as on a bank statement. In bookkeeping a debit increases asset and expense accounts, and your bank statement shows the bank's side of the books, which is reversed.",
+  "related_terms": [
+    "Balance Sheet",
+    "Income Statement",
+    "Accounts Receivable",
+    "Accounts Payable",
+    "Accrual vs Cash Accounting"
+  ],
+  "title": "Double-Entry Bookkeeping",
+  "slug": "double-entry-bookkeeping",
+  "published": "2026-10-08T17:36:24+00:00"
+}

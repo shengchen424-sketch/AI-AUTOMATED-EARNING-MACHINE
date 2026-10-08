@@ -1,0 +1,22 @@
+{
+  "term": "Deepfake",
+  "section": "AI & Tech",
+  "short_definition": "A deepfake is AI-generated or AI-altered audio, video or imagery that convincingly imitates a real person's face, voice or actions, often without their consent.",
+  "explanation": [
+    "Deepfakes are made with generative AI models that learn a person's face or voice from existing photos, videos or audio. The models then produce new content, such as face swaps, lip-synced video or cloned voices. The tools keep getting easier to use, and a convincing voice clone can sometimes be made from a short recording.",
+    "Deepfakes power scams and abuse. Examples include fake calls from a 'relative' in trouble, a 'CEO' demanding an urgent payment, celebrity videos promoting fake investment or crypto schemes, and non-consensual or misleading images. The same technology also has legitimate uses with consent, such as film dubbing and accessibility tools.",
+    "Detection tools are unreliable, and even careful people can be fooled by a good fake, so verifying requests works better than trying to spot fakes. Confirm urgent requests through a separate, known channel, agree on a family code word and be suspicious of pressure and secrecy. Report suspected fraud to your bank and local authorities. Laws on deepfakes differ by country."
+  ],
+  "example": "Example (illustrative numbers): A finance assistant gets a video call that appears to show her CEO urgently requesting an $18,000 transfer to a new supplier. Following company policy, she hangs up and calls the CEO back on the number in the staff directory. The CEO knows nothing about it. The two-minute check stops the payment.",
+  "common_mistake": "Treating a familiar face or voice as proof of identity. Verify any urgent request for money or data through a separate, known channel, however real the call looks.",
+  "related_terms": [
+    "Generative AI",
+    "Phishing",
+    "Multimodal AI",
+    "Two-Factor Authentication (2FA)",
+    "AI Hallucination"
+  ],
+  "title": "Deepfake",
+  "slug": "deepfake",
+  "published": "2026-10-08T17:36:24+00:00"
+}

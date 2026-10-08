@@ -1,0 +1,21 @@
+{
+  "term": "Minimum Viable Product (MVP)",
+  "section": "Accounting & Business",
+  "short_definition": "A minimum viable product (MVP) is the simplest version of a product that real customers can use, built to test whether a core idea solves a problem before investing heavily.",
+  "explanation": [
+    "To build an MVP, identify the riskiest assumption behind your idea, usually whether people want it enough to pay, and build the smallest thing that tests it. That might be a landing page that takes pre-orders, a manually delivered 'concierge' version of a service or a basic prototype. You launch it to a small group, measure what they actually do and improve it in short cycles.",
+    "An MVP cuts the time and money spent building features nobody wants. Real customer behavior, such as sign-ups, payments and repeat use, is better evidence than opinions. Learning early also protects a young business's limited cash.",
+    "If an MVP is too bare or buggy, it can fail to show the idea's value. That gives you a false 'no' and can hurt your reputation. 'Viable' matters as much as 'minimum', and legal duties such as consumer protection, payment rules and data privacy still apply."
+  ],
+  "example": "Example (illustrative numbers): Instead of spending $30,000 to build a meal-planning app, a founder spends $300 on a landing page and a weekly email meal plan priced at $8 a month. If 40 of 1,000 visitors (4%) pay within a month, there is evidence of demand. If almost nobody pays, she has learned that cheaply and can change the idea.",
+  "common_mistake": "Spending months adding 'just one more feature' before launching. An MVP that never reaches real users isn't testing anything.",
+  "related_terms": [
+    "Burn Rate",
+    "Customer Acquisition Cost (CAC)",
+    "Kaizen (Continuous Improvement)",
+    "Break-Even Point"
+  ],
+  "title": "Minimum Viable Product (MVP)",
+  "slug": "minimum-viable-product-mvp",
+  "published": "2026-10-08T17:36:24+00:00"
+}

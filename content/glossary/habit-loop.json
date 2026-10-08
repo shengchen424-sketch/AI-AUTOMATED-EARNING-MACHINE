@@ -1,0 +1,21 @@
+{
+  "term": "Habit Loop",
+  "section": "Self-Development",
+  "short_definition": "The habit loop is a model describing how habits form through a repeating cycle of cue, routine and reward, which makes a behavior more automatic over time.",
+  "explanation": [
+    "The habit loop has three stages. A cue triggers the behavior: a time, place, emotion, person or previous action. The routine is the behavior itself. The reward is the benefit that makes you want to repeat it. Charles Duhigg popularized the model in 'The Power of Habit', and James Clear's 'Atomic Habits' expands it to cue, craving, response and reward.",
+    "The model shows where you can intervene. To build a habit, make the cue obvious and the reward immediate. To change a habit, keep the cue and the reward but swap in a different routine that meets the same need.",
+    "The model is a simplification. The real reward behind a habit isn't always obvious and may take some experimenting to find. How long a habit takes to feel automatic varies widely by person and behavior, so ignore one-size-fits-all claims like '21 days'."
+  ],
+  "example": "Example (illustrative numbers): Cue: you feel an energy slump at 3 p.m. Routine: you buy a $4 pastry. Reward: a break and a chat with coworkers. If the real reward is the social break, swap the routine for a 10-minute walk with a coworker. Over 20 workdays that saves about $80 a month, and you still get the reward.",
+  "common_mistake": "Trying to drop a bad habit through willpower alone. Instead, identify its cue and the reward it gives you, then substitute a routine that meets the same need.",
+  "related_terms": [
+    "Habit Stacking",
+    "Two-Minute Rule",
+    "Delayed Gratification",
+    "Kaizen (Continuous Improvement)"
+  ],
+  "title": "Habit Loop",
+  "slug": "habit-loop",
+  "published": "2026-10-08T17:36:24+00:00"
+}

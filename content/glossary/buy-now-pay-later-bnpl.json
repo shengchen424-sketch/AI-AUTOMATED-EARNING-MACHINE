@@ -1,0 +1,22 @@
+{
+  "term": "Buy Now, Pay Later (BNPL)",
+  "section": "Banking & Money",
+  "short_definition": "Buy now, pay later (BNPL) is a short-term financing option that splits a purchase into several installments, often interest-free if every payment is made on time.",
+  "explanation": [
+    "You choose buy now, pay later at checkout, online or in a store. The BNPL provider pays the merchant, and you repay in installments, commonly four payments spread over several weeks. Payments are usually taken automatically from a linked debit or credit card. Longer plans for larger purchases may charge interest.",
+    "BNPL can spread the cost of a purchase without interest if every installment is paid on time. It also makes spending feel smaller than it is. With several BNPL apps at once, it is easy to lose track of how much you owe and when payments are due.",
+    "The risks include late fees, interest on some plans, and bank overdraft fees when a payment fails. Depending on the provider and country, missed or even on-time payments may also show up on your credit file. Consumer protections for BNPL differ by country and are still changing, so read the terms and check your local regulator's guidance."
+  ],
+  "example": "Example (illustrative numbers): You buy a $240 jacket with a 'pay in 4' plan: $60 at checkout, then $60 every two weeks. If every payment goes through, you pay $240 in total. If one payment fails and the provider charges, say, a $10 late fee, and your bank also charges an overdraft fee on the attempted debit, the jacket ends up costing more than paying upfront.",
+  "common_mistake": "Running several BNPL plans across different apps and losing track of due dates. Overlapping automatic payments can drain the account and trigger fees.",
+  "related_terms": [
+    "Overdraft",
+    "Credit Score",
+    "Cash Flow",
+    "APR vs APY",
+    "Debt-to-Income Ratio (DTI)"
+  ],
+  "title": "Buy Now, Pay Later (BNPL)",
+  "slug": "buy-now-pay-later-bnpl",
+  "published": "2026-10-08T17:36:24+00:00"
+}

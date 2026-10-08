@@ -1,0 +1,21 @@
+{
+  "term": "Market Order vs Limit Order",
+  "section": "Investing",
+  "short_definition": "A market order buys or sells immediately at the best available price, while a limit order only executes at your chosen price or better, trading certainty of execution for price control.",
+  "explanation": [
+    "A market order tells your broker to trade right away at the best price available. A limit order sets the most you will pay when buying or the least you will accept when selling. A limit order waits until the market reaches your price. Depending on your settings, it expires at the end of the day or stays open until it fills or you cancel it.",
+    "The difference matters most when prices move fast or a security trades thinly. In heavily traded shares, a market order usually fills near the quoted price. In less liquid shares, at the market open or during sharp moves, the gap between buying and selling prices (the bid-ask spread) can widen. A market order may then fill at a noticeably worse price.",
+    "The trade-off is certainty versus control. A market order almost always executes, but the price isn't guaranteed. A limit order protects your price, but it may fill only partly or not at all. Order types, trading hours and fees vary by broker and exchange, so check your broker's help pages before trading."
+  ],
+  "example": "Example (illustrative numbers): A share is quoted at $50.00 bid / $50.10 ask. A market order to buy 10 shares would likely fill around $50.10, costing about $501. A limit order to buy at $49.90 costs at most $499, but only if a seller accepts that price. If the price jumps to $52, the limit order may never fill.",
+  "common_mistake": "Placing market orders in thinly traded shares, or right at the market open when prices swing and spreads are wide, then getting a much worse price than expected.",
+  "related_terms": [
+    "Brokerage Account",
+    "Liquidity",
+    "Volatility",
+    "Stock (Equity)"
+  ],
+  "title": "Market Order vs Limit Order",
+  "slug": "market-order-vs-limit-order",
+  "published": "2026-10-08T17:36:24+00:00"
+}

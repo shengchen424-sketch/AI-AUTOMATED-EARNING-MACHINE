@@ -1,0 +1,21 @@
+{
+  "term": "Feynman Technique",
+  "section": "Self-Development",
+  "short_definition": "The Feynman Technique is a learning method where you explain a concept in simple language as if teaching a beginner, find the gaps in your explanation, then review and simplify.",
+  "explanation": [
+    "The Feynman Technique has four steps. Pick a concept and explain it in plain language as if teaching a beginner. Note where you get stuck or fall back on jargon. Then go back to your source material and simplify your explanation again. The method is named after physicist Richard Feynman, who was known for clear explanations; the four-step version is a later summary inspired by his approach.",
+    "The technique shows the difference between recognizing an idea and actually understanding it. Re-reading notes feels productive, but explaining something from memory reveals exactly what you don't know yet. It works well for financial concepts, exam topics and work presentations.",
+    "It is slower than passive review, and oversimplifying can drop important nuance. Check your explanation against a reliable source, or explain it to a real person who can ask questions."
+  ],
+  "example": "Example (illustrative numbers): You write an explanation of compound interest: 'You earn interest on your interest.' Then you try to explain why $1,000 at an example 5% rate grows to $1,102.50 after two years instead of $1,100, and you get stuck. Re-reading shows that the second year's 5% applies to $1,050, not $1,000, which is $52.50 instead of $50. You add that step, and now your explanation is complete.",
+  "common_mistake": "Calling an explanation simple when it still relies on jargon. If you can't explain a term without using its technical name, that's the gap to study.",
+  "related_terms": [
+    "Mental Models",
+    "Spaced Repetition",
+    "Growth Mindset",
+    "Deep Work"
+  ],
+  "title": "Feynman Technique",
+  "slug": "feynman-technique",
+  "published": "2026-10-08T17:36:24+00:00"
+}

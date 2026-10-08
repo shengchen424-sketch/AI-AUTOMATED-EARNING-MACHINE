@@ -1,0 +1,22 @@
+{
+  "term": "Real Estate Investment Trust (REIT)",
+  "section": "Investing",
+  "short_definition": "A real estate investment trust (REIT) is a company that owns, operates or finances income-producing property and, in many countries, must pay out most of its taxable income as dividends.",
+  "explanation": [
+    "A REIT pools money from many investors to own or finance property such as apartments, offices, warehouses, healthcare buildings or data centers. Mortgage REITs hold property loans instead of buildings. Many REITs are listed on stock exchanges and trade like shares, and you can also invest through REIT index funds or ETFs.",
+    "REITs let investors own a slice of property with small amounts of money. They are also easier to sell than a building, and investors receive a share of rental income as dividends. Many countries require REITs to pay out most of their taxable income, so they are often used for income. Rules and tax treatment differ by country.",
+    "Listed REIT prices can be volatile. They react to interest rates, property values, vacancies and debt levels, and dividends can be cut. Non-traded or private REITs may be hard to sell and often charge higher fees. Check fees, debt levels and local tax rules, and use your regulator's guidance or a licensed adviser for personal decisions."
+  ],
+  "example": "Example (illustrative numbers): You invest $2,000 in a listed REIT at $40 a share (50 shares). If it pays $2 per share in dividends over a year, you receive $100 before tax, a 5% yield at that price. If rising interest rates push the share price down to $34, your holding is worth $1,700. Despite the $100 of income, your total result is a $200 loss.",
+  "common_mistake": "Choosing a REIT for its high dividend yield alone without checking whether the payout is sustainable, how much debt the REIT carries, or how its share price reacts to interest rate changes.",
+  "related_terms": [
+    "Dividend",
+    "Diversification",
+    "Liquidity",
+    "Exchange-Traded Fund (ETF)",
+    "Volatility"
+  ],
+  "title": "Real Estate Investment Trust (REIT)",
+  "slug": "real-estate-investment-trust-reit",
+  "published": "2026-10-08T17:36:24+00:00"
+}

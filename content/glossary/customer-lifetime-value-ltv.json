@@ -1,0 +1,21 @@
+{
+  "term": "Customer Lifetime Value (LTV)",
+  "section": "Accounting & Business",
+  "short_definition": "Customer lifetime value (LTV or CLV) estimates the total gross profit a business expects to earn from an average customer over the entire relationship, used to judge how much to spend acquiring customers.",
+  "explanation": [
+    "Customer lifetime value is usually estimated as average gross profit per customer per period multiplied by how long a typical customer stays. For subscriptions, a common shortcut is monthly gross profit per customer divided by the monthly churn rate, which is the share of customers who cancel each month. Some businesses calculate LTV on revenue instead, which gives a higher, less conservative number.",
+    "LTV shows what a customer is worth over time, which tells a business how much it can afford to spend winning and keeping customers. It is usually compared with customer acquisition cost (CAC). If acquiring a customer costs more than the profit they bring in, growth loses money.",
+    "LTV is a forecast built on assumptions. Young businesses have little data on how long customers stay, averages hide differences between customer groups, and an optimistic churn estimate can justify overspending on marketing. Recalculate it regularly with real data."
+  ],
+  "example": "Example (illustrative numbers): A subscription box costs $30 a month with a 60% gross margin, so each customer brings in $18 of gross profit a month. If 5% of customers cancel each month, the average customer stays about 20 months (1 ÷ 0.05). LTV ≈ $18 × 20 = $360. If acquiring a customer costs $120, the LTV-to-CAC ratio is 3:1.",
+  "common_mistake": "Calculating LTV with revenue instead of gross profit, or with an overly optimistic churn rate. Both inflate the number and can justify overspending on advertising.",
+  "related_terms": [
+    "Customer Acquisition Cost (CAC)",
+    "Profit Margin",
+    "Burn Rate",
+    "Revenue vs Profit"
+  ],
+  "title": "Customer Lifetime Value (LTV)",
+  "slug": "customer-lifetime-value-ltv",
+  "published": "2026-10-08T17:36:24+00:00"
+}

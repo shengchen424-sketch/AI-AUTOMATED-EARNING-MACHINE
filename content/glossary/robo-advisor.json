@@ -1,0 +1,22 @@
+{
+  "term": "Robo-Advisor",
+  "section": "Investing",
+  "short_definition": "A robo-advisor is an online investment service that uses algorithms to build and automatically manage a diversified portfolio based on your goals, timeline and risk tolerance, usually for a yearly fee.",
+  "explanation": [
+    "A robo-advisor starts with an online questionnaire about your goals, time horizon and risk tolerance. It then puts your money into a model portfolio, usually built from low-cost index funds or ETFs. After that it manages the portfolio automatically, for example by rebalancing to your target mix and reinvesting dividends. Some offer tax features where local rules allow.",
+    "Robo-advisors offer diversified, rules-based investing with low minimums and little ongoing effort. They can also reduce emotional decisions such as panic-selling in a downturn. They are often cheaper than traditional financial advice, but fees vary, so confirm current pricing on the provider's website.",
+    "The trade-offs are cost and limited personalization. You usually pay an annual management fee on top of the funds' own expense ratios. The service may not handle complex situations such as business income, an inheritance or detailed tax planning. Your portfolio can still lose value when markets fall, and protections differ by country, so check that the provider is regulated where you live."
+  ],
+  "example": "Example (illustrative numbers): You invest $10,000 with a robo-advisor that charges a 0.25% annual management fee and uses ETFs with an average expense ratio of 0.10%. Your total yearly cost is about 0.35%, or roughly $35. Your target is 70% stocks and 30% bonds. If a stock rally shifts the mix to 78/22, the service sells some stocks and buys bonds to restore 70/30.",
+  "common_mistake": "Assuming a robo-advisor protects you from losses. It manages the mix, but a portfolio that is 70% stocks will still fall sharply in a market downturn.",
+  "related_terms": [
+    "Asset Allocation",
+    "Rebalancing",
+    "Risk Tolerance",
+    "Expense Ratio",
+    "Index Fund"
+  ],
+  "title": "Robo-Advisor",
+  "slug": "robo-advisor",
+  "published": "2026-10-08T17:36:24+00:00"
+}

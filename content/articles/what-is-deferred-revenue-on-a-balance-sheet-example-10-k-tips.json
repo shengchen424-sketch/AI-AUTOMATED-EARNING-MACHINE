@@ -1,0 +1,268 @@
+{
+  "title": "What Is Deferred Revenue on a Balance Sheet? Example + 10-K Tips",
+  "meta_description": "What is deferred revenue on a balance sheet? Follow a $1,200 subscription month by month, find it in a 10-K, and learn what changes signal.",
+  "quick_answer": "Deferred revenue (also called unearned revenue or a contract liability) is money a company has collected in advance for products or services it hasn't delivered yet. It sits on the balance sheet as a liability, usually under current liabilities. As the company delivers, it moves amounts into revenue on the income statement. For example, a $1,200 annual subscription paid upfront is recognized at $100 a month.",
+  "key_takeaways": [
+    "Deferred revenue is a liability. It records customer prepayments for products or services the company hasn't delivered yet.",
+    "It turns into revenue as the company delivers. For example, a $1,200 annual plan paid upfront is recognized at $100 a month until the balance reaches zero.",
+    "Prepayments count as operating cash flow right away, which is why companies that bill a year upfront can show operating cash flow well above net income.",
+    "Compare deferred revenue with the same quarter a year earlier, alongside revenue growth and RPO. Rule out billing-term changes, seasonality and acquisitions before you draw conclusions.",
+    "In a 10-K, add the current and non-current deferred revenue on the balance sheet. Then read the revenue note for contract balances and remaining performance obligations."
+  ],
+  "who_this_is_for": "This guide is for investors, students and small-business owners who want to read a subscription company's balance sheet, or track their own retainers and prepayments, without getting lost in accounting jargon.",
+  "intro": "Deferred revenue is cash a company has collected for products or services it hasn't delivered yet, so it is recorded as a liability. That can sound backward: how can getting paid create something you owe? It makes sense once you follow one subscription through the books.\n\nThis guide follows a hypothetical $1,200 annual software subscription month by month across the balance sheet, income statement and cash flow statement, with the journal entries. It then covers what investors need: where to find current and non-current deferred revenue in a 10-K, how deferred revenue relates to remaining performance obligations (RPO), what rising or falling balances can signal, and the most common mistakes people make reading it. A short sidebar shows how freelancers who take retainers deal with the same idea on a smaller scale.\n\nEverything here is general education, not investment, tax or accounting advice. Accounting and tax rules differ by country.",
+  "steps": [
+    {
+      "name": "Open the filing",
+      "text": "Search for the company on the SEC's free EDGAR database and open its latest 10-K (annual report) or 10-Q (quarterly report). For companies outside the US, use the annual report and find the equivalent financial statements."
+    },
+    {
+      "name": "Find the current balance",
+      "text": "Open the consolidated balance sheet. It's in Item 8 of a 10-K, or Part I, Item 1 of a 10-Q. Under current liabilities, look for 'deferred revenue,' 'unearned revenue' or 'contract liabilities.' Write down both the current-period figure and the prior-period column."
+    },
+    {
+      "name": "Add the non-current portion",
+      "text": "Check long-term liabilities for a line such as 'deferred revenue, non-current' or 'net of current portion.' If it isn't there, search the notes, because some companies include it in 'other long-term liabilities.' Total deferred revenue = current + non-current."
+    },
+    {
+      "name": "Compare year over year",
+      "text": "Compare the total with the same quarter a year earlier, not the previous quarter, because many companies bill more heavily in certain quarters. Growth rate = (this year's total − last year's total) ÷ last year's total."
+    },
+    {
+      "name": "Compare with revenue growth",
+      "text": "Calculate revenue growth for the same period. If deferred revenue is growing faster than revenue, billings may be speeding up. If it's growing more slowly, they may be cooling. For a rough cross-check, estimate calculated billings as revenue plus the change in deferred revenue. This is an informal metric, not a GAAP measure."
+    },
+    {
+      "name": "Read the revenue note",
+      "text": "Find the note often titled 'Revenue' or 'Revenue from Contracts with Customers.' Record the opening and closing contract liability balances, the revenue recognized from the opening balance, total RPO, and the share of RPO expected within about 12 months."
+    },
+    {
+      "name": "Check the cash flow statement",
+      "text": "Under operating activities, find the line for the change in deferred revenue. A large positive number means customer prepayments lifted operating cash flow above net income. A negative number means the opposite."
+    },
+    {
+      "name": "Read MD&A for the explanation",
+      "text": "In Management's Discussion and Analysis (Item 7 of a 10-K, or Part I, Item 2 of a 10-Q), look for billing-term changes, acquisitions, currency effects, discounts or churn. Write one sentence on why the balance moved before you draw any conclusion."
+    }
+  ],
+  "comparison": {
+    "caption": "How a hypothetical $1,200 annual subscription, paid upfront on January 1, moves through the three financial statements (costs, taxes and refunds ignored)",
+    "headers": [
+      "Date",
+      "Deferred revenue (balance sheet)",
+      "Revenue recognized to date (income statement)",
+      "Operating cash inflow to date (cash flow statement)",
+      "What happened"
+    ],
+    "rows": [
+      [
+        "Jan 1",
+        "$1,200",
+        "$0",
+        "$1,200",
+        "Customer pays upfront; nothing delivered yet"
+      ],
+      [
+        "Jan 31",
+        "$1,100",
+        "$100",
+        "$1,200",
+        "First month of service delivered; $100 moves to revenue"
+      ],
+      [
+        "Mar 31 (end of Q1)",
+        "$900",
+        "$300",
+        "$1,200",
+        "Q1 operating cash flow ($1,200) is far above Q1 revenue ($300)"
+      ],
+      [
+        "Jun 30 (end of Q2)",
+        "$600",
+        "$600",
+        "$1,200",
+        "Q2 adds $300 of revenue but no new cash"
+      ],
+      [
+        "Sep 30 (end of Q3)",
+        "$300",
+        "$900",
+        "$1,200",
+        "Liability keeps shrinking as service is delivered"
+      ],
+      [
+        "Dec 31 (end of Q4)",
+        "$0",
+        "$1,200",
+        "$1,200",
+        "Obligation fully met; a renewal would refill deferred revenue"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is deferred revenue on a balance sheet?",
+      "paragraphs": [
+        "Deferred revenue on a balance sheet is a liability. It shows how much customers have paid in advance for products or services the company still owes them. It usually appears under current liabilities. Any portion that won't be earned for more than 12 months appears under long-term liabilities.",
+        "It counts as a liability because of accrual accounting. Under the main revenue standards (ASC 606 in the US and IFRS 15 in many other countries), a company records revenue when it delivers what it promised, not when the cash arrives. Until then, the payment is an obligation. The company has to provide the service or, depending on the contract, give the money back.",
+        "Deferred revenue is different from a bank loan because the company usually settles it by doing the work, not by paying cash back. That's why analysts often treat it separately from debt. It is still a real obligation, and a business that can't deliver may face refunds, credits or disputes.",
+        "There is one nuance. The simple definition says 'cash collected,' but some companies record deferred revenue as soon as they issue an invoice that can't be cancelled and is due, before the payment arrives. Each company's accounting-policy note explains its approach."
+      ],
+      "bullets": [
+        "Deferred revenue: the most common label in US filings.",
+        "Unearned revenue: the same idea, common in textbooks and small-business bookkeeping.",
+        "Contract liabilities: the formal term in ASC 606 and IFRS 15.",
+        "Deferred income: often seen in UK and other IFRS reports.",
+        "Customer deposits or customer advances: common labels for prepayments and retainers."
+      ]
+    },
+    {
+      "heading": "A $1,200 software subscription, month by month",
+      "paragraphs": [
+        "The clearest way to understand deferred revenue is to follow one prepaid subscription from the day the cash arrives to the last month of service.",
+        "Imagine a hypothetical software company. On January 1, a customer pays $1,200 upfront for a 12-month subscription that is delivered evenly, so the company earns $100 a month. To keep the math simple, this example ignores costs, taxes, sales tax and refunds, and assumes the company's fiscal year matches the calendar year.",
+        "On January 1, the company hasn't delivered anything yet. Cash rises by $1,200, deferred revenue rises by $1,200, and revenue is still zero. At the end of each month, one-twelfth of the obligation has been met, so $100 moves from deferred revenue to revenue. Cash doesn't change. Only the label on the money changes. The comparison table in this article shows the balances at key dates."
+      ],
+      "bullets": [
+        "Day 1 entry: debit Cash $1,200; credit Deferred revenue $1,200.",
+        "Month-end entry (repeated 12 times): debit Deferred revenue $100; credit Subscription revenue $100.",
+        "Built-in check: at any date, deferred revenue plus revenue recognized so far equals the $1,200 collected.",
+        "Mid-month starts: if the customer pays partway through a month, companies typically prorate the first and last months. The policy note explains the method.",
+        "Renewal: if the customer pays again the following January 1, deferred revenue goes back to $1,200 and the cycle starts over."
+      ]
+    },
+    {
+      "heading": "How deferred revenue flows through all three financial statements",
+      "paragraphs": [
+        "The same $1,200 shows up on the cash flow statement all at once and on the income statement a little each month. On the balance sheet, it starts as a liability that shrinks to zero.",
+        "On the balance sheet, the full $1,200 starts as current deferred revenue, because all of it will be earned within 12 months. It falls to $900 on March 31, $600 on June 30, $300 on September 30 and zero on December 31.",
+        "On the income statement, revenue is smooth: $100 a month, $300 a quarter and $1,200 for the year. That's why reported revenue at subscription companies tends to grow steadily even when their billing is uneven.",
+        "On the cash flow statement, all the cash arrives at the start. Most companies use the indirect method, which starts with net income and adjusts for changes in working capital. In Q1, this customer adds $300 of net income (ignoring costs). The $900 increase in deferred revenue is added back, so operating cash flow is $1,200. In each of the next three quarters, net income is $300 but deferred revenue falls by $300, so this customer adds nothing to operating cash flow.",
+        "This timing gap explains why businesses that bill a year upfront can report operating cash flow well above net income. It also explains why their quarterly cash flow can look uneven while revenue looks steady."
+      ],
+      "bullets": [
+        "Calculated billings (informal, not a GAAP measure): revenue plus the change in deferred revenue. In this example, Q1 = $300 + $900 = $1,200, and Q2 = $300 − $300 = $0.",
+        "Same customer on monthly billing: deferred revenue is close to zero at each quarter-end and cash tracks revenue closely. The revenue is identical, but the balance sheet looks very different.",
+        "Where to look: the cash flow statement usually shows a 'deferred revenue' line under changes in operating assets and liabilities."
+      ]
+    },
+    {
+      "heading": "Deferred revenue vs remaining performance obligations (RPO)",
+      "paragraphs": [
+        "Remaining performance obligations (RPO) are the total contracted revenue a company hasn't recognized yet. Broadly, RPO is deferred revenue plus amounts customers have committed to but haven't been billed for.",
+        "Change the example slightly. The customer signs a three-year contract that can't be cancelled, at $1,200 a year, billed each January. After the first payment, deferred revenue is $1,200, but RPO is $3,600: the $1,200 already billed plus $2,400 committed but not yet invoiced. After one month of service, deferred revenue is $1,100 and RPO is $3,500.",
+        "Deferred revenue depends heavily on billing terms, while RPO captures the full contractual commitment. If a company moves customers from annual to monthly billing, deferred revenue may fall while RPO stays steady. That's why many investors track both. Many companies also disclose the share of RPO they expect to recognize within about 12 months, often called current RPO (cRPO).",
+        "RPO has limits. It generally leaves out amounts customers can cancel without a meaningful penalty. Companies can also use permitted shortcuts, such as excluding contracts with an original expected length of one year or less. Read the footnote before comparing two companies' figures."
+      ],
+      "bullets": [
+        "Deferred revenue: billed or collected but not yet earned; shown on the balance sheet.",
+        "Unbilled contracted amounts: committed but not yet invoiced; not shown on the balance sheet as a liability.",
+        "RPO: broadly the two combined; disclosed in the notes.",
+        "Current RPO: the portion expected to become revenue within about 12 months."
+      ]
+    },
+    {
+      "heading": "Where to find current vs non-current deferred revenue in a 10-K",
+      "paragraphs": [
+        "In a 10-K, deferred revenue appears on the consolidated balance sheet in Item 8 (Financial Statements and Supplementary Data). It is split between current liabilities and, when relevant, long-term liabilities.",
+        "Current deferred revenue is the portion the company expects to recognize as revenue within the next 12 months. Non-current deferred revenue will be earned after that, usually from multi-year prepaid contracts. Typical labels are 'Deferred revenue, current' and 'Deferred revenue, non-current' or 'net of current portion.' Some companies include the non-current part in 'Other long-term liabilities' and show it separately only in the notes.",
+        "The details are in the revenue note, often titled 'Revenue' or 'Revenue from Contracts with Customers.' It usually shows the opening and closing contract liability balances, how much revenue was recognized from the opening balance, and the RPO disclosure.",
+        "US filings can be searched for free on the SEC's EDGAR database. In a 10-Q, the financial statements are in Part I, Item 1, and MD&A is in Part I, Item 2. Companies that report under IFRS publish annual reports with a different layout and often use the terms 'contract liabilities' or 'deferred income.'"
+      ],
+      "bullets": [
+        "Balance sheet: current and long-term liabilities.",
+        "Revenue note: contract balances, revenue recognized from the opening balance, and RPO.",
+        "Cash flow statement: the change in deferred revenue under operating activities.",
+        "MD&A (Item 7 of a 10-K): management's explanation of billing terms, seasonality and other changes.",
+        "10-Q filings: the same items every quarter, unaudited."
+      ]
+    },
+    {
+      "heading": "What rising or falling deferred revenue can signal",
+      "paragraphs": [
+        "Rising deferred revenue often means customers are prepaying for more future service. Falling deferred revenue can be an early sign that fewer customers are prepaying or renewing. Either way, you need context before the change means anything.",
+        "Growth can point to healthy demand, and it gives the company cash before it does the work, which works a bit like interest-free funding from customers. If current deferred revenue is growing faster than revenue, billings may be speeding up. If it's growing more slowly, they may be cooling.",
+        "Declines often show up on the balance sheet before they show up in revenue. In the example, a customer who decides in December not to renew still produces $1,200 of revenue for the year. The warning sign comes in January, when deferred revenue isn't topped up again. Across thousands of customers, a falling balance can be an early sign of slower revenue growth in later quarters.",
+        "Treat these signals as reasons to dig deeper, not as conclusions. No single metric tells you whether a company is a sound investment. For personal decisions, talk to a licensed financial adviser who knows your situation.",
+        "Before reading anything into a change, rule out these common distortions:"
+      ],
+      "bullets": [
+        "Billing-term changes: moving customers from monthly to annual billing (or back) shifts deferred revenue without changing the number of customers.",
+        "Seasonality: many companies bill heavily in one quarter, so compare the same quarter year over year.",
+        "Acquisitions and divestitures: buying or selling a business adds or removes deferred revenue overnight.",
+        "Multi-year prepayments: these increase the non-current portion, sometimes because customers were offered discounts.",
+        "Currency moves: for companies that bill in several currencies, exchange rates can shift the reported balance."
+      ]
+    },
+    {
+      "heading": "Common mistakes when reading deferred revenue",
+      "paragraphs": [
+        "The most common mistake is treating deferred revenue as either pure good news or plain debt. It is an obligation to deliver, and what it means depends on billing terms, contract length and the cost of providing the service.",
+        "Some analysts point out that the real economic burden of deferred revenue is the cost of delivering the service, not the full amount on the balance sheet, because the cash has already been collected. That's one reason it is usually left out of debt ratios. The obligation is still real if the customer can claim a refund."
+      ],
+      "bullets": [
+        "Confusing it with deferred taxes: 'deferred income taxes' is a separate line about tax timing, not customer prepayments.",
+        "Mixing it up with prepaid expenses: prepaid expenses are the mirror image. They are an asset for amounts the company has paid suppliers in advance.",
+        "Comparing with the previous quarter only: seasonal billing can make a normal quarter look like a collapse.",
+        "Missing the non-current portion: it may be included in 'other long-term liabilities.'",
+        "Comparing companies with different billing practices: check RPO before concluding that one company is growing faster than another.",
+        "Assuming the cash arrived: some companies record deferred revenue against an unpaid invoice, so check accounts receivable too."
+      ]
+    },
+    {
+      "heading": "Sidebar: Freelancers who take retainers have deferred revenue too",
+      "paragraphs": [
+        "If you take a retainer before doing the work, that retainer is your own version of deferred revenue: money you've received but haven't earned yet.",
+        "Say a designer receives a hypothetical $3,000 retainer on May 1 for a three-month project, with the work spread evenly. By May 31, she has earned about $1,000 and still owes $2,000 of work. If she bills hourly against the retainer, each hour she works moves money from 'owed to client' to 'earned.'",
+        "Tracking this matters even in a one-person business. If the client cancels, the contract may require you to refund the unused portion. And if you spend the whole retainer as though it were profit, you can run short of cash while the work is still due.",
+        "Bookkeeping and tax treatment can differ. Many sole proprietors use cash-basis accounting, and tax rules for advance payments vary by country and type of business. Check with a qualified accountant or your local tax authority before changing how you report. Bookkeeping tools such as QuickBooks Online let you set up a liability account for customer deposits. Check Intuit's website for the revenue-tracking features your plan includes."
+      ],
+      "bullets": [
+        "Contract: spell out what the retainer covers and what your refund policy is.",
+        "Setup: create a liability account named 'Customer deposits' or 'Unearned revenue.'",
+        "Monthly: move the earned portion to income as you deliver the work.",
+        "Cash: consider keeping unearned retainers in a separate bank account.",
+        "Reconcile: retainer received minus work delivered equals what you still owe the client."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Freelancers and small businesses that take retainers or annual prepayments and want to record them in a liability account (such as customer deposits or unearned revenue), then reduce the balance as they deliver the work. Features and plans vary by region, so check Intuit's website for what your plan includes.",
+      "not_for": "Investors analyzing a public company's deferred revenue, who need the 10-K and a spreadsheet rather than bookkeeping software. It's also not a fit for larger businesses with complex multi-part contracts that need dedicated revenue-recognition systems and an accountant's oversight."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is deferred revenue an asset or a liability?",
+      "answer": "Deferred revenue is a liability, not an asset. The company has been paid but still owes the customer a product or service, and it may have to refund the money if it doesn't deliver. Because the company usually settles it by doing the work rather than paying cash back, analysts generally treat it separately from debt."
+    },
+    {
+      "question": "Is deferred revenue the same as unearned revenue?",
+      "answer": "Yes. In everyday use, the two terms mean the same thing. Under ASC 606 and IFRS 15, the formal term is 'contract liability,' and some reports say 'deferred income' or 'customer deposits.' Check the notes to see exactly what a company includes."
+    },
+    {
+      "question": "What is the difference between deferred revenue and accrued revenue?",
+      "answer": "They are opposites. Deferred revenue has been paid but not yet earned, so it's a liability. Accrued revenue has been earned but not yet billed or paid, so it's an asset, often shown as unbilled receivables or a contract asset."
+    },
+    {
+      "question": "Is increasing deferred revenue a good sign?",
+      "answer": "Often, yes. It can mean more customers are prepaying for future service, and it brings in cash early. But it can also rise because of a switch to annual billing, an acquisition or a seasonal pattern. Compare the same quarter year over year and read management's explanation before drawing conclusions."
+    },
+    {
+      "question": "How does deferred revenue affect cash flow?",
+      "answer": "A prepayment counts as operating cash flow when it's received, even though the revenue is recognized later. Under the indirect method, an increase in deferred revenue is added to net income and a decrease is subtracted. That's why companies that bill annually upfront can show operating cash flow well above net income."
+    },
+    {
+      "question": "How is deferred revenue taxed?",
+      "answer": "It depends on your country and on how your business reports income. Tax rules for advance payments don't always match accounting rules, and some jurisdictions tax advance payments sooner than accounting standards count them as revenue. Ask a qualified tax professional or check your local tax authority's guidance."
+    }
+  ],
+  "conclusion": "Deferred revenue is cash a company has collected for products or services it hasn't delivered yet. It stays on the balance sheet as a liability until it's earned. In the $1,200 subscription example, the cash arrives on day one, revenue comes in at $100 a month, and the liability shrinks to zero by year-end.\n\nFor investors, the year-over-year trend in current and non-current deferred revenue can give an early read on subscription demand. Read it alongside revenue growth, RPO, the cash flow statement and management's explanation. For freelancers, tracking retainers the same way keeps you clear about what you've actually earned.\n\nThis article is general education, not investment, tax or accounting advice. Rules and reporting standards differ by country, so talk to a licensed adviser or accountant before making decisions about your own money or business.",
+  "keyword": "what is deferred revenue on a balance sheet",
+  "niche": "reading financial statements and understanding company numbers",
+  "version": 2,
+  "slug": "what-is-deferred-revenue-on-a-balance-sheet-example-10-k-tips",
+  "published": "2026-10-08T17:25:14+00:00"
+}

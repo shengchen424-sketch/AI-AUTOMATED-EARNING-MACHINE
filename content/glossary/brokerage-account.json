@@ -1,0 +1,22 @@
+{
+  "term": "Brokerage Account",
+  "section": "Investing",
+  "short_definition": "A brokerage account is an investment account opened with a licensed broker that lets you buy, hold and sell assets such as stocks, bonds, ETFs and mutual funds.",
+  "explanation": [
+    "A brokerage account gives you access to financial markets. You open it with a regulated broker, deposit money and place orders to buy or sell investments, and the broker holds them for you. Most brokers offer general (taxable) accounts. Many also offer tax-advantaged retirement or savings accounts, whose names and rules differ by country.",
+    "Costs and features vary a lot between brokers, so the choice matters. Check trading commissions, account or platform fees, currency-conversion fees, interest paid on uninvested cash, the range of investments offered and any minimum deposit. Confirm current pricing on the broker's own website.",
+    "The main risk is that investments in a brokerage account are not bank deposits. Their value can fall, and you can lose money. Some countries have investor-protection schemes that may help if a broker fails, but these usually do not cover market losses. Check that your broker is authorized by your local regulator, and consider a licensed adviser for personal decisions."
+  ],
+  "example": "Example (illustrative numbers): Maya opens a brokerage account and deposits $1,000. She buys $900 of a broad index ETF and keeps $100 in cash. If the platform charges a 0.25% yearly account fee, she pays about $2.50 a year on $1,000, plus the ETF's own expense ratio. If the market falls 10%, her ETF holding drops to about $810. Investor protection does not cover that loss.",
+  "common_mistake": "Treating cash and investments in a brokerage account like bank deposits. Market losses are not insured, and uninvested cash may not earn interest or be protected the same way as savings at a bank.",
+  "related_terms": [
+    "Stock (Equity)",
+    "Exchange-Traded Fund (ETF)",
+    "Expense Ratio",
+    "Market Order vs Limit Order",
+    "Robo-Advisor"
+  ],
+  "title": "Brokerage Account",
+  "slug": "brokerage-account",
+  "published": "2026-10-08T17:36:24+00:00"
+}

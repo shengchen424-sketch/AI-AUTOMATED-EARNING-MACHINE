@@ -1,0 +1,293 @@
+{
+  "title": "How to Write a Brag Document for Performance Review (Template)",
+  "meta_description": "How to write a brag document for performance review: a 15-minute Friday habit, a Notion template, and examples that turn wins into self-review bullets.",
+  "quick_answer": "To write a brag document for your performance review, keep a running log of your work wins and add to it for 15 minutes every Friday. Record outcomes, verifiable numbers, praise, problems solved and skills learned, each with a date, project and evidence link. At review time, filter to the review period and rewrite the strongest entries as result-first self-review bullets. Never include a number you can't back up.",
+  "key_takeaways": [
+    "A brag document is a running log of your work wins with evidence, so your self-review doesn't depend on memory.",
+    "Block 15 minutes every Friday to log five things: outcomes, numbers you can verify, praise (in the person's exact words), problems solved and skills learned.",
+    "Write each entry as action + result + measure + source, and never include a number you can't back up.",
+    "In Notion, use one database with a Review Cycle property and a filtered view for each review period. A spreadsheet or plain doc works too.",
+    "At review time, pick three to five entries for each heading on the review form and rewrite each one so it starts with the result.",
+    "Check your employer's data policy before you put work details into a personal app, AI tool or automation."
+  ],
+  "who_this_is_for": "This guide is for employees who have regular performance reviews, or who plan to ask for a raise or promotion, and want a simple, honest way to remember and prove what they've accomplished.",
+  "intro": "Every review season, the self-review form asks what you accomplished over the last six or twelve months. Your memory offers the last few weeks and a vague sense that you were busy. The bug you tracked down in month two, the client you calmed down and the process you quietly fixed are all gone. This guide shows you how to write a brag document so that doesn't happen again. You'll get a 15-minute Friday habit, a list of exactly what to log, a formula for writing entries with before-and-after examples, and a Notion template with a filtered view for each review period. If your review is close and you're starting from scratch, there's a way to catch up on past months too. Finally, you'll learn how to turn your entries into self-review bullets and raise talking points without exaggerating or breaking your employer's data rules.",
+  "steps": [
+    {
+      "name": "Check your employer's data policy",
+      "text": "Before you set anything up, read your employee handbook and your acceptable-use or information-security policy. Find out whether you're allowed to keep work details in a personal tool. If you aren't, keep the brag document in a tool your employer approves, or keep a personal version that leaves out all confidential details."
+    },
+    {
+      "name": "Create the brag document database",
+      "text": "In Notion, create a new full-page database in table layout called 'Brag Document.' Rename the default Name property to 'Win,' then add these properties: Date (Date), Project (Select), Impact (Text), Metric (Text), Evidence Link (URL) and Review Cycle (Select). A spreadsheet with the same columns works just as well."
+    },
+    {
+      "name": "Add a filtered view for each review cycle",
+      "text": "Add a new table view and name it after your current review period, for example 'H2 2026.' Set the filter to Review Cycle is 'H2 2026' and sort by Date. Add a new view each time a new review cycle starts."
+    },
+    {
+      "name": "Schedule a recurring 15-minute Friday block",
+      "text": "Put a recurring 15-minute event on your calendar for Friday afternoon. Before you write anything, look through your sent email, calendar, chat threads, closed tickets and documents to find wins you've already forgotten."
+    },
+    {
+      "name": "Log the five types of win",
+      "text": "Add one row for each win. Look for outcomes, numbers you can verify, praise you received (in the person's exact words), problems you solved and skills you learned. Small wins count, and a quiet week with one entry is fine."
+    },
+    {
+      "name": "Attach evidence and verify every number",
+      "text": "Paste a link to the dashboard, ticket, email or document that proves the win, or note where to find it. Label estimates as estimates. If you won't know the result for a while, write 'pending' in the Metric field."
+    },
+    {
+      "name": "Do a 10-minute monthly tidy-up",
+      "text": "On the first Friday of each month, open a view that shows only entries where Metric is 'pending' or empty. Fill in any results that have come in since, and fix any wrong Review Cycle tags."
+    },
+    {
+      "name": "Draft self-review bullets at review time",
+      "text": "Open the view for the current review cycle and sort your strongest entries under the headings your review form uses. Pick three to five for each heading, and rewrite each one as a single sentence that starts with the result."
+    },
+    {
+      "name": "Prepare raise talking points",
+      "text": "Pick the three to five wins that most clearly helped the business. Write each one as a short story you can say out loud, and put them on a one-page summary to use with our raise scripts."
+    }
+  ],
+  "comparison": {
+    "caption": "Brag document template: the properties to create in Notion (or as spreadsheet columns)",
+    "headers": [
+      "Property",
+      "Notion type",
+      "What to enter",
+      "Example"
+    ],
+    "rows": [
+      [
+        "Win",
+        "Title",
+        "A short name for the win",
+        "Automated weekly sales report"
+      ],
+      [
+        "Date",
+        "Date",
+        "When it happened, or when the result came in",
+        "2 October 2026"
+      ],
+      [
+        "Project",
+        "Select",
+        "The project, client or area of work",
+        "Q4 reporting"
+      ],
+      [
+        "Impact",
+        "Text",
+        "One plain-language sentence on what changed and for whom",
+        "Finance no longer fixes duplicate rows by hand every Monday"
+      ],
+      [
+        "Metric",
+        "Text",
+        "A number you can verify, with its starting point, or 'pending'",
+        "Report prep cut from about 4 hours to about 1 hour a week"
+      ],
+      [
+        "Evidence Link",
+        "URL",
+        "Where the proof lives: dashboard, ticket, email or doc",
+        "Link to the ticket or report"
+      ],
+      [
+        "Review Cycle",
+        "Select",
+        "The review period this win counts toward",
+        "H2 2026"
+      ],
+      [
+        "Type (optional)",
+        "Select",
+        "Outcome, Number, Praise, Problem solved or Skill",
+        "Problem solved"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is a brag document?",
+      "paragraphs": [
+        "A brag document is a running record of your work wins, with evidence, that you keep so review season isn't a memory test.",
+        "Software engineer Julia Evans popularized the idea with a simple argument: your manager can't remember everything you did, and neither can you. When a self-review asks about the last six or twelve months, most people remember the last few weeks clearly and the rest as a blur. That means quiet work from early in the review period gets forgotten.",
+        "A brag document isn't a diary or a list of exaggerations. Each entry records one specific thing you did, what changed because of it, and where the proof is. The word 'brag' gives you permission to state your wins plainly. The evidence is what makes them believable.",
+        "Once you have a few months of entries, the same document is useful well beyond the annual review:"
+      ],
+      "bullets": [
+        "Self-reviews and mid-year check-ins: pull the strongest entries from the current review period.",
+        "Promotion cases: show, with dates, that you've been working at the next level for a while.",
+        "Raise conversations: support your request with specific results that can be checked.",
+        "A new manager: give them a quick, factual picture of your track record.",
+        "Resume and interview prep: turn entries with confidential details removed into stories about your results."
+      ]
+    },
+    {
+      "heading": "The 15-minute Friday habit: what to log each week",
+      "paragraphs": [
+        "The core habit is simple: every Friday, spend 15 minutes adding that week's wins to your brag document while the details are still fresh.",
+        "Put a recurring 15-minute event on your calendar. Late Friday afternoon works for many people. Before you write, look through the places your work leaves a trail: sent email, your calendar, chat threads, closed tickets or tasks, documents you wrote or reviewed, and any dashboards you own. This usually turns up two or three things you'd already forgotten.",
+        "Results often arrive weeks after the work. Log the work now and write 'pending' in the Metric field. Then, on the first Friday of each month, spend ten minutes filling in the results that have come in.",
+        "Log one row per win, even small ones. A quiet week with a single entry is fine, because doing it every week matters more than how much you write. Each Friday, look for five kinds of entry:"
+      ],
+      "bullets": [
+        "Outcomes: something that changed because of your work, such as a launch shipped, a deal closed, a backlog cleared or a process that now runs without you.",
+        "Numbers you can verify: time saved, revenue you helped bring in, tickets resolved, errors reduced or costs cut. Only include figures you can point to in a report, dashboard or system.",
+        "Praise received: the exact words, who said them and where, such as a thank-you email, a shout-out in a meeting or a customer note. Paraphrased praise loses most of its power.",
+        "Problems solved: the fire you put out, the colleague you got unstuck, the messy handoff you fixed. This kind of invisible work rarely gets recorded anywhere else.",
+        "Skills learned: a new tool, a course or certification, or a first, such as running a meeting, presenting to leadership or mentoring someone."
+      ]
+    },
+    {
+      "heading": "The Notion brag document template: properties and views",
+      "paragraphs": [
+        "The template is one Notion database with one row per win and seven properties: Win (the title), Date, Project, Impact, Metric, Evidence Link and Review Cycle. The template table in this guide lists each property's type with an example.",
+        "To build it, create a new full-page database in table layout and name it 'Brag Document.' Rename the default Name property to 'Win,' then add the other properties. Make Metric a Text property, not a Number, so you can include units and a starting point, for example 'from 5 days to 2 days.' Make Review Cycle a Select property whose options match your company's actual review periods, such as 'H2 2026' or 'FY27 annual.'",
+        "A Review Cycle tag works better than filtering by date. Review periods rarely match calendar quarters, and some wins fall across two periods, so the tag lets you decide which period each entry counts toward.",
+        "To make Friday entries faster, click the arrow next to the New button and create a database template with three prompts in the body: What did I do? What changed? How do I know? Notion's menus change from time to time, so check its help center if a button has moved.",
+        "If you don't use Notion, the same setup works in a spreadsheet, with one column per property and a filter on Review Cycle. It also works in a plain document with a heading for each month and one line per win: Date | Project | What I did | What changed | Proof.",
+        "Optional: if your employer allows connected apps, an automation tool such as Zapier can add a row to the database whenever you put a 'brag' label on an email. This is handy for capturing praise. Check which triggers and actions are currently available on Zapier's site first.",
+        "Add these four views to the database:"
+      ],
+      "bullets": [
+        "All wins: sorted by Date, newest first. Add your Friday entries here.",
+        "One view per review cycle: named after the period and filtered to Review Cycle is 'H2 2026' (or your current period), then grouped by Project.",
+        "Pending metrics: an advanced filter showing entries where Metric contains 'pending' OR Metric is empty. Use this view for your monthly tidy-up.",
+        "By type (optional): add a Select property called Type (Outcome, Number, Praise, Problem solved, Skill) and group by it to spot gaps, such as a review period with plenty of outcomes but no praise recorded."
+      ]
+    },
+    {
+      "heading": "How to write a brag document for performance review: the entry formula",
+      "paragraphs": [
+        "A strong brag document entry answers three questions in one or two sentences: what did you do, what changed because of it, and how do you know?",
+        "Use the formula action + result + measure + source. Start with a verb that accurately describes your role, state the result, add a number and its starting point if you have one, and note where the proof is. 'From X to Y' is more convincing than a percentage on its own because the reader can see the scale.",
+        "Don't inflate anything. Use exact figures or honest rounding, label estimates as estimates, and pick verbs that match your role. 'Led,' 'co-led' and 'contributed to' mean different things. If a win came from a team effort, say so and describe your part. Reviewers may check figures, and one number that doesn't hold up can make every other entry look suspect.",
+        "If a win has no number, don't invent one. Describe the before and after in plain words, such as 'the handoff used to need a meeting; now it's a one-page form.' Let the praise and the evidence link make the case.",
+        "Here's how vague entries become useful ones. These are made-up examples to show the format, not benchmarks:"
+      ],
+      "bullets": [
+        "Weak: 'Helped with onboarding.' Strong: 'Rewrote the support team's new-hire checklist; new hires handled tickets on their own after two weeks instead of three (team tracker, Q2).'",
+        "Weak: 'Worked on the pricing page.' Strong: 'Co-led the pricing page redesign with the design team; monthly trial sign-ups went from roughly 400 to 520 in the six weeks after launch (marketing dashboard).'",
+        "Weak: 'Fixed reporting issue.' Strong: 'Found and fixed the duplicate-row bug in the weekly sales report, which finance had been correcting by hand every Monday (ticket link).'",
+        "Weak: 'Got good feedback.' Strong: 'After the March review, the client lead wrote, “Your summary made the renewal decision easy” (email, 14 March).'"
+      ]
+    },
+    {
+      "heading": "Starting late? How to backfill your brag document before a review",
+      "paragraphs": [
+        "If your review is close and you don't have a log yet, you can rebuild most of the review period in one or two focused sessions by going back through your digital trail month by month.",
+        "Entries you add after the fact will have less detail than weekly ones. Focus on your five to ten biggest wins and find the evidence for those first. Once the review is over, start the Friday habit so the next cycle is easier.",
+        "Block 60 to 90 minutes and open your database or document. Start with the oldest month of the review period and work through these sources:"
+      ],
+      "bullets": [
+        "Your goals or objectives for the period: list each one and note what happened to it.",
+        "Your calendar: launches, presentations, client meetings, workshops and interviews you ran.",
+        "Sent email and chat: search for words like 'thanks,' 'great work,' 'shipped' or 'launched' to find praise and finished work.",
+        "Task and code tools: tickets you closed, pull requests merged and documents you wrote.",
+        "One-on-one notes and feedback from your last review: what you were asked to improve, and evidence that you did."
+      ]
+    },
+    {
+      "heading": "Turning brag document entries into self-review bullets",
+      "paragraphs": [
+        "To turn your entries into self-review bullets, open the view for the current review cycle and pick your strongest entries. Sort them under the headings on your review form, then rewrite each one as a single sentence that starts with the result.",
+        "Treat the brag document as your private working file and the self-review as the edited summary. Submit the polished version, but keep the full log handy in case your manager asks for details.",
+        "Work through your entries in this order:"
+      ],
+      "bullets": [
+        "Read first, edit second. Read through the whole review period once without changing anything. Patterns stand out, such as a problem you kept coming back to or a skill that grew over several months.",
+        "Match the form. Most self-review forms ask about results, behaviors or competencies, and goals. Put each entry under the heading where it fits, and use your company's own wording for its goals and values.",
+        "Choose three to five entries for each heading. A short list with solid evidence reads better than everything you did, so leave out routine work unless the form asks for it.",
+        "Start with the result: 'Cut weekly report prep from about four hours to one by automating the data pull,' not 'Automated the data pull, which saved time.'",
+        "Add a quote. If you logged specific praise, include a short quote and say where it came from.",
+        "Use skills learned for the growth question. Entries about new tools, courses and first-time responsibilities give specific answers to 'How did you develop this period?'",
+        "Check every number again after any AI edit. If you use a writing tool such as Grammarly to tighten your wording, compare each claim with its Evidence Link afterward. Rewrites can smooth your phrasing but also quietly change what a sentence claims."
+      ]
+    },
+    {
+      "heading": "Using your brag document to prepare for a raise conversation",
+      "paragraphs": [
+        "Your brag document gives you the evidence for a raise conversation. Pick the three to five wins that most clearly helped the business, and turn each one into a short talking point you can say out loud.",
+        "A raise request usually lands better when it shows the value you deliver now, not just how hard you've worked or how long you've been there. Filter your database to the last 6 to 12 months. Look for results the business cares about, work beyond your current role, and problems you solved that would otherwise have cost money or time.",
+        "Shape each talking point as a short story: the situation, what you did, the result, and what it shows about your level. Bring a one-page summary instead of the full log, and keep the database open for follow-up questions. Your record proves your value. Separate research on pay for your role and location helps you decide what number to ask for. For word-for-word scripts, see our raise scripts guide here on The Wealth Ascent.",
+        "A strong record improves your case, but it can't guarantee a raise. Budgets, pay bands and company policy also affect the answer. If you hear 'not now,' use the document to agree with your manager on what you'll show by the next check-in.",
+        "Here are some example talking points in that format:"
+      ],
+      "bullets": [
+        "“When the team lost two people in Q1, I took over vendor management on top of my own role and renewed three contracts on time.”",
+        "“I built the reporting automation that now saves finance roughly three hours a week.”",
+        "“For the past two review periods I've mentored our two newest analysts, which is part of the senior role description.”"
+      ]
+    },
+    {
+      "heading": "Honest caveats: confidentiality, accuracy and common mistakes",
+      "paragraphs": [
+        "Check your employer's policy before you copy anything into a personal tool, because many companies limit moving confidential information into personal accounts or outside apps.",
+        "Look in your employee handbook, your acceptable-use or information-security policy, and any confidentiality agreement you signed. If the rules aren't clear, ask your manager or IT. Unless you're told otherwise, treat these as sensitive: customer names and data, financial figures that haven't been made public, unreleased product plans, source code, information about colleagues, and screenshots of internal chats or dashboards.",
+        "If personal tools aren't allowed, you have two options. You can keep the full document in a tool your employer approves, such as a private page in your company's workspace. Or you can keep a personal version that describes your wins the way you would in a job interview, such as 'cut monthly close time for a mid-size finance team,' with no client names or internal figures. Either way, write the Impact field in plain words, because links to internal systems stop working if you leave.",
+        "The same rule applies to AI features and automations. Before you put work content into an AI assistant, writing tool or connected app, make sure your employer allows it.",
+        "Finally, a brag document supports your relationship with your manager; it doesn't replace it. Mention notable wins in your regular one-on-ones as they happen so nothing in your self-review comes as a surprise. Avoid these common mistakes:"
+      ],
+      "bullets": [
+        "Waiting until review season to start, which turns a 15-minute habit into a stressful scramble to remember everything.",
+        "Logging tasks instead of outcomes, such as 'attended planning meetings' instead of what changed as a result.",
+        "Writing 'we' everywhere so your own part disappears, or 'I' everywhere so your teammates' work disappears.",
+        "Skipping small wins and invisible work, which often show the behaviors that promotion criteria describe.",
+        "Keeping evidence only as links, with no plain-language description that will still make sense if you change jobs."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "Notion",
+      "best_for": "Anyone who wants a brag document they can filter: one database with Date, Project, Impact, Metric, Evidence Link and Review Cycle properties, a saved view for each review period, and a database template that speeds up Friday entries. Check Notion's site for current plans and features.",
+      "not_for": "People whose employer doesn't allow work information in personal accounts. They should use an approved tool or a version with confidential details removed. It's also unnecessary if you'd rather not set up a database, because a plain doc or spreadsheet supports the same habit."
+    },
+    {
+      "product": "Grammarly",
+      "best_for": "Polishing self-review bullets and raise talking points for clarity, length and tone, after your entries are written and every number has been checked against its evidence. Confirm current features and pricing on Grammarly's site.",
+      "not_for": "Coming up with accomplishments or numbers, because it improves wording and can't supply facts. It's also not for anyone whose employer doesn't allow work content in outside writing tools, so check the policy before pasting anything in."
+    },
+    {
+      "product": "Zapier",
+      "best_for": "Optional automatic capture for people who control their own tools, such as freelancers, small-business staff or employees whose employer allows connected apps. For example, it can add a brag-document row when you put a 'brag' label on a praise email. Confirm current triggers, actions and plan limits on Zapier's site.",
+      "not_for": "Most employees, for whom the 15-minute manual Friday habit is enough. Many employers also block linking work email or chat to outside automation tools, so never use it to move confidential work data into personal accounts."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a brag document?",
+      "answer": "A brag document is a running record of your work accomplishments, with evidence, kept so you don't have to rely on memory at review time. Software engineer Julia Evans popularized the term. People use it for self-reviews, promotion cases, raise conversations and resume updates."
+    },
+    {
+      "question": "What should I include in a brag document?",
+      "answer": "Log five things: outcomes, numbers you can verify, praise received (in the person's exact words), problems solved and skills learned. Give each entry a date, a project and a link or note showing where the evidence is. Include invisible work too, like getting colleagues unstuck, mentoring or fixing broken processes."
+    },
+    {
+      "question": "How often should I update my brag document?",
+      "answer": "Weekly works best for most people: 15 minutes every Friday, plus a ten-minute tidy-up once a month to fill in results that came in later. Updating every two weeks is better than nothing, but details fade quickly, especially numbers and the exact wording of praise."
+    },
+    {
+      "question": "Should I share my brag document with my manager?",
+      "answer": "Often, yes, especially shortly before a review, because your manager writes your evaluation and may need to argue for you. Share an edited summary of your strongest wins rather than the whole log, and ask your manager what format they prefer."
+    },
+    {
+      "question": "What if my work doesn't have measurable results?",
+      "answer": "Describe the before and after in plain words instead of making up a number, for example 'the handoff used to need a meeting; now it's a one-page form.' Back it up with evidence such as a colleague's quote, a ticket or a document. Problems solved, praise received and skills learned all count without metrics."
+    },
+    {
+      "question": "Can I use AI to turn my brag document into a self-review?",
+      "answer": "AI writing tools can help tighten your wording, but they shouldn't invent achievements or numbers. Check every claim against its evidence afterward, and confirm your employer allows work content in AI tools before pasting anything in."
+    }
+  ],
+  "conclusion": "A brag document turns review season from a memory test into an editing job. Start this Friday: check your employer's data policy, create the database (or a plain doc), log three things from this week, and set a recurring 15-minute reminder. If your review is coming up soon, block an afternoon to add your biggest wins from earlier in the period first. Keep entries specific and your numbers honest. By your next review, you'll have a filtered view full of evidence, ready to become self-review bullets and, with our raise scripts, a well-supported case for a raise.",
+  "keyword": "how to write a brag document for performance review",
+  "niche": "career growth, skills and side income",
+  "version": 2,
+  "slug": "how-to-write-a-brag-document-for-performance-review-template",
+  "published": "2026-10-08T17:25:52+00:00"
+}

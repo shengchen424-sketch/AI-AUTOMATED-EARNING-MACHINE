@@ -1,0 +1,256 @@
+{
+  "title": "How to Record Owner's Draw in QuickBooks Online the Right Way",
+  "meta_description": "Learn how to record owner's draw in QuickBooks Online: set up the equity account, record and match draws, fix expense mistakes and close at year-end.",
+  "quick_answer": "To record an owner's draw in QuickBooks Online, create an Equity account named Owner's Draw (detail type: Owner's Equity) in the Chart of Accounts. Record each personal withdrawal as an Expense, Check or Transfer from your business bank account, categorized to Owner's Draw, then match it in the bank feed. Draws reduce equity, not profit, so never record them as expenses. This method suits sole proprietors and single-member LLCs.",
+  "key_takeaways": [
+    "An owner's draw is money you take out of the business for personal use. Record it in an equity account, never as an expense, so your profit stays accurate.",
+    "Before you create a new account, look in the Chart of Accounts for an existing owner equity account. If there isn't one, create an Equity account named Owner's Draw (detail type: Owner's Equity).",
+    "Record each draw as an Expense, Check or Transfer, or categorize it directly from the bank feed. If you do both, match the two entries so the draw isn't counted twice.",
+    "Run a Transaction Detail by Account report to find personal withdrawals coded as expenses and move them to Owner's Draw. Leave closed or already-filed years to your accountant.",
+    "At year-end, close the Owner's Draw balance into owner's equity if your accountant recommends it, then set a closing date to lock the year.",
+    "S-corps, multi-member LLCs and corporations pay their owners differently. Check with your accountant before you use draws in those businesses."
+  ],
+  "who_this_is_for": "This guide is for sole proprietors and single-member LLC owners taxed as sole proprietorships who use QuickBooks Online and want to pay themselves without distorting their profit or tax numbers.",
+  "intro": "Paying yourself as a sole proprietor seems simple: you move money from the business account to your personal account. Where it usually goes wrong is the bookkeeping. If that transfer gets recorded as an expense, QuickBooks Online shows less profit than you actually made. That can distort your tax estimates and make a healthy business look like it's struggling. This guide covers the whole process in QuickBooks Online: setting up the right equity account, recording draws, matching them in the bank feed, fixing past mistakes and closing draws at year-end. It includes worked examples using made-up numbers. QuickBooks changes its menus from time to time, so treat the menu names here as a guide and check the current layout in your account or in Intuit's help center.",
+  "steps": [
+    {
+      "name": "Confirm this method fits your business",
+      "text": "Owner's draws apply to sole proprietors and single-member LLCs taxed as sole proprietorships (disregarded entities in the US). If your business has elected S-corp status, has more than one member or is a corporation, stop and check with your accountant. Those businesses usually pay owners through payroll, distributions or dividends instead."
+    },
+    {
+      "name": "Check your Chart of Accounts for an existing owner account",
+      "text": "Open the Chart of Accounts, usually from the Settings (gear) icon or the Accounting or Transactions menu. Look in the Equity section for accounts such as Owner's Draw or Owner's Pay & Personal Expenses. If an Equity-type owner account already exists, use or rename it instead of creating a duplicate."
+    },
+    {
+      "name": "Create the Owner's Draw equity account",
+      "text": "Select New. Set Account type to Equity and Detail type to Owner's Equity (or the closest owner-related option), name the account Owner's Draw and save. Leave the opening balance blank unless your accountant tells you otherwise."
+    },
+    {
+      "name": "Add yourself as a payee",
+      "text": "Add your name as a vendor or other non-employee payee, not as an employee. This step is optional, but it makes draws easy to filter in reports later."
+    },
+    {
+      "name": "Record the draw",
+      "text": "From the + New (or Create) menu, choose Expense for online transfers, debit-card withdrawals and personal purchases on a business card. Choose Check for paper checks, or Transfer if you don't need a payee. Pick the business bank or credit card account as the payment or 'from' account and Owner's Draw as the category or 'to' account. Enter the date the money left and the amount, add a memo and save."
+    },
+    {
+      "name": "Match it in the bank feed",
+      "text": "When the withdrawal appears under For review in your bank feed, select Match to link it to the entry you already made. Don't add it again. If you never entered it manually, categorize it to Owner's Draw directly from the feed instead."
+    },
+    {
+      "name": "Reclassify draws booked as expenses",
+      "text": "Run a Transaction Detail by Account report or open your expense account registers. Find personal withdrawals coded as expenses and change their category to Owner's Draw. Check with your accountant before editing any year that is closed or already filed."
+    },
+    {
+      "name": "Close draws at year-end",
+      "text": "Once all accounts are reconciled, post a journal entry for the year's total draws. Debit your owner's equity account (or Retained Earnings, if that's your accountant's approach) and credit Owner's Draw. Then set a closing date to lock the year."
+    }
+  ],
+  "comparison": {
+    "caption": "Ways to record an owner's draw in QuickBooks Online. Menu names vary by layout, so confirm them in your account.",
+    "headers": [
+      "Method",
+      "Use it when",
+      "Where to find it (generally)",
+      "Watch out for"
+    ],
+    "rows": [
+      [
+        "Expense",
+        "You moved money to your personal account by online transfer, debit card or ACH",
+        "+ New (or Create) > Expense",
+        "The category must be the Owner's Draw equity account, not an expense account"
+      ],
+      [
+        "Expense (business credit card)",
+        "You paid for something personal with a business credit card",
+        "+ New (or Create) > Expense, with the credit card as the payment account",
+        "Split mixed receipts so only the personal portion goes to Owner's Draw"
+      ],
+      [
+        "Check",
+        "You wrote a paper check to yourself",
+        "+ New (or Create) > Check",
+        "Match it in the bank feed when it clears so it isn't recorded twice"
+      ],
+      [
+        "Transfer",
+        "You want to move money from business checking to Owner's Draw without naming a payee",
+        "+ New (or Create) > Transfer",
+        "Some versions may not list equity accounts here. If yours doesn't, use the Expense form"
+      ],
+      [
+        "Categorize from the bank feed",
+        "The money has already left and you haven't entered it manually",
+        "Banking or Bank transactions > For review",
+        "Don't also enter it by hand, and review any transactions a bank rule fills in"
+      ],
+      [
+        "Journal entry",
+        "Closing draws at year-end, or corrections your accountant asks for",
+        "+ New (or Create) > Journal entry",
+        "Get your accountant's sign-off and avoid editing closed periods"
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What is an owner's draw, and why isn't it an expense?",
+      "paragraphs": [
+        "An owner's draw is money you take out of your business for personal use. It is recorded in an equity account, not as an expense. Sole proprietors and single-member LLC owners don't usually pay themselves a salary. Instead, they withdraw some of the profit the business has earned or some of the money they previously put in.",
+        "A draw isn't an expense. Expenses are the costs of running the business, such as software, supplies and contractor fees. A draw is you taking your own money out. If you record draws as expenses, your Profit and Loss report shows less profit than the business really made. That can distort your tax estimates and make a healthy business look like it's struggling.",
+        "On the Balance Sheet, draws appear in the Equity section and reduce your ownership stake. In the US, sole proprietors and single-member LLCs taxed as disregarded entities are generally taxed on net business profit whether or not they withdraw it. That means draws are not deductible, and they are not taxed a second time. Tax rules differ by country, so confirm how this works for you with a qualified tax professional."
+      ],
+      "bullets": [
+        "Transfers from your business checking account to your personal account",
+        "Cash or ATM withdrawals for personal use",
+        "Personal purchases paid with a business debit or credit card, such as family groceries",
+        "Payments toward a personal credit card or personal bills made from the business account",
+        "Personal income tax payments made from the business account. In the US these are generally personal, not business, costs; confirm the rules where you live",
+        "Not a draw: money you put into the business. That goes in a separate Owner's Investment or Owner's Contribution equity account"
+      ]
+    },
+    {
+      "heading": "Setting up an Owner's Draw account in the Chart of Accounts",
+      "paragraphs": [
+        "To record draws correctly, you need one equity account in your QuickBooks Online Chart of Accounts, usually named Owner's Draw. Check what's already there first. Depending on when and how your company file was set up, QuickBooks may have created owner accounts with names like Owner's Pay & Personal Expenses or Owner's Investment. If an existing account is an Equity type, use or rename it rather than creating a duplicate.",
+        "To create the account, open the Chart of Accounts and select New. You'll usually find it under the Settings (gear) icon or the Accounting or Transactions menu. Set the account type to Equity, choose Owner's Equity or the closest owner-related detail type, name it Owner's Draw and save. Leave the opening balance blank unless your accountant tells you otherwise. An unplanned opening balance can create an Opening Balance Equity entry that needs cleaning up later.",
+        "Some owners add sub-accounts, such as Owner's Draw – Personal Taxes, to see how much of their withdrawals went to tax payments. Sub-accounts roll up into the parent account on reports, so they add detail without changing the totals. Start with one account and add sub-accounts only if you or your accountant need the breakdown."
+      ],
+      "bullets": [
+        "Account type: Equity. Never Expense or Other Expense",
+        "Detail type: Owner's Equity, or the nearest owner-related option",
+        "Name: Owner's Draw, a standard name your accountant will recognize",
+        "Opening balance: usually left blank",
+        "Companion account: Owner's Investment or Owner's Contribution, for money you put in"
+      ]
+    },
+    {
+      "heading": "How to record owner's draw in QuickBooks Online: Expense, Check or Transfer",
+      "paragraphs": [
+        "You can record an owner's draw in QuickBooks Online using an Expense, a Check or a Transfer. All three move money out of a business account and into the Owner's Draw equity account. Choose the form that matches how the money actually left the business.",
+        "For an online transfer, debit-card payment or ACH withdrawal, open + New (sometimes labeled Create) and choose Expense. Select yourself as the payee, your business bank account as the payment account and the date the money left. On the category line, choose Owner's Draw, enter the amount, add a memo and save. For a paper check written to yourself, use the Check form with the same settings.",
+        "Here's a worked example with made-up numbers. On 15 March you move 2,000 from Business Checking to your personal account. On the Expense form, enter Payee: your name; Payment account: Business Checking; Payment date: 15 March; Category: Owner's Draw; Amount: 2,000; Memo: Owner's draw – March. Behind the scenes, QuickBooks credits Business Checking and debits Owner's Draw. Your bank balance and equity both go down, and profit stays the same.",
+        "Add yourself as a payee using the vendor or other non-employee name type, not as an employee. In the US, sole proprietors generally can't pay themselves wages through payroll, and an employee record can cause confusion later.",
+        "The Transfer form is a tidy option when you don't need a payee. Set the 'from' account to Business Checking and the 'to' account to Owner's Draw. If the equity account doesn't appear in the Transfer list in your version, use the Expense form instead. The accounting result is the same."
+      ],
+      "bullets": [
+        "Split mixed purchases: if one receipt covers both business supplies and personal items, use two category lines, one for the correct expense account and one for Owner's Draw",
+        "Personal purchase on a business credit card: use the Expense form with the credit card as the payment account and Owner's Draw as the category",
+        "Date each draw on the day the money left the account so your reconciliation lines up",
+        "Use the same memo format every time so draws are easy to search for"
+      ]
+    },
+    {
+      "heading": "Matching draws in the bank feed so they aren't counted twice",
+      "paragraphs": [
+        "If you enter a draw by hand and your bank is connected, match the bank-feed transaction to your entry instead of adding it again. Adding it again creates a duplicate. That makes your QuickBooks bank balance lower than your real balance, and your reconciliation won't balance.",
+        "Open the bank feed (often labeled Banking or Bank transactions) and go to the For review tab. When QuickBooks finds a manual entry with the same amount and a nearby date, it usually suggests a match. Check the details and select Match. If it offers Add instead, search your bank register first to make sure you haven't already entered the draw.",
+        "If you never entered the draw by hand, categorize it directly from the feed. Open the transaction, set the category to Owner's Draw, choose yourself as the payee and confirm. If you make regular transfers to your personal account, a bank rule can fill in the category automatically. For example, the rule could look for the last digits of your personal account number in the bank description. Review rule-applied transactions before accepting them, because a broad rule can catch the wrong items."
+      ],
+      "bullets": [
+        "Sign of a duplicate: two identical draws with the same date and amount",
+        "Sign of a duplicate: your QuickBooks bank balance is lower than your bank statement",
+        "Sign of a duplicate: a reconciliation difference equal to one draw",
+        "Fix: delete the extra manual entry, or undo the transaction you added from the feed, then match it to the remaining entry"
+      ]
+    },
+    {
+      "heading": "How to fix draws that were categorized as expenses",
+      "paragraphs": [
+        "To fix a draw that was booked as an expense, open the transaction and change its category to your Owner's Draw equity account. The amount moves off the Profit and Loss and onto the Balance Sheet. Your reported profit goes back up to the correct figure, and your bank balance doesn't change.",
+        "To find miscoded draws, run a Transaction Detail by Account report for the year, or open the registers of likely accounts from the Chart of Accounts. Look for transfers to your personal account, ATM withdrawals and personal purchases sitting in accounts such as Uncategorized Expense, Ask My Accountant, Miscellaneous or Meals. If you set yourself up as a payee, filtering a report by your name is a quick shortcut.",
+        "Changing only the category leaves the amount and bank account as they were, so it shouldn't affect reconciliations you've already finished. QuickBooks may still warn you when you edit a reconciled transaction. Never change the amount or bank account on one. If you have many to fix, an accountant using QuickBooks Online Accountant can change them in bulk with its Reclassify transactions tool.",
+        "Be careful with past years. If you've set a closing date or already filed taxes for a year, editing its transactions changes the numbers your return was based on. Talk to your accountant first. They may prefer a single adjusting entry, and they can tell you whether you need to file an amended return."
+      ],
+      "bullets": [
+        "Start with the current, open year",
+        "Filter by payee, memo or your personal account's last digits",
+        "Run the Profit and Loss again afterwards. Profit should go up by the total you reclassified",
+        "Leave closed or already-filed years to your accountant"
+      ]
+    },
+    {
+      "heading": "Closing owner's draws into owner's equity at year-end",
+      "paragraphs": [
+        "At year-end, many accountants post a journal entry that closes the Owner's Draw balance into the owner's main equity account, so draws start each new year at zero. When a new fiscal year begins, QuickBooks Online automatically moves the previous year's net income into Retained Earnings. It does not reset Owner's Draw, though, so that balance keeps growing every year unless someone closes it.",
+        "First, run a Balance Sheet as of the last day of your fiscal year and note the Owner's Draw total. Then open + New > Journal entry and use the date your accountant prefers, often the last day of the year. Debit your owner's equity or capital account for the total, or Retained Earnings if that's your accountant's approach. Credit Owner's Draw for the same amount and add a memo such as Close owner's draws – [year].",
+        "Here's an example with made-up numbers. If Owner's Draw shows 30,000 at year-end, the entry debits owner's equity by 30,000 and credits Owner's Draw by 30,000. Total equity doesn't change. The entry just moves the year's draws into your running equity balance, so next year's draws are easy to see on their own.",
+        "Once the year is finished, protect it with a closing date. You'll usually find this under Settings > Account and settings > Advanced, in the Accounting section, labeled Close the books. Some accountants post the closing entry themselves, and some let draws build up across years. Both approaches work, so confirm which one your accountant uses before you post anything."
+      ],
+      "bullets": [
+        "Reconcile every bank and credit card account through the end of the year",
+        "Clear any balances in Uncategorized and Ask My Accountant",
+        "Review the Owner's Draw register for anything that's really a business expense",
+        "Post the closing journal entry after your accountant signs off",
+        "Set a closing date and, if you like, a password"
+      ]
+    },
+    {
+      "heading": "Warning: S-corps and multi-member LLCs handle owner pay differently",
+      "paragraphs": [
+        "This method is for sole proprietors and single-member LLCs taxed as sole proprietorships. S-corps, multi-member LLCs and corporations pay their owners differently. Using owner's draws in those businesses can get payroll taxes and each owner's equity wrong, so check with your accountant before you record any owner pay.",
+        "If your tax election changed partway through the year, your accountant may need to split that year between draws and payroll. A single-member LLC that elected S-corp status is a common example. Don't guess. Ask before you record anything."
+      ],
+      "bullets": [
+        "S-corps, including single-member LLCs that elected S-corp status: in the US, owners who work in the business are generally expected to take reasonable pay through payroll. Any extra profit goes out as shareholder distributions, tracked in a separate equity account",
+        "Multi-member LLCs taxed as partnerships: each member usually has their own capital and distribution accounts, and payments for services (guaranteed payments) are treated differently from distributions",
+        "C-corporations: owners who work in the business are typically paid wages through payroll, and profits go out as dividends",
+        "Businesses outside the US: business types, terms and tax rules vary, so check with a local accountant"
+      ]
+    },
+    {
+      "heading": "Common mistakes and a quick monthly check",
+      "paragraphs": [
+        "Your draws are recorded correctly when they appear in the Equity section of the Balance Sheet and nowhere on the Profit and Loss. Run both reports for the same period once a month and compare them. Mistakes are much easier to fix while the month is still fresh."
+      ],
+      "bullets": [
+        "Mistake: the Owner's Draw account was created as an Expense type. Check that the Type column in the Chart of Accounts says Equity",
+        "Mistake: a payment toward your business credit card bill was recorded as a draw. That payment moves money between two business accounts, so it isn't a draw",
+        "Mistake: adding yourself to payroll as a sole proprietor instead of recording draws",
+        "Check: the Profit and Loss shows no transfers to yourself, ATM withdrawals or personal purchases in expense accounts",
+        "Check: Owner's Draw sits under Equity on the Balance Sheet as a negative balance",
+        "Check: bank reconciliations balance with no leftover difference, and the Owner's Draw total roughly matches what you know you took out"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "product": "QuickBooks Online",
+      "best_for": "Sole proprietors and single-member LLC owners who want bank feeds, bank rules and a dedicated Owner's Draw equity account. That keeps personal withdrawals off the Profit and Loss and makes them easy for an accountant to review.",
+      "not_for": "Owners whose accountant works in a different accounting system, or very low-volume freelancers who are happy tracking a few transactions in a spreadsheet. Plans, features and prices change, so confirm current details on Intuit's website before subscribing."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is an owner's draw tax deductible?",
+      "answer": "No. An owner's draw is not a business expense, so it doesn't reduce your taxable profit. In the US, sole proprietors and single-member LLCs taxed as disregarded entities are generally taxed on net business profit whether or not they withdraw it. Tax rules differ by country, so confirm with a tax professional."
+    },
+    {
+      "question": "Should I add myself as an employee in QuickBooks Online to pay myself?",
+      "answer": "Generally not, if you're a sole proprietor or a single-member LLC taxed as one. In the US, these owners generally can't pay themselves wages through payroll. Add yourself as a vendor or other payee and record draws to the Owner's Draw equity account. S-corp owners are different and usually do need payroll."
+    },
+    {
+      "question": "Why doesn't my owner's draw show on my Profit and Loss report?",
+      "answer": "Because it isn't supposed to. Owner's draws are equity transactions, so they appear in the Equity section of the Balance Sheet, not on the Profit and Loss. If you do see draws on your Profit and Loss, they've probably been categorized to an expense account and need to be moved to Owner's Draw."
+    },
+    {
+      "question": "What's the difference between an owner's draw and an owner's contribution?",
+      "answer": "An owner's draw is money you take out of the business for personal use. An owner's contribution, also called an owner's investment, is money you put in. Both are recorded in equity accounts, and neither appears on the Profit and Loss. Keep them in separate accounts so you can see each total clearly."
+    },
+    {
+      "question": "How do I record personal purchases made with my business card?",
+      "answer": "Record them as owner's draws. In the bank or card feed, categorize the purchase to Owner's Draw instead of an expense account. If one receipt mixes business and personal items, split it into two category lines: one for the business expense and one for Owner's Draw."
+    },
+    {
+      "question": "How much can I take as an owner's draw?",
+      "answer": "Sole proprietors have no fixed draw amount. What makes sense depends on your cash flow, upcoming bills and how much you need to set aside for taxes. A common approach is to keep a cash buffer in the business and set aside tax money before you take a draw. For advice on your own situation, talk to an accountant or a licensed financial adviser."
+    }
+  ],
+  "conclusion": "Recording an owner's draw in QuickBooks Online comes down to one rule: money you take out for yourself goes to an equity account, not an expense account. Set up the Owner's Draw account once. Record each withdrawal as an Expense, Check or Transfer, or categorize it from the bank feed, and match it so it isn't counted twice. Move anything that ended up in expenses back to Owner's Draw, and compare your Balance Sheet and Profit and Loss each month. At year-end, reconcile every account, close draws into owner's equity if your accountant recommends it, and lock the year with a closing date. If your business is an S-corp, multi-member LLC or corporation, or you're not sure how it's taxed, check with your accountant before you record owner pay. QuickBooks menus change over time, so confirm the current steps in Intuit's help center.",
+  "keyword": "how to record owner's draw in quickbooks online",
+  "niche": "accounting and bookkeeping basics for freelancers and small businesses",
+  "version": 2,
+  "slug": "how-to-record-owner-s-draw-in-quickbooks-online-the-right-way",
+  "published": "2026-10-08T17:25:05+00:00"
+}

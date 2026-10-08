@@ -1,0 +1,21 @@
+{
+  "term": "Spaced Repetition",
+  "section": "Self-Development",
+  "short_definition": "Spaced repetition is a study technique that reviews information at gradually increasing intervals, timed around when you're likely to forget it, to build long-term memory more efficiently than cramming.",
+  "explanation": [
+    "With spaced repetition, you review material just as you start to forget it. An item might come back after one day, then a few days, then a week, then longer, and items you get wrong come back sooner. It draws on the spacing effect and the 'forgetting curve' first studied by Hermann Ebbinghaus. Flashcard apps such as Anki schedule reviews automatically, and the paper-based Leitner box system does the same by hand.",
+    "For long-term memory, spaced repetition generally works better than cramming, especially combined with active recall: testing yourself instead of re-reading. It suits vocabulary, definitions, formulas, certification material and anything you need to remember for months.",
+    "It requires steady, near-daily reviews, and the workload grows quickly if you add too many new items. It works best for facts, not deep understanding or practical skills, so pair it with explaining ideas in your own words and hands-on practice."
+  ],
+  "example": "Example (illustrative schedule): You learn 10 accounting terms on Monday. You review them on Tuesday (1 day later), Friday (3 days later), the following Friday (1 week later) and about two weeks after that. Any term you miss goes back to a shorter interval. Four 10-minute reviews, about 40 minutes in total, tend to beat a single two-hour cram for remembering the terms a month later.",
+  "common_mistake": "Adding dozens of new flashcards a day, then quitting when the review pile becomes overwhelming. A small, steady number of new cards is easier to sustain.",
+  "related_terms": [
+    "Feynman Technique",
+    "Habit Stacking",
+    "Deep Work",
+    "Pomodoro Technique"
+  ],
+  "title": "Spaced Repetition",
+  "slug": "spaced-repetition",
+  "published": "2026-10-08T17:36:24+00:00"
+}

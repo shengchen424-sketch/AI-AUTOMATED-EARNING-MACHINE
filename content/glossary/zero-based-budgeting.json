@@ -1,0 +1,22 @@
+{
+  "term": "Zero-Based Budgeting",
+  "section": "Banking & Money",
+  "short_definition": "Zero-based budgeting is a method where you give every dollar of income a specific job — spending, saving or paying debt — so income minus planned allocations equals zero.",
+  "explanation": [
+    "Zero-based budgeting starts with your expected take-home pay for the month. You assign all of it to categories such as bills, groceries, savings, sinking funds, extra debt payments and fun money until nothing is left unassigned. If you overspend in one category, you move money from another so the plan still balances.",
+    "Because every dollar needs a purpose, spending leaks become visible, and goals get funded on purpose instead of from whatever is left over. Unlike percentage-based approaches such as the 50/30/20 rule, it is built from your actual numbers each month.",
+    "The trade-off is effort. It takes time to set up, needs a monthly review and can feel rigid. It is harder with irregular income, so many people budget from a conservative baseline income and keep a buffer category for surprises."
+  ],
+  "example": "Example (illustrative numbers): Take-home pay is $3,200. You assign $1,100 to rent, $400 to groceries, $250 to utilities and phone, $200 to transport, $300 to an emergency fund, $150 to a car-repair sinking fund, $400 to extra credit card payments, $250 to eating out and fun, and $150 to miscellaneous. $3,200 − $3,200 = $0 unassigned.",
+  "common_mistake": "Thinking 'zero' means emptying your bank account. The goal is zero unassigned money. Savings and a cash buffer should be planned categories within the budget.",
+  "related_terms": [
+    "50/30/20 Rule",
+    "Sinking Fund",
+    "Emergency Fund",
+    "Pay Yourself First",
+    "Cash Flow"
+  ],
+  "title": "Zero-Based Budgeting",
+  "slug": "zero-based-budgeting",
+  "published": "2026-10-08T17:36:24+00:00"
+}

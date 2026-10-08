@@ -1,0 +1,21 @@
+{
+  "term": "Vector Database",
+  "section": "AI & Tech",
+  "short_definition": "A vector database stores data as embeddings — lists of numbers that capture meaning — and retrieves items by similarity, letting AI apps find relevant content even when wording differs.",
+  "explanation": [
+    "A vector database stores embeddings, which are numerical representations of text, images or other data created by an embedding model, along with the original content and metadata. When you search, your query is converted into an embedding too. The database returns the items whose vectors are closest, using fast approximate-search indexes so it can scale to millions of items.",
+    "Vector databases power semantic search and retrieval-augmented generation (RAG). They let a chatbot find relevant passages in company documents even when the question uses different words. Options include dedicated vector databases and vector extensions for existing databases, such as pgvector for PostgreSQL. Features and pricing change, so compare current details on vendors' websites.",
+    "'Similar' does not mean 'correct'. Results depend on how documents are split into chunks, which embedding model you use and the quality of the source data. You also need to keep the index updated and control who can access sensitive documents. For small collections, a simpler setup may be enough."
+  ],
+  "example": "Example (illustrative numbers): A small business loads 500 help-center articles, split into about 3,000 chunks, into a vector database. A customer asks, 'How do I get my money back?' No article uses that phrase, but the question's embedding is closest to chunks from the 'Refund policy' article. Those chunks are retrieved and passed to the chatbot so it can answer.",
+  "common_mistake": "Assuming the most similar result is the correct answer. Retrieval can surface outdated or off-topic chunks, so you still need good source data, filtering and testing.",
+  "related_terms": [
+    "Embeddings",
+    "Retrieval-Augmented Generation (RAG)",
+    "Large Language Model (LLM)",
+    "Context Window"
+  ],
+  "title": "Vector Database",
+  "slug": "vector-database",
+  "published": "2026-10-08T17:36:24+00:00"
+}

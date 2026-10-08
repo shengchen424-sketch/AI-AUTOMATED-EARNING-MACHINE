@@ -1,0 +1,22 @@
+{
+  "term": "Balance Transfer",
+  "section": "Banking & Money",
+  "short_definition": "A balance transfer moves existing credit card debt to another card, usually one offering a low or 0% introductory interest rate for a limited period, often in exchange for a one-time fee.",
+  "explanation": [
+    "For a balance transfer, you apply for a new credit card, or use an existing one, that offers a promotional rate on transferred debt. The new issuer pays off your old card, and you then owe the new issuer. Most charge a transfer fee, usually a percentage of the amount moved. The promotional rate lasts a set number of months, then switches to the standard rate.",
+    "With little or no interest, more of each payment goes toward the debt itself, which can shorten the payoff time. It works best with a clear repayment plan, such as the debt avalanche or snowball, that clears the balance before the promotion ends.",
+    "The risks include the transfer fee, a high standard rate after the promotion, a credit limit lower than your debt, and losing the promotional rate if you miss a payment. Applying can temporarily lower your credit score, and new purchases on the card may be charged a different rate. Terms vary by issuer and country, so read the card agreement before applying."
+  ],
+  "example": "Example (illustrative numbers): You owe $4,000 on a card charging 24% APR. You move it to a card with 0% for 15 months and a 3% fee, so you now owe $4,120. Paying about $275 a month clears it within the 15 months. On the old card, the same debt would have cost several hundred dollars in interest over that time.",
+  "common_mistake": "Treating the 0% period as breathing room and not paying enough each month to clear the balance before the promotion ends. Whatever is left then accrues interest at a high standard rate.",
+  "related_terms": [
+    "Credit Utilization Ratio",
+    "Credit Score",
+    "Debt Snowball vs Debt Avalanche",
+    "APR vs APY",
+    "Fixed vs Variable Interest Rate"
+  ],
+  "title": "Balance Transfer",
+  "slug": "balance-transfer",
+  "published": "2026-10-08T17:36:24+00:00"
+}

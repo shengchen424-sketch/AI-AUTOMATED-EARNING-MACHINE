@@ -1,0 +1,22 @@
+{
+  "term": "Open-Weight Model (Open-Source AI)",
+  "section": "AI & Tech",
+  "short_definition": "An open-weight AI model is one whose trained parameters (weights) are publicly released so anyone can download, run and adapt it, subject to its license, unlike closed models accessed only through an API.",
+  "explanation": [
+    "An AI model's weights are the millions or billions of numbers learned during training, and they determine how it responds. When a developer releases the weights, you can run the model on your own computer or cloud server and fine-tune it instead of sending requests to the vendor's API. Examples include model families such as Meta's Llama, Google's Gemma and some Mistral models.",
+    "Open-weight models offer privacy, control and cost advantages. Your data can stay on your own systems, you can customize the model and work offline, and you avoid per-token API charges and dependence on one vendor. Strictly speaking, 'open source' also implies access to training code and details of the training data, which many 'open' models don't provide, so 'open-weight' is the more precise term.",
+    "The trade-off is responsibility and effort. You need suitable hardware, technical skills and time to set up, secure and update the model. Smaller models that run locally may perform worse than leading closed models on some tasks. Licenses vary and may restrict commercial use, so read the license and confirm current terms on the developer's site."
+  ],
+  "example": "Example (illustrative): A law firm wants AI summaries of 2,000 confidential documents a month. A closed model through an API is quick to set up, but it sends data to a vendor and charges per token. Running an open-weight model on the firm's own server keeps data in-house, but it requires an upfront hardware cost plus staff time to set up, secure and update. The right choice depends on volume, privacy rules and in-house skills.",
+  "common_mistake": "Assuming 'open' means free to use for anything. Many open-weight models have licenses that restrict some commercial uses or require attribution, so read the license first.",
+  "related_terms": [
+    "Large Language Model (LLM)",
+    "Fine-Tuning",
+    "Inference (AI)",
+    "API (Application Programming Interface)",
+    "Token (AI)"
+  ],
+  "title": "Open-Weight Model (Open-Source AI)",
+  "slug": "open-weight-model-open-source-ai",
+  "published": "2026-10-08T17:36:24+00:00"
+}
