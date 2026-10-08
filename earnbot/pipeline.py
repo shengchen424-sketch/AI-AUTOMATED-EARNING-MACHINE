@@ -33,7 +33,7 @@ def run(cfg: Config, llm: JSONModel | None, deliverables_dir: Path | None = None
                               "articles": [], "products": [], "errors": []}
 
     if llm is None:
-        log.warning("No Anthropic credentials: skipping generation, rebuilding site only.")
+        log.warning("Claude CLI not available or not logged in: skipping generation, rebuilding site only.")
         report["errors"].append("no_credentials")
     else:
         existing = store.articles()

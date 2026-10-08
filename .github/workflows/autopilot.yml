@@ -26,16 +26,22 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Claude Code CLI (runs on your Claude Max subscription)
+        run: npm install -g @anthropic-ai/claude-code
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
 
       - name: Generate content, products and site
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Subscription token from `claude setup-token` — no API key, no per-token billing.
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
-        # Only the scheduled/manual runs spend API credits; pushes just rebuild.
+        # Only scheduled/manual runs use your plan's quota; pushes just rebuild the site.
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then unset ANTHROPIC_API_KEY; fi
+          if [ "${{ github.event_name }}" = "push" ]; then unset CLAUDE_CODE_OAUTH_TOKEN; fi
           python -m earnbot run
 
       - name: Commit new content

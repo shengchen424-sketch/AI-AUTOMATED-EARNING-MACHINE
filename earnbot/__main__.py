@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 from . import config, pipeline, site
-from .llm import ClaudeJSON, has_credentials
+from .llm import ClaudeCodeJSON, has_credentials
 from .store import Store
 
 
@@ -24,7 +24,7 @@ def main(argv: list[str] | None = None) -> int:
     cfg = config.load(args.config)
 
     if args.command == "run":
-        llm = ClaudeJSON(cfg.model, cfg.effort) if has_credentials() else None
+        llm = ClaudeCodeJSON(cfg.model, cfg.effort) if has_credentials() else None
         report = pipeline.run(cfg, llm, args.deliverables)
         print(json.dumps(report, indent=2, ensure_ascii=False))
         # Fail the job only when generation was attempted and produced nothing.

@@ -1,10 +1,10 @@
 # AI 自动赚钱机器 (AI Earning Machine)
 
-每天自动运行的「内容 + 数字产品」变现系统：Claude 选题 → 写 SEO 长文 → 生成付费手册 → 生成带变现位的网站 → 部署到 GitHub Pages → 拉取 Stripe 真实收入。
+每天自动运行的「内容 + 数字产品」变现系统，**全部用你的 Claude Max 订阅额度，不用 API key**：Claude 选题 → 写 SEO 长文 → 生成付费手册 → 生成带变现位的网站 → 部署到 GitHub Pages → 拉取 Stripe 真实收入。
 
 ```
 GitHub Actions（每天 06:17 UTC）
-  └─ python -m earnbot run
+  └─ python -m earnbot run   （每次调用都是 `claude -p` 无头模式 + JSON Schema，走 Max 订阅）
        1. plan_topics     选长尾关键词（去重，覆盖多个细分赛道）
        2. write_article   写 1500–2200 字文章（结构化 JSON，只能推荐 config 里的联盟产品）
        3. create_product  生成付费手册：公开销售页 + 私密完整版（deliverables/，不进公开仓库）
@@ -24,19 +24,25 @@ GitHub Actions（每天 06:17 UTC）
 
 ## 启动步骤（约 30 分钟，这几步只有你能做——需要你本人的账户和身份）
 
-1. **GitHub Secrets**（Settings → Secrets and variables → Actions）：
-   - `ANTHROPIC_API_KEY`（必需，来自 console.anthropic.com）
+1. **生成订阅令牌**：在你自己电脑上装好 Claude Code（`npm install -g @anthropic-ai/claude-code`），用 Max 账号登录后运行
+   `claude setup-token`，复制输出的令牌。
+2. **GitHub Secrets**（Settings → Secrets and variables → Actions）：
+   - `CLAUDE_CODE_OAUTH_TOKEN`（必需，填上一步的令牌）
    - `STRIPE_API_KEY`（可选，建议用只读 restricted key，用于收入统计）
-2. **开启 Pages**：Settings → Pages → Source 选 **GitHub Actions**。
-3. **合并到 `main`**，然后在 Actions 里手动运行一次 `autopilot`。
-4. 把网站提交到 **Google Search Console**（提交 `sitemap.xml`）——不做这步搜索引擎发现会慢很多。
-5. 填联盟链接和 Stripe 链接（见上表）。没填之前网站照样运行，只是对应位置显示「即将上线」。
+   - 不要添加 `ANTHROPIC_API_KEY`；即使环境里有，程序也会主动去掉它，保证只用订阅。
+3. **开启 Pages**：Settings → Pages → Source 选 **GitHub Actions**。
+4. **合并到 `main`**，然后在 Actions 里手动运行一次 `autopilot`。
+5. 把网站提交到 **Google Search Console**（提交 `sitemap.xml`）——不做这步搜索引擎发现会慢很多。
+6. 填联盟链接和 Stripe 链接（见上表）。没填之前网站照样运行，只是对应位置显示「即将上线」。
 
-本地运行：`pip install -r requirements-dev.txt && python -m pytest && python -m earnbot run && python -m earnbot status`
+本地运行（你电脑上已 `claude` 登录即可，无需令牌）：`pip install -r requirements-dev.txt && python -m pytest && python -m earnbot run && python -m earnbot status`
 
 ## 成本
 
-默认每天 2 篇文章 + 最多 1 份产品（总量上限 12 份），模型 `claude-opus-5-5`。每天 API 费用大约几美元以内；嫌贵可在 `config.toml` 把 `effort` 改成 `medium`，或减少 `articles_per_run`。GitHub Pages 托管免费。
+- **AI 费用：0 额外支出**，全部计入你的 Claude Max 订阅额度。默认每天 2 篇文章 + 最多 1 份产品（总量上限 12 份），通常只占用 Max 额度的一小部分（具体以你账户的用量显示为准）。
+- 如果某天撞到订阅的用量限制，这次运行会记录错误并跳过，第二天自动继续，网站不受影响。
+- 想更省额度：`config.toml` 里把 `effort` 改成 `medium`，或减少 `articles_per_run`。
+- GitHub Pages 托管免费。
 
 ## 实话：会不会有人买？没人买怎么办？
 
