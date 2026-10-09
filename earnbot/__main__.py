@@ -25,7 +25,8 @@ def main(argv: list[str] | None = None) -> int:
     cfg = config.load(args.config)
 
     if args.command == "run":
-        llm = ClaudeCodeJSON(cfg.model, cfg.effort) if has_credentials() else None
+        # paused = owner asked to stop writing; the run only rebuilds the site.
+        llm = ClaudeCodeJSON(cfg.model, cfg.effort) if has_credentials() and not cfg.paused else None
         result = pipeline.run(cfg, llm, args.deliverables)
         print(json.dumps(result, indent=2, ensure_ascii=False))
         text = report.render(cfg, Store(cfg.content_dir, cfg.data_dir), result, os.environ.get("RUN_URL", ""))
@@ -43,7 +44,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "burst":
         # Exit 0 = keep chaining runs (still inside the burst window), 1 = stop.
         from datetime import datetime, timezone
-        if not cfg.burst_until:
+        if cfg.paused or not cfg.burst_until:
             return 1
         until = datetime.fromisoformat(cfg.burst_until.replace("Z", "+00:00"))
         active = datetime.now(timezone.utc) < until

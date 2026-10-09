@@ -48,6 +48,7 @@ class Config:
     glossary_per_run: int = 10
     product_interval_hours: int = 20
     burst_until: str = ""
+    paused: bool = False
     parallel: int = 6
     business_name: str = ""
     contact_email: str = ""
@@ -110,6 +111,7 @@ def load(path: Path | None = None, root: Path | None = None) -> Config:
         glossary_per_run=int(auto.get("glossary_per_run", 10)),
         product_interval_hours=int(auto.get("product_interval_hours", 20)),
         burst_until=str(auto.get("burst_until", "")),
+        paused=bool(auto.get("paused", False)),
         parallel=int(auto.get("parallel", 6)),
         business_name=site.get("business_name", site["name"]),
         contact_email=site.get("contact_email", ""),
